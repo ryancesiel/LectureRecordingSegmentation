@@ -1,0 +1,265 @@
+[Types of Organisms, Cell Composition]
+The following content is provided under a Creative Commons license. Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free. To make a donation or view additional materials from hundreds of MIT courses, visit MITOpenCourseWare@ocw.mit.edu.
+
+So lecture one, introduction. When people teach biology at different universities, they teach many different things. You could focus on the ecosystem. You could focus on memorizing different phyla. You could focus on many things. Biology is huge and diverse. We have a certain point of view in the way we teach 7.012, and really a point of view in the way that MIT organizes its biology. And so I want to point out the levels of organization of life and indicate where we will be.
+
+You could decide to study the entire biosphere. By the biosphere, I mean everything. All the world's ecosystems working together to create a happy, healthy living planet. There are, oh I don't know, something like 10 to the sixth eukaryotic species on this planet, more than a million species of things you can see with your eye, and there are 10 to the God knows how many species of microbes. And in fact, it's even hard to define species for microbes. So it's a fantastic diversity. And if we think about examples, the number of examples of biospheres that we are aware of is one. Currently, it's the earth. There might be other biospheres, but we're not aware of them. Alright, that's one level of organization. We will have virtually nothing to say about that level of organization other than that we're fond of it.
+
+Next, you can study an ecosystem. Now what do we mean by ecosystem? That's some interacting community of organisms, like a forest, let's say. You've got trees, and you've got, oh I don't know, mice and deer. And you've got fungi growing down there on the bottom, and maybe you have, I don't know, some MIT student walking through the forest or something like that. That's all part of the ecosystem.
+
+Alright, now the next level down you could think about is whole organisms. So here we're talking about one individual, an individual in a species. And one can study how does that individual work, the levels of physiology within an organism, the overall
+integration of signals, the distribution of oxygen across the body, things like that. This is a popular topic to study. We'll have a little bit to say about physiology, but that won't be our major focus, that whole organismal level of physiology. Example of an organism, say a human, in particular, let's say an MIT student.
+
+OK. Next up, we could study an individual organ. So by an organ, I'm thinking about some part of the organism that's a group of tissues that are organized together to carry out a function. So it's a group of tissues that are organized to carry out a function. And we have the eye, the eye on that human. So we've got these muscles here. We've got some photoreceptors there on the back, and they send back nerve terminals going there. All these tissues working together to provide vision.
+
+OK. Going down one level below that we have tissues. These are more homogeneous groups of cells. So we could have, say, the retina. Then those tissues are made up of cells. So cells of course are bounded by a membrane. They have nuclei, at least in eukaryotes. So let's say within the retina, we could pick a photoreceptor cell. So the MIT student is walking through the forest and with her eye is getting light on the retina, which is triggering photoreceptor cells. They each have a distinctive shape, and that shape-- there's our nucleus. The light comes and impinges there, sends a signal out the other end. OK. That's a cell.
+
+Then we get down to organelles. These are distinct components within a cell. For example, this photoreceptor is using up a lot of energy. It has mitochondria. These mitochondria in here are involved in producing efficiently ATP.
+
+And then finally, we have molecules. A wide variety of different molecules in the cell: sugars and DNA's and-- but I'll say ATP will be our example here. Molecules.
+
+So if you think about it, we have sets of levels of organization, all the way up there from biospheres to ecosystems to organisms to organs to tissues to cells to organelles to molecules. And biology thinks about all of those different levels, and in principle, they all interact. Of course, it's somewhat hard to keep in mind, say, the connection between the entire biosphere and a ATP at any given point. It's a bunch of levels going up and down. At MIT, we tend to focus more on the bottom of the
+picture than the top of the picture, and that's what this class will focus on. You run the risk that you'll forget there is a top of the picture, that there are ecosystems, there are organisms, physiology and all that. Oh well. What can I say? Why do we focus the bottom of the picture? Why do we focus so much on, say, the molecules of life? You're going to get a lot of molecules of life in the beginning of this course. We're going to focus on-- we'll think about organelles and cells. You'll hear less about tissues, less about organs, less about organisms as a whole. And the reason is life is most universal down at its bottom. That is what's shared across all life.
+Rather than, say, focus on the glorious, wonderful differences between all the different phyla and learning all sorts of genuses and of all sorts of interesting-- we want to focus on that which is most universal.
+
+Now, there are some differences. We will look differently at microbe, prokaryotes versus eukaryotes and all. But for the most part, what we're trying to do is ask what are universal principles that apply across all organisms? What are the ways organisms are built up? Commonalities, like the genetic code, that applies pretty broadly across all organisms, commonalities of signalling systems, regulatory systems. Things like that are what we're most interested in, because once you learn that, it's much easier to layer on top of it the differences, the unique differences, that makes a fruit fly a fruit fly or a tree a tree. So anyway, that's our perspective on it, and I hope you like it. But it's the only prospective we've got, so there you go.
+Next, a few dates to keep in mind. Important dates in the history of life. Again to provide perspective, we're not going to focus on lots of them, but a few that you should know. About 4.0 billion years ago-- BYA means billion years ago-- the earth cooled. Before that, it was a hot, molten mass. There until it cooled, there was no real prospect of life. One of the things I find absolutely wonderful is that by 3.7 billion years ago, there was clear evidence of the first life. Whatever it was, it didn't take that all long to get life going. Somehow, it can't be that hard, although I got to say we don't quite understand all of it. Increasingly, people are looking back to how early life can form out of prebiotic materials. And these things were prokaryotic organisms, like bacteria, and they played a very important role, for example, in changing the entire atmosphere of the earth to contain oxygen, which made
+possible other things. So-- sorry, in shaping the content of oxygen in the atmosphere.
+
+So 1.5 billion years ago, one has a totally amazing invention, which is the first nucleated cells. These bacteria lack nuclei. Here we have nucleated cells, eukaryotes. Major event, and it occurred because of a fusion of two of these prokaryotic-type cells. One takes up residence in the other, and there is a symbiosis between two cells and that gave rise to your nucleus. The one that lives inside the other eventually discarded most of its functions there. Sorry-- yes, that gave rise to a nucleated cell. It's a fusion between two different prokaryotic organisms that had different properties, one of which is the nucleated cell, the other of which you see in the mitochondria, for example. There's still a genome in the mitochondria, for example. And so we can recognize that there was this prokaryotic fusion event.
+
+Notice it took 2 billion years, more than two billion years, to make eukaryotes and only 300 million years to make the first life. I find that quite remarkable. What does that tell us? That it was that much harder to make a eukaryotic cell. Maybe. Or maybe it tells us about the power of competition. Once you have some life-- that the first prokaryotic cells-- it's so much harder to get anything else that can come in and compete with it, because it has to be better. Maybe the first life didn't have to compete with anything, and it was easy. And then in an innovation like the eukaryotic cell, well, maybe that was a lot harder to accomplish, because it had to be better than the prokaryotic cells it was competing with. I'm not sure, but I find that difference in time to be kind of a remarkably interesting thing. That that was short, and that took a lot longer.
+0.5 billion years ago, roughly speaking, what you have are multicellular organisms with body plans. Up to this point, you have single-celled organisms. Now you get multicellular organisms with body plans. And another remarkable thing, once body plans, multicellular body plans, are invented, they explode very quickly. Somehow it was hard to invent multicellularity, to get cells to work together and be an organism, but once it was invented, it was not hard to diversify it into zillions of different body plans and forms. That tells us something. That as soon as we see multicellularity,
+we start seeing huge numbers of different body plans pretty quickly. Very interesting.
+
+A few other important dates. Two other dates. 0.005 billion years ago are humans. Just to put yourself in your place on this scale. And 0.00000015 billion years ago, MIT was founded. Just to put this in prospective.
+
+Alright. Couple of other things you should know. The types of cells I've been referring to. There's really two fundamental types of cells. And I've been using the word already. Let me just get it out there. Prokaryotes. Eukaryotes. Karyo refers to nucleus. Eu- means true. Pro- means primitive, before. So eukaryotic cells-- you're, by the way, a eukaryote. Right? Just in case you haven't read the owner's manual, you're eukaryotes. --have true nuclei. Inside the nucleus, there's your DNA, which is organized better than I just drew it there, because, in fact, it's very, very long and has to be packed up well. It'll have organelles like mitochondria. It could have chloroplasts. It could have other organelles. It'll have other things we'll talk about-- Golgi apparatuses and endoplasmic reticula and all that.
+
+Bacteria don't have a true nucleus. It's not that they're DNA isn't somehow organized, but it doesn't have a true nucleus with the wall around it. There's no wall around that nucleus like that. They often have interesting cell walls. A striking thing, although I've drawn them as the same size, these are much smaller. These are 1 to 2 microns. These, 10 to 40 microns in diameter. And so that means that if we talk about volume, we cube it. So the volumes of these guys are something like 1,000 to 60,000 times bigger. Eukaryotic cells are large compared to prokaryotic cells. Now, remember these are the guys who were early. These guys come along later. And there are important differences that we'll talk about in eukaryotic and prokaryotic cells. You're a eukaryote, all animals, all plants are eukaryotes. Fungi, such as yeast, et cetera.
+
+[Covalent Bonds, Hydrogen Bonds]
+Here is the game plan for the next two or three lectures. I'm going to start by talking about the chemical forces that are important for the structure and function of these biomolecules. And then I'm going to relate them, as we go along, to how these properties influence the characteristics of these key macromolecules. And in particular we'll be talking about covalent bonds, hydrogen bonds, ionic bonds, a force known as van der Waals forces, and something that's not really a force but it's a characteristic that's very important, particularly when we think about proteins and lipids, called hydrophobicity-- literally "fear of water."
+
+And then the order of the molecules. As we talk, I'll talk about carbohydrates first. I'll try and get to that today. Then we'll talk about proteins, nucleic acids, and lipids, in that order. As you'll see, these two will be sufficient to understand most of the characteristics of carbohydrates. Whereas we're going to need all five of these to be able to get an intelligent understanding of how proteins work.
+
+Now, I'll caution you. It's going to seem-- God, he's going to talk about covalent bonds, as everybody is rolling their eyes. I heard about covalent bonds in grade one or something. But the difference here is that we're going to be looking at some of these forces, some of which you've been exposed to already, but from a biological perspective. And I hope if you kind of watch that, you'll begin to see that you're looking at something that may be sort of familiar to you. But you have to start thinking about it in a different way once you start thinking of what are the implications of the properties of these forces and the way these molecules behave for biology.
+
+So, begin with the one that everybody undoubtedly knows, which are covalent bonds. And this is the principal force that holds atoms together. And it's based on sharing electrons. And as I'll say, these are very strong bonds.
+
+And so in the simplest sort of example, hydrogen atom has one unpaired electron, a carbon has four. And so you can make methane, CH4. And commonly in chemistry and biology we use a line to represent a pair of electrons.
+So there's methane. As I said, apart from you know it burns, if you go out in a swamp or in a beach and you see bubbles, muddy bottom coming up, those are bubbles of methane made by methanogens that are living in the anaerobic layer underneath. A cow has a special fermentation, digestion cavity inside. It's huge, called a rumen, stuff sloshing around. And it's full of archaea, that are methanogens.
+
+And a cow makes about 400 liters of methane a day. And Penny will tell you, it's a very bad greenhouse gas. It's much more potent than carbon dioxide.
+
+And so the typical length of a covalent bond is about 1.5 to 0.2 nanometers. And I hope you'll try and begin to get a sense of the links of some of these things, too. But the key point about this is to break a carbon-carbon bond needs 83 kilocalories per mole. So that's a lot of energy.
+
+At 25 degrees centigrade, if you take, say, a typical vibrational mode of a covalent bond, the energy that it has is about 0.6 kcals per mole. So what that means is that covalent bonds don't break on their own under physiological conditions. They can bend, they can rotate, and they can stretch. So they're back and forth this way, they can go this way, this way, but they don't break.
+
+And so this sort of leads to another topic that we'll talk about, which is utterly key-- It's one of the secrets of how life works-- are these protein molecules that are known as enzymes. And we'll also talk a little bit about a similar thing made of RNA called a ribozyme. But what these are are biological catalysts that enable specific bonds-- and this is important-- specific bonds to be broken or formed under physiological  conditions.
+
+And this part is so important. If you're trying to work out a chemical reaction, the original process for taking nitrogen gas and making ammonia, the Haber process, involved some very, very tough molecule to break the bond of. So just heat it up to 500 degrees and put in a catalyst.
+
+But if you're a living organism, you don't have that option. You have to continually
+make and break bonds under the conditions -- the very, very narrow conditions where life is possible. If you go a little too high, things like proteins unfold. And then they don't work as properly as machines anymore. So we'll be talking more about that as we go along.
+
+There are different types of covalent bonds. And again, the first part of this isn't going to surprise you. There are single bonds, like this. There are double bonds, and triple. Excuse me. I'll just stay with carbon for the moment. The more electrons that are shared, the stronger the bond.
+
+And these two are referred to, if it's a carbon compound, as being unsaturated bonds, the same term you hear when you hear about unsaturated fats. And what that means is a fat with an unsaturation, that's unsaturated, will have somewhere in it a double bond, or in some cases, many double bonds. However, there's another aspect of this which might not have been relevant to you, but you'll see it becomes relevant for thinking about proteins as soon as the next lecture.
+
+And that is, a single bond is able to rotate this way. These guys can't rotate. And that, as you'll see, becomes important in quite a variety of situations. But we'll run into a very important example of that when we're thinking about the very backbone of all proteins, the peptide bond, which is at the heart of being a protein.
+
+There are other molecules that have more than one bond that are important. Oxygen is one. And nitrogen, as I said, is a particularly hard nut to crack. Most organisms, as I said the other day, are unable to break this bond. The only organisms that have learned how to do it are bacteria.
+
+The vast majority of them use one, single enzyme called nitrogenase that evolved that's a very complicated enzyme and has very, very stringent requirements and needs a huge energy input. But it is able to crack this bond and get it made into ammonia. But it's an example of another molecule that has a triple bond in it.
+
+Let's see, how are we doing here? Okay. So another aspect of these covalent bonds that you need to think about has to do with when you're thinking about
+carbon. And it's a property called chirality. And it comes from the fact that carbon has four bonds but they come out as a tetrahedron.
+
+So that doesn't matter in the case of methane. But I'm going to depict the tetrahedron in this way, so that this bond is coming -- these two are in the plane of the board, this one's coming out, that one's going back. And let's just put on four different  substituents.
+
+Now if I get the mirror image of that, we will have-- these two molecules are called optical isomers. And if you sit down and play with this, you will find you can't convert one to the other without actually physically breaking a bond. And this is really important, one of the central concepts that I hope you might remember from this course because it cuts across a lot of the stuff talk we'll be talking about. At a molecular level, much of biology relies on the interaction of complementary 3D surfaces.
+
+We're actually very familiar with this at a macro level in our own lives. Imagine you've just come back from the party late on Saturday night, you're crossing the Mass. Ave. Bridge, the wind is howling, you're freezing. But no problem, you've got your gloves. And you reach in your pocket and you have two left gloves. No matter what you do, you can't get that right hand to fit properly into the left-handed glove.
+
+One's a mirror image of the other. But we run into this problem even in our own lives. When you saw how that DNA had fit right into a groove in the protein. If we had a mirror image of the DNA or we had a mirror image of the protein, it wouldn't work. This principle goes all the way through biology.
+
+There is another characteristic of covalent bonds that becomes important again. And that is how equally the electrons are sharing. So again, it goes back to the sharing of electrons, but with a twist.
+
+If we have a carbon-carbon or a carbon-hydrogen bond, it's pretty much equal sharing. And this is known as a nonpolar bond. But if you have a nitrogen or an oxygen bond, it's unequal. And these are known as polar bonds.
+And the term that's used to describe this unequal sharing of electrons is known as the electronegativity of the atom. It's basically a word that means the greediness of a particular atom for electrons. So if you have an oxygen and a hydrogen bond, although we write it like that on the board and you've undoubtedly seen this for many years in chemistry, in fact, the electrons spend more time down here than they spend up there. So there's a little bit of a negative charge on the oxygen and a little bit of a plus charge on the hydrogen. That's usually represented by a little delta to indicate that this has a wee bit of negative charge, that has a wee bit of positive charge.
+
+And a molecule that's very important with respect to this is water. Because water, as you know, is H2O. But it's not symmetrical. The angle here is 104.5 degrees. And so the oxygen has a little bit of a negative charge but each of these has a little bit of a plus charge.
+
+Actually, water is 55 molar. So it's a little dipole. You've got 55 molar, these little dipoles going on.
+
+This property of electronegativity and nonpolar bonds then leads to the second of the forces that we're going to be talking about. That's force number two. And that's a hydrogen, or H bond.
+
+And this is a bond that's made possible by a little bit of a negative charge that's on oxygen, or nitrogen, or a few other molecules and a little bit of a positive charge that's due to the hydrogen that's in a polar bond. This is very important, as you'll see, for proteins, nucleic acids, and for carbohydrates. And it has a huge amount to do with the way that water behaves.
+
+Because in that 55-molar water, you'll have one water molecule that's going to be like this. And there will be another water molecule down here with a little bit of a negative charge. And this a little bit of a plus charge on this hydrogen and a little bit of a negative charge can form what's known as a hydrogen bond between them.
+
+And what's especially important about these hydrogen bonds is they're about 1/20
+the strength of a covalent bond. And that means that in a distribution of molecules at physiological temperatures, there will be some guys up in the -- the most energetic molecules within the bunch will have enough energy to break hydrogen bonds. But they're much easier to do.
+
+And just to peer ahead, when we talk about replicating DNA, those two strands are held together by hydrogen bonds. So the backbones are really solid, just like two strips of Velcro or something. But the hydrogen bonds hold the two strands together, but 1/20 the strength. So it's basically like molecular Velcro between the two strands of DNA. And we'll see some more examples of this.
+
+Let's see if I can go back to this and get this thing to play. This is static representation just illustrating this. But in fact, what happens, water molecules are continually changing partners. So they're constantly making shells, and cages, and so on.
+
+And the next little movie is a picosecond simulation of water just at zero degrees. And you can see how the molecules are changing partners, making little shells and things.
+
+And here's a picosecond simulation of water at the boiling temperature. And what you can see from this is every now and then, a molecule like this one will get enough energy to break out of this constant sharing of little hydrogen bonds and escape. And another thing, when we talk about getting something dissolved in water, this is something we'll have to think about. Because if you try and dissolve something in water, like stir a lot of oil into it, you know what happens. You can stir like mad and doesn't go in.
+
+Part of the problem is if you put something in the water, it's going to have to break these existing hydrogen bonds. And that's an energy cost. So in order to get something to dissolve, you're going to have to get the energy back. And we'll be talking about that. But it's one of the fundamental parts of water.
+
+You're familiar with the characteristics of water. There's surface tension. It's why
+trees can grow 300 feet tall, because they've got basically little nanotubes and little capillaries. And with this surface tension, water, due to hydrogen bonds, can go 300 feet up. The water can go right up.
+
+You've seen water bugs walk around on water. There's a particularly interesting lizard in South America, Central America called the basilisk lizard that's about 2 and 1/2 feet long. It's able to run across the top of the water. It's actually called the Jesus Christ lizard. And it's able to do that because of this surface tension in the water.
+
+In fact, when I finished my Ph.D. Thesis, I went in a competition for the theses. And mine was something like, a chemical enzymatic synthesis of oligoribonucleotides. And I was competing against a guy who said why do lizards run on water, and his entire talk consisted of movies of this thing running across the water. I thought I was toast, but I actually won that prize. But anyway, every time I see this I remember it.
+
+For example, when they go and explore Mars or think about planets, they're always looking for water because it has this very, very special set of properties that are so important for life.
+
+[Macromolecules: Lipids, Carbohydrates, Nucleic Acid]
+Another truism of biochemistry is that many of the molecules within cells are very large. And they're called macromolecules, to indicate this. So macromolecules. So these are often -- Biological molecules are often macromolecules. And these macromolecules are often polymers-- not always-- where a polymer is some kind of repeat of a monomer "n" times.
+
+And in formation of macromolecules, there are two kinds of reactions that you need to know. They are called condensation and hydrolysis reactions. And they go something like this. Condensation reactions form bonds. Hydrolysis reactions break bonds.
+
+And condensation reactions go something like this. If we call the monomer M, there would be a monomer with a hydroxyl group that interacts with another monomer that has a hydroxyl group. And the outcome of that would be a bond between the two monomers, with the release of water.
+
+And the flip of that, during a hydrolysis reaction, is exactly the opposite, where this dimonomer here, M-O-M, where there's an ether bond between the two monomers as I've drawn it, called different things-- we'll talk about that-- adds water and then is broken down into two monomers. And so you should know a condensation and a hydrolysis reaction, because every reaction that we talk about in this course and in much of biochemistry involves either condensation or hydrolysis reactions. Often, both condensation or hydrolysis require energy, sometimes that they release it. So often, both often require energy in order to proceed. Okay.
+
+Very good. Let's move then to the second topic that I'd like to discuss today, which is the first big class of macromolecules, the lipids. Lipids are a fascinating class of macromolecules essential for life. They comprise about 5% of the dry mass of a cell, the dry mass referring to the mass remaining after the water has been removed.
+And lipids are crucial-- and we discussed this briefly last lecture-- for formation of the membranes around the cell and around the various organelles.
+So lipids are required for membranes. They also serve as major energy stores for the cells. Their bonds are very energy rich. They are also involved in various signaling processes. We'll touch on this today and later in the course. And of course, they are involved in insulation, both in keeping the whole organism warm-- if it's an animal, during winter-- but also in insulating nerve cells as nerve cells transmit their signals by insulating them, kind of like an electrical wire is insulated by plastic.
+
+The condensation reactions that form during lipid formation often involve synthesis of things called triglycerides. And triglycerides are formed from glycerol. And I'm going to warn you that my chemical structures are going to be casual. We assume that you have enough chemistry that if you know that I write CH2OH, you actually know that the hydrogens are sticking out around the carbon.
+
+Okay? That's my contract with you. We assume you know enough chemistry to deal with that. If you don't, then please come and see me or Dr. Sinha.
+
+And to that glycerol is added a fatty acid. And the fatty acid has got a hydroxyl group attached to a carbonyl, which is attached to a long-chain hydrocarbon, where n is 16 to 20. And this guy here is called a fatty acid.
+
+And out of the addition of glycerol and the fatty acid-- I'm going to put a line between the two so that you can see the difference-- comes something called a triglyceride. And I'm going to draw this for just one of the glycerol carbon atoms. And then the same thing is true for all the others.
+
+So you'll have CH2 at the end, and then a condensation reaction. And we're going to write et cetera here, being casual about this. And out of this comes this triglyceride.
+
+This reaction is a condensation reaction. It eliminates water. It's a condensation reaction. And it's also a transesterification, where you can see the ester bond formed in the triglyceride.
+
+I'm going to notate triglycerides in a slightly different way. I'll show you this in a
+moment. But let's take a look at a picture here so you can see what it actually looks like.
+
+Here's glycerol, from your book. And here is a fatty acid. And here are the reactive species interacting to give you a condensation reaction and joining up the glycerol to the fatty acid. And the glycerol then serves as a backbone to have these three chains of fatty acid. Hence the name triglycerides.
+
+Lipids are not, strictly speaking, polymers. And so what I said about macromolecules being polymers really doesn't hold for lipids. But the other principles do.
+
+One of the things about lipids is that they can be modified. And they can be modified by replacing one of the fatty acid chains with something that is polar. So if you look at this triglyceride, you can see at a glance that it is really hydrogens and carbons.
+
+It's very non-polar. There's a couple of oxygens up here. But there are so few relative to the molecule that really this is a very non-polar molecule.
+
+But you can change the properties of lipids in an extraordinary way by replacing one of the fatty acid chains with something polar. And that is particularly done in phospholipids. And we're going to now draw a triglyceride in a different way, in shorthand, where the glycerol is going to have a horizontal bar and the fatty acid chains are going to emanate as vertical lines.
+
+The triglyceride, your classic one, is hydrophobic because it is non-polar. But you can also take one of those side chains, or one of those fatty acid chains, and replace it with a phosphate group. So you can replace one fatty acid with a phosphate, which is highly charged. And then you get something like this, where the blob is the phosphate group.
+Phospholipids are the things which make cell membranes. And they make cell membranes because they are on one end polar, and on the other end they're non- polar. And so here on the top end, they are polar and hydrophilic. And then the bottom part is non-polar.
+And this causes them to self-associate so that the polar groups face water and the non-polar groups face one another. And these will spontaneously form a lipid bilayer, the thing that surrounds all of the cell and all of the organelles. So they will go and spontaneously associate into a bilayered membrane, which we can draw like this, using our shorthand notation.
+
+And what I've done is to now put the hydrophobic or the non-polar bits facing one another. And these polar bits are now interacting with water. So these are hydrophilic-- which I'm going to hyphenate. And they are indeed interacting with water.
+
+Let's look at some pictures to exemplify this. Here is the chemical structure of a phospholipid. They're the long-chain fatty acids. And here's the phosphate group. This is actually a modified phosphate group.
+
+It's got a choline moiety, which makes it even more polar. And here you go with this little bit sticking out. So you can see the shape of the molecule has changed. And also its electronegativity has changed.
+
+And here are these molecules that spontaneously form this lipid bilayer, the phospholipid membrane, with all the hydrophilic parts sticking out and touching water on either side and the hydrophobic parts interacting with one another. I want to really make a point that this is not a double membrane. This is a single membrane.
+
+We talked last time about mitochondria and the nucleus having double membranes around them. That would be two of these. This thing that we've got up here is a single membrane. This is what all cell membranes and organelle membranes look like. That's an important thing to realize.
+
+The last thing I want to mention -- Actually, the last thing I want to mention about triglycerides is that there are a couple of different kinds of triglyceride chains which are very important medically. And you've heard of them. There are saturated fats,
+where the triglyceride chains have got all single carbon atoms. And all of these completely saturated-- in other words, there are no double bonds.
+
+Triglycerides with these types of chains tend to pack tightly. And this gives them the property of chemical stability and confers on them a high melting point. So saturated fats are often solid. And this is bad. These are bad for you.
+
+In contrast, unsaturated fats are sometimes good for you and sometimes not. So unsaturated fats all have, somewhere, a carbon double bond. There are two kinds of unsaturated fats. There are cis-unsaturated fats, where-- let's just put in some extra bonds here-- where the other bonds that are available to the carbons are on the same side of the molecule.
+
+And you remember that there's no free rotation around a double bond. So if that molecule looks like that, it is stuck that way. If it synthesized that way, it's stuck that way.
+
+On the other hand, there are trans-unsaturated fats, where the additional valencies of carbon are on opposite sides of the molecule. Cis fats-- I'll show you a slide in a moment-- so these have got double bonds. The cis fats pack poorly because they are kinked. And these have got a low melting point. And these are good for you.
+
+The trans-fats, however, are much more like the saturated fats, and they pack tightly, et cetera, high melting point. And they are particularly bad for you. Trans-fats are very seldom found in nature. They are found in Twinkies and other gourmet treats.
+
+All right, let's look at some structures here from your book. Saturated fats, you can see the chains are all straight, and they pack very tightly. Cis-unsaturated fats, here's a bend in the chain, and this makes the molecules pack loosely. This is a steric, a spatial, consideration.
+
+And then if you look at trans and cis fats, here's oleic acid. It's the same carbon chain. But trans-oleic acid has a straight chain, cis-oleic has a bend.
+They're both unsaturated fats. And the question that I am sure you have seen is whether or not trans fat should be removed from all food, and how that can be done, and why it is bad for you. And now it's required that there are ingredients posted on various food so that you know what you're eating.
+
+And I'm going to tell you a little bit about why trans fat is bad for you. But I have to introduce to you another lipid and another class of lipids in order to do so. And that's not the only reason that I'm going to introduce this other class of lipids. I'm going to do it because it's a very important class.
+
+So a second class of lipids that we should consider beyond the triglycerides are the steroids. Steroids share a common ring structure. They are lipids with a common ring structure. And I have the slide up so you can look at it even now.
+
+Their precursor is cholesterol. And cholesterol is, in fact, not bad. It is an essential lipid. And it's essential both for formation of the membrane, and all membranes, and it is also crucial for signaling.
+
+And if an organism develops without cholesterol, it develops with one eye. You lack the whole midline that divides you into two more or less bilaterally symmetric parts. So cholesterol is a very essential component.
+
+Other things that come from lipids are vitamin D, much in the news also with regard to preventing inflammation, and various hormones. Their structure's on the board -- on the screen. And you can see, in green, the common ring structure with various other groups attached, which give these different steroidal lipids their particular structures. And we'll come back to the notion of cholesterol and why it's both essential but-- let me annotate here-- too much is bad. All right.
+
+In the news a lot are steroids androgens, a particular class of artificial androgens are normal steroids. But there is a class of artificial steroids. Here's one, tetrahydrogestrinone, which is used by athletes. It is mostly undetectable.
+The tests for anabolic steroids used by athletes are actually very high tech. And this one is very difficult to detect. And it makes the question of whether particular
+athletes have used steroids rather difficult to answer unequivocally. Too much cholesterol -- I should be using the screen.
+Too much cholesterol leads to a condition called atherosclerosis, where cholesterol is deposited in the arteries. Here it is. And this literally physically blocks up the artery, causes the blood to clot, and leads to heart attacks.
+
+And here's an artery that's OK-- well, actually it's not quite, there. You can see it's being injected with contrast, and there's a little place where it's not OK. And here's one which is completely occluded by an atherosclerotic plaque.
+
+What's the deal with cholesterol? Cholesterol is used for membranes and signalling. But it also is carried through the body by a component called low-density lipoprotein. And this low-density lipoprotein, or LDL, is deposited in the arteries, where it plugs them and leads to heart attack.
+
+If cholesterol binds high-density lipoproteins, a different kind of a transport molecule, then the excess cholesterol is excreted by the liver, and you're good. You're well. Turns out, through complicated reasons, that trans fat and saturated fat increases the levels of this bad, low-density lipoprotein and thereby increases heart attacks.
+
+I should note that most cholesterol is made by you. 80% of your cholesterol is made by you. 20% you get from food. So eating a low cholesterol diet usually doesn't do much for cholesterol levels. You actually have to interfere with synthesis, which is what the various drugs called statins do.
+
+All right. So enough about lipids. Let us move to our third topic today, another fascinating and important set of macromolecules, the carbohydrates. Carbohydrates make up about 25% of the dry mass of a cell . They're used as an energy source, as a carbon source to build other molecules. And they also encode information, as in your blood type, which I will try to touch on in a few moments.
+
+Their chemical formula is much simpler and is polymeric, unlike the lipids. (CH2O)n,
+or if you like, more informatively, (H-C-OH)n. And because of the hydroxyl group, carbohydrates are pretty much always hydrophilic.
+
+The monomer of carbohydrates is called a monosaccharide. And there can be polymers that are two monomers or multiple monomers. So the monomer-- and you should know this-- is called a monosaccharide, where saccharide sounds like saccharin. That means sugar.
+
+And there can be dimers, which would be a small polymer, which would be a disaccharide. And then you can also get long sugars, which would be polysaccharides. A monosaccharide, for example, would be glucose. A disaccharide, sucrose. And a polysaccharide, glycogen in animals or cellulose in plants.
+
+All right. Let's look at the condensation reaction that is responsible for making carbohydrates. It's a simple condensation reaction, at least on the board. It requires careful orchestration by the cell, but on the board it's easy to draw.
+
+One carbohydrate plus another carbohydrate-- I'm not going to put all the side groups on, but you understand there are other side groups here or another carbon there, giving rise to-- with the release of water. So here is a condensation reaction. And this bond that forms in carbohydrates-- I'm actually going to add the next carbons on here, instead of X. I apologize for erasing here, but let's put some carbons here rather than X because that will be clearer.
+
+But the bond between two monomers is called a glycosidic bond. And that designates that it is found in carbohydrates. Carbohydrates can isomerize. That means the same chemical formula can change its shape, can change the organization of its atoms, and can isomerize between the ring and a linear structure.
+
+And carbohydrates can also be modified. They remain hydrophilic in general, but there are many modifications which are rather crucial to their function. They can get, for example, phosphate groups or amino groups. And this will change their particular properties.
+Let's look at some slides. And then I want to tell you about a very fascinating and important example of carbohydrates as an information source. So here's glucose as straight chain and glucose as a ring.
+
+If you're not familiar with looking at chemical structures-- I keep forgetting that is my usual board. But let's look at this one because it's brighter. If you're not familiar with looking at chemical structures, if you see these dark areas in a molecule, it means that the molecule is coming out of the board towards you. So it gives a bit of three- dimensionality to that molecule.
+
+And here are the condensation reactions involved in the formation of maltose, which is a glucose disaccharide. And here is the glycosidic linkage. The atoms in carbohydrates get particular numbers.
+
+It is the carbon atoms that get particular numbers. And next lecture, that is going to become very important when we talk about nucleic acids. And here is sucrose, a dimer of glucose and fructose.
+
+Now, depending on the orientation of these bonds between the saccharides, between the monomers, they may or may not be able to be broken by the enzymes, by the chemicals in your body that are involved in hydrolysis reactions. So sucroses can be broken down pretty much by everyone. But lactose, which is the galactose- glucose dimer has got a glycosidic bond which has a particular shape. And that particular shape is only recognized by people who have a molecule called lactase-- we'll talk about this in a couple of lectures-- which is able to break this chemical bond here. And if you're lactose intolerant, the reason you get stomach ache and so on is because you get accumulation of this disaccharide, and it has side effects on your digestive system.
+
+All right. So I want to tell you now about a really fascinating example of information as encoded by carbohydrates. We will have much more to say about carbohydrates as we go along. But I'm going to tell you about information-- particularly here, because we won't talk about it very much more.
+One example of carbohydrates giving information is in your blood type. So for blood type, there are specific carbohydrates for each. But there is the same core set of molecules, which is then modified to give you the different blood groups, to four blood groups.
+
+This is a representation of the four blood groups. They are called O, A, B, and AB. And you probably know which one you are. I am A.
+
+One of those blood groups is really valuable. It's called O. And it's valuable because anyone could receive this blood in a transfusion. And anyone can because it's kind of your basic blood type.
+
+It contains an H group, which is the basic sugar information on blood cells. And all of the other blood groups also contains this basic information, but they contain other sugars as well, here indicated by purple. The key to these different sugars is indicated below.
+
+But O can be given to any kind of person because you do not have antibodies against this particular H group. Because everyone's got it. So O is the only blood group where, when you put it into anyone, there are not antibodies-- which you'll learn about later in the course-- that will then attack the blood cells and cause massive blood clots and deaths.
+
+When people donate blood, 3/4 of it is not O. After a time, blood is thrown away from blood banks because it's not usable forever. And a lot of this type, A, B and AB blood, is thrown away. And so investigators have been asking for a long time whether they couldn't remove these extra sugars from AB, B, and A, and turn those bloods into type O, which would then be useful for everyone.
+
+It turns out that's kind of difficult to do. But a few years ago, a group did come up with what may be a solution. It still hasn't been proved, even though this was a few years ago. It takes a long time.
+Here's a different representation of the sugars on blood types. Here's group A and group B. And there are enzymes-- there you see, office hours. I'm not kidding. It's
+on my calendar. All right.
+
+
+There are substances, enzymes, we'll talk about which can actually remove some of these sugars off groups A and B and convert them into group O. These substances, these enzymes, were isolated by Liu et al. When you see this at the bottom-- Here's a piece of education.
+
+Often I will show you something, and in the bottom right-hand corner it will say "Liu et al" or "Jones et al" and a date. That refers to a publication. This group was able to convert group type A and type B into a type O. And they are now working on a machine which can convert type A, AB, and B blood into type O.
+
+And we'll stop there.
