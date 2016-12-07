@@ -1,0 +1,1125 @@
+
+we're buying
+darn it
+it is michigan i
+welcome back
+i see we are still light bulb
+let him make this count everyone again busy
+we get the same call but now it's encouraging to see
+this place filled soul
+the school
+back for thursday so each lecture
+ah i'm usually have some announcements at the beginning
+little bit of room you from what we did last time and it will dive into the topic of the day to day
+that is the simplest was a little walk and i take heart he's like he's our first program
+hello world
+before i get started on that i want to call attention
+to a organisation that he is ah very involved in
+huckabee resides intellectual engineering and he is of course everyone in here now
+is at least four times if you want to be an aspiring computer scientists
+so i you i'd definitely welcome but there is the girls electrical engineering and computer science organisation
+ah
+very involved in campus like especially on
+i am more north campus of like filler during the two sides with everyone in here has also invited
+having meeting
+next tuesday
+ah six thirty p m soul and after class without its tuesday i encourage you if you want to know ah what might be like to be
+a computer science great place to find out there's lots of activities of a hat you so i've heard you to go
+op and and see what it's all
+if
+assignments zero is due tomorrow
+i checked this morning before the third election is all about me he would take us six hundred people on nine
+hundred and
+seventeen or so registered for the courts had completed most of us find one
+our side zero i'm sorry if you haven't got a they have to look tomorrow
+to complete it please do so
+i wanna start off on a good book with points
+you know what muscles point so one of the things that i encourage intercourse and in the exam
+this is getting a little bit of advice on the outcome we have the exam is
+other goal in salem is too keenly as many points as possible before the
+as we have the same goal of course the bullet points passion by
+there is a non trivial number of people who get to the end of this court is just me and another seven points
+just another seven points for different great fish nine points on the sign
+so so much passion by
+
+meat is that this sunday a six o'clock right here
+i really interesting
+any of the recording just in case you can't miss it by encouraging because
+you will also help you
+the ceo laptops
+i think it started with installing
+which would appear to the malls we
+up to speed on tax code
+ah from all apple will go sightseeing here
+ah but they do also help with visual studio
+i suggest
+when you go on for you go
+look back and getting started with visuals to your getting started with tax code documents that we have on the course website
+wonder ah resources
+there are those documents and i'll take the step by step through installing are getting ready to start working in this class easy to get beforehand before you go get some help know you might not need help war
+you might be a lot further ahead
+is anybody not look good eats one eighty three dot org website
+good
+that's good
+he going back there's always announcements lots of resources
+is anyone not read the soulless yet
+he came in minutes
+a few brave souls please read this illness lots of good information
+discussions sections are already started to go
+fiery talk about that whole lot less
+office hours start next monday
+we have the block three atm three six on tuesdays this is a great way
+she gets won won how we're to talk about subjects do you live deeper understanding war to get ill be problem you might be having
+the you can ah figure out yourself on a program on a project or asylum or whatever are really good resource
+and people come in just pass
+the staff
+is it like to work an apple or what's it like a two five for an internship with it might need to be is is that you're all kinds of stuff
+get lots of questions and and
+we want to do so
+ah i will also help office hours in the panel this will be there to the office the group office are sometimes but i have office hours at ten thirty two eleven every tuesday's in eighteen thirty seven these all
+you can come in ah computer projects or if you wanna talk about something more personal or whatever
+stop on
+the slides are available right now i'm close to them last night
+ah i'm in the course website so you can find these other resources to serve you want to have them in front of you during lecture
+their their wars reference later
+
+so when i start with so little bit
+history
+is a
+really old computer finished in nineteen forty six the first
+general purpose
+on digital computer cities you can apple computers to the nobody had a
+a remake an echo of the way
+so we having him a class of time we've we've had this policy you can use the same thing here at work
+yeah he's a computer you can use a calculator are already in that
+nothing electronic
+people have mechanical calculators if you can
+for pre complex occupations on my list and asked me to use it
+fuck it
+stop watch the file it is
+when the acquisition i came to view the this room by white march
+and there may be easy made all hope
+ah
+vacuum tubes
+i know what's
+and why years in real ways and originally the real computer scientists were all like to college years hand
+titian isn't that all that was the first digital computer little computer science
+there's a piece of this machine and a piece of history today that sits in the lobby going into the bottle ready
+the easter building
+so all in ah north campus is directly across the guy i got there the north
+ah the diagonal of campus for almost two years and it'll pop sources weasel word check it out
+pretty cool
+in this all of the original programmers are actually win
+for six or seven programmers to prove innocence higher computer everyone of them
+was a wall
+
+
+to hear is hard all the terminal ball
+they won a reference to compute
+the bodies when something goes wrong
+there are all kinds of different dogs they're saying is that called blue screen of death
+ah or we need people spinning wheel a little cooler spinning wheel on apple would never goes away
+what a blog is when it when it does something
+didn't want to do that
+it turned wild comes from the first of all the files so on these massive computers were just always going warm tubes and wires
+and relays
+no it wasn't working on
+so a prolific computer scientist named grace murray hopper
+oh and he had a lot of firsts
+beer science that the first compiler people talk about that today autopilot but
+anyway she found the first bought this problem
+she was the final of promise find interesting it down to 'em off
+for all been in short it helps
+wires on the computer
+the soul in the report so the problem
+she took the dog
+take it to the report
+it was about so that
+is worded terminology for bob comes from
+impromptu computers
+fact
+last time
+it's awful lot about how that is
+algorithms
+specific pro we come up with the soul
+problem
+we demonstrate some algorithms of counting people there we saw the video we saw the one by one one two three
+really small
+cause like there's two four six
+so slow
+and then we did it's
+like having a problem with each step of the way
+falling into a whole lot faster
+different algorithms of course they have different fish and sees and speeds but as we saw the video that also have a different pitfalls that the mayor how were the more complex who went from coming everyone accounting every other introduce more chances for a year is
+we want to be as close to the bottom line so time is all
+size of a problem
+
+this graph is ah that is no
+little ambiguous hear his own view is
+you receive a
+or like this that has
+no measure on the axes that's just the picture that's not an actual court but at least we have what they were patients of units here seconds and you'll sigh is a problem
+ah this could be good for how to make but basically you wanna be on the head and is actually our lot worse than
+the n y
+one of these calls of law that possible something interesting there's actually algorithms that we use
+so look up credit cards that are constant high
+when holly crap for two days
+so it takes to say what time the shack
+were your credit card number
+whether you're at enormous thank for small cost of time
+the matter what the size of problems
+we're not even do that
+people wanna take more c s classes was really interesting thing to wear
+pseudo code
+pseudo code is
+really
+import so the talking about the following is kind of entertaining
+re least i think it's kind of entertaining
+optional code is something that is very functional and i encourage you
+she uses
+but talk last time about this idea that we help
+for problems us all
+make it bigger sizes also had problems then we think those are algorithms how we might solve that problem
+while we're thinking of that we need to think about fantastic
+as well test our algorithms but then we need to transform that into something that can run on a machine
+the first step in the transformations bring it down its to go there is no way we're also hopeful c plus plus has strict rules on how we knew offs for our c plus plus programs that pseudo code is it
+we don't have a rule book for high your rights to go
+you want to be concise so when you're writing down your ideas you don't write down
+there are perhaps because it's harder to see the whole thing
+a larger chunks in one go to a to be concise yet express really important
+most people
+your position would skip this at both in the bottom idea
+most are really cool
+step back like this to go and you wait this out it's easier to see you know words
+if you have any gaps in your logic is he in c plus plus any gaps in your logic
+this you know your own words better right now the music box office
+we look this up to go to the video last time
+let an equal zero so here we create a
+are you will
+all i can
+so we're creating this thing we can accumulate the cop for the room and
+blue
+the last thing we are seeing that lucas is really
+very powerful so
+sheena the we all have
+and you billions of operations in a second
+i've written a lot of call with serving nowhere near billion lives of coal there's five million lines of code in your operating systems give or take
+so
+oracle really fast if we don't we use its we reuse it through hoops
+for each person
+when you see for each is an actual construct it's used in some programming languages but when you see the word for
+you know you could do things again and again and again in the c plus plus values for
+some groups
+then we're gonna set this for a woman we've created an
+people too and costs want
+sword anchor metabolic new one and
+ah one thing though is very top notice how we explicitly said then
+two zero this is critical
+you have to do your programs to all wise it's not an easier
+should make its you to start
+but something else was at the wind it's highly right now was there for about
+yes
+the indentation is invented bizarre sign is a visual cue
+it's a subset of the thing in products so we see that it here op this
+is within the school
+all the blue
+we have
+that is how we can differentiate just looking at the pseudo code
+it should go away when wanna do something after week out everybody
+they will want and maybe that's actually how everybody not the same thing while we're talking every step
+i also want to encourage all this i'll just give up here and gas on an entire
+not sure i have no problem just talking
+ah if you have a question
+feel free to ask soul you know raise your hand
+i try to keep an eye out if i don't respond
+they can always make it my attention
+don't mind people asking questions of all
+bob
+i'm not perfect sometimes they say something is not as clear as i'd like it to say what seems clearly maybe
+or any other
+it's best to ask a question rather than just pass it on
+they
+all my questions of all i apologize in advance if you ask a question and i say
+that's getting ahead
+that's to advance of the topic so you'll lose sight line for office hours are after lectures on
+apologies in advance but we still have to move on i don't wanna troll to the pilots hop
+before we get some rest too so that you free
+that's it
+testing this is something i hammered last time testing is absolutely critical when you lay out her out with a pseudo code think about how things go wrong horse think about what she needed to test
+so we saw on their outer rhythm going by one i worked ok we tested by counting to people the task of my colleagues zero people
+this is so which are calling age he's fantastic
+when you design your coding you're going to have to wipe test cases for projects to three and four
+to test your own code
+if i guarantee you most people will get frustrated at some point doing is just buy it
+think about when you design your opportunities kind of things accounting zero people are rules
+or if we're counting people of rome
+think about what happened we counted ten thousand people
+make this room can hold ten thousand people but all the rooms can form a lot of caught the number of people in the big house
+it's what's house that they will encounter real world
+great so think about those kinds of things with your chest
+to wit time that seemed okay if they were referred to it worked for zero pablo
+those were freaking hot though
+that's a pro
+do you think about testing
+as we go all the time
+condition
+i always loved conditions were not
+we're not getting dizzy plus plus conditions that police will what we do just that the g choice by law they have to wait that was wonderful when you have choices in your code to so we fix this
+i say if one person on it
+then do something notice again the invitation told us how we said if we invented it back home for
+so we're not gonna check that condition every time we help of a person rumbling to we don't entirely first
+right cause everyone we're
+then at the very end
+we're going to see it
+there he is one person i've had one
+that's
+brings us to call
+so we have ideas
+the developer algorithms right arm so vocal think about how we're protesting we look and see it as this although probably want us all then we got transform that
+into cold but we say cold we really mean is the source code
+
+source code is an algorithm express enough for winning language
+so read or write source code in c plus plus
+hey
+i assume a lot of people did the our vocal exercises already
+yes
+yes the way enjoy the hour of coal
+get it we enjoy it if
+ah
+yes one picking out the exercises and we actually enjoy doing
+it's interesting that you wanna
+click and see walk all all the actual ah a text cold is represented by the blocks that you had to get
+
+i wear earplugs this kong so the tutorial hobbies these appear again because i think it's important
+
+he started with your liking
+anyone tell me what i mean he stands for
+if
+yes
+making the integrated development environments that means
+tax code for all apple sells i see out there
+and visual studio that wonderful beautiful pieces laptop
+amongst other windows machine
+these documents are there right now
+he gets up
+this is what tax code tax there looks like
+make this is a simple hello world program so this is what a tool on the video would watch
+of all the really really successful super rich people
+ah talking about their experiences in computer science
+and gave you all from now
+this is it the year when you saw the whole world
+you just blown away
+odd
+i have to admit it was a little more exciting
+we have cell phones and laptops and video games is some of these all are more exciting things but it's still really cool with you
+make the machine too soft
+may not
+it's something someone else did to make a machine guns
+so what happens
+we need an integrated development environments because we can
+take c plus plus code and she entered into an intel processor the intel processors don't understand c plus plus we need some intermediary
+does all this transformation from one thing to without its called layers of abstraction
+great works track it away
+what it takes for the electronics are machines to make pixels wide
+thankfully
+although wise would take one time to do anything so there's something called the fundamental theorem of software engineering
+kind of a observations show but still relevant but not the goal
+that is that
+the problem can be solved by adding another layer of abstraction
+except for too many layers of abstraction
+so we get our ah
+our algorithms put them in the pseudo code delaware source code
+then driving easy for them to this thing called the compiler
+you get to know the compiler through the ayers picture the one you get your projects trust me
+you're waiting years everybody to us
+a compiler creates a single object code and that is what the intel processors for arm processors or any in any processors on thursday
+it looks as a representation of the
+it it's just
+wineries just ones and zeros on or off
+and this sequences
+are understood by the processors this is what we eventually get from your application is
+okay
+either a question is what we wanna start accepting yes
+
+i see
+that
+so what if very sharp very observant so question is you live in this tiny text i apologize it's hard to see what's out there in hello world there's this little splash in
+that is actually a character that cause a new law yes it is so characters
+oh what they did it take to characters in this lecture but characters go beyond shots
+the alpha numeric characters were used to and they can represent other things like the lines and the file
+in all these other things too
+so that's all ways to make a carriage return will see another way
+to make a character turn up here and are often today
+very observant sure
+the question is
+yes
+
+yes
+i'll get to that sought gynecologist and is one of the work of a quotation marks all the result of evelyn waugh we start talking what data types of it
+okay so
+i want you to wimbledon and yet
+yeah i think it'll it'll clear when we get a yes
+
+thanks
+i love your question
+so
+the question is do we need in all this terminology for attacks
+the answer is someone that i try to point out as a goal wall especially things are really important to know i usually stressed if you see the same term whole our whole word over
+it's probably something you should know
+you may be tested on an exam for terminology
+so i long to put across words in exams
+usually i make the exams
+so
+just be known
+how do the crossword with terminal which i try to point out
+what's important what's not
+if i don't look for when it comes again and again
+the system in the one question is
+i usually point that out election
+they usually stress that i haven't done it yet and now i'm guaranteed that i have
+right hello world program here we see it again
+this doesn't have the slash and so we don't have a new line here or here but here is
+what we can run right now our ids are machines
+on a break this down
+he's like he's sort of talk about what each line is
+i would introduce
+also what do you like we start doing i could respect tuesday
+we're actually the next tuesday
+we have questions like this
+so right now i'm just gonna pass for new look to get over
+and which is why enough
+is actually the program began
+actual program where it started
+anybody wanna say yes
+yes
+my aim for
+any other
+guess it's
+yes
+why why any other gases
+yes
+live by
+i
+so
+the first guess was actually correct line for is the start of the program
+that is our program called the stuff above it's the stuff is going to send us all
+to actually be able
+to have a program out into what polls lines are so hopefully will make more sense once i explain what those two lives up there are
+genevieve than the two
+okay
+so i've been drawing on now for er
+while thirty eight minutes so on and try to work into lectures
+short rate is
+two minutes for you
+should not have those innovate and just think about war
+chat with someone about we've talked about
+aw or whatever you wish
+i do this because researchers shown is actually really good
+to remember we've talked about much
+face
+
+
+
+
+if
+thad
+
+
+
+and
+
+
+
+
+
+okay so it's about time probably long gone
+so let's take a car what would be a first program
+it would tell me what this program down
+if
+the the it doesn't do any work i mean it burns energy
+you'll you'll run but it will produce any results
+does not
+faye
+so in in c plus plus we must have a functional tool down
+next thursday
+on what functions on
+warnings or point out now is it with a goal for austin and give us a
+you awful lot of things so it can get some read in looking at these topics and i couldn't really down deep on many of them today
+so what kind of a bigger picture of you
+and then will spend lectures and you know coming off drilling down on the individual things so you know some of this is gonna feel like it's breeze the work but this is the first generation of ways of information
+they're going to be thrown
+another thing or encourages this was not as active for today before today you can be perfectly honest i was watching the ah
+okay
+i encourage everyone to do so out say
+for the lecture before the lecture that they get answers whole lot of questions i think you're much more prepared
+so i think he will be the local food for you if you
+two
+maine
+others functions which are just
+pieces of cold it logically fit together
+break you don't write an entire operating system in one file in one go make five million lines so far apart so we break it up into pieces
+these pieces are functions
+maine is the name of this function
+shall always be one main c plus plus i guarantee on about project rerouting here is because you have to file simple have a main you can only have one that has a name
+is this a duplicate simple
+you have to make us warn you now
+there can be only one
+who's the highway
+you
+somebody
+those one person in the movie thirty lecture to it seemed
+hi
+anyway they can be only one way
+fallon hassle this
+something that always causes
+the whole lot of confusion envoy
+okay boy in here in this function
+some value hasta it's all function think though auction of the dishes
+break
+rip to shame
+we take two numbers in return a number was here at four absolute value even so
+sake of value
+find out the absolute value of a return the absolute out
+here is fourteen means we're not taking anything in we don't need anything
+in this function to do we wanna do
+great starting from the top
+there are other ways which we can get input besides that avenue right there
+boy in the mayor's really important point
+bullying is not synonymous with zero
+there was a thing his numbers represent a representation
+all the countess year
+void is
+nothing
+not zero
+absolutely not there's just nothing better
+return
+when you're performing something
+when you doing in tax
+if they come to an end sooner or later hopefully if you don't it's called an infinite loop that's another problem and how
+in your code
+when you get on with this function here this main thing
+wanna go back
+all can somewhat all asked me this
+operating system make you you see always in this class it probably means operating system which example of an operating system is when does that
+right
+awful s isn't the case of rain so you're operating system is managing your computer when you when your program one name is john
+then he gets in school back to your computer
+in your your programs though so will we see the rich
+you always want a return
+ah value
+so the return is this signifies earth we're done here
+leave this function go back where we started
+when this function started
+where ever we came from one's function start
+zero
+zero he is of value to your sending back late in the case of maine it
+we're just going to return zero that's a signal cold to your operating system that everything is falling
+next five years
+to see here nothing was wrong trust the ratings good bass with zero hits
+if you return all the things in fact if you're reading a function for absolute value
+which for me
+the absolute value of the number that you started
+here when i have zero why do we have zero
+because our function said it
+that's the return to fight
+look into which is what it is an minutes with important thing is that these must match and types
+i'm not really drill now
+i'm types
+one thing is that those two things must have it
+hi
+this is important issue for cultural standpoint
+no it's the end of the statements semi colon not call in which you will to fight sometimes indian hair
+not period
+why don't we use the period to an estate likely to winning
+any guesses yes
+and
+will like someone
+did a group of the
+
+worth
+it is
+
+that's a good shot at that is a good reason but it's not the specific reason we don't use a period
+say was no period is amazing and semi colon could mean something comes after
+but in this case
+going after it is the end
+yes
+math that's why we don't use a period ended
+you know who is this statement if we get paid
+double returns by a return
+while one point one
+we if we bought the point was
+if it's exactly so
+don't forget this i'm like oh i say this in vain it because sometimes you will forgive some like cause of the understatement this causes really weird here's a new programs because all it does it just keeps walking funny and everything after that just keeps get added to this statement
+which causes grief
+so to get some air you looking at the high is the same this is a problem
+go back seat like this i'm like what op so i
+for this
+curly braces or something we're going to get real familiar with
+squat
+that you know what's the school
+so we look is hopeful little mittal regular algorithm where we're looking at accounting now run over people
+we saw the invitation
+told us something about the school work we want it you would say are you
+we're going to use here to save us plus he's curly braces what that says is for this function of thing called main
+everything that's associated with maine is between the two curly braces that follow
+top law
+talk a lot more about scope as we go through
+semester
+huh
+yes
+
+
+huh
+oh okay so where else might you use really brackets like this
+four and yes they do so for conditional
+it was on a previous operate them yet
+more than one person remains then have one to the cow
+that initial set of using an indent
+which we would use in it and we can see this is invented here
+we would use curly braces for that as well
+but
+what
+hello multiple things can have school associate with functions condition also moves
+those things will all have school
+and that way we can hack more than one thing to do it
+may we might have many lines of code wanna put it here so so so they take a band of this we want more than just returned want the curly brace
+half
+ah the statement
+prince hello world to the standard out
+so sad about what is the the little console window
+with the terminal
+we're isn't
+seen its height on
+terminal
+before yeah it's pretty integrated in ah max
+it's no more familiar with those who don't use it as much i would say
+ah but we're abusing it here in this
+gold what whirlwind
+this war is steve young
+and this i'm like whoa see ya
+this represents cold with someone else has written and given to us so we don't have to read all the code to change pixels on the screen
+make this proxy out
+it's inheritance from the c programming language
+of which c plus plus was was so
+the successor to view will almost yi is still
+stream we will use
+in the world that all your operating systems are written in the c programming
+more fish
+
+the answer to the operator for a taco operators today that just takes
+ah programs that performs some operation on them
+hence operate
+these are insertion operators insertion operator is a term that you're gonna have to become familiar with and know what it means
+hello world strange little world
+this is also very important terminology of string is just a series
+paul
+alpha numeric her
+a forecast the characters if you're familiar call with that will get familiar with more when asked
+the series all these characters are called strain that only this one change of
+but nothing's gonna change the strain
+when you when your program that spring is to remain constant
+
+the wealthy and wise so we saw
+ah so so most of the observers noticed that there was little splash kenya
+the american the strain that's one way because in new line
+foster for many men through special character
+right this is another way
+and this will just cause a character turn
+let anything we pray to the turmoil after that would be on the next line will start in
+yes
+for c out ah i see our wally use for printing to determine
+that's only use it for
+and will use it in various ways then you'll see that as we go to the semester
+so for right now we're just gonna pray to the show
+yes but
+ah
+what would happen if we left off the return zero
+is anybody wanting guess what would happen
+yes
+pal air any other gases
+yes
+one time there
+any other guesses
+yes
+the walls not
+any other guesses oh they'll crack
+your own world
+the reason you're all wrong is only because all this function a unit
+your compiler your id
+is smart enough to say that
+four main you have to which learn something and i just blew us all that she was a return zero
+so your compiler will just got in there for you anyway at least most compile saw the compiler than ever with a machine here
+well
+it's a dangerous thing
+go for os to count on that because really what would happen if you get a compiler
+if your compiler wasn't making up for your mistake or maybe it's
+'cause here were saying it's main were saying we're gonna we're turning in nature
+be it a lot want your compiler really hate use honestly
+you're gonna return an image
+you lie
+so if remain i'm just gonna assume you want to
+and in fact most of us for writing this will just go with this and it'll just be filled in for is only for main hall or functions you will give you a compiler yes
+those requests to get any other function of maine your compiler is almost assuredly going to be with here
+unless the returns like his voice
+then you won't get near be
+it is still going to just say oh you messed up at the bottom off of a return statement for you
+otherwise if you were turning in a major in its not mean it's gonna think you made a mistake because you promised to give us a number i can get to the number you wanna get
+with main writing guess you're gonna say remains on
+that's what happens to combat it says guessing
+your attention
+warning compiler it gets your intentions sometimes to try to be hopeful
+this is great for your coat wrong with you make a call when differently between your apple laptop and we can pilot on the auto great
+warning
+try to be explicit always
+i know it it's an interesting part of why the program is not certain what what
+counting clue
+this is the directive it tells the pre processor grey trousers deftly not turn you need to know
+it just the information of how this works equally go with someone else wrote for you
+your welcome
+don't
+or even included i mostly i will stream is the cold is someone else wrote so we can use c out
+wonderful
+using a space dandy
+this is an agreement
+on what we're going to say between your program
+and i'm alive for it you might use
+whoa what words mean
+so it's like a dictionary which are also going to agree upon
+what particular words mean example of that in this case you see out
+great see how to use this word is you lose in ohio streamlined were a thing for you use that word to you need to use this
+there's something called the name states which is the definition of what games are high too so now when you say see out
+after you put put this thing with it's ha now he knows that all classes see out the i have been idle speed
+we're good i can just go use their co knows what to do these two top lines or something i would refer to as boilerplate
+was a total loss school
+while replace
+is the thing that you just always include
+thank you see it when you pop a click here agreements high near dual iphone agreements or whatever
+i had to purchase boilerplate things so be used always have to put in their you put this on your own if you forget it you're going to get
+or is that you try to compile
+oh yes
+if are there other men's faces yes there are a and you can make your own
+this along with that one
+yes
+name's been so the question is names based kind of like a class so
+when you started it kind of like a class
+i guess that is the
+ah ah how you view would kind of thing i would do it more as the is the mapping some means what to remain
+should be so it's almost like a dictionary
+two separate languages would share
+to share works
+more so than i would say it's a class
+i have
+haskins into the implementation to
+implementation details of how you like cold and structure called instincts rather than the war or conflict so
+ultimately there's classes that implement these kind of thing
+but it's not like a cop
+okay
+which state with friends all
+anybody want to say which one is
+yes see
+enhance
+steve
+why not
+c is the correct answer all what's wrong with the first one
+missing the quotation marks we might mistake that will come for a variable except it's got the exclamation point at the end
+what's wrong with me
+
+there is a growing the wrong way that is not an assertion operator that's an extraction operator
+what gets him
+
+what is wage and by one is wage this
+what is a pc
+for jihad you knew full time to molecule will for i asked for an answer
+so i believe
+i believe you had your hand at first
+it's all about yes the correct answer is the fall of the law
+it is a very
+we're top of variables and just a minute
+that means that here is something that we can change the value on
+as we go lol
+off to represent a particular memory location
+right what we use c plus plus
+one of the things we compile this is we're going to say okay here's a piece of memory
+in our eight gigabytes of memory there weren't any case
+or when ah animals i am twenty because we made a whole the twenty through the initial as asian
+ferrero the name for something accessible location in memory of stores of value to that location
+so is just repeating what we were just talking about on the previous law
+it's also hit with this might look like so i guarantee you that is to go through the semester you're going to see
+this
+representations lines
+all the more times than you might want to
+on the right-hand side is is abstract model of memory
+in our machine rape and we have every pot it's really just logically looking to get worse
+the way
+locations which we can store information
+they have address straight to side with addresses are street
+our streets for all it addresses for memory
+so i think i talked about ah polly i didn't mention the humble from ethiopia last time
+op
+interestingly
+in lots of bob would happily ethiopia there are no street addresses
+for anything
+anyway
+eight million people
+not one street address
+oh by the way nobody knows the names of every street either
+the fight your way by knowing where the nearest well i'm online markets
+then turn left and gold listen and take the second rate and stuff like that
+really interesting an entire city to fall for products
+it really intimidating when you go there you don't know
+the way you're after we need to go
+anyway so here we have a shoe variable declarations will tie integer one of the game is players war was no obstacles defeated
+so long
+but somewhat expressive we won our games to be expressive than it allocates space in memory most of no value say it is not a value of zero
+if we don't said it's zero we get whatever happens two of them laugh in that memory cells
+earlier
+we'll know what some random number
+if
+follow where the rules is rules of everything its ethos was mother's rules lion king means we use for things
+ah thirty one character's law
+we still have variables are thirty one or two small
+the hair or
+that's true long to digest and she wanted to fight you gonna make a mistake
+taking that
+case sensitive
+the little thing they are
+the exclamation point in the war means not equal to
+so both two things are not me
+
+system either fires care what other sport is not something i have to memorize basically take away is usually we won't start power of games with an honor school
+it is is convention hall that's for the operating system kind of variables not necessarily are so badly you'll get to that
+in this course which is just not usually one hundred stores and for a period may
+reserve words
+banning any language were coming up with these variables
+creating new works great remaining these variables with new name is
+there are some names that are reserved that you can't take
+so just why am i getting any gmail address or a user name of any service now you can just use the active just want to they'll at gmail dot com so much of that
+you know
+five minutes after gmail we came back
+great that's reserved
+ah so you end up with
+adding all the extra characters and properties in your case and one two three four and all that kind of stuff to finding something that's not reserve be of some reserves keywords
+here
+they're five reserve key words in this call anybody wanna take a guess
+all the reserve team yes
+may
+it is
+bowling
+turner
+one more
+you as a
+i say
+interesting i think everything was correct it was said except for me
+maine is not reserved key word in c plus plus is a little misleading because i just said there must be a main
+and there must only be one but is still lot of reserve key word here is a nice les paul reserve key words for c plus plus
+you don't have to memorize this
+ah everything in reading
+you will know
+through this course the word riding cover everything you read hear your use for programming of the scores
+just beware you getting your variables any of these
+to cause a problem cause a compiler
+really critical
+all
+variables have a tie
+we deal with c plus plus
+you will find this will change
+actually it's a pipe
+who's the boss was every variable has its height
+the reason is one of the things i'm a question earlier of what he is
+i hear what that word is now wage
+wait what is wage
+it refers to a location memory
+we simply given location memory we need to know how much memory we need to give it
+and that depends on its height so we need to be explicit about the worst thing is this isn't because the laws of physics this is because it's very efficient to do all this ahead of time to manage a limited resource so like everything in life
+
+the key
+quit it cool
+passage of computer science is dealing with limited resource
+even all we have a max of resources now
+that gigabytes of memory and all that all resources are limited
+and we're in a deal with that by being explicit are types so we can make sure we use a little memory is possible so we sources off
+this is a teenager a tie
+soul
+these are the basic data had to earn a really use the zoloft this isn't the be all and all of a titan in fact before we leave this course you will create your own data types
+in classes if yes
+
+ah good question i get to that why top model
+the question was the c plus plus useful of short answer yes
+oh what often will you something called love all talk about that man
+okay so it goes on let's talk about the saloon that will
+cool eons how
+two values that that true or false these are reserved the words by the way
+and they mainly just what they say
+true
+or falls to be that's it
+can anyone tell me where my eight how will we did it right
+the u is
+yes
+conditional
+absolutely
+conditional
+who wanna know what will it do something it's either yes or no
+sure falls so in a conditional it to evaluate to get that thing is true and then you do the condition you do that like if one person remains in a row
+then we do so
+before pursuing zero messy the truffles
+bullying is a very concise way to represent
+yes
+ah only in a commons for all my
+like many things map that
+they
+that's where it would lead paint
+in this sense of seagulls
+if only i
+if you ever done yet
+if
+but then
+
+wow
+yes yes and hear the answer that question when when when we declare this we saw before this into wage equals twenty
+this declaration hesitated type i'm name and then an optional initial ice age
+so we always put a bit tight name
+an awful it's been hot initial ice age so for dealing with polls use a pool
+has been paid yet
+equals
+also
+that's how you would do that
+ah what is it evolve value there is no the fall out
+that would evolve value is it true false were zero three majors or something like that it's evil values whatever happens to be the garbage laugh
+in your memory location that has been reserved for that area
+that's why it's a good idea to set it to something when you declare it
+that's when i'm back
+if
+as
+
+
+i requested you need to reset the sea out to we just bring 'em on one big actually string of all in one
+what the what hates keep an eye on as we can have the line it is longer than eight characters that is our style convention art style guide
+so we can break it up and multiple ways
+we can just instead of having the
+semi colon be an overstatement we could put the insert a guide search an operator
+kerry to the next line you were the sea out
+right
+hollywood do it
+cause it's a plus plus
+to the compiler whites they see is meaningless
+passport office
+so we can interpret this
+and understand what it says
+
+yes
+thigh
+what a
+ah
+good eye
+in recent fire is why we say the best way to find the air isn't something
+put it in for low hundreds of people
+we'll find any discrepancy so the question is whether this curly braces
+is it really worries here
+or look previously the curly braces on the next line like this is meaningless c plus plus some level where we put that
+there is a convention and we're going to adhere to in this class though you have two choices
+this style
+and this guy
+those are in the style guy
+which is
+other resources that of course website
+make sure you know your style guy
+if you really great that
+yes
+oh
+but it worry it but
+
+ah
+excellent observation
+there's own old boy here
+right
+one that's one of which isn't there it's implicit
+so with a s
+is implicitly boy
+huh
+i would advocate to be as explicit as possible
+usually
+i'm in hand over here
+yeah if that
+the extraction operators so this is an insertion operator
+extraction operator is used for c n
+will get to that in a minute
+op
+love
+eight
+poll numbers
+they not for actual components
+although i am be careful with that term of fraction because one is a fraction
+faith
+that's a whole lot
+what
+not feel the the whole numbers on the number of law
+ah five eighty one
+there were not leading zero two inevitably zero
+for a hundred years that's because you probably won't get into the technical details but it's going to work
+not the way you want to
+and also get rid of the
+com's
+the numbers are just numbers the commons is for our readability that will work is a bit
+the
+if
+fathers range is a limit
+the limits have real thing
+right and two with a major there's a limit as well by default managers are signing
+which means is a sign a positive way
+therefore we only have thirty two bits to the thirty two is the range of numbers so we can represent four point two billion
+everything's
+the manager
+when it signed it goes negative two billion
+to bow positive two billion
+i could never tell you besides telling you it's to the thirty one you know they do
+two thirty one
+positive to the third one and zero know
+i would never know let off the exact
+you'll have to remember either just roberts la plus minus two billion
+which clearly he go over that to about no eight million four trillion it's overflow what happens is is that when you do that
+you take this number is a manager to come and buy one
+you get this number
+turns that it wraps around
+
+that's
+most likely behavior or maybe conditions was operating systems would have happened that's gonna happen on her buddies machine here
+the one where you can hold for for wall
+a number
+and to billions not that big of an oath
+realistic in computing
+double
+double is a double precision floating point we can use flow what has a little bit tight and c plus plus what we typically used out
+to start with raid were used doubles in this course
+if you start getting into efficiency things that you go into advanced classes eucharist are times smaller data types
+double precision floating point no words can represent real numbers you can't represent all real numbers
+right it's an approximation
+real numbers to the best of its ability
+all talk more about that in future
+if
+this historic you want a number
+ah plus or minus two two negative ten with three hundred
+eight
+a and one point seven nine times
+ten to three hundred a power that's a pretty big know what that number it's changed
+it's it's less culture
+probably not an overflow that
+crop of characters was revisit we talk about
+characters per liter
+ah
+why it's a question why would suck air yes it's a character is a single character chalk so the chart eight site represents a single character usually you think of this is a popular character here in this context or five
+is the characterization representational far
+great
+yes
+yes it does question is does it have to have that cause it has to have equal to the house that the single quotes because if we see ah i am with how close calls we interpret it as the integer quantity ah
+if we see five in the single quotes that's the single character of thought
+there are special characters that are associated
+q you know we don't usually white house like the slash and ah which means new line
+it's still represented as a character because the characters is simple flying to at two hundred and fifty six different characters
+there's not two hundred and fifty six letters in english language and symbols of you is pretty properties or case
+punctuation all as we know other characters like the facts
+most say
+one better
+they have a chart that has
+to care so can be a taser char though
+just a
+give it a a better be straight
+
+straight talk again
+hello world
+ten of spades
+and
+ah there's an awesome
+program
+for every exercise in the east to the corps
+of you who wears a plain yogurt
+a card game of you
+we're doesn't know what the heck i'm talking about with you
+isn't that amazing card game while you are in michigan ice strongly encourage you all to try find someone who plays you here have been teaching
+he is so much fun is my favorite gay
+we love it here it's a michigan they i mean it's people's some other places
+but it's an issue getting lots of phone card
+experience is why you're here
+notice the double quote marks
+string
+okay
+yeah let's take it to that state couple minutes for a quick
+they just ownership years into another top
+
+thigh
+
+
+
+if
+
+
+
+if
+and
+
+and
+time is short
+with papa little bit about operators
+if
+ah for years he was the ability
+to do something with their buried in one of the transformation wanna be on the head two numbers together to get an answer
+operators ah he's a simple mathematical operators there's a lot more operators in this weird it's all with the extraction and
+the insertion into action operators
+ah
+straight forward here this is another example now hundred and one through this real quick
+notice the
+what happens in executions level of where there's an execution
+passing away what do we want this program on a machine it's abstract you
+or execution starts what's the calming the first day and executes we have no flowers gone
+variable years it's location in memory we decided initial value of twenty
+we have that status on the board the next day
+i know what the next day the next it's all falls through
+after we actually one of the other we print number of highly florist you want
+we declare a manager notice that this declaration doesn't associate of values for relocation that value is zero
+it's not wholly it's whatever was in that piece of memory for some random number
+ah i see in state
+so is pronounced c n
+as a way we can get input from the people
+right now in our program we get half the user something we have to use c out different what's called the crops they took a prompt the user to enter something allies is
+her through the
+or less what to do with this
+printer prophecy out a new c n
+now
+i type fifteen of breast cancer
+on the line here
+a little enter
+it's a little bit career
+that isn't me typing
+brackets t n t e r rack
+that is the designation for me to press the enter key after our first one five
+this notation will be used on examples
+so that's what it means so here i type one five n press the enter key
+then it as usual select statement
+see ya prints that
+then when it hit the next statement
+the
+take this number is effective for the summer and then
+see our friends it as
+execution will slice get it just to move on to the max example but the execution more than that
+get a return lying
+and the function will pay off that's not so long was like but it does have
+i'm sure
+the rate we would expect this addition subtraction multiplication
+and ah
+modular us modules is something that he is pervasive
+cute we use it all last one different than what you why it's ah i mean i don't think in math classes when
+module
+all that often we sure you use a lot of
+and you'll use it
+a lot says well you use it on your first
+program which by the way is to be released pretty soon the first for rent sign
+shall be unleashed i used to
+you know how about two weeks to complete it
+if
+fat
+getting one time so i think i'm used to talk about this little
+some economy use the i need to show you
+i know what
+but anyhow
+it's only to see
+see you next may have a great way to get

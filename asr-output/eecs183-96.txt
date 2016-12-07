@@ -1,0 +1,1118 @@
+
+fire
+that is a time
+welcome everybody
+all airports always to michigan time cool he is new to the university of michigan it
+fuck
+well hello
+you're in the right place
+both at the university of michigan ann and
+in this court's isn't really great course is my favorite course if you can really excited i'm really lucky if you had one notice when you're reading this reg registered course that i get to teach two sections all this course which is really exciting for me before i really is on a cellphone on a show of the eula we need to the idea of what this course is about
+good
+i have
+see i'd he's fast five
+ths huh
+if
+that is
+four
+and
+and he's half
+upvoted
+
+it can be pink
+if
+if
+
+or in
+get it without
+that five is ah was on someone's fat
+this is the fourth was hired by the way to
+we're always room for a while since this was a there is a
+he said he's in his is too cool now who's forty one eighth one
+he didn't have
+it's an i'm here
+one has
+one
+or how
+one
+and the are out ahead for now
+it i see him
+he has truly the
+and if the
+here
+we had a hit at the pool at it will lead to tackle or heat of the the lot and i thought hands while
+a fact that
+
+right you
+that is that they see as fast as
+
+hi fi
+with
+hey
+lockheed has a kid a it's a it's somewhat
+can be so
+jason things he thinks
+how is he
+it out of action
+it is in the one he has what
+this is
+
+huh
+
+oh that a
+if
+with that great introduction of the course of one adult her brief introduction
+oh myself and the staff of the courts so i'm running my name's bill parker i'm a lecture in
+the computer science and engineering departments on i got my ph d. from university of michigan were a lot of my research focused on security and designing heart we're like the processor in my laptop were actually using right now for the machinery and using
+i top this course of a few times before this is my fourth semester involved with a course
+it's really great this semester that all three lectures have actually office course multiple top so i think it's the really big semester pop and we have an amazing stats so every time i get this lecture
+i stand up here and i say that the reason these course this course
+goes on in such a success
+is actually all the staff who supports it all the teaching assistants all the g s size for greatness students for those new to the university of michigan and i gaze on structural hate to four hundred grand
+they're the ones who actually make a course at this epic take credit for so with that i like to actually introduced and let them into some cells some of us that we're here today
+ah who comes to have
+and we need a life
+ask
+that i can have in mind i'm an i'm a senior and this is my third semester teaching pounds i'm excited
+i'm actually studying linguistics so that anyone out there is not thinking about maybe majoring in c s and has questions about how awful they can combine and i can copy with that
+take the flak
+hulu one of my name is loosely out i would put immense wound and i'll be the g is good for leagues one eighty ti vo spine
+although i am majoring in sosa physics in electrical engineering and my research focuses on three the semiconductor if you wanna put anything on it this totally off course of just about the t y a few years lol and the isle of ballroom dancing and i'd do critical on half
+everyone all my name's bob hi my junior majoring in math and c s is my third time teaching the course and i'm excited to meet all of you and have a great semester to get off like that in agony that hannah and damaging you majoring in c s and this is my first masters as a maintenance two birds and
+i'm from wisconsin said the untied but she's come to mean the fires he adds
+fuck
+hi guys are lost in law is my first time in i a freeze way free time a thirty years yes major and dogs are my thirties and use play volleyball and it's resolution if
+hi guys my name is isaac are they good as call me tent on the germans and undersized i'm i'm from china
+and this is my first master of the idea for this course and hopefully as soon as you might just on his action a good fuck
+but it'll all be max unlined senior double majoring in computer science and romance languages with a minor in business
+this'll be my sixth time being it's a law office and thus gloss on that say allah some lie
+edit chance to what apple pie works on the product in the alps which are two pages numbers so hopefully is use them on
+also the past two weeks like conclusively road takes on the tube sites
+if something's not working that's probably my fault
+i can then hundred love to see all of you by discussion section
+heck
+very much
+one of the year is a it these people in a lot more sold there are currently twenty three teaching assistants for this court so they're not all were presented a year off but why say the ones making the scores happen i'm not exaggerating
+i know because i was actually teaching assistant for this course as well
+as a graduate student so
+five and the person you saw in the video talking about wanting the three was professor door who was taught this class for fifteen years or so but why haven't we joined by hector garcia
+thanks lifted into to the point of today was receiving day is i'm going to lay out to show me what it's like for this course for you for this semester
+or rest are already and what's with the like going long way for cover all of the material to i can say that comes to enlist in the website it was looked it needs one eighty three loves that right now
+all in in twenty three i don't know we have it correctly
+ah linked yet
+war i know for sure you get a canvas the lecture slides
+right so it's ok if not they are on canvas right now to win i will have the slides posted the night of four c. you can go want to news right now final lecture slides know we're gonna talk about
+without that but when you are on a given to what is
+it's one eighty three
+so
+ah in in technical courses within a very deliberate about me this and we're very deliberate with the name of the courts so this course is very happy appropriately named i've only an elementary programming concepts your break down the walls were its
+so elementary so much you wanna send me that means we're starting
+from basics
+yes absolutely we do not expect anyone in here to have done any programming ever before if you have that's great too there's an office course to challenge you even if you had a programming course or two or three in high school for
+this course will still provide challenging but
+started the assumption is worth star
+from the basics of overwork up to some things there it'd be pretty awesome
+but you have written out certain basics might not think it shouldn't be able to do
+but i guarantee you you will
+ah that's
+i have some stats in this lecture at all
+students who sat were you also at last semester
+it took this course
+the last semester about sixty two percent oh
+the students in coming and head
+song
+type of programming experience that includes pop pop one in five had taken a programming course
+on actual for well for programming course in high school or wherever
+transfer student
+in about another one in five had taken some kind of hope on line informal thing about programming
+maybe similar to what the exercises that we have for you in assignment zero which by the way if you don't know
+i guess that there isn't a sign of a silencer which is due friday
+it's not that involves lots
+to be pretty interesting so most people don't hang out
+all lot of experience
+comfortable
+so we asked him the money coming in and one of the things on assignment zero is asking you
+aw
+how comfortable are you coming in this what happened what people came in last semester about a third said not very comfortable
+and only about one six eight yeah i'm on pretty comfortable here more comfort
+in many real system between that shoots and leaves them
+changes dramatically over the semester which i'll get to that'll show
+i am actually
+
+so start off military but i can help sneaking in
+i knew this
+showing you where we're really go
+the end of this semester so the end of the semester
+we're all going to do a major project
+have a showcase
+so everyone in here work on this project you will be along
+you have all the staff
+we three t a's in three professors who are helping you
+and you have each other
+swoon work on the big projects work in teams of four i don't wanna
+into that now i wanna talk louder now little bit
+because everyone should start off thinking about
+meeting people on this class informing was in and getting to know people people would be your columns on your projects
+the showcase of we have redesigned something great and implemented and show what ought to your family your friends to corporate sponsors to harness
+quite amazing we do this every semester
+we have four projects last of us through these projects possible will change for this semester to be announced we did created by where students
+took an existing music
+collection of music library of same parts
+in design an artificial intelligence
+she would get caught with a create new assaults in lyrics and music from
+connect for lawyers are way to connect four day
+that stands with taking make the game the entire game
+creating nice graphical interface for also created an artificial lot intelligence
+for a competitor to play against
+ah let's get to learn ah i know everyone in here has registered for courts assuming they're not just wandering off the street
+so everyone has experience with some something for registration who is really gonna worry access
+use it
+it's terror
+i've really don't like wolverine access to a horrible interface
+okay
+just so painful to use
+and the else the course guy
+he isn't that much better is better
+was not great i'll tell you all will react as always is accurate information
+hello say course guide is someone sitting looking at walgreen access and typing what they see into the house now snake or sky
+we're all
+let's get to her
+students who said we're so we use it now
+designed and created their own websites
+we're students can actually look at all or schedules
+ah i decided to get to from a really really cool really slick
+my favorite the arduino like her arcade
+basically you take small electronic boards and wires and alley the panels can you make old school review
+really cool
+this is just don't want to engage probably showcase before
+
+corporate sponsorship so are are showcase costs of money to pay dividends to a corporate sponsors that com
+i can get these corporate sponsors
+have higher incomes
+on this course
+after one semester of experience having no experience before this all out so late every time i sit down at the beginning of a showcase an actual corporate sponsors okay this is what it proves what the project looks like this is what should the sea they wanna see what they're gonna see before they see it
+mate
+if he had the professionals who do this all the time come in and see these projects i can't we
+that person assertions to these projects
+really cool very exciting experience
+there's only so our sponsors from last semester
+ah well represented in financial industry for thought well a little more during the lecture
+fifth
+but it said before internships have actually come on us
+that so that the world
+do more than elementary when we start with elementary
+ah
+when i start really basic
+i wanted to show we're we're in and out
+starting from scratch
+programming
+this is
+only a course of which were bringing you a lot of programming
+ah but programming isn't what computer science is actually about so this is an elementary programming concepts course really it's the first course in computer science the sight is really not solving the world's probst the news programming
+as a tool to do that and up and programming is really just this break that we have between the ideas
+that we come up with to solve
+problems
+how we can take that idea
+make a program which they can
+we we can use it actually
+do something on a computer
+that's a that's the function of programs
+program is really collaborative problem solving
+between a person
+the computer
+so people on computers
+turns out work out pretty good
+now
+why while also get a computer computers are fast
+very i asked a limited period there is doing billions of things a second
+may
+really accurate
+usually pretty repeatable
+but really stupid
+okay a computer is it is dumb as a bag of hammers
+okay it goes only exactly
+precisely what you tell it to do
+and it turns out it's kind of hard part is that is programming between what we know want to know what the machine does ah he does exactly what the programs that
+carson if i ask an individual
+ah pay bills obama must have passed lacks of hating you do something
+in the program i give him is wrong
+in stop and say all
+the you want to explain it to me again i think that's wrong who's never do that
+people however are really slow
+it's
+or if thirty so it's taken me in all a little while
+most women is just to get to this point
+in this pop so people are slow
+inaccurate i will make mistakes
+everybody makes mistakes rate we all know that
+people are really not working so i spent
+ah a lot of time before it came to visit and talk with us before it came to the universe in michigan for the automotive industry but a lot of different jobs including a lot of different engineering jobs then it was a test engineer one of the things i get this really have to understand is just how clever people and how accurate human beings are
+care to machines
+we're very inaccurate what people are brilliant
+they
+person
+i can't understand and handle the situation which they've never done before i mean everybody in here if you have a driver's license when you were sixteen years old or know about that time you got behind the wheel car
+control
+compare that to the enormous amount of effort is input so far into auto driving cars the differences and leave
+people are really smart when you put us together
+
+we can have the fast and accurate nature of computers in the brilliance of human being is
+that's really what you get what he combined people and computers
+all before you were a further i guess someone mentioned to that of this
+lecture session is recorded
+so we're all on camera
+amen
+but according everything that's said just so you know
+and this is for everyone to watch later to record the lectures and you can go back to you later this lecture we polls about canvas probably the most active it's probably it's pro super deep crop week after the end of lecture
+it's available for you to go back and watch later or few miss lecture i don't recommend
+that'd be here
+the big issue message or whatever you can go back to you later or go back and say listen again
+but
+okay so i've said here and the
+talk about ah computer science and one of the things i'm with a head on again and again and again which every mentioned once or twice is that
+computer science
+he's a programming those two things are interchangeable
+reading is the tool
+this is an introductory see escort mission every computer science which we learn programming ah i can say that then i'm done a lecture and i'm a
+it all up here talking and you say okay i'll find what i want to convince you even more
+this what to do that i'm an old video here in let people that
+you forgot we all have our you know for a while
+you may have no respect for
+explain it to his wife
+
+he'd been searching my mind
+first got access to those who've a computer when han solo me a macintosh ninety four thousand years old has a sixth grade i am at a not shared it was that
+the shit out his hands through a full of eight it hour you won't be anything
+for for a that's the thing is what the war it has asked me to her right thigh i say those i have thousand low rules did and he
+the news on and first for office are as you
+oh here's this or heard fast is in and out is that cute
+lol that on my cell
+it's a a proposal room and the stupidest will do it that winds up in new bulbs about it on her the internet and go up to an israeli not only complaint and should you
+so or how
+it's the year
+conan is i
+i'm on none of his
+
+in what is all it is that is up
+this is more costs for it out holes in his high it cause it sounds it out
+the that's the exact
+it is for action
+she found it asians in the and uses the usual and race are
+lol ah or not
+the house all the cities and towns i asked for but it didn't he i heard through the bible it what are the the one hundred eighteen
+actually this is all over south
+fourth
+if
+what if
+if
+how fun it about when she wow what a good mood
+hey
+it really he
+and most of our group
+when i was in school thousand steps school group called was too thin people found a big black betty you know it's the one below the hit is cool and the the law and you
+so far as outs
+the falls use lose fires it found it the whole lives of others are the people over for it happens that
+yeah it the and the hottest sauce also with
+
+
+
+
+
+
+
+it is
+yeah and through that
+really
+it of
+hey
+visitors
+the the
+
+as for
+where's the last
+one dude from a guatemalan it or would you just want to walk to produce incredibly empowering skill to learn what if someone had told me that
+saw her and i doubt he hated it at about how
+oh and ends that he that he flat
+you know actually
+cough and a
+ca in your hands up
+is that exhibits so but her for what
+and that
+but its clay
+it costs are
+that's the whole route and a dude with four children
+those that did him his feet and a lot it's as it runs a
+oh and if the horrors of war
+can you know what reptiles that so it is his clothes the us as i'm the owner's part of your home
+that's it
+thanks
+i've
+thanks
+update
+if
+the thing
+but what really don't have to ask about it
+holding class to school to hear it
+this is what we're here
+hi do what highway
+both were walnut
+do they have to know when i'm at hawk about
+all hail the way that perception that but calling was all along
+he's sitting in a wound
+save for the screen is really about scalding hot this to be sciences all
+so one of the things that always like to have in this first lecture
+ah his little bit on the hulk what computer science is like
+no information video say what
+horton are more of industry for years and i never saw had seen an office
+like a knack for like post offices that weren't in the video just unbelievable but
+so part of this is the new idea what computer sciences and part of the head of course
+what's it like to work in computer science reality is that it's not
+non of students
+who study visa computer science
+so all the jobs that are available
+and that's the us is especially at the university of michigan
+ah how
+a lot of opportunity in a highly sought after know what courage of remote broadcast it to
+come so we have a career fairs
+are these happen usually for the science on north campus and these career fairs are unbelievable hundreds of lawyers call it lazy so you bought i encourage everyone
+to go with the saints talk to recruiters find out what they want get the experience even if you not looking for a job you can just go and talk to them
+happy to talk to people
+
+highly paid
+so we're still will park in that historic comeback to that
+in this
+discussion
+the programming
+his shoes every it is my assertion in our search and then of course the programming is used
+everywhere now
+course it's not literally everywhere
+and
+i wouldn't use the help of some ideas on where it's not a programming is just ubiquitous
+they
+on medicine
+so there's a lot of medical and computing research knuckles aren't together here at university because if you're aware we have really good med school here too
+really fantastic cool is aspiring to go on to med school
+yes
+good luck
+if you really intimidating to look yeah i know when you're when you start off when you wanna go to med school
+the counselors made you have an alternate half
+for just in case you don't get it meant
+make such limits to me anyway we do lots of research in medicine and computer science is really
+all the medicine now the contact lenses so one of my colleagues in research scientists working on
+tiny tiny sensors to put into contact lenses to be able to do things like administered walk home education and attack blood sugar levels
+diabetics and also kind of interesting ought to enable thermal vision
+contact why it's not that that's really that's
+transportation is the big thing so cool has heard of self driving cars
+yeah it's a big fake five policing of war we the first nation and world to actually how
+hate working
+i infrastructure old driver was carson think they are either about success of marine started actual testing
+in the city for the us
+here the university of michigan we have a
+a small box city
+built on north campus
+where are you research and self driving vehicles so it's an entire community
+just to test this
+ah outlay little trouble video clip of that i have
+and
+huh huh
+cdc and
+and asked what's the moral
+the simple rules don't actually work and so terms of building a real world connected vehicle system and you've got to to actually be in the field and deal with that that sensors lights you and that other drivers are not always like structures that so i say this had it written row
+to force that dr
+that's the saying
+and they use is
+so they must see
+and it seems that it
+and vibes it just for
+the area at know it will auto open
+one thing to point out all the brussels hawks about it is not talking about the challenges their overcoming is how to reprogram pets
+great they're trying to overcome the real world bigger problems
+saw this and programming is just one school they use
+to solve problems
+so we're likes to play video games of any kind
+yeah i do too so whether or not you like a fresh war in the
+new battlefield one
+they they just came out
+is like to nobody and it turned out
+a few
+ah
+this
+c s is a great king in any medium now
+so dominated
+by computers i
+c s for social good this is something that is really happening is that is also
+really now getting really hot and the avenue all computer science and programming c is for social good whether it's by creating
+op
+clothing that for best sudden infant death syndrome
+or
+a school
+that allows people to discover in attracting cases on line the message really interesting too because this man next goal was developed by a hammer is a sure funded and spearheaded by a car is a stimulus called turbo which is the essentially the military us military research group
+and this military research group reduce the software tool that they then report this to in fact
+flying the victims of human trafficking
+by searching the internet
+political
+this is really definitely a big thing now thought to universities in california that's not
+apologies that's not you
+c s this post the u s c
+and the u c berkeley california both have now open
+aw
+actual new centers for research
+in apply computer science to social good
+we don't have the center for that here in michigan yet
+i think that is going to change the truth really cool application of computers i
+ah cool here is the lights or has ever use money
+credit costs
+yes the vampire it is if it's in computer science in finance
+and finance employees a lot of computer scientists and mathematicians that i was born the math major in
+ah phew
+does lot of wrath they just take this class you must be a class that conflicts with the smokers usually vote yes usually it's alot more so
+lectures a lot of times i will call out cool is a philosophy major in philosophy reason
+yes
+awesome that was the bullet that was the major guy to go back i'm like that and i was the regents
+really great
+long really enjoyable subject but
+i will call she she's instances that that many of you in here
+'cause i'm a size not a mathematician saw ask for verification every once in awhile to some mathematics related to the well like to call out it was on declared
+ah welcome
+computer science is free trade now this life of one
+just say
+so anyway finance he is very involved and see yes in the rough you go on not into the computer science
+want to work in finance
+what a chihuahua qualms all
+there were two july while working with programs greater scientists
+so the media for social good is another really cool thing that so from my perspective i a
+existed before the internet
+okay so i remember what it's like
+for the past i information age
+and it
+once upon a time you couldn't gets
+your voice out to the world
+op unless you already have lots of money
+so things like crowd funding revisit it exists
+these things are really powerful to the cool thing happen
+the futures are like this too because it was a futuristic hologram call but
+the
+amazon delivery drones amazon is actually a we've been cleared it
+i am the federal aviation administration
+drone deliveries
+like it's so that's not the future earning more bets now
+in fact
+no
+almost everything uses computers i
+a we certainly will the u s c s in the air apply at all on one thing to talk about i can tell you that even say trades people like like fresh and serve bombers or or typewriters warp or players in a lot of news
+besides his wife
+and
+is it it's
+but
+one thing so what do right now
+safari but this is where his room when you talk about
+what career
+bingo
+but thousands
+use computers i now one of your assignments as simon zero he is to meet other people
+in this course and you going to have to provide us a name in a unique name it something about three other people that you meet this'll be the only opportunity to do that but this is the only one opportunity so i'll want everybody to work in small groups it to share show us
+to know which other
+and toppled little bit about what careers don't you see us
+
+
+okay
+so let's
+back together
+nice to everyone is just nothing but we still have
+ah more to talk about it
+ah
+you tube out please pay back here scenes
+they you
+right so i tend to wander along this ah i'm not even like turn around i can see all these books but i'm not looking at history
+so the only ah electronics policy i have here is
+he courteous
+you're on facebook i wanna know i'm not going to the hassle you
+i so can i have someone
+here volunteer in tell me
+e.
+russian it doesn't you see us
+that's a
+payday
+yes
+i would say motive your contractor you going to use a lot of programs for estimation what ah
+so you're just
+a painter
+maybe now
+eight
+yes
+yes
+classical musician
+passive and i don't know maxim is that true or or
+
+yeah i have a use your musician
+if you wanna market yourself
+they would be beneficial if you were on line
+others are more hear anybody have anything yes
+on this agriculture my head i
+so this is i think the third time i've done this in the in like cure for this was no this is the fourth time and i love the responses i get yours i'm really really cool responses i won't mention some of the other responses because
+some other responses so people could say were inappropriate but they're still be entertained one more
+yes
+our rec shot driver
+that is amazing to live in
+and yes it may be so
+is it yeah
+i mean i don't know how advanced for cars are
+but i have it's
+i've seen a couple they were never that so yeah pretty interesting
+really cool air is the kind of have to go out a little more you know we're more traditional like a jerk
+mm probably for a lot of pain years but not all
+rashad travers probably miles
+seattle out to find
+ah crucible museums
+ubiquitous
+
+so are the revisit
+a job market what is it like
+this is like goes along with the video this is wall most when brought one million jobs may go on film
+so
+here's the point
+ah that i wanna show everyone in here something
+then you should all know
+you may i'm not seeing this information before
+everyone should actually no it's
+solar shoulder that graphs here a minute
+greed is produced in the united states a degree granting institutions and jobs open every year the new jobs or existing jobs for someone retires or leaves the job
+and we have a phd in masters fashion souls years
+open jobs on here enough for engineering which is close to my heart
+ah it looks like
+you know we're bachelor's degrees
+graduates produce every year is more than the jobs every year
+this is a kind of reversal of fortune
+rage in recently i've just got this data on it's not showing up here and be getting caught off
+i dislike the slider go online but this is wrong the us bureau of labor statistics so this is us and not worldwide
+that's not a very good how
+this is projected for years to call
+it gets better though
+so computer science now
+also the green bar which is jobs is actually bigger than any of the others now here if you look at it say was hit by an almost together
+would be more pleasing jobs as i actually he's because of a couple reasons are few reasons
+one masters degrees are sometimes used to get more pay actors same job
+racism is still a new job also we have a large component of international students who come to the us get a degree in c s and go back to their home nation and have great careers that
+so actually there's a deficit here
+we're not producing enough graduates to fill all these shops so that's the roasting what
+not when i show you where kids lol
+that is nice
+
+life sciences
+so this is agricultural sciences biological sciences
+amen
+that will graham
+so that is again
+there's a big reason there's no jobs
+if
+yeah
+it gets worse
+physical sciences so this is a part of this is an art and that's this is
+actually not as bad as life sciences so this is a is a bright spot here we still just a bachelor's degrees a deficit of about to walk
+they were you go
+i will say in here that says we're all at the university of michigan
+ah you can probably expect to outperform this national average
+break
+so it's not just absolutes
+but it's still telling us all
+okay
+so now for the bad news
+that is social sciences
+to the university of michigan psychology is a bigger apartment
+then his sciences
+at university
+although still ended this is
+racial degrees jobs every year
+so if you haven't ever seen any of this coming into college
+i think you need to see i'm not trying to take a one sided picture although you might call me biased
+am i am but is this just to show
+read by the way they may stay
+rate of course this isn't all occupations this is the sciences of various forms
+the social sciences
+yeah
+sao
+they do something
+to consider
+had to make your choices in life are always the disclaimer in here to say that
+you always know how to be happy what to do great
+philosophy is a great major
+and it can lead to the wonderful wife and i know philosophers who teach at universities
+oh really enjoy
+really
+just no
+what the head winds are
+that was a that because the first time
+i present to the stadium which i refresh it every semester for star percent of the state
+op when students submitted their evaluations so
+you get to evaluate me
+yes i think everyone of your instructors at university preview of university of michigan
+please always do so
+we value and very much by an evaluation of those fish
+really angry
+all that crap
+very different
+so say you know this is just one part of what
+how old is a lot
+this is what pokemon see
+sigh said that her talk about it all
+salary
+earlier
+now a half built computer science here
+many jobs means higher salaries
+does anyone wanting guess
+what a university in michigan graduate in computer science
+let's say a median it's starting salary
+graduated with a bachelor's degree is any guesses
+yes
+sixty thousand
+nine eight thousand yes
+eighteen thousand and
+in in back
+your hand out
+ah
+set it up
+gay
+no one was signed it for playing by the price is right though you might win right
+the gentleman was sitting next to you at in and out
+so the law
+i feel like an auctioneer here
+so i'm not enough
+these anymore and as of now
+graduates starting salaries of bachelor's degree median salaries ninety five thousand dollars a year starting salary
+the ninety eight was great on
+great day
+only one over so
+no
+ah range from fifty five
+two hundred and sixty thousand dollars to start
+hey this
+a lotta money
+so crazy
+while the highest
+if not the highest as men
+starting median salary for bachelor's degree of university here
+budapest
+internships
+if the two hundred dollars a month me and so i am on a register and i did research with
+ah went for an internship at the hotel
+and their salary for the summer was seven thousand dollars of law
+also as they were going to side of the country itself even just for three months my view is a game of five thousand dollar movie bonus know the health and he's that you're taking their luggage apparently or something
+their apartments
+so just
+sacrilege lot of internship opportunities
+yeah
+ah
+so now we've come round
+we really believe in programming and i guess all those salary isn't exactly related to programming so we got a little sidetracked was in fact he eats one eighty three concepts
+so it's awful for both programming grudgingly concepts to the machine to the to make something that takes our concepts the weekend actually op do something good will peace
+on outcome hard work
+we talk about concepts
+in this course in in computer science will really talking about our algorithms
+now i'm going to op
+actually this point
+again be a little
+lazy in this and let's
+the video explain to you how did but
+i have
+if
+this
+and how
+huh said i accept it and you lose you the loans though
+where is that a lot and you tube
+well through and you want high and your
+wong see the
+that
+but that's it right
+he had so for her
+let me see
+ruth was a room
+sad and the law
+to this to quell and laos is the other at all and it was signed your
+this is the sunday and out
+it is that it is i ain't you after all we start homeopathy
+on his or her and a us
+involved in
+once the martha stewart who see things that were somewhat on to hint at peace and we
+the last this long for you thought that out
+the it it was a lot of free movie
+this is that is saying is that this story zero
+these things in the room
+it while
+nasa's home
+cliff
+was that it
+does it work there are cheating where lindsay in my own way as the as bruise you will we get in a while so for for whom the the hands you a lot of us that that's the idea they didn't want it it's a lot of sounds and then this is what he says it will still want to
+all out war movies is errors you are you
+as i hate that
+the only issue and the
+this ah but what if he drops it is it worth the work is raise your own
+it's the people
+so all right but what i find it she says the one how futile it is the i want to work on isis said these or what happens in war say it's all his classes that muslims a home and it it a
+and your roof hair and
+sit in the balls and healthy
+crews and rat was all i use it now see that's all
+is this place is that's the last with rats what state is that our our t v one room
+what we use life is it i pay it all and it might seem is is it is the the houses are people so the at your or your own
+in my moi
+his life his hand will have to think the author and
+and raise your view have found it a lot more
+what if there are three feet long
+i saw that
+let's see what
+asia and use it for a payout of the the the red and white see that there is a low her own room so what's the long are lots of what is included in the simpsons rat eighty is is the only reason has the most is this
+but i
+when a movie
+are you scared what was it equals in boston
+the one who reins on payer sit in the hills and was so i saw the lobby and i were and if
+what is it grants that he's in one person that i care about
+isn't that good
+wall of real and learned room
+is it a
+the net
+it has the fourth wife has found you
+good day
+if it if it's something we saw
+the the floor
+whoa whoa
+read all along
+what is the way to do
+there are dark complexion and you will hit
+it it it's on
+things you can do to succeed the scores
+where gonna say is the outer rhythm
+is one of the walls to warrant steps in fact it is a vital step
+it should have
+to cross in this course
+don't forget caught
+developing your how were the sole province will give you a problem to reprogram on
+you have to figure out how you solve that problem and the launcher figured out how you're going to solve the problem
+then you can think about how like going to break a single little bit
+soft rock
+and if you wash
+just go to the keyboard and start typing cold out
+he can get pretty bad you need to back yourself and to really nasty or
+so the algorithms that developing your algorithm is really important
+doubling so i'll point out the video that are probably a little more subtle
+while one thing he isn't that they were looking
+for better how that we do this all the time
+one of them are hungry
+that one big thing in computer science that we're always doing the other thing that you really super important and really super relevant to this course
+fact that they were testing their algorithm and they were thinking how bout how do we test so highly testers solution
+to see if it actually works
+testing is you really important and i can guarantee you were really limits fast
+things the cold that you all right
+so since one of us you should definitely do it to talk talk more about the futures will point out how points
+now we we measured be
+hi i'm complexity
+all wishful we call this we analyze how long it types to solve problem
+all these algorithms of the first one is
+everyone what i want one two three
+four or five six great pretty slow
+emery extra person in arizona and you have to find more twice as many people idiots with a twist on how
+we'll do better year
+coming by payers the fixing it began
+but still
+use of the small
+we've caught the time it happens a lot of people will what can i count everyone at the university
+we're one of the states
+every one of the country forever on the world
+ah i combine chooses a very efficient there's better ways we can do this
+what are the do right now
+actually so everyone in here i was just end up
+what were the two boys were and how often number of people in the room i finally did not including the power and this is everybody is getting right now
+he is represents one like one person you know find someone else and standing
+you had your two numbers together is the first round bill and it's it's you and i'm one of these will sit down
+an ideal to that again to do this for it's also for them to lose but one person standing in this room
+cool out because of the people of the room
+oh
+
+if
+and how
+i had
+if
+if
+if
+i just want to be black
+if
+east
+
+
+
+right we have a house
+
+three thirty eight
+three thirty eight
+that actually i think thank you very much
+actually i believe
+is probably pretty accurate
+your three hundred
+and it's ten people registered for this section just before the section and i think that there might be more people in here is anybody was not registered for this section by the doubt by the rules
+okay so
+the three thirty eight so little much
+for not quite perfect
+lots of facts was a whole lot faster
+that by just one around the room or anybody else i mean i'm sure someone to do it faster want
+two
+and i can tell you i have helped a bit
+people in this room
+before
+it takes less multiple paths to actually get in and today we could just read
+that happens when we do the same
+by the way
+so yeah that was actually much faster
+the flu are coming one by one
+and pretty accurate too
+now what is this look like this now we just did it looks like the green line
+and this has long were the complexity
+now what the great things about that is if we don't hold the number of people in the room with
+re
+it would only take one more step
+she actually count everyone
+if really much more powerful
+fun fact if we had a thousand people in the room anybody wanna tell me
+at most comedy or comedy stuff so we take guess
+flawless
+getting closer
+then yes it would take offense that
+much faster really powerful and the the kind of algorithms you wanna go
+i can also use this algorithm
+on something like
+this
+this is a dictionary for those who are not seen one in in paper form
+cool possesses a dictionary
+
+it had anyone not seen a physical dictionary before
+sooner or later and get someone raises their hand
+as awake long enough
+hot dna eight thirty am class
+i asked him who who possesses a dictionary and someone said i use the internet
+which is what we use out of this
+so this the cherries older than i am a pet for quite a few years i'm sure he's actually use it to look up words the fall want to look up something in the dictionary
+something hassle and the t h i n g
+i could start really getting contents portraits of the presidents of the united states
+op webster's new world new world dictionary
+for work okay i'm not even to war general abstract nope but he later
+nope
+action
+nope
+there is something the back
+or
+i could start
+in the middle
+
+rather
+one thing rather close now
+the closer
+by taking split that in half
+every time i can convert quite quickly to an answer
+is eleven hundred and seventy six
+pages in this stage yet already memorized i did this this morning
+although
+which would require
+how many at most
+eleven yes
+they let him in fact
+he's dictionary had a billion
+pages
+i would take at most thirty splits
+for a follow when i was looking for
+presuming i can split a billion page dictionary
+which i'm just going to ignore that for right now
+that much much faster
+i hope it
+so at this point
+i have a novel little bit about elementary programming concepts we've wandered a little wave of far away from elementary to show were in and out of the course and programming we talk about salaries abilities would wander we've talked about elementary programming concepts
+this
+and the section
+all are the part of this lecture weren't talking about computer science and algorithms and what
+they nominate talk a little bit about the nuts and bolts of what it's like
+in this class
+smiling as they get excited this is a great class is my favorite
+class
+to teach i'm really glad to teach you to give the semester
+love taco what can be like forever but it
+discussion section is
+so
+if the university we have these wonderful things called discussion section by saying that's kind of mocking him away because some courses caution sections are just the way
+for you get more class time
+palm
+and not have to have to teach
+not this
+discussions sections are huge asset in this quarters
+certainly the discussion section so i'll talk about what more about the women we have three different kinds standard
+no experience some experience lot of experience whenever you leave home there
+
+less comfortable no prior to it so
+everybody in this prominent have any experience those two will have the same
+exact material so we have to cooperate and all sections you will work in more detail and depth in much more hands-on
+the cheerios and lecture
+and of course
+ah more comfortable
+is out different challenges so more comfortable you're not going whole were the exact same things is a luxury long lecture
+ah you're going oh you gotta be doing
+how much more advanced than us for those who have a lot of experience in programming
+she devil yeah it's crazy programming
+tackle that
+all all but two were standard one was comparable one more comfortable
+you're allowed to go to for discussions actions
+okay
+cause nobody would ever lectures you can come to light a thirty or fifty want you can visit one of the other two cats
+whatever fits in your schedule so long as we can fit in the room this room would get lots of space
+great discussion sections of the same you register for discussion you like whoa i got
+i have two one across campus to get here
+hello
+these discussions about all
+i really believe that that's all they're great with what they're much more and we have over three hundred people in this room by any measure
+discussion section to afford it
+he lot more calls experience with your colleagues in the course in with the person have different discussion have taught discussions for this course and i'm walt teaching discussion is the school is really a wonderful experience for everyone and wall
+ah
+more hands on experience you can be working together in groups to solve problems to halt or understood the warp practice
+you get to know the staff
+it's really great to know the staff
+they will be your best friends in this course i guarantee it
+they're also really super friendly
+wonderful op ed your peers that's very helpful to form partnerships the first two projects before
+projects in the semester one big showcase project
+first to project you have to work
+hello
+the next two pleasure to work with one partner the final project thou shalt working groups of four
+so it's good to get to know people
+casual through the semester
+this is really relate to be engaged so hot in addition to my research on computer security
+ah an architecture also the research on learning
+in the teaching and learning in engineering or computer science and teaching learning learning
+if you're engaged
+the good work op
+quite a splash
+we don't take attendance so it's entirely voluntary that's why i'm so
+encouraging
+cause i got a swim an online book called timeout say
+i'll believe it i'm sorry it's not free
+there is the instructions on how to roll of course website the twenty three on war
+it's reading with song short answers
+called black
+this is practice
+small pint sized chunks of calling problems we're given a problem you come up with an algorithm you break it to go when you type in your code you had an error and it says law
+yes to go back to figure out what she did wrong
+really effective it can be frustrating
+really useful
+i cook or who use back quicker before
+cool like cyclic
+aw brilliant pocket
+i love it and this course is going to use it during lecture and i think that you'll enjoy
+try to make it
+more enjoy
+ah they just questions we asked during lecture is only part on your part of your points for your great
+as well
+more details about that muscles
+so one thing i wanna say please
+reid
+the syllabus
+many questions i'd get
+my answer will be
+it's a soulless
+results results so just cannot away result is a lot of very useful things in there too
+if you don't all
+to make this semester hard
+really great website as maxim said thanks to maximum he can say that it is something wrong it's his fault
+it is if there's something there
+it's 'cause he did
+and
+i'm in zero to friday
+all the third one point just ignore that is not supposed to be there have been shifted to the next assignment this time is available on the course website do you do you view it you right now
+
+me is that this is really more so this sunday hats
+six pm right here how convenient
+when i have made this that i won't be here
+what's the teaching assistants well and so they can give you honest answers without the year
+and it just to get to know
+everybody
+also after that they're gonna help you
+get up to speed on the tools you're gonna need visual studio for pc next quarter back
+to accomplish you work in the scores
+really know what the recording back to smell also be available
+of course scheduled to achieve everything you need to know
+like your tools this is recorded by slides around why are the set
+the access
+if you're needing assistance you go on merit not register for this
+this is the first place you go
+wait you have a question do yachts
+you can post questions you can answer each other's question is too that's fine
+great opportunity to get your question answer in the quickest
+manner possible if you email me with a question about an assignment
+i know exactly how long it it beats me get it
+the op
+if
+ah this ours
+if you knew university and especially if you're new to
+programming courses you're use office hours are lots
+office hours are a big feature the course
+we office hours monday to friday three atm except on tuesdays only tool sex with him is that the insects
+rama to our stats you can look about
+i'm a tawny owl back
+fine if if you don't know on north campus apologies for the trip
+you can take a boss
+bomb apologies for the boss
+actual losses that is really good here ever since i lived in ethiopia
+and had to get around awesome op in ethiopia
+i can never actually complain about the boss isn't an armory
+okay
+great place to get one on one health
+talks
+so last few minutes how will we visit
+i'm really important things
+we you can see
+what the students from last semester
+their experience in this course and this one for mueller your experience is going to be
+these numbers are almost for a lot the same every semester
+sixty two percent were unfamiliar this is we asked when when everybody leaves the end of semester was asked to fill out a survey of what was it like for you here
+overall
+honey rate declined
+now
+these are really super good for the technical courses usually those numbers for our overall ah yeah
+aren't that high and keep this in mind when you see the hours of work low
+sharking just the man
+not right now in fact
+we're close
+people really like the course
+but it's a lot of work
+plan ahead
+this is not course you just i'm going to work on com the lecture come in and take the exam
+did you go
+too little homework
+no
+so were qualified as though this little slow
+ah five percent safe now much work
+was that mean
+we're three hours
+how much time the pistons last semester it spent in this course
+ah eight percent said zero five i don't know how they got to this course in
+under five ah yes legally
+this is weekly average
+yes
+not daily is that they are but it is a weekly
+by the ten hours of learning
+ten fifteen hours another third
+and we have one in five people
+actually spend at least fifteen hours a week on average pretty heavy work well
+also know that
+i have a very bad penchant for running all week so five thirty
+challenge
+lots of town
+lots of support lots of effort lots of challenge lots of support
+people love it i enjoyed this course even with all the hours
+very positive
+the goal to recommend this course they recommended that one slide in particular lectures i work on that each semester and lighting up that far slowly a few percent each year that five goals so my goal was to have a whole layer discussions people like discussions with life
+if
+that we have lots of office so
+we're here to support you
+this is the graph about like the most
+in its
+stones leading this course i was comfortable in the twenty three as i am in a way other classes in any subject here a few of them
+while one in five said no
+everyone else said it
+yeah
+we're yes
+really
+so with that stuff
+is tied thank you and i'll see you on thursday thank you
