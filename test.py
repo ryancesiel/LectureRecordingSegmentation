@@ -86,6 +86,35 @@ def identify_boundaries(tt, depth_scores, percent = 80, boundary_diff = 5):
                 boundaries[dt[1]] = 0
     return boundaries
 
+def _create_ngrams_table(tokseqs, n = 2):
+    ngram_table = {}
+    current_tok_seq = 0
+    tt = nltk.tokenize.texttiling.TokenTableField
+    for ts in tokseqs:
+        ts_tb = TextBlob(' '.join([word[0] for word in ts.wrdindex_list]))
+        ngrams = nltk.bigrams([word[0] for word in ts.wrdindex_list])
+        if n == 3:
+            ngrams = nltk.trigrams([word[0] for word in ts.wrdindex_list])
+        for ngram in ngrams:
+            if ngram in ngram_table:
+                ngram_table[ngram].total_count += 1
+
+                if ngram_table[ngram].last_tok_seq != current_tok_seq:
+                    ngram_table[ngram].last_tok_seq = current_tok_seq
+                    ngram_table[ngram].ts_occurences.append([current_tok_seq,1])
+                else:
+                    ngram_table[ngram].ts_occurences[-1][1] += 1
+            else: #new word
+                ngram_table[ngram] = tt(first_pos=0,
+                                        ts_occurences=[[current_tok_seq,1]],
+                                        total_count=1,
+                                        par_count=1,
+                                        last_par=0,
+                                        last_tok_seq=current_tok_seq)
+        current_tok_seq += 1
+
+    return ngram_table
+
 def _np_block_comparison(tokseqs, noun_phrases):
     "Implements the block comparison method"
     TT_K = 30
@@ -173,12 +202,17 @@ def tokenize(tt, text, targets, percent = 80, boundary_diff = 5):
     _divide_to_tokensequences(tt, nopunct_text)
     # print (nopunct_text)
 
+    # START UNIGRAM TOKEN_TABLE
     # Filter stopwords
     for ts in tokseqs:
         ts.wrdindex_list = [wi for wi in ts.wrdindex_list
                             if wi[0] not in tt.stopwords]
 
     token_table = tt._create_token_table(tokseqs, nopunct_par_breaks)
+    # END UNIGRAM TOKEN_TABLE
+    # START NGRAM TOKEN_TABLE
+    token_table = _create_ngrams_table(tokseqs, 3)
+    # END NGRAM TOKEN_TABLE
     # End of the Tokenization step
 
     # Lexical score determination
@@ -191,9 +225,10 @@ def tokenize(tt, text, targets, percent = 80, boundary_diff = 5):
 
     # Boundary identification
     depth_scores = tt._depth_scores(smooth_scores)
+    print depth_scores
     np_depth_scores = tt._depth_scores(np_smooth_scores)
-    for idx, np_ds in enumerate(np_depth_scores):
-        depth_scores[idx] = depth_scores[idx] * 0.80 + np_ds * 0.2
+    # for idx, np_ds in enumerate(np_depth_scores):
+    #     depth_scores[idx] = depth_scores[idx] * 0.80 + np_ds * 0.2
 
     # segment_boundaries = tt._identify_boundaries(depth_scores)
 
@@ -266,7 +301,7 @@ def baseline(target_boundry):
 
 text = ""
 targets = []
-with open("MIT_lec_4.train") as f:
+with open("MIT_lec_1.train") as f:
     content = f.readlines()
     for line in content:
         text+=line
@@ -279,7 +314,7 @@ print (targets)
 tt = nltk.tokenize.texttiling.TextTilingTokenizer(k=30, demo_mode=True)
 
 new_text, s, ss, d, b,t = tokenize(tt, text, targets, 75, 8)
-# plot(s, ss, d, b, t)
+plot(s, ss, d, b, t)
 precision, recall = evaluate(b,t)
 print(precision, recall)
 baseline(t)
