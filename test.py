@@ -222,6 +222,60 @@ def _np_block_comparison(tokseqs, noun_phrases):
 
     return gap_scores
 
+def _wn_block_comparison(tokseqs, token_table):
+    "Implements the block comparison method"
+    TT_K = 30
+
+    def blk_frq(tok, block):
+        # get all synonyms for verb form of tok
+        synonyms = [tok]
+        for synset in wordnet.synsets(tok, pos='v'):
+            synonyms += synset.lemma_names()
+        synonyms = list(set(synonyms)) # remove duplicates
+
+        # sum all occurences of word and its synonyms into one sum
+        ts_occs = []
+        for word in synonyms:
+            if word not in token_table:
+                continue
+            ts_occs += filter(lambda o: o[0] in block,
+                             token_table[word].ts_occurences)
+        freq = sum([ts_occ[1] for ts_occ in ts_occs])
+        return freq
+
+    gap_scores = []
+    numgaps = len(tokseqs)-1
+
+    for curr_gap in range(numgaps):
+        score_dividend, score_divisor_b1, score_divisor_b2 = 0.0, 0.0, 0.0
+        score = 0.0
+        #adjust window size for boundary conditions
+        if curr_gap < TT_K-1:
+            window_size = curr_gap + 1
+        elif curr_gap > numgaps-TT_K:
+            window_size = numgaps - curr_gap
+        else:
+            window_size = TT_K
+
+        b1 = [ts.index
+              for ts in tokseqs[curr_gap-window_size+1 : curr_gap+1]]
+        b2 = [ts.index
+              for ts in tokseqs[curr_gap+1 : curr_gap+window_size+1]]
+
+        for t in token_table:
+            score_dividend += blk_frq(t, b1)*blk_frq(t, b2)
+            score_divisor_b1 += blk_frq(t, b1)**2
+            score_divisor_b2 += blk_frq(t, b2)**2
+        try:
+            score = score_dividend/math.sqrt(score_divisor_b1*
+                                             score_divisor_b2)
+        except ZeroDivisionError:
+            pass # score += 0.0
+
+        gap_scores.append(score)
+
+    return gap_scores
+
 def tokenize(tt, text, targets, percent = 80, boundary_diff = 5, cue_filter = False, np_percent = 0):
 
     lowercase_text = text.lower()
@@ -257,6 +311,19 @@ def tokenize(tt, text, targets, percent = 80, boundary_diff = 5, cue_filter = Fa
         ts.wrdindex_list = [wi for wi in ts.wrdindex_list
                             if wi[0] not in tt.stopwords]
 
+    def is_verb(word):
+        return word == 'VB' or word == 'VBZ' or word == 'VBP' \
+               or word == 'VBD' or word == 'VBN' or word == 'VBG'
+
+    verb_tokseqs = []
+    for ts in tokseqs:
+        verb_ts = copy.deepcopy(ts)
+        words_with_pos_tags = TextBlob(' '.join([wi[0] for wi in verb_ts.wrdindex_list])).tags
+
+        verb_ts.wrdindex_list = [wi for i, wi in enumerate(verb_ts.wrdindex_list)
+                                 if is_verb(words_with_pos_tags[i][1])]
+        verb_tokseqs.append(verb_ts)
+
     token_table = tt._create_token_table(tokseqs, nopunct_par_breaks)
     # print (token_table)
     # END UNIGRAM TOKEN_TABLE
@@ -269,15 +336,18 @@ def tokenize(tt, text, targets, percent = 80, boundary_diff = 5, cue_filter = Fa
     # Lexical score determination
     gap_scores = tt._block_comparison(tokseqs, token_table)
     np_gap_scores = _np_block_comparison(tokseqs, [])
+    verb_gap_scores = _wn_block_comparison(verb_tokseqs, token_table)
 
     smooth_scores = tt._smooth_scores(gap_scores)
     np_smooth_scores = tt._smooth_scores(np_gap_scores)
+    verb_smooth_scores = tt._smooth_scores(verb_gap_scores)
     # End of Lexical score Determination
 
     # Boundary identification
     depth_scores = tt._depth_scores(smooth_scores)
     print depth_scores
     np_depth_scores = tt._depth_scores(np_smooth_scores)
+    verb_depth_scores = tt._depth_scores(verb_smooth_scores)
 
     # for idx, np_ds in enumerate(np_depth_scores):
     #     depth_scores[idx] = depth_scores[idx] * (1-np_percent) + np_ds * np_percent
@@ -438,7 +508,7 @@ new_text = test_best_setup(text)
 #         print('w: ', ww, 'k: ', kk, precision, recall, f1)
 
 ss = SimpleSummarizer()
-f = open('test.out','w') 
+f = open('test.out','w')
 index = 1
 for para in new_text:
     index+=1
@@ -446,4 +516,3 @@ for para in new_text:
     print (index,  ss.summarize(para, 1))
     f.write(output)
 f.close()
-
