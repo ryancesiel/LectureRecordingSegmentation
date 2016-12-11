@@ -8,6 +8,7 @@ import numpy
 from summary import SimpleSummarizer
 from nltk.stem.porter import *
 from textblob import TextBlob
+from parameter import Parameter
 
 def plot(s, ss, d, b, t):
     # print (b, t)
@@ -88,10 +89,38 @@ def filter_cue_words(hp, tokseqs):
                     break
         if has_begin_cue or has_end_cue:
             num += 1
-    print (num, len(hp), len(new_hp))
+    # print (num, len(hp), hp)
     return new_hp
 
-def identify_boundaries(tt, depth_scores, tokseqs, percent = 80, boundary_diff = 5, cue_filter = False):
+
+
+def update_hp_by_cue_words(hp, tokseqs, cue_percent):
+    topic_begin = read_cue_words('topic_begin')
+    topic_end = read_cue_words('topic_end')
+    # print (topic_begin, topic_end)
+    num = 0
+    new_hp = []
+    for dt in hp:
+        has_end_cue = False
+        has_begin_cue = False
+        # print (len(tokseqs[dt[1]].wrdindex_list))
+        for wi in tokseqs[dt[1]].wrdindex_list:
+            if wi[0] in topic_end:
+                new_hp.append((dt[0] * (1+cue_percent), dt[1]))
+                has_end_cue = True
+                break
+        if not has_end_cue:
+            for wi in tokseqs[dt[1]+1].wrdindex_list:
+                if wi[0] in topic_begin:
+                    new_hp.append((dt[0] * (1+cue_percent), dt[1]))
+                    has_begin_cue = True
+                    break
+        if not has_begin_cue and not has_end_cue:
+            new_hp.append(dt)
+    # print (len(new_hp), len(hp), hp, new_hp)
+    return new_hp
+
+def identify_boundaries(tt, depth_scores, tokseqs, percent = 80, boundary_diff = 5, cue_filter = False, cue_percent = 0):
     """Identifies boundaries at the peaks of similarity score
     differences"""
 
@@ -115,6 +144,8 @@ def identify_boundaries(tt, depth_scores, tokseqs, percent = 80, boundary_diff =
     hp = list(filter(lambda x:x[0]>cutoff, depth_tuples))
     if cue_filter:
         hp = filter_cue_words(hp, tokseqs)
+
+    hp = update_hp_by_cue_words(hp, tokseqs, cue_percent)
     # print (hp)
     # print (new_hp)
 
@@ -222,7 +253,7 @@ def _np_block_comparison(tokseqs, noun_phrases):
 
     return gap_scores
 
-def tokenize(tt, text, targets, percent = 80, boundary_diff = 5, cue_filter = False, np_percent = 0):
+def tokenize(tt, text, targets, percent = 80, boundary_diff = 5, cue_filter = False, np_percent = 0, cue_percent = 0):
 
     lowercase_text = text.lower()
     paragraph_breaks = tt._mark_paragraph_breaks(text)
@@ -260,8 +291,9 @@ def tokenize(tt, text, targets, percent = 80, boundary_diff = 5, cue_filter = Fa
     token_table = tt._create_token_table(tokseqs, nopunct_par_breaks)
     # print (token_table)
     # END UNIGRAM TOKEN_TABLE
+
     # START NGRAM TOKEN_TABLE
-    token_table = _create_ngrams_table(tokseqs, 3)
+    # token_table = _create_ngrams_table(tokseqs, 3)
     # print (token_table)
     # END NGRAM TOKEN_TABLE
     # End of the Tokenization step
@@ -276,15 +308,13 @@ def tokenize(tt, text, targets, percent = 80, boundary_diff = 5, cue_filter = Fa
 
     # Boundary identification
     depth_scores = tt._depth_scores(smooth_scores)
-    print depth_scores
+    # print depth_scores
     np_depth_scores = tt._depth_scores(np_smooth_scores)
 
-    # for idx, np_ds in enumerate(np_depth_scores):
-    #     depth_scores[idx] = depth_scores[idx] * (1-np_percent) + np_ds * np_percent
+    for idx, np_ds in enumerate(np_depth_scores):
+        depth_scores[idx] = depth_scores[idx] * (1-np_percent) + np_ds * np_percent
 
-    # segment_boundaries = tt._identify_boundaries(depth_scores)
-
-    segment_boundaries = identify_boundaries(tt, depth_scores, tokseqs, percent, boundary_diff, cue_filter)
+    segment_boundaries = identify_boundaries(tt, depth_scores, tokseqs, percent, boundary_diff, cue_filter, cue_percent)
 
     normalized_boundaries = tt._normalize_boundaries(text,
                                                        segment_boundaries,
@@ -358,7 +388,7 @@ def baseline(target_boundry):
 def test_best_setup(text):
     tt = nltk.tokenize.texttiling.TextTilingTokenizer(w=38, k=23, demo_mode=True)
 
-    new_text, s, ss, d, b,t = tokenize(tt, text, targets, 70, 9)
+    new_text, s, ss, d, b,t = tokenize(tt, text, targets, 70, 9, True)
     # plot(s, ss, d, b, t)
     precision, recall, f1 = evaluate(b,t)
     print(precision, recall, f1)
@@ -396,14 +426,38 @@ def test_np(text):
                 precision, recall, f1 = evaluate(b,t)
                 print('percent: ', i, 'distance: ', j, 'np_percent', k, precision, recall, f1)
 
+def test_all(text):
+    parameters = []
+    for w in range(34, 48, 2):
+        for k in range(20,30, 2):
+            for percentile in range(50, 90, 10):
+                for boundary_diff in range(7,10):
+                    for np_percent in [0]:
+                        for cue_percent in [0,0.2]:
+                    # for np_percent in [0,0.05]:
+                    #     for cue_percent in [0,0.05]:
+                            tt = nltk.tokenize.texttiling.TextTilingTokenizer(w=w, k=k, demo_mode=True)
+                            new_text, s, ss, d, b,t = tokenize(tt, text, targets, percentile, boundary_diff, False, np_percent, cue_percent)
+                            precision, recall, f1 = evaluate(b,t)
+                            parameters.append(Parameter(k, w, percentile, boundary_diff, np_percent, cue_percent, precision, recall, f1))
+                            print (w, k, percentile, boundary_diff, np_percent, cue_percent, precision, recall, f1)
+    sorted_para = sorted(parameters, key=lambda parameter: parameter.f1, reverse = True)
+    print (sorted_para)
+    f = open('test_all.out','w') 
+    for para in sorted_para:
+        output = str(para) + '\n'
+        f.write(output)
+    f.close()
+    return new_text
 
 # filter_cue_words(0,0)
 text = ""
 targets = []
 MIT_lec_1 = "MIT_lec_1.train"
 MIT_lec_combined = "MIT_lec_combined.train"
+MIT_all = "MIT_lec_all.train"
 test_name = "asr-output/eecs183-96.txt"
-with open(MIT_lec_1) as f:
+with open(MIT_all) as f:
     content = f.readlines()
     for line in content:
         text+=line
@@ -416,7 +470,7 @@ f.close()
 
 # test_cue_word(text)
 
-new_text = test_best_setup(text)
+test_all(text)
 
 # new_text, s, ss, d, b,t = tokenize(tt, text, targets, 75, 8)
 # plot(s, ss, d, b, t)
@@ -437,13 +491,13 @@ new_text = test_best_setup(text)
 
 #         print('w: ', ww, 'k: ', kk, precision, recall, f1)
 
-ss = SimpleSummarizer()
-f = open('test.out','w') 
-index = 1
-for para in new_text:
-    index+=1
-    output = para + '\n\n\n' + '<<BREAK>>' + '\n\n\n'
-    print (index,  ss.summarize(para, 1))
-    f.write(output)
-f.close()
+# ss = SimpleSummarizer()
+# f = open('test.out','w') 
+# index = 1
+# for para in new_text:
+#     index+=1
+#     output = para + '\n\n\n' + '<<BREAK>>' + '\n\n\n'
+#     print (index,  ss.summarize(para, 1))
+#     f.write(output)
+# f.close()
 
