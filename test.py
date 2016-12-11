@@ -8,6 +8,8 @@ import numpy
 from summary import SimpleSummarizer
 from nltk.stem.porter import *
 from textblob import TextBlob
+from nltk.corpus import wordnet
+import copy
 
 def plot(s, ss, d, b, t):
     # print (b, t)
@@ -230,6 +232,8 @@ def _wn_block_comparison(tokseqs, token_table):
         # get all synonyms for verb form of tok
         synonyms = [tok]
         for synset in wordnet.synsets(tok, pos='v'):
+            for hypernym in synset.hypernyms():
+                synonyms += hypernym.lemma_names()
             synonyms += synset.lemma_names()
         synonyms = list(set(synonyms)) # remove duplicates
 
