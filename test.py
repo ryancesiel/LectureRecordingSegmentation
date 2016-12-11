@@ -428,12 +428,12 @@ def test_np(text):
 
 def test_all(text):
     parameters = []
-    for w in range(34, 48, 2):
-        for k in range(20,30, 2):
+    for w in range(40, 48, 2):
+        for k in range(20,30, 3):
             for percentile in range(50, 90, 10):
                 for boundary_diff in range(7,10):
                     for np_percent in [0]:
-                        for cue_percent in [0,0.2]:
+                        for cue_percent in [0,0.5]:
                     # for np_percent in [0,0.05]:
                     #     for cue_percent in [0,0.05]:
                             tt = nltk.tokenize.texttiling.TextTilingTokenizer(w=w, k=k, demo_mode=True)
@@ -457,7 +457,7 @@ MIT_lec_1 = "MIT_lec_1.train"
 MIT_lec_combined = "MIT_lec_combined.train"
 MIT_all = "MIT_lec_all.train"
 test_name = "asr-output/eecs183-96.txt"
-with open(MIT_all) as f:
+with open(MIT_lec_combined) as f:
     content = f.readlines()
     for line in content:
         text+=line
