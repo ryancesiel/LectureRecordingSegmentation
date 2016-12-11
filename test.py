@@ -211,7 +211,7 @@ def tokenize(tt, text, targets, percent = 80, boundary_diff = 5):
     token_table = tt._create_token_table(tokseqs, nopunct_par_breaks)
     # END UNIGRAM TOKEN_TABLE
     # START NGRAM TOKEN_TABLE
-    token_table = _create_ngrams_table(tokseqs, 3)
+    # token_table = _create_ngrams_table(tokseqs, 3)
     # END NGRAM TOKEN_TABLE
     # End of the Tokenization step
 
