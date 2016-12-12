@@ -473,10 +473,10 @@ def baseline(target_boundry):
     return baseline_boundry
 
 def test_best_setup(text):
-    tt = nltk.tokenize.texttiling.TextTilingTokenizer(w=38, k=23, demo_mode=True)
+    tt = nltk.tokenize.texttiling.TextTilingTokenizer(w=40, k=23, demo_mode=True)
 
-    new_text, s, ss, d, b,t = tokenize(tt, text, targets, 70, 9, True)
-    # plot(s, ss, d, b, t('percent: ', 90, 'distance: ', 7, 'cue', False, 0.3333333333333333, 0.5, 0.4))
+    new_text, s, ss, d, b,t = tokenize(tt, text, targets, 80, 9, True)
+    plot(s, ss, d, b, t)
     precision, recall, f1 = evaluate(b,t)
     print(precision, recall, f1)
     baseline(t)
@@ -516,11 +516,11 @@ def test_np(text):
 def test_all(text):
     parameters = []
     for w in range(40, 48, 2):
-        for k in range(20,30, 3):
-            for percentile in range(50, 90, 10):
+        for k in range(20,30, 4):
+            for percentile in range(70, 90, 10):
                 for boundary_diff in range(7,10):
                     for np_percent in [0]:
-                        for cue_percent in [0,0.5]:
+                        for cue_percent in [0]:
                     # for np_percent in [0,0.05]:
                     #     for cue_percent in [0,0.05]:
                             tt = nltk.tokenize.texttiling.TextTilingTokenizer(w=w, k=k, demo_mode=True)
@@ -592,11 +592,12 @@ def test_cuewords_weight(lecs):
 
 text = ""
 targets = []
+Lec1 = "Lec1.train"
 MIT_lec_1 = "MIT_lec_1.train"
 MIT_lec_combined = "MIT_lec_combined.train"
 MIT_all = "MIT_lec_all.train"
 test_name = "asr-output/eecs183-96.txt"
-with open(MIT_lec_1) as f:
+with open(Lec1) as f:
     content = f.readlines()
     for line in content:
         text+=line
@@ -604,9 +605,10 @@ with open(MIT_lec_1) as f:
             # print (line)
             targets.append((line.split('[[')[1]).split(']')[0].lower())
 f.close()
+print (targets)
 
-new_text = test_best_setup(text)
-output(new_text)
+new_text = test_all(text)
+# output(new_text)
 
 # print (targets)
 MIT_lec_testing = ["MIT_lec_18.train", "MIT_lec_19.train", "MIT_lec_20.train", "MIT_lec_21.train", "MIT_lec_22.train", "MIT_lec_23.train", "MIT_lec_24.train", "MIT_lec_25.train", "MIT_lec_26.train"]
