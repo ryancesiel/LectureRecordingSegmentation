@@ -67,8 +67,8 @@ def read_cue_words(fname):
     return set(words)
 
 def filter_cue_words(hp, tokseqs):
-    topic_begin = read_cue_words('topic_begin')
-    topic_end = read_cue_words('topic_end')
+    topic_begin = read_cue_words('chi2_cuewords')
+    topic_end = read_cue_words('chi2_cuewords')
     # print (topic_begin, topic_end)
     num = 0
     new_hp = []
@@ -95,8 +95,8 @@ def filter_cue_words(hp, tokseqs):
 
 
 def update_hp_by_cue_words(hp, tokseqs, cue_percent):
-    topic_begin = read_cue_words('topic_begin')
-    topic_end = read_cue_words('topic_end')
+    topic_begin = read_cue_words('chi2_cuewords')
+    topic_end = read_cue_words('chi2_cuewords')
     # print (topic_begin, topic_end)
     num = 0
     new_hp = []
@@ -106,17 +106,17 @@ def update_hp_by_cue_words(hp, tokseqs, cue_percent):
         # print (len(tokseqs[dt[1]].wrdindex_list))
         for wi in tokseqs[dt[1]].wrdindex_list:
             if wi[0] in topic_end:
-                new_hp.append((dt[0] * (1+cue_percent), dt[1]))
+                new_hp.append(dt)
                 has_end_cue = True
                 break
         if not has_end_cue:
             for wi in tokseqs[dt[1]+1].wrdindex_list:
                 if wi[0] in topic_begin:
-                    new_hp.append((dt[0] * (1+cue_percent), dt[1]))
+                    new_hp.append(dt)
                     has_begin_cue = True
                     break
         if not has_begin_cue and not has_end_cue:
-            new_hp.append(dt)
+            new_hp.append((dt[0] * (1 - cue_percent), dt[1]))
     # print (len(new_hp), len(hp), hp, new_hp)
     return new_hp
 
@@ -146,9 +146,7 @@ def identify_boundaries(tt, depth_scores, tokseqs, percent = 80, boundary_diff =
         hp = filter_cue_words(hp, tokseqs)
 
     hp = update_hp_by_cue_words(hp, tokseqs, cue_percent)
-    # print (hp)
-    # print (new_hp)
-
+    hp = list(filter(lambda x:x[0]>cutoff, hp))
     for dt in hp:
         boundaries[dt[1]] = 1
         for dt2 in hp: #undo if there is a boundary close already
@@ -389,7 +387,7 @@ def test_best_setup(text):
     tt = nltk.tokenize.texttiling.TextTilingTokenizer(w=38, k=23, demo_mode=True)
 
     new_text, s, ss, d, b,t = tokenize(tt, text, targets, 70, 9, True)
-    # plot(s, ss, d, b, t)
+    # plot(s, ss, d, b, t('percent: ', 90, 'distance: ', 7, 'cue', False, 0.3333333333333333, 0.5, 0.4))
     precision, recall, f1 = evaluate(b,t)
     print(precision, recall, f1)
     baseline(t)
@@ -449,15 +447,67 @@ def test_all(text):
         f.write(output)
     f.close()
     return new_text
+def test_cuewords_weight(lecs):
+    b0 = []
+    t0 = []
+    b10 = []
+    t10 = []
+    b20 = []
+    t20 = []
+    b30 = []
+    t30 = []
+    b40 = []
+    t40 = []
+    bf = []
+    tf = []
+    for lec in lecs:
+        text = ""
+        targets = []
+        with open(lec) as f:
+            content = f.readlines()
+            for line in content:
+                text+=line
+                if line[0:2] == '[[':
+                    # print (line)
+                    targets.append((line.split('[[')[1]).split(']')[0].lower())
+            f.close()
+            tt = nltk.tokenize.texttiling.TextTilingTokenizer(w=38, k=23, demo_mode=True)
+            new_text, s, ss, d, b,t = tokenize(tt, text, targets, 75, 8, False, 0, 0)
+            b0.extend(b)
+            t0.extend(t)
+            #print t
+            new_text, s, ss, d, b,t = tokenize(tt, text, targets, 75, 8, False, 0, 0.1)
+            b10.extend(b)
+            t10.extend(t)
+            #print t
+            new_text, s, ss, d, b,t = tokenize(tt, text, targets, 75, 8, False, 0, 0.2)
+            b20.extend(b)
+            t20.extend(t)
+            new_text, s, ss, d, b,t = tokenize(tt, text, targets, 75, 8, False, 0, 0.3)
+            b30.extend(b)
+            t30.extend(t)
+            new_text, s, ss, d, b,t = tokenize(tt, text, targets, 75, 8, False, 0, 0.4)
+            b40.extend(b)
+            t40.extend(t)
+            new_text, s, ss, d, b,t = tokenize(tt, text, targets, 75, 8, True, 0, 0)
+            bf.extend(b)
+            tf.extend(t)
+            #print t
+    print 0, evaluate(b0, t0)
+    print 10, evaluate(b10, t10)
+    print 20, evaluate(b20, t20)
+    print 30, evaluate(b30, t30)
+    print 40, evaluate(b40, t40)
+    print "filter", evaluate(bf, tf)
 
-# filter_cue_words(0,0)
+
 text = ""
 targets = []
 MIT_lec_1 = "MIT_lec_1.train"
 MIT_lec_combined = "MIT_lec_combined.train"
 MIT_all = "MIT_lec_all.train"
 test_name = "asr-output/eecs183-96.txt"
-with open(MIT_lec_combined) as f:
+with open(MIT_lec_1) as f:
     content = f.readlines()
     for line in content:
         text+=line
@@ -465,12 +515,15 @@ with open(MIT_lec_combined) as f:
             # print (line)
             targets.append((line.split('[[')[1]).split(']')[0].lower())
 f.close()
+
+# test_best_setup(text)
+
 # print (targets)
+MIT_lec_testing = ["MIT_lec_18.train", "MIT_lec_19.train", "MIT_lec_20.train", "MIT_lec_21.train", "MIT_lec_22.train", "MIT_lec_23.train", "MIT_lec_24.train", "MIT_lec_25.train", "MIT_lec_26.train"]
+#MIT_lec_testing = ["MIT_lec_1.train", "MIT_lec_2.train", "MIT_lec_3.train"]
+test_cuewords_weight(MIT_lec_testing)
 
 
-# test_cue_word(text)
-
-test_all(text)
 
 # new_text, s, ss, d, b,t = tokenize(tt, text, targets, 75, 8)
 # plot(s, ss, d, b, t)
