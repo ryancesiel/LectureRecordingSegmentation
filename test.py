@@ -11,6 +11,7 @@ from textblob import TextBlob
 from parameter import Parameter
 from nltk.corpus import wordnet
 import copy
+import json
 
 def output(new_text):
     ss = SimpleSummarizer()
@@ -40,9 +41,9 @@ def find_target_boundry(tt, text, targets):
     w = tt.w
     wrdindex_list = []
     matches = re.finditer("\w+", text)
-    a = 0
+    # a = 0
     for match in matches:
-        a+=1
+        # a+=1
         wrdindex_list.append(match.group())
     target_boundry = [0] * int(len(wrdindex_list)/tt.w)
     # print (len(target_boundry))
@@ -104,8 +105,6 @@ def filter_cue_words(hp, tokseqs):
             num += 1
     # print (num, len(hp), hp)
     return new_hp
-
-
 
 def update_hp_by_cue_words(hp, tokseqs, cue_percent):
     topic_begin = read_cue_words('chi2_cuewords')
@@ -334,8 +333,10 @@ def tokenize(tt, text, targets, percent = 80, boundary_diff = 5, cue_filter = Fa
                            if re.match("[a-z\-\' \n\t]", c))
 
     nopunct_par_breaks = tt._mark_paragraph_breaks(nopunct_text)
-
     tokseqs = tt._divide_to_tokensequences(nopunct_text)
+    # for ts in tokseqs:
+    #     print str(ts.index) + '\n', ts.wrdindex_list
+    # exit(0)
 
     target_boundry = find_target_boundry(tt, nopunct_text, targets)
     _divide_to_tokensequences(tt, nopunct_text)
@@ -475,8 +476,14 @@ def baseline(target_boundry):
 def test_best_setup(text):
     tt = nltk.tokenize.texttiling.TextTilingTokenizer(w=38, k=23, demo_mode=True)
 
-    new_text, s, ss, d, b,t = tokenize(tt, text, targets, 70, 9, True)
-    # plot(s, ss, d, b, t('percent: ', 90, 'distance: ', 7, 'cue', False, 0.3333333333333333, 0.5, 0.4))
+    new_text, s, ss, d, b,t = tokenize(tt, text, targets, 90, 7, False)
+    # plot(s, ss, d, b, t)
+    
+    # print b
+    # print '--------------------------------'
+    # print t
+    # exit(0)
+
     precision, recall, f1 = evaluate(b,t)
     print(precision, recall, f1)
     baseline(t)
@@ -536,6 +543,7 @@ def test_all(text):
         f.write(output)
     f.close()
     return new_text
+
 def test_cuewords_weight(lecs):
     b0 = []
     t0 = []
@@ -589,29 +597,105 @@ def test_cuewords_weight(lecs):
     print 40, evaluate(b40, t40)
     print "filter", evaluate(bf, tf)
 
+def getPredictedTimestamps(timestamps_file, new_text):
+    # (sentence beginning, start time)
+    sentence_starts = []
+    with open(timestamps_file) as f:
+        iter_f = iter(f)
+        prev_line = ''
+        for line in iter_f:
+            if str(line[0]).isupper() and prev_line[0] == '0':
+                sentence_starts.append((line[:-1], prev_line[:8]))
+            prev_line = line[:8]
+
+    # { 
+    #   'Heading1': {
+    #       'text': 'text within boundary',
+    #       'start': '##:##:##',
+    # }
+    segment_timestamps = {}
+    n = 1
+    for segment in new_text:
+        segment_begin = segment.split('.')[0]
+        # print '------------------------------------'
+        # print 'Looking for segment:', segment_begin
+        for candidate in sentence_starts:
+            if candidate[0][:-1] in segment_begin:
+                # print 'Found matching candidate:', candidate[1], '\n', candidate[0]
+                segment_timestamps['Heading'+str(n)] = {}
+                segment_timestamps['Heading'+str(n)]['text'] = segment
+                segment_timestamps['Heading'+str(n)]['start'] = candidate[1]
+                n += 1
+                break
+    return segment_timestamps
+
+def getGoldTimestamps(gold_times_file):
+    # { 
+    #   'Heading1': {
+    #       'heading': 'actual heading title',
+    #       'start': '##:##:##',
+    #       'end': '##:##:##' }
+    # }
+    gold_timestamps = {}
+    with open(gold_times_file) as f:
+        iter_f = iter(f)
+        n = 1
+        for line in iter_f:
+            if line[:9] == 'Heading: ':
+                gold_timestamps['Heading'+str(n)] = {}
+                head = line[9:-1]
+                gold_timestamps['Heading'+str(n)]['heading'] = head
+                line = next(iter_f)
+                start = line[7:-1]
+                gold_timestamps['Heading'+str(n)]['start'] = start
+                line = next(iter_f)
+                end = line[5:-1]
+                gold_timestamps['Heading'+str(n)]['end'] = end
+                n += 1
+    return gold_timestamps
+
 
 text = ""
 targets = []
+
+# Intro Econ testfiles
 MIT_lec_1 = "MIT_lec_1.train"
 MIT_lec_combined = "MIT_lec_combined.train"
 MIT_all = "MIT_lec_all.train"
-test_name = "asr-output/eecs183-96.txt"
-with open(MIT_lec_1) as f:
+
+# Intro Psych testfiles
+Psych_lec_1 = "Lec2.train"
+gold_times_file = "Lec2_gold_times.txt"
+timestamps_file = "Lec2_timestamps.txt"
+
+# test_name = "asr-output/eecs183-96.txt"
+with open(Psych_lec_1) as f:
     content = f.readlines()
     for line in content:
         text+=line
         if line[0:2] == '[[':
-            # print (line)
+            print (line)
             targets.append((line.split('[[')[1]).split(']')[0].lower())
 f.close()
 
 new_text = test_best_setup(text)
-output(new_text)
+# output(new_text)
+
+gold_timestamps = getGoldTimestamps(gold_times_file)
+predicted_timestamps = getPredictedTimestamps(timestamps_file, new_text)
+
+with open('gold_JSON.json', 'w') as out_f:
+    json.dump(gold_timestamps, out_f)
+out_f.close()
+
+with open('predicted_JSON.json', 'w') as out_f:
+    json.dump(predicted_timestamps, out_f)
+out_f.close()
+
 
 # print (targets)
 MIT_lec_testing = ["MIT_lec_18.train", "MIT_lec_19.train", "MIT_lec_20.train", "MIT_lec_21.train", "MIT_lec_22.train", "MIT_lec_23.train", "MIT_lec_24.train", "MIT_lec_25.train", "MIT_lec_26.train"]
 #MIT_lec_testing = ["MIT_lec_1.train", "MIT_lec_2.train", "MIT_lec_3.train"]
 # test_cuewords_weight(MIT_lec_testing)
-
 
 
