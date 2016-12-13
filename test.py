@@ -5,7 +5,6 @@ from nltk.tokenize.texttiling import TextTilingTokenizer
 import re
 import math
 import numpy
-from summary import SimpleSummarizer
 from nltk.stem.porter import *
 from textblob import TextBlob
 from parameter import Parameter
@@ -14,13 +13,11 @@ import copy
 import json
 
 def output(new_text):
-    ss = SimpleSummarizer()
     f = open('test.out','w') 
     index = 0
     for para in new_text:
         index+=1
         output = para + '\n\n\n' + '<<BREAK>>' + '\n\n\n'
-        print (index,  ss.summarize(para, 1))
         f.write(output)
     f.close()
 
@@ -681,7 +678,7 @@ with open(MIT_lec_1) as f:
 f.close()
 
 new_text = test_best_setup(text)
-# output(new_text)
+output(new_text)
 
 gold_timestamps = getGoldTimestamps(gold_times_file)
 predicted_timestamps = getPredictedTimestamps(timestamps_file, new_text)
