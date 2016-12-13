@@ -1,4 +1,4 @@
-[Types of Organisms, Cell Composition]
+[[Types of Organisms, Cell Composition]
 The following content is provided under a Creative Commons license. Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free. To make a donation or view additional materials from hundreds of MIT courses, visit MITOpenCourseWare@ocw.mit.edu.
 
 So lecture one, introduction. When people teach biology at different universities, they teach many different things. You could focus on the ecosystem. You could focus on memorizing different phyla. You could focus on many things. Biology is huge and diverse. We have a certain point of view in the way we teach 7.012, and really a point of view in the way that MIT organizes its biology. And so I want to point out the levels of organization of life and indicate where we will be.
@@ -38,7 +38,7 @@ Alright. Couple of other things you should know. The types of cells I've been re
 
 Bacteria don't have a true nucleus. It's not that they're DNA isn't somehow organized, but it doesn't have a true nucleus with the wall around it. There's no wall around that nucleus like that. They often have interesting cell walls. A striking thing, although I've drawn them as the same size, these are much smaller. These are 1 to 2 microns. These, 10 to 40 microns in diameter. And so that means that if we talk about volume, we cube it. So the volumes of these guys are something like 1,000 to 60,000 times bigger. Eukaryotic cells are large compared to prokaryotic cells. Now, remember these are the guys who were early. These guys come along later. And there are important differences that we'll talk about in eukaryotic and prokaryotic cells. You're a eukaryote, all animals, all plants are eukaryotes. Fungi, such as yeast, et cetera.
 
-[Covalent Bonds, Hydrogen Bonds]
+[[Covalent Bonds, Hydrogen Bonds]
 Here is the game plan for the next two or three lectures. I'm going to start by talking about the chemical forces that are important for the structure and function of these biomolecules. And then I'm going to relate them, as we go along, to how these properties influence the characteristics of these key macromolecules. And in particular we'll be talking about covalent bonds, hydrogen bonds, ionic bonds, a force known as van der Waals forces, and something that's not really a force but it's a characteristic that's very important, particularly when we think about proteins and lipids, called hydrophobicity-- literally "fear of water."
 
 And then the order of the molecules. As we talk, I'll talk about carbohydrates first. I'll try and get to that today. Then we'll talk about proteins, nucleic acids, and lipids, in that order. As you'll see, these two will be sufficient to understand most of the characteristics of carbohydrates. Whereas we're going to need all five of these to be able to get an intelligent understanding of how proteins work.
@@ -121,7 +121,7 @@ In fact, when I finished my Ph.D. Thesis, I went in a competition for the theses
 
 For example, when they go and explore Mars or think about planets, they're always looking for water because it has this very, very special set of properties that are so important for life.
 
-[Macromolecules: Lipids, Carbohydrates, Nucleic Acid]
+[[Macromolecules: Lipids, Carbohydrates, Nucleic Acid]
 Another truism of biochemistry is that many of the molecules within cells are very large. And they're called macromolecules, to indicate this. So macromolecules. So these are often -- Biological molecules are often macromolecules. And these macromolecules are often polymers-- not always-- where a polymer is some kind of repeat of a monomer "n" times.
 
 And in formation of macromolecules, there are two kinds of reactions that you need to know. They are called condensation and hydrolysis reactions. And they go something like this. Condensation reactions form bonds. Hydrolysis reactions break bonds.

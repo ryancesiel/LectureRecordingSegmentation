@@ -28,7 +28,7 @@ def plot(s, ss, d, b, t):
     pylab.xlabel("Sentence Gap index")
     pylab.ylabel("Gap Scores")
     pylab.plot(range(len(s)), s, label="Gap Scores")
-    pylab.plot(range(len(ss)), ss, label="Smoothed Gap scores")
+    # pylab.plot(range(len(ss)), ss, label="Smoothed Gap scores")
     pylab.plot(range(len(d)), d, label="Depth scores")
     pylab.stem(range(len(b)), b)
     pylab.stem(range(len(t)), t,  '-.')
@@ -473,10 +473,10 @@ def baseline(target_boundry):
     return baseline_boundry
 
 def test_best_setup(text):
-    tt = nltk.tokenize.texttiling.TextTilingTokenizer(w=40, k=23, demo_mode=True)
+    tt = nltk.tokenize.texttiling.TextTilingTokenizer(w=40, k=28, demo_mode=True)
 
-    new_text, s, ss, d, b,t = tokenize(tt, text, targets, 80, 9, True)
-    plot(s, ss, d, b, t)
+    new_text, s, ss, d, b,t = tokenize(tt, text, targets, 80, 9, False, 0, 0, 0.6)
+    # plot(s, ss, d, b, t)
     precision, recall, f1 = evaluate(b,t)
     print(precision, recall, f1)
     baseline(t)
@@ -515,11 +515,17 @@ def test_np(text):
 
 def test_all(text):
     parameters = []
-    for w in range(40, 48, 2):
-        for k in range(20,30, 4):
-            for percentile in range(70, 90, 10):
-                for boundary_diff in range(7,10):
-                    for np_percent in [0]:
+    # for w in range(36, 48, 2):
+    #     for k in range(20,30, 4):
+    #         for percentile in range(70, 90, 10):
+    #             for boundary_diff in range(7,10):
+    #                 for np_percent in [0]:
+    #                     for cue_percent in [0]:
+    for w in [40]:
+        for k in [28]:
+            for percentile in [80]:
+                for boundary_diff in [9]:
+                    for np_percent in [ 0.8, 0.9, 1.0]:
                         for cue_percent in [0]:
                     # for np_percent in [0,0.05]:
                     #     for cue_percent in [0,0.05]:
@@ -594,10 +600,11 @@ text = ""
 targets = []
 Lec1 = "Lec1.train"
 MIT_lec_1 = "MIT_lec_1.train"
+MIT_lec_3 = "MIT_lec_3.train"
 MIT_lec_combined = "MIT_lec_combined.train"
 MIT_all = "MIT_lec_all.train"
 test_name = "asr-output/eecs183-96.txt"
-with open(Lec1) as f:
+with open(MIT_lec_combined) as f:
     content = f.readlines()
     for line in content:
         text+=line
@@ -607,7 +614,7 @@ with open(Lec1) as f:
 f.close()
 print (targets)
 
-new_text = test_all(text)
+new_text = test_best_setup(text)
 # output(new_text)
 
 # print (targets)
