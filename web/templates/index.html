@@ -5,7 +5,7 @@
     <p>Error: no segments match for the query.</p>
     {% endif %}
 
-	{% if not result %}
+	{% if not results %}
 
     <form method="post" action="" class="form-horizontal">
         <div class="row">
@@ -22,7 +22,11 @@
 
     {% endif %}
 
-    {% if result %}
-
+    {% if results %}
+        {% for result in results %}
+            <h3><a href="/segment/{{result.segment_id}}">{{result['course_name']}} | Segment {{result['segment_id']}}</a></h3>
+            {{result['transcript']}}
+            <hr />
+        {% endfor %}
     {% endif %}
 {% endblock %}
