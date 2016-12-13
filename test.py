@@ -11,6 +11,7 @@ from textblob import TextBlob
 from parameter import Parameter
 from nltk.corpus import wordnet
 import copy
+import json
 
 def output(new_text):
     ss = SimpleSummarizer()
@@ -607,7 +608,13 @@ def getPredictedTimestamps(timestamps_file, new_text):
                 sentence_starts.append((line[:-1], prev_line[:8]))
             prev_line = line[:8]
 
-    segment_timestamps = []
+    # { 
+    #   'Heading1': {
+    #       'text': 'text within boundary',
+    #       'start': '##:##:##',
+    # }
+    segment_timestamps = {}
+    n = 1
     for segment in new_text:
         segment_begin = segment.split('.')[0]
         # print '------------------------------------'
@@ -615,24 +622,37 @@ def getPredictedTimestamps(timestamps_file, new_text):
         for candidate in sentence_starts:
             if candidate[0][:-1] in segment_begin:
                 # print 'Found matching candidate:', candidate[1], '\n', candidate[0]
-                segment_timestamps.append(candidate[1])
+                segment_timestamps['Heading'+str(n)] = {}
+                segment_timestamps['Heading'+str(n)]['text'] = segment
+                segment_timestamps['Heading'+str(n)]['start'] = candidate[1]
+                n += 1
                 break
     return segment_timestamps
 
 def getGoldTimestamps(gold_times_file):
-    # (heading, start time, end time)
-    gold_starts_ends = []
+    # { 
+    #   'Heading1': {
+    #       'heading': 'actual heading title',
+    #       'start': '##:##:##',
+    #       'end': '##:##:##' }
+    # }
+    gold_timestamps = {}
     with open(gold_times_file) as f:
         iter_f = iter(f)
+        n = 1
         for line in iter_f:
             if line[:9] == 'Heading: ':
+                gold_timestamps['Heading'+str(n)] = {}
                 head = line[9:-1]
+                gold_timestamps['Heading'+str(n)]['heading'] = head
                 line = next(iter_f)
                 start = line[7:-1]
+                gold_timestamps['Heading'+str(n)]['start'] = start
                 line = next(iter_f)
                 end = line[5:-1]
-                gold_starts_ends.append((head, start, end))
-    return gold_starts_ends
+                gold_timestamps['Heading'+str(n)]['end'] = end
+                n += 1
+    return gold_timestamps
 
 
 text = ""
@@ -644,9 +664,9 @@ MIT_lec_combined = "MIT_lec_combined.train"
 MIT_all = "MIT_lec_all.train"
 
 # Intro Psych testfiles
-Psych_lec_1 = "Lec1.train"
-gold_times_file = "Lec1_gold_times.txt"
-timestamps_file = "Lec1_timestamps.txt"
+Psych_lec_1 = "Lec2.train"
+gold_times_file = "Lec2_gold_times.txt"
+timestamps_file = "Lec2_timestamps.txt"
 
 # test_name = "asr-output/eecs183-96.txt"
 with open(Psych_lec_1) as f:
@@ -661,10 +681,16 @@ f.close()
 new_text = test_best_setup(text)
 # output(new_text)
 
-print getGoldTimestamps(gold_times_file)
-print getPredictedTimestamps(timestamps_file, new_text)
+gold_timestamps = getGoldTimestamps(gold_times_file)
+predicted_timestamps = getPredictedTimestamps(timestamps_file, new_text)
 
+with open('gold_JSON.json', 'w') as out_f:
+    json.dump(gold_timestamps, out_f)
+out_f.close()
 
+with open('predicted_JSON.json', 'w') as out_f:
+    json.dump(predicted_timestamps, out_f)
+out_f.close()
 
 
 # print (targets)
