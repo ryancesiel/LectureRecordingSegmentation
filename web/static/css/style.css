@@ -1,0 +1,74 @@
+body {
+	font-family: 'Source Sans Pro', 'Helvetica', Arial, sans-serif;
+}
+
+h1, h2, h3 {
+	font-weight: 500;
+}
+
+h1 { font-size: 24px; }
+h2 { font-size: 18px; }
+h4 { font-weight: bold; }
+
+.container {
+	width: 700px;
+	margin: 0 auto;
+}
+
+.small_container {
+	width: 500px;
+	margin: 0 auto;
+}
+
+.loading {
+	display: none;
+	text-align: center;
+	font-size: 16px;
+}
+.loading img {
+	padding-bottom: 10px;
+	width: 48px;
+}
+
+header {
+	margin: 30px 0;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #EEE;
+	line-height: 24px;
+}
+header a {
+	font: 600 30px 'Source Sans Pro', 'Helvetica', Arial, sans-serif;
+	color: #c75229;
+}
+header a:hover {
+	color: red;
+	text-decoration: none;
+}
+
+footer {
+	border-top: 1px solid #EEE;
+	margin: 30px 0;
+	padding-top: 20px;
+	text-align: center;
+}
+
+/* Bootstrap Manual Changes */
+.row { margin-right: 0; margin-left: 0; }
+.form-horizontal .control-label { text-align: left; }
+.btn {
+	font-size: 16px;
+	padding: 9px 13px;
+}
+.btn-primary {
+	background-color: #c75229;
+	border-color: #c75229;
+}
+.btn-primary:hover {
+	background-color: #a9431f;
+	border-color: #a9431f;
+}
+.form-control {
+	font-size: 16px;
+	height: 42px;
+	padding: 9px 13px;
+}

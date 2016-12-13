@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+    <title>Lecture Recording Segmentation</title>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <a href="/">Lecture Recording Segmentation</a><br />
+            <span style="font-style:italic; color:#444; font-size:16px;">Locate Content in Lectures Faster</span>
+        </header>
+
+        {% block content %}{% endblock %}
+
+        <footer>
+            EECS 498 Final Project: Lecture Recording Segmentation<br />
+            Chengyan Qi (chengyqi), Edward Ye (edwardye), Ryan Cesiel (ryances), and Yunke Cao (ykcao)
+        </footer>
+    </div>
+
+    <!-- <script type="text/Javascript">
+    $( document ).ready(function() {
+        $('form').submit(function() {
+            $('form').hide();
+            $('.loading').show();
+        });
+    });
+    </script> -->
+</body>
+</html>
