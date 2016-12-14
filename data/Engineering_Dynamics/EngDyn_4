@@ -1,0 +1,799 @@
+[[Vector form of velocity and acceleration in a translating and rotating coordinate system in general and expressed in polar and cylindrical coordinates]]
+Print This Document
+
+PROFESSOR: So we were doing velocities and accelerations. We came up with-- I guess I ought to continue to remind us. We're talking about velocities and accelerations of a point with respect to another point, to which we've attached-- I'll make this point here-- a reference frame, x prime, y prime, z prime. And there's a vector that goes between these two and a vector that goes there so that we can say r of B with respect to O, my inertial frame, is r of A with respect to O plus r of B with respect to A. These are all vectors. And then from these, we derive velocities and acceleration formulas.
+
+And so we've come up with a couple of very handy formulas. The velocity formula, velocity of B with respect to O, is the velocity of A with respect to O plus you have to take a time derivative of this. And so I'm going to give you just the general expression here just as a brief reminder. It's the derivative of B with respect to A as seen in the Axyz frame plus omega with respect to O cross rBA. These are all vectors.
+
+So that's the velocity formula, remember? This is if you're in the frame rotating and translating with it, this is the change of length of the vector. And this, then, is the contribution to the velocity that you see in the fixed frame that comes from the rotation.
+
+And we then got into polar coordinates. And we found out that if you use polar coordinates, then you can express this as the velocity of A with respect to O plus r dot r hat. And I should really say cylindrical coordinates, z dot k hat plus r theta dot theta hat. So that's exactly the same thing.
+
+This is full 3D vector notation. This is a special case of a coordinate system which we call polar coordinates. And we came up with another formula for accelerations, the full 3D vector version of that, A with respect to O plus-- this is the acceleration of B with respect to A, but as seen in the Axyz frame. 2 omega cross-- and this is v, the velocity, as seen in the xyz frame. So these things, this is no contribution from acceleration. This is no contribution from acceleration.
+
+Plus omega naught cross rBA plus omega cross omega cross rBA-- all vectors. This is a movement of the frame, the acceleration of it with respect to this. This is pure translation. This is the acceleration of the dog on the merry go round with respect to the center of the coordinate system there. It does not involve rotation.
+
+This is this term that we call Coriolis. This is a term we call Euler. This is the angular speed up of the system, the angular acceleration. And this is centripetal. And if you do these, if you want to go to cylindrical coordinates-- and what we're going to do next is just do some applications here.
+
+The acceleration of B with respect to O and cylindrical coordinates-- it's a translation piece. Plus now in cylindrical, it's useful to group these. So I'm going to put together this term and this term. Because they're both in the r hat direction. And I'm going to put together these two terms. Because they're both in the theta hat direction. And I need a z double dot k, because it's cylindrical. And then I have the theta hat piece, r theta double dot plus 2r dot theta dot theta hat.
+
+This is the same thing as this. Except this is expressed in cylindrical coordinates. And cylindrical coordinates are particularly good for doing the kind of problems that are mostly done at the level of this course, which we call planar motion problems, confined to an x, y plane, and confined to single axis rotation in z. This is a coordinate system that's ideally suited to do problems like that. And that's why we use it.
+
+So now let's do some examples. This is really quite a powerful-- now that you have these two equations, you can do a lot of kinematics and dynamics. So we started last time right at the very end. I said, OK, let's do this problem really quickly, right? Constant rotation rate, constant radius, no angular acceleration, no change in length of the thing-- pretty simple problem. And we zipped it off really fast.
+
+And I wanted to start there, do that really quickly. So this is my case one. It's my ball on the string. Here's point A. Here's point B. Here's the theta hat direction, r hat direction. And it has some constant length R here. So r dot r double dot are 0. There's no also z, z dot, z double dot, no z motion at all. Those are all 0.
+
+Theta dot is a constant. I'll call it cap omega in the k hat direction, right hand rule. Theta double dot is 0. So the easy way to use these formulas is you just start knocking out all the terms that you don't need.
+
+But let's, just to give you a little quick review of how to use these things, use the vector full 3D version of the velocity equation for a second. The full 3D version says the velocity of A with respect to O, what's that in this problem? That's the translating term. So I was standing still, not going anywhere. But if I were walking along, I'd still spin that thing.
+
+OK, so this problem, this term is 0. This problem, r dot-- let's go here. This is the rate of change of the length of the string in the coordinate system of the string walking along. So what's r dot? OK, so that term is 0. And omega cross rBA-- well, r is in the R hat, capital R R hat, cross with omega k. k cross R is-- k cross of R hat?
+
+STUDENT: Theta.
+
+PROFESSOR: Theta hat. So we get our familiar-- this first term is 0. The second term is 0. The third term, we just get our R omega in the theta hat direction. We know that to be true. The point I'm just trying to make here is you can always just fall back and use the vector formula, full 3D formulas of both. Just plug it in, and everything will just drop out.
+
+You can also then go to the cylindrical coordinate terms when you happen to have it all expressed in coordinates of that kind to make it simpler for you. OK, so now let's quickly then do the acceleration of B with respect to O. And let's use the formulation already in cylindrical coordinates. What's A with respect to O? 0. What's r double dot? How about the r theta dot squared term, 0 or not? Nope. Let's go on-- z double dot?
+
+STUDENT: 0.
+
+PROFESSOR: r theta double dot?
+
+STUDENT: 0.
+
+PROFESSOR: r dot theta dot?
+
+STUDENT: 0
+
+PROFESSOR: OK, we only end up with one term. Actually, I'm going to keep this one for a second-- A with respect to O minus. And we came up with our R theta dot squared r hat term. I leave this in here because I actually don't have to say. If I wanted now to do this problem, if I asked you to do a problem where I'm doing this, and I start accelerating, do you know how to do it? There's the answer-- still there, right?
+
+All right, let's do a quick free body diagram. Here's our mass, my master coordinate system out here. Let's draw-- let's say it's right here at 90 degrees. What are the external forces on the mass in this problem?
+
+STUDENT: [INAUDIBLE].
+
+PROFESSOR: So there's tension in the string, right? OK, so now this is a really trivially simple problem. So the emphasize here is on the concept. So now when you're asked to come up with an equation of motion or compute the forces on a mass, use Newton's second law, F equals mass times acceleration.
+
+You now have the complete 3D vector formulation for acceleration of a particle in a translating rotating coordinate system. That's all you need to compute accelerations for lots and lots of difficult problems. And so if you can write down the acceleration, you say it's equal to what? Mass-- if you multiply mass times that acceleration, what's that equal to?
+
+STUDENT: The force.
+
+PROFESSOR: The forces that must be acting on the system. And that's the point here. So now I want to know the forces on the system, the summation of the external forces. And then these are vectors. And you can do them component by component. Some of the external forces in the r hat direction must be equal to the mass-- in this case, just a particle-- times the acceleration of that particle. And in this problem, then that would be the mass times the acceleration of A with respect to O minus R theta dot squared r hat.
+
+And this would have to be the r hat component of this thing. I said I just want the R component. I'd have to figure out if I was running along, if I had it in the same direction as r hat. What part of that acceleration is in that direction? That would come here. If there's 0, you just make it 0. So let's just let the acceleration of A with respect to O be 0. Then that says the sum of the forces in the r direction is equal to the mass minus mR theta dot squared.
+
+And if we were to draw a free body diagram, we would find out that, ahh, there must be a tension on the string pulling in on the mass sufficient to give it the acceleration that you've computed. So every problem, when you're asked to compute the force, or the next step up, find the equation of motion, the equation of motion is just writing this thing out.
+
+OK, now I want to move on to a more interesting problem. All right, I'm going to do this problem. So it's a hollow tube. And we're going to look at things like, I put a ping pong ball in it. And if I swing this tube around, the ping pong ball is going to come out.
+
+OK, there must be some forces on that thing to cause it to come out. There must be some accelerations on them. And so I could conceivably have an R, a theta double dot acceleration. It certainly is going to have theta dot rotation rates. The ball is allowed to move. So there can be nonzero r dots, r double dots-- a lot going on inside of this simple little tube.
+
+So that's what I want to figure out. Let's see if we can come up with a model for this problem. So here's my z-axis. I have a rotation around it, some theta dot k hat direction. Here's my tube. It's rotating around. So this is sort of a side view, your view of the tube. Here's that ping pong ball in there.
+
+And I'm going to idealize that ping pong ball for a minute, a little more general problem. Let's say I have kind of a nut on this thing, a disk, something hanging onto the outside. And I can control the rate, the speed at which this thing goes out. The ping pong ball, this is going to be an application of this. But I want to be able to do several other versions, like make the speed constant for a second.
+
+OK, and looking down on this thing, top view, here's our inertial frame, maybe out here like this. Here's my mass. So in polar coordinates, here's your theta. The r is this. This is your r hat. This is your theta hat directions.
+
+I'm going to let the velocity of A with respect to O be 0, so there's no translational of this system. And z, z dot, z double dot, those are all 0. So nothing's happening in the z direction. So I want to first compute the velocity of B with respect to O.
+
+And you ought to be able to do that sort of by inspection. It comes only from-- oh, I haven't told you enough. What do I want to make happen in this problem? I want to let r dot-- it's going to be some vr, and it's constant. I'm not going to go quite to my ping pong shooter here yet. I'm going to do a slightly simpler problem first.
+
+So this is a constant. That means r double dot is 0. So this thing is just-- let's say you had threads on this thing, and it's a screw, and it's just moving its way out at a constant rate. And I'm going to have constant angular, so theta dot. I'll call that cap omega k hat. So the angular rate is also constant.
+
+All right, if that's the case, can you tell me, what's v of B with respect to my fixed frame O? Well, any time you're not sure, you go back to this formula, throw out terms. There's no z dot term. This is constant. This is 0, 0, 0. You have this term. It's some vr in the r hat direction. You have this term, wherever it happens to be in the theta hat direction.
+
+r dot in the r hat direction plus r theta dot in the theta hat direction-- OK, we need acceleration next, B with respect to O. And now you can crank through the terms again. This time, the first term is 0. The second term is 0, because it's constant. The third term is definitely not 0. The fourth term is 0. Fifth term? 0. This term? Not 0.
+
+Let me just write them. So you get a minus r theta dot squared r hat-- that's the radial direction term-- plus 2r dot theta dot theta hat. That's the accelerations. So you have an acceleration now in the r hat direction and in the theta hat direction. If there's acceleration to those directions, there must be forces.
+
+Newton's second law now says, again, the force is the mass times acceleration. And this is a vector. This is a vector. It has two components. And the nice thing about these Newton's laws and vectors is you can break the problems down into their vector components and treat the r direction as one equation of motion, and the theta direction as a separate one.
+
+So we might want to draw a free body diagram. Here's this block working its way out. We know that there's probably some axial force. I'm just going to call it T. And there's some other unknown force here in the theta hat direction.
+
+So this is my theta hat. I've drawn this just intentionally in the positive r hat direction. The sign that comes out will tell us which direction it really is if you're not certain. Just draw it positive, in the positive r hat direction.
+
+And that's your free body diagram. If I wanted to put gravity in there, I might have. But we're doing this in the horizontal plane. Gravity is in and out this way. It's in the z direction. And we know it's constrained, can't move. z double dot is 0. So there's certainly a support force that picks up the weight.
+
+But this is in our horizontal plane. There's your free body diagram. And we can write two equations to solve for these things. So the sum of the forces in the r hat direction is T. And that must be equal to the mass times the acceleration in the r, minus mr theta dot squared in the r hat direction. Sure enough, the tension has to pull inwards in the minus r hat direction. And that's the full result.
+
+STUDENT: Where are the T and F forces exactly?
+
+PROFESSOR: Where are they? OK, so I'm going to bring the ball to the outside where you can see it. This thing is going in this direction, horizontal plane, x, y plane. It's moving its fixed rate out. So its speed when it's in here is r over 2 omega in that direction.
+
+And the speed when it's out here is r omega in that direction. So clearly it's picking up speed. If it's picking up speed, is it picking up kinetic energy? Is there work being done on it somehow to build up that energy? So there must be some forces at play.
+
+So there's a normal force from the wall of this thing pushing this ball sideways to speed it up, for sure. That's one force. And the other force is because I'm not allowing this thing just to go freely out. I'm constraining it to constant speed out.
+
+It would really like to go a lot faster than that. So what's holding it back? At any instance in time, it has centripetal acceleration. And what's making it go in the circle is a force that is-- in this case, if that were a nut with threads, in the threads are applying to the nut to keep it from running away.
+
+STUDENT: In that free body diagram, F, doesn't F act similar between theta and r hat? And then there's like a component of theta hat in there?
+
+PROFESSOR: Well, I've broken down. I've chosen. The total force acting on this thing is some combination of a force in that direction and a combination in the axial direction. So it has some net direction that's neither this nor that.
+
+STUDENT: From that equation, it looks like what you drew, F has an r hat component.
+
+PROFESSOR: So this thing is rotating about some center over here. So this is theta dot. Theta is going in this direction, theta dot. And we've chosen a coordinate system that has unit vectors r hat and theta hat. And so it makes sense. We can express the acceleration in terms of those two components. It makes sense to express the forces in the same direction.
+
+So I've just arbitrarily said, I have some unknown force that's in this direction. And I have another unknown force in that direction. Then I'm saying, they account for all forces in this direction, whatever their source.
+
+That tells me that the sum of the external forces in the theta hat direction in this case is this unknown F. But I know from Newton that that's got to be equal to the mass times the acceleration in that direction. In this case, then, that is 2mr dot theta dot theta hat.
+
+So just from applying the equation and applying Newton's second law, I can find out what that force must be. It would've been a lot more work if I had drawn it in some arbitrary in between direction. Because then I'd have to break it down into its compounds to write this. So I've made it as easy as possible for myself.
+
+So there's a force like this. And there is another force like that. This one is caused by the centripetal acceleration. Or this force causes the centripetal acceleration. In order to make something go in a circular path, you have to exert a force on it. That's the force. In order to accelerate something angularly, you have to apply a force. That comes from the Euler term.
+
+And this is a curious term. This is the Coriolis term. So where does it come from? That's the crux of the matter here. Where does it come from? So part of the reading that you need to do now is Chapter 15. Chapter 15, most of it is going to be complete review. It just says the conservation of a linear momentum, impulse and momentum. But it also gets into angular momentum.
+
+So we're going to talk quite a lot about angular momentum. And I want to do a very brief little review right now so that it applies to this problem. So we've come up with an expression that the force in the theta direction here comes-- there's got to be that, 2mr dot theta dot.
+
+So here's my point O, and A for that matter. But looking down on our problem, here's my mass at some instant in time. My rotation rate is theta dot-- or actually it's constant. So it's k hat like that, cap omega k hat. This is my r hat direction, theta hat.
+
+Now, I'm going to treat this as a particle. Not long-- we're going to be talking about the dynamics of rigid bodies. We're just doing particles for the moment. We think of them just as point masses and don't deal with their finite extent. So we're still thinking of this as a particle.
+
+And I'm going to write down the definition of the angular momentum of a particle. This is B out here with respect to my fixed frame here at O. And I'm going to use a lowercase h to describe angular momentum of particles. And I'll use capital H to describe the angular momentum of rigid bodies.
+
+So this is a particle, the definition of the angular momentum of a particle with respect to a fixed point. We're going to come back to that. That'll turn out to have some significance. The definition of this is it's RBO, the position vector, crossed with the linear momentum evaluated in the fixed frame. So that's the definition of angular momentum, which is you have linear momentum, and it's the cross product with the position vector out to it.
+
+So in this case, the RBO is capital R R hat. Well, it's not-- this varies, excuse me. So I'm not going to use-- this I use as a constant. I better keep it as the variable. Pardon that, so it's r, whatever the local position is, in the r hat direction crossed with the linear momentum. What's the linear momentum of that particle? Mass times velocity. What's the velocity?
+
+STUDENT: [INAUDIBLE].
+
+PROFESSOR: Theta dot-- where did we write it up here? Someplace-- the total velocity is r dot r hat plus r theta dot theta hat. And we need a mass in here. So mass times velocity would be the momentum. And we need the cross products of those. r hat cross r hat, you get nothing from that. And r hat cross theta hat-- positive or negative? Positive k, right?
+
+So this becomes mr squared theta dot in the k hat direction. And this one is a constant. We'll write this as cap omega. So this is my angular momentum of my particle with respect to this fixed reference frame.
+
+And so one final step that you know from your previous physics is-- how's torque related to angular momentum? Take a guess. What do you remember? Time derivative-- so d by dt of hBO here. The time rate of change of this vector is the torque with respect to this point, with respect to O.
+
+So what are constants in this thing? We don't have to deal with their derivatives. k hat is-- does the direction of the angular momentum change? It's upwards. The derivative of k, the unit vector k, does it change in this problem? No, so its time derivative is 0. Its time derivative is 0. The m time derivative is 0. The only thing you have to take the derivative of is r, so 2rr dot.
+
+So the torque is 2mrr dot cap omega. And it's all in the k direction. And that had better be rBO cross F. Torque comes as a force times a moment arm, right? And we computed here a force in the theta direction.
+
+So what would give us a torque in the k direction? An r cross a theta. r hat cross theta hat gives you a k. r cross-- and this force, the part of the force. We have two forces, one in the r direction and one in the theta direction. The cross product, this term up here, the T gives you nothing, r cross r hat cross r hat.
+
+So the only force that matters here is this Coriolis one. And so that force is 2mr dot theta dot. And we have the r cross. We know this comes out in the k direction. And we get an r in here when we compute this product. And this, to me, looks an awful lot like this. Except I missed an r squared. How did I do that?
+
+STUDENT: [INAUDIBLE].
+
+PROFESSOR: Oh no, it's not r squared. It started off over here as the angular momentum has an r squared, took the derivative. It dropped down to 2rr dot. And that's right. So the Coriolis force, what's it got to do with the angular momentum?
+
+That's kind of the point of the exercise here. In order for this ping pong ball to be accelerated, as it goes slowly out this tube, the angular momentum is increasing. In order to change angular momentum with time, you have to apply a torque. The torque that you have to apply is 2mrr dot in the k direction. And that is r cross the Coriolis force.
+
+So the Coriolis force, in this case, is the force that's necessary to increase the angular momentum of a system. That's very often the reason-- that's what Coriolis force is about. So when you shoot an artillery piece on the Earth, you've got that projectile going out there. It has angular momentum with respect to the Earth. And you'll find out that this little term pops up. And in fact, the projectile doesn't go straight. It curves.
+
+There's lots of things that because of conservation of angular momentum, you end up with this term popping up. In this case, angular momentum is not conserved. It's increasing. So you have this force to make it happen. Any questions about this? You're going to use this one a lot. You're going to work with it a lot.
+
+So anytime you see changes in angular momentum happening in a problem, in these problems with circular motion, velocities of parts increasing in radius, you'll almost always see this term pop up. Any time you see these changes in angular momentum, you'll often see the Coriolis term.
+
+All right, now we're going to do another interesting problem-- simple but interesting. And that is really to go-- let's go do this problem where the thing is really allowed to come freely out. All right, you ready to defend yourself?
+
+A little short stick is pretty effective at throwing candy. You got your safety glasses on? You want me to see if I can get one up there? Aww, also, I obviously haven't practiced this. All right, last one. Actually, there's two more.
+
+What makes this work? Let's do this problem. So let's look at our candy shooter. So I'm whipping this thing around. Candy is coming out of here. It's at B.
+
+Again, I get no z, not mess with the z part. The z part is trivial to usually deal with. Because it's totally independent, just separate equations. It doesn't complicate things much at all, even when you have z.
+
+Now, in this case, the velocity-- and here's my O frame here. The velocity B with respect to O, well, now it's got-- I'm not going to move. I'm standing still when I do it. So the first term is 0. It's got an r term, r dot in the r hat direction. And it has an r theta dot theta hat term.
+
+And these can now-- this might be changing. This might have a time derivative, r double dot. It certainly does. It's accelerating coming out of that tube. And my theta, angular motion, it can be accelerating, too. So we're going to have to deal with those.
+
+I need to know the accelerations. Now, I haven't emphasized it till now, but I find it conceptually useful to-- when you work with polar coordinates, you can have this ability to aggregate the terms in these two component directions. So you have this.
+
+All the r terms go together. And we've let the z double dot term-- it's just separate by itself. It drops out easily. And you have the theta hat term. And that's the r theta double dot plus 2r dot theta dot. And these are in the theta hat direction. There's your Coriolis term, your Euler acceleration term, centripetal term. Yeah?
+
+STUDENT: [INAUDIBLE].
+
+PROFESSOR: Well, I don't know if I ought to tell you secrets about me. Because it's going to give you an advantage on the quiz. But I've almost never, ever been known to ask a question that says, "derive." But I'll sure ask you concept questions.
+
+I really want you to understand the principles. I don't get real hung up on having you do the grungy grind it out things. Do I want you to remember the formula for how to take the derivative of a vector in rotating frame? Yeah, that's where these have come from.
+
+You had better remember this. These two formulas, the velocity formula and this, the acceleration formula, are just core to this course. Now, the way quizzes are done-- first quiz, you come in, one sheet of paper. What had better be on your paper? OK?
+
+And second quiz, two sheets, final, three sheets, that kind of thing. But conceptually, you've got forces in the r, forces in the z, accelerations in r theta and z, forces r theta and z. And for these planar motion problems, this one is sure easy to use. So let's think about this problem. I'm going to let this be frictionless just to make it easy.
+
+All right, so what possible forces act on the hunk of candy? Let's do a free body diagram of the hunk of candy coming out of here. What are the forces? And let's keep it planar.
+
+We can get gravity into this. But let's just do it in a plane. So I'm just going horizontal and slinging this thing. Gravity's in the z direction, and I've constrained it in the z. So it's something supporting the gravity in the tube.
+
+So definitely there's an mg on this thing downwards. But it's in the z direction, and we're not letting it move in the z. What about the horizontal, this direction? The r-- this is my r hat direction. This is my theta hat direction. Whoops, not either-- theta is going this way. So I've drawn this as a side view. What's the force in the r hat direction?
+
+STUDENT: [INAUDIBLE].
+
+PROFESSOR: OK, in order to do the problem, you have to figure that out. What are the forces? What are the source of forces in the r direction? Here's the r direction.
+
+STUDENT: [INAUDIBLE].
+
+PROFESSOR: Say what? Come on, you guys. Somebody be-- yeah.
+
+STUDENT: [INAUDIBLE].
+
+PROFESSOR: There are not any. Is that what you said? There aren't any. And why's that?
+
+STUDENT: [INAUDIBLE].
+
+PROFESSOR: Right, so there's no forces in the r direction. So there's no forces on this thing in the r. And so then this is a side view. We could do the top view looking down. Top view, you've got your x, y. You also have your-- here's the ball. Here's the r hat. Here's the theta hat. Now, free body diagram in the top view-- well, there's some force here probably.
+
+STUDENT: I was going to ask that the fact that we have no forces in the r hat direction, but we do have acceleration.
+
+PROFESSOR: Absolutely. She's commenting that we do have accelerations in the r direction, right?
+
+STUDENT: And we have no force.
+
+PROFESSOR: And no force. So that's the conundrum of this problem. That's the point of this problem. So let me continue. Free body diagram-- I'm looking down on it. I'm allowing for some force. It's the normal force that comes from the pipe exerting the force on the candy. And since it's frictionless, it can only be normal to the pipe. OK, so there's the free body diagram in the top view.
+
+So we can write two equations. We can write three questions-- this one equal to 0, this one in the r hat direction, this one in the theta hat direction. Sum of the forces r hat direction must be 0. And we have a mass. We have an acceleration. Solve for r double dot.
+
+Remarkable-- there's no force in the r hat direction. The position of the object, the r coordinate, it has a velocity. It has an acceleration. But the total acceleration in the r hat directions are actually 0. The rate of change of the velocity of this thing in the radial direction, r double dot, is nonzero. But there are no forces on it.
+
+I have pondered another way to explain this. I'm still thinking about it. And you think about this, too. How do you explain this in the absence of forces? And it's partly where the concept comes from of fictitious forces, that centrifugal force is a force. It's not. It's an acceleration.
+
+This is just saying that-- let's go back to this problem. In order to make something go in a circle, you have to put a force on it to cause the centripetal acceleration. You have to allow the thing to go out if you're not forcing it to go in a circle. You have to allow it to go out at that rate in order for there to be no centripetal accelerations on the object. Yeah?
+
+STUDENT: So I was going to say, when you start it, you push it in the y direction. So that's a force. It's not in the r hat, but it's in the y.
+
+PROFESSOR: To get it started.
+
+STUDENT: Right, and there's no force opposing it in that direction [INAUDIBLE].
+
+PROFESSOR: Does it experience centripetal acceleration? So there's no rotation. Does it experience centripetal acceleration? What do you think? Yeah, because it goes through curved motion. At any instance in time when it's doing that, there is a radius of curvature. You can at that instant in time think of it as being in a circular path.
+
+And sometimes it's just really easy to do these kind of problems with normal and tangential coordinates. So I'm looking down on the x, y plane. Gravity is into the Earth. So I'm looking down on a vehicle, a car.
+
+And that car, the guy is kind of drunk. He's going down the road like this. So here's my y. Here's my x. And y equals some A sine 2 pi over the wavelength, 2 pi over lambda, times x at some A sine kx.
+
+And as he drives down-- if you're in a car, and you're doing that, you get thrown side to side in the car. So you are being accelerated. And so we want to be able to calculate the acceleration due to the fact that you're going down and doing a curved path. And we deal with these things sometimes with a convenient little set of coordinates that are our normal and tangential unit vectors, u normal and u tangential, at any instant in time.
+
+And we know that if this is along the path, at any instant in time you're right here, what direction is your velocity? Just definition of velocity-- tangent to the path, right? So at any instant in time, the velocity has got to be tangent to the path at that moment.
+
+So velocity, the vector, has a magnitude and a unit vector uT here I'll call it, tangent. That's all there is to it. And the acceleration of this thing is your time derivative of this. And that's going to give you a v dot uT hat plus a v. And now you need a time derivative of this guy.
+
+But this is a unit length vector. You can plug it into that equation for the derivative of a rotating vector and calculate what this should be. You could also just draw it out. So I'll draw this for you. How are we doing on time? I should just be able to finish this.
+
+Here's my unit vector in the tangential direction. As I'm going around this curve, this is my tangential direction. There's some instant I have a radius. We call that rho. And in the little time, delta t, I go through an angle delta theta in delta t.
+
+And this is my uT vector here. It changes by a little bit. That's the change in the uT unit vector in this time, delta t. And it goes perpendicular. And it goes in the positive un direction.
+
+So delta-- what's the easiest way to write this one? Delta uT equals some theta dot delta t-- that's the angle-- times the length of the unit vector, 1. That's the distance it goes, so 1. So r omega, 1 theta dot is the distance that this unit vector goes through in delta t. And the direction it goes in is u normal hat.
+
+So delta uT over delta t limit as t goes to 0, you get theta dot un, just like before. So the time derivative of this unit vector in the tangential direction is just theta dot in the normal direction. And then from that, we can very quickly derive the rest of this acceleration. The acceleration then is that plus this. We now know an expression for-- this is my uT dot term. I'm going to plug that in here.
+
+This then, we need an expression for v. What's v? Well, at that instant in time, it has some radius rho. It has an angular velocity theta dot. So rho theta dot would be the v here. So I'm looking for an expression for vuT dot. So that's v theta dot un. But theta dot is v over rho.
+
+v squared-- sorry about this-- over rho un. So this guy up here, this is v dot uT plus v squared-- I'll rewrite it-- over rho un. So if you're speeding up, if you're going from 30 miles an hour to 40 miles an hour, that's your tangential. That's your speed along the path. That's this term.
+
+But because you're going around the curve, you have an acceleration of v squared over rho. You've run into this before in physics. This is where it comes from. This is a centripetal acceleration like term. If you replace v with rho theta dot, you'd get r theta dot squared. So you can either put it in terms of v squared over rho, or you can put it in terms of rho theta dot squared. And rho theta dot squared sounds a lot like my acceleration term right here.
+
+So with that simple little formula, you can do-- you need one other thing. And you just go look it up in the book. There is an expression from calculus for the radius of curvature of a path. And it has first and second derivatives of y with respect to x. So you need a dy/dx and a d2y dx squared.
+
+From a sine function, you can calculate that. So you calculate rho from a formula that's in the book for calculating radius of curvature. And then you're done, all right? So see you on Thursday.
+
+[[Two examples using polar coordinates]]
+Print This Document
+
+So now let's do some examples. This is really quite a powerful-- now that you have these two equations, you can do a lot of kinematics and dynamics. So we started last time right at the very end. I said, OK, let's do this problem really quickly, right? Constant rotation rate, constant radius, no angular acceleration, no change in length of the thing-- pretty simple problem. And we zipped it off really fast.
+
+And I wanted to start there, do that really quickly. So this is my case one. It's my ball on the string. Here's point A. Here's point B. Here's the theta hat direction, r hat direction. And it has some constant length R here. So r dot r double dot are 0. There's no also z, z dot, z double dot, no z motion at all. Those are all 0.
+
+Theta dot is a constant. I'll call it cap omega in the k hat direction, right hand rule. Theta double dot is 0. So the easy way to use these formulas is you just start knocking out all the terms that you don't need.
+
+But let's, just to give you a little quick review of how to use these things, use the vector full 3D version of the velocity equation for a second. The full 3D version says the velocity of A with respect to O, what's that in this problem? That's the translating term. So I was standing still, not going anywhere. But if I were walking along, I'd still spin that thing.
+
+OK, so this problem, this term is 0. This problem, r dot-- let's go here. This is the rate of change of the length of the string in the coordinate system of the string walking along. So what's r dot? OK, so that term is 0. And omega cross rBA-- well, r is in the R hat, capital R R hat, cross with omega k. k cross R is-- k cross of R hat?
+
+STUDENT: Theta.
+
+PROFESSOR: Theta hat. So we get our familiar-- this first term is 0. The second term is 0. The third term, we just get our R omega in the theta hat direction. We know that to be true. The point I'm just trying to make here is you can always just fall back and use the vector formula, full 3D formulas of both. Just plug it in, and everything will just drop out.
+
+You can also then go to the cylindrical coordinate terms when you happen to have it all expressed in coordinates of that kind to make it simpler for you. OK, so now let's quickly then do the acceleration of B with respect to O. And let's use the formulation already in cylindrical coordinates. What's A with respect to O? 0. What's r double dot? How about the r theta dot squared term, 0 or not? Nope. Let's go on-- z double dot?
+
+STUDENT: 0.
+
+PROFESSOR: r theta double dot?
+
+STUDENT: 0.
+
+PROFESSOR: r dot theta dot?
+
+STUDENT: 0
+
+PROFESSOR: OK, we only end up with one term. Actually, I'm going to keep this one for a second-- A with respect to O minus. And we came up with our R theta dot squared r hat term. I leave this in here because I actually don't have to say. If I wanted now to do this problem, if I asked you to do a problem where I'm doing this, and I start accelerating, do you know how to do it? There's the answer-- still there, right?
+
+All right, let's do a quick free body diagram. Here's our mass, my master coordinate system out here. Let's draw-- let's say it's right here at 90 degrees. What are the external forces on the mass in this problem?
+
+STUDENT: [INAUDIBLE].
+
+PROFESSOR: So there's tension in the string, right? OK, so now this is a really trivially simple problem. So the emphasize here is on the concept. So now when you're asked to come up with an equation of motion or compute the forces on a mass, use Newton's second law, F equals mass times acceleration.
+
+You now have the complete 3D vector formulation for acceleration of a particle in a translating rotating coordinate system. That's all you need to compute accelerations for lots and lots of difficult problems. And so if you can write down the acceleration, you say it's equal to what? Mass-- if you multiply mass times that acceleration, what's that equal to?
+
+STUDENT: The force.
+
+PROFESSOR: The forces that must be acting on the system. And that's the point here. So now I want to know the forces on the system, the summation of the external forces. And then these are vectors. And you can do them component by component. Some of the external forces in the r hat direction must be equal to the mass-- in this case, just a particle-- times the acceleration of that particle. And in this problem, then that would be the mass times the acceleration of A with respect to O minus R theta dot squared r hat.
+
+And this would have to be the r hat component of this thing. I said I just want the R component. I'd have to figure out if I was running along, if I had it in the same direction as r hat. What part of that acceleration is in that direction? That would come here. If there's 0, you just make it 0. So let's just let the acceleration of A with respect to O be 0. Then that says the sum of the forces in the r direction is equal to the mass minus mR theta dot squared.
+
+And if we were to draw a free body diagram, we would find out that, ahh, there must be a tension on the string pulling in on the mass sufficient to give it the acceleration that you've computed. So every problem, when you're asked to compute the force, or the next step up, find the equation of motion, the equation of motion is just writing this thing out.
+
+OK, now I want to move on to a more interesting problem. All right, I'm going to do this problem. So it's a hollow tube. And we're going to look at things like, I put a ping pong ball in it. And if I swing this tube around, the ping pong ball is going to come out.
+
+OK, there must be some forces on that thing to cause it to come out. There must be some accelerations on them. And so I could conceivably have an R, a theta double dot acceleration. It certainly is going to have theta dot rotation rates. The ball is allowed to move. So there can be nonzero r dots, r double dots-- a lot going on inside of this simple little tube.
+
+So that's what I want to figure out. Let's see if we can come up with a model for this problem. So here's my z-axis. I have a rotation around it, some theta dot k hat direction. Here's my tube. It's rotating around. So this is sort of a side view, your view of the tube. Here's that ping pong ball in there.
+
+And I'm going to idealize that ping pong ball for a minute, a little more general problem. Let's say I have kind of a nut on this thing, a disk, something hanging onto the outside. And I can control the rate, the speed at which this thing goes out. The ping pong ball, this is going to be an application of this. But I want to be able to do several other versions, like make the speed constant for a second.
+
+OK, and looking down on this thing, top view, here's our inertial frame, maybe out here like this. Here's my mass. So in polar coordinates, here's your theta. The r is this. This is your r hat. This is your theta hat directions.
+
+I'm going to let the velocity of A with respect to O be 0, so there's no translational of this system. And z, z dot, z double dot, those are all 0. So nothing's happening in the z direction. So I want to first compute the velocity of B with respect to O.
+
+And you ought to be able to do that sort of by inspection. It comes only from-- oh, I haven't told you enough. What do I want to make happen in this problem? I want to let r dot-- it's going to be some vr, and it's constant. I'm not going to go quite to my ping pong shooter here yet. I'm going to do a slightly simpler problem first.
+
+So this is a constant. That means r double dot is 0. So this thing is just-- let's say you had threads on this thing, and it's a screw, and it's just moving its way out at a constant rate. And I'm going to have constant angular, so theta dot. I'll call that cap omega k hat. So the angular rate is also constant.
+
+All right, if that's the case, can you tell me, what's v of B with respect to my fixed frame O? Well, any time you're not sure, you go back to this formula, throw out terms. There's no z dot term. This is constant. This is 0, 0, 0. You have this term. It's some vr in the r hat direction. You have this term, wherever it happens to be in the theta hat direction.
+
+r dot in the r hat direction plus r theta dot in the theta hat direction-- OK, we need acceleration next, B with respect to O. And now you can crank through the terms again. This time, the first term is 0. The second term is 0, because it's constant. The third term is definitely not 0. The fourth term is 0. Fifth term? 0. This term? Not 0.
+
+Let me just write them. So you get a minus r theta dot squared r hat-- that's the radial direction term-- plus 2r dot theta dot theta hat. That's the accelerations. So you have an acceleration now in the r hat direction and in the theta hat direction. If there's acceleration to those directions, there must be forces.
+
+Newton's second law now says, again, the force is the mass times acceleration. And this is a vector. This is a vector. It has two components. And the nice thing about these Newton's laws and vectors is you can break the problems down into their vector components and treat the r direction as one equation of motion, and the theta direction as a separate one.
+
+So we might want to draw a free body diagram. Here's this block working its way out. We know that there's probably some axial force. I'm just going to call it T. And there's some other unknown force here in the theta hat direction.
+
+So this is my theta hat. I've drawn this just intentionally in the positive r hat direction. The sign that comes out will tell us which direction it really is if you're not certain. Just draw it positive, in the positive r hat direction.
+
+And that's your free body diagram. If I wanted to put gravity in there, I might have. But we're doing this in the horizontal plane. Gravity is in and out this way. It's in the z direction. And we know it's constrained, can't move. z double dot is 0. So there's certainly a support force that picks up the weight.
+
+But this is in our horizontal plane. There's your free body diagram. And we can write two equations to solve for these things. So the sum of the forces in the r hat direction is T. And that must be equal to the mass times the acceleration in the r, minus mr theta dot squared in the r hat direction. Sure enough, the tension has to pull inwards in the minus r hat direction. And that's the full result.
+
+STUDENT: Where are the T and F forces exactly?
+
+PROFESSOR: Where are they? OK, so I'm going to bring the ball to the outside where you can see it. This thing is going in this direction, horizontal plane, x, y plane. It's moving its fixed rate out. So its speed when it's in here is r over 2 omega in that direction.
+
+And the speed when it's out here is r omega in that direction. So clearly it's picking up speed. If it's picking up speed, is it picking up kinetic energy? Is there work being done on it somehow to build up that energy? So there must be some forces at play.
+
+So there's a normal force from the wall of this thing pushing this ball sideways to speed it up, for sure. That's one force. And the other force is because I'm not allowing this thing just to go freely out. I'm constraining it to constant speed out.
+
+It would really like to go a lot faster than that. So what's holding it back? At any instance in time, it has centripetal acceleration. And what's making it go in the circle is a force that is-- in this case, if that were a nut with threads, in the threads are applying to the nut to keep it from running away.
+
+STUDENT: In that free body diagram, F, doesn't F act similar between theta and r hat? And then there's like a component of theta hat in there?
+
+PROFESSOR: Well, I've broken down. I've chosen. The total force acting on this thing is some combination of a force in that direction and a combination in the axial direction. So it has some net direction that's neither this nor that.
+
+STUDENT: From that equation, it looks like what you drew, F has an r hat component.
+
+PROFESSOR: So this thing is rotating about some center over here. So this is theta dot. Theta is going in this direction, theta dot. And we've chosen a coordinate system that has unit vectors r hat and theta hat. And so it makes sense. We can express the acceleration in terms of those two components. It makes sense to express the forces in the same direction.
+
+So I've just arbitrarily said, I have some unknown force that's in this direction. And I have another unknown force in that direction. Then I'm saying, they account for all forces in this direction, whatever their source.
+
+That tells me that the sum of the external forces in the theta hat direction in this case is this unknown F. But I know from Newton that that's got to be equal to the mass times the acceleration in that direction. In this case, then, that is 2mr dot theta dot theta hat.
+
+So just from applying the equation and applying Newton's second law, I can find out what that force must be. It would've been a lot more work if I had drawn it in some arbitrary in between direction. Because then I'd have to break it down into its compounds to write this. So I've made it as easy as possible for myself.
+
+So there's a force like this. And there is another force like that. This one is caused by the centripetal acceleration. Or this force causes the centripetal acceleration. In order to make something go in a circular path, you have to exert a force on it. That's the force. In order to accelerate something angularly, you have to apply a force. That comes from the Euler term.
+
+And this is a curious term. This is the Coriolis term. So where does it come from? That's the crux of the matter here. Where does it come from? So part of the reading that you need to do now is Chapter 15. Chapter 15, most of it is going to be complete review. It just says the conservation of a linear momentum, impulse and momentum. But it also gets into angular momentum.
+
+So we're going to talk quite a lot about angular momentum. And I want to do a very brief little review right now so that it applies to this problem. So we've come up with an expression that the force in the theta direction here comes-- there's got to be that, 2mr dot theta dot.
+
+So here's my point O, and A for that matter. But looking down on our problem, here's my mass at some instant in time. My rotation rate is theta dot-- or actually it's constant. So it's k hat like that, cap omega k hat. This is my r hat direction, theta hat.
+
+Now, I'm going to treat this as a particle. Not long-- we're going to be talking about the dynamics of rigid bodies. We're just doing particles for the moment. We think of them just as point masses and don't deal with their finite extent. So we're still thinking of this as a particle.
+
+And I'm going to write down the definition of the angular momentum of a particle. This is B out here with respect to my fixed frame here at O. And I'm going to use a lowercase h to describe angular momentum of particles. And I'll use capital H to describe the angular momentum of rigid bodies.
+
+So this is a particle, the definition of the angular momentum of a particle with respect to a fixed point. We're going to come back to that. That'll turn out to have some significance. The definition of this is it's RBO, the position vector, crossed with the linear momentum evaluated in the fixed frame. So that's the definition of angular momentum, which is you have linear momentum, and it's the cross product with the position vector out to it.
+
+So in this case, the RBO is capital R R hat. Well, it's not-- this varies, excuse me. So I'm not going to use-- this I use as a constant. I better keep it as the variable. Pardon that, so it's r, whatever the local position is, in the r hat direction crossed with the linear momentum. What's the linear momentum of that particle? Mass times velocity. What's the velocity?
+
+STUDENT: [INAUDIBLE].
+
+PROFESSOR: Theta dot-- where did we write it up here? Someplace-- the total velocity is r dot r hat plus r theta dot theta hat. And we need a mass in here. So mass times velocity would be the momentum. And we need the cross products of those. r hat cross r hat, you get nothing from that. And r hat cross theta hat-- positive or negative? Positive k, right?
+
+So this becomes mr squared theta dot in the k hat direction. And this one is a constant. We'll write this as cap omega. So this is my angular momentum of my particle with respect to this fixed reference frame.
+
+And so one final step that you know from your previous physics is-- how's torque related to angular momentum? Take a guess. What do you remember? Time derivative-- so d by dt of hBO here. The time rate of change of this vector is the torque with respect to this point, with respect to O.
+
+So what are constants in this thing? We don't have to deal with their derivatives. k hat is-- does the direction of the angular momentum change? It's upwards. The derivative of k, the unit vector k, does it change in this problem? No, so its time derivative is 0. Its time derivative is 0. The m time derivative is 0. The only thing you have to take the derivative of is r, so 2rr dot.
+
+So the torque is 2mrr dot cap omega. And it's all in the k direction. And that had better be rBO cross F. Torque comes as a force times a moment arm, right? And we computed here a force in the theta direction.
+
+So what would give us a torque in the k direction? An r cross a theta. r hat cross theta hat gives you a k. r cross-- and this force, the part of the force. We have two forces, one in the r direction and one in the theta direction. The cross product, this term up here, the T gives you nothing, r cross r hat cross r hat.
+
+So the only force that matters here is this Coriolis one. And so that force is 2mr dot theta dot. And we have the r cross. We know this comes out in the k direction. And we get an r in here when we compute this product. And this, to me, looks an awful lot like this. Except I missed an r squared. How did I do that?
+
+STUDENT: [INAUDIBLE].
+
+PROFESSOR: Oh no, it's not r squared. It started off over here as the angular momentum has an r squared, took the derivative. It dropped down to 2rr dot. And that's right. So the Coriolis force, what's it got to do with the angular momentum?
+
+That's kind of the point of the exercise here. In order for this ping pong ball to be accelerated, as it goes slowly out this tube, the angular momentum is increasing. In order to change angular momentum with time, you have to apply a torque. The torque that you have to apply is 2mrr dot in the k direction. And that is r cross the Coriolis force.
+
+So the Coriolis force, in this case, is the force that's necessary to increase the angular momentum of a system. That's very often the reason-- that's what Coriolis force is about. So when you shoot an artillery piece on the Earth, you've got that projectile going out there. It has angular momentum with respect to the Earth. And you'll find out that this little term pops up. And in fact, the projectile doesn't go straight. It curves.
+
+There's lots of things that because of conservation of angular momentum, you end up with this term popping up. In this case, angular momentum is not conserved. It's increasing. So you have this force to make it happen. Any questions about this? You're going to use this one a lot. You're going to work with it a lot.
+
+So anytime you see changes in angular momentum happening in a problem, in these problems with circular motion, velocities of parts increasing in radius, you'll almost always see this term pop up. Any time you see these changes in angular momentum, you'll often see the Coriolis term.
+
+All right, now we're going to do another interesting problem-- simple but interesting. And that is really to go-- let's go do this problem where the thing is really allowed to come freely out. All right, you ready to defend yourself?
+
+A little short stick is pretty effective at throwing candy. You got your safety glasses on? You want me to see if I can get one up there? Aww, also, I obviously haven't practiced this. All right, last one. Actually, there's two more.
+
+What makes this work? Let's do this problem. So let's look at our candy shooter. So I'm whipping this thing around. Candy is coming out of here. It's at B.
+
+Again, I get no z, not mess with the z part. The z part is trivial to usually deal with. Because it's totally independent, just separate equations. It doesn't complicate things much at all, even when you have z.
+
+Now, in this case, the velocity-- and here's my O frame here. The velocity B with respect to O, well, now it's got-- I'm not going to move. I'm standing still when I do it. So the first term is 0. It's got an r term, r dot in the r hat direction. And it has an r theta dot theta hat term.
+
+And these can now-- this might be changing. This might have a time derivative, r double dot. It certainly does. It's accelerating coming out of that tube. And my theta, angular motion, it can be accelerating, too. So we're going to have to deal with those.
+
+I need to know the accelerations. Now, I haven't emphasized it till now, but I find it conceptually useful to-- when you work with polar coordinates, you can have this ability to aggregate the terms in these two component directions. So you have this.
+
+All the r terms go together. And we've let the z double dot term-- it's just separate by itself. It drops out easily. And you have the theta hat term. And that's the r theta double dot plus 2r dot theta dot. And these are in the theta hat direction. There's your Coriolis term, your Euler acceleration term, centripetal term. Yeah?
+
+STUDENT: [INAUDIBLE].
+
+PROFESSOR: Well, I don't know if I ought to tell you secrets about me. Because it's going to give you an advantage on the quiz. But I've almost never, ever been known to ask a question that says, "derive." But I'll sure ask you concept questions.
+
+I really want you to understand the principles. I don't get real hung up on having you do the grungy grind it out things. Do I want you to remember the formula for how to take the derivative of a vector in rotating frame? Yeah, that's where these have come from.
+
+You had better remember this. These two formulas, the velocity formula and this, the acceleration formula, are just core to this course. Now, the way quizzes are done-- first quiz, you come in, one sheet of paper. What had better be on your paper? OK?
+
+And second quiz, two sheets, final, three sheets, that kind of thing. But conceptually, you've got forces in the r, forces in the z, accelerations in r theta and z, forces r theta and z. And for these planar motion problems, this one is sure easy to use. So let's think about this problem. I'm going to let this be frictionless just to make it easy.
+
+All right, so what possible forces act on the hunk of candy? Let's do a free body diagram of the hunk of candy coming out of here. What are the forces? And let's keep it planar.
+
+We can get gravity into this. But let's just do it in a plane. So I'm just going horizontal and slinging this thing. Gravity's in the z direction, and I've constrained it in the z. So it's something supporting the gravity in the tube.
+
+So definitely there's an mg on this thing downwards. But it's in the z direction, and we're not letting it move in the z. What about the horizontal, this direction? The r-- this is my r hat direction. This is my theta hat direction. Whoops, not either-- theta is going this way. So I've drawn this as a side view. What's the force in the r hat direction?
+
+STUDENT: [INAUDIBLE].
+
+PROFESSOR: OK, in order to do the problem, you have to figure that out. What are the forces? What are the source of forces in the r direction? Here's the r direction.
+
+STUDENT: [INAUDIBLE].
+
+PROFESSOR: Say what? Come on, you guys. Somebody be-- yeah.
+
+STUDENT: [INAUDIBLE].
+
+PROFESSOR: There are not any. Is that what you said? There aren't any. And why's that?
+
+STUDENT: [INAUDIBLE].
+
+PROFESSOR: Right, so there's no forces in the r direction. So there's no forces on this thing in the r. And so then this is a side view. We could do the top view looking down. Top view, you've got your x, y. You also have your-- here's the ball. Here's the r hat. Here's the theta hat. Now, free body diagram in the top view-- well, there's some force here probably.
+
+STUDENT: I was going to ask that the fact that we have no forces in the r hat direction, but we do have acceleration.
+
+PROFESSOR: Absolutely. She's commenting that we do have accelerations in the r direction, right?
+
+STUDENT: And we have no force.
+
+PROFESSOR: And no force. So that's the conundrum of this problem. That's the point of this problem. So let me continue. Free body diagram-- I'm looking down on it. I'm allowing for some force. It's the normal force that comes from the pipe exerting the force on the candy. And since it's frictionless, it can only be normal to the pipe. OK, so there's the free body diagram in the top view.
+
+So we can write two equations. We can write three questions-- this one equal to 0, this one in the r hat direction, this one in the theta hat direction. Sum of the forces r hat direction must be 0. And we have a mass. We have an acceleration. Solve for r double dot.
+
+Remarkable-- there's no force in the r hat direction. The position of the object, the r coordinate, it has a velocity. It has an acceleration. But the total acceleration in the r hat directions are actually 0. The rate of change of the velocity of this thing in the radial direction, r double dot, is nonzero. But there are no forces on it.
+
+I have pondered another way to explain this. I'm still thinking about it. And you think about this, too. How do you explain this in the absence of forces? And it's partly where the concept comes from of fictitious forces, that centrifugal force is a force. It's not. It's an acceleration.
+
+This is just saying that-- let's go back to this problem. In order to make something go in a circle, you have to put a force on it to cause the centripetal acceleration. You have to allow the thing to go out if you're not forcing it to go in a circle. You have to allow it to go out at that rate in order for there to be no centripetal accelerations on the object. Yeah?
+
+STUDENT: So I was going to say, when you start it, you push it in the y direction. So that's a force. It's not in the r hat, but it's in the y.
+
+PROFESSOR: To get it started.
+
+STUDENT: Right, and there's no force opposing it in that direction [INAUDIBLE].
+
+PROFESSOR: Does it experience centripetal acceleration? So there's no rotation. Does it experience centripetal acceleration? What do you think? Yeah, because it goes through curved motion. At any instance in time when it's doing that, there is a radius of curvature. You can at that instant in time think of it as being in a circular path.
+
+And sometimes it's just really easy to do these kind of problems with normal and tangential coordinates. So I'm looking down on the x, y plane. Gravity is into the Earth. So I'm looking down on a vehicle, a car.
+
+And that car, the guy is kind of drunk. He's going down the road like this. So here's my y. Here's my x. And y equals some A sine 2 pi over the wavelength, 2 pi over lambda, times x at some A sine kx.
+
+And as he drives down-- if you're in a car, and you're doing that, you get thrown side to side in the car. So you are being accelerated. And so we want to be able to calculate the acceleration due to the fact that you're going down and doing a curved path. And we deal with these things sometimes with a convenient little set of coordinates that are our normal and tangential unit vectors, u normal and u tangential, at any instant in time.
+
+And we know that if this is along the path, at any instant in time you're right here, what direction is your velocity? Just definition of velocity-- tangent to the path, right? So at any instant in time, the velocity has got to be tangent to the path at that moment.
+
+So velocity, the vector, has a magnitude and a unit vector uT here I'll call it, tangent. That's all there is to it. And the acceleration of this thing is your time derivative of this. And that's going to give you a v dot uT hat plus a v. And now you need a time derivative of this guy.
+
+But this is a unit length vector. You can plug it into that equation for the derivative of a rotating vector and calculate what this should be. You could also just draw it out. So I'll draw this for you. How are we doing on time? I should just be able to finish this.
+
+Here's my unit vector in the tangential direction. As I'm going around this curve, this is my tangential direction. There's some instant I have a radius. We call that rho. And in the little time, delta t, I go through an angle delta theta in delta t.
+
+And this is my uT vector here. It changes by a little bit. That's the change in the uT unit vector in this time, delta t. And it goes perpendicular. And it goes in the positive un direction.
+
+So delta-- what's the easiest way to write this one? Delta uT equals some theta dot delta t-- that's the angle-- times the length of the unit vector, 1. That's the distance it goes, so 1. So r omega, 1 theta dot is the distance that this unit vector goes through in delta t. And the direction it goes in is u normal hat.
+
+So delta uT over delta t limit as t goes to 0, you get theta dot un, just like before. So the time derivative of this unit vector in the tangential direction is just theta dot in the normal direction. And then from that, we can very quickly derive the rest of this acceleration. The acceleration then is that plus this. We now know an expression for-- this is my uT dot term. I'm going to plug that in here.
+
+This then, we need an expression for v. What's v? Well, at that instant in time, it has some radius rho. It has an angular velocity theta dot. So rho theta dot would be the v here. So I'm looking for an expression for vuT dot. So that's v theta dot un. But theta dot is v over rho.
+
+v squared-- sorry about this-- over rho un. So this guy up here, this is v dot uT plus v squared-- I'll rewrite it-- over rho un. So if you're speeding up, if you're going from 30 miles an hour to 40 miles an hour, that's your tangential. That's your speed along the path. That's this term.
+
+But because you're going around the curve, you have an acceleration of v squared over rho. You've run into this before in physics. This is where it comes from. This is a centripetal acceleration like term. If you replace v with rho theta dot, you'd get r theta dot squared. So you can either put it in terms of v squared over rho, or you can put it in terms of rho theta dot squared. And rho theta dot squared sounds a lot like my acceleration term right here.
+
+So with that simple little formula, you can do-- you need one other thing. And you just go look it up in the book. There is an expression from calculus for the radius of curvature of a path. And it has first and second derivatives of y with respect to x. So you need a dy/dx and a d2y dx squared.
+
+From a sine function, you can calculate that. So you calculate rho from a formula that's in the book for calculating radius of curvature. And then you're done, all right? So see you on Thursday.
+
+[[Angular momentum of a particle, torque as the time rate of change of angular momentum, and the appearance of the coriolis force]]
+Print This Document
+
+And I want to do a very brief little review right now so that it applies to this problem. So we've come up with an expression that the force in the theta direction here comes-- there's got to be that, 2mr dot theta dot.
+
+So here's my point O, and A for that matter. But looking down on our problem, here's my mass at some instant in time. My rotation rate is theta dot-- or actually it's constant. So it's k hat like that, cap omega k hat. This is my r hat direction, theta hat.
+
+Now, I'm going to treat this as a particle. Not long-- we're going to be talking about the dynamics of rigid bodies. We're just doing particles for the moment. We think of them just as point masses and don't deal with their finite extent. So we're still thinking of this as a particle.
+
+And I'm going to write down the definition of the angular momentum of a particle. This is B out here with respect to my fixed frame here at O. And I'm going to use a lowercase h to describe angular momentum of particles. And I'll use capital H to describe the angular momentum of rigid bodies.
+
+So this is a particle, the definition of the angular momentum of a particle with respect to a fixed point. We're going to come back to that. That'll turn out to have some significance. The definition of this is it's RBO, the position vector, crossed with the linear momentum evaluated in the fixed frame. So that's the definition of angular momentum, which is you have linear momentum, and it's the cross product with the position vector out to it.
+
+So in this case, the RBO is capital R R hat. Well, it's not-- this varies, excuse me. So I'm not going to use-- this I use as a constant. I better keep it as the variable. Pardon that, so it's r, whatever the local position is, in the r hat direction crossed with the linear momentum. What's the linear momentum of that particle? Mass times velocity. What's the velocity?
+
+STUDENT: [INAUDIBLE].
+
+PROFESSOR: Theta dot-- where did we write it up here? Someplace-- the total velocity is r dot r hat plus r theta dot theta hat. And we need a mass in here. So mass times velocity would be the momentum. And we need the cross products of those. r hat cross r hat, you get nothing from that. And r hat cross theta hat-- positive or negative? Positive k, right?
+
+So this becomes mr squared theta dot in the k hat direction. And this one is a constant. We'll write this as cap omega. So this is my angular momentum of my particle with respect to this fixed reference frame.
+
+And so one final step that you know from your previous physics is-- how's torque related to angular momentum? Take a guess. What do you remember? Time derivative-- so d by dt of hBO here. The time rate of change of this vector is the torque with respect to this point, with respect to O.
+
+So what are constants in this thing? We don't have to deal with their derivatives. k hat is-- does the direction of the angular momentum change? It's upwards. The derivative of k, the unit vector k, does it change in this problem? No, so its time derivative is 0. Its time derivative is 0. The m time derivative is 0. The only thing you have to take the derivative of is r, so 2rr dot.
+
+So the torque is 2mrr dot cap omega. And it's all in the k direction. And that had better be rBO cross F. Torque comes as a force times a moment arm, right? And we computed here a force in the theta direction.
+
+So what would give us a torque in the k direction? An r cross a theta. r hat cross theta hat gives you a k. r cross-- and this force, the part of the force. We have two forces, one in the r direction and one in the theta direction. The cross product, this term up here, the T gives you nothing, r cross r hat cross r hat.
+
+So the only force that matters here is this Coriolis one. And so that force is 2mr dot theta dot. And we have the r cross. We know this comes out in the k direction. And we get an r in here when we compute this product. And this, to me, looks an awful lot like this. Except I missed an r squared. How did I do that?
+
+STUDENT: [INAUDIBLE].
+
+PROFESSOR: Oh no, it's not r squared. It started off over here as the angular momentum has an r squared, took the derivative. It dropped down to 2rr dot. And that's right. So the Coriolis force, what's it got to do with the angular momentum?
+
+That's kind of the point of the exercise here. In order for this ping pong ball to be accelerated, as it goes slowly out this tube, the angular momentum is increasing. In order to change angular momentum with time, you have to apply a torque. The torque that you have to apply is 2mrr dot in the k direction. And that is r cross the Coriolis force.
+
+So the Coriolis force, in this case, is the force that's necessary to increase the angular momentum of a system. That's very often the reason-- that's what Coriolis force is about. So when you shoot an artillery piece on the Earth, you've got that projectile going out there. It has angular momentum with respect to the Earth. And you'll find out that this little term pops up. And in fact, the projectile doesn't go straight. It curves.
+
+There's lots of things that because of conservation of angular momentum, you end up with this term popping up. In this case, angular momentum is not conserved. It's increasing. So you have this force to make it happen. Any questions about this? You're going to use this one a lot. You're going to work with it a lot.
+
+So anytime you see changes in angular momentum happening in a problem, in these problems with circular motion, velocities of parts increasing in radius, you'll almost always see this term pop up. Any time you see these changes in angular momentum, you'll often see the Coriolis term.
+
+All right, now we're going to do another interesting problem-- simple but interesting. And that is really to go-- let's go do this problem where the thing is really allowed to come freely out. All right, you ready to defend yourself?
+
+A little short stick is pretty effective at throwing candy. You got your safety glasses on? You want me to see if I can get one up there? Aww, also, I obviously haven't practiced this. All right, last one. Actually, there's two more.
+
+What makes this work? Let's do this problem. So let's look at our candy shooter. So I'm whipping this thing around. Candy is coming out of here. It's at B.
+
+Again, I get no z, not mess with the z part. The z part is trivial to usually deal with. Because it's totally independent, just separate equations. It doesn't complicate things much at all, even when you have z.
+
+Now, in this case, the velocity-- and here's my O frame here. The velocity B with respect to O, well, now it's got-- I'm not going to move. I'm standing still when I do it. So the first term is 0. It's got an r term, r dot in the r hat direction. And it has an r theta dot theta hat term.
+
+And these can now-- this might be changing. This might have a time derivative, r double dot. It certainly does. It's accelerating coming out of that tube. And my theta, angular motion, it can be accelerating, too. So we're going to have to deal with those.
+
+I need to know the accelerations. Now, I haven't emphasized it till now, but I find it conceptually useful to-- when you work with polar coordinates, you can have this ability to aggregate the terms in these two component directions. So you have this.
+
+All the r terms go together. And we've let the z double dot term-- it's just separate by itself. It drops out easily. And you have the theta hat term. And that's the r theta double dot plus 2r dot theta dot. And these are in the theta hat direction. There's your Coriolis term, your Euler acceleration term, centripetal term. Yeah?
+
+STUDENT: [INAUDIBLE].
+
+PROFESSOR: Well, I don't know if I ought to tell you secrets about me. Because it's going to give you an advantage on the quiz. But I've almost never, ever been known to ask a question that says, "derive." But I'll sure ask you concept questions.
+
+I really want you to understand the principles. I don't get real hung up on having you do the grungy grind it out things. Do I want you to remember the formula for how to take the derivative of a vector in rotating frame? Yeah, that's where these have come from.
+
+You had better remember this. These two formulas, the velocity formula and this, the acceleration formula, are just core to this course. Now, the way quizzes are done-- first quiz, you come in, one sheet of paper. What had better be on your paper? OK?
+
+And second quiz, two sheets, final, three sheets, that kind of thing. But conceptually, you've got forces in the r, forces in the z, accelerations in r theta and z, forces r theta and z. And for these planar motion problems, this one is sure easy to use. So let's think about this problem. I'm going to let this be frictionless just to make it easy.
+
+All right, so what possible forces act on the hunk of candy? Let's do a free body diagram of the hunk of candy coming out of here. What are the forces? And let's keep it planar.
+
+We can get gravity into this. But let's just do it in a plane. So I'm just going horizontal and slinging this thing. Gravity's in the z direction, and I've constrained it in the z. So it's something supporting the gravity in the tube.
+
+So definitely there's an mg on this thing downwards. But it's in the z direction, and we're not letting it move in the z. What about the horizontal, this direction? The r-- this is my r hat direction. This is my theta hat direction. Whoops, not either-- theta is going this way. So I've drawn this as a side view. What's the force in the r hat direction?
+
+STUDENT: [INAUDIBLE].
+
+PROFESSOR: OK, in order to do the problem, you have to figure that out. What are the forces? What are the source of forces in the r direction? Here's the r direction.
+
+STUDENT: [INAUDIBLE].
+
+PROFESSOR: Say what? Come on, you guys. Somebody be-- yeah.
+
+STUDENT: [INAUDIBLE].
+
+PROFESSOR: There are not any. Is that what you said? There aren't any. And why's that?
+
+STUDENT: [INAUDIBLE].
+
+PROFESSOR: Right, so there's no forces in the r direction. So there's no forces on this thing in the r. And so then this is a side view. We could do the top view looking down. Top view, you've got your x, y. You also have your-- here's the ball. Here's the r hat. Here's the theta hat. Now, free body diagram in the top view-- well, there's some force here probably.
+
+STUDENT: I was going to ask that the fact that we have no forces in the r hat direction, but we do have acceleration.
+
+PROFESSOR: Absolutely. She's commenting that we do have accelerations in the r direction, right?
+
+STUDENT: And we have no force.
+
+PROFESSOR: And no force. So that's the conundrum of this problem. That's the point of this problem. So let me continue. Free body diagram-- I'm looking down on it. I'm allowing for some force. It's the normal force that comes from the pipe exerting the force on the candy. And since it's frictionless, it can only be normal to the pipe. OK, so there's the free body diagram in the top view.
+
+So we can write two equations. We can write three questions-- this one equal to 0, this one in the r hat direction, this one in the theta hat direction. Sum of the forces r hat direction must be 0. And we have a mass. We have an acceleration. Solve for r double dot.
+
+Remarkable-- there's no force in the r hat direction. The position of the object, the r coordinate, it has a velocity. It has an acceleration. But the total acceleration in the r hat directions are actually 0. The rate of change of the velocity of this thing in the radial direction, r double dot, is nonzero. But there are no forces on it.
+
+I have pondered another way to explain this. I'm still thinking about it. And you think about this, too. How do you explain this in the absence of forces? And it's partly where the concept comes from of fictitious forces, that centrifugal force is a force. It's not. It's an acceleration.
+
+This is just saying that-- let's go back to this problem. In order to make something go in a circle, you have to put a force on it to cause the centripetal acceleration. You have to allow the thing to go out if you're not forcing it to go in a circle. You have to allow it to go out at that rate in order for there to be no centripetal accelerations on the object. Yeah?
+
+STUDENT: So I was going to say, when you start it, you push it in the y direction. So that's a force. It's not in the r hat, but it's in the y.
+
+PROFESSOR: To get it started.
+
+STUDENT: Right, and there's no force opposing it in that direction [INAUDIBLE].
+
+PROFESSOR: Does it experience centripetal acceleration? So there's no rotation. Does it experience centripetal acceleration? What do you think? Yeah, because it goes through curved motion. At any instance in time when it's doing that, there is a radius of curvature. You can at that instant in time think of it as being in a circular path.
+
+And sometimes it's just really easy to do these kind of problems with normal and tangential coordinates. So I'm looking down on the x, y plane. Gravity is into the Earth. So I'm looking down on a vehicle, a car.
+
+And that car, the guy is kind of drunk. He's going down the road like this. So here's my y. Here's my x. And y equals some A sine 2 pi over the wavelength, 2 pi over lambda, times x at some A sine kx.
+
+And as he drives down-- if you're in a car, and you're doing that, you get thrown side to side in the car. So you are being accelerated. And so we want to be able to calculate the acceleration due to the fact that you're going down and doing a curved path. And we deal with these things sometimes with a convenient little set of coordinates that are our normal and tangential unit vectors, u normal and u tangential, at any instant in time.
+
+And we know that if this is along the path, at any instant in time you're right here, what direction is your velocity? Just definition of velocity-- tangent to the path, right? So at any instant in time, the velocity has got to be tangent to the path at that moment.
+
+So velocity, the vector, has a magnitude and a unit vector uT here I'll call it, tangent. That's all there is to it. And the acceleration of this thing is your time derivative of this. And that's going to give you a v dot uT hat plus a v. And now you need a time derivative of this guy.
+
+But this is a unit length vector. You can plug it into that equation for the derivative of a rotating vector and calculate what this should be. You could also just draw it out. So I'll draw this for you. How are we doing on time? I should just be able to finish this.
+
+Here's my unit vector in the tangential direction. As I'm going around this curve, this is my tangential direction. There's some instant I have a radius. We call that rho. And in the little time, delta t, I go through an angle delta theta in delta t.
+
+And this is my uT vector here. It changes by a little bit. That's the change in the uT unit vector in this time, delta t. And it goes perpendicular. And it goes in the positive un direction.
+
+So delta-- what's the easiest way to write this one? Delta uT equals some theta dot delta t-- that's the angle-- times the length of the unit vector, 1. That's the distance it goes, so 1. So r omega, 1 theta dot is the distance that this unit vector goes through in delta t. And the direction it goes in is u normal hat.
+
+So delta uT over delta t limit as t goes to 0, you get theta dot un, just like before. So the time derivative of this unit vector in the tangential direction is just theta dot in the normal direction. And then from that, we can very quickly derive the rest of this acceleration. The acceleration then is that plus this. We now know an expression for-- this is my uT dot term. I'm going to plug that in here.
+
+This then, we need an expression for v. What's v? Well, at that instant in time, it has some radius rho. It has an angular velocity theta dot. So rho theta dot would be the v here. So I'm looking for an expression for vuT dot. So that's v theta dot un. But theta dot is v over rho.
+
+v squared-- sorry about this-- over rho un. So this guy up here, this is v dot uT plus v squared-- I'll rewrite it-- over rho un. So if you're speeding up, if you're going from 30 miles an hour to 40 miles an hour, that's your tangential. That's your speed along the path. That's this term.
+
+But because you're going around the curve, you have an acceleration of v squared over rho. You've run into this before in physics. This is where it comes from. This is a centripetal acceleration like term. If you replace v with rho theta dot, you'd get r theta dot squared. So you can either put it in terms of v squared over rho, or you can put it in terms of rho theta dot squared. And rho theta dot squared sounds a lot like my acceleration term right here.
+
+So with that simple little formula, you can do-- you need one other thing. And you just go look it up in the book. There is an expression from calculus for the radius of curvature of a path. And it has first and second derivatives of y with respect to x. So you need a dy/dx and a d2y dx squared.
+
+From a sine function, you can calculate that. So you calculate rho from a formula that's in the book for calculating radius of curvature. And then you're done, all right? So see you on Thursday.
+
+[[Candy shooter example of coriolis force done in polar coordinates]]
+Print This Document
+
+now we're going to do another interesting problem-- simple but interesting. And that is really to go-- let's go do this problem where the thing is really allowed to come freely out. All right, you ready to defend yourself?
+
+A little short stick is pretty effective at throwing candy. You got your safety glasses on? You want me to see if I can get one up there? Aww, also, I obviously haven't practiced this. All right, last one. Actually, there's two more.
+
+What makes this work? Let's do this problem. So let's look at our candy shooter. So I'm whipping this thing around. Candy is coming out of here. It's at B.
+
+Again, I get no z, not mess with the z part. The z part is trivial to usually deal with. Because it's totally independent, just separate equations. It doesn't complicate things much at all, even when you have z.
+
+Now, in this case, the velocity-- and here's my O frame here. The velocity B with respect to O, well, now it's got-- I'm not going to move. I'm standing still when I do it. So the first term is 0. It's got an r term, r dot in the r hat direction. And it has an r theta dot theta hat term.
+
+And these can now-- this might be changing. This might have a time derivative, r double dot. It certainly does. It's accelerating coming out of that tube. And my theta, angular motion, it can be accelerating, too. So we're going to have to deal with those.
+
+I need to know the accelerations. Now, I haven't emphasized it till now, but I find it conceptually useful to-- when you work with polar coordinates, you can have this ability to aggregate the terms in these two component directions. So you have this.
+
+All the r terms go together. And we've let the z double dot term-- it's just separate by itself. It drops out easily. And you have the theta hat term. And that's the r theta double dot plus 2r dot theta dot. And these are in the theta hat direction. There's your Coriolis term, your Euler acceleration term, centripetal term. Yeah?
+
+STUDENT: [INAUDIBLE].
+
+PROFESSOR: Well, I don't know if I ought to tell you secrets about me. Because it's going to give you an advantage on the quiz. But I've almost never, ever been known to ask a question that says, "derive." But I'll sure ask you concept questions.
+
+I really want you to understand the principles. I don't get real hung up on having you do the grungy grind it out things. Do I want you to remember the formula for how to take the derivative of a vector in rotating frame? Yeah, that's where these have come from.
+
+You had better remember this. These two formulas, the velocity formula and this, the acceleration formula, are just core to this course. Now, the way quizzes are done-- first quiz, you come in, one sheet of paper. What had better be on your paper? OK?
+
+And second quiz, two sheets, final, three sheets, that kind of thing. But conceptually, you've got forces in the r, forces in the z, accelerations in r theta and z, forces r theta and z. And for these planar motion problems, this one is sure easy to use. So let's think about this problem. I'm going to let this be frictionless just to make it easy.
+
+All right, so what possible forces act on the hunk of candy? Let's do a free body diagram of the hunk of candy coming out of here. What are the forces? And let's keep it planar.
+
+We can get gravity into this. But let's just do it in a plane. So I'm just going horizontal and slinging this thing. Gravity's in the z direction, and I've constrained it in the z. So it's something supporting the gravity in the tube.
+
+So definitely there's an mg on this thing downwards. But it's in the z direction, and we're not letting it move in the z. What about the horizontal, this direction? The r-- this is my r hat direction. This is my theta hat direction. Whoops, not either-- theta is going this way. So I've drawn this as a side view. What's the force in the r hat direction?
+
+STUDENT: [INAUDIBLE].
+
+PROFESSOR: OK, in order to do the problem, you have to figure that out. What are the forces? What are the source of forces in the r direction? Here's the r direction.
+
+STUDENT: [INAUDIBLE].
+
+PROFESSOR: Say what? Come on, you guys. Somebody be-- yeah.
+
+STUDENT: [INAUDIBLE].
+
+PROFESSOR: There are not any. Is that what you said? There aren't any. And why's that?
+
+STUDENT: [INAUDIBLE].
+
+PROFESSOR: Right, so there's no forces in the r direction. So there's no forces on this thing in the r. And so then this is a side view. We could do the top view looking down. Top view, you've got your x, y. You also have your-- here's the ball. Here's the r hat. Here's the theta hat. Now, free body diagram in the top view-- well, there's some force here probably.
+
+STUDENT: I was going to ask that the fact that we have no forces in the r hat direction, but we do have acceleration.
+
+PROFESSOR: Absolutely. She's commenting that we do have accelerations in the r direction, right?
+
+STUDENT: And we have no force.
+
+PROFESSOR: And no force. So that's the conundrum of this problem. That's the point of this problem. So let me continue. Free body diagram-- I'm looking down on it. I'm allowing for some force. It's the normal force that comes from the pipe exerting the force on the candy. And since it's frictionless, it can only be normal to the pipe. OK, so there's the free body diagram in the top view.
+
+So we can write two equations. We can write three questions-- this one equal to 0, this one in the r hat direction, this one in the theta hat direction. Sum of the forces r hat direction must be 0. And we have a mass. We have an acceleration. Solve for r double dot.
+
+Remarkable-- there's no force in the r hat direction. The position of the object, the r coordinate, it has a velocity. It has an acceleration. But the total acceleration in the r hat directions are actually 0. The rate of change of the velocity of this thing in the radial direction, r double dot, is nonzero. But there are no forces on it.
+
+I have pondered another way to explain this. I'm still thinking about it. And you think about this, too. How do you explain this in the absence of forces? And it's partly where the concept comes from of fictitious forces, that centrifugal force is a force. It's not. It's an acceleration.
+
+This is just saying that-- let's go back to this problem. In order to make something go in a circle, you have to put a force on it to cause the centripetal acceleration. You have to allow the thing to go out if you're not forcing it to go in a circle. You have to allow it to go out at that rate in order for there to be no centripetal accelerations on the object. Yeah?
+
+STUDENT: So I was going to say, when you start it, you push it in the y direction. So that's a force. It's not in the r hat, but it's in the y.
+
+PROFESSOR: To get it started.
+
+STUDENT: Right, and there's no force opposing it in that direction [INAUDIBLE].
+
+PROFESSOR: Does it experience centripetal acceleration? So there's no rotation. Does it experience centripetal acceleration? What do you think? Yeah, because it goes through curved motion. At any instance in time when it's doing that, there is a radius of curvature. You can at that instant in time think of it as being in a circular path.
+
+And sometimes it's just really easy to do these kind of problems with normal and tangential coordinates. So I'm looking down on the x, y plane. Gravity is into the Earth. So I'm looking down on a vehicle, a car.
+
+And that car, the guy is kind of drunk. He's going down the road like this. So here's my y. Here's my x. And y equals some A sine 2 pi over the wavelength, 2 pi over lambda, times x at some A sine kx.
+
+And as he drives down-- if you're in a car, and you're doing that, you get thrown side to side in the car. So you are being accelerated. And so we want to be able to calculate the acceleration due to the fact that you're going down and doing a curved path. And we deal with these things sometimes with a convenient little set of coordinates that are our normal and tangential unit vectors, u normal and u tangential, at any instant in time.
+
+And we know that if this is along the path, at any instant in time you're right here, what direction is your velocity? Just definition of velocity-- tangent to the path, right? So at any instant in time, the velocity has got to be tangent to the path at that moment.
+
+So velocity, the vector, has a magnitude and a unit vector uT here I'll call it, tangent. That's all there is to it. And the acceleration of this thing is your time derivative of this. And that's going to give you a v dot uT hat plus a v. And now you need a time derivative of this guy.
+
+But this is a unit length vector. You can plug it into that equation for the derivative of a rotating vector and calculate what this should be. You could also just draw it out. So I'll draw this for you. How are we doing on time? I should just be able to finish this.
+
+Here's my unit vector in the tangential direction. As I'm going around this curve, this is my tangential direction. There's some instant I have a radius. We call that rho. And in the little time, delta t, I go through an angle delta theta in delta t.
+
+And this is my uT vector here. It changes by a little bit. That's the change in the uT unit vector in this time, delta t. And it goes perpendicular. And it goes in the positive un direction.
+
+So delta-- what's the easiest way to write this one? Delta uT equals some theta dot delta t-- that's the angle-- times the length of the unit vector, 1. That's the distance it goes, so 1. So r omega, 1 theta dot is the distance that this unit vector goes through in delta t. And the direction it goes in is u normal hat.
+
+So delta uT over delta t limit as t goes to 0, you get theta dot un, just like before. So the time derivative of this unit vector in the tangential direction is just theta dot in the normal direction. And then from that, we can very quickly derive the rest of this acceleration. The acceleration then is that plus this. We now know an expression for-- this is my uT dot term. I'm going to plug that in here.
+
+This then, we need an expression for v. What's v? Well, at that instant in time, it has some radius rho. It has an angular velocity theta dot. So rho theta dot would be the v here. So I'm looking for an expression for vuT dot. So that's v theta dot un. But theta dot is v over rho.
+
+v squared-- sorry about this-- over rho un. So this guy up here, this is v dot uT plus v squared-- I'll rewrite it-- over rho un. So if you're speeding up, if you're going from 30 miles an hour to 40 miles an hour, that's your tangential. That's your speed along the path. That's this term.
+
+But because you're going around the curve, you have an acceleration of v squared over rho. You've run into this before in physics. This is where it comes from. This is a centripetal acceleration like term. If you replace v with rho theta dot, you'd get r theta dot squared. So you can either put it in terms of v squared over rho, or you can put it in terms of rho theta dot squared. And rho theta dot squared sounds a lot like my acceleration term right here.
+
+So with that simple little formula, you can do-- you need one other thing. And you just go look it up in the book. There is an expression from calculus for the radius of curvature of a path. And it has first and second derivatives of y with respect to x. So you need a dy/dx and a d2y dx squared.
+
+From a sine function, you can calculate that. So you calculate rho from a formula that's in the book for calculating radius of curvature. And then you're done, all right? So see you on Thursday.
+
+[[Definition of normal and tangential coordinates]]
+Print This Document
+
+I'm looking down on the x, y plane. Gravity is into the Earth. So I'm looking down on a vehicle, a car.
+
+And that car, the guy is kind of drunk. He's going down the road like this. So here's my y. Here's my x. And y equals some A sine 2 pi over the wavelength, 2 pi over lambda, times x at some A sine kx.
+
+And as he drives down-- if you're in a car, and you're doing that, you get thrown side to side in the car. So you are being accelerated. And so we want to be able to calculate the acceleration due to the fact that you're going down and doing a curved path. And we deal with these things sometimes with a convenient little set of coordinates that are our normal and tangential unit vectors, u normal and u tangential, at any instant in time.
+
+And we know that if this is along the path, at any instant in time you're right here, what direction is your velocity? Just definition of velocity-- tangent to the path, right? So at any instant in time, the velocity has got to be tangent to the path at that moment.
+
+So velocity, the vector, has a magnitude and a unit vector uT here I'll call it, tangent. That's all there is to it. And the acceleration of this thing is your time derivative of this. And that's going to give you a v dot uT hat plus a v. And now you need a time derivative of this guy.
+
+But this is a unit length vector. You can plug it into that equation for the derivative of a rotating vector and calculate what this should be. You could also just draw it out. So I'll draw this for you. How are we doing on time? I should just be able to finish this.
+
+Here's my unit vector in the tangential direction. As I'm going around this curve, this is my tangential direction. There's some instant I have a radius. We call that rho. And in the little time, delta t, I go through an angle delta theta in delta t.
+
+And this is my uT vector here. It changes by a little bit. That's the change in the uT unit vector in this time, delta t. And it goes perpendicular. And it goes in the positive un direction.
+
+So delta-- what's the easiest way to write this one? Delta uT equals some theta dot delta t-- that's the angle-- times the length of the unit vector, 1. That's the distance it goes, so 1. So r omega, 1 theta dot is the distance that this unit vector goes through in delta t. And the direction it goes in is u normal hat.
+
+So delta uT over delta t limit as t goes to 0, you get theta dot un, just like before. So the time derivative of this unit vector in the tangential direction is just theta dot in the normal direction. And then from that, we can very quickly derive the rest of this acceleration. The acceleration then is that plus this. We now know an expression for-- this is my uT dot term. I'm going to plug that in here.
+
+This then, we need an expression for v. What's v? Well, at that instant in time, it has some radius rho. It has an angular velocity theta dot. So rho theta dot would be the v here. So I'm looking for an expression for vuT dot. So that's v theta dot un. But theta dot is v over rho.
+
+v squared-- sorry about this-- over rho un. So this guy up here, this is v dot uT plus v squared-- I'll rewrite it-- over rho un. So if you're speeding up, if you're going from 30 miles an hour to 40 miles an hour, that's your tangential. That's your speed along the path. That's this term.
+
+But because you're going around the curve, you have an acceleration of v squared over rho. You've run into this before in physics. This is where it comes from. This is a centripetal acceleration like term. If you replace v with rho theta dot, you'd get r theta dot squared. So you can either put it in terms of v squared over rho, or you can put it in terms of rho theta dot squared. And rho theta dot squared sounds a lot like my acceleration term right here.
+
+So with that simple little formula, you can do-- you need one other thing. And you just go look it up in the book. There is an expression from calculus for the radius of curvature of a path. And it has first and second derivatives of y with respect to x. So you need a dy/dx and a d2y dx squared.
+
+From a sine function, you can calculate that. So you calculate rho from a formula that's in the book for calculating radius of curvature. And then you're done, all right? So see you on Thursday.
+

@@ -1,0 +1,473 @@
+[[Concept question discussion]]
+Print This Document
+
+So this is our thing spinning. What are the units of the generalized force in this problem, which is going to be related to the torque at the bottom. So most people said Newton meters, which is the units of torque. And that would be correct.
+
+So you're going to get some i theta double dot kind of equation of motion with this, as units of moment or torque. And any external non-conservative force on it would in this case have units of torque. OK, next.
+
+So we have a pendulum, kind of an odd shape. That is, does it have symmetries? Name a symmetry that this thing has.
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: You mean axial then, or a plane, or what?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Axis or a plane, OK. So this thing has symmetries. You could convince yourself pretty quickly that the principal axes with one big break down the center of it. And the other two would be perpendicular to that. So is it appropriate to use the parallel axis theorem to find an equation of motion of this thing for when it's pinned at the top?
+
+And most people said yes if you said no. I think parallel axis theorem works just great in this problem. It's planar motion, and the, for example, kinetic energy you can write as 1/2i about o up there, the hinge point. i with respect to that point theta double dot. And to do i about that point, you'd use the parallel axis theorem. So i about g plus the distance l squared times m.
+
+This one. Do you expect a centripetal acceleration term to show up in your equations of motion? And some said yes, some said no. So the equation of motion for this, I would probably write in terms of some rotation theta of the big disk. And that will cause the mass on the string to move up and down.
+
+But for the rotating parts of the system, are there-- I'll think of a clear way to word this. Let's ignore the little mass going up and down for a moment. The axis of rotation of that double disk and hub and the bigger disk, does the axis of rotation go through the center of mass of that disk?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: OK. Is it statically balanced? We haven't talked about balancing in a while. Good review question for thinking about a quiz next Tuesday. So what does it take for something which is rotating to be considered statically balanced? The axis of rotation must what?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: He says pass through the center of mass. Anybody else have a suggestion, different suggestion? If the axis of rotation passes through the center of mass, is it statically balanced?
+
+AUDIENCE: It has to be a principal axis?
+
+PROFESSOR: Does it have to be a principal axis? What do you think? Is that axis passing through g have to be a principal axis in order for it to be statically balanced? Let's see. I don't have a little-- no, it's too big. This is just a wheel. And this is my axle going through the center of mass. And it goes through the center of mass, and it'll have no tendency to swing down to a low point because the weight, its weight, is acting right on its center of mass. And with respect to this axle, there's no moment arm.
+
+So there's no torque caused by gravity that could cause this to put its center of mass below the axle. So it doesn't matter, even if I had the axis going through here. As long as that axis passes through g, there is no tendency for this thing to swing to a low side because the mass mg is acting right on the axle. No moment arm. So the only condition for static balance for a rotor of any kind, something rotating, to be statically balanced is for the axis of rotation to pass through the mass center.
+
+So the rotating part of this system, the axis of rotation passes through the mass center, that big disk. Does the little mass, m, rotate? So it can't be statically or dynamically in balance. It's not a rotating system. It's just a little translating mass that happens to be pulled up and down by the action of this thing.
+
+So the question was, do you expect a centripetal acceleration term to show up? The answer's no. So let's get back to that. If you have a static imbalance-- let's say my axis of rotation is here. This is definitely statically imbalanced now. Its mass center is down here. The force of gravity pulls it down until it hangs straight. That's how you can just test to see if you're passing through the mass center.
+
+So if you have an axis that does not pass through g, then you're statically imbalanced. And if you rotate about that axis, is there a net centripetal force required as it goes around? Why?
+
+AUDIENCE: Because the center of mass is on the outside.
+
+PROFESSOR: So the center of mass is some distance away. And you're swinging it around and around and make that center of mass go in a circle. You're applying a centripetal acceleration to the center of mass, and that takes a force, which you sometimes think of as a centrifugal force pulling out. That's what you're going to have to pull in, some m r omega squared.
+
+So no centripetal term would be expected in this problem. Let's go to the next one. This one, you had two different conditions. Either rolling without slip or rolling with slip. And the question is, for which conditions are the generalized forces associated with a virtual displacement of delta theta, the rotation of the wheel, equal to zero?
+
+So remember, generalized forces are the forces that account for the non-conservative forces in the problem. So if it's rolling down the hill without slip, are there any non-conservative forces acting on it? Is there a friction force acting on it? Yeah, but does it do any work? No, because there's no delta r at the point of application of the force. There's no motion.
+
+So for which condition does the generalized forces equal to zero? Certainly for the condition when it does not slip. What about if it does slip? Would you expect a non-conservative force to do work on it? What force would that be? The friction force.
+
+So now, as the wheel turns, that point of application where it's sliding, you're actually getting a little delta omega, delta theta rather. You move a little distance r delta theta, dotted with the force. You get a certain little bit of virtual work done, r delta theta times f. So the only case a is where you get zero.
+
+Oh, this one. What's the generalized force associated with f? That's this applied force. It's applied to the rolling thing going down the hill. The force is horizontal. And you're asked what's the generalized force associated with f due to the virtual displacement delta x? And x is the motion of the main cart.
+
+So when you're doing generalized forces, you think in terms of virtual work. Can you imagine that that cart's moving a little distance delta x, the main x in the xyo system? It shifts a little distance delta x. That force, does it move-- does the point of application of that force move with that delta x? That's really what the question comes down to.
+
+This one. So this is your inertial system, and it's going to account for the motion of this object. And then up here, got your wheel. And we have some coordinate system attached to this object, noting the position of the wheel as it goes up and down the hill. So this coordinate's relative to the moving cart. This coordinate's inertial.
+
+The question's only asking then, what is the virtual work done that's associated width delta x here, some motion of the cart. And it's going to be what we're looking for, the Qx delta x. And when we say, OK. At the point of application of the force, there's literally F here. And it's in the horizontal direction, which is exactly the same direction as capital X. So this is equal to the force.
+
+And in the problem it's called-- this is just called F. It's a vector. And we're trying to deduce the deflection at the point of application. I'm going to call it some-- it can be many forces. I'm going to call it F sub i so that we think of it as one of many. Times the displacement delta ri due to delta x. So this is a vector. This is a displacement. This is a force. The amount of work done as this force moves through that displacement is some F dot delta r, the movement at this point i where it's applied, due to this motion. So what is the delta r at this point due to that motion?
+
+So another concept here, when you're doing this, you think of these mentally one at a time. How many degrees of freedom do we have in this problem? Takes two to completely describe the motion. x and this one attached to the cart. And you think of these one at a time.
+
+So right now, we're asking what's the virtual work done by that force due to movement of this coordinate only, assuming this one is frozen? So this one is not allowed to move. So if this is not allowed to move, does the position of this change relative to this cart as you move the cart? No. That one is held fixed. It moves with the cart. So if you move the cart a little distance here, delta x in this frame, then this wheel moves with the cart that distance.
+
+So how much work gets done? So this delta ri in this case is equal to delta x. And the amount of work that gets done is delta w at point i due to delta x here is F dot delta x, but F is in the capital I direction. This is in the capital I direction. So it's just F delta x. is the work done. And that's Qx delta x. So the generalized force is just F.
+
+All right. What else we got? OK, wait a minute. Oh, this is due to the dashpot. What is generalized force associated with the dashpot due to a virtual deflection x1? Now x1's the coordinate, that thing rolling up and down the hill. So now the same thing, the dashpot force. Here's your cart. Here's your dashpot. And a free body diagram of the cart would show a dashpot force here, bx dot in that direction. And if we move the cart, again, a little bit delta x, how much work gets done?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: This is not the question asked up there. Just first this. How much virtual work gets done by that in a deflection delta x? Well, it's some Fi dot delta r due to delta x, which is just delta x. So this is some minus bx dot in the I direction times delta x in the I again. It's just in this case it's minus. So this virtual work done this time due to just the dashpot.
+
+I don't know how to write that. I don't have a subscript. So this dashpot only here, bx dot, is bx dot minus in the I direction-- that's the force-- dotted with the dr that it moves. And the dr that it moves is just delta x. So this would be minus bx I dot delta x I is your virtual work that's done.
+
+And this is equal to Qx delta x. But this is a part of Qx due only to the dashpot. And you get minus bx dot delta x. So now we've gotten both parts of the total generalized force associated with the motion delta x is F minus bx dot.
+
+In general, this expression Qx delta x is the summation over all of the applied forces i dot delta r at i due to, in this case, the motion in the x direction. And we have two contributions here. They come from the applied force F and this. So Qx in this problem is going to turn out to be F minus bx dot.
+
+Now, what about the other-- what's really asked in this problem is how much-- what's the generalized force associated with the motion of the wheel down the hill? This is in the x1 direction. So now you have a little virtual deflection delta x1. How much virtual work gets done by the dashpot?
+
+AUDIENCE: Zero.
+
+PROFESSOR: I hear zero. So a little virtual displacement of delta x1, does it move the main cart? That's really what's going on here. Does the main cart move because the wheel and the main cart change relative position a little bit?
+
+AUDIENCE: No.
+
+PROFESSOR: No. I hear no here. I mean, that's the-- the coordinate x1 is the relative motion between the cart and the wheel. And it's independent of the motion of the cart with respect to the inertial frame. So any motion of the little wheel does not affect the main cart. So there's no virtual work done by that dashpot because the wheel moves up and down the hill. And it makes sense, physical sense, right? The wheel can sit and roll up and down the hill all day long. It's not going to move that dashpot.
+
+Next. This problem. I just realized this problem's harder than I thought it was. It's one of those things that you look at it, oh, that looks straightforward. Then I looked at Audrey's solution and said, oh, she did it right. And this is a little trickier than you might think. So are the Axyz axes, which rotate with the hub-- so there's a rotating there-- definitely principal coordinates of that rod? That's not a problem. But are they principal coordinates for that disk out on the end?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Pardon?
+
+AUDIENCE: Depends if it's slipping or not.
+
+PROFESSOR: Depends if it's--
+
+AUDIENCE: Slipping or not.
+
+PROFESSOR: Actually, I don't think so. Let's just talk about-- principal coordinates need to be attached to the body, right? So problems like this do-- let's say we're using Lagrange, and we want to calculate the total kinetic-- you need to calculate the total kinetic energy of the system. So how would you go about breaking this thing down to compute the total kinetic energy? Would you break it into more than one part? What would be the natural things to break it into?
+
+AUDIENCE: The disk and the rod.
+
+PROFESSOR: The disk and the rod, right? So the kinetic energy of the rod, that's pretty straightforward. It's 1/2i with respect to the center, theta dot squared, omega squared. But the kinetic energy of that disk out there, you need to account for its rotation and its movement of its center of mass in the circle.
+
+So let's-- I'm winging it now, so bear with me if I make any mistakes. You can help me out. T rod would be-- and our coordinate system is an A at the center. There actually isn't a-- oh yeah, there's the A. So T of the rod, I would argue, is 1/2M of the rod omega squared ML squared over 3. Because it's rotating about one end. So apply the parallel axis theorem. The kinetic energy of the rod is 1/2M i with respect to that central axis, omega squared. And so that gets you from ML squared over 12 to ML squared over 3 because you're swinging around one end.
+
+But now we need T of the disk. And to do T of the disk, I would do it by saying 1/2M of the disk velocity of this center of mass of the disk in o dot VGo-- so that takes care of its kinetic energy due to motion of its center of mass-- plus 1/2 omega dot H with respect to G. With respect to G, can you express H for the disk in terms of a mass moment of inertia and some rotations, rotation rates? Is it legitimate?
+
+Remember, I started-- a few days ago, I started the top and said, here's the general expression for kinetic energy. Full 3D, right? And it basically was that expression. That works full 3D. And then when you fix a point about which something is rotating, a rigid body, then you can simplify it.
+
+But in this case, H, you could represent the angular momentum around G as some I omega. And then you have to multiply it by-- so this inside of here will be-- you can represent this in here as some I omega dotted with omega, and you will get the kinetic energy due to the rotation of the disk.
+
+What makes this problem a little trickier than I thought-- I wasn't thinking really clearly-- is that omega is in-- what frame do you express omega in when you're computing H in terms of mass moments of inertia? In order to compute I, you have to use what coordinate system?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Body fixed. And when you compute I omega, what's the omega? What unit vectors is the omega expressed in?
+
+AUDIENCE: [INAUDIBLE]. It's rotating, but it's [INAUDIBLE].
+
+PROFESSOR: But in what-- so the unit vector's associated with what coordinate system are the ones that you use to define omega?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: The one attached to the body or not? Generally in terms of the one attached to the body. And the disk gets-- that means they're rotating. It gets a little messy. So I'm not going to do it because I can't do it in my head. So this one you need to do the kinetic energy of that. You need to use this approach. And you have to be careful with those. Food for thought at office hours and in recitation.
+
+All right. I had meant to start today-- we're well in, and I haven't even started where I was going to really go today. So I have kind of a broken play. I have to decide what to drop. Give me a moment.
+
+So the principal thing I wanted to talk about today was to dig a little deeper into finding generalized forces. And the way we've been doing it is what I would call kind of an intuitive approach. So let's imagine we've got a rigid body. And I have some forces acting on it, F1.
+
+And at the point of application of each of these forces, I can have a position vector that goes there. So there's R1, R2, R3. And they're all with respect to my o frame here, but I'm going to not write in all the o's.
+
+Let's say that this is a body in planar motion. So it's confined to a plane. It's a rigid body. It's like my disk there. So how many degrees of freedom at most would it have if there's no constraints? Three, right? It could move in the x, in the y, and it can rotate in the z. So potentially three degrees of freedom. So it'll take, let's say, G is maybe here.
+
+So we need three generalized coordinates. And they would be, say, x, y, and some rotation of theta. And with them, we have virtual displacements delta x, delta y, and delta theta. And we use those to figure out the amount of non-conservative work that happens when you make those little small motions occur.
+
+And we're trying to find-- we need to find Qx, Qy, and Q theta, the generalized forces associated with these small variations, virtual reflections in R3 coordinates. So the jth one. I have a bunch of forces maybe up to here, someone here that's some Fj. So the generalized force-- I don't mean that. These are Fi's. The j's referred to are generalized coordinates.
+
+So generalized force Qj delta qj. This is the little bit of work done in the virtual deflection delta qj. And there's work done by all of these applied forces in the system, possibly. Every one, if I cause there a little delta x of this body, it moves over an amount delta x.
+
+All of those points of application of those forces move a little bit. And therefore, at every location a little bit of work gets done. So in order to account for all of the work, I have to do a summation of the Fi dot delta r at i. And now this is associated with the virtual displacement of generalized coordinate j.
+
+So the total virtual work done by a displacement of one of these is a summation of all the little bits of work done at all the points of application of forces dotted with the amount that the point of application of that force moves caused by delta qj. So in general, that's what the total qj would be. Now, we've done problems like that more or less intuitively. We figured it out and said, OK, if it moves this much, then it's going to move over that much. And if there is an angle between them, we take the component, and we just figure it out.
+
+Is there a more mathematical way of doing this? And so I'm going to show you that. So we've been doing this kind of the intuitive approach here, the reasoning out each of the deflections and calculating the result. That there's a kinematic-- there's an explicit kinematic way of doing this.
+
+AUDIENCE: I have a question.
+
+PROFESSOR: Yeah.
+
+AUDIENCE: What is it at the right corner? [INAUDIBLE]?
+
+PROFESSOR: Yeah, OK, I'm sorry. It says-- this is a delta ri. It has double subscripts here. This is the displacement at the point of application of force i due to the virtual displacement of generalized coordinate j. So that an example might be, if that's delta x over here, the summation is over i, is over F1 F2 to Fi. And the deflection is the deflection at the point of application i due to-- in this case I'm talking about delta x-- due to the virtual displacements delta x. And so that's-- we'd work each one of these out and add them up, and we'd have the answer.
+
+But there is a more explicit mathematical way of saying this. And that is to say that Qj delta qj is the summation over i equals 1 to N, however many there are, of Fi dot the derivative of ri with respect to qj delta qj. What's that mean?
+
+So let's look at one of these. So force one, there's a position vector R1. If I move in the x direction a little delta x, this point moves over delta x in that direction, in the x direction horizontally. Our position vector R1 has potentially components in the y as well as components in the x. But I'm only changing it in the x direction.
+
+So that portion of the possible movement of R1 due to changes in just one of the coordinates-- in this case, I was doing qx-- the derivative of R1 with respect to qx, so only a part of its total possible movement is due to x. This gives us that portion. Times delta qx is the total movement in the direction of qx dotted with the force. You get the work done.
+
+So I find this-- if I were you, this is highly abstract. I think we need-- let's do an example of this and see how it works out. And since we were talking about that problem, I'll do this cart by this method. So I need a position vector to the point of application of this external non-conservative force. Because I'm calling this force one, I'll call that position vector R1. And it goes from here to there.
+
+But we know that the total motion of this point is made up of the motion of the main cart plus the motion of the wheel relative to the main cart. And so we fall back on our notation. So I'll say this is R1 and zero. Here's my point A. It's R is the vector. This is R of A with respect to o plus-- and we'll better give this a name. What have I-- so this is my point one here.
+
+So this is plus R1 with respect to A. So we've done that lots of times, this term. That's just how-- that point is the sum of this vector plus this vector. So you have an R-- this is R1 with respect to A from here to here. And the sum of those two is this one. So this is R1 here.
+
+OK, so let's see if we can come up with an expression for that. Well, this point A is just x in the I plus some Y in the J. That's this term. Then I need this one.
+
+So I want-- because I'm going to take some derivatives and things, I want to get everything in terms of unit vectors and one system. So I know this one, this is my x1, and it will have a unit vector i, lowercase i, in this direction. So the unit vector i here has components in the capital IJ system. And this is theta, and that's theta.
+
+So this has-- i has a component here, which is cosine theta cap I, and then this piece is minus sine theta J. So this should be x1, the distance this thing moves, broken into two pieces, cos theta I minus sine theta J. So that's now-- the position of this thing is the position of the cart at A plus the vector that goes from A to point one, which is the distance x1 to here, broken into two pieces, an I piece and a J piece.
+
+So now we're almost done. So I would like to find Qx. And Qx then should be the summation-- well, let's see. So I'm only going to compute the part of the generalized force in the Qx direction due to just this one force. Now, remember we have other forces, non-conservative forces, acting on this. We've got a bx dot too.
+
+But I'm just going to do the contribution to Qx that comes from this force F1. And so Qx delta x is the virtual work done, is F1I dot partial of R1 with respect to x delta x. But the derivative of R1 with respect to capital X, there's no capital X's over here. So nothing comes from that. There's one right here. So the derivative of x with respect to x gives me 1. I just get 1 times I back here.
+
+F1 I hat dot I hat delta x. So it's just F1 delta x, which we knew intuitively when we worked this problem earlier, when we were talking about it. The amount of virtual work that gets done by this particular force in a deflection, virtual displacement delta x, it's just F1 delta x. But we've proven it-- we've done it in a very precise, kinematic way where we found the position vector, worked the whole thing out.
+
+So that's the simple one. Let's now find the harder one, but not much now. So we'd like to find Qx1 due to just this F1 only delta x1. Well, that should be F1I dot partial of R1 with respect to x1 delta x1. So the derivative of R1 with respect to x1-- this stuff has nothing to do with x1. The x1 only appears over here. And the derivative of this expression, just cosine I minus sine theta J.
+
+So I dot I is the only part you get back. This is-- and I need a delta x1. F1I dot I is cosine theta delta x1. So Qx1 and F1 only here equals F1 cosine theta. So this time the motion delta x1, only part of it is in the direction of F1. And that portion, by taking this derivative here, we get the contribution to this that comes from x1.
+
+And then dotted with the force, we only take that component of that motion in the direction of the force. And that gives us our total virtual work. So here is then the total virtual work done by F1 due to the little motion delta x1. So now we've got the contribution here to the generalized force that is associated with deflections of coordinate x1.
+
+Is that the total generalized force associated with generalized coordinate x1 in this problem? Are there Any other non-conservative forces in the problem that move when delta x1 is moved?
+
+AUDIENCE: What about friction?
+
+PROFESSOR: Well, let's see. Friction. Friction, you're presuming, on the wheel? OK. So he asked about friction on the wheel. Well, let's say that there's no slip in this case. Then does the friction at the point of contact with the wheel do any work? No. So do we have to account for it as a generalized force? No.
+
+So how about the dashpot? So a little virtual deflection, delta x1, does it make the big cart move? No. So are there any other forces in the problem that move when you cause a small movement in x1? No.
+
+So in this case, this is the total Qx1. Up here, we found Qx, the generalized force due to the motion of a cart, the contribution by F1. But is there another contribution?
+
+AUDIENCE: Yes.
+
+PROFESSOR: And it is?
+
+AUDIENCE: The dashpot.
+
+PROFESSOR: The dashpot. So we get additionally the total Qx here total would be the summation of two pieces, an F1 and an F2, which I'd call minus bx. It's in the same direction as delta x. So you're going to get a minus bx dot plus F1 would be the total generalized force in the capital X direction, the movement of the main cart.
+
+So any time you can actually specify a position vector to the point of application of an external non-conservative force, then you can just plug it into this. You do it at each force that's applied. You take the derivative with respect to that to coordinate qj, delta qj. That is the virtual work done by each of these forces.
+
+And you add up to get the total virtual work done due to a deflection at that particular coordinate, j. So in the case of capital of Qx, we had two contributions because we had two forces on the main cart, F1 and minus bx dot. And so the summation in that problem, when this is capital X, delta X, you have two contributions, F1 and F2.
+
+Now, what else can I do in the length of time? Actually, let me stop for a moment there, think about this. Would you have any questions about this? So we've described two ways of getting generalized forces. One's kind of the intuitive one, figure out how much it moves in the direction and do the dot product. The other one is straight mathematical way. Kinematics. Plug it in, take the derivative, same thing will come out. So while you're thinking about a question, I'll look and think what I was going to do next.
+
+I know what I'll do next, but do you have any questions on this? I'm going to do another example of this.
+
+AUDIENCE: I have a question.
+
+AUDIENCE: I have a question.
+
+PROFESSOR: Ah, Christina, yeah.
+
+AUDIENCE: So I still don't understand how if you're going to grab the wheel and move it, how that doesn't move the disk. Because they're attached, so I don't get it.
+
+PROFESSOR: Is the wheel-- it's all in how you specify your generalized coordinates. So in this problem, the two generalized coordinates are this capital X in the inertial system which describes the motion of the cart, and little x1 describes the motion of the wheel relative to the cart. And actually that allows you to write this statement. This is only relative to the cart.
+
+So the motion of the cart plus the motion of the point relative to the cart gives you the total motion. And you've picked two coordinates that allow you to describe those two things. So if you can-- in this problem, if this is the cart, this is the wheel, I even have a spring hooked to it here, if I move this a little bit, the cart doesn't have to move. This going back and forth accounts for x1 relative to this table. And the table's the cart.
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: You mean dynamically because you're putting forces on it? Yeah, well it might. But that's not-- in a way, you're asking the question, is the cart capable of moving because you put a force in the wheel? You move the wheel, which puts more spring force, which maybe that causes the cart to move. Yeah, that could happen. But that's not the problem you're solving when you're trying to find the generalized forces. You're, in fact, allowing a single motion at a time.
+
+So if you're talking about this motion, you have frozen the motion of the main cart. And you figure out what the consequence of that is. It does a little virtual work because there's a force. And you get one of the generalized forces. Then if you move the cart, you fix the wheel, and the whole cart moves. But the amount that this wheel moves is exactly equal to the amount that the cart moves because you've now fixed this relative position.
+
+And that's where you get the first-- that's where you get the capital Qx term. Even know this force F1 is applied here on the wheel, this wheel moves when the table moves. But the table doesn't move when this relative coordinate between the table and here changes. It doesn't have to. This is free to move when the table is frozen.
+
+Remember we talked about complete and independent coordinates? x1 is independent of capital X. If I freeze x1, and I make capital X change, just the whole thing moves like that. If I freeze capital X, x1 can still move. So you have to pick independent coordinates. Yeah.
+
+AUDIENCE: [INAUDIBLE] mass of the whole thing is much larger than the mass of the wheel?
+
+PROFESSOR: Not at all.
+
+AUDIENCE: Because [INAUDIBLE] if you have two massed connected by a spring, you pull the first one, they kind of pull each other along. So why don't you get the pull-along effect over here?
+
+PROFESSOR: That's a good question. It's similar-- it's essentially the same question that Christina asked. He asked basically-- let's think about it. Let's do a problem like that. Let's have two carts and a spring in between them, and they're both on wheels.
+
+This is a planar motion problem. Each of these bodies is capable in planar motion can have x and y and a rotation. But because of constraints, how many degrees of freedom does body one have? I hear one, right? I don't allow it to rotate. It's got two wheels. I don't allow it to go up because it's on the ground. I only allow it to move in this direction. Same thing to be said for this. Only one there.
+
+How many degrees of freedom do I have in this problem? One for each mass, right? So I have two degrees of freedom. How many generalized coordinates do I need? So my generalized coordinate for this one will be x1, and for this one will be some x2.
+
+If you're going to do this problem by Lagrange, and let's see. Let's put a force now to get back to your question. Let's put a force here on one. And we'll call it F1. And the potential energy-- actually, no, I don't want to do that.
+
+So the potential energy for this is some 1/2k times the amount that you stretch the springs, right? So you're going to-- the difference between x1 and x2 minus the unstretched length. So x1 minus x2 minus the unstretched length. We'll call it l0. So this would be the stretch of the springs. If the spring had no length, then it would just be the difference in these two positions squared. So my potential energy looks something like that.
+
+Now we want to compute the general-- and you could use Lagrange, and you could figure out two equations of motion for this taking your derivatives. But the point of the question was about getting to the generalized forces, right? So now the generalized force Qx1 delta x1 is F1 times the derivative of R1 with respect to x1 delta x1.
+
+So how much does the position vector from marking the position of this cart, which would be R1-- so R1 is in effect x1, right? It's a pretty trivial problem. So the derivative of R1 with respect to x1 is just 1, and the amount that it then moves is delta x1. So the virtual work done by this force on that first cart is just Qx1 equals F1. That's the generalized force caused by this first mass on the cart.
+
+What's the generalize force Qx2? Well, it's some F1. Actually, there's a dot here. This would be some x2 with respect to x1 delta x1. But how much does x2 move when you cause a little virtual deflection of-- the virtual work done if I cause a little deflection of this one is equal to the summation of the forces that act through delta x2. Now, if you move this a little delta x1 here, we figured out that that Qx1, the generalized force due to that, is indeed this.
+
+But what's the generalized force associated with motion delta x2? Let's move this one now a little bit. When you move that a little bit, how much work does F1 do? So we need to get two equations of motion, right? And you're going to get 1 by taking derivatives with respect to coordinate x1. You're going to get an equation of motion, which-- so EOM x1 associated with x1 double dot here is going to have on the right hand side some Qx1.
+
+And we figured out what that is. It's just F1. And we're going to get a second equation of motion associated with x2 double dot, the mass acceleration of the mass of the second one. And it's going to be equal to some external forces. And there's other terms in here, right? We have kx. You have your k terms and so forth in here.
+
+But on the right hand side are the external non-conservative forces. So are there any non-conservative forces on the second mass? None. So what do you expect Qx2 to be? So to get back to your point, when you're computing the generalized forces, you freeze all of the movements except one and figure out the work done. Even though in the real system, force will result in this whole system-- that whole system will move to the right.
+
+If I put a steady force F1 on there, the whole system will go off to the right hand side. That would be the solution to the equations of motion that you end up with. But for the purpose of computing the generalized force on each mass, you only fix where the masses are at some instant in time. And then one coordinate at a time cause a little virtual deflection and figure out how much work gets done.
+
+So see the distinction between the solution to the full equation to motion? Yes, indeed. Everything's going to move because of that force. And a little bit of work that gets done due to the motion of just one coordinate and then the other coordinate through all of the non-conservative forces that are applied. Did that get to your question? All right.
+
+Now, I'll set up-- I don't think I'll have time to finish this. So last time we had this problem, this is this rod. It's got a sleeve, and it's got a spring. And we figured out the potential and kinetic energy equation to motion. This is a planar motion problem. It pivots. Thing can slide up and down. Requires an angle theta and a deflection x with respect to the rod. And we figured out t and v, and we found the equations of motion for it.
+
+So here's my system. Point A here, spring, sleeve, theta, x1, y1. And the distance x1 was measured from here to G, to the center of mass. That's x1. This is in the direction here. This is the i1 unit vector direction. And the coordinate system is my x1, y1. So x1, it's down the axis like that.
+
+And this problem is a planar motion problem. There's two rigid bodies, the rod and the sleeve. And we can completely describe the motion of the system with it has two degrees of freedom. Theta defines the position of the rod, and x1 defines the position of the sleeve on the rod. So we have two degrees of freedom.
+
+And when we work this out, we end up with two equations of motion. And this was called M2. This was M1. So one equation of motion was M2 x1 double dot That was one equation of motion. And I'm just leaving the generalized force out of this for a minute. We'll figure it out. And the second equation of motion. This is the rod.
+
+So you get two equations of motion. We worked it out in the last lecture. And we can see this accounts for the mass moment inertia of the rod, mass moment of inertia of the sleeve with respect to G. So parallel axis theorem adds another piece to it. The whole thing, theta double dot. And then this is just due to gravity, gravity acting on the rod, gravity acting on the sleeve.
+
+And on the right hand side, you need to get these Qx, your generalized forces for generalized coordinate x1 and generalized coordinate theta. So we did it, in fact worked it out last time doing the intuitive approach. And what if we were to try to do this then by the kinematic approach that I described here?
+
+The force was applied here. It was horizontal. We called it F2 because it was applied to mass two. And in order to use this technique, we want now to compute Qx1. We have a force F2, and it is in the-- which way do I want to do it? We'll have an inertial system. So we need to describe a vector in-- I better not draw it out here.
+
+So I'll just set this problem up, and we'll finish it next time. I have an inertial system y and x. So that in this system, this force would be F2 capital J dotted with the derivative of some vector that runs here to this point. And I'll call that R2 in o. So the derivative of R2 with respect to x1 delta x1.
+
+And if you can work this out, then you're done. The key to this is figuring out what is R2, and doing it in unit vectors such that you can complete this dot product. So how would you describe what is this position to here, and what are its unit vectors that break it down? Take this R2, and you express it in terms of unit vectors in the inertial capital I capital J system. And once you've done that, you can take the derivative, dot it with that, and you're done.
+
+So we'll finish that next time. You might go off and think about it in your notes from last time. We already figured this out. We just did it the intuitive way. Drew the F and figured out which part's in the direction of x1, which part's in the direction of delta theta. And we figured it out. So you actually already have the answer. So go see if you can do that.
+
+[[Kinematic approach to finding generalized forces Example of a wheel on moving cart with an incline]]
+Print This Document
+
+So the principal thing I wanted to talk about today was to dig a little deeper into finding generalized forces. And the way we've been doing it is what I would call kind of an intuitive approach. So let's imagine we've got a rigid body. And I have some forces acting on it, F1.
+
+And at the point of application of each of these forces, I can have a position vector that goes there. So there's R1, R2, R3. And they're all with respect to my o frame here, but I'm going to not write in all the o's.
+
+Let's say that this is a body in planar motion. So it's confined to a plane. It's a rigid body. It's like my disk there. So how many degrees of freedom at most would it have if there's no constraints? Three, right? It could move in the x, in the y, and it can rotate in the z. So potentially three degrees of freedom. So it'll take, let's say, G is maybe here.
+
+So we need three generalized coordinates. And they would be, say, x, y, and some rotation of theta. And with them, we have virtual displacements delta x, delta y, and delta theta. And we use those to figure out the amount of non-conservative work that happens when you make those little small motions occur.
+
+And we're trying to find-- we need to find Qx, Qy, and Q theta, the generalized forces associated with these small variations, virtual reflections in R3 coordinates. So the jth one. I have a bunch of forces maybe up to here, someone here that's some Fj. So the generalized force-- I don't mean that. These are Fi's. The j's referred to are generalized coordinates.
+
+So generalized force Qj delta qj. This is the little bit of work done in the virtual deflection delta qj. And there's work done by all of these applied forces in the system, possibly. Every one, if I cause there a little delta x of this body, it moves over an amount delta x.
+
+All of those points of application of those forces move a little bit. And therefore, at every location a little bit of work gets done. So in order to account for all of the work, I have to do a summation of the Fi dot delta r at i. And now this is associated with the virtual displacement of generalized coordinate j.
+
+So the total virtual work done by a displacement of one of these is a summation of all the little bits of work done at all the points of application of forces dotted with the amount that the point of application of that force moves caused by delta qj. So in general, that's what the total qj would be. Now, we've done problems like that more or less intuitively. We figured it out and said, OK, if it moves this much, then it's going to move over that much. And if there is an angle between them, we take the component, and we just figure it out.
+
+Is there a more mathematical way of doing this? And so I'm going to show you that. So we've been doing this kind of the intuitive approach here, the reasoning out each of the deflections and calculating the result. That there's a kinematic-- there's an explicit kinematic way of doing this.
+
+AUDIENCE: I have a question.
+
+PROFESSOR: Yeah.
+
+AUDIENCE: What is it at the right corner? [INAUDIBLE]?
+
+PROFESSOR: Yeah, OK, I'm sorry. It says-- this is a delta ri. It has double subscripts here. This is the displacement at the point of application of force i due to the virtual displacement of generalized coordinate j. So that an example might be, if that's delta x over here, the summation is over i, is over F1 F2 to Fi. And the deflection is the deflection at the point of application i due to-- in this case I'm talking about delta x-- due to the virtual displacements delta x. And so that's-- we'd work each one of these out and add them up, and we'd have the answer.
+
+But there is a more explicit mathematical way of saying this. And that is to say that Qj delta qj is the summation over i equals 1 to N, however many there are, of Fi dot the derivative of ri with respect to qj delta qj. What's that mean?
+
+So let's look at one of these. So force one, there's a position vector R1. If I move in the x direction a little delta x, this point moves over delta x in that direction, in the x direction horizontally. Our position vector R1 has potentially components in the y as well as components in the x. But I'm only changing it in the x direction.
+
+So that portion of the possible movement of R1 due to changes in just one of the coordinates-- in this case, I was doing qx-- the derivative of R1 with respect to qx, so only a part of its total possible movement is due to x. This gives us that portion. Times delta qx is the total movement in the direction of qx dotted with the force. You get the work done.
+
+So I find this-- if I were you, this is highly abstract. I think we need-- let's do an example of this and see how it works out. And since we were talking about that problem, I'll do this cart by this method. So I need a position vector to the point of application of this external non-conservative force. Because I'm calling this force one, I'll call that position vector R1. And it goes from here to there.
+
+But we know that the total motion of this point is made up of the motion of the main cart plus the motion of the wheel relative to the main cart. And so we fall back on our notation. So I'll say this is R1 and zero. Here's my point A. It's R is the vector. This is R of A with respect to o plus-- and we'll better give this a name. What have I-- so this is my point one here.
+
+So this is plus R1 with respect to A. So we've done that lots of times, this term. That's just how-- that point is the sum of this vector plus this vector. So you have an R-- this is R1 with respect to A from here to here. And the sum of those two is this one. So this is R1 here.
+
+OK, so let's see if we can come up with an expression for that. Well, this point A is just x in the I plus some Y in the J. That's this term. Then I need this one.
+
+So I want-- because I'm going to take some derivatives and things, I want to get everything in terms of unit vectors and one system. So I know this one, this is my x1, and it will have a unit vector i, lowercase i, in this direction. So the unit vector i here has components in the capital IJ system. And this is theta, and that's theta.
+
+So this has-- i has a component here, which is cosine theta cap I, and then this piece is minus sine theta J. So this should be x1, the distance this thing moves, broken into two pieces, cos theta I minus sine theta J. So that's now-- the position of this thing is the position of the cart at A plus the vector that goes from A to point one, which is the distance x1 to here, broken into two pieces, an I piece and a J piece.
+
+So now we're almost done. So I would like to find Qx. And Qx then should be the summation-- well, let's see. So I'm only going to compute the part of the generalized force in the Qx direction due to just this one force. Now, remember we have other forces, non-conservative forces, acting on this. We've got a bx dot too.
+
+But I'm just going to do the contribution to Qx that comes from this force F1. And so Qx delta x is the virtual work done, is F1I dot partial of R1 with respect to x delta x. But the derivative of R1 with respect to capital X, there's no capital X's over here. So nothing comes from that. There's one right here. So the derivative of x with respect to x gives me 1. I just get 1 times I back here.
+
+F1 I hat dot I hat delta x. So it's just F1 delta x, which we knew intuitively when we worked this problem earlier, when we were talking about it. The amount of virtual work that gets done by this particular force in a deflection, virtual displacement delta x, it's just F1 delta x. But we've proven it-- we've done it in a very precise, kinematic way where we found the position vector, worked the whole thing out.
+
+So that's the simple one. Let's now find the harder one, but not much now. So we'd like to find Qx1 due to just this F1 only delta x1. Well, that should be F1I dot partial of R1 with respect to x1 delta x1. So the derivative of R1 with respect to x1-- this stuff has nothing to do with x1. The x1 only appears over here. And the derivative of this expression, just cosine I minus sine theta J.
+
+So I dot I is the only part you get back. This is-- and I need a delta x1. F1I dot I is cosine theta delta x1. So Qx1 and F1 only here equals F1 cosine theta. So this time the motion delta x1, only part of it is in the direction of F1. And that portion, by taking this derivative here, we get the contribution to this that comes from x1.
+
+And then dotted with the force, we only take that component of that motion in the direction of the force. And that gives us our total virtual work. So here is then the total virtual work done by F1 due to the little motion delta x1. So now we've got the contribution here to the generalized force that is associated with deflections of coordinate x1.
+
+Is that the total generalized force associated with generalized coordinate x1 in this problem? Are there Any other non-conservative forces in the problem that move when delta x1 is moved?
+
+AUDIENCE: What about friction?
+
+PROFESSOR: Well, let's see. Friction. Friction, you're presuming, on the wheel? OK. So he asked about friction on the wheel. Well, let's say that there's no slip in this case. Then does the friction at the point of contact with the wheel do any work? No. So do we have to account for it as a generalized force? No.
+
+So how about the dashpot? So a little virtual deflection, delta x1, does it make the big cart move? No. So are there any other forces in the problem that move when you cause a small movement in x1? No.
+
+So in this case, this is the total Qx1. Up here, we found Qx, the generalized force due to the motion of a cart, the contribution by F1. But is there another contribution?
+
+AUDIENCE: Yes.
+
+PROFESSOR: And it is?
+
+AUDIENCE: The dashpot.
+
+PROFESSOR: The dashpot. So we get additionally the total Qx here total would be the summation of two pieces, an F1 and an F2, which I'd call minus bx. It's in the same direction as delta x. So you're going to get a minus bx dot plus F1 would be the total generalized force in the capital X direction, the movement of the main cart.
+
+So any time you can actually specify a position vector to the point of application of an external non-conservative force, then you can just plug it into this. You do it at each force that's applied. You take the derivative with respect to that to coordinate qj, delta qj. That is the virtual work done by each of these forces.
+
+And you add up to get the total virtual work done due to a deflection at that particular coordinate, j. So in the case of capital of Qx, we had two contributions because we had two forces on the main cart, F1 and minus bx dot. And so the summation in that problem, when this is capital X, delta X, you have two contributions, F1 and F2.
+
+Now, what else can I do in the length of time? Actually, let me stop for a moment there, think about this. Would you have any questions about this? So we've described two ways of getting generalized forces. One's kind of the intuitive one, figure out how much it moves in the direction and do the dot product. The other one is straight mathematical way. Kinematics. Plug it in, take the derivative, same thing will come out. So while you're thinking about a question, I'll look and think what I was going to do next.
+
+I know what I'll do next, but do you have any questions on this? I'm going to do another example of this.
+
+AUDIENCE: I have a question.
+
+AUDIENCE: I have a question.
+
+PROFESSOR: Ah, Christina, yeah.
+
+AUDIENCE: So I still don't understand how if you're going to grab the wheel and move it, how that doesn't move the disk. Because they're attached, so I don't get it.
+
+PROFESSOR: Is the wheel-- it's all in how you specify your generalized coordinates. So in this problem, the two generalized coordinates are this capital X in the inertial system which describes the motion of the cart, and little x1 describes the motion of the wheel relative to the cart. And actually that allows you to write this statement. This is only relative to the cart.
+
+So the motion of the cart plus the motion of the point relative to the cart gives you the total motion. And you've picked two coordinates that allow you to describe those two things. So if you can-- in this problem, if this is the cart, this is the wheel, I even have a spring hooked to it here, if I move this a little bit, the cart doesn't have to move. This going back and forth accounts for x1 relative to this table. And the table's the cart.
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: You mean dynamically because you're putting forces on it? Yeah, well it might. But that's not-- in a way, you're asking the question, is the cart capable of moving because you put a force in the wheel? You move the wheel, which puts more spring force, which maybe that causes the cart to move. Yeah, that could happen. But that's not the problem you're solving when you're trying to find the generalized forces. You're, in fact, allowing a single motion at a time.
+
+So if you're talking about this motion, you have frozen the motion of the main cart. And you figure out what the consequence of that is. It does a little virtual work because there's a force. And you get one of the generalized forces. Then if you move the cart, you fix the wheel, and the whole cart moves. But the amount that this wheel moves is exactly equal to the amount that the cart moves because you've now fixed this relative position.
+
+And that's where you get the first-- that's where you get the capital Qx term. Even know this force F1 is applied here on the wheel, this wheel moves when the table moves. But the table doesn't move when this relative coordinate between the table and here changes. It doesn't have to. This is free to move when the table is frozen.
+
+Remember we talked about complete and independent coordinates? x1 is independent of capital X. If I freeze x1, and I make capital X change, just the whole thing moves like that. If I freeze capital X, x1 can still move. So you have to pick independent coordinates. Yeah.
+
+AUDIENCE: [INAUDIBLE] mass of the whole thing is much larger than the mass of the wheel?
+
+PROFESSOR: Not at all.
+
+AUDIENCE: Because [INAUDIBLE] if you have two massed connected by a spring, you pull the first one, they kind of pull each other along. So why don't you get the pull-along effect over here?
+
+PROFESSOR: That's a good question. It's similar-- it's essentially the same question that Christina asked. He asked basically-- let's think about it. Let's do a problem like that. Let's have two carts and a spring in between them, and they're both on wheels.
+
+This is a planar motion problem. Each of these bodies is capable in planar motion can have x and y and a rotation. But because of constraints, how many degrees of freedom does body one have? I hear one, right? I don't allow it to rotate. It's got two wheels. I don't allow it to go up because it's on the ground. I only allow it to move in this direction. Same thing to be said for this. Only one there.
+
+How many degrees of freedom do I have in this problem? One for each mass, right? So I have two degrees of freedom. How many generalized coordinates do I need? So my generalized coordinate for this one will be x1, and for this one will be some x2.
+
+If you're going to do this problem by Lagrange, and let's see. Let's put a force now to get back to your question. Let's put a force here on one. And we'll call it F1. And the potential energy-- actually, no, I don't want to do that.
+
+So the potential energy for this is some 1/2k times the amount that you stretch the springs, right? So you're going to-- the difference between x1 and x2 minus the unstretched length. So x1 minus x2 minus the unstretched length. We'll call it l0. So this would be the stretch of the springs. If the spring had no length, then it would just be the difference in these two positions squared. So my potential energy looks something like that.
+
+Now we want to compute the general-- and you could use Lagrange, and you could figure out two equations of motion for this taking your derivatives. But the point of the question was about getting to the generalized forces, right? So now the generalized force Qx1 delta x1 is F1 times the derivative of R1 with respect to x1 delta x1.
+
+So how much does the position vector from marking the position of this cart, which would be R1-- so R1 is in effect x1, right? It's a pretty trivial problem. So the derivative of R1 with respect to x1 is just 1, and the amount that it then moves is delta x1. So the virtual work done by this force on that first cart is just Qx1 equals F1. That's the generalized force caused by this first mass on the cart.
+
+What's the generalize force Qx2? Well, it's some F1. Actually, there's a dot here. This would be some x2 with respect to x1 delta x1. But how much does x2 move when you cause a little virtual deflection of-- the virtual work done if I cause a little deflection of this one is equal to the summation of the forces that act through delta x2. Now, if you move this a little delta x1 here, we figured out that that Qx1, the generalized force due to that, is indeed this.
+
+But what's the generalized force associated with motion delta x2? Let's move this one now a little bit. When you move that a little bit, how much work does F1 do? So we need to get two equations of motion, right? And you're going to get 1 by taking derivatives with respect to coordinate x1. You're going to get an equation of motion, which-- so EOM x1 associated with x1 double dot here is going to have on the right hand side some Qx1.
+
+And we figured out what that is. It's just F1. And we're going to get a second equation of motion associated with x2 double dot, the mass acceleration of the mass of the second one. And it's going to be equal to some external forces. And there's other terms in here, right? We have kx. You have your k terms and so forth in here.
+
+But on the right hand side are the external non-conservative forces. So are there any non-conservative forces on the second mass? None. So what do you expect Qx2 to be? So to get back to your point, when you're computing the generalized forces, you freeze all of the movements except one and figure out the work done. Even though in the real system, force will result in this whole system-- that whole system will move to the right.
+
+If I put a steady force F1 on there, the whole system will go off to the right hand side. That would be the solution to the equations of motion that you end up with. But for the purpose of computing the generalized force on each mass, you only fix where the masses are at some instant in time. And then one coordinate at a time cause a little virtual deflection and figure out how much work gets done.
+
+So see the distinction between the solution to the full equation to motion? Yes, indeed. Everything's going to move because of that force. And a little bit of work that gets done due to the motion of just one coordinate and then the other coordinate through all of the non-conservative forces that are applied. Did that get to your question? All right.
+
+Now, I'll set up-- I don't think I'll have time to finish this. So last time we had this problem, this is this rod. It's got a sleeve, and it's got a spring. And we figured out the potential and kinetic energy equation to motion. This is a planar motion problem. It pivots. Thing can slide up and down. Requires an angle theta and a deflection x with respect to the rod. And we figured out t and v, and we found the equations of motion for it.
+
+So here's my system. Point A here, spring, sleeve, theta, x1, y1. And the distance x1 was measured from here to G, to the center of mass. That's x1. This is in the direction here. This is the i1 unit vector direction. And the coordinate system is my x1, y1. So x1, it's down the axis like that.
+
+And this problem is a planar motion problem. There's two rigid bodies, the rod and the sleeve. And we can completely describe the motion of the system with it has two degrees of freedom. Theta defines the position of the rod, and x1 defines the position of the sleeve on the rod. So we have two degrees of freedom.
+
+And when we work this out, we end up with two equations of motion. And this was called M2. This was M1. So one equation of motion was M2 x1 double dot That was one equation of motion. And I'm just leaving the generalized force out of this for a minute. We'll figure it out. And the second equation of motion. This is the rod.
+
+So you get two equations of motion. We worked it out in the last lecture. And we can see this accounts for the mass moment inertia of the rod, mass moment of inertia of the sleeve with respect to G. So parallel axis theorem adds another piece to it. The whole thing, theta double dot. And then this is just due to gravity, gravity acting on the rod, gravity acting on the sleeve.
+
+And on the right hand side, you need to get these Qx, your generalized forces for generalized coordinate x1 and generalized coordinate theta. So we did it, in fact worked it out last time doing the intuitive approach. And what if we were to try to do this then by the kinematic approach that I described here?
+
+The force was applied here. It was horizontal. We called it F2 because it was applied to mass two. And in order to use this technique, we want now to compute Qx1. We have a force F2, and it is in the-- which way do I want to do it? We'll have an inertial system. So we need to describe a vector in-- I better not draw it out here.
+
+So I'll just set this problem up, and we'll finish it next time. I have an inertial system y and x. So that in this system, this force would be F2 capital J dotted with the derivative of some vector that runs here to this point. And I'll call that R2 in o. So the derivative of R2 with respect to x1 delta x1.
+
+And if you can work this out, then you're done. The key to this is figuring out what is R2, and doing it in unit vectors such that you can complete this dot product. So how would you describe what is this position to here, and what are its unit vectors that break it down? Take this R2, and you express it in terms of unit vectors in the inertial capital I capital J system. And once you've done that, you can take the derivative, dot it with that, and you're done.
+
+So we'll finish that next time. You might go off and think about it in your notes from last time. We already figured this out. We just did it the intuitive way. Drew the F and figured out which part's in the direction of x1, which part's in the direction of delta theta. And we figured it out. So you actually already have the answer. So go see if you can do that.
+
+[[Mass sliding on rod example]]
+Print This Document
+
+So last time we had this problem, this is this rod. It's got a sleeve, and it's got a spring. And we figured out the potential and kinetic energy equation to motion. This is a planar motion problem. It pivots. Thing can slide up and down. Requires an angle theta and a deflection x with respect to the rod. And we figured out t and v, and we found the equations of motion for it.
+
+So here's my system. Point A here, spring, sleeve, theta, x1, y1. And the distance x1 was measured from here to G, to the center of mass. That's x1. This is in the direction here. This is the i1 unit vector direction. And the coordinate system is my x1, y1. So x1, it's down the axis like that.
+
+And this problem is a planar motion problem. There's two rigid bodies, the rod and the sleeve. And we can completely describe the motion of the system with it has two degrees of freedom. Theta defines the position of the rod, and x1 defines the position of the sleeve on the rod. So we have two degrees of freedom.
+
+And when we work this out, we end up with two equations of motion. And this was called M2. This was M1. So one equation of motion was M2 x1 double dot That was one equation of motion. And I'm just leaving the generalized force out of this for a minute. We'll figure it out. And the second equation of motion. This is the rod.
+
+So you get two equations of motion. We worked it out in the last lecture. And we can see this accounts for the mass moment inertia of the rod, mass moment of inertia of the sleeve with respect to G. So parallel axis theorem adds another piece to it. The whole thing, theta double dot. And then this is just due to gravity, gravity acting on the rod, gravity acting on the sleeve.
+
+And on the right hand side, you need to get these Qx, your generalized forces for generalized coordinate x1 and generalized coordinate theta. So we did it, in fact worked it out last time doing the intuitive approach. And what if we were to try to do this then by the kinematic approach that I described here?
+
+The force was applied here. It was horizontal. We called it F2 because it was applied to mass two. And in order to use this technique, we want now to compute Qx1. We have a force F2, and it is in the-- which way do I want to do it? We'll have an inertial system. So we need to describe a vector in-- I better not draw it out here.
+
+So I'll just set this problem up, and we'll finish it next time. I have an inertial system y and x. So that in this system, this force would be F2 capital J dotted with the derivative of some vector that runs here to this point. And I'll call that R2 in o. So the derivative of R2 with respect to x1 delta x1.
+
+And if you can work this out, then you're done. The key to this is figuring out what is R2, and doing it in unit vectors such that you can complete this dot product. So how would you describe what is this position to here, and what are its unit vectors that break it down? Take this R2, and you express it in terms of unit vectors in the inertial capital I capital J system. And once you've done that, you can take the derivative, dot it with that, and you're done.
+
+So we'll finish that next time. You might go off and think about it in your notes from last time. We already figured this out. We just did it the intuitive way. Drew the F and figured out which part's in the direction of x1, which part's in the direction of delta theta. And we figured it out. So you actually already have the answer. So go see if you can do that.
+

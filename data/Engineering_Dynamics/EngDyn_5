@@ -1,0 +1,898 @@
+[[Lecture outline and Use of tangential and normal coordinates with an example]]
+Print This Document
+
+PROFESSOR: The technical topic for today, we start-- I rushed, right at the end, a little bit about tangent and normal unit vectors. I'm going to just recap that quickly. And then we're going to go on really a review, which by a review, this is the sort of stuff that, for the most part, I'm sure you've seen in 801 Physics and other Physics you've had before. And that's impulse-- linear momentum, and impulse. So that'll be a quick review.
+
+And then the third subject is one that's much deeper, and this is angular momentum. And angular momentum with respect to moving points, which you probably haven't encountered before. So those are the three topics for the day. Let's get started. So last time, the piece that I rushed a bit is this notion of tangent and normal coordinates.
+
+So I gave this-- had this example. You're driving down the road, you're drunk or whatever. And when you're at this point, this point, and this point, I'd like to know what the accelerations are. So I'll call this 1, 2, 3. And this curve, y, is of the form some y of some f of x. And in this case, it's A sine kx. And k is what's known as wave number.
+
+This is 2 pi over the wave length, 2 pi over lambda. And the wave length then is, for example, from here to here.
+
+Now, the velocity-- I'm going to pick a point here. The velocity at any point, we know, is just the tangent to the path. So this is the path, and this is horizontal. So you're driving-- driving down the road like this. That's what we're trying to do here. The gravity's down into the board. It doesn't really come into the problem. So the velocity, at any point-- at anytime-- it's a vector-- we can describe as a magnitude. And in a unit vector, we'll call ut which is the tangent unit vector.
+
+And at any instant in time, it's just aligned with the tangent to the curve. And it's perpendicular partner is a normal unit vector, which it points inward on the curve. And this will be un.
+
+Now, we're interested in accelerations, so we'll need to take a derivative of this.
+
+So I was going to say, taken aside. But I won't.
+
+So the acceleration vector, we have to take the derivative of this. Well, it's a v dot ut plus a v ut dot. It's a unit vector. And we've encountered this problem before because if this rotates, the unit vector has a non-zero derivative because of this rotation. And this derivative of the unit vector is given by theta dot u m hat Now, what's theta dot?
+
+Well, on this curve, at any instant in time, here's u-- can't draw arrows today. Here's your ut. At any instant when you're traveling along on a curve, you are going around the circle of some radius we'll call rho. So there's some radius of curvature at any instant in time. And that radius, as you drive along in a little time delta t, you go forward an amount, rho theta dot, is the velocity at which you're traveling tangent to the curve.
+
+There's an angle in here, so in here, there's some delta. You advance some delta theta, so our omega is a velocity, right? So rho theta dot its velocity, and that gives you this velocity magnitude, v. And we've gone through-- I'm not going to go through that little derivative-- that little argument before, but the change in direction of this unit vector, ut, when you go forward a little bit is actually inward, un, by an amount rho theta dot-- by an amount theta dot one times theta dot.
+
+So we've done- I'm not going to do that piece of the derivative we did before. But here is this derivative of the unit vector. It's theta dot un. So if we substitute those back in here, we can get an expression for our acceleration. This is just the acceleration along the path plus v theta dot un. And then we need to take into account the fact that we know that v, the magnitude of velocity-- the speed in other words-- is rho theta dot.
+
+And that means theta dot is v over rho. So if we plug that in up here, then we get a final expression for our acceleration, v dot ut plus v squared over rho un. And that v squared over rho-- this is a centripetal acceleration term. You're going around a curve. There is an acceleration inward. It's just like as we did from polar coordinates. It comes from rotating things.
+
+Well, as soon as you go around the curve, you're going to generate an acceleration that is of the same kind, but now we-- because you tend to know speed, it's easier to express it this way when you're doing these tangent normal problems. And this is just the acceleration along a path, the usual hit the gas petal and speed up. That's this term.
+
+So the piece that I didn't have time to put up last time, which is in the book as is this little derivative-- the derivation of that is one page in one of the early chapters of the book. How do you get rho? And rho, when you have y as a function of x, there is just this formula from mathematics-- from calculus-- that says rho is dy dx 1 plus dy dx quantity squared to the 3/2 power all over the magnitude of d2y dx squared.
+
+And you just calculate these quantities and plug them in. So for y equals a sine kx, then dy dx is Ak cosine kx and d2y dx squared is minus a k squared sine kx. So we now have these two quantities. We pick a value of x which we want to know the answer, like 0.1. So at 0.1, kx is pi over 2 because sine is a maximum.
+
+X is lambda over 4. kx is pi over 2. Sine kx is 1. Cosine kx is 0. And so we can calculate rho. 1 plus and dy dx the derivative, is cosine. That's 0. So this term in here is 0. And this is to the 3/2. That's pretty easy to calculate. This term down here, d2y dx squared, well, sine of kx is 1. So that's minus Ak squared, but this is an absolute value sign. So this just turns out to be 1 over Ak squared.
+
+And you plug-in some numbers. I'm going to let my lambda be 150 meters. My amplitude here that I'm swerving back and forth, let's make that 5 meters. We need a-- that's all we need to get rho. So rho, in this case, works out to be 114 meters. So the radius of curvature, this road that I'm driving down, at that point right at the peak in the curve is 114 meters.
+
+So the acceleration that I'm looking for, a, well, it's v dot ut. And if I'm not accelerating-- I'm not hitting the gas petal at constant speed, I'll let that would be 0. And the other one, then, is v squared over rho of the un direction. And let's let v equal-- whatever I have here in my example-- 20 meters per second, which is about 40 knots. And a knot is 15% more than a mile per hour, so it's somewhere about 45 miles an hour, so a typical road speed. Driving down the road, 20 meters per second, now you can plug-in here. You can plug-in here, and you'll find that the acceleration that I worked out here is 3.51 meters per second squared and in what direction is it?
+
+What direction is that acceleration?
+
+AUDIENCE: The normal.
+
+PROFESSOR: It's in the normal direction. Is it to the inside of the curve or the outside of the curve?
+
+AUDIENCE: Inside.
+
+PROFESSOR: Inside. It's always to the inside of the curve. So these tangent normal coordinates are really simple coordinates. They're meant for a particular kind of simple problem when you know the path. And it's just defined, the normal un is positive, always inward to the center of the curve, pointing toward the center of rotation where that radius of-- where your radius of curve is, always pointing at the origin of that radius of your curve.
+
+So g is order of 10 meters per second squared, so that's about a third of a g. Is 1/3 of a g enough to notice? Yeah, absolutely! You'll get-- when you push to the side of the car, you do that . So let's move-- any questions about that? I'm going to move on next. If not, I'm going to move on to linear impulse and momentum.
+
+And this will be a quick review because this consists of the kind of physics that you've done lots of times. We're going to hit it quickly and then move on to angular momentum. So we know for a particle-- this is what Newton told us. We've got a particle here and some mass, m. We know for a particle-- and it has some external forces on it. We know for a particle that the sum of these external forces-- it's a vector sum-- is equal to the mass times the acceleration for the particle, Newton's Second Law.
+
+And that's the mass times the derivative of the velocity with respect to time. That's where we get acceleration. So this formula we can just rearrange the dt's a little bit. So the summation of the forces, dt, is m dv. And I want to integrate these. So if I integrate this over time, from t1 to t2, this equality says we're going to find some change in velocity from v1 to v2.
+
+And this is our impulse-- this is the beginnings of our impulse-momentum relationship. We tend to call the integration of forces over time, impulse. And if you have a nonzero impulse, that leads to a change in the linear momentum.
+
+So when you carry it out so writing this a little bit different way, you can do summation because these are vectors, and we have rules about vectors. You can bring the summation outside of the integral. So that this says that the summation of the integral from t1 to t2 of these external forces is just mv2 minus mv1 because the integral on the right-hand side is really simple.
+
+And we'll finally state this in a way that we most commonly use it, moving this term to the left. So you start off with an initial momentum, mv1. You add to it the summation of the impulses that occur over time, t1, t2 of the external forces, and you get the final momentum mv2. And this is the way you usually use the formula. So what happens if there's no external forces?
+
+That's where we get the law of conservation of momentum. If there are no external forces on the particle, the momentum doesn't change and mv1 has got to be equal to mv2.
+
+So just a really trivial example drawing for something that we've done before. You got the block sliding down the hill. Draw your free body diagram. You got friction, got gravity, got a normal force. And we'll set ourselves up with a coordinate system aligned with the motion we're interested in. So this is an inertial system, x,y. And we've done this problem before.
+
+So we said the summation-- we found out that the summation of the forces in the x direction-- and this is a good moment to take an aside for a second. This was a vector expression. But you can break it-- you can implement it-- you can break it down into its individual vector components. So that equation gives you-- for particles-- gives you three sub-equations one in the x, one in the y, one in the z.
+
+And you can use them each independently. So in this case, we're going to use-- only need the x component in order to do the problem. So the sum of the forces in the x direction, in this problem which we had done before, is mg sine theta, that component of gravity pulling it down the hill, minus mu mg cosine theta. And that's the friction. And none of these are functions of time. So that whole thing is just some constant. I'll just call it k.
+
+So the total forces on the system in the x direction is just some constant. And that makes this integral up here pretty trivial to implement. So now we can say that mv1-- I'll make it v1x to emphasize that integral from 0, t1 to t2.. But I'm going to let t1 be 0 because it makes the problems easier. So from 0 to t of k dt equals mv2-- I can't write this morning-- in the x direction.
+
+And at v1, x is 0, starts off at 0 time and 0 velocity when you let it go to start with. Then, this term will go away. And we just implement this integral. And the integral of k dt is? kt, right? So this says then that kt evaluated from 0 to some time that we want to know the answer is mv2 in the x direction. And so let's let t equal 3 seconds. You find out that v 2x is 3k over m.
+
+And in this problem, then that looks like 3g sine theta minus mu cosine theta. So it's really an almost trivial example. It's not a hard example, but it emphasizes all of the key points in the problem.
+
+Start off with a vector equation. You can apply it in any one of the three vector component directions. We integrate the forces-- the sum of the forces on the object in that direction over time. And you apply the impulse-momentum formula, and you get the answer. You can do that. So that basic step-by-step process is how basically most impulse-momentum problems are done. And if there's no forces, then you have conservation of momentum.
+
+So let's do-- this was for particles.
+
+Just a quick reminder of we need to ask ourselves does this apply to groups of particles, systems of particles. Well, remember, that we said if you've got a bunch of particles, a system-- all of these are the mi''s-- we've already figured out that the total mass of the system times the velocity of the center of mass-- so g is my center of mass with respect to my inertial frame.
+
+So this is the momentum of the system that was just a summation of the individual mivi's with respect to-- And furthermore, we took the derivative of this, so this is the momentum of the system. The time derivative of the momentum should be the external forces so that we were able to-- by taking that derivative, you get mt, the total mass, times vg with respect to o dot.
+
+And that had better give you v equal to the summations of the external forces on all the particles because you can do it one particle at a time. And they all add-- each of these particles has forces. You sum them all up. You get these forces, and this allows you to say that the sum of all of the external forces on the system is equal to the total mass of the system times the acceleration of the center of mass.
+
+So this formula now can-- it looks very similar to where we started with this little derivation for a particle. You can now say that the summation-- this all leads to the summation of the integral from t1 to t2 of all of these courses over time-- gives you the change in the total linear momentum of the system, vg with respect to o1, 2 rather, minus vg with respect to o2, the second one.
+
+So this is exactly the same kind of formulation. The change in the linear momentum of the system is equal to the integral of the forces on the system over time, so the impulse to the system. So this allows you to do problems that you might not have thought about before. So I think about something like this. I've got an old Revolutionary War earlier period canon. I'm trying to draw it
+
+So here's my cannon barrel. And back in those days-- I'll do a little better job here. So we got this cannon sitting here. And in the barrel, you've got a bunch of what's known as-- in the old days, known as grapeshot. So sometimes, for anti personnel stuff, they would just throw a whole bunch of metal and junk into it. But just imagine a bunch of iron balls or lead ball rocks or whatever you want to put in there. And you put a whole mess of them in here, and you have a charge. You set it off, and it shoots them out the end of the gun.
+
+I want to know what's the reaction. What's the reaction force on the gun? When that gun-- when that charge goes off-- if you go down to the Constitution, which is the oldest commissioned warship in the US Navy still afloat-- I don't know if any of you have seen it down here in the dock in Chelsea. It was built around 1799. But when they shot one of those guns, the gun would roll back several feet and get dragged to a stop by a bunch of restraining lines and then dragged back up for another load.
+
+So the reaction force, the force pushing back-- these things were usually sitting on wheels-- could be pretty large. Let's take an estimate of it.
+
+So this is going to be a relatively small gun. The total mass of the shot here times g is 10 pounds, so 10 pounds a shot. A gallon of milk weighs 8 pounds, so this isn't a very big load. And let's say that this barrel here, from here to here, the acceleration length is 7 feet. So that shot is accelerated out of the barrel over a distance of 7 feet. And it has a muzzle velocity, an exit velocity, of 700 feet per second.
+
+Most guns, subsonic, supersonic, projectiles when they come out of guns, have you thought about that? I'm just asking-- seeing if you have a feeling for speed. And how close to the speed of sound is that?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: So the speed of sound is about 1,100 feet per second, 340 meters per second. So this is order of mach 0.6 or something like that. Something like 0.6, not 0.060, 0.6. So about 60% of the speed of sound. That's slow actually as guns go.
+
+So the initial velocity-- the shot's just sitting theree-- is 0. The final velocity is 700 feet per second. The average velocity, which I'm going to need for a second because I'm just making some estimates here-- the average velocity, average of 0 plus 700 is 350 feet per second. The reason I need this is I need to estimate the delta t. How long does it take to get the shot out of the barrel?
+
+So distance equals rate times time, right? So the v average times delta t equals 7 feet. At 350 feet per second, you find out delta t is about 0.02 seconds.
+
+So it gets out the barrel pretty quickly, 0.02 seconds, 20 milliseconds. Now, that powder, when it goes off, it's putting a lot of forces on the shot. So if the total force on the shot is 5,000 pounds, what's the reaction force on the cannon? So we're going to apply a principle here that we talked about earlier. Newton had three laws. This is a group. This is just massive balls in there.
+
+The hot exploding gases are pushing them out the barrel. What must be the push of the same gas on the canon that's containing it?
+
+AUDIENCE: Equal and opposite.
+
+PROFESSOR: Equal and opposite, Newton's Third Law. Right. So the reaction force that we're looking for is minus the force that it takes to get the shot out of the barrel. So the force on the balls, on the shot, minus the reaction force. And that's Newton's Third Law.
+
+So we're almost there. We're just applying now this concept of impulse and momentum. So now we can say the integral-- and this is a summation. You got a bunch of balls in there. They all got forces on them, but we're treating the group of balls as a system, so we can use this notion of the total mass times the velocity of the center of gravity to do this problem. So this is the force on all of these little balls integrated over time.
+
+It's going to be the mass total of the balls times the change in the velocity of the center of gravity, the final velocity minus the initial velocity. This is 0. We know this. We know this. So this mt is the 10 pounds over g. We know this is 700 feet per second. We know that all of this mounts up to the force external on the group delta t.
+
+And this is the weight of the ball, w/g. And this is 700 feet per second. That's 10 pounds divided by gravity, 32.12. And we need to divide by delta t. So the external force on the balls is w/g delta t times 700 feet per second. And if you work out those numbers, you get 10,870 pounds.
+
+Now, this is an average force because we-- that delta t is the length of time it took, assuming we had some-- we assumed an average velocity going down the barrel. So the peak force is probably higher than this, and the pressure in the barrel probably isn't constant. This actually isn't a bad estimate. If you know the muzzle velocity, which you can figure out probably from the distance it goes and things like that, you can make this estimate.
+
+So 10,000 pounds of reaction force is quite a lot. This is a dinky gun. 10 pounds a shot is not much. This is the force to get the balls out the barrel. If it's positive, what's the reaction force?
+
+Minus 10,870. And all through this, I've been doing this in a single vector direction, so I would have set up my coordinate system like here's o. This is the x direction, y direction. Obviously, in the positive x direction is what I've lined up my positive velocities and positive forces to be. So this is a really simple way. One of the kind of ways in which you use this notion of impulse and momentum that you can use to make estimates too.
+
+Any of you ever fired a shot gun. Not many. There's-- yeah. Any kick? Right. So what gauge shotgun did you fire? You don't know. OK. A 12-gauge shot gun. 12-gauge shot gun, the cartridge is just about 3/4 of an inch diameter and probably has a little amount of powder in there. It amounts up to about that much stuff. But it can give you a bruise in the shoulder if you don't hold it right. So that's what this is about.
+
+So this quick review, you've done lots of conservation of momentum problems in your time. The homework set this time has two or three problems on it that are conservation of momentum, linear momentum.
+
+But now I want to move on to talking about angular momentum. And angular momentum, in a way in which you probably haven't done angular momentum problems before. So anything about last thing on this. So mostly this, I want you to read the chapter. I think it's chapter 15. The first few sections of it are on linear momentum, the last few sections on angular momentum. Go read them and just work the problems. That's where you'll get most of your refresher is doing the practice problems.
+
+Angular momentum.
+
+So we'll start with particle. We're very rapidly going to get to rigid bodies.
+
+Now many times, you've done angular momentum problems before, mostly rotations about fixed axes. So here's our inertial frame, fixed x,y and you have a particle out here. And it just has some mass, m. And it has some total force on it, the force. And this says the particle is located at B here, so the force at B, total force at B, just some vector.
+
+It also is traveling with some velocity at that instant in time, so it has momentum. Momentum is p of this particle at B with respect to o. And I'd like to-- the standard expression then for the angular momentum of this particle at B with respect to o-- we have a position vector here, r Bo, which we've used lots of times by now, is just the cross product of the position vector with the linear momentum.
+
+And that's the definition of angular momentum. I'm using a lowercase h here, so they're going to do that to indicate single particles. And I'll use a capital H later on when we're referring to rigid bodies. So the angular momentum of this particle, with respect to this point, is given by that.
+
+And where you've used this before, then, it's the derivative of hB with respect to o dt is-- what's that? Remember, where does this give you? The time rate of change of the angular momentum is the?
+
+AUDIENCE: Torque
+
+PROFESSOR: Torque. Right. And it's the torque. It's a sum of the torques applied on that object with respect to the coordinate system in which you're computing the angular momentum. So that's-- we've used this formula many times. And in planar motion where you only have one axis of rotation using the z-axis of rotation, you usually would write this as I theta double dot. In simplest form, if it's a rigid body, it has a mass moment of inertia times theta double dot is equal to the sum of the external torque. So that's where you've met this before.
+
+But for the moment, this is just a particle. Let's stick with a particle.
+
+So the piece that's new here-- probably new for you-- is that what if I want to know the angular momentum with respect to another point? So here's a point A. I'd like to compute hB with respect to A. Well, that's rB with respect to A cross PB with respect to o. And this is really easy to forget. The momentum is always calculated with respect to your inertial frame. And that's why I keep in this with respect to and telling you what the frame is is pretty important.
+
+But we're out here at some arbitrary point, computing the cross product of the position vector from this arbitrary point to this moving mass. And we're defining-- it's just a definition defining the angular momentum with respect to this point A as r B/A cross PB with respect to o.
+
+And what I want to get to is now is the torque on this system, around this particle, B with respect to A is the time rate of change of h B/A with respect to t. But now it's a little more complicated. Plus, the velocity of A with respect to o-- these are all vectors-- cross PB with respect to o. Messy term.
+
+I was trying to think of an example where you might want to do this.
+
+So imagine that you've got an arm which can rotate. It might be on a robot or something like that. And it has attached to it another arm with a mass on it. And you've got a motor here, which can make this rotate. And you're trying to design-- the motor has to be able to put out a certain amount of torque. So this is o. This is B. This is A. And you actually-- I want to know the torque required in this motor to drive this thing around.
+
+But the motor is here, and it only cares about what it feels, so the torque at this point to drive this thing. But this whole system is now in motion. You'd have to use this formula. So there are practical times when you'd like to be able to calculate something like this.
+
+So there's a-- we're going to show you a very brief derivation of this just so you can get a feeling for where this comes from because there's a couple of outcomes that are very important to it.
+
+So the sum of the forces there at-- those forces at B, give you the time rate of change of the momentum at B with respect to o. This is the momentum vector of our particle. And this fB, this is the total external forces acting on the particle. And we know that's m. It's a single particle times the velocity of That certainly could be right.
+
+That's our familiar formula for F equals ma. So the time derivative of a linear momentum gives you this. And the torque of B with respect to A is r B/A cross-- I'm going let this just be a total vector. I'll call it fB. It's a vector. The torque with respect to A is just r B/A cross this total external force. r B/A cross time derivative of P B/o.
+
+Because the forces give us r if it's from the time rate of change of the linear momentum of that particle. So I can say it like this.
+
+But now there is just a little vector identity for products of vectors that I'm going to take advantage. And I'll call this Q. So Q is of the form-- and I'm going to say this is a quantity of vector A, and this is a quantity of vector-- time derivative of a vector B. It's A cross dB dt. So there's a little identity that you can use. It says A cross dB dt. You can alternatively write that as the time derivative of A cross B minus time derivative of A cross B.
+
+We're going to take advantage of this and just re-construct this formula using this expression.
+
+So that says torque of B with respect to A is the time derivative of r B/A cross P B/o minus the derivative of r B/A cross P B/o. So we've just made this substitution down here in terms of r B/A and P B/o all vectors.
+
+We know that r B/A, from all the previous work we've done, is just r B/o minus r A/o so the derivative of r B/A with respect to time is v B/o minus v A/o
+
+We're almost there. We're almost there. I'm going to need another board.
+
+This quantity here, this is just h B/A. This is the angular momentum of the particle with respect to A. It's just r cross B, if you recall.
+
+So then we can rewrite this expression for the torque as the time derivative of h of B with respect to A. That's because of what I pointed out there. Now, this is minus v B/o minus v A/o cross P B/o.
+
+So P of B with respect to o is just m velocity of B with respect to o. So v B/o cross P B/o gives you what? Nothing. Gives you 0 because they are in parallel of the angle, and they're in the same direction. So you only get a nonzero piece out of this minus times minus gives you a plus, and you end up with-- and that's what we set out to find.
+
+I said this is where I was trying to get, and now we're there. Now importantly, there's a couple of special cases of this. This can be a nuisance term to have to deal with. Lots of times you'd like to be able to get rid of it and just be able to go back to that old reliable formula, torque is time rate of change of angular momentum.
+
+So there are two obvious-- maybe obvious conditions in which this will go away. What's the most obvious one?
+
+AUDIENCE: [INAUDIBLE] change to 0.
+
+PROFESSOR: Something, what you say was 0?
+
+AUDIENCE: One of the terms
+
+PROFESSOR: Well, yeah. This term presumably not. This guy, if this is 0, it's just back to our old familiar formula. That's one case, so case one.
+
+But now-- actually, this is a really important result because A can be anywhere as long as it's not moving. So this allows you to do things, talk about rotations about fixed axes that aren't at the center of mass. So if you have a fixed axis of rotation and something going around it, that's what this allows you to do. That's one case. So this is--
+
+We'll soon get to rigid bodies. Rigid bodies obey exactly the same formulas. And you can have a rigid body, now, that is not rotating about its center, but rotating maybe about its end like this. That formula applies if the velocity of that axis about which it's rotating, about which you're computing, is not moving, then you can just use-- you don't have to deal with that messy term. So this is one case in which this term goes away.
+
+The other case is if this velocity is parallel to the direction of the momentum. And there's a really useful time that that happens. So also this formula is true. Case two is when v A/o is parallel to P B/o, the direction. You're going in the same direction. Now that happens when A-- it's guaranteed to be true if A is at the center of mass because the momentum is defined as the mass of the object times the velocity of its center of mass, even for rigid bodies.
+
+So this is true when A is-- and I'll call it G-- at the center of mass. So this gives us another really important generalization that we'll use-- that we make great use of in dynamics.
+
+And that says that the torque, with respect to the center of mass, is time rate of change of h with respect to G. Now, I'm not going to go-- I did the proof-- went through this little proof just for a particle. But by summing a bunch of particles and going through all the summations, as we did, to prove the center of mass formula, you can show-- this allows you to very quickly show that this formulation is also true for rigid bodies.
+
+So the way you say it for rigid bodies is that the sum of the torques, with respect to some point for a rigid body, is capital H dot with respect to A plus the velocity of A with respect to o cross P. And now I'm going to say G, its center of mass, center of gravity, with respect to o. So the same statement for a rigid body is that the torque with respect to some point A, which can be moving now-- even accelerating-- is the time rate of change of the angular momentum with respect to A of that rigid body plus v A/o cross P B/o.
+
+And again, when would this messy second term go to 0? When the velocity of A is 0, fixed axis rotation, or when this is parallel to that, which is true for the center of mass always. So the same two special cases apply for rigid bodies when velocity of A with respect to 0 equals 0 or when the velocity of A with respect to o is parallel the P. And the most important case of that is always true.
+
+It's always the case. And in these you can say this. Then, the torque, with respect to A, is dH, with respect to A dt. No second terms.
+
+And it's those kinds of-- you've applied, generally in your physics like in 801, you've used formulas like this a lot. Done problems either with respect to the center of mass so objects were doing things like that. You'll do the torque formulas with respect to the center of mass. Or when you have things that are pinned to points and rotate about fixed axes, then use the other formulation where it is with respect to a non-moving point. So this is fixed axis rotation.
+
+So that's the dry derivation part of it. I'm going to see if I can find an example here.
+
+This is quite a bit like a number of the homework problems.
+
+So I've got a carnival ride. I got a bar. And it's got a seat out here. You're riding in it. So you're taking this ride. It's rotating. This is some fixed axis here. You have a fixed coordinate system, your o x, y, z. And then you'd probably have some rotating coordinate system with the point A fixed here at the axis of rotation. And this is going-- what's unusual about this ride, not only can it go around and round, but the arm can go in and out.
+
+So it might take a path inwards, like you pull the arm in as you're going around. What are the forces that you feel in the ride?
+
+So this is my point B out here. It's where the person's at. You have some mass, m. And let's let, for now, the first case-- theta dot, let that be constant, the constant angular rate here. Here's theta and r dot.
+
+Now, you already know quite a bit about things like this. If your riding in that bucket, what forces do you think you would feel? Or I should say it more carefully. There will be accelerations that you feel in that bucket. You'll feel like forces on you. But what are the accelerations that you will feel-- you expect to be if you're riding in it?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: I hear one here.
+
+AUDIENCE: Centripetal acceleration.
+
+PROFESSOR: So there will be centripetal acceleration, right. Everybody agree with that? Anything else?
+
+AUDIENCE: Coriolis acceleration.
+
+PROFESSOR: There's going to be some Coriolis because r dot is not 0. It's changing in position, but when the length of the arm of something rotating at constant speed changes, what momentum changes?
+
+AUDIENCE: Angular.
+
+PROFESSOR: Angular, for sure. How about linear momentum? Yeah, it's changing too because r cross P is angular momentum. So both linear and angular momentum are changing as this radius gets longer or shorter. And if that angular momentum changes, it takes torque to drive it. And so we ought to be able to use the formulas that we've just derived to calculate something about the torques required to make this happen and the forces on the rider.
+
+So we'll treat this one as a particle. So H, the angular momentum of the rider out here, at B with respect to o, is going to be r B/o cross P. And in this problem, I'll use polar coordinates. Pretty easy. This is a planar motion problem. It's confined to the x,y plane and rotation z, so polar coordinates are pretty convenient. So this should look like radius r r hat cross-- and the linear momentum of this is the mass-- times r dot r hat.
+
+That's the extension rate, but it also has velocity in this theta hat direction, r theta hat. So this is P was respected o, m, v. And this is the radius-- this is the r crossed into it.
+
+Now r hat cross r hat gives you 0, so you only get a single term out of this. And you get an r cross-- r hat cross, theta hat, positive k. So this looks like plus m r squared, theta dot, k hat. That's my H B/o.
+
+Now, I would-- that's my first piece that I wanted to get. That's the a part. That's find the angular momentum. So this is a. b, I want to know the torque.
+
+Well, which formula can we use? Are we allowed to use-- do we have to account for that second term?
+
+AUDIENCE: No.
+
+PROFESSOR: No. Why?
+
+AUDIENCE: Velocity.
+
+PROFESSOR: Yeah. The velocity of the point about which we're computing, the angular momentum, and therefore, the torques, is not moving. So you only have to deal with the first term. So the torque required to move that particle at B with respect to o is just a time rate of change d by dt of h B with respect to o. And that's d by dt of m r squared theta dot k hat.
+
+So what are the constants in this expression so we don't have to worry about their derivatives? Does k hat change length? No. Change direction? No. Theta dot, does it change in this problem? No, we fixed it. We arbitrarily started off saying that we'll just let theta dot be constant. r, though, is changing. So the time derivative of this particular one, we only have to deal with the r. Actually, I'll forget that for a second because I want to get both terms, and then we'll let it be 0.
+
+So this time derivative then, when you work it out-- the derivative of the r term gives you 2mr r dot theta dot k hat. And I'll just go ahead and forget for a minute that I said that's constant. Let's get the other term that might be there. That term gives us m r squared theta double dot k hat.
+
+This term comes from what we'll find is the Coriolis one. And this is from what we call the Eulerian acceleration.
+
+The torque-- let me get this up a little higher. We should be able to write as some r cross f. And so the r cross f terms, this will be from the Coriolis force. And this would be from that Eulerian force. So this will look like r r hat cross-- I'm just factoring this back out into its cross products-- r r hat cross 2m r dot theta dot, in the theta hat direction, plus r theta double dot, in the theta hat direction.
+
+So there's two terms in this torque expression. They come from r cross, two force terms. The first force term is what we know to be the Coriolis force. And the second force term-- I am missing an m here. r m theta double dot theta hat, that's the force that it takes to-- if the thing were accelerating, just to accelerate that ball, theta double dot takes a force. You do these cross products. r cross theta hat give you k. R cross theta hat give you k. It all comes out in the right directions.
+
+And now to do the problem we had, we said, oh yeah, let this one be 0. So we'll let this term go to 0. We're left with a single term.
+
+And if we plugged in some numbers-- let's just see how this works out. And this we know is just r cross the Coriolis.
+
+Well, let's let m-- if you let m be 100 kilograms and r be 5 meters and r dot, 0.4 meters per second-- they're all perfectly reasonable dimensions. And theta dot equals 3 radians per second. So 2 pi radians per second means it goes around once a second. So this is a little less than half a rev per second. Yeah?
+
+AUDIENCE: Is this still [INAUDIBLE] though, or does it--
+
+PROFESSOR: Probably. Yeah. Good catch! Got to have on r in it because that r comes from here, right? So I had the Coriolis force written down, but not the r you have to multiply it by. So now if you plug in all of these numbers, let's see if it's a ride you could survive.
+
+I actually computed the Coriolis force first. I think it's just interesting to get a physical feeling for how-- whether or not you can feel these forces. So the Coriolis force is just everything but the r, 2m r dot theta dot. So if you calculate that, you get 240 newtons. And r times that, the torque. 5 times that, about 1,200 Newton meters. And the acceleration, how do we get acceleration?
+
+Well, f cor, Coriolis force, is some mass times an acceleration. So we can solve, from that 240 newtons, the acceleration of the system. Our acceleration of B with respect to o, 240 newtons divided by 100 kilograms, 2.4 meters per second squared. And what's that in g's.
+
+AUDIENCE: About 1/4.
+
+PROFESSOR: Yeah, about a quarter of a g. And again, would you feel that?
+
+So now you riding in the bucket. Let's say it's just spinning around. The arm is not going in and out at all. So you're riding in it. What force would you feel? Would you feel any forces pushing you into your seat? Constant speed, r dot's 0.
+
+Somebody out there, would you feel any force if you're going around and around in this thing sitting in a seat?
+
+AUDIENCE: Yes.
+
+PROFESSOR: OK. What's it come from?
+
+AUDIENCE: Centripetal acceleration.
+
+PROFESSOR: Centripetal acceleration. And that is in what direction?
+
+AUDIENCE: It's inward.
+
+PROFESSOR: Accelerations is inward. What would you actually feel? You'd feel-- if this seat could swing out so your facing in, you'd feel like you're being thrown out in your seat, right? Because you have to have a force on you to make that acceleration happen. Acceleration is inward. The force had better be pushing you inward. So it's pushing on your back if you're look in, going around. So that's the-- I've forgotten the term for it. But put the astronauts in a centrifuge, spin around to see if they can take high g's. That's the inward high g acceleration due to the centripetal acceleration, makes you go in a circle.
+
+But now not only are you going to feel that, but now you start changing the length of the arm. And if you change r dot and make it positive so the arm is getting longer, and we made this 0.4 meters per second. So it's moving out about like that. It's not real fast. But it's going to create a quarter of a g acceleration on you. And if r dot's positive, which direction is that acceleration?
+
+I was careful. We walked all the way through this. The acceleration is positive, but in what direction? It's the Coriolis.
+
+AUDIENCE: Theta hat.
+
+PROFESSOR: Theta hat, positive theta hat, so it's in the direction of increasing theta. So this one is perpendicular to the arm. And this is the-- one of my ping pong balls in here, the force that actually causes it to speed up is partly Coriolis and partly or Eulerian. If I can make this go at constant speed, the force that drives that-- the force that actually speeds that up as they're going out is the Coriolis force, the normal one.
+
+So if you were on this ride, you'd be feel about a quarter of a g perpendicular to the arm. You'd be filling another force inward that's the centripetal-- caused by the centripetal acceleration. So you'd be feeling both of them. How big is the centripetal acceleration? Like r omega squared, right?
+
+AUDIENCE: Right.
+
+PROFESSOR: r is 5. Omega is 3. 3 Squared is 9, times 5-- 9 times 5, 45, divided by 10, 4 and 1/2 g's. You wouldn't notice the Coriolis very much. It would be a tough ride on that side of things.
+
+Now, we've done that-- you've seen a simple application, pretty straightforward application, of using time derivative of angular momentum to calculate torques. So on homework, again, there's a couple problems very similar to the one I just did, things going around, circus rides, that kind of stuff. So have a good weekend. See you on Tuesday.
+
+[[A review of the principle of linear momentum and impulse]]
+Print This Document
+
+And this will be a quick review because this consists of the kind of physics that you've done lots of times. We're going to hit it quickly and then move on to angular momentum. So we know for a particle-- this is what Newton told us. We've got a particle here and some mass, m. We know for a particle-- and it has some external forces on it. We know for a particle that the sum of these external forces-- it's a vector sum-- is equal to the mass times the acceleration for the particle, Newton's Second Law.
+
+And that's the mass times the derivative of the velocity with respect to time. That's where we get acceleration. So this formula we can just rearrange the dt's a little bit. So the summation of the forces, dt, is m dv. And I want to integrate these. So if I integrate this over time, from t1 to t2, this equality says we're going to find some change in velocity from v1 to v2.
+
+And this is our impulse-- this is the beginnings of our impulse-momentum relationship. We tend to call the integration of forces over time, impulse. And if you have a nonzero impulse, that leads to a change in the linear momentum.
+
+So when you carry it out so writing this a little bit different way, you can do summation because these are vectors, and we have rules about vectors. You can bring the summation outside of the integral. So that this says that the summation of the integral from t1 to t2 of these external forces is just mv2 minus mv1 because the integral on the right-hand side is really simple.
+
+And we'll finally state this in a way that we most commonly use it, moving this term to the left. So you start off with an initial momentum, mv1. You add to it the summation of the impulses that occur over time, t1, t2 of the external forces, and you get the final momentum mv2. And this is the way you usually use the formula. So what happens if there's no external forces?
+
+That's where we get the law of conservation of momentum. If there are no external forces on the particle, the momentum doesn't change and mv1 has got to be equal to mv2.
+
+So just a really trivial example drawing for something that we've done before. You got the block sliding down the hill. Draw your free body diagram. You got friction, got gravity, got a normal force. And we'll set ourselves up with a coordinate system aligned with the motion we're interested in. So this is an inertial system, x,y. And we've done this problem before.
+
+So we said the summation-- we found out that the summation of the forces in the x direction-- and this is a good moment to take an aside for a second. This was a vector expression. But you can break it-- you can implement it-- you can break it down into its individual vector components. So that equation gives you-- for particles-- gives you three sub-equations one in the x, one in the y, one in the z.
+
+And you can use them each independently. So in this case, we're going to use-- only need the x component in order to do the problem. So the sum of the forces in the x direction, in this problem which we had done before, is mg sine theta, that component of gravity pulling it down the hill, minus mu mg cosine theta. And that's the friction. And none of these are functions of time. So that whole thing is just some constant. I'll just call it k.
+
+So the total forces on the system in the x direction is just some constant. And that makes this integral up here pretty trivial to implement. So now we can say that mv1-- I'll make it v1x to emphasize that integral from 0, t1 to t2.. But I'm going to let t1 be 0 because it makes the problems easier. So from 0 to t of k dt equals mv2-- I can't write this morning-- in the x direction.
+
+And at v1, x is 0, starts off at 0 time and 0 velocity when you let it go to start with. Then, this term will go away. And we just implement this integral. And the integral of k dt is? kt, right? So this says then that kt evaluated from 0 to some time that we want to know the answer is mv2 in the x direction. And so let's let t equal 3 seconds. You find out that v 2x is 3k over m.
+
+And in this problem, then that looks like 3g sine theta minus mu cosine theta. So it's really an almost trivial example. It's not a hard example, but it emphasizes all of the key points in the problem.
+
+Start off with a vector equation. You can apply it in any one of the three vector component directions. We integrate the forces-- the sum of the forces on the object in that direction over time. And you apply the impulse-momentum formula, and you get the answer. You can do that. So that basic step-by-step process is how basically most impulse-momentum problems are done. And if there's no forces, then you have conservation of momentum.
+
+So let's do-- this was for particles.
+
+Just a quick reminder of we need to ask ourselves does this apply to groups of particles, systems of particles. Well, remember, that we said if you've got a bunch of particles, a system-- all of these are the mi''s-- we've already figured out that the total mass of the system times the velocity of the center of mass-- so g is my center of mass with respect to my inertial frame.
+
+So this is the momentum of the system that was just a summation of the individual mivi's with respect to-- And furthermore, we took the derivative of this, so this is the momentum of the system. The time derivative of the momentum should be the external forces so that we were able to-- by taking that derivative, you get mt, the total mass, times vg with respect to o dot.
+
+And that had better give you v equal to the summations of the external forces on all the particles because you can do it one particle at a time. And they all add-- each of these particles has forces. You sum them all up. You get these forces, and this allows you to say that the sum of all of the external forces on the system is equal to the total mass of the system times the acceleration of the center of mass.
+
+So this formula now can-- it looks very similar to where we started with this little derivation for a particle. You can now say that the summation-- this all leads to the summation of the integral from t1 to t2 of all of these courses over time-- gives you the change in the total linear momentum of the system, vg with respect to o1, 2 rather, minus vg with respect to o2, the second one.
+
+So this is exactly the same kind of formulation. The change in the linear momentum of the system is equal to the integral of the forces on the system over time, so the impulse to the system. So this allows you to do problems that you might not have thought about before. So I think about something like this. I've got an old Revolutionary War earlier period canon. I'm trying to draw it
+
+So here's my cannon barrel. And back in those days-- I'll do a little better job here. So we got this cannon sitting here. And in the barrel, you've got a bunch of what's known as-- in the old days, known as grapeshot. So sometimes, for anti personnel stuff, they would just throw a whole bunch of metal and junk into it. But just imagine a bunch of iron balls or lead ball rocks or whatever you want to put in there. And you put a whole mess of them in here, and you have a charge. You set it off, and it shoots them out the end of the gun.
+
+I want to know what's the reaction. What's the reaction force on the gun? When that gun-- when that charge goes off-- if you go down to the Constitution, which is the oldest commissioned warship in the US Navy still afloat-- I don't know if any of you have seen it down here in the dock in Chelsea. It was built around 1799. But when they shot one of those guns, the gun would roll back several feet and get dragged to a stop by a bunch of restraining lines and then dragged back up for another load.
+
+So the reaction force, the force pushing back-- these things were usually sitting on wheels-- could be pretty large. Let's take an estimate of it.
+
+So this is going to be a relatively small gun. The total mass of the shot here times g is 10 pounds, so 10 pounds a shot. A gallon of milk weighs 8 pounds, so this isn't a very big load. And let's say that this barrel here, from here to here, the acceleration length is 7 feet. So that shot is accelerated out of the barrel over a distance of 7 feet. And it has a muzzle velocity, an exit velocity, of 700 feet per second.
+
+Most guns, subsonic, supersonic, projectiles when they come out of guns, have you thought about that? I'm just asking-- seeing if you have a feeling for speed. And how close to the speed of sound is that?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: So the speed of sound is about 1,100 feet per second, 340 meters per second. So this is order of mach 0.6 or something like that. Something like 0.6, not 0.060, 0.6. So about 60% of the speed of sound. That's slow actually as guns go.
+
+So the initial velocity-- the shot's just sitting theree-- is 0. The final velocity is 700 feet per second. The average velocity, which I'm going to need for a second because I'm just making some estimates here-- the average velocity, average of 0 plus 700 is 350 feet per second. The reason I need this is I need to estimate the delta t. How long does it take to get the shot out of the barrel?
+
+So distance equals rate times time, right? So the v average times delta t equals 7 feet. At 350 feet per second, you find out delta t is about 0.02 seconds.
+
+So it gets out the barrel pretty quickly, 0.02 seconds, 20 milliseconds. Now, that powder, when it goes off, it's putting a lot of forces on the shot. So if the total force on the shot is 5,000 pounds, what's the reaction force on the cannon? So we're going to apply a principle here that we talked about earlier. Newton had three laws. This is a group. This is just massive balls in there.
+
+The hot exploding gases are pushing them out the barrel. What must be the push of the same gas on the canon that's containing it?
+
+AUDIENCE: Equal and opposite.
+
+PROFESSOR: Equal and opposite, Newton's Third Law. Right. So the reaction force that we're looking for is minus the force that it takes to get the shot out of the barrel. So the force on the balls, on the shot, minus the reaction force. And that's Newton's Third Law.
+
+So we're almost there. We're just applying now this concept of impulse and momentum. So now we can say the integral-- and this is a summation. You got a bunch of balls in there. They all got forces on them, but we're treating the group of balls as a system, so we can use this notion of the total mass times the velocity of the center of gravity to do this problem. So this is the force on all of these little balls integrated over time.
+
+It's going to be the mass total of the balls times the change in the velocity of the center of gravity, the final velocity minus the initial velocity. This is 0. We know this. We know this. So this mt is the 10 pounds over g. We know this is 700 feet per second. We know that all of this mounts up to the force external on the group delta t.
+
+And this is the weight of the ball, w/g. And this is 700 feet per second. That's 10 pounds divided by gravity, 32.12. And we need to divide by delta t. So the external force on the balls is w/g delta t times 700 feet per second. And if you work out those numbers, you get 10,870 pounds.
+
+Now, this is an average force because we-- that delta t is the length of time it took, assuming we had some-- we assumed an average velocity going down the barrel. So the peak force is probably higher than this, and the pressure in the barrel probably isn't constant. This actually isn't a bad estimate. If you know the muzzle velocity, which you can figure out probably from the distance it goes and things like that, you can make this estimate.
+
+So 10,000 pounds of reaction force is quite a lot. This is a dinky gun. 10 pounds a shot is not much. This is the force to get the balls out the barrel. If it's positive, what's the reaction force?
+
+Minus 10,870. And all through this, I've been doing this in a single vector direction, so I would have set up my coordinate system like here's o. This is the x direction, y direction. Obviously, in the positive x direction is what I've lined up my positive velocities and positive forces to be. So this is a really simple way. One of the kind of ways in which you use this notion of impulse and momentum that you can use to make estimates too.
+
+Any of you ever fired a shot gun. Not many. There's-- yeah. Any kick? Right. So what gauge shotgun did you fire? You don't know. OK. A 12-gauge shot gun. 12-gauge shot gun, the cartridge is just about 3/4 of an inch diameter and probably has a little amount of powder in there. It amounts up to about that much stuff. But it can give you a bruise in the shoulder if you don't hold it right. So that's what this is about.
+
+So this quick review, you've done lots of conservation of momentum problems in your time. The homework set this time has two or three problems on it that are conservation of momentum, linear momentum.
+
+But now I want to move on to talking about angular momentum. And angular momentum, in a way in which you probably haven't done angular momentum problems before. So anything about last thing on this. So mostly this, I want you to read the chapter. I think it's chapter 15. The first few sections of it are on linear momentum, the last few sections on angular momentum. Go read them and just work the problems. That's where you'll get most of your refresher is doing the practice problems.
+
+Angular momentum.
+
+So we'll start with particle. We're very rapidly going to get to rigid bodies.
+
+Now many times, you've done angular momentum problems before, mostly rotations about fixed axes. So here's our inertial frame, fixed x,y and you have a particle out here. And it just has some mass, m. And it has some total force on it, the force. And this says the particle is located at B here, so the force at B, total force at B, just some vector.
+
+It also is traveling with some velocity at that instant in time, so it has momentum. Momentum is p of this particle at B with respect to o. And I'd like to-- the standard expression then for the angular momentum of this particle at B with respect to o-- we have a position vector here, r Bo, which we've used lots of times by now, is just the cross product of the position vector with the linear momentum.
+
+And that's the definition of angular momentum. I'm using a lowercase h here, so they're going to do that to indicate single particles. And I'll use a capital H later on when we're referring to rigid bodies. So the angular momentum of this particle, with respect to this point, is given by that.
+
+And where you've used this before, then, it's the derivative of hB with respect to o dt is-- what's that? Remember, where does this give you? The time rate of change of the angular momentum is the?
+
+AUDIENCE: Torque
+
+PROFESSOR: Torque. Right. And it's the torque. It's a sum of the torques applied on that object with respect to the coordinate system in which you're computing the angular momentum. So that's-- we've used this formula many times. And in planar motion where you only have one axis of rotation using the z-axis of rotation, you usually would write this as I theta double dot. In simplest form, if it's a rigid body, it has a mass moment of inertia times theta double dot is equal to the sum of the external torque. So that's where you've met this before.
+
+But for the moment, this is just a particle. Let's stick with a particle.
+
+So the piece that's new here-- probably new for you-- is that what if I want to know the angular momentum with respect to another point? So here's a point A. I'd like to compute hB with respect to A. Well, that's rB with respect to A cross PB with respect to o. And this is really easy to forget. The momentum is always calculated with respect to your inertial frame. And that's why I keep in this with respect to and telling you what the frame is is pretty important.
+
+But we're out here at some arbitrary point, computing the cross product of the position vector from this arbitrary point to this moving mass. And we're defining-- it's just a definition defining the angular momentum with respect to this point A as r B/A cross PB with respect to o.
+
+And what I want to get to is now is the torque on this system, around this particle, B with respect to A is the time rate of change of h B/A with respect to t. But now it's a little more complicated. Plus, the velocity of A with respect to o-- these are all vectors-- cross PB with respect to o. Messy term.
+
+I was trying to think of an example where you might want to do this.
+
+So imagine that you've got an arm which can rotate. It might be on a robot or something like that. And it has attached to it another arm with a mass on it. And you've got a motor here, which can make this rotate. And you're trying to design-- the motor has to be able to put out a certain amount of torque. So this is o. This is B. This is A. And you actually-- I want to know the torque required in this motor to drive this thing around.
+
+But the motor is here, and it only cares about what it feels, so the torque at this point to drive this thing. But this whole system is now in motion. You'd have to use this formula. So there are practical times when you'd like to be able to calculate something like this.
+
+So there's a-- we're going to show you a very brief derivation of this just so you can get a feeling for where this comes from because there's a couple of outcomes that are very important to it.
+
+So the sum of the forces there at-- those forces at B, give you the time rate of change of the momentum at B with respect to o. This is the momentum vector of our particle. And this fB, this is the total external forces acting on the particle. And we know that's m. It's a single particle times the velocity of That certainly could be right.
+
+That's our familiar formula for F equals ma. So the time derivative of a linear momentum gives you this. And the torque of B with respect to A is r B/A cross-- I'm going let this just be a total vector. I'll call it fB. It's a vector. The torque with respect to A is just r B/A cross this total external force. r B/A cross time derivative of P B/o.
+
+Because the forces give us r if it's from the time rate of change of the linear momentum of that particle. So I can say it like this.
+
+But now there is just a little vector identity for products of vectors that I'm going to take advantage. And I'll call this Q. So Q is of the form-- and I'm going to say this is a quantity of vector A, and this is a quantity of vector-- time derivative of a vector B. It's A cross dB dt. So there's a little identity that you can use. It says A cross dB dt. You can alternatively write that as the time derivative of A cross B minus time derivative of A cross B.
+
+We're going to take advantage of this and just re-construct this formula using this expression.
+
+So that says torque of B with respect to A is the time derivative of r B/A cross P B/o minus the derivative of r B/A cross P B/o. So we've just made this substitution down here in terms of r B/A and P B/o all vectors.
+
+We know that r B/A, from all the previous work we've done, is just r B/o minus r A/o so the derivative of r B/A with respect to time is v B/o minus v A/o
+
+We're almost there. We're almost there. I'm going to need another board.
+
+This quantity here, this is just h B/A. This is the angular momentum of the particle with respect to A. It's just r cross B, if you recall.
+
+So then we can rewrite this expression for the torque as the time derivative of h of B with respect to A. That's because of what I pointed out there. Now, this is minus v B/o minus v A/o cross P B/o.
+
+So P of B with respect to o is just m velocity of B with respect to o. So v B/o cross P B/o gives you what? Nothing. Gives you 0 because they are in parallel of the angle, and they're in the same direction. So you only get a nonzero piece out of this minus times minus gives you a plus, and you end up with-- and that's what we set out to find.
+
+I said this is where I was trying to get, and now we're there. Now importantly, there's a couple of special cases of this. This can be a nuisance term to have to deal with. Lots of times you'd like to be able to get rid of it and just be able to go back to that old reliable formula, torque is time rate of change of angular momentum.
+
+So there are two obvious-- maybe obvious conditions in which this will go away. What's the most obvious one?
+
+AUDIENCE: [INAUDIBLE] change to 0.
+
+PROFESSOR: Something, what you say was 0?
+
+AUDIENCE: One of the terms
+
+PROFESSOR: Well, yeah. This term presumably not. This guy, if this is 0, it's just back to our old familiar formula. That's one case, so case one.
+
+But now-- actually, this is a really important result because A can be anywhere as long as it's not moving. So this allows you to do things, talk about rotations about fixed axes that aren't at the center of mass. So if you have a fixed axis of rotation and something going around it, that's what this allows you to do. That's one case. So this is--
+
+We'll soon get to rigid bodies. Rigid bodies obey exactly the same formulas. And you can have a rigid body, now, that is not rotating about its center, but rotating maybe about its end like this. That formula applies if the velocity of that axis about which it's rotating, about which you're computing, is not moving, then you can just use-- you don't have to deal with that messy term. So this is one case in which this term goes away.
+
+The other case is if this velocity is parallel to the direction of the momentum. And there's a really useful time that that happens. So also this formula is true. Case two is when v A/o is parallel to P B/o, the direction. You're going in the same direction. Now that happens when A-- it's guaranteed to be true if A is at the center of mass because the momentum is defined as the mass of the object times the velocity of its center of mass, even for rigid bodies.
+
+So this is true when A is-- and I'll call it G-- at the center of mass. So this gives us another really important generalization that we'll use-- that we make great use of in dynamics.
+
+And that says that the torque, with respect to the center of mass, is time rate of change of h with respect to G. Now, I'm not going to go-- I did the proof-- went through this little proof just for a particle. But by summing a bunch of particles and going through all the summations, as we did, to prove the center of mass formula, you can show-- this allows you to very quickly show that this formulation is also true for rigid bodies.
+
+So the way you say it for rigid bodies is that the sum of the torques, with respect to some point for a rigid body, is capital H dot with respect to A plus the velocity of A with respect to o cross P. And now I'm going to say G, its center of mass, center of gravity, with respect to o. So the same statement for a rigid body is that the torque with respect to some point A, which can be moving now-- even accelerating-- is the time rate of change of the angular momentum with respect to A of that rigid body plus v A/o cross P B/o.
+
+And again, when would this messy second term go to 0? When the velocity of A is 0, fixed axis rotation, or when this is parallel to that, which is true for the center of mass always. So the same two special cases apply for rigid bodies when velocity of A with respect to 0 equals 0 or when the velocity of A with respect to o is parallel the P. And the most important case of that is always true.
+
+It's always the case. And in these you can say this. Then, the torque, with respect to A, is dH, with respect to A dt. No second terms.
+
+And it's those kinds of-- you've applied, generally in your physics like in 801, you've used formulas like this a lot. Done problems either with respect to the center of mass so objects were doing things like that. You'll do the torque formulas with respect to the center of mass. Or when you have things that are pinned to points and rotate about fixed axes, then use the other formulation where it is with respect to a non-moving point. So this is fixed axis rotation.
+
+So that's the dry derivation part of it. I'm going to see if I can find an example here.
+
+This is quite a bit like a number of the homework problems.
+
+So I've got a carnival ride. I got a bar. And it's got a seat out here. You're riding in it. So you're taking this ride. It's rotating. This is some fixed axis here. You have a fixed coordinate system, your o x, y, z. And then you'd probably have some rotating coordinate system with the point A fixed here at the axis of rotation. And this is going-- what's unusual about this ride, not only can it go around and round, but the arm can go in and out.
+
+So it might take a path inwards, like you pull the arm in as you're going around. What are the forces that you feel in the ride?
+
+So this is my point B out here. It's where the person's at. You have some mass, m. And let's let, for now, the first case-- theta dot, let that be constant, the constant angular rate here. Here's theta and r dot.
+
+Now, you already know quite a bit about things like this. If your riding in that bucket, what forces do you think you would feel? Or I should say it more carefully. There will be accelerations that you feel in that bucket. You'll feel like forces on you. But what are the accelerations that you will feel-- you expect to be if you're riding in it?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: I hear one here.
+
+AUDIENCE: Centripetal acceleration.
+
+PROFESSOR: So there will be centripetal acceleration, right. Everybody agree with that? Anything else?
+
+AUDIENCE: Coriolis acceleration.
+
+PROFESSOR: There's going to be some Coriolis because r dot is not 0. It's changing in position, but when the length of the arm of something rotating at constant speed changes, what momentum changes?
+
+AUDIENCE: Angular.
+
+PROFESSOR: Angular, for sure. How about linear momentum? Yeah, it's changing too because r cross P is angular momentum. So both linear and angular momentum are changing as this radius gets longer or shorter. And if that angular momentum changes, it takes torque to drive it. And so we ought to be able to use the formulas that we've just derived to calculate something about the torques required to make this happen and the forces on the rider.
+
+So we'll treat this one as a particle. So H, the angular momentum of the rider out here, at B with respect to o, is going to be r B/o cross P. And in this problem, I'll use polar coordinates. Pretty easy. This is a planar motion problem. It's confined to the x,y plane and rotation z, so polar coordinates are pretty convenient. So this should look like radius r r hat cross-- and the linear momentum of this is the mass-- times r dot r hat.
+
+That's the extension rate, but it also has velocity in this theta hat direction, r theta hat. So this is P was respected o, m, v. And this is the radius-- this is the r crossed into it.
+
+Now r hat cross r hat gives you 0, so you only get a single term out of this. And you get an r cross-- r hat cross, theta hat, positive k. So this looks like plus m r squared, theta dot, k hat. That's my H B/o.
+
+Now, I would-- that's my first piece that I wanted to get. That's the a part. That's find the angular momentum. So this is a. b, I want to know the torque.
+
+Well, which formula can we use? Are we allowed to use-- do we have to account for that second term?
+
+AUDIENCE: No.
+
+PROFESSOR: No. Why?
+
+AUDIENCE: Velocity.
+
+PROFESSOR: Yeah. The velocity of the point about which we're computing, the angular momentum, and therefore, the torques, is not moving. So you only have to deal with the first term. So the torque required to move that particle at B with respect to o is just a time rate of change d by dt of h B with respect to o. And that's d by dt of m r squared theta dot k hat.
+
+So what are the constants in this expression so we don't have to worry about their derivatives? Does k hat change length? No. Change direction? No. Theta dot, does it change in this problem? No, we fixed it. We arbitrarily started off saying that we'll just let theta dot be constant. r, though, is changing. So the time derivative of this particular one, we only have to deal with the r. Actually, I'll forget that for a second because I want to get both terms, and then we'll let it be 0.
+
+So this time derivative then, when you work it out-- the derivative of the r term gives you 2mr r dot theta dot k hat. And I'll just go ahead and forget for a minute that I said that's constant. Let's get the other term that might be there. That term gives us m r squared theta double dot k hat.
+
+This term comes from what we'll find is the Coriolis one. And this is from what we call the Eulerian acceleration.
+
+The torque-- let me get this up a little higher. We should be able to write as some r cross f. And so the r cross f terms, this will be from the Coriolis force. And this would be from that Eulerian force. So this will look like r r hat cross-- I'm just factoring this back out into its cross products-- r r hat cross 2m r dot theta dot, in the theta hat direction, plus r theta double dot, in the theta hat direction.
+
+So there's two terms in this torque expression. They come from r cross, two force terms. The first force term is what we know to be the Coriolis force. And the second force term-- I am missing an m here. r m theta double dot theta hat, that's the force that it takes to-- if the thing were accelerating, just to accelerate that ball, theta double dot takes a force. You do these cross products. r cross theta hat give you k. R cross theta hat give you k. It all comes out in the right directions.
+
+And now to do the problem we had, we said, oh yeah, let this one be 0. So we'll let this term go to 0. We're left with a single term.
+
+And if we plugged in some numbers-- let's just see how this works out. And this we know is just r cross the Coriolis.
+
+Well, let's let m-- if you let m be 100 kilograms and r be 5 meters and r dot, 0.4 meters per second-- they're all perfectly reasonable dimensions. And theta dot equals 3 radians per second. So 2 pi radians per second means it goes around once a second. So this is a little less than half a rev per second. Yeah?
+
+AUDIENCE: Is this still [INAUDIBLE] though, or does it--
+
+PROFESSOR: Probably. Yeah. Good catch! Got to have on r in it because that r comes from here, right? So I had the Coriolis force written down, but not the r you have to multiply it by. So now if you plug in all of these numbers, let's see if it's a ride you could survive.
+
+I actually computed the Coriolis force first. I think it's just interesting to get a physical feeling for how-- whether or not you can feel these forces. So the Coriolis force is just everything but the r, 2m r dot theta dot. So if you calculate that, you get 240 newtons. And r times that, the torque. 5 times that, about 1,200 Newton meters. And the acceleration, how do we get acceleration?
+
+Well, f cor, Coriolis force, is some mass times an acceleration. So we can solve, from that 240 newtons, the acceleration of the system. Our acceleration of B with respect to o, 240 newtons divided by 100 kilograms, 2.4 meters per second squared. And what's that in g's.
+
+AUDIENCE: About 1/4.
+
+PROFESSOR: Yeah, about a quarter of a g. And again, would you feel that?
+
+So now you riding in the bucket. Let's say it's just spinning around. The arm is not going in and out at all. So you're riding in it. What force would you feel? Would you feel any forces pushing you into your seat? Constant speed, r dot's 0.
+
+Somebody out there, would you feel any force if you're going around and around in this thing sitting in a seat?
+
+AUDIENCE: Yes.
+
+PROFESSOR: OK. What's it come from?
+
+AUDIENCE: Centripetal acceleration.
+
+PROFESSOR: Centripetal acceleration. And that is in what direction?
+
+AUDIENCE: It's inward.
+
+PROFESSOR: Accelerations is inward. What would you actually feel? You'd feel-- if this seat could swing out so your facing in, you'd feel like you're being thrown out in your seat, right? Because you have to have a force on you to make that acceleration happen. Acceleration is inward. The force had better be pushing you inward. So it's pushing on your back if you're look in, going around. So that's the-- I've forgotten the term for it. But put the astronauts in a centrifuge, spin around to see if they can take high g's. That's the inward high g acceleration due to the centripetal acceleration, makes you go in a circle.
+
+But now not only are you going to feel that, but now you start changing the length of the arm. And if you change r dot and make it positive so the arm is getting longer, and we made this 0.4 meters per second. So it's moving out about like that. It's not real fast. But it's going to create a quarter of a g acceleration on you. And if r dot's positive, which direction is that acceleration?
+
+I was careful. We walked all the way through this. The acceleration is positive, but in what direction? It's the Coriolis.
+
+AUDIENCE: Theta hat.
+
+PROFESSOR: Theta hat, positive theta hat, so it's in the direction of increasing theta. So this one is perpendicular to the arm. And this is the-- one of my ping pong balls in here, the force that actually causes it to speed up is partly Coriolis and partly or Eulerian. If I can make this go at constant speed, the force that drives that-- the force that actually speeds that up as they're going out is the Coriolis force, the normal one.
+
+So if you were on this ride, you'd be feel about a quarter of a g perpendicular to the arm. You'd be filling another force inward that's the centripetal-- caused by the centripetal acceleration. So you'd be feeling both of them. How big is the centripetal acceleration? Like r omega squared, right?
+
+AUDIENCE: Right.
+
+PROFESSOR: r is 5. Omega is 3. 3 Squared is 9, times 5-- 9 times 5, 45, divided by 10, 4 and 1/2 g's. You wouldn't notice the Coriolis very much. It would be a tough ride on that side of things.
+
+Now, we've done that-- you've seen a simple application, pretty straightforward application, of using time derivative of angular momentum to calculate torques. So on homework, again, there's a couple problems very similar to the one I just did, things going around, circus rides, that kind of stuff. So have a good weekend. See you on Tuesday.
+
+[[The definition of the angular momentum of a particle with respect to a moving reference point]]
+Print This Document
+
+Angular momentum.
+
+So we'll start with particle. We're very rapidly going to get to rigid bodies.
+
+Now many times, you've done angular momentum problems before, mostly rotations about fixed axes. So here's our inertial frame, fixed x,y and you have a particle out here. And it just has some mass, m. And it has some total force on it, the force. And this says the particle is located at B here, so the force at B, total force at B, just some vector.
+
+It also is traveling with some velocity at that instant in time, so it has momentum. Momentum is p of this particle at B with respect to o. And I'd like to-- the standard expression then for the angular momentum of this particle at B with respect to o-- we have a position vector here, r Bo, which we've used lots of times by now, is just the cross product of the position vector with the linear momentum.
+
+And that's the definition of angular momentum. I'm using a lowercase h here, so they're going to do that to indicate single particles. And I'll use a capital H later on when we're referring to rigid bodies. So the angular momentum of this particle, with respect to this point, is given by that.
+
+And where you've used this before, then, it's the derivative of hB with respect to o dt is-- what's that? Remember, where does this give you? The time rate of change of the angular momentum is the?
+
+AUDIENCE: Torque
+
+PROFESSOR: Torque. Right. And it's the torque. It's a sum of the torques applied on that object with respect to the coordinate system in which you're computing the angular momentum. So that's-- we've used this formula many times. And in planar motion where you only have one axis of rotation using the z-axis of rotation, you usually would write this as I theta double dot. In simplest form, if it's a rigid body, it has a mass moment of inertia times theta double dot is equal to the sum of the external torque. So that's where you've met this before.
+
+But for the moment, this is just a particle. Let's stick with a particle.
+
+So the piece that's new here-- probably new for you-- is that what if I want to know the angular momentum with respect to another point? So here's a point A. I'd like to compute hB with respect to A. Well, that's rB with respect to A cross PB with respect to o. And this is really easy to forget. The momentum is always calculated with respect to your inertial frame. And that's why I keep in this with respect to and telling you what the frame is is pretty important.
+
+But we're out here at some arbitrary point, computing the cross product of the position vector from this arbitrary point to this moving mass. And we're defining-- it's just a definition defining the angular momentum with respect to this point A as r B/A cross PB with respect to o.
+
+And what I want to get to is now is the torque on this system, around this particle, B with respect to A is the time rate of change of h B/A with respect to t. But now it's a little more complicated. Plus, the velocity of A with respect to o-- these are all vectors-- cross PB with respect to o. Messy term.
+
+I was trying to think of an example where you might want to do this.
+
+So imagine that you've got an arm which can rotate. It might be on a robot or something like that. And it has attached to it another arm with a mass on it. And you've got a motor here, which can make this rotate. And you're trying to design-- the motor has to be able to put out a certain amount of torque. So this is o. This is B. This is A. And you actually-- I want to know the torque required in this motor to drive this thing around.
+
+But the motor is here, and it only cares about what it feels, so the torque at this point to drive this thing. But this whole system is now in motion. You'd have to use this formula. So there are practical times when you'd like to be able to calculate something like this.
+
+So there's a-- we're going to show you a very brief derivation of this just so you can get a feeling for where this comes from because there's a couple of outcomes that are very important to it.
+
+So the sum of the forces there at-- those forces at B, give you the time rate of change of the momentum at B with respect to o. This is the momentum vector of our particle. And this fB, this is the total external forces acting on the particle. And we know that's m. It's a single particle times the velocity of That certainly could be right.
+
+That's our familiar formula for F equals ma. So the time derivative of a linear momentum gives you this. And the torque of B with respect to A is r B/A cross-- I'm going let this just be a total vector. I'll call it fB. It's a vector. The torque with respect to A is just r B/A cross this total external force. r B/A cross time derivative of P B/o.
+
+Because the forces give us r if it's from the time rate of change of the linear momentum of that particle. So I can say it like this.
+
+But now there is just a little vector identity for products of vectors that I'm going to take advantage. And I'll call this Q. So Q is of the form-- and I'm going to say this is a quantity of vector A, and this is a quantity of vector-- time derivative of a vector B. It's A cross dB dt. So there's a little identity that you can use. It says A cross dB dt. You can alternatively write that as the time derivative of A cross B minus time derivative of A cross B.
+
+We're going to take advantage of this and just re-construct this formula using this expression.
+
+So that says torque of B with respect to A is the time derivative of r B/A cross P B/o minus the derivative of r B/A cross P B/o. So we've just made this substitution down here in terms of r B/A and P B/o all vectors.
+
+We know that r B/A, from all the previous work we've done, is just r B/o minus r A/o so the derivative of r B/A with respect to time is v B/o minus v A/o
+
+We're almost there. We're almost there. I'm going to need another board.
+
+This quantity here, this is just h B/A. This is the angular momentum of the particle with respect to A. It's just r cross B, if you recall.
+
+So then we can rewrite this expression for the torque as the time derivative of h of B with respect to A. That's because of what I pointed out there. Now, this is minus v B/o minus v A/o cross P B/o.
+
+So P of B with respect to o is just m velocity of B with respect to o. So v B/o cross P B/o gives you what? Nothing. Gives you 0 because they are in parallel of the angle, and they're in the same direction. So you only get a nonzero piece out of this minus times minus gives you a plus, and you end up with-- and that's what we set out to find.
+
+I said this is where I was trying to get, and now we're there. Now importantly, there's a couple of special cases of this. This can be a nuisance term to have to deal with. Lots of times you'd like to be able to get rid of it and just be able to go back to that old reliable formula, torque is time rate of change of angular momentum.
+
+So there are two obvious-- maybe obvious conditions in which this will go away. What's the most obvious one?
+
+AUDIENCE: [INAUDIBLE] change to 0.
+
+PROFESSOR: Something, what you say was 0?
+
+AUDIENCE: One of the terms
+
+PROFESSOR: Well, yeah. This term presumably not. This guy, if this is 0, it's just back to our old familiar formula. That's one case, so case one.
+
+But now-- actually, this is a really important result because A can be anywhere as long as it's not moving. So this allows you to do things, talk about rotations about fixed axes that aren't at the center of mass. So if you have a fixed axis of rotation and something going around it, that's what this allows you to do. That's one case. So this is--
+
+We'll soon get to rigid bodies. Rigid bodies obey exactly the same formulas. And you can have a rigid body, now, that is not rotating about its center, but rotating maybe about its end like this. That formula applies if the velocity of that axis about which it's rotating, about which you're computing, is not moving, then you can just use-- you don't have to deal with that messy term. So this is one case in which this term goes away.
+
+The other case is if this velocity is parallel to the direction of the momentum. And there's a really useful time that that happens. So also this formula is true. Case two is when v A/o is parallel to P B/o, the direction. You're going in the same direction. Now that happens when A-- it's guaranteed to be true if A is at the center of mass because the momentum is defined as the mass of the object times the velocity of its center of mass, even for rigid bodies.
+
+So this is true when A is-- and I'll call it G-- at the center of mass. So this gives us another really important generalization that we'll use-- that we make great use of in dynamics.
+
+And that says that the torque, with respect to the center of mass, is time rate of change of h with respect to G. Now, I'm not going to go-- I did the proof-- went through this little proof just for a particle. But by summing a bunch of particles and going through all the summations, as we did, to prove the center of mass formula, you can show-- this allows you to very quickly show that this formulation is also true for rigid bodies.
+
+So the way you say it for rigid bodies is that the sum of the torques, with respect to some point for a rigid body, is capital H dot with respect to A plus the velocity of A with respect to o cross P. And now I'm going to say G, its center of mass, center of gravity, with respect to o. So the same statement for a rigid body is that the torque with respect to some point A, which can be moving now-- even accelerating-- is the time rate of change of the angular momentum with respect to A of that rigid body plus v A/o cross P B/o.
+
+And again, when would this messy second term go to 0? When the velocity of A is 0, fixed axis rotation, or when this is parallel to that, which is true for the center of mass always. So the same two special cases apply for rigid bodies when velocity of A with respect to 0 equals 0 or when the velocity of A with respect to o is parallel the P. And the most important case of that is always true.
+
+It's always the case. And in these you can say this. Then, the torque, with respect to A, is dH, with respect to A dt. No second terms.
+
+And it's those kinds of-- you've applied, generally in your physics like in 801, you've used formulas like this a lot. Done problems either with respect to the center of mass so objects were doing things like that. You'll do the torque formulas with respect to the center of mass. Or when you have things that are pinned to points and rotate about fixed axes, then use the other formulation where it is with respect to a non-moving point. So this is fixed axis rotation.
+
+So that's the dry derivation part of it. I'm going to see if I can find an example here.
+
+This is quite a bit like a number of the homework problems.
+
+So I've got a carnival ride. I got a bar. And it's got a seat out here. You're riding in it. So you're taking this ride. It's rotating. This is some fixed axis here. You have a fixed coordinate system, your o x, y, z. And then you'd probably have some rotating coordinate system with the point A fixed here at the axis of rotation. And this is going-- what's unusual about this ride, not only can it go around and round, but the arm can go in and out.
+
+So it might take a path inwards, like you pull the arm in as you're going around. What are the forces that you feel in the ride?
+
+So this is my point B out here. It's where the person's at. You have some mass, m. And let's let, for now, the first case-- theta dot, let that be constant, the constant angular rate here. Here's theta and r dot.
+
+Now, you already know quite a bit about things like this. If your riding in that bucket, what forces do you think you would feel? Or I should say it more carefully. There will be accelerations that you feel in that bucket. You'll feel like forces on you. But what are the accelerations that you will feel-- you expect to be if you're riding in it?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: I hear one here.
+
+AUDIENCE: Centripetal acceleration.
+
+PROFESSOR: So there will be centripetal acceleration, right. Everybody agree with that? Anything else?
+
+AUDIENCE: Coriolis acceleration.
+
+PROFESSOR: There's going to be some Coriolis because r dot is not 0. It's changing in position, but when the length of the arm of something rotating at constant speed changes, what momentum changes?
+
+AUDIENCE: Angular.
+
+PROFESSOR: Angular, for sure. How about linear momentum? Yeah, it's changing too because r cross P is angular momentum. So both linear and angular momentum are changing as this radius gets longer or shorter. And if that angular momentum changes, it takes torque to drive it. And so we ought to be able to use the formulas that we've just derived to calculate something about the torques required to make this happen and the forces on the rider.
+
+So we'll treat this one as a particle. So H, the angular momentum of the rider out here, at B with respect to o, is going to be r B/o cross P. And in this problem, I'll use polar coordinates. Pretty easy. This is a planar motion problem. It's confined to the x,y plane and rotation z, so polar coordinates are pretty convenient. So this should look like radius r r hat cross-- and the linear momentum of this is the mass-- times r dot r hat.
+
+That's the extension rate, but it also has velocity in this theta hat direction, r theta hat. So this is P was respected o, m, v. And this is the radius-- this is the r crossed into it.
+
+Now r hat cross r hat gives you 0, so you only get a single term out of this. And you get an r cross-- r hat cross, theta hat, positive k. So this looks like plus m r squared, theta dot, k hat. That's my H B/o.
+
+Now, I would-- that's my first piece that I wanted to get. That's the a part. That's find the angular momentum. So this is a. b, I want to know the torque.
+
+Well, which formula can we use? Are we allowed to use-- do we have to account for that second term?
+
+AUDIENCE: No.
+
+PROFESSOR: No. Why?
+
+AUDIENCE: Velocity.
+
+PROFESSOR: Yeah. The velocity of the point about which we're computing, the angular momentum, and therefore, the torques, is not moving. So you only have to deal with the first term. So the torque required to move that particle at B with respect to o is just a time rate of change d by dt of h B with respect to o. And that's d by dt of m r squared theta dot k hat.
+
+So what are the constants in this expression so we don't have to worry about their derivatives? Does k hat change length? No. Change direction? No. Theta dot, does it change in this problem? No, we fixed it. We arbitrarily started off saying that we'll just let theta dot be constant. r, though, is changing. So the time derivative of this particular one, we only have to deal with the r. Actually, I'll forget that for a second because I want to get both terms, and then we'll let it be 0.
+
+So this time derivative then, when you work it out-- the derivative of the r term gives you 2mr r dot theta dot k hat. And I'll just go ahead and forget for a minute that I said that's constant. Let's get the other term that might be there. That term gives us m r squared theta double dot k hat.
+
+This term comes from what we'll find is the Coriolis one. And this is from what we call the Eulerian acceleration.
+
+The torque-- let me get this up a little higher. We should be able to write as some r cross f. And so the r cross f terms, this will be from the Coriolis force. And this would be from that Eulerian force. So this will look like r r hat cross-- I'm just factoring this back out into its cross products-- r r hat cross 2m r dot theta dot, in the theta hat direction, plus r theta double dot, in the theta hat direction.
+
+So there's two terms in this torque expression. They come from r cross, two force terms. The first force term is what we know to be the Coriolis force. And the second force term-- I am missing an m here. r m theta double dot theta hat, that's the force that it takes to-- if the thing were accelerating, just to accelerate that ball, theta double dot takes a force. You do these cross products. r cross theta hat give you k. R cross theta hat give you k. It all comes out in the right directions.
+
+And now to do the problem we had, we said, oh yeah, let this one be 0. So we'll let this term go to 0. We're left with a single term.
+
+And if we plugged in some numbers-- let's just see how this works out. And this we know is just r cross the Coriolis.
+
+Well, let's let m-- if you let m be 100 kilograms and r be 5 meters and r dot, 0.4 meters per second-- they're all perfectly reasonable dimensions. And theta dot equals 3 radians per second. So 2 pi radians per second means it goes around once a second. So this is a little less than half a rev per second. Yeah?
+
+AUDIENCE: Is this still [INAUDIBLE] though, or does it--
+
+PROFESSOR: Probably. Yeah. Good catch! Got to have on r in it because that r comes from here, right? So I had the Coriolis force written down, but not the r you have to multiply it by. So now if you plug in all of these numbers, let's see if it's a ride you could survive.
+
+I actually computed the Coriolis force first. I think it's just interesting to get a physical feeling for how-- whether or not you can feel these forces. So the Coriolis force is just everything but the r, 2m r dot theta dot. So if you calculate that, you get 240 newtons. And r times that, the torque. 5 times that, about 1,200 Newton meters. And the acceleration, how do we get acceleration?
+
+Well, f cor, Coriolis force, is some mass times an acceleration. So we can solve, from that 240 newtons, the acceleration of the system. Our acceleration of B with respect to o, 240 newtons divided by 100 kilograms, 2.4 meters per second squared. And what's that in g's.
+
+AUDIENCE: About 1/4.
+
+PROFESSOR: Yeah, about a quarter of a g. And again, would you feel that?
+
+So now you riding in the bucket. Let's say it's just spinning around. The arm is not going in and out at all. So you're riding in it. What force would you feel? Would you feel any forces pushing you into your seat? Constant speed, r dot's 0.
+
+Somebody out there, would you feel any force if you're going around and around in this thing sitting in a seat?
+
+AUDIENCE: Yes.
+
+PROFESSOR: OK. What's it come from?
+
+AUDIENCE: Centripetal acceleration.
+
+PROFESSOR: Centripetal acceleration. And that is in what direction?
+
+AUDIENCE: It's inward.
+
+PROFESSOR: Accelerations is inward. What would you actually feel? You'd feel-- if this seat could swing out so your facing in, you'd feel like you're being thrown out in your seat, right? Because you have to have a force on you to make that acceleration happen. Acceleration is inward. The force had better be pushing you inward. So it's pushing on your back if you're look in, going around. So that's the-- I've forgotten the term for it. But put the astronauts in a centrifuge, spin around to see if they can take high g's. That's the inward high g acceleration due to the centripetal acceleration, makes you go in a circle.
+
+But now not only are you going to feel that, but now you start changing the length of the arm. And if you change r dot and make it positive so the arm is getting longer, and we made this 0.4 meters per second. So it's moving out about like that. It's not real fast. But it's going to create a quarter of a g acceleration on you. And if r dot's positive, which direction is that acceleration?
+
+I was careful. We walked all the way through this. The acceleration is positive, but in what direction? It's the Coriolis.
+
+AUDIENCE: Theta hat.
+
+PROFESSOR: Theta hat, positive theta hat, so it's in the direction of increasing theta. So this one is perpendicular to the arm. And this is the-- one of my ping pong balls in here, the force that actually causes it to speed up is partly Coriolis and partly or Eulerian. If I can make this go at constant speed, the force that drives that-- the force that actually speeds that up as they're going out is the Coriolis force, the normal one.
+
+So if you were on this ride, you'd be feel about a quarter of a g perpendicular to the arm. You'd be filling another force inward that's the centripetal-- caused by the centripetal acceleration. So you'd be feeling both of them. How big is the centripetal acceleration? Like r omega squared, right?
+
+AUDIENCE: Right.
+
+PROFESSOR: r is 5. Omega is 3. 3 Squared is 9, times 5-- 9 times 5, 45, divided by 10, 4 and 1/2 g's. You wouldn't notice the Coriolis very much. It would be a tough ride on that side of things.
+
+Now, we've done that-- you've seen a simple application, pretty straightforward application, of using time derivative of angular momentum to calculate torques. So on homework, again, there's a couple problems very similar to the one I just did, things going around, circus rides, that kind of stuff. So have a good weekend. See you on Tuesday.
+
+[[Example of the torque/angular momentum relationship to a carnival ride]]
+Print This Document
+
+So I've got a carnival ride. I got a bar. And it's got a seat out here. You're riding in it. So you're taking this ride. It's rotating. This is some fixed axis here. You have a fixed coordinate system, your o x, y, z. And then you'd probably have some rotating coordinate system with the point A fixed here at the axis of rotation. And this is going-- what's unusual about this ride, not only can it go around and round, but the arm can go in and out.
+
+So it might take a path inwards, like you pull the arm in as you're going around. What are the forces that you feel in the ride?
+
+So this is my point B out here. It's where the person's at. You have some mass, m. And let's let, for now, the first case-- theta dot, let that be constant, the constant angular rate here. Here's theta and r dot.
+
+Now, you already know quite a bit about things like this. If your riding in that bucket, what forces do you think you would feel? Or I should say it more carefully. There will be accelerations that you feel in that bucket. You'll feel like forces on you. But what are the accelerations that you will feel-- you expect to be if you're riding in it?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: I hear one here.
+
+AUDIENCE: Centripetal acceleration.
+
+PROFESSOR: So there will be centripetal acceleration, right. Everybody agree with that? Anything else?
+
+AUDIENCE: Coriolis acceleration.
+
+PROFESSOR: There's going to be some Coriolis because r dot is not 0. It's changing in position, but when the length of the arm of something rotating at constant speed changes, what momentum changes?
+
+AUDIENCE: Angular.
+
+PROFESSOR: Angular, for sure. How about linear momentum? Yeah, it's changing too because r cross P is angular momentum. So both linear and angular momentum are changing as this radius gets longer or shorter. And if that angular momentum changes, it takes torque to drive it. And so we ought to be able to use the formulas that we've just derived to calculate something about the torques required to make this happen and the forces on the rider.
+
+So we'll treat this one as a particle. So H, the angular momentum of the rider out here, at B with respect to o, is going to be r B/o cross P. And in this problem, I'll use polar coordinates. Pretty easy. This is a planar motion problem. It's confined to the x,y plane and rotation z, so polar coordinates are pretty convenient. So this should look like radius r r hat cross-- and the linear momentum of this is the mass-- times r dot r hat.
+
+That's the extension rate, but it also has velocity in this theta hat direction, r theta hat. So this is P was respected o, m, v. And this is the radius-- this is the r crossed into it.
+
+Now r hat cross r hat gives you 0, so you only get a single term out of this. And you get an r cross-- r hat cross, theta hat, positive k. So this looks like plus m r squared, theta dot, k hat. That's my H B/o.
+
+Now, I would-- that's my first piece that I wanted to get. That's the a part. That's find the angular momentum. So this is a. b, I want to know the torque.
+
+Well, which formula can we use? Are we allowed to use-- do we have to account for that second term?
+
+AUDIENCE: No.
+
+PROFESSOR: No. Why?
+
+AUDIENCE: Velocity.
+
+PROFESSOR: Yeah. The velocity of the point about which we're computing, the angular momentum, and therefore, the torques, is not moving. So you only have to deal with the first term. So the torque required to move that particle at B with respect to o is just a time rate of change d by dt of h B with respect to o. And that's d by dt of m r squared theta dot k hat.
+
+So what are the constants in this expression so we don't have to worry about their derivatives? Does k hat change length? No. Change direction? No. Theta dot, does it change in this problem? No, we fixed it. We arbitrarily started off saying that we'll just let theta dot be constant. r, though, is changing. So the time derivative of this particular one, we only have to deal with the r. Actually, I'll forget that for a second because I want to get both terms, and then we'll let it be 0.
+
+So this time derivative then, when you work it out-- the derivative of the r term gives you 2mr r dot theta dot k hat. And I'll just go ahead and forget for a minute that I said that's constant. Let's get the other term that might be there. That term gives us m r squared theta double dot k hat.
+
+This term comes from what we'll find is the Coriolis one. And this is from what we call the Eulerian acceleration.
+
+The torque-- let me get this up a little higher. We should be able to write as some r cross f. And so the r cross f terms, this will be from the Coriolis force. And this would be from that Eulerian force. So this will look like r r hat cross-- I'm just factoring this back out into its cross products-- r r hat cross 2m r dot theta dot, in the theta hat direction, plus r theta double dot, in the theta hat direction.
+
+So there's two terms in this torque expression. They come from r cross, two force terms. The first force term is what we know to be the Coriolis force. And the second force term-- I am missing an m here. r m theta double dot theta hat, that's the force that it takes to-- if the thing were accelerating, just to accelerate that ball, theta double dot takes a force. You do these cross products. r cross theta hat give you k. R cross theta hat give you k. It all comes out in the right directions.
+
+And now to do the problem we had, we said, oh yeah, let this one be 0. So we'll let this term go to 0. We're left with a single term.
+
+And if we plugged in some numbers-- let's just see how this works out. And this we know is just r cross the Coriolis.
+
+Well, let's let m-- if you let m be 100 kilograms and r be 5 meters and r dot, 0.4 meters per second-- they're all perfectly reasonable dimensions. And theta dot equals 3 radians per second. So 2 pi radians per second means it goes around once a second. So this is a little less than half a rev per second. Yeah?
+
+AUDIENCE: Is this still [INAUDIBLE] though, or does it--
+
+PROFESSOR: Probably. Yeah. Good catch! Got to have on r in it because that r comes from here, right? So I had the Coriolis force written down, but not the r you have to multiply it by. So now if you plug in all of these numbers, let's see if it's a ride you could survive.
+
+I actually computed the Coriolis force first. I think it's just interesting to get a physical feeling for how-- whether or not you can feel these forces. So the Coriolis force is just everything but the r, 2m r dot theta dot. So if you calculate that, you get 240 newtons. And r times that, the torque. 5 times that, about 1,200 Newton meters. And the acceleration, how do we get acceleration?
+
+Well, f cor, Coriolis force, is some mass times an acceleration. So we can solve, from that 240 newtons, the acceleration of the system. Our acceleration of B with respect to o, 240 newtons divided by 100 kilograms, 2.4 meters per second squared. And what's that in g's.
+
+AUDIENCE: About 1/4.
+
+PROFESSOR: Yeah, about a quarter of a g. And again, would you feel that?
+
+So now you riding in the bucket. Let's say it's just spinning around. The arm is not going in and out at all. So you're riding in it. What force would you feel? Would you feel any forces pushing you into your seat? Constant speed, r dot's 0.
+
+Somebody out there, would you feel any force if you're going around and around in this thing sitting in a seat?
+
+AUDIENCE: Yes.
+
+PROFESSOR: OK. What's it come from?
+
+AUDIENCE: Centripetal acceleration.
+
+PROFESSOR: Centripetal acceleration. And that is in what direction?
+
+AUDIENCE: It's inward.
+
+PROFESSOR: Accelerations is inward. What would you actually feel? You'd feel-- if this seat could swing out so your facing in, you'd feel like you're being thrown out in your seat, right? Because you have to have a force on you to make that acceleration happen. Acceleration is inward. The force had better be pushing you inward. So it's pushing on your back if you're look in, going around. So that's the-- I've forgotten the term for it. But put the astronauts in a centrifuge, spin around to see if they can take high g's. That's the inward high g acceleration due to the centripetal acceleration, makes you go in a circle.
+
+But now not only are you going to feel that, but now you start changing the length of the arm. And if you change r dot and make it positive so the arm is getting longer, and we made this 0.4 meters per second. So it's moving out about like that. It's not real fast. But it's going to create a quarter of a g acceleration on you. And if r dot's positive, which direction is that acceleration?
+
+I was careful. We walked all the way through this. The acceleration is positive, but in what direction? It's the Coriolis.
+
+AUDIENCE: Theta hat.
+
+PROFESSOR: Theta hat, positive theta hat, so it's in the direction of increasing theta. So this one is perpendicular to the arm. And this is the-- one of my ping pong balls in here, the force that actually causes it to speed up is partly Coriolis and partly or Eulerian. If I can make this go at constant speed, the force that drives that-- the force that actually speeds that up as they're going out is the Coriolis force, the normal one.
+
+So if you were on this ride, you'd be feel about a quarter of a g perpendicular to the arm. You'd be filling another force inward that's the centripetal-- caused by the centripetal acceleration. So you'd be feeling both of them. How big is the centripetal acceleration? Like r omega squared, right?
+
+AUDIENCE: Right.
+
+PROFESSOR: r is 5. Omega is 3. 3 Squared is 9, times 5-- 9 times 5, 45, divided by 10, 4 and 1/2 g's. You wouldn't notice the Coriolis very much. It would be a tough ride on that side of things.
+
+Now, we've done that-- you've seen a simple application, pretty straightforward application, of using time derivative of angular momentum to calculate torques. So on homework, again, there's a couple problems very similar to the one I just did, things going around, circus rides, that kind of stuff. So have a good weekend. See you on Tuesday.
+

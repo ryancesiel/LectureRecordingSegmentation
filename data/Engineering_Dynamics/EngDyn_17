@@ -1,0 +1,1392 @@
+[[New formula for computing torque about moving points]]
+Print This Document
+
+PROFESSOR: And I have put on the second board just a quick review of the key equations that we use to do the direct method. So straight from Newton's second law, the first one, second one-- the summarization of torques about some point a. a may be g, in which case things get much simplified, g being the center of mass. And if point a is moving, then you have this extra term.
+
+And this is a new equation over here, which I got frustrated with this equation a few days ago and derive something, which I think is easier to use. So I'll do a problem today using that expression. So I won't talk more about it now-- show it to you in a minute.
+
+And then finally, it's convenient at times to express angular momentum with respect to a point a as angular momentum about g plus the position vector from a to g times the linear momentum. So that's kind of the covered on the quiz. And we're going to use these equations.
+
+Today, what I'm going to do is look at a few problems from the point of view both equations of motion, by the direct method and the Lagrange method, and kind of talk about and which one's easier, when should you choose this one, when to choose that one. That's the nature of today's lecture to sort of get you prepped for the quiz. And a little bit more on generalized forces. You have questions about what's going to be on the quiz?
+
+AUDIENCE: What is that last word-- balancing of?
+
+PROFESSOR: Balancing of rotors. There's a rotor-- any thing that we spin about an axis. A rigid body spinning about an axis, you can call a rotor of some kind. And balancing is usually-- the axes are fixed. And so is this one-- this axis passes through the center of mass-- so is this rotor statically balanced? Right. Is this rotor dynamically balance? Would you expect to when this is spinning, it's direction of spin is vertical, right. Is the direction of the angular momentum of this object in the same direction as the angle of rotation? No. And so that's an indication of dynamic imbalance. Angular momentum is not in the same direction as angular rotation, right. All right.
+
+And, well, while we're on that subject, we'll just hit it briefly here. One other prop I need. So another rigid body, and I don't know where g is on this rigid body. So does-- this is rotating about an axis. Is this object statically balanced, just doing this experiment? We're doing an experiment. We're sticking this on an axis, and we're letting it do it's thing. And I'm asking you is it statically balance. How do you know?
+
+AUDIENCE: Because if you were to flip it upside down and do it, it would still come to a stop.
+
+PROFESSOR: So it goes to a low point, right. And that tells you what about the position of this axis?
+
+AUDIENCE: [INAUDIBLE]
+
+PROFESSOR: The center of mass has got gravity, puts a force at the center of mass, creates a torque which brings it to the low point. Does this object have any symmetries that you could point out? Or in other words, can you without doing any math tell me one principal axis of this object?
+
+AUDIENCE: Where the dotted line is, that's a plane [INAUDIBLE].
+
+PROFESSOR: So you say I've got a dotted line around here and that's a plane of what?
+
+AUDIENCE: Plane of symmetry.
+
+PROFESSOR: So there's a plane of symmetry cutting this thing through here. So if you can identify one plane of symmetry, then where can you tell me that for sure you know that you can make a principal axis? He says perpendicular to that plane. Any place on that plane perpendicular to it?
+
+What do you think? For now, we've identified it has a plane of symmetry and that an axis perpendicular to it-- a principle axis should be perpendicular to that plane. But the question is where do I put it? Where, perpendicular to that plane can this axis be and be a principal axis?
+
+She says through g. Do you agree with that? So certainly through g. Let's say that that really is g and I put it through here. And if it was exactly through g, it wouldn't rotate to the low spot. This is pretty close. It struggles to get there.
+
+That's definitely a principal axis, but are there more? This is kind of the real point of the question. Are there other allowable principal axes in this direction?
+
+So we haven't talked about this very much. Any axis-- if this is a principal axis, any axis parallel to it is a principal axis. It's no longer through g. It's no longer statically balanced about that point. But it's still a principal axis.
+
+And one measure of whether or not something is a principal axis-- if you know the principal axes of an object and you write the mass moment of inertia matrix of it with respect to g, what does that matrix look like? Where does it have 0s and non-0s?
+
+It's a diagonal matrix. So if i about g is diagonal, that means you're computed the moment, mass moment properties with respect to three principal axes. If it's diagonal, and those axes all pass through g, if I now take one of those axes and say, I want to move it over here, and you've re-computed the inertia matrix, would it still be diagonal?
+
+So you've moved just one axis to another spot, parallel to its original one. You know this one is a principal axis. I'm going to move it just parallel. Only that one axis-- the other two are saying where they are. I've just moved it parallel. Is that also a principal axis, or another way of saying it, does that mass matrix, mass moment of inertia matrix stay diagonal?
+
+Do any of the terms in it change? Let's say this is the z principal axis and I move away. So now you have this new mass moment inertia matrix. Does the Izz term change? Yeah, by how much?
+
+AUDIENCE: [INAUDIBLE]
+
+PROFESSOR: He said ml squared, l being what?
+
+AUDIENCE: The length you moved.
+
+PROFESSOR: Here. And that's this thing though as parallel axis there, right? If you move one axis, any axis parallel to one of those axes is also a principal axis. So that's a subtle point. We don't often talking about it. Any axis parallel to a principal axis is also principal axis.
+
+Well, let's think about a problem. We've done this problem before. But now we have all the full tools. We have Lagrange, we have direct method. So that's this problem of the wheel on a horizontal plane.
+
+Kind of a complicated distribution of mass for which we know Izz about g is some mass radius and gyration squared. Maybe we measured it rather than computed it. So this thing is sliding on ice, and it has cord wrapped around it.
+
+I'm pulling with a force F, call it F1. I'll provide the inertial frame. And it's got some radius R. And we'll say the surface is frictionless.
+
+So I don't have a string wrapped around. But we're really talking about this problem. I'm pulling on the string and this thing can slide and rotate.
+
+Take a second. Think about how many different ways can you think of solving for the equations of motion of this? So if this on a quiz, I want you to find the equations of motion. What method would you use?
+
+And what's this? And then you're confronted with, well, I know more than one method. What's the simplest method? And before that, you need to decide how many coordinates you're going to need, how many equations you're going-- so let's start there. How many independent coordinates do you need to do this problem?
+
+We'll back up one more question, then. Is this a planar motion problem? So it's confined to one plane. I see a lot of heads nodding. And it rotates only with one degree of freedom of rotation, axis perpendicular to the plane. So this is a planar motion problem.
+
+So in general, planar motion problems have found many degrees of freedom per rigid body? So I see a bunch of 3's. Does this one have any constraints on those three degrees of freedom? So this has three degrees of freedom. You conceivably need three equations of motion.
+
+What are the choices for getting them? I want you to think about this for a minute. You decide what way you would do, and let's take a poll in a minute. You think about it, and then let's take a poll for how people would do this problem.
+
+So what's your favorite? How would you do it? He'd use the direct method. Do you need a torque equation? About what point? He'd use center of mass. So he'd say, direct method and for the torque equation, do it about the center of mass. Anybody have a different way they would do this problem?
+
+Is there another way to do it? He wants to do Lagrange. Everybody agree it could be done that way? So I agree, and let's quickly do this problem. And so direct method-- I'm going to make it easier on myself here.
+
+So the three coordinates, you're going to need an x, a y, and a theta is what I've chosen for the three coordinates to do this direct method. And to make it easy on myself, I'm going to align the force with my coordinates. So I'm going to essentially make theta 0.
+
+Essentially aligning F1, my force F1 with the x-axis. And if I do that, then I can say the sum of the forces in the y, the external forces in the y direction are nonexistent, 0. So that must be my double dot, so y double dot is 0. So that simplifies the problem.
+
+Summation of forces in the x direction, external forces are F1I. And they must equal to the mass times the acceleration in the x direction. And I'm basically done with that equation.
+
+AUDIENCE: Is that a rotating [INAUDIBLE]
+
+PROFESSOR: Well, I'm doing this. I'm saying this is my inertia frame. You add an inertial frame? Sure. Now I can-- I don't have to break this force into components, F1 cosine theta in the x direction and F1 sine theta in the y direction and get two-- get a finite amount, a nonzero amount for y double dot and non-0 amount for x double dot.
+
+I end up with three equations I have to work with. Just by realigning it, I can make this problem even simpler. So just to do it quickly, that's what I did. So I've got two of the three equations done. And finally, the sum of the torques about g.
+
+And we know the angular momentum of this would be some izz g times omega z would be the angular momentum. And it's d by dt of that izz about g, omega z dot, which is theta double dot, right?
+
+And what are the external torques? So figure it out. What's the external torque in this problem? What is its size and what's its direction?
+
+So, somebody give me-- what's the external torque with respect to where, to start with? So we're summing torques about g, the center of mass. R cross F, right, which comes out in what direction? k direction, right? And minus or plus?
+
+Do your right hand rule. And notice I've drawn x and y such that positive z is into the board. So this is positive. I put a positive z into the board on purpose so that this would just work out R F1 in the k direction.
+
+And that's equal to Izz about g theta double dot. And since it's all with respect to k, you can drop the unit vectors here. And so we have one equation. We have two equations. And we have three equations. And that's all we need to complete this, is three degrees of freedom to completely define the motion. Yes?
+
+AUDIENCE: Do you want us to have a trivial case?
+
+PROFESSOR: Do you mean the my double dot equals 0? Well, in general-- when I started this one, when I didn't align them, then you're forced to use the three, right? So the only difference between what I did and this probe making a problem slightly more messy, is if I had let theta, this angle, be other than 0, I would have had to have come up with three non-zero acceleration equations.
+
+So I'd say technically, or I'd just say I think it's prudent. If you're ever not sure, if you can look at it and by inspection write down, my double dot is 0, you've essentially just written an equation of motion. Rather than say let's just ignore it, I'd keep it in your-- I'd just put it on the paper, my double dot equals 0.
+
+And that's your first trivial equation of motion. But it is an equation of motion, because this body has a true degree of freedom in that direction. That's really the point. Don't confuse trivial results because there's no external forces with constraints.
+
+It's unconstrained in the x direction, or in the y direction the way I've set it up. So I think you're safer if you do just-- say the torques or the forces in that direction are 0 and you write it down.
+
+Let's look at this problem from the point of view of Lagrange. It's also equally simple, the Lagrange, except for the generalized forces. Actually, Lagrange is harder because you have to think your way through the generalized forces in this problem.
+
+And I got myself in a pickle with this problem and I spent hours trying to figure out a good explanation of a conundrum I ran into with the generalized forces. So let's look. I'll tell you what that was in a second. Let's look at Lagrange.
+
+So you need T. And we're pretty good at this now, I with respect to g zz, theta dot squared. That's your rotational kinetic energy. 1/2 mx dot squared plus y dot squared. Translational kinetic energy associated with the center of mass. Notice this is with respect to the center
+
+of mass. How about v? Potential energy in this problem? Any? It's all 0's, right? There's no springs. There's no gravity in this plane, operating in this plane. So this is 0. This problem's going to be particularly simple.
+
+So in the theta direction here, this derivative with respect to Q dot gives us Iz theta dot and the time derivative of that zz theta double dot. T with respect to theta-- nothing. V with respect to theta? Nothing.
+
+And on the right hand side, we need to get Q theta here. And the other equation, it's the x equation. Well, actually, we can have x and y. So what about the x equation? Derivative with respect to x dot? I get an mx dot, time derivative, mx double dot.
+
+And with respect to y. The thing about Lagrange, if you can do Lagrange, just write down the total expression and just crank it out, because if you say, oh, well, I know this is trivial, then you're actually employing some information from the direct method.
+
+If you're saying, I know the sum of the forces in this direction is 0. So when you straight out in applying Lagrange, you can do it without any reference at all to Newton. So in this case, we just blindly clunk along and we say, well, what's the derivative now with respect to y dot? Will I get an my dot time derivative y double dot.
+
+This derivative would be 0. This derivative is 0. And over here I get Q1. Now I'm left-- so the left hand side of Lagrange equations-- remember, you just add these terms together. And these are going to be our three equations of motion that result. And now the remaining work is to get these three generalized forces.
+
+Let's go back to our picture. If we had lined it up like this, and now we give it a general little virtual displacement delta y, how much work gets done? None. And so you suddenly realize, oh, I went to a lot of work for nothing here. This equation is trivial. Nothing happens there. And so now it's reduced to doing the Qx and Qy.
+
+So just to give us some practice, let's do Q theta and Qx the rigorous kinematic way.
+
+I'm going to draw the general picture here, because this is where I got myself into trouble. You're working along on a problem and then something doesn't quite work for you. I had set this problem to do generalized-- to compute the generalized forces. And I set it up looking like set it up like this so theta is 0. It's lined up like that. And I started thinking about, then generalized, my little virtual displacements, and I got into a conceptual problem that I couldn't sort out for a while. And I'll work it into the explanation here.
+
+So I'm going to set this up more generally. I have an angle theta here, and this is my F1. So to do this by this kinematic way, I need to find the position vector. Here's a point-- I'm going to call it D, and this is my point G, and here's O.
+
+So I have a position vector going to here-- it's RG; and a position vector going to here-- that's R of D with respect to G; and a position vector from here, and that's RD in O. And RD in O is RG in O plus RD with respect to G. I can write that. They're vectors. So I'm going to need those.
+
+So what is RG in O? Well, I have this coordinate system. It's going to be some XI plus YJ in the inertial frame. And then RD with respect to G-- I need to have some kind of a coordinate system that rotates with the body. So I'll call this y1, and this x1-- how it's rotating with the body. So now, this one down here is minus R in the j1 direction. So that's the position of this point D with respect to O, written as the sum of two vectors.
+
+And I'm eventually going to need to be able to express this j1 in an inertial frame. So here's just this little vector j1, and I need its components in the J and I directions. So it's made up of a piece like that, a piece like this, and this angle here is theta. So little j1-- so I can converge. I can move from this unit vector system to that one by this transformation. I'm going to need that in a minute. Actually, I'll invoke it right now.
+
+So my position vector here is-- the x component is x. Can't read my plus. I crossed out a plus and minus, so I got to sort this out carefully here. Is this right? What do you think? Laura, what have I done wrong?
+
+So this is the plus I direction. This piece here is-- so minus sine theta in the I plus cosine theta in the J are the components. So I'm missing a minus sign there. OK.
+
+So I want to collect the I pieces together. So I have an X in the I, and I have a minus R minus sine theta. So, plus R sine theta-- this is the I contribution. And then over here I have a Y and a minus R cosine theta in the J. Then I have this vector all worked out in my inertial frame.
+
+So now I can say that-- remember, Qj dot dR-- it's a sort of virtual deflection for the jth contribution. So in this case, I'm interested in, say, the 1 in the-- which one should we do first-- The x direction. So this is the F1 in the I dot derivative of RD with respect to x delta x.
+
+But now I have an-- I can work this out. I can figure this one out directly now, because I have an expression for R-- that vector-- in terms of one set of unit vectors, and I can take the derivative with respect to x. And the only x that shows up in here is this, so the derivative is pretty simple. It's just 1. So this is F1I dot I delta x. So this tells us that Qx equals F1. No great surprise. We knew the answer to that from before.
+
+And I-- oh, I made a mistake. What didn't I-- I was mixing the two. I did a simplification when I did the direct one. Is F1 in the I direction?
+
+So F1 has components. Vector F1 has a magnitude F1 times cosine theta I plus sine theta J. And so down here, I need to put those in and take the dot product. So the only dot product that will matter is the I component. This is going to be F1 cosine theta I dot this, which we know this gives us just and I. So I'm leaving out the J piece. So I end up here with F1 cosine theta.
+
+Does that look right? So here is your theta. Here is your-- this is F1 cosine theta. So for our coordinate system that's squared up like this, it's only that term that's in the F1 direction, and this would come out correctly. Now
+
+And if we let-- if we now reorient our coordinate system so that theta is 0, then this would just turn out to be F1. If you can see that this is F1 cosine theta without going through all the work, what's Qy for this system? Sure. F1 sine theta. We won't go through all the work, but you go through the same taking the derivative-- in this case, the derivative of R with respect to y, and then dot it with F, and you get F1 sine theta in the J direction. So there's Qy.
+
+Now, the problem I ran into, conceptually, is around this other piece. So Q theta, the virtual work done in the theta direction, we know has to do with rotation. And that is going to be sum F1 dot-- now this is the derivative of RD with respect to theta delta theta.
+
+So RD is here, and it's indeed a function of theta, right? And so I can take a derivative with respect to theta, and I'll get derivative of that R sine theta term, and I'll get a derivative of the R cosine theta term.
+
+But here's how I got myself in trouble. It took me-- and this is the sort of thing that happens to all of us. You're working a problem, throw in a simplification, and then something doesn't work. Well, what if you had oriented the axis, initially, so that the force is aligned with x and perpendicular to y? Then this theta angle is 0, right?
+
+And you know, when you set it up, you don't end up with-- the cosine of 0 is 1, and sine of 0 is 0. You don't end up with the cosine and sines in there to take derivatives of. You just jump to the simplification, and you just find out that you just have R in the J. There's no R sine theta term. It's just vanished on you. And now you need to take that derivative to do this step.
+
+And I do count with it as huh? What have I done wrong? In order to do this method, you need to leave it in the sort of general formulation, and then let theta be 0 at the end, if you want to do that. So if I had then finished it, I can do this for this general problem, and then let theta go to 0, and the answer will come out all right.
+
+So should we do this? So this is F1 dot this. So, F1 dotted with the derivative of R with respect to theta. So I get an R cosine theta in the I, and the derivative of this term will be-- well, the cosine theta is minus sine theta times a minus is a plus R sine theta in the J delta theta. And I do this dot product, so I get the I times the I's, and the J terms times the J terms.
+
+And it all works out nicely. Sine squared plus cosine squared-- you get 1. And you find out that the torque doesn't care about the angle. And does that make sense?
+
+AUDIENCE: [INAUDIBLE]?
+
+PROFESSOR: Absolutely. I did this on purpose to give us a little more practice using this kinematic grind it out method. But, for sure, the intuitive method would have yielded result a lot faster here, right? We would've said, let's have a little deflection delta x. What's the virtual work, then? Well, would have been F1 cosine theta delta x. It would be Qx delta x. Qy delta y would be F1 delta y sine theta, and we're done.
+
+And the rotation one-- we would have looked at this and said, how much-- in a little motion delta theta-- how much does this move? It moves R delta theta crossed with the F that it moves through, or dot product with that distance, would have given you F1 R delta theta equals Q theta delta theta. So we could have done it in a minute.
+
+And sometimes, doing it the hard way is what will get you in trouble. I didn't have the cosine theta and sine thetas working out in this and I couldn't take the derivative. What did I do wrong? And I finally realized, I made the problem too simple, simplified it too soon.
+
+So I wanted to use this as a stepping stone to something I meant to cover perhaps weeks ago. And there's a general little lesson that we can learn from this, which you've probably been taught before, but I'm going to remind you.
+
+Here's a rigid body. Got some center of mass. And I've got a force acting on it here, just some arbitrary position and angle. So that force has a line of action, and perpendicular to that line of action is a distance, which I'll call d here.
+
+And we know that in R cross F, we can-- this force exerts a moment about G that would be R cross F, where R goes from here to here, but it's only the component perpendicular to it. So we know that this is going to create a moment. And I won't draw pictures yet here for a moment.
+
+This diagram is the same as-- well, I could draw the same peanut here. It's the same as the following-- a force here, that's F, and another force at G, that's F. Equal and opposite, so it's like adding 0 to the problem. So I can do that with impunity, and I still have my force F down here. So this problem's equal to that problem. But now, this force and this force, equal and opposite, cancel one another, but create what's called a couple-- a moment that we can compute about my point G here.
+
+So these two forces create just a pure torque, leaving this as a force. They're equal and opposite, so no net force. But they create a torque in this direction, and there's a remaining force on the center of mass. So this whole thing is also, then, equal to the equivalent of a torque around the center of mass and a force applied at the center of mass. And in this case, the torque would be dF.
+
+This problem is easier to do if you're trying to compute generalized forces than the one we started with, because now, the position vector that we need goes only to the center of mass. And the general rule for this-- you have a body, you have several forces-- F1, F2, F3. That's equal to the body with G, with a F total on it, and a moment-- a torque-- total.
+
+And F total-- it's a vector-- is a summation of the Fi's. And T, the torque total, is the summation of each of these guys. Here's G. This has an R1. Here is an R2. Here's an Ri to the ith force.
+
+So this is a summation of the Ri cross Fi's. So if you sum all the forces and compute the equivalent torque about the center of mass, sum all the forces and apply it at the center of mass, then this problem is equal to that problem. So this can come in handy when you're trying to simplify problems.
+
+And for this particular problem, let's draw our hockey puck. Going to put my force in the simplest direction here. But there's my force. This problem is equal, doing the same thing here. It's the same thing as if I had drew forces like this.
+
+And that gives me an equivalent problem, where I have-- this couple here produces a torque, and there is a net force acting on the center of mass. So this problem is equal to this problem now. A torque and a force both acting at the center of mass, and the torque is RF1 in the k. And the force is just F1 in the positive I direction.
+
+And R-- but now, what is the little R vector? If we're going to do this the kinematic way? From here to G, this is R1, I'll call it. And that's it. I only-- now I have everything acting here. And Qx delta x is F1 dot derivative of R with respect to x delta x.
+
+But what is R? It's XI plus YJ. The derivative of R1 with respect to x is just 1 in the I, and the derivative of R with respect to Y is just J. So this becomes a trivial calculation. F1I dot I-- I get Qx equals F1 delta x. Then I get Qy is F1, which is in the I direction dot J is 0.
+
+And I get Q theta-- ah, Q theta. Now, do I use this expression? So, I'm not dealing with little changes in distance anymore. When you can put rotation-- when you put moments about the centers of mass, it's just easier. This one-- you call intuitive, but this is just going to be the sum delta theta is equal to the total torques acting at the center of mass dot delta theta. And in this case, the torque is in the k direction, delta theta's in the k direction, and this is RF1k dot k delta theta, which just gives us RF1 equals Q theta.
+
+So the torque equations you can derive straight out. You don't have to take derivatives. It doesn't have anything to do with change in position. It's just a little rotation, delta theta.
+
+So it simplifies this problem and, actually, totally avoids the conundrum I got into. If I work everything about the center of mass of that rigid body, the R gets easier, the derivatives get easier, and the torque becomes obvious how it applies.
+
+We'll talk about-- I have a pendulum in kind of a weird shape. But the pendulum has the following properties. So that weird shape-- that may be this. It's got one plane of symmetry like this does. And I'm going to put-- what did I do with my axle? I'm going to put the axis of rotation perpendicular to that plane of symmetry, somewhere not at G, not at the center of mass-- so, just what I've done here.
+
+I can make any object that has a plane of symmetry-- if I have it rotate about an axis that's perpendicular to that plane of symmetry, it becomes a simple pendulum. And you can write down with my inspection what the equation of motion is. So, how many degrees of freedom does this system have?
+
+So first of all, then, is it planar motion? So it has, at most, 3, and how many-- and it has a pin through it that doesn't allow it to move in x or y. How many constraints is that?
+
+AUDIENCE: 2.
+
+PROFESSOR: 2. So how many you got left?
+
+AUDIENCE: 1.
+
+PROFESSOR: 1. So this is a single degree of freedom problem, and I've chosen to have it move about an axis that is-- is this axis a principal axis of this body? Absolutely. And so, if I ask you, what's the mass moment of inertia of this? If I gave you Izz about G for this thing, and this distance, what would you tell me the mass moment of inertia about the pivot is? I'll give you this. What's the rest of it?
+
+Not a G. You've got some distance here, which you're given-- L, we'll call it. Correct. So, parallel axis-- remember, ML squared.
+
+So we know that that's true, and the G is over here someplace, and this is this distance L. And what's the equation of motion for this? And gravity acts. No damping for now.
+
+What's the equation of motion? Right off the top your head. You've done enough of these. I'll give you one minute think about it. We'll figure out the equation of motion for this problem. I highly recommend you don't do the Lagrange.
+
+Somebody give me their equation of motion. So, what method would you choose to use? Simplest one you could think of. Direct? About what point?
+
+AUDIENCE: Around A.
+
+PROFESSOR: About A. And what do you say is-- what equation do you apply? General equation.
+
+AUDIENCE: [INAUDIBLE] It's just AIzz [INAUDIBLE].
+
+PROFESSOR: Yeah, that would be part of the answer. And the equation-- remember, I wrote a list of them-- 1, 2, 3 over there. Which one do you use?
+
+AUDIENCE: You just use the second one.
+
+PROFESSOR: Just a second one, right. And do the nuisance terms go away? Point A's not moving. So some of the torque is equal to dHdt, and it's H with respect to A, right?
+
+So that's H, right? d by dt Izz with respect to A theta double dot k equals the sum of the external torques. And the rest of the problem is finding the external torques. What's the free body diagram look like?
+
+So, here's the object, possibly A and Rx, and an Ry, and an Mg. Those are your possible-- that will set your free body diagram, right? So here's the Mg down.
+
+What's the torque that gravitational force puts on this object with respect to point A? R cross F, right? R cross F into the board. Is that positive or negative? And what's the link to this R?
+
+Well, from here to here is, I guess-- oh, that is L. So the length of this side and that triangle? L sine theta? L sine theta cross Mg. And it is positive or negative-- what did we decide? Looks like it's-- this is positive theta xy system. It gets negative minus MgL sine theta, and we're done. So, generically-- and this is also in the k direction, so we can drop the k's now. We have our equation of motion Izz theta double dot plus MgL sine theta.
+
+Is there any then single degree of freedom pendulum made out of a rigid body, and rotating about an axis that is a principal axis that has that equation of motion? Any of them, no matter what the shape. If you can rotate it about a principal axis, and not through G, because if you put-- what's the natural frequency if you run the axis through G? What's the torque?
+
+0. Nothing happens, right? It doesn't want to do anything. But as soon as it's not through G, then the things oscillates. And that's because this is now a differential equation. And I need to say this equals 0 here. There's no other forces. If you've got a damping force, then it would show up.
+
+But this is a generic, undamped equation of motion for any single degree of freedom pendulum rotating about one of its principal axes. And if the body you're shown or given has a single plane of symmetry, then you can figure out one way, immediately, that you know this will-- that equation applies. An axis perpendicular to that plane of symmetry is a pendulum and it is that equation. And the i respect to A you can get from simple parallel axis, if you're told what i with respect to G is.
+
+Questions? I'm going to put up two additional problems. And I'm not going to solve them. We're going to talk about them. You're going to tell me how you would go about doing them. And they wouldn't be bad problems for you to practice on. And you've actually seen both of them before.
+
+So, the first one-- pulley rotating about that fixed axis. And this is that thing we call Atwood's Machine. How did I draw my coordinates?
+
+So I have my Izz about G. It's sum M3 kappa squared. You're given the radius of gyration of this pulley. So that's its mass moment of inertia about the center. And you know R. You could specify a theta. And we have a pair of masses-- start off like this, M1, M2.
+
+And this, now-- so I've going to say, no slip. And this rope goes over the pulley, no slip, initially stationary. I let go. I want an equation of motion for this system.
+
+So how many is it-- first of all, is it a planar motion problem? OK. How many rigid bodies? How many potential degrees of freedom?
+
+AUDIENCE: None.
+
+PROFESSOR: None. How many do you think they really are going to end up with here? How many do you expect to find? How many necessary coordinates are you going to need to completely describe the motion? I see some 1's going up. Everybody believe that?
+
+Lots of constraints. We're not going to let this-- we're constraining this to move in-- only allowing it to move up and down. These can't rotate, so there's one for each. These can't go in this direction, so two more. This can only rotate, no translations. So you end up with 1. And finally, there's this no slip condition, which means that R theta equals x, and that's one final one that you'd need to write down.
+
+So if you had that, gotten this far-- find the equation of motion. What method would you use? So, your choices are here-- direct method, Lagrange. Think about it. How would you-- what's the easiest way for you to do this problem? Maybe an ancillary question is, how many ways can you think of that you could do this problem? How many different approaches could you use? So, how many ways can you think of doing this problem, Kristen? I'm just picking on her, but--
+
+AUDIENCE: I'm not Kristen.
+
+PROFESSOR: Give me an answer anyway.
+
+AUDIENCE: OK. I think you could do two, but I would choose Lagrange.
+
+PROFESSOR: You would want to do it by Lagrange. Helen, how else could you do it? If you did it by Lagrange, got the answer, and said, I want to check it, what would you do next?
+
+AUDIENCE: The direct method.
+
+PROFESSOR: Direct. But where would do apply? Would you use torques? Would you use forces? How would you go about doing this?
+
+AUDIENCE: I would use torques about the center of the pulley.
+
+PROFESSOR: Torques about the center. We did that. I mean, I worked that-- I actually did this problem by that method earlier in the term. Torques about A. Let's have the pivot. Works fine. Actually, it's pretty efficient.
+
+So, Lagrange or torques about A. You only need-- there's one degree of freedom, right? How many equations do you need to write to do this problem? Just one. So the sum of the torques about A will give you the answer. Lagrange equation will give you the answer. That's a good problem to practice on.
+
+Another problem-- this is not very big. It's basically this problem. This is just-- you've seen this. I'm sure you've been shown this in physics and stuff before. This is the falling stick problem.
+
+You can't set this up without having some friction. So there's definitely friction on the table. But until it hits, it's doing some things. And so, there's two problems that you could set up and try to do. One is the problem with no friction-- frictionless table. And then, you could allow friction.
+
+Tricky thing about allowing friction is-- you think there's a normal force. So let's say our usual friction model is-- the friction force is mu times the normal force. Does the normal force change with time in this problem?
+
+So, standing up, what's the normal force? Mg, right? And the sum of the forces in the vertical direction is mass times acceleration in the vertical direction. And what are the-- if you draw a free body diagram of this problem-- so let's draw it now.
+
+Here's my-- if there's no friction force, I still-- without friction force, I still have a normal force, and I still have Mg pulling down here. So the sum of the forces in the y certainly have a minus Mg plus N equals the mass times the acceleration in the y direction. And if you solve for N, do you-- then the issue-- my question is, does this remain constant? Depends on whether or not ay remains constant, right? Do you think the acceleration in the y direction of this thing will change as it goes more and more horizontal? There's some nods, up and down, and left and rights.
+
+I think it's going to change. For sure, you can't assume that it won't change. So you have to assume it'll change. And that means N-- this normal force becomes a function of time, which makes certain ways of doing this problem a little harder.
+
+So how many ways? Let's say the friction-- let's do a, no friction, and b, with friction. No friction-- first of all, is it a planar motion problem? Yeah, we can do that. So, at most three degrees of freedom. How many does this one have? Work this one out. Figure out how many degrees of freedom this problem has. How many separate equations do you need to come up with?
+
+So, you decide what your-- let's say we're going to use Lagrange. What would your generalized coordinates be to do this problem?
+
+So, problem a-- no friction. How many generalized coordinates? How many degrees of freedom? How many generalized coordinates do you need? I heard a three. I hear one. Somebody give me two. I got a two. All right. Obviously a good question.
+
+So, at most there can be three, because we've agreed that it's planar motion. Does this problem have any constraints? Where?
+
+AUDIENCE: The bottom of the line can't move the y.
+
+PROFESSOR: So it can't move in the y direction. So if any part of a body can't move in-- translate, then there's no translation in that direction, pure translation of the body in that direction. So there's a constraint in the y, if we draw a coordinate system here. Constraint in the y. True. So we're down to two. Are there any other constraints?
+
+AUDIENCE: I would say that, yes, because the upper line--
+
+PROFESSOR: No, no, it's not leaning against the wall. This is just a skip. This is the problem. So it definitely can't move through the table. So it's constrained in y. We've got that so now that leaves us, at most, two.
+
+Are there any other constraints? How many say no? How many say yes? If you say yes, you've got to tell me what it is, but I don't see any others.
+
+So we're left with two. We need two coordinates. What might we pick here? What would you pick? You're now confronted with this problem. Do you have rotational-- if you're going to use Lagrange do you have rotational kinetic energy in this problem? You're probably going to need an angle. What else would you need? So we're going to need an angle for sure. Say it again?
+
+AUDIENCE: The height of the center of mass.
+
+PROFESSOR: You're going to need the height of the center of mass. Yeah, you're going to need a potential energy expression, but we've decided that y is constrained. So you can't have a theta and a y. Let's make this our theta. What else is there?
+
+AUDIENCE: x.
+
+PROFESSOR: x. You're going to need an x. So our generalized coordinates are going to be an x and a theta. But you do need to be able to write down a potential energy expression, and it involves motion in the y. So what do you do? Right.
+
+So what's the height of this thing is-- above the ground-- is sum L over 2 cosine theta equals y. Something like that, right? And I might have a-- depending on whether you make-- I haven't thought this through. Whether or not it's xy this way or xy that way, theta might be plus or minus. This could be-- there might be a sine in there.
+
+But basically, this is-- theta and y are constrained. If you know one, you know the other. So you do your potential energy expression this way.
+
+Now we've gotten that far. We know we need two coordinates. We're going to use x and theta. But now you have to decide what method to use. Direct method using one of these, or Lagrange? What would you do?
+
+How would you go about it? It's a quiz. You got 20 minutes to finish, and you want to do this in the safest, quickest possible way. What would you try? And this is the realistic situation, right? Next Tuesday. What do you trust yourself to do the most? It's probably what you ought to do in a quiz situation.
+
+Anne, how many ways can you think of doing this? How many ways could you do this, Rob?
+
+AUDIENCE: Two.
+
+PROFESSOR: Two. Any way. Direct, indirect, what would you use? Where would you choose to-- you're going to need a torque equation to do this problem, if you use direct. Where would you take your torques about?
+
+Think about that. For this problem, if you're doing the direct method, where are you going to compute the torques? About what point?
+
+So you can do it about that-- you could call this point A here. And what equation would you-- now you've got to use that equation that's got the problematic terms in it, right? But it's all right. You can punch those through and do it. That will work.
+
+And if you use Lagrange? You've got to be able to figure out the potential and kinetic energy, and so forth. So could all of you do this by Lagrange? This is a good one to go practice on. It's not that hard. Do it. It's a good practice problem.
+
+Now add friction. So, the b problem. It now has friction. Can you-- I don't think-- is Lagrange a good choice if it now has friction? I think it's got a problem, and I'd be careful using Lagrange if it had friction.
+
+Not that-- Lagrange is perfectly-- it is certainly valid. It's just hard. Why is it hard? Well, yeah, it might be hard to find. What do you need to know to-- so, are there any external non-conservative forces in the problem with friction?
+
+AUDIENCE: Friction.
+
+PROFESSOR: Friction. You're going to have to figure out the friction force. And to figure out the friction force, you're going to have to apply direct method. No other way. You are going to have to apply some direct method to do this problem, no matter what. So you can't just say-- Lagrange is not going to bail you out and not have to solve some of the F equals ma, and torque, and those sort of things to figure out what friction is. So there are problems that Lagrange-- isn't all as simple as we sometimes make it out to be.
+
+All right, I've run a couple minutes over. Thank you. We'll see you in class on Tuesday. We'll do some more review.
+
+[[Example of hockey puck with a pull string-direct method]]
+Print This Document
+
+So that's this problem of the wheel on a horizontal plane.
+
+Kind of a complicated distribution of mass for which we know Izz about g is some mass radius and gyration squared. Maybe we measured it rather than computed it. So this thing is sliding on ice, and it has cord wrapped around it.
+
+I'm pulling with a force F, call it F1. I'll provide the inertial frame. And it's got some radius R. And we'll say the surface is frictionless.
+
+So I don't have a string wrapped around. But we're really talking about this problem. I'm pulling on the string and this thing can slide and rotate.
+
+Take a second. Think about how many different ways can you think of solving for the equations of motion of this? So if this on a quiz, I want you to find the equations of motion. What method would you use?
+
+And what's this? And then you're confronted with, well, I know more than one method. What's the simplest method? And before that, you need to decide how many coordinates you're going to need, how many equations you're going-- so let's start there. How many independent coordinates do you need to do this problem?
+
+We'll back up one more question, then. Is this a planar motion problem? So it's confined to one plane. I see a lot of heads nodding. And it rotates only with one degree of freedom of rotation, axis perpendicular to the plane. So this is a planar motion problem.
+
+So in general, planar motion problems have found many degrees of freedom per rigid body? So I see a bunch of 3's. Does this one have any constraints on those three degrees of freedom? So this has three degrees of freedom. You conceivably need three equations of motion.
+
+What are the choices for getting them? I want you to think about this for a minute. You decide what way you would do, and let's take a poll in a minute. You think about it, and then let's take a poll for how people would do this problem.
+
+So what's your favorite? How would you do it? He'd use the direct method. Do you need a torque equation? About what point? He'd use center of mass. So he'd say, direct method and for the torque equation, do it about the center of mass. Anybody have a different way they would do this problem?
+
+Is there another way to do it? He wants to do Lagrange. Everybody agree it could be done that way? So I agree, and let's quickly do this problem. And so direct method-- I'm going to make it easier on myself here.
+
+So the three coordinates, you're going to need an x, a y, and a theta is what I've chosen for the three coordinates to do this direct method. And to make it easy on myself, I'm going to align the force with my coordinates. So I'm going to essentially make theta 0.
+
+Essentially aligning F1, my force F1 with the x-axis. And if I do that, then I can say the sum of the forces in the y, the external forces in the y direction are nonexistent, 0. So that must be my double dot, so y double dot is 0. So that simplifies the problem.
+
+Summation of forces in the x direction, external forces are F1I. And they must equal to the mass times the acceleration in the x direction. And I'm basically done with that equation.
+
+AUDIENCE: Is that a rotating [INAUDIBLE]
+
+PROFESSOR: Well, I'm doing this. I'm saying this is my inertia frame. You add an inertial frame? Sure. Now I can-- I don't have to break this force into components, F1 cosine theta in the x direction and F1 sine theta in the y direction and get two-- get a finite amount, a nonzero amount for y double dot and non-0 amount for x double dot.
+
+I end up with three equations I have to work with. Just by realigning it, I can make this problem even simpler. So just to do it quickly, that's what I did. So I've got two of the three equations done. And finally, the sum of the torques about g.
+
+And we know the angular momentum of this would be some izz g times omega z would be the angular momentum. And it's d by dt of that izz about g, omega z dot, which is theta double dot, right?
+
+And what are the external torques? So figure it out. What's the external torque in this problem? What is its size and what's its direction?
+
+So, somebody give me-- what's the external torque with respect to where, to start with? So we're summing torques about g, the center of mass. R cross F, right, which comes out in what direction? k direction, right? And minus or plus?
+
+Do your right hand rule. And notice I've drawn x and y such that positive z is into the board. So this is positive. I put a positive z into the board on purpose so that this would just work out R F1 in the k direction.
+
+And that's equal to Izz about g theta double dot. And since it's all with respect to k, you can drop the unit vectors here. And so we have one equation. We have two equations. And we have three equations. And that's all we need to complete this, is three degrees of freedom to completely define the motion. Yes?
+
+AUDIENCE: Do you want us to have a trivial case?
+
+PROFESSOR: Do you mean the my double dot equals 0? Well, in general-- when I started this one, when I didn't align them, then you're forced to use the three, right? So the only difference between what I did and this probe making a problem slightly more messy, is if I had let theta, this angle, be other than 0, I would have had to have come up with three non-zero acceleration equations.
+
+So I'd say technically, or I'd just say I think it's prudent. If you're ever not sure, if you can look at it and by inspection write down, my double dot is 0, you've essentially just written an equation of motion. Rather than say let's just ignore it, I'd keep it in your-- I'd just put it on the paper, my double dot equals 0.
+
+And that's your first trivial equation of motion. But it is an equation of motion, because this body has a true degree of freedom in that direction. That's really the point. Don't confuse trivial results because there's no external forces with constraints.
+
+It's unconstrained in the x direction, or in the y direction the way I've set it up. So I think you're safer if you do just-- say the torques or the forces in that direction are 0 and you write it down.
+
+Let's look at this problem from the point of view of Lagrange. It's also equally simple, the Lagrange, except for the generalized forces. Actually, Lagrange is harder because you have to think your way through the generalized forces in this problem.
+
+And I got myself in a pickle with this problem and I spent hours trying to figure out a good explanation of a conundrum I ran into with the generalized forces. So let's look. I'll tell you what that was in a second. Let's look at Lagrange.
+
+So you need T. And we're pretty good at this now, I with respect to g zz, theta dot squared. That's your rotational kinetic energy. 1/2 mx dot squared plus y dot squared. Translational kinetic energy associated with the center of mass. Notice this is with respect to the center
+
+of mass. How about v? Potential energy in this problem? Any? It's all 0's, right? There's no springs. There's no gravity in this plane, operating in this plane. So this is 0. This problem's going to be particularly simple.
+
+So in the theta direction here, this derivative with respect to Q dot gives us Iz theta dot and the time derivative of that zz theta double dot. T with respect to theta-- nothing. V with respect to theta? Nothing.
+
+And on the right hand side, we need to get Q theta here. And the other equation, it's the x equation. Well, actually, we can have x and y. So what about the x equation? Derivative with respect to x dot? I get an mx dot, time derivative, mx double dot.
+
+And with respect to y. The thing about Lagrange, if you can do Lagrange, just write down the total expression and just crank it out, because if you say, oh, well, I know this is trivial, then you're actually employing some information from the direct method.
+
+If you're saying, I know the sum of the forces in this direction is 0. So when you straight out in applying Lagrange, you can do it without any reference at all to Newton. So in this case, we just blindly clunk along and we say, well, what's the derivative now with respect to y dot? Will I get an my dot time derivative y double dot.
+
+This derivative would be 0. This derivative is 0. And over here I get Q1. Now I'm left-- so the left hand side of Lagrange equations-- remember, you just add these terms together. And these are going to be our three equations of motion that result. And now the remaining work is to get these three generalized forces.
+
+Let's go back to our picture. If we had lined it up like this, and now we give it a general little virtual displacement delta y, how much work gets done? None. And so you suddenly realize, oh, I went to a lot of work for nothing here. This equation is trivial. Nothing happens there. And so now it's reduced to doing the Qx and Qy.
+
+So just to give us some practice, let's do Q theta and Qx the rigorous kinematic way.
+
+I'm going to draw the general picture here, because this is where I got myself into trouble. You're working along on a problem and then something doesn't quite work for you. I had set this problem to do generalized-- to compute the generalized forces. And I set it up looking like set it up like this so theta is 0. It's lined up like that. And I started thinking about, then generalized, my little virtual displacements, and I got into a conceptual problem that I couldn't sort out for a while. And I'll work it into the explanation here.
+
+So I'm going to set this up more generally. I have an angle theta here, and this is my F1. So to do this by this kinematic way, I need to find the position vector. Here's a point-- I'm going to call it D, and this is my point G, and here's O.
+
+So I have a position vector going to here-- it's RG; and a position vector going to here-- that's R of D with respect to G; and a position vector from here, and that's RD in O. And RD in O is RG in O plus RD with respect to G. I can write that. They're vectors. So I'm going to need those.
+
+So what is RG in O? Well, I have this coordinate system. It's going to be some XI plus YJ in the inertial frame. And then RD with respect to G-- I need to have some kind of a coordinate system that rotates with the body. So I'll call this y1, and this x1-- how it's rotating with the body. So now, this one down here is minus R in the j1 direction. So that's the position of this point D with respect to O, written as the sum of two vectors.
+
+And I'm eventually going to need to be able to express this j1 in an inertial frame. So here's just this little vector j1, and I need its components in the J and I directions. So it's made up of a piece like that, a piece like this, and this angle here is theta. So little j1-- so I can converge. I can move from this unit vector system to that one by this transformation. I'm going to need that in a minute. Actually, I'll invoke it right now.
+
+So my position vector here is-- the x component is x. Can't read my plus. I crossed out a plus and minus, so I got to sort this out carefully here. Is this right? What do you think? Laura, what have I done wrong?
+
+So this is the plus I direction. This piece here is-- so minus sine theta in the I plus cosine theta in the J are the components. So I'm missing a minus sign there. OK.
+
+So I want to collect the I pieces together. So I have an X in the I, and I have a minus R minus sine theta. So, plus R sine theta-- this is the I contribution. And then over here I have a Y and a minus R cosine theta in the J. Then I have this vector all worked out in my inertial frame.
+
+So now I can say that-- remember, Qj dot dR-- it's a sort of virtual deflection for the jth contribution. So in this case, I'm interested in, say, the 1 in the-- which one should we do first-- The x direction. So this is the F1 in the I dot derivative of RD with respect to x delta x.
+
+But now I have an-- I can work this out. I can figure this one out directly now, because I have an expression for R-- that vector-- in terms of one set of unit vectors, and I can take the derivative with respect to x. And the only x that shows up in here is this, so the derivative is pretty simple. It's just 1. So this is F1I dot I delta x. So this tells us that Qx equals F1. No great surprise. We knew the answer to that from before.
+
+And I-- oh, I made a mistake. What didn't I-- I was mixing the two. I did a simplification when I did the direct one. Is F1 in the I direction?
+
+So F1 has components. Vector F1 has a magnitude F1 times cosine theta I plus sine theta J. And so down here, I need to put those in and take the dot product. So the only dot product that will matter is the I component. This is going to be F1 cosine theta I dot this, which we know this gives us just and I. So I'm leaving out the J piece. So I end up here with F1 cosine theta.
+
+Does that look right? So here is your theta. Here is your-- this is F1 cosine theta. So for our coordinate system that's squared up like this, it's only that term that's in the F1 direction, and this would come out correctly. Now
+
+And if we let-- if we now reorient our coordinate system so that theta is 0, then this would just turn out to be F1. If you can see that this is F1 cosine theta without going through all the work, what's Qy for this system? Sure. F1 sine theta. We won't go through all the work, but you go through the same taking the derivative-- in this case, the derivative of R with respect to y, and then dot it with F, and you get F1 sine theta in the J direction. So there's Qy.
+
+Now, the problem I ran into, conceptually, is around this other piece. So Q theta, the virtual work done in the theta direction, we know has to do with rotation. And that is going to be sum F1 dot-- now this is the derivative of RD with respect to theta delta theta.
+
+So RD is here, and it's indeed a function of theta, right? And so I can take a derivative with respect to theta, and I'll get derivative of that R sine theta term, and I'll get a derivative of the R cosine theta term.
+
+But here's how I got myself in trouble. It took me-- and this is the sort of thing that happens to all of us. You're working a problem, throw in a simplification, and then something doesn't work. Well, what if you had oriented the axis, initially, so that the force is aligned with x and perpendicular to y? Then this theta angle is 0, right?
+
+And you know, when you set it up, you don't end up with-- the cosine of 0 is 1, and sine of 0 is 0. You don't end up with the cosine and sines in there to take derivatives of. You just jump to the simplification, and you just find out that you just have R in the J. There's no R sine theta term. It's just vanished on you. And now you need to take that derivative to do this step.
+
+And I do count with it as huh? What have I done wrong? In order to do this method, you need to leave it in the sort of general formulation, and then let theta be 0 at the end, if you want to do that. So if I had then finished it, I can do this for this general problem, and then let theta go to 0, and the answer will come out all right.
+
+So should we do this? So this is F1 dot this. So, F1 dotted with the derivative of R with respect to theta. So I get an R cosine theta in the I, and the derivative of this term will be-- well, the cosine theta is minus sine theta times a minus is a plus R sine theta in the J delta theta. And I do this dot product, so I get the I times the I's, and the J terms times the J terms.
+
+And it all works out nicely. Sine squared plus cosine squared-- you get 1. And you find out that the torque doesn't care about the angle. And does that make sense?
+
+AUDIENCE: [INAUDIBLE]?
+
+PROFESSOR: Absolutely. I did this on purpose to give us a little more practice using this kinematic grind it out method. But, for sure, the intuitive method would have yielded result a lot faster here, right? We would've said, let's have a little deflection delta x. What's the virtual work, then? Well, would have been F1 cosine theta delta x. It would be Qx delta x. Qy delta y would be F1 delta y sine theta, and we're done.
+
+And the rotation one-- we would have looked at this and said, how much-- in a little motion delta theta-- how much does this move? It moves R delta theta crossed with the F that it moves through, or dot product with that distance, would have given you F1 R delta theta equals Q theta delta theta. So we could have done it in a minute.
+
+And sometimes, doing it the hard way is what will get you in trouble. I didn't have the cosine theta and sine thetas working out in this and I couldn't take the derivative. What did I do wrong? And I finally realized, I made the problem too simple, simplified it too soon.
+
+So I wanted to use this as a stepping stone to something I meant to cover perhaps weeks ago. And there's a general little lesson that we can learn from this, which you've probably been taught before, but I'm going to remind you.
+
+Here's a rigid body. Got some center of mass. And I've got a force acting on it here, just some arbitrary position and angle. So that force has a line of action, and perpendicular to that line of action is a distance, which I'll call d here.
+
+And we know that in R cross F, we can-- this force exerts a moment about G that would be R cross F, where R goes from here to here, but it's only the component perpendicular to it. So we know that this is going to create a moment. And I won't draw pictures yet here for a moment.
+
+This diagram is the same as-- well, I could draw the same peanut here. It's the same as the following-- a force here, that's F, and another force at G, that's F. Equal and opposite, so it's like adding 0 to the problem. So I can do that with impunity, and I still have my force F down here. So this problem's equal to that problem. But now, this force and this force, equal and opposite, cancel one another, but create what's called a couple-- a moment that we can compute about my point G here.
+
+So these two forces create just a pure torque, leaving this as a force. They're equal and opposite, so no net force. But they create a torque in this direction, and there's a remaining force on the center of mass. So this whole thing is also, then, equal to the equivalent of a torque around the center of mass and a force applied at the center of mass. And in this case, the torque would be dF.
+
+This problem is easier to do if you're trying to compute generalized forces than the one we started with, because now, the position vector that we need goes only to the center of mass. And the general rule for this-- you have a body, you have several forces-- F1, F2, F3. That's equal to the body with G, with a F total on it, and a moment-- a torque-- total.
+
+And F total-- it's a vector-- is a summation of the Fi's. And T, the torque total, is the summation of each of these guys. Here's G. This has an R1. Here is an R2. Here's an Ri to the ith force.
+
+So this is a summation of the Ri cross Fi's. So if you sum all the forces and compute the equivalent torque about the center of mass, sum all the forces and apply it at the center of mass, then this problem is equal to that problem. So this can come in handy when you're trying to simplify problems.
+
+And for this particular problem, let's draw our hockey puck. Going to put my force in the simplest direction here. But there's my force. This problem is equal, doing the same thing here. It's the same thing as if I had drew forces like this.
+
+And that gives me an equivalent problem, where I have-- this couple here produces a torque, and there is a net force acting on the center of mass. So this problem is equal to this problem now. A torque and a force both acting at the center of mass, and the torque is RF1 in the k. And the force is just F1 in the positive I direction.
+
+And R-- but now, what is the little R vector? If we're going to do this the kinematic way? From here to G, this is R1, I'll call it. And that's it. I only-- now I have everything acting here. And Qx delta x is F1 dot derivative of R with respect to x delta x.
+
+But what is R? It's XI plus YJ. The derivative of R1 with respect to x is just 1 in the I, and the derivative of R with respect to Y is just J. So this becomes a trivial calculation. F1I dot I-- I get Qx equals F1 delta x. Then I get Qy is F1, which is in the I direction dot J is 0.
+
+And I get Q theta-- ah, Q theta. Now, do I use this expression? So, I'm not dealing with little changes in distance anymore. When you can put rotation-- when you put moments about the centers of mass, it's just easier. This one-- you call intuitive, but this is just going to be the sum delta theta is equal to the total torques acting at the center of mass dot delta theta. And in this case, the torque is in the k direction, delta theta's in the k direction, and this is RF1k dot k delta theta, which just gives us RF1 equals Q theta.
+
+So the torque equations you can derive straight out. You don't have to take derivatives. It doesn't have anything to do with change in position. It's just a little rotation, delta theta.
+
+So it simplifies this problem and, actually, totally avoids the conundrum I got into. If I work everything about the center of mass of that rigid body, the R gets easier, the derivatives get easier, and the torque becomes obvious how it applies.
+
+We'll talk about-- I have a pendulum in kind of a weird shape. But the pendulum has the following properties. So that weird shape-- that may be this. It's got one plane of symmetry like this does. And I'm going to put-- what did I do with my axle? I'm going to put the axis of rotation perpendicular to that plane of symmetry, somewhere not at G, not at the center of mass-- so, just what I've done here.
+
+I can make any object that has a plane of symmetry-- if I have it rotate about an axis that's perpendicular to that plane of symmetry, it becomes a simple pendulum. And you can write down with my inspection what the equation of motion is. So, how many degrees of freedom does this system have?
+
+So first of all, then, is it planar motion? So it has, at most, 3, and how many-- and it has a pin through it that doesn't allow it to move in x or y. How many constraints is that?
+
+AUDIENCE: 2.
+
+PROFESSOR: 2. So how many you got left?
+
+AUDIENCE: 1.
+
+PROFESSOR: 1. So this is a single degree of freedom problem, and I've chosen to have it move about an axis that is-- is this axis a principal axis of this body? Absolutely. And so, if I ask you, what's the mass moment of inertia of this? If I gave you Izz about G for this thing, and this distance, what would you tell me the mass moment of inertia about the pivot is? I'll give you this. What's the rest of it?
+
+Not a G. You've got some distance here, which you're given-- L, we'll call it. Correct. So, parallel axis-- remember, ML squared.
+
+So we know that that's true, and the G is over here someplace, and this is this distance L. And what's the equation of motion for this? And gravity acts. No damping for now.
+
+What's the equation of motion? Right off the top your head. You've done enough of these. I'll give you one minute think about it. We'll figure out the equation of motion for this problem. I highly recommend you don't do the Lagrange.
+
+Somebody give me their equation of motion. So, what method would you choose to use? Simplest one you could think of. Direct? About what point?
+
+AUDIENCE: Around A.
+
+PROFESSOR: About A. And what do you say is-- what equation do you apply? General equation.
+
+AUDIENCE: [INAUDIBLE] It's just AIzz [INAUDIBLE].
+
+PROFESSOR: Yeah, that would be part of the answer. And the equation-- remember, I wrote a list of them-- 1, 2, 3 over there. Which one do you use?
+
+AUDIENCE: You just use the second one.
+
+PROFESSOR: Just a second one, right. And do the nuisance terms go away? Point A's not moving. So some of the torque is equal to dHdt, and it's H with respect to A, right?
+
+So that's H, right? d by dt Izz with respect to A theta double dot k equals the sum of the external torques. And the rest of the problem is finding the external torques. What's the free body diagram look like?
+
+So, here's the object, possibly A and Rx, and an Ry, and an Mg. Those are your possible-- that will set your free body diagram, right? So here's the Mg down.
+
+What's the torque that gravitational force puts on this object with respect to point A? R cross F, right? R cross F into the board. Is that positive or negative? And what's the link to this R?
+
+Well, from here to here is, I guess-- oh, that is L. So the length of this side and that triangle? L sine theta? L sine theta cross Mg. And it is positive or negative-- what did we decide? Looks like it's-- this is positive theta xy system. It gets negative minus MgL sine theta, and we're done. So, generically-- and this is also in the k direction, so we can drop the k's now. We have our equation of motion Izz theta double dot plus MgL sine theta.
+
+Is there any then single degree of freedom pendulum made out of a rigid body, and rotating about an axis that is a principal axis that has that equation of motion? Any of them, no matter what the shape. If you can rotate it about a principal axis, and not through G, because if you put-- what's the natural frequency if you run the axis through G? What's the torque?
+
+0. Nothing happens, right? It doesn't want to do anything. But as soon as it's not through G, then the things oscillates. And that's because this is now a differential equation. And I need to say this equals 0 here. There's no other forces. If you've got a damping force, then it would show up.
+
+But this is a generic, undamped equation of motion for any single degree of freedom pendulum rotating about one of its principal axes. And if the body you're shown or given has a single plane of symmetry, then you can figure out one way, immediately, that you know this will-- that equation applies. An axis perpendicular to that plane of symmetry is a pendulum and it is that equation. And the i respect to A you can get from simple parallel axis, if you're told what i with respect to G is.
+
+Questions? I'm going to put up two additional problems. And I'm not going to solve them. We're going to talk about them. You're going to tell me how you would go about doing them. And they wouldn't be bad problems for you to practice on. And you've actually seen both of them before.
+
+So, the first one-- pulley rotating about that fixed axis. And this is that thing we call Atwood's Machine. How did I draw my coordinates?
+
+So I have my Izz about G. It's sum M3 kappa squared. You're given the radius of gyration of this pulley. So that's its mass moment of inertia about the center. And you know R. You could specify a theta. And we have a pair of masses-- start off like this, M1, M2.
+
+And this, now-- so I've going to say, no slip. And this rope goes over the pulley, no slip, initially stationary. I let go. I want an equation of motion for this system.
+
+So how many is it-- first of all, is it a planar motion problem? OK. How many rigid bodies? How many potential degrees of freedom?
+
+AUDIENCE: None.
+
+PROFESSOR: None. How many do you think they really are going to end up with here? How many do you expect to find? How many necessary coordinates are you going to need to completely describe the motion? I see some 1's going up. Everybody believe that?
+
+Lots of constraints. We're not going to let this-- we're constraining this to move in-- only allowing it to move up and down. These can't rotate, so there's one for each. These can't go in this direction, so two more. This can only rotate, no translations. So you end up with 1. And finally, there's this no slip condition, which means that R theta equals x, and that's one final one that you'd need to write down.
+
+So if you had that, gotten this far-- find the equation of motion. What method would you use? So, your choices are here-- direct method, Lagrange. Think about it. How would you-- what's the easiest way for you to do this problem? Maybe an ancillary question is, how many ways can you think of that you could do this problem? How many different approaches could you use? So, how many ways can you think of doing this problem, Kristen? I'm just picking on her, but--
+
+AUDIENCE: I'm not Kristen.
+
+PROFESSOR: Give me an answer anyway.
+
+AUDIENCE: OK. I think you could do two, but I would choose Lagrange.
+
+PROFESSOR: You would want to do it by Lagrange. Helen, how else could you do it? If you did it by Lagrange, got the answer, and said, I want to check it, what would you do next?
+
+AUDIENCE: The direct method.
+
+PROFESSOR: Direct. But where would do apply? Would you use torques? Would you use forces? How would you go about doing this?
+
+AUDIENCE: I would use torques about the center of the pulley.
+
+PROFESSOR: Torques about the center. We did that. I mean, I worked that-- I actually did this problem by that method earlier in the term. Torques about A. Let's have the pivot. Works fine. Actually, it's pretty efficient.
+
+So, Lagrange or torques about A. You only need-- there's one degree of freedom, right? How many equations do you need to write to do this problem? Just one. So the sum of the torques about A will give you the answer. Lagrange equation will give you the answer. That's a good problem to practice on.
+
+Another problem-- this is not very big. It's basically this problem. This is just-- you've seen this. I'm sure you've been shown this in physics and stuff before. This is the falling stick problem.
+
+You can't set this up without having some friction. So there's definitely friction on the table. But until it hits, it's doing some things. And so, there's two problems that you could set up and try to do. One is the problem with no friction-- frictionless table. And then, you could allow friction.
+
+Tricky thing about allowing friction is-- you think there's a normal force. So let's say our usual friction model is-- the friction force is mu times the normal force. Does the normal force change with time in this problem?
+
+So, standing up, what's the normal force? Mg, right? And the sum of the forces in the vertical direction is mass times acceleration in the vertical direction. And what are the-- if you draw a free body diagram of this problem-- so let's draw it now.
+
+Here's my-- if there's no friction force, I still-- without friction force, I still have a normal force, and I still have Mg pulling down here. So the sum of the forces in the y certainly have a minus Mg plus N equals the mass times the acceleration in the y direction. And if you solve for N, do you-- then the issue-- my question is, does this remain constant? Depends on whether or not ay remains constant, right? Do you think the acceleration in the y direction of this thing will change as it goes more and more horizontal? There's some nods, up and down, and left and rights.
+
+I think it's going to change. For sure, you can't assume that it won't change. So you have to assume it'll change. And that means N-- this normal force becomes a function of time, which makes certain ways of doing this problem a little harder.
+
+So how many ways? Let's say the friction-- let's do a, no friction, and b, with friction. No friction-- first of all, is it a planar motion problem? Yeah, we can do that. So, at most three degrees of freedom. How many does this one have? Work this one out. Figure out how many degrees of freedom this problem has. How many separate equations do you need to come up with?
+
+So, you decide what your-- let's say we're going to use Lagrange. What would your generalized coordinates be to do this problem?
+
+So, problem a-- no friction. How many generalized coordinates? How many degrees of freedom? How many generalized coordinates do you need? I heard a three. I hear one. Somebody give me two. I got a two. All right. Obviously a good question.
+
+So, at most there can be three, because we've agreed that it's planar motion. Does this problem have any constraints? Where?
+
+AUDIENCE: The bottom of the line can't move the y.
+
+PROFESSOR: So it can't move in the y direction. So if any part of a body can't move in-- translate, then there's no translation in that direction, pure translation of the body in that direction. So there's a constraint in the y, if we draw a coordinate system here. Constraint in the y. True. So we're down to two. Are there any other constraints?
+
+AUDIENCE: I would say that, yes, because the upper line--
+
+PROFESSOR: No, no, it's not leaning against the wall. This is just a skip. This is the problem. So it definitely can't move through the table. So it's constrained in y. We've got that so now that leaves us, at most, two.
+
+Are there any other constraints? How many say no? How many say yes? If you say yes, you've got to tell me what it is, but I don't see any others.
+
+So we're left with two. We need two coordinates. What might we pick here? What would you pick? You're now confronted with this problem. Do you have rotational-- if you're going to use Lagrange do you have rotational kinetic energy in this problem? You're probably going to need an angle. What else would you need? So we're going to need an angle for sure. Say it again?
+
+AUDIENCE: The height of the center of mass.
+
+PROFESSOR: You're going to need the height of the center of mass. Yeah, you're going to need a potential energy expression, but we've decided that y is constrained. So you can't have a theta and a y. Let's make this our theta. What else is there?
+
+AUDIENCE: x.
+
+PROFESSOR: x. You're going to need an x. So our generalized coordinates are going to be an x and a theta. But you do need to be able to write down a potential energy expression, and it involves motion in the y. So what do you do? Right.
+
+So what's the height of this thing is-- above the ground-- is sum L over 2 cosine theta equals y. Something like that, right? And I might have a-- depending on whether you make-- I haven't thought this through. Whether or not it's xy this way or xy that way, theta might be plus or minus. This could be-- there might be a sine in there.
+
+But basically, this is-- theta and y are constrained. If you know one, you know the other. So you do your potential energy expression this way.
+
+Now we've gotten that far. We know we need two coordinates. We're going to use x and theta. But now you have to decide what method to use. Direct method using one of these, or Lagrange? What would you do?
+
+How would you go about it? It's a quiz. You got 20 minutes to finish, and you want to do this in the safest, quickest possible way. What would you try? And this is the realistic situation, right? Next Tuesday. What do you trust yourself to do the most? It's probably what you ought to do in a quiz situation.
+
+Anne, how many ways can you think of doing this? How many ways could you do this, Rob?
+
+AUDIENCE: Two.
+
+PROFESSOR: Two. Any way. Direct, indirect, what would you use? Where would you choose to-- you're going to need a torque equation to do this problem, if you use direct. Where would you take your torques about?
+
+Think about that. For this problem, if you're doing the direct method, where are you going to compute the torques? About what point?
+
+So you can do it about that-- you could call this point A here. And what equation would you-- now you've got to use that equation that's got the problematic terms in it, right? But it's all right. You can punch those through and do it. That will work.
+
+And if you use Lagrange? You've got to be able to figure out the potential and kinetic energy, and so forth. So could all of you do this by Lagrange? This is a good one to go practice on. It's not that hard. Do it. It's a good practice problem.
+
+Now add friction. So, the b problem. It now has friction. Can you-- I don't think-- is Lagrange a good choice if it now has friction? I think it's got a problem, and I'd be careful using Lagrange if it had friction.
+
+Not that-- Lagrange is perfectly-- it is certainly valid. It's just hard. Why is it hard? Well, yeah, it might be hard to find. What do you need to know to-- so, are there any external non-conservative forces in the problem with friction?
+
+AUDIENCE: Friction.
+
+PROFESSOR: Friction. You're going to have to figure out the friction force. And to figure out the friction force, you're going to have to apply direct method. No other way. You are going to have to apply some direct method to do this problem, no matter what. So you can't just say-- Lagrange is not going to bail you out and not have to solve some of the F equals ma, and torque, and those sort of things to figure out what friction is. So there are problems that Lagrange-- isn't all as simple as we sometimes make it out to be.
+
+All right, I've run a couple minutes over. Thank you. We'll see you in class on Tuesday. We'll do some more review.
+
+[[Hockey puck by Lagrange]]
+Print This Document
+
+Let's look at this problem from the point of view of Lagrange. It's also equally simple, the Lagrange, except for the generalized forces. Actually, Lagrange is harder because you have to think your way through the generalized forces in this problem.
+
+And I got myself in a pickle with this problem and I spent hours trying to figure out a good explanation of a conundrum I ran into with the generalized forces. So let's look. I'll tell you what that was in a second. Let's look at Lagrange.
+
+So you need T. And we're pretty good at this now, I with respect to g zz, theta dot squared. That's your rotational kinetic energy. 1/2 mx dot squared plus y dot squared. Translational kinetic energy associated with the center of mass. Notice this is with respect to the center
+
+of mass. How about v? Potential energy in this problem? Any? It's all 0's, right? There's no springs. There's no gravity in this plane, operating in this plane. So this is 0. This problem's going to be particularly simple.
+
+So in the theta direction here, this derivative with respect to Q dot gives us Iz theta dot and the time derivative of that zz theta double dot. T with respect to theta-- nothing. V with respect to theta? Nothing.
+
+And on the right hand side, we need to get Q theta here. And the other equation, it's the x equation. Well, actually, we can have x and y. So what about the x equation? Derivative with respect to x dot? I get an mx dot, time derivative, mx double dot.
+
+And with respect to y. The thing about Lagrange, if you can do Lagrange, just write down the total expression and just crank it out, because if you say, oh, well, I know this is trivial, then you're actually employing some information from the direct method.
+
+If you're saying, I know the sum of the forces in this direction is 0. So when you straight out in applying Lagrange, you can do it without any reference at all to Newton. So in this case, we just blindly clunk along and we say, well, what's the derivative now with respect to y dot? Will I get an my dot time derivative y double dot.
+
+This derivative would be 0. This derivative is 0. And over here I get Q1. Now I'm left-- so the left hand side of Lagrange equations-- remember, you just add these terms together. And these are going to be our three equations of motion that result. And now the remaining work is to get these three generalized forces.
+
+Let's go back to our picture. If we had lined it up like this, and now we give it a general little virtual displacement delta y, how much work gets done? None. And so you suddenly realize, oh, I went to a lot of work for nothing here. This equation is trivial. Nothing happens there. And so now it's reduced to doing the Qx and Qy.
+
+So just to give us some practice, let's do Q theta and Qx the rigorous kinematic way.
+
+I'm going to draw the general picture here, because this is where I got myself into trouble. You're working along on a problem and then something doesn't quite work for you. I had set this problem to do generalized-- to compute the generalized forces. And I set it up looking like set it up like this so theta is 0. It's lined up like that. And I started thinking about, then generalized, my little virtual displacements, and I got into a conceptual problem that I couldn't sort out for a while. And I'll work it into the explanation here.
+
+So I'm going to set this up more generally. I have an angle theta here, and this is my F1. So to do this by this kinematic way, I need to find the position vector. Here's a point-- I'm going to call it D, and this is my point G, and here's O.
+
+So I have a position vector going to here-- it's RG; and a position vector going to here-- that's R of D with respect to G; and a position vector from here, and that's RD in O. And RD in O is RG in O plus RD with respect to G. I can write that. They're vectors. So I'm going to need those.
+
+So what is RG in O? Well, I have this coordinate system. It's going to be some XI plus YJ in the inertial frame. And then RD with respect to G-- I need to have some kind of a coordinate system that rotates with the body. So I'll call this y1, and this x1-- how it's rotating with the body. So now, this one down here is minus R in the j1 direction. So that's the position of this point D with respect to O, written as the sum of two vectors.
+
+And I'm eventually going to need to be able to express this j1 in an inertial frame. So here's just this little vector j1, and I need its components in the J and I directions. So it's made up of a piece like that, a piece like this, and this angle here is theta. So little j1-- so I can converge. I can move from this unit vector system to that one by this transformation. I'm going to need that in a minute. Actually, I'll invoke it right now.
+
+So my position vector here is-- the x component is x. Can't read my plus. I crossed out a plus and minus, so I got to sort this out carefully here. Is this right? What do you think? Laura, what have I done wrong?
+
+So this is the plus I direction. This piece here is-- so minus sine theta in the I plus cosine theta in the J are the components. So I'm missing a minus sign there. OK.
+
+So I want to collect the I pieces together. So I have an X in the I, and I have a minus R minus sine theta. So, plus R sine theta-- this is the I contribution. And then over here I have a Y and a minus R cosine theta in the J. Then I have this vector all worked out in my inertial frame.
+
+So now I can say that-- remember, Qj dot dR-- it's a sort of virtual deflection for the jth contribution. So in this case, I'm interested in, say, the 1 in the-- which one should we do first-- The x direction. So this is the F1 in the I dot derivative of RD with respect to x delta x.
+
+But now I have an-- I can work this out. I can figure this one out directly now, because I have an expression for R-- that vector-- in terms of one set of unit vectors, and I can take the derivative with respect to x. And the only x that shows up in here is this, so the derivative is pretty simple. It's just 1. So this is F1I dot I delta x. So this tells us that Qx equals F1. No great surprise. We knew the answer to that from before.
+
+And I-- oh, I made a mistake. What didn't I-- I was mixing the two. I did a simplification when I did the direct one. Is F1 in the I direction?
+
+So F1 has components. Vector F1 has a magnitude F1 times cosine theta I plus sine theta J. And so down here, I need to put those in and take the dot product. So the only dot product that will matter is the I component. This is going to be F1 cosine theta I dot this, which we know this gives us just and I. So I'm leaving out the J piece. So I end up here with F1 cosine theta.
+
+Does that look right? So here is your theta. Here is your-- this is F1 cosine theta. So for our coordinate system that's squared up like this, it's only that term that's in the F1 direction, and this would come out correctly. Now
+
+And if we let-- if we now reorient our coordinate system so that theta is 0, then this would just turn out to be F1. If you can see that this is F1 cosine theta without going through all the work, what's Qy for this system? Sure. F1 sine theta. We won't go through all the work, but you go through the same taking the derivative-- in this case, the derivative of R with respect to y, and then dot it with F, and you get F1 sine theta in the J direction. So there's Qy.
+
+Now, the problem I ran into, conceptually, is around this other piece. So Q theta, the virtual work done in the theta direction, we know has to do with rotation. And that is going to be sum F1 dot-- now this is the derivative of RD with respect to theta delta theta.
+
+So RD is here, and it's indeed a function of theta, right? And so I can take a derivative with respect to theta, and I'll get derivative of that R sine theta term, and I'll get a derivative of the R cosine theta term.
+
+But here's how I got myself in trouble. It took me-- and this is the sort of thing that happens to all of us. You're working a problem, throw in a simplification, and then something doesn't work. Well, what if you had oriented the axis, initially, so that the force is aligned with x and perpendicular to y? Then this theta angle is 0, right?
+
+And you know, when you set it up, you don't end up with-- the cosine of 0 is 1, and sine of 0 is 0. You don't end up with the cosine and sines in there to take derivatives of. You just jump to the simplification, and you just find out that you just have R in the J. There's no R sine theta term. It's just vanished on you. And now you need to take that derivative to do this step.
+
+And I do count with it as huh? What have I done wrong? In order to do this method, you need to leave it in the sort of general formulation, and then let theta be 0 at the end, if you want to do that. So if I had then finished it, I can do this for this general problem, and then let theta go to 0, and the answer will come out all right.
+
+So should we do this? So this is F1 dot this. So, F1 dotted with the derivative of R with respect to theta. So I get an R cosine theta in the I, and the derivative of this term will be-- well, the cosine theta is minus sine theta times a minus is a plus R sine theta in the J delta theta. And I do this dot product, so I get the I times the I's, and the J terms times the J terms.
+
+And it all works out nicely. Sine squared plus cosine squared-- you get 1. And you find out that the torque doesn't care about the angle. And does that make sense?
+
+AUDIENCE: [INAUDIBLE]?
+
+PROFESSOR: Absolutely. I did this on purpose to give us a little more practice using this kinematic grind it out method. But, for sure, the intuitive method would have yielded result a lot faster here, right? We would've said, let's have a little deflection delta x. What's the virtual work, then? Well, would have been F1 cosine theta delta x. It would be Qx delta x. Qy delta y would be F1 delta y sine theta, and we're done.
+
+And the rotation one-- we would have looked at this and said, how much-- in a little motion delta theta-- how much does this move? It moves R delta theta crossed with the F that it moves through, or dot product with that distance, would have given you F1 R delta theta equals Q theta delta theta. So we could have done it in a minute.
+
+And sometimes, doing it the hard way is what will get you in trouble. I didn't have the cosine theta and sine thetas working out in this and I couldn't take the derivative. What did I do wrong? And I finally realized, I made the problem too simple, simplified it too soon.
+
+So I wanted to use this as a stepping stone to something I meant to cover perhaps weeks ago. And there's a general little lesson that we can learn from this, which you've probably been taught before, but I'm going to remind you.
+
+Here's a rigid body. Got some center of mass. And I've got a force acting on it here, just some arbitrary position and angle. So that force has a line of action, and perpendicular to that line of action is a distance, which I'll call d here.
+
+And we know that in R cross F, we can-- this force exerts a moment about G that would be R cross F, where R goes from here to here, but it's only the component perpendicular to it. So we know that this is going to create a moment. And I won't draw pictures yet here for a moment.
+
+This diagram is the same as-- well, I could draw the same peanut here. It's the same as the following-- a force here, that's F, and another force at G, that's F. Equal and opposite, so it's like adding 0 to the problem. So I can do that with impunity, and I still have my force F down here. So this problem's equal to that problem. But now, this force and this force, equal and opposite, cancel one another, but create what's called a couple-- a moment that we can compute about my point G here.
+
+So these two forces create just a pure torque, leaving this as a force. They're equal and opposite, so no net force. But they create a torque in this direction, and there's a remaining force on the center of mass. So this whole thing is also, then, equal to the equivalent of a torque around the center of mass and a force applied at the center of mass. And in this case, the torque would be dF.
+
+This problem is easier to do if you're trying to compute generalized forces than the one we started with, because now, the position vector that we need goes only to the center of mass. And the general rule for this-- you have a body, you have several forces-- F1, F2, F3. That's equal to the body with G, with a F total on it, and a moment-- a torque-- total.
+
+And F total-- it's a vector-- is a summation of the Fi's. And T, the torque total, is the summation of each of these guys. Here's G. This has an R1. Here is an R2. Here's an Ri to the ith force.
+
+So this is a summation of the Ri cross Fi's. So if you sum all the forces and compute the equivalent torque about the center of mass, sum all the forces and apply it at the center of mass, then this problem is equal to that problem. So this can come in handy when you're trying to simplify problems.
+
+And for this particular problem, let's draw our hockey puck. Going to put my force in the simplest direction here. But there's my force. This problem is equal, doing the same thing here. It's the same thing as if I had drew forces like this.
+
+And that gives me an equivalent problem, where I have-- this couple here produces a torque, and there is a net force acting on the center of mass. So this problem is equal to this problem now. A torque and a force both acting at the center of mass, and the torque is RF1 in the k. And the force is just F1 in the positive I direction.
+
+And R-- but now, what is the little R vector? If we're going to do this the kinematic way? From here to G, this is R1, I'll call it. And that's it. I only-- now I have everything acting here. And Qx delta x is F1 dot derivative of R with respect to x delta x.
+
+But what is R? It's XI plus YJ. The derivative of R1 with respect to x is just 1 in the I, and the derivative of R with respect to Y is just J. So this becomes a trivial calculation. F1I dot I-- I get Qx equals F1 delta x. Then I get Qy is F1, which is in the I direction dot J is 0.
+
+And I get Q theta-- ah, Q theta. Now, do I use this expression? So, I'm not dealing with little changes in distance anymore. When you can put rotation-- when you put moments about the centers of mass, it's just easier. This one-- you call intuitive, but this is just going to be the sum delta theta is equal to the total torques acting at the center of mass dot delta theta. And in this case, the torque is in the k direction, delta theta's in the k direction, and this is RF1k dot k delta theta, which just gives us RF1 equals Q theta.
+
+So the torque equations you can derive straight out. You don't have to take derivatives. It doesn't have anything to do with change in position. It's just a little rotation, delta theta.
+
+So it simplifies this problem and, actually, totally avoids the conundrum I got into. If I work everything about the center of mass of that rigid body, the R gets easier, the derivatives get easier, and the torque becomes obvious how it applies.
+
+We'll talk about-- I have a pendulum in kind of a weird shape. But the pendulum has the following properties. So that weird shape-- that may be this. It's got one plane of symmetry like this does. And I'm going to put-- what did I do with my axle? I'm going to put the axis of rotation perpendicular to that plane of symmetry, somewhere not at G, not at the center of mass-- so, just what I've done here.
+
+I can make any object that has a plane of symmetry-- if I have it rotate about an axis that's perpendicular to that plane of symmetry, it becomes a simple pendulum. And you can write down with my inspection what the equation of motion is. So, how many degrees of freedom does this system have?
+
+So first of all, then, is it planar motion? So it has, at most, 3, and how many-- and it has a pin through it that doesn't allow it to move in x or y. How many constraints is that?
+
+AUDIENCE: 2.
+
+PROFESSOR: 2. So how many you got left?
+
+AUDIENCE: 1.
+
+PROFESSOR: 1. So this is a single degree of freedom problem, and I've chosen to have it move about an axis that is-- is this axis a principal axis of this body? Absolutely. And so, if I ask you, what's the mass moment of inertia of this? If I gave you Izz about G for this thing, and this distance, what would you tell me the mass moment of inertia about the pivot is? I'll give you this. What's the rest of it?
+
+Not a G. You've got some distance here, which you're given-- L, we'll call it. Correct. So, parallel axis-- remember, ML squared.
+
+So we know that that's true, and the G is over here someplace, and this is this distance L. And what's the equation of motion for this? And gravity acts. No damping for now.
+
+What's the equation of motion? Right off the top your head. You've done enough of these. I'll give you one minute think about it. We'll figure out the equation of motion for this problem. I highly recommend you don't do the Lagrange.
+
+Somebody give me their equation of motion. So, what method would you choose to use? Simplest one you could think of. Direct? About what point?
+
+AUDIENCE: Around A.
+
+PROFESSOR: About A. And what do you say is-- what equation do you apply? General equation.
+
+AUDIENCE: [INAUDIBLE] It's just AIzz [INAUDIBLE].
+
+PROFESSOR: Yeah, that would be part of the answer. And the equation-- remember, I wrote a list of them-- 1, 2, 3 over there. Which one do you use?
+
+AUDIENCE: You just use the second one.
+
+PROFESSOR: Just a second one, right. And do the nuisance terms go away? Point A's not moving. So some of the torque is equal to dHdt, and it's H with respect to A, right?
+
+So that's H, right? d by dt Izz with respect to A theta double dot k equals the sum of the external torques. And the rest of the problem is finding the external torques. What's the free body diagram look like?
+
+So, here's the object, possibly A and Rx, and an Ry, and an Mg. Those are your possible-- that will set your free body diagram, right? So here's the Mg down.
+
+What's the torque that gravitational force puts on this object with respect to point A? R cross F, right? R cross F into the board. Is that positive or negative? And what's the link to this R?
+
+Well, from here to here is, I guess-- oh, that is L. So the length of this side and that triangle? L sine theta? L sine theta cross Mg. And it is positive or negative-- what did we decide? Looks like it's-- this is positive theta xy system. It gets negative minus MgL sine theta, and we're done. So, generically-- and this is also in the k direction, so we can drop the k's now. We have our equation of motion Izz theta double dot plus MgL sine theta.
+
+Is there any then single degree of freedom pendulum made out of a rigid body, and rotating about an axis that is a principal axis that has that equation of motion? Any of them, no matter what the shape. If you can rotate it about a principal axis, and not through G, because if you put-- what's the natural frequency if you run the axis through G? What's the torque?
+
+0. Nothing happens, right? It doesn't want to do anything. But as soon as it's not through G, then the things oscillates. And that's because this is now a differential equation. And I need to say this equals 0 here. There's no other forces. If you've got a damping force, then it would show up.
+
+But this is a generic, undamped equation of motion for any single degree of freedom pendulum rotating about one of its principal axes. And if the body you're shown or given has a single plane of symmetry, then you can figure out one way, immediately, that you know this will-- that equation applies. An axis perpendicular to that plane of symmetry is a pendulum and it is that equation. And the i respect to A you can get from simple parallel axis, if you're told what i with respect to G is.
+
+Questions? I'm going to put up two additional problems. And I'm not going to solve them. We're going to talk about them. You're going to tell me how you would go about doing them. And they wouldn't be bad problems for you to practice on. And you've actually seen both of them before.
+
+So, the first one-- pulley rotating about that fixed axis. And this is that thing we call Atwood's Machine. How did I draw my coordinates?
+
+So I have my Izz about G. It's sum M3 kappa squared. You're given the radius of gyration of this pulley. So that's its mass moment of inertia about the center. And you know R. You could specify a theta. And we have a pair of masses-- start off like this, M1, M2.
+
+And this, now-- so I've going to say, no slip. And this rope goes over the pulley, no slip, initially stationary. I let go. I want an equation of motion for this system.
+
+So how many is it-- first of all, is it a planar motion problem? OK. How many rigid bodies? How many potential degrees of freedom?
+
+AUDIENCE: None.
+
+PROFESSOR: None. How many do you think they really are going to end up with here? How many do you expect to find? How many necessary coordinates are you going to need to completely describe the motion? I see some 1's going up. Everybody believe that?
+
+Lots of constraints. We're not going to let this-- we're constraining this to move in-- only allowing it to move up and down. These can't rotate, so there's one for each. These can't go in this direction, so two more. This can only rotate, no translations. So you end up with 1. And finally, there's this no slip condition, which means that R theta equals x, and that's one final one that you'd need to write down.
+
+So if you had that, gotten this far-- find the equation of motion. What method would you use? So, your choices are here-- direct method, Lagrange. Think about it. How would you-- what's the easiest way for you to do this problem? Maybe an ancillary question is, how many ways can you think of that you could do this problem? How many different approaches could you use? So, how many ways can you think of doing this problem, Kristen? I'm just picking on her, but--
+
+AUDIENCE: I'm not Kristen.
+
+PROFESSOR: Give me an answer anyway.
+
+AUDIENCE: OK. I think you could do two, but I would choose Lagrange.
+
+PROFESSOR: You would want to do it by Lagrange. Helen, how else could you do it? If you did it by Lagrange, got the answer, and said, I want to check it, what would you do next?
+
+AUDIENCE: The direct method.
+
+PROFESSOR: Direct. But where would do apply? Would you use torques? Would you use forces? How would you go about doing this?
+
+AUDIENCE: I would use torques about the center of the pulley.
+
+PROFESSOR: Torques about the center. We did that. I mean, I worked that-- I actually did this problem by that method earlier in the term. Torques about A. Let's have the pivot. Works fine. Actually, it's pretty efficient.
+
+So, Lagrange or torques about A. You only need-- there's one degree of freedom, right? How many equations do you need to write to do this problem? Just one. So the sum of the torques about A will give you the answer. Lagrange equation will give you the answer. That's a good problem to practice on.
+
+Another problem-- this is not very big. It's basically this problem. This is just-- you've seen this. I'm sure you've been shown this in physics and stuff before. This is the falling stick problem.
+
+You can't set this up without having some friction. So there's definitely friction on the table. But until it hits, it's doing some things. And so, there's two problems that you could set up and try to do. One is the problem with no friction-- frictionless table. And then, you could allow friction.
+
+Tricky thing about allowing friction is-- you think there's a normal force. So let's say our usual friction model is-- the friction force is mu times the normal force. Does the normal force change with time in this problem?
+
+So, standing up, what's the normal force? Mg, right? And the sum of the forces in the vertical direction is mass times acceleration in the vertical direction. And what are the-- if you draw a free body diagram of this problem-- so let's draw it now.
+
+Here's my-- if there's no friction force, I still-- without friction force, I still have a normal force, and I still have Mg pulling down here. So the sum of the forces in the y certainly have a minus Mg plus N equals the mass times the acceleration in the y direction. And if you solve for N, do you-- then the issue-- my question is, does this remain constant? Depends on whether or not ay remains constant, right? Do you think the acceleration in the y direction of this thing will change as it goes more and more horizontal? There's some nods, up and down, and left and rights.
+
+I think it's going to change. For sure, you can't assume that it won't change. So you have to assume it'll change. And that means N-- this normal force becomes a function of time, which makes certain ways of doing this problem a little harder.
+
+So how many ways? Let's say the friction-- let's do a, no friction, and b, with friction. No friction-- first of all, is it a planar motion problem? Yeah, we can do that. So, at most three degrees of freedom. How many does this one have? Work this one out. Figure out how many degrees of freedom this problem has. How many separate equations do you need to come up with?
+
+So, you decide what your-- let's say we're going to use Lagrange. What would your generalized coordinates be to do this problem?
+
+So, problem a-- no friction. How many generalized coordinates? How many degrees of freedom? How many generalized coordinates do you need? I heard a three. I hear one. Somebody give me two. I got a two. All right. Obviously a good question.
+
+So, at most there can be three, because we've agreed that it's planar motion. Does this problem have any constraints? Where?
+
+AUDIENCE: The bottom of the line can't move the y.
+
+PROFESSOR: So it can't move in the y direction. So if any part of a body can't move in-- translate, then there's no translation in that direction, pure translation of the body in that direction. So there's a constraint in the y, if we draw a coordinate system here. Constraint in the y. True. So we're down to two. Are there any other constraints?
+
+AUDIENCE: I would say that, yes, because the upper line--
+
+PROFESSOR: No, no, it's not leaning against the wall. This is just a skip. This is the problem. So it definitely can't move through the table. So it's constrained in y. We've got that so now that leaves us, at most, two.
+
+Are there any other constraints? How many say no? How many say yes? If you say yes, you've got to tell me what it is, but I don't see any others.
+
+So we're left with two. We need two coordinates. What might we pick here? What would you pick? You're now confronted with this problem. Do you have rotational-- if you're going to use Lagrange do you have rotational kinetic energy in this problem? You're probably going to need an angle. What else would you need? So we're going to need an angle for sure. Say it again?
+
+AUDIENCE: The height of the center of mass.
+
+PROFESSOR: You're going to need the height of the center of mass. Yeah, you're going to need a potential energy expression, but we've decided that y is constrained. So you can't have a theta and a y. Let's make this our theta. What else is there?
+
+AUDIENCE: x.
+
+PROFESSOR: x. You're going to need an x. So our generalized coordinates are going to be an x and a theta. But you do need to be able to write down a potential energy expression, and it involves motion in the y. So what do you do? Right.
+
+So what's the height of this thing is-- above the ground-- is sum L over 2 cosine theta equals y. Something like that, right? And I might have a-- depending on whether you make-- I haven't thought this through. Whether or not it's xy this way or xy that way, theta might be plus or minus. This could be-- there might be a sine in there.
+
+But basically, this is-- theta and y are constrained. If you know one, you know the other. So you do your potential energy expression this way.
+
+Now we've gotten that far. We know we need two coordinates. We're going to use x and theta. But now you have to decide what method to use. Direct method using one of these, or Lagrange? What would you do?
+
+How would you go about it? It's a quiz. You got 20 minutes to finish, and you want to do this in the safest, quickest possible way. What would you try? And this is the realistic situation, right? Next Tuesday. What do you trust yourself to do the most? It's probably what you ought to do in a quiz situation.
+
+Anne, how many ways can you think of doing this? How many ways could you do this, Rob?
+
+AUDIENCE: Two.
+
+PROFESSOR: Two. Any way. Direct, indirect, what would you use? Where would you choose to-- you're going to need a torque equation to do this problem, if you use direct. Where would you take your torques about?
+
+Think about that. For this problem, if you're doing the direct method, where are you going to compute the torques? About what point?
+
+So you can do it about that-- you could call this point A here. And what equation would you-- now you've got to use that equation that's got the problematic terms in it, right? But it's all right. You can punch those through and do it. That will work.
+
+And if you use Lagrange? You've got to be able to figure out the potential and kinetic energy, and so forth. So could all of you do this by Lagrange? This is a good one to go practice on. It's not that hard. Do it. It's a good practice problem.
+
+Now add friction. So, the b problem. It now has friction. Can you-- I don't think-- is Lagrange a good choice if it now has friction? I think it's got a problem, and I'd be careful using Lagrange if it had friction.
+
+Not that-- Lagrange is perfectly-- it is certainly valid. It's just hard. Why is it hard? Well, yeah, it might be hard to find. What do you need to know to-- so, are there any external non-conservative forces in the problem with friction?
+
+AUDIENCE: Friction.
+
+PROFESSOR: Friction. You're going to have to figure out the friction force. And to figure out the friction force, you're going to have to apply direct method. No other way. You are going to have to apply some direct method to do this problem, no matter what. So you can't just say-- Lagrange is not going to bail you out and not have to solve some of the F equals ma, and torque, and those sort of things to figure out what friction is. So there are problems that Lagrange-- isn't all as simple as we sometimes make it out to be.
+
+All right, I've run a couple minutes over. Thank you. We'll see you in class on Tuesday. We'll do some more review.
+
+[[Condensing many forces to one force and one moment at center of mass]]
+Print This Document
+
+So I wanted to use this as a stepping stone to something I meant to cover perhaps weeks ago. And there's a general little lesson that we can learn from this, which you've probably been taught before, but I'm going to remind you.
+
+Here's a rigid body. Got some center of mass. And I've got a force acting on it here, just some arbitrary position and angle. So that force has a line of action, and perpendicular to that line of action is a distance, which I'll call d here.
+
+And we know that in R cross F, we can-- this force exerts a moment about G that would be R cross F, where R goes from here to here, but it's only the component perpendicular to it. So we know that this is going to create a moment. And I won't draw pictures yet here for a moment.
+
+This diagram is the same as-- well, I could draw the same peanut here. It's the same as the following-- a force here, that's F, and another force at G, that's F. Equal and opposite, so it's like adding 0 to the problem. So I can do that with impunity, and I still have my force F down here. So this problem's equal to that problem. But now, this force and this force, equal and opposite, cancel one another, but create what's called a couple-- a moment that we can compute about my point G here.
+
+So these two forces create just a pure torque, leaving this as a force. They're equal and opposite, so no net force. But they create a torque in this direction, and there's a remaining force on the center of mass. So this whole thing is also, then, equal to the equivalent of a torque around the center of mass and a force applied at the center of mass. And in this case, the torque would be dF.
+
+This problem is easier to do if you're trying to compute generalized forces than the one we started with, because now, the position vector that we need goes only to the center of mass. And the general rule for this-- you have a body, you have several forces-- F1, F2, F3. That's equal to the body with G, with a F total on it, and a moment-- a torque-- total.
+
+And F total-- it's a vector-- is a summation of the Fi's. And T, the torque total, is the summation of each of these guys. Here's G. This has an R1. Here is an R2. Here's an Ri to the ith force.
+
+So this is a summation of the Ri cross Fi's. So if you sum all the forces and compute the equivalent torque about the center of mass, sum all the forces and apply it at the center of mass, then this problem is equal to that problem. So this can come in handy when you're trying to simplify problems.
+
+And for this particular problem, let's draw our hockey puck. Going to put my force in the simplest direction here. But there's my force. This problem is equal, doing the same thing here. It's the same thing as if I had drew forces like this.
+
+And that gives me an equivalent problem, where I have-- this couple here produces a torque, and there is a net force acting on the center of mass. So this problem is equal to this problem now. A torque and a force both acting at the center of mass, and the torque is RF1 in the k. And the force is just F1 in the positive I direction.
+
+And R-- but now, what is the little R vector? If we're going to do this the kinematic way? From here to G, this is R1, I'll call it. And that's it. I only-- now I have everything acting here. And Qx delta x is F1 dot derivative of R with respect to x delta x.
+
+But what is R? It's XI plus YJ. The derivative of R1 with respect to x is just 1 in the I, and the derivative of R with respect to Y is just J. So this becomes a trivial calculation. F1I dot I-- I get Qx equals F1 delta x. Then I get Qy is F1, which is in the I direction dot J is 0.
+
+And I get Q theta-- ah, Q theta. Now, do I use this expression? So, I'm not dealing with little changes in distance anymore. When you can put rotation-- when you put moments about the centers of mass, it's just easier. This one-- you call intuitive, but this is just going to be the sum delta theta is equal to the total torques acting at the center of mass dot delta theta. And in this case, the torque is in the k direction, delta theta's in the k direction, and this is RF1k dot k delta theta, which just gives us RF1 equals Q theta.
+
+So the torque equations you can derive straight out. You don't have to take derivatives. It doesn't have anything to do with change in position. It's just a little rotation, delta theta.
+
+So it simplifies this problem and, actually, totally avoids the conundrum I got into. If I work everything about the center of mass of that rigid body, the R gets easier, the derivatives get easier, and the torque becomes obvious how it applies.
+
+We'll talk about-- I have a pendulum in kind of a weird shape. But the pendulum has the following properties. So that weird shape-- that may be this. It's got one plane of symmetry like this does. And I'm going to put-- what did I do with my axle? I'm going to put the axis of rotation perpendicular to that plane of symmetry, somewhere not at G, not at the center of mass-- so, just what I've done here.
+
+I can make any object that has a plane of symmetry-- if I have it rotate about an axis that's perpendicular to that plane of symmetry, it becomes a simple pendulum. And you can write down with my inspection what the equation of motion is. So, how many degrees of freedom does this system have?
+
+So first of all, then, is it planar motion? So it has, at most, 3, and how many-- and it has a pin through it that doesn't allow it to move in x or y. How many constraints is that?
+
+AUDIENCE: 2.
+
+PROFESSOR: 2. So how many you got left?
+
+AUDIENCE: 1.
+
+PROFESSOR: 1. So this is a single degree of freedom problem, and I've chosen to have it move about an axis that is-- is this axis a principal axis of this body? Absolutely. And so, if I ask you, what's the mass moment of inertia of this? If I gave you Izz about G for this thing, and this distance, what would you tell me the mass moment of inertia about the pivot is? I'll give you this. What's the rest of it?
+
+Not a G. You've got some distance here, which you're given-- L, we'll call it. Correct. So, parallel axis-- remember, ML squared.
+
+So we know that that's true, and the G is over here someplace, and this is this distance L. And what's the equation of motion for this? And gravity acts. No damping for now.
+
+What's the equation of motion? Right off the top your head. You've done enough of these. I'll give you one minute think about it. We'll figure out the equation of motion for this problem. I highly recommend you don't do the Lagrange.
+
+Somebody give me their equation of motion. So, what method would you choose to use? Simplest one you could think of. Direct? About what point?
+
+AUDIENCE: Around A.
+
+PROFESSOR: About A. And what do you say is-- what equation do you apply? General equation.
+
+AUDIENCE: [INAUDIBLE] It's just AIzz [INAUDIBLE].
+
+PROFESSOR: Yeah, that would be part of the answer. And the equation-- remember, I wrote a list of them-- 1, 2, 3 over there. Which one do you use?
+
+AUDIENCE: You just use the second one.
+
+PROFESSOR: Just a second one, right. And do the nuisance terms go away? Point A's not moving. So some of the torque is equal to dHdt, and it's H with respect to A, right?
+
+So that's H, right? d by dt Izz with respect to A theta double dot k equals the sum of the external torques. And the rest of the problem is finding the external torques. What's the free body diagram look like?
+
+So, here's the object, possibly A and Rx, and an Ry, and an Mg. Those are your possible-- that will set your free body diagram, right? So here's the Mg down.
+
+What's the torque that gravitational force puts on this object with respect to point A? R cross F, right? R cross F into the board. Is that positive or negative? And what's the link to this R?
+
+Well, from here to here is, I guess-- oh, that is L. So the length of this side and that triangle? L sine theta? L sine theta cross Mg. And it is positive or negative-- what did we decide? Looks like it's-- this is positive theta xy system. It gets negative minus MgL sine theta, and we're done. So, generically-- and this is also in the k direction, so we can drop the k's now. We have our equation of motion Izz theta double dot plus MgL sine theta.
+
+Is there any then single degree of freedom pendulum made out of a rigid body, and rotating about an axis that is a principal axis that has that equation of motion? Any of them, no matter what the shape. If you can rotate it about a principal axis, and not through G, because if you put-- what's the natural frequency if you run the axis through G? What's the torque?
+
+0. Nothing happens, right? It doesn't want to do anything. But as soon as it's not through G, then the things oscillates. And that's because this is now a differential equation. And I need to say this equals 0 here. There's no other forces. If you've got a damping force, then it would show up.
+
+But this is a generic, undamped equation of motion for any single degree of freedom pendulum rotating about one of its principal axes. And if the body you're shown or given has a single plane of symmetry, then you can figure out one way, immediately, that you know this will-- that equation applies. An axis perpendicular to that plane of symmetry is a pendulum and it is that equation. And the i respect to A you can get from simple parallel axis, if you're told what i with respect to G is.
+
+Questions? I'm going to put up two additional problems. And I'm not going to solve them. We're going to talk about them. You're going to tell me how you would go about doing them. And they wouldn't be bad problems for you to practice on. And you've actually seen both of them before.
+
+So, the first one-- pulley rotating about that fixed axis. And this is that thing we call Atwood's Machine. How did I draw my coordinates?
+
+So I have my Izz about G. It's sum M3 kappa squared. You're given the radius of gyration of this pulley. So that's its mass moment of inertia about the center. And you know R. You could specify a theta. And we have a pair of masses-- start off like this, M1, M2.
+
+And this, now-- so I've going to say, no slip. And this rope goes over the pulley, no slip, initially stationary. I let go. I want an equation of motion for this system.
+
+So how many is it-- first of all, is it a planar motion problem? OK. How many rigid bodies? How many potential degrees of freedom?
+
+AUDIENCE: None.
+
+PROFESSOR: None. How many do you think they really are going to end up with here? How many do you expect to find? How many necessary coordinates are you going to need to completely describe the motion? I see some 1's going up. Everybody believe that?
+
+Lots of constraints. We're not going to let this-- we're constraining this to move in-- only allowing it to move up and down. These can't rotate, so there's one for each. These can't go in this direction, so two more. This can only rotate, no translations. So you end up with 1. And finally, there's this no slip condition, which means that R theta equals x, and that's one final one that you'd need to write down.
+
+So if you had that, gotten this far-- find the equation of motion. What method would you use? So, your choices are here-- direct method, Lagrange. Think about it. How would you-- what's the easiest way for you to do this problem? Maybe an ancillary question is, how many ways can you think of that you could do this problem? How many different approaches could you use? So, how many ways can you think of doing this problem, Kristen? I'm just picking on her, but--
+
+AUDIENCE: I'm not Kristen.
+
+PROFESSOR: Give me an answer anyway.
+
+AUDIENCE: OK. I think you could do two, but I would choose Lagrange.
+
+PROFESSOR: You would want to do it by Lagrange. Helen, how else could you do it? If you did it by Lagrange, got the answer, and said, I want to check it, what would you do next?
+
+AUDIENCE: The direct method.
+
+PROFESSOR: Direct. But where would do apply? Would you use torques? Would you use forces? How would you go about doing this?
+
+AUDIENCE: I would use torques about the center of the pulley.
+
+PROFESSOR: Torques about the center. We did that. I mean, I worked that-- I actually did this problem by that method earlier in the term. Torques about A. Let's have the pivot. Works fine. Actually, it's pretty efficient.
+
+So, Lagrange or torques about A. You only need-- there's one degree of freedom, right? How many equations do you need to write to do this problem? Just one. So the sum of the torques about A will give you the answer. Lagrange equation will give you the answer. That's a good problem to practice on.
+
+Another problem-- this is not very big. It's basically this problem. This is just-- you've seen this. I'm sure you've been shown this in physics and stuff before. This is the falling stick problem.
+
+You can't set this up without having some friction. So there's definitely friction on the table. But until it hits, it's doing some things. And so, there's two problems that you could set up and try to do. One is the problem with no friction-- frictionless table. And then, you could allow friction.
+
+Tricky thing about allowing friction is-- you think there's a normal force. So let's say our usual friction model is-- the friction force is mu times the normal force. Does the normal force change with time in this problem?
+
+So, standing up, what's the normal force? Mg, right? And the sum of the forces in the vertical direction is mass times acceleration in the vertical direction. And what are the-- if you draw a free body diagram of this problem-- so let's draw it now.
+
+Here's my-- if there's no friction force, I still-- without friction force, I still have a normal force, and I still have Mg pulling down here. So the sum of the forces in the y certainly have a minus Mg plus N equals the mass times the acceleration in the y direction. And if you solve for N, do you-- then the issue-- my question is, does this remain constant? Depends on whether or not ay remains constant, right? Do you think the acceleration in the y direction of this thing will change as it goes more and more horizontal? There's some nods, up and down, and left and rights.
+
+I think it's going to change. For sure, you can't assume that it won't change. So you have to assume it'll change. And that means N-- this normal force becomes a function of time, which makes certain ways of doing this problem a little harder.
+
+So how many ways? Let's say the friction-- let's do a, no friction, and b, with friction. No friction-- first of all, is it a planar motion problem? Yeah, we can do that. So, at most three degrees of freedom. How many does this one have? Work this one out. Figure out how many degrees of freedom this problem has. How many separate equations do you need to come up with?
+
+So, you decide what your-- let's say we're going to use Lagrange. What would your generalized coordinates be to do this problem?
+
+So, problem a-- no friction. How many generalized coordinates? How many degrees of freedom? How many generalized coordinates do you need? I heard a three. I hear one. Somebody give me two. I got a two. All right. Obviously a good question.
+
+So, at most there can be three, because we've agreed that it's planar motion. Does this problem have any constraints? Where?
+
+AUDIENCE: The bottom of the line can't move the y.
+
+PROFESSOR: So it can't move in the y direction. So if any part of a body can't move in-- translate, then there's no translation in that direction, pure translation of the body in that direction. So there's a constraint in the y, if we draw a coordinate system here. Constraint in the y. True. So we're down to two. Are there any other constraints?
+
+AUDIENCE: I would say that, yes, because the upper line--
+
+PROFESSOR: No, no, it's not leaning against the wall. This is just a skip. This is the problem. So it definitely can't move through the table. So it's constrained in y. We've got that so now that leaves us, at most, two.
+
+Are there any other constraints? How many say no? How many say yes? If you say yes, you've got to tell me what it is, but I don't see any others.
+
+So we're left with two. We need two coordinates. What might we pick here? What would you pick? You're now confronted with this problem. Do you have rotational-- if you're going to use Lagrange do you have rotational kinetic energy in this problem? You're probably going to need an angle. What else would you need? So we're going to need an angle for sure. Say it again?
+
+AUDIENCE: The height of the center of mass.
+
+PROFESSOR: You're going to need the height of the center of mass. Yeah, you're going to need a potential energy expression, but we've decided that y is constrained. So you can't have a theta and a y. Let's make this our theta. What else is there?
+
+AUDIENCE: x.
+
+PROFESSOR: x. You're going to need an x. So our generalized coordinates are going to be an x and a theta. But you do need to be able to write down a potential energy expression, and it involves motion in the y. So what do you do? Right.
+
+So what's the height of this thing is-- above the ground-- is sum L over 2 cosine theta equals y. Something like that, right? And I might have a-- depending on whether you make-- I haven't thought this through. Whether or not it's xy this way or xy that way, theta might be plus or minus. This could be-- there might be a sine in there.
+
+But basically, this is-- theta and y are constrained. If you know one, you know the other. So you do your potential energy expression this way.
+
+Now we've gotten that far. We know we need two coordinates. We're going to use x and theta. But now you have to decide what method to use. Direct method using one of these, or Lagrange? What would you do?
+
+How would you go about it? It's a quiz. You got 20 minutes to finish, and you want to do this in the safest, quickest possible way. What would you try? And this is the realistic situation, right? Next Tuesday. What do you trust yourself to do the most? It's probably what you ought to do in a quiz situation.
+
+Anne, how many ways can you think of doing this? How many ways could you do this, Rob?
+
+AUDIENCE: Two.
+
+PROFESSOR: Two. Any way. Direct, indirect, what would you use? Where would you choose to-- you're going to need a torque equation to do this problem, if you use direct. Where would you take your torques about?
+
+Think about that. For this problem, if you're doing the direct method, where are you going to compute the torques? About what point?
+
+So you can do it about that-- you could call this point A here. And what equation would you-- now you've got to use that equation that's got the problematic terms in it, right? But it's all right. You can punch those through and do it. That will work.
+
+And if you use Lagrange? You've got to be able to figure out the potential and kinetic energy, and so forth. So could all of you do this by Lagrange? This is a good one to go practice on. It's not that hard. Do it. It's a good practice problem.
+
+Now add friction. So, the b problem. It now has friction. Can you-- I don't think-- is Lagrange a good choice if it now has friction? I think it's got a problem, and I'd be careful using Lagrange if it had friction.
+
+Not that-- Lagrange is perfectly-- it is certainly valid. It's just hard. Why is it hard? Well, yeah, it might be hard to find. What do you need to know to-- so, are there any external non-conservative forces in the problem with friction?
+
+AUDIENCE: Friction.
+
+PROFESSOR: Friction. You're going to have to figure out the friction force. And to figure out the friction force, you're going to have to apply direct method. No other way. You are going to have to apply some direct method to do this problem, no matter what. So you can't just say-- Lagrange is not going to bail you out and not have to solve some of the F equals ma, and torque, and those sort of things to figure out what friction is. So there are problems that Lagrange-- isn't all as simple as we sometimes make it out to be.
+
+All right, I've run a couple minutes over. Thank you. We'll see you in class on Tuesday. We'll do some more review.
+
+[[Generic pendulum by Lagrange]]
+Print This Document
+
+We'll talk about-- I have a pendulum in kind of a weird shape. But the pendulum has the following properties. So that weird shape-- that may be this. It's got one plane of symmetry like this does. And I'm going to put-- what did I do with my axle? I'm going to put the axis of rotation perpendicular to that plane of symmetry, somewhere not at G, not at the center of mass-- so, just what I've done here.
+
+I can make any object that has a plane of symmetry-- if I have it rotate about an axis that's perpendicular to that plane of symmetry, it becomes a simple pendulum. And you can write down with my inspection what the equation of motion is. So, how many degrees of freedom does this system have?
+
+So first of all, then, is it planar motion? So it has, at most, 3, and how many-- and it has a pin through it that doesn't allow it to move in x or y. How many constraints is that?
+
+AUDIENCE: 2.
+
+PROFESSOR: 2. So how many you got left?
+
+AUDIENCE: 1.
+
+PROFESSOR: 1. So this is a single degree of freedom problem, and I've chosen to have it move about an axis that is-- is this axis a principal axis of this body? Absolutely. And so, if I ask you, what's the mass moment of inertia of this? If I gave you Izz about G for this thing, and this distance, what would you tell me the mass moment of inertia about the pivot is? I'll give you this. What's the rest of it?
+
+Not a G. You've got some distance here, which you're given-- L, we'll call it. Correct. So, parallel axis-- remember, ML squared.
+
+So we know that that's true, and the G is over here someplace, and this is this distance L. And what's the equation of motion for this? And gravity acts. No damping for now.
+
+What's the equation of motion? Right off the top your head. You've done enough of these. I'll give you one minute think about it. We'll figure out the equation of motion for this problem. I highly recommend you don't do the Lagrange.
+
+Somebody give me their equation of motion. So, what method would you choose to use? Simplest one you could think of. Direct? About what point?
+
+AUDIENCE: Around A.
+
+PROFESSOR: About A. And what do you say is-- what equation do you apply? General equation.
+
+AUDIENCE: [INAUDIBLE] It's just AIzz [INAUDIBLE].
+
+PROFESSOR: Yeah, that would be part of the answer. And the equation-- remember, I wrote a list of them-- 1, 2, 3 over there. Which one do you use?
+
+AUDIENCE: You just use the second one.
+
+PROFESSOR: Just a second one, right. And do the nuisance terms go away? Point A's not moving. So some of the torque is equal to dHdt, and it's H with respect to A, right?
+
+So that's H, right? d by dt Izz with respect to A theta double dot k equals the sum of the external torques. And the rest of the problem is finding the external torques. What's the free body diagram look like?
+
+So, here's the object, possibly A and Rx, and an Ry, and an Mg. Those are your possible-- that will set your free body diagram, right? So here's the Mg down.
+
+What's the torque that gravitational force puts on this object with respect to point A? R cross F, right? R cross F into the board. Is that positive or negative? And what's the link to this R?
+
+Well, from here to here is, I guess-- oh, that is L. So the length of this side and that triangle? L sine theta? L sine theta cross Mg. And it is positive or negative-- what did we decide? Looks like it's-- this is positive theta xy system. It gets negative minus MgL sine theta, and we're done. So, generically-- and this is also in the k direction, so we can drop the k's now. We have our equation of motion Izz theta double dot plus MgL sine theta.
+
+Is there any then single degree of freedom pendulum made out of a rigid body, and rotating about an axis that is a principal axis that has that equation of motion? Any of them, no matter what the shape. If you can rotate it about a principal axis, and not through G, because if you put-- what's the natural frequency if you run the axis through G? What's the torque?
+
+0. Nothing happens, right? It doesn't want to do anything. But as soon as it's not through G, then the things oscillates. And that's because this is now a differential equation. And I need to say this equals 0 here. There's no other forces. If you've got a damping force, then it would show up.
+
+But this is a generic, undamped equation of motion for any single degree of freedom pendulum rotating about one of its principal axes. And if the body you're shown or given has a single plane of symmetry, then you can figure out one way, immediately, that you know this will-- that equation applies. An axis perpendicular to that plane of symmetry is a pendulum and it is that equation. And the i respect to A you can get from simple parallel axis, if you're told what i with respect to G is.
+
+Questions? I'm going to put up two additional problems. And I'm not going to solve them. We're going to talk about them. You're going to tell me how you would go about doing them. And they wouldn't be bad problems for you to practice on. And you've actually seen both of them before.
+
+So, the first one-- pulley rotating about that fixed axis. And this is that thing we call Atwood's Machine. How did I draw my coordinates?
+
+So I have my Izz about G. It's sum M3 kappa squared. You're given the radius of gyration of this pulley. So that's its mass moment of inertia about the center. And you know R. You could specify a theta. And we have a pair of masses-- start off like this, M1, M2.
+
+And this, now-- so I've going to say, no slip. And this rope goes over the pulley, no slip, initially stationary. I let go. I want an equation of motion for this system.
+
+So how many is it-- first of all, is it a planar motion problem? OK. How many rigid bodies? How many potential degrees of freedom?
+
+AUDIENCE: None.
+
+PROFESSOR: None. How many do you think they really are going to end up with here? How many do you expect to find? How many necessary coordinates are you going to need to completely describe the motion? I see some 1's going up. Everybody believe that?
+
+Lots of constraints. We're not going to let this-- we're constraining this to move in-- only allowing it to move up and down. These can't rotate, so there's one for each. These can't go in this direction, so two more. This can only rotate, no translations. So you end up with 1. And finally, there's this no slip condition, which means that R theta equals x, and that's one final one that you'd need to write down.
+
+So if you had that, gotten this far-- find the equation of motion. What method would you use? So, your choices are here-- direct method, Lagrange. Think about it. How would you-- what's the easiest way for you to do this problem? Maybe an ancillary question is, how many ways can you think of that you could do this problem? How many different approaches could you use? So, how many ways can you think of doing this problem, Kristen? I'm just picking on her, but--
+
+AUDIENCE: I'm not Kristen.
+
+PROFESSOR: Give me an answer anyway.
+
+AUDIENCE: OK. I think you could do two, but I would choose Lagrange.
+
+PROFESSOR: You would want to do it by Lagrange. Helen, how else could you do it? If you did it by Lagrange, got the answer, and said, I want to check it, what would you do next?
+
+AUDIENCE: The direct method.
+
+PROFESSOR: Direct. But where would do apply? Would you use torques? Would you use forces? How would you go about doing this?
+
+AUDIENCE: I would use torques about the center of the pulley.
+
+PROFESSOR: Torques about the center. We did that. I mean, I worked that-- I actually did this problem by that method earlier in the term. Torques about A. Let's have the pivot. Works fine. Actually, it's pretty efficient.
+
+So, Lagrange or torques about A. You only need-- there's one degree of freedom, right? How many equations do you need to write to do this problem? Just one. So the sum of the torques about A will give you the answer. Lagrange equation will give you the answer. That's a good problem to practice on.
+
+Another problem-- this is not very big. It's basically this problem. This is just-- you've seen this. I'm sure you've been shown this in physics and stuff before. This is the falling stick problem.
+
+You can't set this up without having some friction. So there's definitely friction on the table. But until it hits, it's doing some things. And so, there's two problems that you could set up and try to do. One is the problem with no friction-- frictionless table. And then, you could allow friction.
+
+Tricky thing about allowing friction is-- you think there's a normal force. So let's say our usual friction model is-- the friction force is mu times the normal force. Does the normal force change with time in this problem?
+
+So, standing up, what's the normal force? Mg, right? And the sum of the forces in the vertical direction is mass times acceleration in the vertical direction. And what are the-- if you draw a free body diagram of this problem-- so let's draw it now.
+
+Here's my-- if there's no friction force, I still-- without friction force, I still have a normal force, and I still have Mg pulling down here. So the sum of the forces in the y certainly have a minus Mg plus N equals the mass times the acceleration in the y direction. And if you solve for N, do you-- then the issue-- my question is, does this remain constant? Depends on whether or not ay remains constant, right? Do you think the acceleration in the y direction of this thing will change as it goes more and more horizontal? There's some nods, up and down, and left and rights.
+
+I think it's going to change. For sure, you can't assume that it won't change. So you have to assume it'll change. And that means N-- this normal force becomes a function of time, which makes certain ways of doing this problem a little harder.
+
+So how many ways? Let's say the friction-- let's do a, no friction, and b, with friction. No friction-- first of all, is it a planar motion problem? Yeah, we can do that. So, at most three degrees of freedom. How many does this one have? Work this one out. Figure out how many degrees of freedom this problem has. How many separate equations do you need to come up with?
+
+So, you decide what your-- let's say we're going to use Lagrange. What would your generalized coordinates be to do this problem?
+
+So, problem a-- no friction. How many generalized coordinates? How many degrees of freedom? How many generalized coordinates do you need? I heard a three. I hear one. Somebody give me two. I got a two. All right. Obviously a good question.
+
+So, at most there can be three, because we've agreed that it's planar motion. Does this problem have any constraints? Where?
+
+AUDIENCE: The bottom of the line can't move the y.
+
+PROFESSOR: So it can't move in the y direction. So if any part of a body can't move in-- translate, then there's no translation in that direction, pure translation of the body in that direction. So there's a constraint in the y, if we draw a coordinate system here. Constraint in the y. True. So we're down to two. Are there any other constraints?
+
+AUDIENCE: I would say that, yes, because the upper line--
+
+PROFESSOR: No, no, it's not leaning against the wall. This is just a skip. This is the problem. So it definitely can't move through the table. So it's constrained in y. We've got that so now that leaves us, at most, two.
+
+Are there any other constraints? How many say no? How many say yes? If you say yes, you've got to tell me what it is, but I don't see any others.
+
+So we're left with two. We need two coordinates. What might we pick here? What would you pick? You're now confronted with this problem. Do you have rotational-- if you're going to use Lagrange do you have rotational kinetic energy in this problem? You're probably going to need an angle. What else would you need? So we're going to need an angle for sure. Say it again?
+
+AUDIENCE: The height of the center of mass.
+
+PROFESSOR: You're going to need the height of the center of mass. Yeah, you're going to need a potential energy expression, but we've decided that y is constrained. So you can't have a theta and a y. Let's make this our theta. What else is there?
+
+AUDIENCE: x.
+
+PROFESSOR: x. You're going to need an x. So our generalized coordinates are going to be an x and a theta. But you do need to be able to write down a potential energy expression, and it involves motion in the y. So what do you do? Right.
+
+So what's the height of this thing is-- above the ground-- is sum L over 2 cosine theta equals y. Something like that, right? And I might have a-- depending on whether you make-- I haven't thought this through. Whether or not it's xy this way or xy that way, theta might be plus or minus. This could be-- there might be a sine in there.
+
+But basically, this is-- theta and y are constrained. If you know one, you know the other. So you do your potential energy expression this way.
+
+Now we've gotten that far. We know we need two coordinates. We're going to use x and theta. But now you have to decide what method to use. Direct method using one of these, or Lagrange? What would you do?
+
+How would you go about it? It's a quiz. You got 20 minutes to finish, and you want to do this in the safest, quickest possible way. What would you try? And this is the realistic situation, right? Next Tuesday. What do you trust yourself to do the most? It's probably what you ought to do in a quiz situation.
+
+Anne, how many ways can you think of doing this? How many ways could you do this, Rob?
+
+AUDIENCE: Two.
+
+PROFESSOR: Two. Any way. Direct, indirect, what would you use? Where would you choose to-- you're going to need a torque equation to do this problem, if you use direct. Where would you take your torques about?
+
+Think about that. For this problem, if you're doing the direct method, where are you going to compute the torques? About what point?
+
+So you can do it about that-- you could call this point A here. And what equation would you-- now you've got to use that equation that's got the problematic terms in it, right? But it's all right. You can punch those through and do it. That will work.
+
+And if you use Lagrange? You've got to be able to figure out the potential and kinetic energy, and so forth. So could all of you do this by Lagrange? This is a good one to go practice on. It's not that hard. Do it. It's a good practice problem.
+
+Now add friction. So, the b problem. It now has friction. Can you-- I don't think-- is Lagrange a good choice if it now has friction? I think it's got a problem, and I'd be careful using Lagrange if it had friction.
+
+Not that-- Lagrange is perfectly-- it is certainly valid. It's just hard. Why is it hard? Well, yeah, it might be hard to find. What do you need to know to-- so, are there any external non-conservative forces in the problem with friction?
+
+AUDIENCE: Friction.
+
+PROFESSOR: Friction. You're going to have to figure out the friction force. And to figure out the friction force, you're going to have to apply direct method. No other way. You are going to have to apply some direct method to do this problem, no matter what. So you can't just say-- Lagrange is not going to bail you out and not have to solve some of the F equals ma, and torque, and those sort of things to figure out what friction is. So there are problems that Lagrange-- isn't all as simple as we sometimes make it out to be.
+
+All right, I've run a couple minutes over. Thank you. We'll see you in class on Tuesday. We'll do some more review.
+
+[[Examples: Atwood's machine and falling stick]]
+Print This Document
+
+I'm going to put up two additional problems. And I'm not going to solve them. We're going to talk about them. You're going to tell me how you would go about doing them. And they wouldn't be bad problems for you to practice on. And you've actually seen both of them before.
+
+So, the first one-- pulley rotating about that fixed axis. And this is that thing we call Atwood's Machine. How did I draw my coordinates?
+
+So I have my Izz about G. It's sum M3 kappa squared. You're given the radius of gyration of this pulley. So that's its mass moment of inertia about the center. And you know R. You could specify a theta. And we have a pair of masses-- start off like this, M1, M2.
+
+And this, now-- so I've going to say, no slip. And this rope goes over the pulley, no slip, initially stationary. I let go. I want an equation of motion for this system.
+
+So how many is it-- first of all, is it a planar motion problem? OK. How many rigid bodies? How many potential degrees of freedom?
+
+AUDIENCE: None.
+
+PROFESSOR: None. How many do you think they really are going to end up with here? How many do you expect to find? How many necessary coordinates are you going to need to completely describe the motion? I see some 1's going up. Everybody believe that?
+
+Lots of constraints. We're not going to let this-- we're constraining this to move in-- only allowing it to move up and down. These can't rotate, so there's one for each. These can't go in this direction, so two more. This can only rotate, no translations. So you end up with 1. And finally, there's this no slip condition, which means that R theta equals x, and that's one final one that you'd need to write down.
+
+So if you had that, gotten this far-- find the equation of motion. What method would you use? So, your choices are here-- direct method, Lagrange. Think about it. How would you-- what's the easiest way for you to do this problem? Maybe an ancillary question is, how many ways can you think of that you could do this problem? How many different approaches could you use? So, how many ways can you think of doing this problem, Kristen? I'm just picking on her, but--
+
+AUDIENCE: I'm not Kristen.
+
+PROFESSOR: Give me an answer anyway.
+
+AUDIENCE: OK. I think you could do two, but I would choose Lagrange.
+
+PROFESSOR: You would want to do it by Lagrange. Helen, how else could you do it? If you did it by Lagrange, got the answer, and said, I want to check it, what would you do next?
+
+AUDIENCE: The direct method.
+
+PROFESSOR: Direct. But where would do apply? Would you use torques? Would you use forces? How would you go about doing this?
+
+AUDIENCE: I would use torques about the center of the pulley.
+
+PROFESSOR: Torques about the center. We did that. I mean, I worked that-- I actually did this problem by that method earlier in the term. Torques about A. Let's have the pivot. Works fine. Actually, it's pretty efficient.
+
+So, Lagrange or torques about A. You only need-- there's one degree of freedom, right? How many equations do you need to write to do this problem? Just one. So the sum of the torques about A will give you the answer. Lagrange equation will give you the answer. That's a good problem to practice on.
+
+Another problem-- this is not very big. It's basically this problem. This is just-- you've seen this. I'm sure you've been shown this in physics and stuff before. This is the falling stick problem.
+
+You can't set this up without having some friction. So there's definitely friction on the table. But until it hits, it's doing some things. And so, there's two problems that you could set up and try to do. One is the problem with no friction-- frictionless table. And then, you could allow friction.
+
+Tricky thing about allowing friction is-- you think there's a normal force. So let's say our usual friction model is-- the friction force is mu times the normal force. Does the normal force change with time in this problem?
+
+So, standing up, what's the normal force? Mg, right? And the sum of the forces in the vertical direction is mass times acceleration in the vertical direction. And what are the-- if you draw a free body diagram of this problem-- so let's draw it now.
+
+Here's my-- if there's no friction force, I still-- without friction force, I still have a normal force, and I still have Mg pulling down here. So the sum of the forces in the y certainly have a minus Mg plus N equals the mass times the acceleration in the y direction. And if you solve for N, do you-- then the issue-- my question is, does this remain constant? Depends on whether or not ay remains constant, right? Do you think the acceleration in the y direction of this thing will change as it goes more and more horizontal? There's some nods, up and down, and left and rights.
+
+I think it's going to change. For sure, you can't assume that it won't change. So you have to assume it'll change. And that means N-- this normal force becomes a function of time, which makes certain ways of doing this problem a little harder.
+
+So how many ways? Let's say the friction-- let's do a, no friction, and b, with friction. No friction-- first of all, is it a planar motion problem? Yeah, we can do that. So, at most three degrees of freedom. How many does this one have? Work this one out. Figure out how many degrees of freedom this problem has. How many separate equations do you need to come up with?
+
+So, you decide what your-- let's say we're going to use Lagrange. What would your generalized coordinates be to do this problem?
+
+So, problem a-- no friction. How many generalized coordinates? How many degrees of freedom? How many generalized coordinates do you need? I heard a three. I hear one. Somebody give me two. I got a two. All right. Obviously a good question.
+
+So, at most there can be three, because we've agreed that it's planar motion. Does this problem have any constraints? Where?
+
+AUDIENCE: The bottom of the line can't move the y.
+
+PROFESSOR: So it can't move in the y direction. So if any part of a body can't move in-- translate, then there's no translation in that direction, pure translation of the body in that direction. So there's a constraint in the y, if we draw a coordinate system here. Constraint in the y. True. So we're down to two. Are there any other constraints?
+
+AUDIENCE: I would say that, yes, because the upper line--
+
+PROFESSOR: No, no, it's not leaning against the wall. This is just a skip. This is the problem. So it definitely can't move through the table. So it's constrained in y. We've got that so now that leaves us, at most, two.
+
+Are there any other constraints? How many say no? How many say yes? If you say yes, you've got to tell me what it is, but I don't see any others.
+
+So we're left with two. We need two coordinates. What might we pick here? What would you pick? You're now confronted with this problem. Do you have rotational-- if you're going to use Lagrange do you have rotational kinetic energy in this problem? You're probably going to need an angle. What else would you need? So we're going to need an angle for sure. Say it again?
+
+AUDIENCE: The height of the center of mass.
+
+PROFESSOR: You're going to need the height of the center of mass. Yeah, you're going to need a potential energy expression, but we've decided that y is constrained. So you can't have a theta and a y. Let's make this our theta. What else is there?
+
+AUDIENCE: x.
+
+PROFESSOR: x. You're going to need an x. So our generalized coordinates are going to be an x and a theta. But you do need to be able to write down a potential energy expression, and it involves motion in the y. So what do you do? Right.
+
+So what's the height of this thing is-- above the ground-- is sum L over 2 cosine theta equals y. Something like that, right? And I might have a-- depending on whether you make-- I haven't thought this through. Whether or not it's xy this way or xy that way, theta might be plus or minus. This could be-- there might be a sine in there.
+
+But basically, this is-- theta and y are constrained. If you know one, you know the other. So you do your potential energy expression this way.
+
+Now we've gotten that far. We know we need two coordinates. We're going to use x and theta. But now you have to decide what method to use. Direct method using one of these, or Lagrange? What would you do?
+
+How would you go about it? It's a quiz. You got 20 minutes to finish, and you want to do this in the safest, quickest possible way. What would you try? And this is the realistic situation, right? Next Tuesday. What do you trust yourself to do the most? It's probably what you ought to do in a quiz situation.
+
+Anne, how many ways can you think of doing this? How many ways could you do this, Rob?
+
+AUDIENCE: Two.
+
+PROFESSOR: Two. Any way. Direct, indirect, what would you use? Where would you choose to-- you're going to need a torque equation to do this problem, if you use direct. Where would you take your torques about?
+
+Think about that. For this problem, if you're doing the direct method, where are you going to compute the torques? About what point?
+
+So you can do it about that-- you could call this point A here. And what equation would you-- now you've got to use that equation that's got the problematic terms in it, right? But it's all right. You can punch those through and do it. That will work.
+
+And if you use Lagrange? You've got to be able to figure out the potential and kinetic energy, and so forth. So could all of you do this by Lagrange? This is a good one to go practice on. It's not that hard. Do it. It's a good practice problem.
+
+Now add friction. So, the b problem. It now has friction. Can you-- I don't think-- is Lagrange a good choice if it now has friction? I think it's got a problem, and I'd be careful using Lagrange if it had friction.
+
+Not that-- Lagrange is perfectly-- it is certainly valid. It's just hard. Why is it hard? Well, yeah, it might be hard to find. What do you need to know to-- so, are there any external non-conservative forces in the problem with friction?
+
+AUDIENCE: Friction.
+
+PROFESSOR: Friction. You're going to have to figure out the friction force. And to figure out the friction force, you're going to have to apply direct method. No other way. You are going to have to apply some direct method to do this problem, no matter what. So you can't just say-- Lagrange is not going to bail you out and not have to solve some of the F equals ma, and torque, and those sort of things to figure out what friction is. So there are problems that Lagrange-- isn't all as simple as we sometimes make it out to be.
+
+All right, I've run a couple minutes over. Thank you. We'll see you in class on Tuesday. We'll do some more review.
+

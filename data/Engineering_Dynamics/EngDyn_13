@@ -1,0 +1,778 @@
+[[Review of applicable physical laws]]
+Print This Document
+
+J. KIM VANDIVER: If I wanted you to remember three equations, really commit them to memory, that'd allow you to essentially do everything that we've done, they'd be the following three. The first would essentially be Newton's second law. We use that all the time, and in vector form, summation of the external forces on a rigid body must be equal to the time rate of change of the linear momentum of the rigid body. And that we know is equal to its mass times the acceleration of its center of mass with respect to an inertial frame, and this slash o means with respect to an inertial frame. That's Newton's second law, and of course we use it all the time.
+
+Now Euler added to what Newton worked out for us. And let me actually just point out over here. So P with respect to o then is M velocity of G with respect to the inertial frame-- vector, vector, vector. OK, what Euler taught us was that the summation of the torques about a point A is the time rate of change of the angular momentum with respect to that point plus the velocity of the point cross P with respect to o. So that's our general equation for angular momentum and [? R ?] for torques.
+
+And remember, H with respect to A is the cross product of R-- how do I want to write this guy? I don't want to save that. So we define angular momentum. It's just a cross product of the distance from the point that we're at to the-- I didn't write this right. This is A with respect to G cross P o, so that's our general definition of angular momentum.
+
+And finally, the third equation is the one that I showed you last time, which does appear in the book but not until you get into chapter 21, and that is that you can write H with respect to A as H with respect to G plus [? RG/A ?] cross P with respect to o. There's something wrong here. Matt, what have I done wrong?
+
+MATT: Do you want a sum that will give you the angle [INAUDIBLE].
+
+J. KIM VANDIVER: Yeah, it just slipped my brain because I don't do it. I don't think about this. This is the-- yeah, it's a summation. There we go.
+
+In general, this is a summation, and it is the location of all the little particles i with respect to A cross the linear momentum of each particle [? mi ?] Vi with respect to o. And we add all that up, that's the definition of angular momentum. And we generally for rigid bodies then reduce that to saying that it's a mass moment of inertia matrix computed with respect to A times omega x, omega y, omega z. That's how we generally express this.
+
+But the third equation I want to come to is this one. Yeah?
+
+AUDIENCE: That's not [INAUDIBLE], but it's not really with respect to A in general. [INAUDIBLE]
+
+J. KIM VANDIVER: This is i with respect to A. Let's just do this because I've just slipped a bit this morning. OK, I'm thinking too much about where I'm going here. This equation I introduced last time.
+
+The book doesn't make a big deal about this at all, but it's really a fundamental equation that we proved from scratch very simply last time. And this equation allows you to solve lots of problems without even, for example, knowing the parallel axis theorem. It'll just get you through it even without knowing things like that. So with these three equations, you can do all the problems that we've done, and I'm going to do two or three examples this morning, and including coming back to a discussion of the parallel axis theorem.
+
+OK, so these three are the ones I recommend that you remember because everything else will flow from-- we know, like, we have special cases. So when A is at G, then this just reduces to H with respect to G. When there's no vel-- when A doesn't move, this term goes away. Those are all special cases, which you can just substitute in the numbers and discover for yourself if you don't remember those. But these are the three equations you want to have in your kit to use.
+
+So last time, I kind of classified problems in four different classes depending on the simplifications. And the class 4 problem was the more general case, and that's when the point A is allowed to move in general, and that last equation we had can be very handy in those cases. And I mentioned a problem last time, but I didn't work it out. And that's simply this problem, where you've got a block, maybe a box on a cart, and you're accelerating the cart. At what point will the block tip over?
+
+So this one I've put a nail right here, so the block can't slide, but it will tip about this point. So if I accelerate it slowly, nothing happens. If I accelerate it fast enough, it tips around that point. So that's the key. Identifying the point's have the work, so that's the key bit.
+
+What's the greatest acceleration that I can have so that this block will just not quite tip? That's the problem. If you didn't have the nail there, there's also the possibility that it'll slip without tipping over. OK, so that's another problem that we'll address at another moment.
+
+OK, so let's do this problem quickly. So this is our problem, and I've got a handle here, and I'm pushing on it with a force. I've got a couple of wheels. This is M1. This is M2, and I'll have an inertial frame here X, Y.
+
+So the question is what's the maximum force that I can apply such that the block won't tip over? And I've got a little nub there, so this thing can't slide. OK, and this is my point A because that's the point I expect it to rotate around. The X, Y, and Z is coming out of the board.
+
+OK, so Newton's second, so we apply it first. From Newton's second law, we say the sum of the forces, in this case, on the system. By the system I mean M1 and M2. We want to remember that you can collect things together at times. So the sum of forces on the system, in this case, is then M1 plus M2, and it's the acceleration of that point, and in this case we are just going to do in the X-direction because we know that's the only one where there's any action.
+
+So the sum of the forces in the X-direction is the total mass of the system times the acceleration in the X-direction. So the X double dot we're looking for is F over M1 plus M2. So this we're trying to find out what the maximum value for this is.
+
+Now next we can apply the torque equation because that's the key one. And that's the sum of the torques-- now it's just on the box-- at with respect to point A. And we can say, well, looking at that, we need a free body diagram now of our box. You've got an M1g down. And you might have a normal force upwards, generally, but now we want to think about where are the forces going to be acting on the box when it's just at this point that it's just barely about-- just barely starts to tip.
+
+So we're hypothesizing that here at A, there'll be some upward force, right? And it's going to take care of the static equilibrium, but it also could enter into our moment calculation if we weren't clever with respect to where we calculate this point. So the sum of the torques about this point, we don't have to bring this one into it.
+
+We do have to consider this one. So the [? R ?] here cross that force, so we get a moment, Mg, and I need some dimensions on my box. We'll call it b and a height h. So the moment arm, this axon is b/2, and it's in the minus [? z ?] direction, so I get a minus M1g b/2 k hat. Those are my external torques on the box because the normal force supporting it on the floor is acting at A now.
+
+And this must be from our second formula, dH with respect to A/dt plus the velocity of A with respect to o, cross P with respect to o. And P with respect to o was [? M1VG ?] with respect to o, all right? So we need to know what is the velocity of A with respect to o.
+
+But we're only allowing motions in this direction. This has to be evaluated in the inertial frame, so we have a coordinate X here. So it's going to be some X dot, and I'll give you a capital I hat just remind you that's in the inertial frame.
+
+What is the velocity of G with respect to o?
+
+AUDIENCE: Would it be the same?
+
+J. KIM VANDIVER: Yeah. You know, in this condition we're saying we want the block not to quite tip over, and that means it's moving with the cart at exactly the same velocity, so it's the same. It's also equal to A with respect to o, but if that's the case, what's the cross product between velocity of A with respect to o and G with respect to o? Ah, so that one goes to zero. That's because of this.
+
+OK, so that leaves us with-- we don't have to deal with these terms, but we do need to compute H with respect to A. And now I'm going to use this formulation because it makes this problem easy to do and not have to deal with parallel axes or any of that. So I'm going to use my third equation, and it says that this is H with respect to G plus RG with respect to A cross P with respect to o.
+
+So you notice I chose this problem kind of on purpose today because I started saying, here's three really important equations. We use all three to do this problem. OK, so now we're exercising the third.
+
+So my block here, since we're dealing with angular momentum of rigid bodies, I now have to think in terms of a coordinate system attached to the block, and I'll formulate it so it's lined up the same way. So this is a x1 I'll call it, y1, and z1. But x1 and big X, these are in the same direction, and so is z and z1 and capital [? E. ?] And that means that my I hats are the same as the unit vectors associated with my coordinate system attached to the body. Remember, this is this body-fixed coordinate system that allows us to compute moments of inertia, and I'm going to have this located at G, OK?
+
+So the only rotation that we're allowing in this problem. This is basically a 2D planar motion problem. It could conceivably have x and y translations and a z rotation constrained in the y, so it has possible rotation and translation. So the only omega we're considering is this omega z, and so we'll proceed to use it to compute H. So we use this formula.
+
+So H with respect to G is-- just I'm doing a couple of these things sort of carefully just to remind you of where these things all come from. This is I with respect to G, and in this case, 0 0 omega z. And we come out of this then the only-- are these principal axes? So if they are, this is diagonal, right, so I've located these through G.
+
+Taken into consideration the symmetries, I know because the symmetry of these are principal axes. Therefore, this is a diagonal mass moment of inertia matrix, so when I calculate to do out the multiplication, I get Izz with respect to G omega z k-hat. There's only one vector component of H that comes out of that, and that's Hz is that Izz G omega z k-hat. And there are two other possible components of H, but they're both 0. There's no other rotate-- there is no angular momentum in the x- or y-directions.
+
+OK. [? RG/A ?] in this problem is from here-- this is point A-- two there, so RG respect to A is b/2 i plus h/2 k. It's the location of just the position of G with respect to A. [? b/2 ?] over [? h/2 up. ?] So in order to complete my calculation of H of A, I need to get the second piece of the [? RG/A ?] cross P/o.
+
+So [? RG/A ?] is my b/2 i plus h/2 k cross. And then my linear momentum is M1 x1 dot in the i hat direction. And it'll either be a capitalize I or a lowercase i. They're the same, all right?
+
+So this is my second term the RG cross P. i cross i, these two-- this pair gives you nothing, so it's k cross i is j, and so you get Izz with respect to G omega z. And then a k term from here M1 h/2 x dot, and it's also in the k. And that's my total angular momentum now with respect to A.
+
+AUDIENCE: [INAUDIBLE]?
+
+J. KIM VANDIVER: And I think-- just a sec-- k-- you're right. Wait a second. k cross i should give me a j, right?
+
+AUDIENCE: [INAUDIBLE]. Professor?
+
+J. KIM VANDIVER: Yeah, k cross i gives me a positive j, right?
+
+[INTERPOSING VOICES]
+
+[? AUDIENCE: RGA ?] should be a positive j based off of your [INAUDIBLE] system.
+
+J. KIM VANDIVER: Ah, yeah, yeah. This is a good catch. All right, so what happens now? Now we get j cross i, gives you a minus k. Now that should be OK, and let's see if that agrees with what I wrote here. Yes, they did it right in the paper. Just couldn't put it right on the board.
+
+So now the sum of the torques with respect to A, we've already figured out that it's minus M1 g b/2 k hat must be equal to the time rate of change from our second equation dH dt. And we've already figured out that the second term goes away. So it's just then the time rate of change of that expression.
+
+Oh, I think we could probably do it straight away, so the time rate of change, the derivative of this, you get omega z dot. You get an x double dot. The k doesn't rotate, so there's nothing that comes from that. If you take that time derivative, you get Izz with respect to G omega z dot minus M1 h/2 x double dot, and these are still all in the k direction.
+
+And that's an equation that only has k hat terms on the left hand side, k on the right, so this is just one potential component of the torque. And so we can drop the k's at this point. And we now have an expression for the external torques in terms of the accelerations of the system. This is essentially theta double dot [? if it ?] tips, and that's the linear acceleration.
+
+But now then the key to the problem is we're trying to find out when just at the point it might tip but doesn't, so what's omega dot-- omega z dot? OK, so what we're looking for we let omega z dot or require that to be 0. I mean this makes this even simpler, and you find out then that M1 g [? b/2 ?] equals M1 h/2 x double dot. And I have to add minus signs on both sides, so I got rid of them. And the M1s go away, and I can solve for h for x double dot, and that's going to be g b/h.
+
+OK, and we started off saying what's the maximum force? So this is now x max, the acceleration maximum and the force maximum is just equal to M1 plus M2 x dot max for-- and let's see if that makes sense. If b and h were equal-- that's sort of a common sense argument here-- b and h were equal, that tells you that you could accelerate 1g at 1g-- just 1g and that makes sense.
+
+The Mg here is [? putting a ?] restoring moment down of the MG [? b/2. ?] And the acceleration of this is putting an overturning moment on it in the other direction that would be Mg [? h/2, ?] and if h and b are the same, then it would be exactly 1g. Now so that's the answer the problem.
+
+If you want to do live dangerously from the beginning, you could have done this with a fictitious force. I just mention in passing I'm not recommending that you generally go there. This was a very straightforward way of doing it. We just started with these three laws, and we just worked our way through the problem and all the way to the end, and it fell out.
+
+If you didn't want to live dangerously though, you could say that when you accelerate this, you can think of there being a fictitious force that is equal to minus the mass of this object times the acceleration on the center of gravity of force that is pulling it in the other direction. So you could think of there being a force M1X double dot opposite to the direction of the acceleration. This is minus the mass times the acceleration. It's the fictitious force.
+
+Here's your point A. Here's gravity M1 g. This is the distance b/2. This is the height h/2, and you could say just at that moment of balance, the sum of those two moment should be 0-- the sub of the external torques. And you would end up with a M1 x double dot h/2 minus M1 g [? b/2, ?] and you come up with the same answer.
+
+But for most of this that takes a real leap of faith to do that to convince yourself that you're right, right? You got to know a lot of dynamics and remember all the parts and pieces to be able to just go there. But if you do it just carefully, those three equations, it'll all worked out. Yeah?
+
+AUDIENCE: Why is omega z [INAUDIBLE]?
+
+J. KIM VANDIVER: Because as long as the condition satisfied that it doesn't tip over, what's the rotation rate of this block?
+
+AUDIENCE: 0.
+
+J. KIM VANDIVER: 0. So we're not solving for dynamics in this problem of the thing tipping. It isn't rolling on us. We're coming just up to the point that it tips, and say we're not going any farther. And so we just require the two moments-- the one essentially caused by the acceleration, this fictitious force, that's got to be just in equilibrium with the restoring moment provided by Mg. That's essentially the problem we've worked, but we've done it really carefully just using these three laws.
+
+And the real problem though if you didn't have the nail here is if now if you need to test your solution, could you ever actually reach that rate of acceleration before the thing starts sliding on you? And, you know, maybe not. This thing slides before it tips, OK?
+
+AUDIENCE: Would the fictitious force take into account M2?
+
+J. KIM VANDIVER: Take into account M2?
+
+AUDIENCE: Yes.
+
+J. KIM VANDIVER: So the angular momentum was all calculated with respect to the rigid body M1, right? The only reason M2 entered into it this is the way things happen in real life. It's just a real problem. It's a box on a cart, and is it going to tip over, and you're pushing on it. How hard can I push?
+
+To do that problem you just have to consider these to begin with so that you realize that, oh, the acceleration involves both of these masses, but the angular momentum part of the problem involves only the boxes tipping. So problems even as simple as this one looks has their little complications, and you've got to work through them. So just so we had to treat the body as a two-body system to start with, and then look at angular momentum for just the box.
+
+AUDIENCE: Does the pin or screw exert a force on the [INAUDIBLE]?
+
+J. KIM VANDIVER: Yes, absolutely, mm-hmm. Does it create a moment? No, and that's why we don't have to consider it. I could have put it in there and probably should have.
+
+If I had done a free body diagram here, you could still say that there's a reaction force upwards here. And I'll call it Ry and another one this direction I'll call Rx. And when computing moments about this point, neither of them enter into the problem. And that's why we like to do our calculations for angular momentum with respect to points around which the body rotates because that allows us to not have to solve for those unknown forces that pop up there, so yeah, indeed there are forces there.
+
+OK, got it figured out. So we've talked a little tiny bit about parallel axis theorem, and so I'm going to consider this a slender rod. I can spin it about one of its printable axes and calculate its angular momentum of whatever I need, and if I move it over to an axis that's-- I just move it over by a little bit. Let's say this is the x-axis here in my body, and this is the z, so it's at omega z.
+
+And I move my point and around which I am rotating over by a small amount A, and that's this distance between these two holes. And by parallel axis theorem, we could say, well, now there's a mass moment of inertia with respect to A, which is the mass moment of inertia with respect to g, which is [? Ml ?] squared over 12, if this is the length, plus the mass times this distance squared. We know how to do that.
+
+But now what happens if I take this stick, my slender rod, and here's my original x, y, z. And I want to move it, my point A, my stick now I'm going to move it over by an amount a and up by an amount c so that it's now up here with respect to this point. So this stick has been like this, and now I'm going to then rotate it about that. That's the simple case. Now I want to rotate it about this axis when it's moved over to like that.
+
+So not only have I moved it-- so here's the original problem-- like this, but now I move it up and over-- maybe I'll do it there-- and now I spin it. And I'm interested in angular momentum about this point, so now it's dynamically unbalanced for sure. This thing is trying to wobble, and it's been pushed up and over, so is there a way to get-- how do we solve that problem? How do we compute the torques for this problem?
+
+Well, we could try to go at it with parallel access to start with, but you don't know how to do that in general for this problem. So what do we go to? We go back to those three equations, and just start there, and it'll all fall out.
+
+I'm going to do this kind of briefly for this problem, so I want to compute H with respect to A H with respect to G plus RG with respect to A cross P. And now this is [? RG/A ?] is this vector here, that position vector, OK? And the only rotation is omega z. This is our z-axis.
+
+So I can write this as Izz with respect to G, 0, 0, omega z plus my [? RG/A ?] cross P/o, and that in this problem-- let's get the vector right this time-- it's a in the i direction plus c in the k direction cross. Now we need to know what's P with respect to o, but that's just the velocity of this so the center of mass, which is now here. The velocity is omega cross r, so when you do that-- you've done that problem lots of times-- it's this distance, so perpendicular distance [? across ?] k. It's got to be going into the board if it's spinning like this. We know the answer's got to come out plus j, and it's r-- it's A omega z in the j-direction cross Ma omega z, but it is in the j hat direction.
+
+That's your linear momentum, and this is [? RG/A ?] cross with a linear momentum. This here is M velocity of G here with respect to o. That's this term, so we carry out this calculation and we get-- and I need a j, OK. So i cross j gives me a k, so I'll get 2, and this is a diagonal matrix because we began with a set of principal axes for our stick, so this term is Izz with respect to G. I shouldn't have written zz here, just i with respect to z.
+
+We multiply this out. We pick up just this term omega z k hat plus i cross j is k, so that's Ma squared omega [? zk, ?] and k cross j is minus i minus M ac omega z in the i hat direction. So this is my angular momentum, and reminding, it is a vector. This has got components in the k and the i directions.
+
+I've rewritten it here. This also could be written-- this H with respect to A is I with respect to A times the rotation vector. If we had just set out with this problem, and said we're going-- if we know the mass moment of inertia matrix computed with respect to this point and multiplied it by our rotation rate vector, we should have gotten the same answer. So we didn't do that. We just worked it out using just this formula, but we've essentially discovered the answer.
+
+This is the rotation around k. This is the Izz term with respect to A, and it really looks like the familiar parallel axis piece. It's the amount that you moved this axis over, and the axis you're spinning around, you moved it over A. And you know the parallel axis theorem just says add Ma squared, and you've got the answer.
+
+But we also moved it up, and it gave us another term. What do you suppose in that term is? So this is Izz with respect to A, this term. By parallel axis theorem, you're familiar with it. This one is I, and this is xz with respect in the A coordinate system.
+
+OK, we've created-- we've made this thing unbalanced. The angular momentum vector no longer points in the same direction as the rotation. It has a k component and an I component, and sure enough, when I spend that thing like that, I feel that additional torque out around my hand down here where I'm holding it. This thing is going-- trying to pull it back and forth. So we have essentially just shown-- we have just arrived at a more complicated parallel axis theorem by just using this basic formula.
+
+So Williams in the dynamics-- that second handout from Williams has actually given us a general formulation for parallel axis theorem. So this is just handy to know. I'll just give it to you, and if you have a problem some day, where you just like to go directly to this statement, so now I'm just going to say, in general, we could have moved over by A, up by c and actually into the board by b, so x, I'm moving A. y, I'm moving b. z, I'm moving c. OK, so you could have all those possible moves of the new point about which you're rotating. Yes?
+
+AUDIENCE: For the [INAUDIBLE] matrix i with respect to A, does that mean that you're rotating about point A? Or what is it--
+
+J. KIM VANDIVER: You are rotating about point A.
+
+AUDIENCE: OK. But isn't point A just the [? immersion? ?]
+
+J. KIM VANDIVER: Let me think. I'm trying to think of a good way to-- when you started this problem, we're spending about the middle-- about G, OK? And we can calculate angular momentum of this object with respect to G and learn some things, right? But now we've built a different device. This is an object now that is, in fact, spinning.
+
+Let's imagine it's a fan blade, and you've broken one blade off. The motor is here. A proper fan blade would have blades on both sides, so it's nice and balanced. The shaft has some length and it sticks out, and now you break off one of the blades. And so you have a system that's doing this, but this is going to put a lot of unusual loads on this point down here.
+
+So it is rotating at the same rotation rate about this point, but it is now a system whose center of mass is over here, and it's up. It's above this point, and it's out from this point, the center of mass. And now you compute the angular momentum with this point, and take its time derivative, you will find all the torques required to make this happen.
+
+AUDIENCE: [INAUDIBLE]?
+
+J. KIM VANDIVER: A little louder.
+
+AUDIENCE: The movement A, [? i-hat ?] Mc [? k-hat ?] [INAUDIBLE]
+
+J. KIM VANDIVER: Movement that you've moved the center of mass away from this axis of rotation. And you've moved it up and over. So actually, let's think about that for a minute.
+
+This is our beginning point, right? We're at G. If I just move it up, does it cause any problems? It's still balanced, and you'll find out that nothing's happened in this problem. H with respect to A is the same as it was before. But now you move it up and over, it starts causing complications. Yeah?
+
+AUDIENCE: [INAUDIBLE] H of A equals [? A ?] times omega z. So i doesn't have like direction, but you have an [? ixz ?] terms and [? xc ?] term, and you're multiplying it by a vector with an omega z term, so how are you getting an i hat from that?
+
+J. KIM VANDIVER: OK, so I haven't gone into this, and I'm not going to. The [? i ?] matrix is a thing called a tensor. And so this is a convention that you can make it a very mathematical and assigned unit vectors to each of these terms inside, but I haven't done that.
+
+But the convention here is that this, the H, angular momentum is a vector. It consists of three components. It has three potential vector components, Hx in the I, Hy in the j, and Hz in the k directions. And we, in a compact form, say we can express that by multiplying its mass moment of inertia matrix with respect to A times the vector that is its rotation. And I only have one component of this omega, but it is in the k direction.
+
+And when you take this vector multiplied by the top row, that gives you everything that's [? I. ?] You multiply this vector times the second row, it gives you everything is in the j direction, and the result is part of Hy in the j direction. You take this vector, and you multiply it by the third row, it gives you the z-directed components, OK?
+
+So this one, because when we multiply this out what's in this matrix-- is this matrix diagonal? No way. And we move it, and we've gone and done something strange here. It's not diagonal, and when you multiply this times this top row, there's a term here, which is not 0-- shouldn't write 0. Make an x here.
+
+This times this gives you an omega z times that in the i hat direction. OK this term comes from there being something there. OK, and I'm just going to give you a generalization that you can go back and read the Williams handout, which he says, if you want to rotate about some fixed point A. Then you can say that this matrix is equal to the one with respect to G, which in our case is diagonal.
+
+The original one that we had doesn't have to be, but if you pick principal axes, this will be diagonal. Plus M b squared plus c squared minus ab minus ac. It's symmetric. This is a squared plus c squared.
+
+So if we're rotating a system if you know its mass moment of inertia matrix with respect to G [INAUDIBLE] perhaps principal axes, and you want to rotate it about any other point where you've moved it by an a, by a b, by a c, this is essentially the general parallel axis theorem. And you can just plug it in and use that. And you can see what would happen in this case if you multiplied-- if you add these two together, they add term by term.
+
+This goes into this point on. This one adds to this, so in this problem, in our particular problem, this becomes you have an Ixx, Iyy, Izz with respect to G terms. It's diagonal to start with, and then in our problem that we did there, we didn't have a b. No b terms, so the b terms are all 0, but you do end up with a minus ac term over here.
+
+And if you multiply this by 0, 0, omega z, see what happens. You get minus ac in the I direction, and you need an M here. And you come down here, you get the Izz G omega z in the k direction, and that's those two terms. Here they are.
+
+Yeah, oops, I need the plus [? A ?] squared. Yeah?
+
+AUDIENCE: When you move it over to the end of the stick, normally like you're just shifting it parallely, but now there's gravity. Is that why you have those little things?
+
+J. KIM VANDIVER: Say again?
+
+AUDIENCE: So normally, if you just take a stick and you have a principal axis and you can't move that parallel to the end, you wouldn't get all of this but--
+
+J. KIM VANDIVER: Yeah, and if you just move it-- so yeah, I'm glad you asked that question. So normally the types of problems in which we usually use the parallel axis theorem is you've been spinning it around one axis. It's a principal axis, everything's fine, and you want to just move it over, so we do that when we do pendulum problems. Here's the thing around the center, and we just want to know, how does this thing behave?
+
+When we move it up here, it becomes a pendulum, and we would like to compute the angular momentum around this point. We say, oh, we've moved it a distance d. The new mass moment of inertia in the z direction is the original plus Md squared, right?
+
+So when you only make one move, you only have an a, a b, or a c. You never get any of the off-diagonal terms because their products, see? But if you start doing more than one, you've introduced complications, and that's part of the reason I put this up is there's limits to the simple parallel axis theorem, but there is a general way of doing it. Yes?
+
+AUDIENCE: I believe her actual question involved what causes the torques? Is it gravity? For example--
+
+AUDIENCE: Yeah, I was asking why--
+
+AUDIENCE: [INAUDIBLE].
+
+J. KIM VANDIVER: Ah, so what causes these torques when you have two?
+
+AUDIENCE: Yes.
+
+J. KIM VANDIVER: OK, we've talked about this a little bit before. When we calculate the angular momentum, it never involves gravity. Never gets in there, not in the angular momentum expression. So when you go to compute d, the time derivative of the angular momentum, you will not find torques that are caused by gravity. You just can't do them. It's not part-- but are the torques in the System I mean, why just hold this here. There's [? Mg ?] down, and there's a static moment caused by this thing trying to twist this down.
+
+When you sum the torques-- when you do the sum of the torques in the equation, you do your free body diagram, that term will appear. But it is balanced by some physical torque over here that balances it. You just won't find it from doing [? dh ?] dt. It's just part of the static equilibrium of the system.
+
+AUDIENCE: But the reason when you move the pen over, the reason you even have the shift is because of [? gravity? ?]
+
+J. KIM VANDIVER: No, no. So she's asking if is gravity the reason you-- I'm not even quite sure.
+
+AUDIENCE: How did you shift the z component of your [? plan? ?]
+
+J. KIM VANDIVER: OK, so let's just make this a real physical problem. I'm making an airplane engine, and I'm making an airplane with a propeller on it. And the bearing that supports the propeller shaft, if I put it really close to the propeller, OK, then it's doing this, and everything's fine.
+
+What if I extended the propeller shaft? OK, so now the bearing is back here, and now the propeller spins. Does that cause any torques, any loads back here on the bearing because I've extended it? No, and you could prove that just by going through this. You do [? dh ?] dt, and you find out the only torques when it's nice and balanced are those required to drive this propeller in the direction of the axis of rotation.
+
+But as soon as you do something to that propeller, like you mount it off-center, which rarely happens, but if you dinged-- if you broke off the tip of one of the blades of this propeller, you'd now have a propeller that looks like that, right? And now, even in the original system if your bearing is right close, this is spinning around, but is it putting a load? Sure there's a centrifugal force that is going around and around. It has nothing to do with gravity, nothing at all to do with gravity. OK, just because you now have the mass centers out here, it has momentum, the time rate of change of that linear momentum is a force making this thing going in a circle.
+
+OK, now if I extend the propeller shaft so it's like that, and I foolishly designed my airplane so it had a long propeller shaft sticking out there, if there's a little bit of unbalanced in this blade so that you're not spinning about the mass center. You're spinning about some other point. Now that centrifugal force going around is pulling is trying to bend this back and forth around this bearing. And because of the way in which we formulate angular momentum, if you formulate it about that point and take its time derivative, it will reveal those moments. It's really amazing that it can do that for you, but it has [? zero, ?] nothing to do with gravity, OK?
+
+So handy, hard to remember this from just a blackboard presentation, but it's in that second reading by Williams. He does it in a very-- he proves it in a very simple way using the summations of the MI [? RI's ?] and so forth. Proves it in a very simple way, but a very general handy formula that you can use.
+
+OK, so let's have another topic, which I'm not going to do. We've got a few minutes. You have [? money ?] cards. We've been thinking about that. And let's ask questions, yeah?
+
+AUDIENCE: [INAUDIBLE]
+
+J. KIM VANDIVER: Where did I the--
+
+AUDIENCE: The plus [? MA ?] squared and the plus A squared.
+
+J. KIM VANDIVER: Ah, I was doing that kind of fast, and I probably even messed it up, so let me check the-- so I was doing for the example that [? RG/A ?] equals-- we moved it over by ai and up by ck, so and plus 0j. We didn't move it in the j direction, OK? So this is my amount that I've moved it. I've moved it an amount a, and an amount c.
+
+So the Williams formula would say, ah, that new mass moment of inertia matrix with respect to a becomes the original plus-- and now every place there's a b here, it goes to 0. And the remaining bits I add with those, so I should get a M-- whoops, this is a c squared, no second term. The third term is minus Mac. Over here, that one is 0. This one becomes a squared plus c squared--
+
+AUDIENCE: --minus [INAUDIBLE]?
+
+J. KIM VANDIVER: Minus, yep, M.
+
+And this one is minus Mac 0 Izz and a squared plus b squared, so it's just a squared. So this is now correct.
+
+AUDIENCE: [INAUDIBLE]?
+
+J. KIM VANDIVER: Pardon?
+
+AUDIENCE: Times M in the bottom of it?
+
+J. KIM VANDIVER: Yeah, all of these needs M. Ma squared's M, M, M, M, so that's our problem when we did two shifts. But a second we shifted it in two directions, we get these off-diagonal terms, which means that if you are actually making this device rotate about point A, you will get these unbalanced moments-- this dynamically unbalanced. Yeah?
+
+AUDIENCE: Will we be trying to find our [? mass ?] moments of inertia directly, or should we just do [INAUDIBLE] equation and have them fall out like the integral with x times y [? vM? ?] [INAUDIBLE]
+
+J. KIM VANDIVER: He's kind of asking advice in whether or not we ought to be trying to find the inertia matrix about other points, right, like [? the I ?] with respect to A. Where I started today, I said you can basically do all the problems with these three equations, and this doesn't mention parallel axis theorem.
+
+We use this to find, in fact, to solve this problem. We didn't talk parallel axis theorem at all, it just-- the answer dropped out. And if we looked into that careful, we could generalize that. We could work now with that a bit and say, ah, there's a pattern to this. I'll bet this can be recast like this, and it can. So if you know this exists, and you don't want to have to grind through finding these terms that come from here, you can do the problems by finding the mass moment of inertia matrix with respect to A.
+
+You can use this form only when you have fixed axis rotation. The thing is the point A is [? about ?] which this rotation is occurring, then you can write down the formula this directly like that. So you that got to be careful when you apply the parallel axis theorem.
+
+The nice thing about these three forms is they're generally true. Point A can move. Point A can be accelerating. The problem that we did here, point A is accelerating. Not only moving, it's not even an inertial frame. We solved this problem-- this is a non-inertial frame problem. We went right at it and solved it directly, OK?
+
+So I would say, if you have any doubt to answer your question, when you're in doubt just use the formula. And then you will need to find moments of inertia with respect to the center of mass, and it's in your interest to use principal axes because they're easier. Yeah?
+
+AUDIENCE: If you were to say [INAUDIBLE]?
+
+J. KIM VANDIVER: Ah, so if you took the derivative of this, [? dh ?] dt, this one just gives you omega z dot. That's you're spin in the direction of rotation. This term, that unit vector rotates. This gives you two terms-- gives you an i term, omega dot i, and it gives you an omega j term, OK? And what those are, those are two torques.
+
+This problem, there's a torque caused by the centrifugal force trying to bend this in the j direction. And if this is accelerating, you know, a theta double dot term, there is a torque trying to bend this thing backwards. OK, get them both.
+
+All right [? money ?] cards and see you on Thursday. Thursday we're going to do a nasty problem, and it is it a lead in to a problem. You can do the same problem extraordinarily easily using energy. And that's kind of the purpose of doing it, so you see both ways of doing it.
+
+[[Example Class 4 problem with moving points of constraint]]
+Print This Document
+
+So last time, I kind of classified problems in four different classes depending on the simplifications. And the class 4 problem was the more general case, and that's when the point A is allowed to move in general, and that last equation we had can be very handy in those cases. And I mentioned a problem last time, but I didn't work it out. And that's simply this problem, where you've got a block, maybe a box on a cart, and you're accelerating the cart. At what point will the block tip over?
+
+So this one I've put a nail right here, so the block can't slide, but it will tip about this point. So if I accelerate it slowly, nothing happens. If I accelerate it fast enough, it tips around that point. So that's the key. Identifying the point's have the work, so that's the key bit.
+
+What's the greatest acceleration that I can have so that this block will just not quite tip? That's the problem. If you didn't have the nail there, there's also the possibility that it'll slip without tipping over. OK, so that's another problem that we'll address at another moment.
+
+OK, so let's do this problem quickly. So this is our problem, and I've got a handle here, and I'm pushing on it with a force. I've got a couple of wheels. This is M1. This is M2, and I'll have an inertial frame here X, Y.
+
+So the question is what's the maximum force that I can apply such that the block won't tip over? And I've got a little nub there, so this thing can't slide. OK, and this is my point A because that's the point I expect it to rotate around. The X, Y, and Z is coming out of the board.
+
+OK, so Newton's second, so we apply it first. From Newton's second law, we say the sum of the forces, in this case, on the system. By the system I mean M1 and M2. We want to remember that you can collect things together at times. So the sum of forces on the system, in this case, is then M1 plus M2, and it's the acceleration of that point, and in this case we are just going to do in the X-direction because we know that's the only one where there's any action.
+
+So the sum of the forces in the X-direction is the total mass of the system times the acceleration in the X-direction. So the X double dot we're looking for is F over M1 plus M2. So this we're trying to find out what the maximum value for this is.
+
+Now next we can apply the torque equation because that's the key one. And that's the sum of the torques-- now it's just on the box-- at with respect to point A. And we can say, well, looking at that, we need a free body diagram now of our box. You've got an M1g down. And you might have a normal force upwards, generally, but now we want to think about where are the forces going to be acting on the box when it's just at this point that it's just barely about-- just barely starts to tip.
+
+So we're hypothesizing that here at A, there'll be some upward force, right? And it's going to take care of the static equilibrium, but it also could enter into our moment calculation if we weren't clever with respect to where we calculate this point. So the sum of the torques about this point, we don't have to bring this one into it.
+
+We do have to consider this one. So the [? R ?] here cross that force, so we get a moment, Mg, and I need some dimensions on my box. We'll call it b and a height h. So the moment arm, this axon is b/2, and it's in the minus [? z ?] direction, so I get a minus M1g b/2 k hat. Those are my external torques on the box because the normal force supporting it on the floor is acting at A now.
+
+And this must be from our second formula, dH with respect to A/dt plus the velocity of A with respect to o, cross P with respect to o. And P with respect to o was [? M1VG ?] with respect to o, all right? So we need to know what is the velocity of A with respect to o.
+
+But we're only allowing motions in this direction. This has to be evaluated in the inertial frame, so we have a coordinate X here. So it's going to be some X dot, and I'll give you a capital I hat just remind you that's in the inertial frame.
+
+What is the velocity of G with respect to o?
+
+AUDIENCE: Would it be the same?
+
+J. KIM VANDIVER: Yeah. You know, in this condition we're saying we want the block not to quite tip over, and that means it's moving with the cart at exactly the same velocity, so it's the same. It's also equal to A with respect to o, but if that's the case, what's the cross product between velocity of A with respect to o and G with respect to o? Ah, so that one goes to zero. That's because of this.
+
+OK, so that leaves us with-- we don't have to deal with these terms, but we do need to compute H with respect to A. And now I'm going to use this formulation because it makes this problem easy to do and not have to deal with parallel axes or any of that. So I'm going to use my third equation, and it says that this is H with respect to G plus RG with respect to A cross P with respect to o.
+
+So you notice I chose this problem kind of on purpose today because I started saying, here's three really important equations. We use all three to do this problem. OK, so now we're exercising the third.
+
+So my block here, since we're dealing with angular momentum of rigid bodies, I now have to think in terms of a coordinate system attached to the block, and I'll formulate it so it's lined up the same way. So this is a x1 I'll call it, y1, and z1. But x1 and big X, these are in the same direction, and so is z and z1 and capital [? E. ?] And that means that my I hats are the same as the unit vectors associated with my coordinate system attached to the body. Remember, this is this body-fixed coordinate system that allows us to compute moments of inertia, and I'm going to have this located at G, OK?
+
+So the only rotation that we're allowing in this problem. This is basically a 2D planar motion problem. It could conceivably have x and y translations and a z rotation constrained in the y, so it has possible rotation and translation. So the only omega we're considering is this omega z, and so we'll proceed to use it to compute H. So we use this formula.
+
+So H with respect to G is-- just I'm doing a couple of these things sort of carefully just to remind you of where these things all come from. This is I with respect to G, and in this case, 0 0 omega z. And we come out of this then the only-- are these principal axes? So if they are, this is diagonal, right, so I've located these through G.
+
+Taken into consideration the symmetries, I know because the symmetry of these are principal axes. Therefore, this is a diagonal mass moment of inertia matrix, so when I calculate to do out the multiplication, I get Izz with respect to G omega z k-hat. There's only one vector component of H that comes out of that, and that's Hz is that Izz G omega z k-hat. And there are two other possible components of H, but they're both 0. There's no other rotate-- there is no angular momentum in the x- or y-directions.
+
+OK. [? RG/A ?] in this problem is from here-- this is point A-- two there, so RG respect to A is b/2 i plus h/2 k. It's the location of just the position of G with respect to A. [? b/2 ?] over [? h/2 up. ?] So in order to complete my calculation of H of A, I need to get the second piece of the [? RG/A ?] cross P/o.
+
+So [? RG/A ?] is my b/2 i plus h/2 k cross. And then my linear momentum is M1 x1 dot in the i hat direction. And it'll either be a capitalize I or a lowercase i. They're the same, all right?
+
+So this is my second term the RG cross P. i cross i, these two-- this pair gives you nothing, so it's k cross i is j, and so you get Izz with respect to G omega z. And then a k term from here M1 h/2 x dot, and it's also in the k. And that's my total angular momentum now with respect to A.
+
+AUDIENCE: [INAUDIBLE]?
+
+J. KIM VANDIVER: And I think-- just a sec-- k-- you're right. Wait a second. k cross i should give me a j, right?
+
+AUDIENCE: [INAUDIBLE]. Professor?
+
+J. KIM VANDIVER: Yeah, k cross i gives me a positive j, right?
+
+[INTERPOSING VOICES]
+
+[? AUDIENCE: RGA ?] should be a positive j based off of your [INAUDIBLE] system.
+
+J. KIM VANDIVER: Ah, yeah, yeah. This is a good catch. All right, so what happens now? Now we get j cross i, gives you a minus k. Now that should be OK, and let's see if that agrees with what I wrote here. Yes, they did it right in the paper. Just couldn't put it right on the board.
+
+So now the sum of the torques with respect to A, we've already figured out that it's minus M1 g b/2 k hat must be equal to the time rate of change from our second equation dH dt. And we've already figured out that the second term goes away. So it's just then the time rate of change of that expression.
+
+Oh, I think we could probably do it straight away, so the time rate of change, the derivative of this, you get omega z dot. You get an x double dot. The k doesn't rotate, so there's nothing that comes from that. If you take that time derivative, you get Izz with respect to G omega z dot minus M1 h/2 x double dot, and these are still all in the k direction.
+
+And that's an equation that only has k hat terms on the left hand side, k on the right, so this is just one potential component of the torque. And so we can drop the k's at this point. And we now have an expression for the external torques in terms of the accelerations of the system. This is essentially theta double dot [? if it ?] tips, and that's the linear acceleration.
+
+But now then the key to the problem is we're trying to find out when just at the point it might tip but doesn't, so what's omega dot-- omega z dot? OK, so what we're looking for we let omega z dot or require that to be 0. I mean this makes this even simpler, and you find out then that M1 g [? b/2 ?] equals M1 h/2 x double dot. And I have to add minus signs on both sides, so I got rid of them. And the M1s go away, and I can solve for h for x double dot, and that's going to be g b/h.
+
+OK, and we started off saying what's the maximum force? So this is now x max, the acceleration maximum and the force maximum is just equal to M1 plus M2 x dot max for-- and let's see if that makes sense. If b and h were equal-- that's sort of a common sense argument here-- b and h were equal, that tells you that you could accelerate 1g at 1g-- just 1g and that makes sense.
+
+The Mg here is [? putting a ?] restoring moment down of the MG [? b/2. ?] And the acceleration of this is putting an overturning moment on it in the other direction that would be Mg [? h/2, ?] and if h and b are the same, then it would be exactly 1g. Now so that's the answer the problem.
+
+If you want to do live dangerously from the beginning, you could have done this with a fictitious force. I just mention in passing I'm not recommending that you generally go there. This was a very straightforward way of doing it. We just started with these three laws, and we just worked our way through the problem and all the way to the end, and it fell out.
+
+If you didn't want to live dangerously though, you could say that when you accelerate this, you can think of there being a fictitious force that is equal to minus the mass of this object times the acceleration on the center of gravity of force that is pulling it in the other direction. So you could think of there being a force M1X double dot opposite to the direction of the acceleration. This is minus the mass times the acceleration. It's the fictitious force.
+
+Here's your point A. Here's gravity M1 g. This is the distance b/2. This is the height h/2, and you could say just at that moment of balance, the sum of those two moment should be 0-- the sub of the external torques. And you would end up with a M1 x double dot h/2 minus M1 g [? b/2, ?] and you come up with the same answer.
+
+But for most of this that takes a real leap of faith to do that to convince yourself that you're right, right? You got to know a lot of dynamics and remember all the parts and pieces to be able to just go there. But if you do it just carefully, those three equations, it'll all worked out. Yeah?
+
+AUDIENCE: Why is omega z [INAUDIBLE]?
+
+J. KIM VANDIVER: Because as long as the condition satisfied that it doesn't tip over, what's the rotation rate of this block?
+
+AUDIENCE: 0.
+
+J. KIM VANDIVER: 0. So we're not solving for dynamics in this problem of the thing tipping. It isn't rolling on us. We're coming just up to the point that it tips, and say we're not going any farther. And so we just require the two moments-- the one essentially caused by the acceleration, this fictitious force, that's got to be just in equilibrium with the restoring moment provided by Mg. That's essentially the problem we've worked, but we've done it really carefully just using these three laws.
+
+And the real problem though if you didn't have the nail here is if now if you need to test your solution, could you ever actually reach that rate of acceleration before the thing starts sliding on you? And, you know, maybe not. This thing slides before it tips, OK?
+
+AUDIENCE: Would the fictitious force take into account M2?
+
+J. KIM VANDIVER: Take into account M2?
+
+AUDIENCE: Yes.
+
+J. KIM VANDIVER: So the angular momentum was all calculated with respect to the rigid body M1, right? The only reason M2 entered into it this is the way things happen in real life. It's just a real problem. It's a box on a cart, and is it going to tip over, and you're pushing on it. How hard can I push?
+
+To do that problem you just have to consider these to begin with so that you realize that, oh, the acceleration involves both of these masses, but the angular momentum part of the problem involves only the boxes tipping. So problems even as simple as this one looks has their little complications, and you've got to work through them. So just so we had to treat the body as a two-body system to start with, and then look at angular momentum for just the box.
+
+AUDIENCE: Does the pin or screw exert a force on the [INAUDIBLE]?
+
+J. KIM VANDIVER: Yes, absolutely, mm-hmm. Does it create a moment? No, and that's why we don't have to consider it. I could have put it in there and probably should have.
+
+If I had done a free body diagram here, you could still say that there's a reaction force upwards here. And I'll call it Ry and another one this direction I'll call Rx. And when computing moments about this point, neither of them enter into the problem. And that's why we like to do our calculations for angular momentum with respect to points around which the body rotates because that allows us to not have to solve for those unknown forces that pop up there, so yeah, indeed there are forces there.
+
+OK, got it figured out. So we've talked a little tiny bit about parallel axis theorem, and so I'm going to consider this a slender rod. I can spin it about one of its printable axes and calculate its angular momentum of whatever I need, and if I move it over to an axis that's-- I just move it over by a little bit. Let's say this is the x-axis here in my body, and this is the z, so it's at omega z.
+
+And I move my point and around which I am rotating over by a small amount A, and that's this distance between these two holes. And by parallel axis theorem, we could say, well, now there's a mass moment of inertia with respect to A, which is the mass moment of inertia with respect to g, which is [? Ml ?] squared over 12, if this is the length, plus the mass times this distance squared. We know how to do that.
+
+But now what happens if I take this stick, my slender rod, and here's my original x, y, z. And I want to move it, my point A, my stick now I'm going to move it over by an amount a and up by an amount c so that it's now up here with respect to this point. So this stick has been like this, and now I'm going to then rotate it about that. That's the simple case. Now I want to rotate it about this axis when it's moved over to like that.
+
+So not only have I moved it-- so here's the original problem-- like this, but now I move it up and over-- maybe I'll do it there-- and now I spin it. And I'm interested in angular momentum about this point, so now it's dynamically unbalanced for sure. This thing is trying to wobble, and it's been pushed up and over, so is there a way to get-- how do we solve that problem? How do we compute the torques for this problem?
+
+Well, we could try to go at it with parallel access to start with, but you don't know how to do that in general for this problem. So what do we go to? We go back to those three equations, and just start there, and it'll all fall out.
+
+I'm going to do this kind of briefly for this problem, so I want to compute H with respect to A H with respect to G plus RG with respect to A cross P. And now this is [? RG/A ?] is this vector here, that position vector, OK? And the only rotation is omega z. This is our z-axis.
+
+So I can write this as Izz with respect to G, 0, 0, omega z plus my [? RG/A ?] cross P/o, and that in this problem-- let's get the vector right this time-- it's a in the i direction plus c in the k direction cross. Now we need to know what's P with respect to o, but that's just the velocity of this so the center of mass, which is now here. The velocity is omega cross r, so when you do that-- you've done that problem lots of times-- it's this distance, so perpendicular distance [? across ?] k. It's got to be going into the board if it's spinning like this. We know the answer's got to come out plus j, and it's r-- it's A omega z in the j-direction cross Ma omega z, but it is in the j hat direction.
+
+That's your linear momentum, and this is [? RG/A ?] cross with a linear momentum. This here is M velocity of G here with respect to o. That's this term, so we carry out this calculation and we get-- and I need a j, OK. So i cross j gives me a k, so I'll get 2, and this is a diagonal matrix because we began with a set of principal axes for our stick, so this term is Izz with respect to G. I shouldn't have written zz here, just i with respect to z.
+
+We multiply this out. We pick up just this term omega z k hat plus i cross j is k, so that's Ma squared omega [? zk, ?] and k cross j is minus i minus M ac omega z in the i hat direction. So this is my angular momentum, and reminding, it is a vector. This has got components in the k and the i directions.
+
+I've rewritten it here. This also could be written-- this H with respect to A is I with respect to A times the rotation vector. If we had just set out with this problem, and said we're going-- if we know the mass moment of inertia matrix computed with respect to this point and multiplied it by our rotation rate vector, we should have gotten the same answer. So we didn't do that. We just worked it out using just this formula, but we've essentially discovered the answer.
+
+This is the rotation around k. This is the Izz term with respect to A, and it really looks like the familiar parallel axis piece. It's the amount that you moved this axis over, and the axis you're spinning around, you moved it over A. And you know the parallel axis theorem just says add Ma squared, and you've got the answer.
+
+But we also moved it up, and it gave us another term. What do you suppose in that term is? So this is Izz with respect to A, this term. By parallel axis theorem, you're familiar with it. This one is I, and this is xz with respect in the A coordinate system.
+
+OK, we've created-- we've made this thing unbalanced. The angular momentum vector no longer points in the same direction as the rotation. It has a k component and an I component, and sure enough, when I spend that thing like that, I feel that additional torque out around my hand down here where I'm holding it. This thing is going-- trying to pull it back and forth. So we have essentially just shown-- we have just arrived at a more complicated parallel axis theorem by just using this basic formula.
+
+So Williams in the dynamics-- that second handout from Williams has actually given us a general formulation for parallel axis theorem. So this is just handy to know. I'll just give it to you, and if you have a problem some day, where you just like to go directly to this statement, so now I'm just going to say, in general, we could have moved over by A, up by c and actually into the board by b, so x, I'm moving A. y, I'm moving b. z, I'm moving c. OK, so you could have all those possible moves of the new point about which you're rotating. Yes?
+
+AUDIENCE: For the [INAUDIBLE] matrix i with respect to A, does that mean that you're rotating about point A? Or what is it--
+
+J. KIM VANDIVER: You are rotating about point A.
+
+AUDIENCE: OK. But isn't point A just the [? immersion? ?]
+
+J. KIM VANDIVER: Let me think. I'm trying to think of a good way to-- when you started this problem, we're spending about the middle-- about G, OK? And we can calculate angular momentum of this object with respect to G and learn some things, right? But now we've built a different device. This is an object now that is, in fact, spinning.
+
+Let's imagine it's a fan blade, and you've broken one blade off. The motor is here. A proper fan blade would have blades on both sides, so it's nice and balanced. The shaft has some length and it sticks out, and now you break off one of the blades. And so you have a system that's doing this, but this is going to put a lot of unusual loads on this point down here.
+
+So it is rotating at the same rotation rate about this point, but it is now a system whose center of mass is over here, and it's up. It's above this point, and it's out from this point, the center of mass. And now you compute the angular momentum with this point, and take its time derivative, you will find all the torques required to make this happen.
+
+AUDIENCE: [INAUDIBLE]?
+
+J. KIM VANDIVER: A little louder.
+
+AUDIENCE: The movement A, [? i-hat ?] Mc [? k-hat ?] [INAUDIBLE]
+
+J. KIM VANDIVER: Movement that you've moved the center of mass away from this axis of rotation. And you've moved it up and over. So actually, let's think about that for a minute.
+
+This is our beginning point, right? We're at G. If I just move it up, does it cause any problems? It's still balanced, and you'll find out that nothing's happened in this problem. H with respect to A is the same as it was before. But now you move it up and over, it starts causing complications. Yeah?
+
+AUDIENCE: [INAUDIBLE] H of A equals [? A ?] times omega z. So i doesn't have like direction, but you have an [? ixz ?] terms and [? xc ?] term, and you're multiplying it by a vector with an omega z term, so how are you getting an i hat from that?
+
+J. KIM VANDIVER: OK, so I haven't gone into this, and I'm not going to. The [? i ?] matrix is a thing called a tensor. And so this is a convention that you can make it a very mathematical and assigned unit vectors to each of these terms inside, but I haven't done that.
+
+But the convention here is that this, the H, angular momentum is a vector. It consists of three components. It has three potential vector components, Hx in the I, Hy in the j, and Hz in the k directions. And we, in a compact form, say we can express that by multiplying its mass moment of inertia matrix with respect to A times the vector that is its rotation. And I only have one component of this omega, but it is in the k direction.
+
+And when you take this vector multiplied by the top row, that gives you everything that's [? I. ?] You multiply this vector times the second row, it gives you everything is in the j direction, and the result is part of Hy in the j direction. You take this vector, and you multiply it by the third row, it gives you the z-directed components, OK?
+
+So this one, because when we multiply this out what's in this matrix-- is this matrix diagonal? No way. And we move it, and we've gone and done something strange here. It's not diagonal, and when you multiply this times this top row, there's a term here, which is not 0-- shouldn't write 0. Make an x here.
+
+This times this gives you an omega z times that in the i hat direction. OK this term comes from there being something there. OK, and I'm just going to give you a generalization that you can go back and read the Williams handout, which he says, if you want to rotate about some fixed point A. Then you can say that this matrix is equal to the one with respect to G, which in our case is diagonal.
+
+The original one that we had doesn't have to be, but if you pick principal axes, this will be diagonal. Plus M b squared plus c squared minus ab minus ac. It's symmetric. This is a squared plus c squared.
+
+So if we're rotating a system if you know its mass moment of inertia matrix with respect to G [INAUDIBLE] perhaps principal axes, and you want to rotate it about any other point where you've moved it by an a, by a b, by a c, this is essentially the general parallel axis theorem. And you can just plug it in and use that. And you can see what would happen in this case if you multiplied-- if you add these two together, they add term by term.
+
+This goes into this point on. This one adds to this, so in this problem, in our particular problem, this becomes you have an Ixx, Iyy, Izz with respect to G terms. It's diagonal to start with, and then in our problem that we did there, we didn't have a b. No b terms, so the b terms are all 0, but you do end up with a minus ac term over here.
+
+And if you multiply this by 0, 0, omega z, see what happens. You get minus ac in the I direction, and you need an M here. And you come down here, you get the Izz G omega z in the k direction, and that's those two terms. Here they are.
+
+Yeah, oops, I need the plus [? A ?] squared. Yeah?
+
+AUDIENCE: When you move it over to the end of the stick, normally like you're just shifting it parallely, but now there's gravity. Is that why you have those little things?
+
+J. KIM VANDIVER: Say again?
+
+AUDIENCE: So normally, if you just take a stick and you have a principal axis and you can't move that parallel to the end, you wouldn't get all of this but--
+
+J. KIM VANDIVER: Yeah, and if you just move it-- so yeah, I'm glad you asked that question. So normally the types of problems in which we usually use the parallel axis theorem is you've been spinning it around one axis. It's a principal axis, everything's fine, and you want to just move it over, so we do that when we do pendulum problems. Here's the thing around the center, and we just want to know, how does this thing behave?
+
+When we move it up here, it becomes a pendulum, and we would like to compute the angular momentum around this point. We say, oh, we've moved it a distance d. The new mass moment of inertia in the z direction is the original plus Md squared, right?
+
+So when you only make one move, you only have an a, a b, or a c. You never get any of the off-diagonal terms because their products, see? But if you start doing more than one, you've introduced complications, and that's part of the reason I put this up is there's limits to the simple parallel axis theorem, but there is a general way of doing it. Yes?
+
+AUDIENCE: I believe her actual question involved what causes the torques? Is it gravity? For example--
+
+AUDIENCE: Yeah, I was asking why--
+
+AUDIENCE: [INAUDIBLE].
+
+J. KIM VANDIVER: Ah, so what causes these torques when you have two?
+
+AUDIENCE: Yes.
+
+J. KIM VANDIVER: OK, we've talked about this a little bit before. When we calculate the angular momentum, it never involves gravity. Never gets in there, not in the angular momentum expression. So when you go to compute d, the time derivative of the angular momentum, you will not find torques that are caused by gravity. You just can't do them. It's not part-- but are the torques in the System I mean, why just hold this here. There's [? Mg ?] down, and there's a static moment caused by this thing trying to twist this down.
+
+When you sum the torques-- when you do the sum of the torques in the equation, you do your free body diagram, that term will appear. But it is balanced by some physical torque over here that balances it. You just won't find it from doing [? dh ?] dt. It's just part of the static equilibrium of the system.
+
+AUDIENCE: But the reason when you move the pen over, the reason you even have the shift is because of [? gravity? ?]
+
+J. KIM VANDIVER: No, no. So she's asking if is gravity the reason you-- I'm not even quite sure.
+
+AUDIENCE: How did you shift the z component of your [? plan? ?]
+
+J. KIM VANDIVER: OK, so let's just make this a real physical problem. I'm making an airplane engine, and I'm making an airplane with a propeller on it. And the bearing that supports the propeller shaft, if I put it really close to the propeller, OK, then it's doing this, and everything's fine.
+
+What if I extended the propeller shaft? OK, so now the bearing is back here, and now the propeller spins. Does that cause any torques, any loads back here on the bearing because I've extended it? No, and you could prove that just by going through this. You do [? dh ?] dt, and you find out the only torques when it's nice and balanced are those required to drive this propeller in the direction of the axis of rotation.
+
+But as soon as you do something to that propeller, like you mount it off-center, which rarely happens, but if you dinged-- if you broke off the tip of one of the blades of this propeller, you'd now have a propeller that looks like that, right? And now, even in the original system if your bearing is right close, this is spinning around, but is it putting a load? Sure there's a centrifugal force that is going around and around. It has nothing to do with gravity, nothing at all to do with gravity. OK, just because you now have the mass centers out here, it has momentum, the time rate of change of that linear momentum is a force making this thing going in a circle.
+
+OK, now if I extend the propeller shaft so it's like that, and I foolishly designed my airplane so it had a long propeller shaft sticking out there, if there's a little bit of unbalanced in this blade so that you're not spinning about the mass center. You're spinning about some other point. Now that centrifugal force going around is pulling is trying to bend this back and forth around this bearing. And because of the way in which we formulate angular momentum, if you formulate it about that point and take its time derivative, it will reveal those moments. It's really amazing that it can do that for you, but it has [? zero, ?] nothing to do with gravity, OK?
+
+So handy, hard to remember this from just a blackboard presentation, but it's in that second reading by Williams. He does it in a very-- he proves it in a very simple way using the summations of the MI [? RI's ?] and so forth. Proves it in a very simple way, but a very general handy formula that you can use.
+
+OK, so let's have another topic, which I'm not going to do. We've got a few minutes. You have [? money ?] cards. We've been thinking about that. And let's ask questions, yeah?
+
+AUDIENCE: [INAUDIBLE]
+
+J. KIM VANDIVER: Where did I the--
+
+AUDIENCE: The plus [? MA ?] squared and the plus A squared.
+
+J. KIM VANDIVER: Ah, I was doing that kind of fast, and I probably even messed it up, so let me check the-- so I was doing for the example that [? RG/A ?] equals-- we moved it over by ai and up by ck, so and plus 0j. We didn't move it in the j direction, OK? So this is my amount that I've moved it. I've moved it an amount a, and an amount c.
+
+So the Williams formula would say, ah, that new mass moment of inertia matrix with respect to a becomes the original plus-- and now every place there's a b here, it goes to 0. And the remaining bits I add with those, so I should get a M-- whoops, this is a c squared, no second term. The third term is minus Mac. Over here, that one is 0. This one becomes a squared plus c squared--
+
+AUDIENCE: --minus [INAUDIBLE]?
+
+J. KIM VANDIVER: Minus, yep, M.
+
+And this one is minus Mac 0 Izz and a squared plus b squared, so it's just a squared. So this is now correct.
+
+AUDIENCE: [INAUDIBLE]?
+
+J. KIM VANDIVER: Pardon?
+
+AUDIENCE: Times M in the bottom of it?
+
+J. KIM VANDIVER: Yeah, all of these needs M. Ma squared's M, M, M, M, so that's our problem when we did two shifts. But a second we shifted it in two directions, we get these off-diagonal terms, which means that if you are actually making this device rotate about point A, you will get these unbalanced moments-- this dynamically unbalanced. Yeah?
+
+AUDIENCE: Will we be trying to find our [? mass ?] moments of inertia directly, or should we just do [INAUDIBLE] equation and have them fall out like the integral with x times y [? vM? ?] [INAUDIBLE]
+
+J. KIM VANDIVER: He's kind of asking advice in whether or not we ought to be trying to find the inertia matrix about other points, right, like [? the I ?] with respect to A. Where I started today, I said you can basically do all the problems with these three equations, and this doesn't mention parallel axis theorem.
+
+We use this to find, in fact, to solve this problem. We didn't talk parallel axis theorem at all, it just-- the answer dropped out. And if we looked into that careful, we could generalize that. We could work now with that a bit and say, ah, there's a pattern to this. I'll bet this can be recast like this, and it can. So if you know this exists, and you don't want to have to grind through finding these terms that come from here, you can do the problems by finding the mass moment of inertia matrix with respect to A.
+
+You can use this form only when you have fixed axis rotation. The thing is the point A is [? about ?] which this rotation is occurring, then you can write down the formula this directly like that. So you that got to be careful when you apply the parallel axis theorem.
+
+The nice thing about these three forms is they're generally true. Point A can move. Point A can be accelerating. The problem that we did here, point A is accelerating. Not only moving, it's not even an inertial frame. We solved this problem-- this is a non-inertial frame problem. We went right at it and solved it directly, OK?
+
+So I would say, if you have any doubt to answer your question, when you're in doubt just use the formula. And then you will need to find moments of inertia with respect to the center of mass, and it's in your interest to use principal axes because they're easier. Yeah?
+
+AUDIENCE: If you were to say [INAUDIBLE]?
+
+J. KIM VANDIVER: Ah, so if you took the derivative of this, [? dh ?] dt, this one just gives you omega z dot. That's you're spin in the direction of rotation. This term, that unit vector rotates. This gives you two terms-- gives you an i term, omega dot i, and it gives you an omega j term, OK? And what those are, those are two torques.
+
+This problem, there's a torque caused by the centrifugal force trying to bend this in the j direction. And if this is accelerating, you know, a theta double dot term, there is a torque trying to bend this thing backwards. OK, get them both.
+
+All right [? money ?] cards and see you on Thursday. Thursday we're going to do a nasty problem, and it is it a lead in to a problem. You can do the same problem extraordinarily easily using energy. And that's kind of the purpose of doing it, so you see both ways of doing it.
+
+[[Tipping box problem-alternative form of Eulers equation]]
+Print This Document
+
+OK, got it figured out. So we've talked a little tiny bit about parallel axis theorem, and so I'm going to consider this a slender rod. I can spin it about one of its printable axes and calculate its angular momentum of whatever I need, and if I move it over to an axis that's-- I just move it over by a little bit. Let's say this is the x-axis here in my body, and this is the z, so it's at omega z.
+
+And I move my point and around which I am rotating over by a small amount A, and that's this distance between these two holes. And by parallel axis theorem, we could say, well, now there's a mass moment of inertia with respect to A, which is the mass moment of inertia with respect to g, which is [? Ml ?] squared over 12, if this is the length, plus the mass times this distance squared. We know how to do that.
+
+But now what happens if I take this stick, my slender rod, and here's my original x, y, z. And I want to move it, my point A, my stick now I'm going to move it over by an amount a and up by an amount c so that it's now up here with respect to this point. So this stick has been like this, and now I'm going to then rotate it about that. That's the simple case. Now I want to rotate it about this axis when it's moved over to like that.
+
+So not only have I moved it-- so here's the original problem-- like this, but now I move it up and over-- maybe I'll do it there-- and now I spin it. And I'm interested in angular momentum about this point, so now it's dynamically unbalanced for sure. This thing is trying to wobble, and it's been pushed up and over, so is there a way to get-- how do we solve that problem? How do we compute the torques for this problem?
+
+Well, we could try to go at it with parallel access to start with, but you don't know how to do that in general for this problem. So what do we go to? We go back to those three equations, and just start there, and it'll all fall out.
+
+I'm going to do this kind of briefly for this problem, so I want to compute H with respect to A H with respect to G plus RG with respect to A cross P. And now this is [? RG/A ?] is this vector here, that position vector, OK? And the only rotation is omega z. This is our z-axis.
+
+So I can write this as Izz with respect to G, 0, 0, omega z plus my [? RG/A ?] cross P/o, and that in this problem-- let's get the vector right this time-- it's a in the i direction plus c in the k direction cross. Now we need to know what's P with respect to o, but that's just the velocity of this so the center of mass, which is now here. The velocity is omega cross r, so when you do that-- you've done that problem lots of times-- it's this distance, so perpendicular distance [? across ?] k. It's got to be going into the board if it's spinning like this. We know the answer's got to come out plus j, and it's r-- it's A omega z in the j-direction cross Ma omega z, but it is in the j hat direction.
+
+That's your linear momentum, and this is [? RG/A ?] cross with a linear momentum. This here is M velocity of G here with respect to o. That's this term, so we carry out this calculation and we get-- and I need a j, OK. So i cross j gives me a k, so I'll get 2, and this is a diagonal matrix because we began with a set of principal axes for our stick, so this term is Izz with respect to G. I shouldn't have written zz here, just i with respect to z.
+
+We multiply this out. We pick up just this term omega z k hat plus i cross j is k, so that's Ma squared omega [? zk, ?] and k cross j is minus i minus M ac omega z in the i hat direction. So this is my angular momentum, and reminding, it is a vector. This has got components in the k and the i directions.
+
+I've rewritten it here. This also could be written-- this H with respect to A is I with respect to A times the rotation vector. If we had just set out with this problem, and said we're going-- if we know the mass moment of inertia matrix computed with respect to this point and multiplied it by our rotation rate vector, we should have gotten the same answer. So we didn't do that. We just worked it out using just this formula, but we've essentially discovered the answer.
+
+This is the rotation around k. This is the Izz term with respect to A, and it really looks like the familiar parallel axis piece. It's the amount that you moved this axis over, and the axis you're spinning around, you moved it over A. And you know the parallel axis theorem just says add Ma squared, and you've got the answer.
+
+But we also moved it up, and it gave us another term. What do you suppose in that term is? So this is Izz with respect to A, this term. By parallel axis theorem, you're familiar with it. This one is I, and this is xz with respect in the A coordinate system.
+
+OK, we've created-- we've made this thing unbalanced. The angular momentum vector no longer points in the same direction as the rotation. It has a k component and an I component, and sure enough, when I spend that thing like that, I feel that additional torque out around my hand down here where I'm holding it. This thing is going-- trying to pull it back and forth. So we have essentially just shown-- we have just arrived at a more complicated parallel axis theorem by just using this basic formula.
+
+So Williams in the dynamics-- that second handout from Williams has actually given us a general formulation for parallel axis theorem. So this is just handy to know. I'll just give it to you, and if you have a problem some day, where you just like to go directly to this statement, so now I'm just going to say, in general, we could have moved over by A, up by c and actually into the board by b, so x, I'm moving A. y, I'm moving b. z, I'm moving c. OK, so you could have all those possible moves of the new point about which you're rotating. Yes?
+
+AUDIENCE: For the [INAUDIBLE] matrix i with respect to A, does that mean that you're rotating about point A? Or what is it--
+
+J. KIM VANDIVER: You are rotating about point A.
+
+AUDIENCE: OK. But isn't point A just the [? immersion? ?]
+
+J. KIM VANDIVER: Let me think. I'm trying to think of a good way to-- when you started this problem, we're spending about the middle-- about G, OK? And we can calculate angular momentum of this object with respect to G and learn some things, right? But now we've built a different device. This is an object now that is, in fact, spinning.
+
+Let's imagine it's a fan blade, and you've broken one blade off. The motor is here. A proper fan blade would have blades on both sides, so it's nice and balanced. The shaft has some length and it sticks out, and now you break off one of the blades. And so you have a system that's doing this, but this is going to put a lot of unusual loads on this point down here.
+
+So it is rotating at the same rotation rate about this point, but it is now a system whose center of mass is over here, and it's up. It's above this point, and it's out from this point, the center of mass. And now you compute the angular momentum with this point, and take its time derivative, you will find all the torques required to make this happen.
+
+AUDIENCE: [INAUDIBLE]?
+
+J. KIM VANDIVER: A little louder.
+
+AUDIENCE: The movement A, [? i-hat ?] Mc [? k-hat ?] [INAUDIBLE]
+
+J. KIM VANDIVER: Movement that you've moved the center of mass away from this axis of rotation. And you've moved it up and over. So actually, let's think about that for a minute.
+
+This is our beginning point, right? We're at G. If I just move it up, does it cause any problems? It's still balanced, and you'll find out that nothing's happened in this problem. H with respect to A is the same as it was before. But now you move it up and over, it starts causing complications. Yeah?
+
+AUDIENCE: [INAUDIBLE] H of A equals [? A ?] times omega z. So i doesn't have like direction, but you have an [? ixz ?] terms and [? xc ?] term, and you're multiplying it by a vector with an omega z term, so how are you getting an i hat from that?
+
+J. KIM VANDIVER: OK, so I haven't gone into this, and I'm not going to. The [? i ?] matrix is a thing called a tensor. And so this is a convention that you can make it a very mathematical and assigned unit vectors to each of these terms inside, but I haven't done that.
+
+But the convention here is that this, the H, angular momentum is a vector. It consists of three components. It has three potential vector components, Hx in the I, Hy in the j, and Hz in the k directions. And we, in a compact form, say we can express that by multiplying its mass moment of inertia matrix with respect to A times the vector that is its rotation. And I only have one component of this omega, but it is in the k direction.
+
+And when you take this vector multiplied by the top row, that gives you everything that's [? I. ?] You multiply this vector times the second row, it gives you everything is in the j direction, and the result is part of Hy in the j direction. You take this vector, and you multiply it by the third row, it gives you the z-directed components, OK?
+
+So this one, because when we multiply this out what's in this matrix-- is this matrix diagonal? No way. And we move it, and we've gone and done something strange here. It's not diagonal, and when you multiply this times this top row, there's a term here, which is not 0-- shouldn't write 0. Make an x here.
+
+This times this gives you an omega z times that in the i hat direction. OK this term comes from there being something there. OK, and I'm just going to give you a generalization that you can go back and read the Williams handout, which he says, if you want to rotate about some fixed point A. Then you can say that this matrix is equal to the one with respect to G, which in our case is diagonal.
+
+The original one that we had doesn't have to be, but if you pick principal axes, this will be diagonal. Plus M b squared plus c squared minus ab minus ac. It's symmetric. This is a squared plus c squared.
+
+So if we're rotating a system if you know its mass moment of inertia matrix with respect to G [INAUDIBLE] perhaps principal axes, and you want to rotate it about any other point where you've moved it by an a, by a b, by a c, this is essentially the general parallel axis theorem. And you can just plug it in and use that. And you can see what would happen in this case if you multiplied-- if you add these two together, they add term by term.
+
+This goes into this point on. This one adds to this, so in this problem, in our particular problem, this becomes you have an Ixx, Iyy, Izz with respect to G terms. It's diagonal to start with, and then in our problem that we did there, we didn't have a b. No b terms, so the b terms are all 0, but you do end up with a minus ac term over here.
+
+And if you multiply this by 0, 0, omega z, see what happens. You get minus ac in the I direction, and you need an M here. And you come down here, you get the Izz G omega z in the k direction, and that's those two terms. Here they are.
+
+Yeah, oops, I need the plus [? A ?] squared. Yeah?
+
+AUDIENCE: When you move it over to the end of the stick, normally like you're just shifting it parallely, but now there's gravity. Is that why you have those little things?
+
+J. KIM VANDIVER: Say again?
+
+AUDIENCE: So normally, if you just take a stick and you have a principal axis and you can't move that parallel to the end, you wouldn't get all of this but--
+
+J. KIM VANDIVER: Yeah, and if you just move it-- so yeah, I'm glad you asked that question. So normally the types of problems in which we usually use the parallel axis theorem is you've been spinning it around one axis. It's a principal axis, everything's fine, and you want to just move it over, so we do that when we do pendulum problems. Here's the thing around the center, and we just want to know, how does this thing behave?
+
+When we move it up here, it becomes a pendulum, and we would like to compute the angular momentum around this point. We say, oh, we've moved it a distance d. The new mass moment of inertia in the z direction is the original plus Md squared, right?
+
+So when you only make one move, you only have an a, a b, or a c. You never get any of the off-diagonal terms because their products, see? But if you start doing more than one, you've introduced complications, and that's part of the reason I put this up is there's limits to the simple parallel axis theorem, but there is a general way of doing it. Yes?
+
+AUDIENCE: I believe her actual question involved what causes the torques? Is it gravity? For example--
+
+AUDIENCE: Yeah, I was asking why--
+
+AUDIENCE: [INAUDIBLE].
+
+J. KIM VANDIVER: Ah, so what causes these torques when you have two?
+
+AUDIENCE: Yes.
+
+J. KIM VANDIVER: OK, we've talked about this a little bit before. When we calculate the angular momentum, it never involves gravity. Never gets in there, not in the angular momentum expression. So when you go to compute d, the time derivative of the angular momentum, you will not find torques that are caused by gravity. You just can't do them. It's not part-- but are the torques in the System I mean, why just hold this here. There's [? Mg ?] down, and there's a static moment caused by this thing trying to twist this down.
+
+When you sum the torques-- when you do the sum of the torques in the equation, you do your free body diagram, that term will appear. But it is balanced by some physical torque over here that balances it. You just won't find it from doing [? dh ?] dt. It's just part of the static equilibrium of the system.
+
+AUDIENCE: But the reason when you move the pen over, the reason you even have the shift is because of [? gravity? ?]
+
+J. KIM VANDIVER: No, no. So she's asking if is gravity the reason you-- I'm not even quite sure.
+
+AUDIENCE: How did you shift the z component of your [? plan? ?]
+
+J. KIM VANDIVER: OK, so let's just make this a real physical problem. I'm making an airplane engine, and I'm making an airplane with a propeller on it. And the bearing that supports the propeller shaft, if I put it really close to the propeller, OK, then it's doing this, and everything's fine.
+
+What if I extended the propeller shaft? OK, so now the bearing is back here, and now the propeller spins. Does that cause any torques, any loads back here on the bearing because I've extended it? No, and you could prove that just by going through this. You do [? dh ?] dt, and you find out the only torques when it's nice and balanced are those required to drive this propeller in the direction of the axis of rotation.
+
+But as soon as you do something to that propeller, like you mount it off-center, which rarely happens, but if you dinged-- if you broke off the tip of one of the blades of this propeller, you'd now have a propeller that looks like that, right? And now, even in the original system if your bearing is right close, this is spinning around, but is it putting a load? Sure there's a centrifugal force that is going around and around. It has nothing to do with gravity, nothing at all to do with gravity. OK, just because you now have the mass centers out here, it has momentum, the time rate of change of that linear momentum is a force making this thing going in a circle.
+
+OK, now if I extend the propeller shaft so it's like that, and I foolishly designed my airplane so it had a long propeller shaft sticking out there, if there's a little bit of unbalanced in this blade so that you're not spinning about the mass center. You're spinning about some other point. Now that centrifugal force going around is pulling is trying to bend this back and forth around this bearing. And because of the way in which we formulate angular momentum, if you formulate it about that point and take its time derivative, it will reveal those moments. It's really amazing that it can do that for you, but it has [? zero, ?] nothing to do with gravity, OK?
+
+So handy, hard to remember this from just a blackboard presentation, but it's in that second reading by Williams. He does it in a very-- he proves it in a very simple way using the summations of the MI [? RI's ?] and so forth. Proves it in a very simple way, but a very general handy formula that you can use.
+
+OK, so let's have another topic, which I'm not going to do. We've got a few minutes. You have [? money ?] cards. We've been thinking about that. And let's ask questions, yeah?
+
+AUDIENCE: [INAUDIBLE]
+
+J. KIM VANDIVER: Where did I the--
+
+AUDIENCE: The plus [? MA ?] squared and the plus A squared.
+
+J. KIM VANDIVER: Ah, I was doing that kind of fast, and I probably even messed it up, so let me check the-- so I was doing for the example that [? RG/A ?] equals-- we moved it over by ai and up by ck, so and plus 0j. We didn't move it in the j direction, OK? So this is my amount that I've moved it. I've moved it an amount a, and an amount c.
+
+So the Williams formula would say, ah, that new mass moment of inertia matrix with respect to a becomes the original plus-- and now every place there's a b here, it goes to 0. And the remaining bits I add with those, so I should get a M-- whoops, this is a c squared, no second term. The third term is minus Mac. Over here, that one is 0. This one becomes a squared plus c squared--
+
+AUDIENCE: --minus [INAUDIBLE]?
+
+J. KIM VANDIVER: Minus, yep, M.
+
+And this one is minus Mac 0 Izz and a squared plus b squared, so it's just a squared. So this is now correct.
+
+AUDIENCE: [INAUDIBLE]?
+
+J. KIM VANDIVER: Pardon?
+
+AUDIENCE: Times M in the bottom of it?
+
+J. KIM VANDIVER: Yeah, all of these needs M. Ma squared's M, M, M, M, so that's our problem when we did two shifts. But a second we shifted it in two directions, we get these off-diagonal terms, which means that if you are actually making this device rotate about point A, you will get these unbalanced moments-- this dynamically unbalanced. Yeah?
+
+AUDIENCE: Will we be trying to find our [? mass ?] moments of inertia directly, or should we just do [INAUDIBLE] equation and have them fall out like the integral with x times y [? vM? ?] [INAUDIBLE]
+
+J. KIM VANDIVER: He's kind of asking advice in whether or not we ought to be trying to find the inertia matrix about other points, right, like [? the I ?] with respect to A. Where I started today, I said you can basically do all the problems with these three equations, and this doesn't mention parallel axis theorem.
+
+We use this to find, in fact, to solve this problem. We didn't talk parallel axis theorem at all, it just-- the answer dropped out. And if we looked into that careful, we could generalize that. We could work now with that a bit and say, ah, there's a pattern to this. I'll bet this can be recast like this, and it can. So if you know this exists, and you don't want to have to grind through finding these terms that come from here, you can do the problems by finding the mass moment of inertia matrix with respect to A.
+
+You can use this form only when you have fixed axis rotation. The thing is the point A is [? about ?] which this rotation is occurring, then you can write down the formula this directly like that. So you that got to be careful when you apply the parallel axis theorem.
+
+The nice thing about these three forms is they're generally true. Point A can move. Point A can be accelerating. The problem that we did here, point A is accelerating. Not only moving, it's not even an inertial frame. We solved this problem-- this is a non-inertial frame problem. We went right at it and solved it directly, OK?
+
+So I would say, if you have any doubt to answer your question, when you're in doubt just use the formula. And then you will need to find moments of inertia with respect to the center of mass, and it's in your interest to use principal axes because they're easier. Yeah?
+
+AUDIENCE: If you were to say [INAUDIBLE]?
+
+J. KIM VANDIVER: Ah, so if you took the derivative of this, [? dh ?] dt, this one just gives you omega z dot. That's you're spin in the direction of rotation. This term, that unit vector rotates. This gives you two terms-- gives you an i term, omega dot i, and it gives you an omega j term, OK? And what those are, those are two torques.
+
+This problem, there's a torque caused by the centrifugal force trying to bend this in the j direction. And if this is accelerating, you know, a theta double dot term, there is a torque trying to bend this thing backwards. OK, get them both.
+
+All right [? money ?] cards and see you on Thursday. Thursday we're going to do a nasty problem, and it is it a lead in to a problem. You can do the same problem extraordinarily easily using energy. And that's kind of the purpose of doing it, so you see both ways of doing it.
+
+[[Question and answer period]]
+Print This Document
+
+so let's have another topic, which I'm not going to do. We've got a few minutes. You have [? money ?] cards. We've been thinking about that. And let's ask questions, yeah?
+
+AUDIENCE: [INAUDIBLE]
+
+J. KIM VANDIVER: Where did I the--
+
+AUDIENCE: The plus [? MA ?] squared and the plus A squared.
+
+J. KIM VANDIVER: Ah, I was doing that kind of fast, and I probably even messed it up, so let me check the-- so I was doing for the example that [? RG/A ?] equals-- we moved it over by ai and up by ck, so and plus 0j. We didn't move it in the j direction, OK? So this is my amount that I've moved it. I've moved it an amount a, and an amount c.
+
+So the Williams formula would say, ah, that new mass moment of inertia matrix with respect to a becomes the original plus-- and now every place there's a b here, it goes to 0. And the remaining bits I add with those, so I should get a M-- whoops, this is a c squared, no second term. The third term is minus Mac. Over here, that one is 0. This one becomes a squared plus c squared--
+
+AUDIENCE: --minus [INAUDIBLE]?
+
+J. KIM VANDIVER: Minus, yep, M.
+
+And this one is minus Mac 0 Izz and a squared plus b squared, so it's just a squared. So this is now correct.
+
+AUDIENCE: [INAUDIBLE]?
+
+J. KIM VANDIVER: Pardon?
+
+AUDIENCE: Times M in the bottom of it?
+
+J. KIM VANDIVER: Yeah, all of these needs M. Ma squared's M, M, M, M, so that's our problem when we did two shifts. But a second we shifted it in two directions, we get these off-diagonal terms, which means that if you are actually making this device rotate about point A, you will get these unbalanced moments-- this dynamically unbalanced. Yeah?
+
+AUDIENCE: Will we be trying to find our [? mass ?] moments of inertia directly, or should we just do [INAUDIBLE] equation and have them fall out like the integral with x times y [? vM? ?] [INAUDIBLE]
+
+J. KIM VANDIVER: He's kind of asking advice in whether or not we ought to be trying to find the inertia matrix about other points, right, like [? the I ?] with respect to A. Where I started today, I said you can basically do all the problems with these three equations, and this doesn't mention parallel axis theorem.
+
+We use this to find, in fact, to solve this problem. We didn't talk parallel axis theorem at all, it just-- the answer dropped out. And if we looked into that careful, we could generalize that. We could work now with that a bit and say, ah, there's a pattern to this. I'll bet this can be recast like this, and it can. So if you know this exists, and you don't want to have to grind through finding these terms that come from here, you can do the problems by finding the mass moment of inertia matrix with respect to A.
+
+You can use this form only when you have fixed axis rotation. The thing is the point A is [? about ?] which this rotation is occurring, then you can write down the formula this directly like that. So you that got to be careful when you apply the parallel axis theorem.
+
+The nice thing about these three forms is they're generally true. Point A can move. Point A can be accelerating. The problem that we did here, point A is accelerating. Not only moving, it's not even an inertial frame. We solved this problem-- this is a non-inertial frame problem. We went right at it and solved it directly, OK?
+
+So I would say, if you have any doubt to answer your question, when you're in doubt just use the formula. And then you will need to find moments of inertia with respect to the center of mass, and it's in your interest to use principal axes because they're easier. Yeah?
+
+AUDIENCE: If you were to say [INAUDIBLE]?
+
+J. KIM VANDIVER: Ah, so if you took the derivative of this, [? dh ?] dt, this one just gives you omega z dot. That's you're spin in the direction of rotation. This term, that unit vector rotates. This gives you two terms-- gives you an i term, omega dot i, and it gives you an omega j term, OK? And what those are, those are two torques.
+
+This problem, there's a torque caused by the centrifugal force trying to bend this in the j direction. And if this is accelerating, you know, a theta double dot term, there is a torque trying to bend this thing backwards. OK, get them both.
+
+All right [? money ?] cards and see you on Thursday. Thursday we're going to do a nasty problem, and it is it a lead in to a problem. You can do the same problem extraordinarily easily using energy. And that's kind of the purpose of doing it, so you see both ways of doing it.
+

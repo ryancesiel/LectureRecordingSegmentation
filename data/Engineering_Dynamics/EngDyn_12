@@ -1,0 +1,1113 @@
+[[Four classes of rotational problems]]
+Print This Document
+
+PROFESSOR: OK, let's get on with today's lecture. And I want to look at a variety of different problems, different classes of problems. We're going to look at four different classes of problems and talk about the way you'd go about approaching them. We need very few fundamental laws. We use the same fundamental laws again and again.
+
+And the issue is really, how do you go about applying them? One is the sum-- this fundamental law's for rigid bodies. So the fundamental laws, they're always true. The sum of the external forces, vectors. Time-rated change of the momentum of the system with respect to an inertial frame. And we recognize this mass times acceleration. Newton's second law.
+
+The other one is the summation of external torques. And that one is the time derivative of angular momentum with respect to a point which you choose-- this is an A-- plus the velocity of A with respect to the inertial frame crossed with the momentum with respect to the inertial frame. So that's the torque equation.
+
+Now we have two special cases of this where the second term goes away. One is when you are at the center of gravity, in which case by definition the velocity of that point and the momentum are in the same direction, the cross product disappears. So there's two special cases we use all the time when it simplifies to that.
+
+One is when you're at the center of gravity. The other is when, for whatever reason, this velocity is parallel to that, and the cross product goes to zero. And sometimes the velocity is just plain zero. So there's some certain cases that we use lots of times when that term goes away. But sometimes it doesn't. You just have to put up with it.
+
+So those are our two fundamental laws. And the question really is how to go about applying them. So I'm going to look at four classes of problems. Let's name them right now. Pure-- and we'll do simplest to hardest-- pure rotation about a fixed axis through G, through the center of mass. Pretty trivial. We can all do those kind of problems.
+
+A second class, pure rotation about a fixed axis at A, which is not equal to G not at the center of mass. Again, pretty simple problems. Third class, no external-- I'll call it no external constraints.
+
+We'll have to give an example to see what I really mean. Well, I'll give you an example right now, which we'll do. You have this hockey puck with a string attached to it force. And this whole thing is on a frictionless surface. So it's constrained so it can't go through the surface. So no external constraints in the direction that the motion can happen.
+
+So this is a 2D problem. Can move in the x, y, and rotation. But it's not touching. There's no things constraining it in the directions of movement, which are allowed in the problem. That's just too much words to write up here. So this kind of problem.
+
+And the fourth are problems with moving points of constraint. You won't see a textbook with sections broken out like this. I'm using my own terminology. I just made it up last night as I was finishing off the lecture. But I'm trying to give you some insight, and this is the way I think about these things.
+
+So let's quickly go through examples from the first couple of types because they're especially easy. So what are we saying? They're pure rotation about a fixed axis through G. Center of mass is somewhere along this axle. The axle is fixed so object can spin around it.
+
+And these kind of problems are particularly simple, so I'm not going to dwell on them. But here's class one, class one problems. And it's basically-- these are rotors, typically rotors, of almost all kinds. So for these problems, you use momentum, angular momentum, with respect to the center of mass.
+
+You can express it as IG times omega x, omega y, omega z. All these problems can be expressed with a moment of inertia matrix times the rotation vector. And it will give you HX, HY, HZ. And you can use that second formula up there. The torques are dH dt. So it's fixed through G. So the second term doesn't appear.
+
+So to do these problems, the sum of the-- see, I'll just give an example here. For 2D planar motion, they get especially simple. Then, for 2D planar motion, that means omega here is 0, 0, and we'll let z be the rotation axis. And this H then with respect to G just becomes Izz omega z. All those 2D planar motion problems boil down to this. And dHG dt then is Izz with respect to G omega z do, or more familiar notation.
+
+So all those planar motion problems, axis passing through G like this. For those problems, does this matrix have to be with respect to principal axes? Do you have your XYZ coordinate system? To do this style of problem, does that actually have to be expressed in principle coordinates so that it's diagonal?
+
+It doesn't have to be. You're worried about rotation about z. You'll find that that statement's still always true. Now, there may be-- the thing could definitely have imbalances and have unusual other torques. That will fall out in the problem. But for the motion around the axis of spin, this [INAUDIBLE]. Where you only have a 1 omega z component, just the one component, you will get-- it'll work out just fine. Yeah.
+
+AUDIENCE: If you do have some kind of Ixz and Iyz terms, you would end up with more--
+
+PROFESSOR: You will end up with-- first of all, if you have the off-diagonal z terms, xz, yz terms, when you multiply that out, you will find components of H that are in the z direction as well as perhaps in the x and y. And those other two components tell you that H is not pointing in the same direction as omega, right? And that it tells you instantly that the thing is dynamically unbalanced and will have other torques that are trying to bend that axle. So they'll always appear. All right.
+
+Let's move on. I want to make sure we get through this today. Class two problems. These are basically-- these are the pure rotation around some point that's not through G. And again now, this is a fixed-- key here is fixed axis at A. It's not moving. This is what makes these problems simpler. For these kinds of problems, you do the sum of the torques with respect to A, the external torques.
+
+And because that point's fixed, the second terms don't appear, the v cross p terms. And you can write these as I, a moment of inertia matrix, times whatever the rotations are. In order to define the mass moment of inertia matrix, you must have chosen a set of coordinates attached to the body.
+
+And then with those coordinates, you've computed the moments of inertia for the body. And if you chose wisely, you get principal coordinates and you only get diagonal entries on the matrix. If you chose unwisely, you will get other stuff. But it's still a valid mass moment of inertia matrix. It just gives rise-- you have to deal with a bunch of other terms.
+
+So this will still yield the same answer. How do you get I with respect to A? These are opportunities when you can use parallel axis. Yeah.
+
+AUDIENCE: Isn't I omega just H dot dH dt?
+
+PROFESSOR: Excuse me. You need to finish that out. This is H. So the time derivative of H is the time derivative of this expression. You have to figure out the moments of inertia and the rotation rates. And you may get multiple terms, only one of which-- let's say that this will work out. You will get multiple terms.
+
+You will get torques that are not in the direction of spin. Again, these might be unbalanced. On the other hand, it may be, for 2D problems, which is common-- so for the 2D planar motion, which most of the problems we do are, then what you would do is you're saying omega is, say, 0, 0, omega z, which simplifies that.
+
+We're multiplying this thing out quite a lot. And if I with respect to G is diagonal, then that means you your G you chose principal axes. But then how do you get to I with respect to A? For 2D problems, really simple ones, how do you get to I with respect to A?
+
+AUDIENCE: Parallel axis.
+
+PROFESSOR: That's the classic case for using the parallel axis theorem. So for these 2D planar motion problems-- and planar motion problems, then you can use parallel axis. I'll do an example. So this is kind of the set up for this.
+
+An example of this on the homework. What problem on the homework is just perfect for this? It's 2D, planar motion, about a fixed point.
+
+AUDIENCE: Circle with the square cutout.
+
+PROFESSOR: Yeah, the cylinder, this [INAUDIBLE] disk with the square cutout with the pin at the top turning it into a pendulum. That's the fixed point. You can figure this out. You can use parallel axis. And we're going to do an example right now that's almost identical to that problem. And we started it last time. So the example I want to work is very similar. It's basically this problem is that pendulum.
+
+So let's just work it through quickly. We had done the setup last time. So last time I basically derived an example of the parallel axis theorem for my little stick here. And I'll give you some geometry, some values. So here's G. There's the point I wanted to rotate about, A. The distance between these two points is d. That's going to pop up in my parallel axis theorem.
+
+We've got a set of coordinates here. My G is, of course, in the center of this thing, the geometric center. So I have a body fixed set of axes, which I'm going to call z. And my x is in this direction. So that would make my y going into the board. So the y is kind of like that. And this has some properties. The dimension in this direction means A. The direction in this dimension is B. So it's a width of A, a thickness B, and a length L.
+
+So when you compute, these are-- ah, symmetry now. So the axes that I've chosen for this problem are they principal axes. There's three planes of symmetry in this problem, and I've got one principal axis perpendicular to every one of them. And all three pass through the center of mass, and they're orthogonal to one another. So those conditions are all satisfied for these to be principal axes for this rectangular body and its uniform density.
+
+So I'll give you the-- for bodies like this, in your book or any book on dynamics, you can look up then the properties, the Izz. And we're going to spin this thing. This thing, we're going to have it rotating about-- which one am I going to use? Yeah, around the z-axis. That's how I'll set it up. That's the way I drilled my hole, so it's going back and forth. So that the wide part of it's this way.
+
+So Izz with respect to G M L squared plus a squared over 12. Iyy. OK, now just to make a point, the dimensions L 32.1 centimeters, a 4.71, b, 1.25. And eventually my d, this offset would be, for example, where I've drilled that hole, is at 10.2.
+
+The point I want to make here, lots of times it would be nice if I could just make the simplification to call this a slender rod and be able to ignore these a and b dimensions in this, just to get quick answers. Do you think that's slender enough? It's not even 10 times-- the length of the width here isn't even 10. It's probably six or seven. So the key issue then, if you look at this, is really what's the ratio of a squared to L squared? That would tell you something about the relative importance of the a squared term to the L squared. So let me tell you about that.
+
+So a squared over L squared is 0.022. b squared over L squared is 0.002. So even with this kind of fat stick, the approximation of ML squared over 12 is pretty good. It's only 2% off. And this approximation, L squared over 12, is less than 2/10 of a percent off. So for roughly slender things, we oftentimes just say ML squared over 12 for spin about their center.
+
+We now need to apply parallel axis. I want to spin this around, let this rotate around, not around G, but now around a point off to the side. So we worked out last time that Izz with respect to A is IzzG plus Md squared. So in this particular problem, this Izz about G is approximately ML squared over 12.
+
+So just by way of example, to see what we might find out here, is let's let d equal L/2. That would be if I move this-- if I put my hole right at the very top, how would this thing behave? I don't have a hole right at the top, but I have one close. So this is just because the numbers are easy to work. What happens if you put in L/2 into this formula? Well then IzzA is ML squared over 12 plus M. L over 2 squared is L squared over 4. And that's ML squared over 3, which is a number you'll run into again and again and again in mechanical engineering because examples like this are used a lot. The mass moment of inertia about a slender rod pinned at its end, ML squared over 3.
+
+So let's take this problem a little more towards completion. The sum of the external moments with respect to A dHA dt. And that's going to be d by dt. In this problem, the only rotation is omega z. So this is going to be Izz with respect to A omega z. And that just gives us IzzA omega z dot, or more familiar, IzzA theta double bond, if you want.
+
+Here's our problem. It simplifies to this slender rod. And let me do the more general case. Here's my rod. The pivot point that it's going around is here. This is d still, and this is G. And it's swinging with respect to this point. So here's the angle theta. So it swings about this point that you've fixed, and that point is d above the center of gravity, center of mass.
+
+So what are the external moments about this point? There's no torque right at the point, but our free body diagram of drawing this as a-- here's our point of rotation. Here it is displaced through an angle theta. The weight of the object can all be concentrated, thought of, for the purposes of the free body diagram as acting through G.
+
+So here's the mass at G, gravity acting down on it. And the length of this arm here about which it's swinging is D. So the torque about this is-- and it's pulling it back-- minus Mgd sine theta. Probably you've seen that many times before, including the recent homework. And that must be equal to Izz about A theta double dot. So we have an equation of motion. Just collecting the terms together.
+
+So this is a oscillator that, for this problem, has no external excitation. This is its equation of motion. And I need theta double dot. But is it linear? Is it linear? No, it's not a linear equation of motion. But for sure, it is an oscillator. And for anything that vibrates, you can have lots of nonlinear problems that exhibit vibration. You can think of them-- you can pose problems where you say, OK, what's their static equilibrium position?
+
+And think of a very small motion about that static equilibrium position. You can always linearize about the static equilibrium position and be able to come up with a linearized equation of motion that at least from that you can calculate the natural frequency of the system for small motions around its static equilibrium position. So in this case, it's pretty easy to do.
+
+And you've seen it before for small theta. Sine theta is approximately equal to theta. So we are going to linearize the equation. This theta equals 0 is a static equilibrium position. So we're linearizing around 0. And around 0, that's the approximation. So you just substitute that in, IzzA theta double dot plus Mgd theta equals 0. There's your linearized equation of motion. I want an estimate of the natural frequency. So find omega n.
+
+So this is basically entering into solving differential equations. But I let mother nature tell me what the answer is. I do the example, and I say it oscillates. Looks a lot like sine omega t to me. Plug in [INAUDIBLE] to make a t. Let's find out. Some theta amplitude sine omega t. Plug it in. So you plug that in [INAUDIBLE] and you get minus omega squared IzzA plus Mgd. And all of this, you can factor out the theta 0 sine omega t equals 0. That's what you get. And in general, theta, that's not 0, or else you'd have a trivial problem, not moving at all. But in order for this equation-- and this can be anything. We're doing the 0 minus 1 and plus 1 depending on the time. So in order to satisfy this equation, this part inside of the parentheses has to be 0. And when you just solve that, you find that omega squared equals Mgd/IzzA.
+
+And the reason I've gone to the bother of working this out in detail right to the end is that every one degree of freedom rotational oscillator that you will ever encounter-- sticks, wheels with static imbalances. Let me show you this one. It's an oscillator too. Any one degree of freedom oscillator, rotational oscillator, pendulum-- basically all pendula-- this is the formula for the natural frequency.
+
+So it's going to be of that form for any pendulum. So any 1dof pendulum. This is the generic answer. So that cutout problem for today has to come down to this. Or this is the distance between the mass center and the point of rotation. And that's your mass moment of inertia about the point of rotation. So that's worth knowing that one.
+
+OK, keep moving. Now things will begin to get interesting. These latter two classes are harder conceptually, but once you have a solution method for them, they're not all that hard. This one is the problem I described at the beginning. We've got this hockey puck like thing. And the string wrapped around it pulling on it with a known force. In this problem, they call it 150 newtons.
+
+The mass of this thing is 75 kilograms. It's on a frictionless surface. And we want to find its acceleration of the center of mass and the rotation around the center of mass. So find theta double dot and find the linear acceleration. That's basically the name of the problem. And they give you that it's 75 kilograms, 150 newtons, and kappa, the radius of gyration, is 0.15 meters.
+
+This is defined as the radius of gyration. So what's that? It's a radius of gyration. It's really appropriate, really only useful, for mostly 2D rotational problems around an axis of rotation. And what it means is this is the distance away from the center of rotation at which you could concentrate all of the mass and have the same mass moment of inertia.
+
+So this has-- here's G here at the center, uniform disk. We know that there is an Izz about G for this problem. And I need to pick a coordinate system so we can talk about things here. Let me get M out of the center. So I'm going to let z be upwards. And because I'm looking ahead and want to keep the equation simple, I'm going to make my x-axis here parallel to f so I only have to deal with one vector component equation.
+
+And then that makes the y-axis this way. So I'm interested in Izz because I'm spinning around the z-axis. I know that for a uniform disk, that's a principal axis, is the vertical one. And what I'm saying is that you can then set find. There's an IzzG that can be expressed as M kappa squared. So kappa, in effect, is just IzzG over M square root.
+
+Now, why do we use that kind of thing? Well, the way this problem was set up-- I actually took it out of a book. It wasn't a uniform disk. It's a pulley wheel or something. And it's got spokes in here and a rim. It's still axially-- it still has some axial symmetries.
+
+But it's getting a little messy. It's hard for you-- you can't just say that's MR squared over 2. It's got some other mass moment of inertia about the center. But it's got holes and stuff in it because of the spokes. So oftentimes, you'll be given the radius of gyration because it's a little difficult to give you a mathematical description of what the actual Izz is.
+
+That's often why you do it. And the thing is, you can measure. Rather than try to calculate, you can actually just measure the mass moment of inertia of something. So how would I measure-- let's say I didn't know any formulas, but how would I measure the mass moment of inertia of this in the z direction? What experiment would you do?
+
+AUDIENCE: [INAUDIBLE] angular acceleration.
+
+PROFESSOR: She says apply torque. Measure the angular acceleration. Hang a weight off of it, known weight. Wrap a string around it. Known mass. Known G. Known torque around the center. Measure the angular acceleration. I theta double dot equals the torque. You know the torque, you know the measure of the theta double dot. Calculate I. I equals M kappa squared, and you could just say, well, the kappa for this system is. That's how you use it.
+
+I'll give you a very common example, really hard to calculate mass moment of inertia. A marine propeller. You actually do want to know the mass moment of inertia about its center for purposes of torsional oscillations on the shaft, et cetera. Hard to calculate. Pretty easy to measure.
+
+So how many degrees of freedom does this problem has? Well, when we say it's 2D, it's a rigid body. But it's 2D, which means it's lying on a plane. It's a planar motion problem. Only allowed to rotate in z. Not allowed to rotate in around the x-axis or the y-axis. So for the rigid body, six degrees of freedom possible. There's two immediately that you said it can't rotate.
+
+So we're down to four. It cannot translate in the z direction. We're down to three. So that leaves us what? So the degrees of freedom for this problem is 6 minus 3 constraints is 3. That means we have to have three equations of motion. And they would account for what are the possible-- in other words, saying this, what are the possible motions now of this problem?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: x, y, and z. Or rotation in z. So notice we've set the problem up. Now to go about solving it, we need a free body diagram. So here's my disk. Here's the force. Any other-- and there certainly has weight in the z direction, but there's no z acceleration. So in the plane of the board, that's the only external forces acting on this. And there's our G.
+
+Now this problem-- and I'll say generalize on this in a few minutes. This problem can always be restated as-- recast, let me put it that way-- as, here's your point G with a force acting on this center of mass. See, this force doesn't go through the center of mass. This force goes through the center of mass. I'm going to replace that problem with this problem.
+
+A pure moment acting about the center of mass. You can always make this transition. And I'll do the general case for you in just a minute. But you can always do this. So that's kind of my second point here.
+
+Third point, we need then-- this is our free body diagram. We need apply our laws of motion. So sum of the forces in the y are-- now remember, this is z coming out of the board. y this way, x this way. Sum of the forces in the y? Zero, M acceleration of G in the y direction, zero. So you know there's no acceleration in the y. So it has three degrees of freedom. That's the first equation of motion. It gives you a trivial result. So y double dot is zero. That's your first equation of motion.
+
+Then you have the second equation of motion, sum of the forces in the x direction equals just our F i hat. It's positive x direction because we were clever in how we set up the coordinate system. And that's got to be Mx double dot, i hat direction. So we know right away that x double dot is the force F divided by M. And that's 150 newtons over 75 kilograms, or 2 meters per second squared. All right.
+
+The third one, then, is the moment of inertia with respect to G in this problem-- excuse me, the angular momentum in some IzzG times omega z. And that's what we're looking for. So this is another way of-- IzzG theta dot k hat direction.
+
+And we're going to apply that the external torques, some of the torques, is dH respect to G dt. And that's going to give us IzzG theta double dot. So this third class of problems you are best just working with respect to the center of mass. That's kind of the point here. There's no points of contact. There's just known external forces. You have to deal with them. Do your work with respect to the center of mass.
+
+So we have force equations. We have moment equations. And basically you know Izz for this problem is kappa squared M. And you're given M, and you're given kappa. So you can now-- and what we have to-- actually, the last thing left here is to figure out the torque. What's the torque?
+
+Well, it's R in this direction crossed with F in that direction. So it's Rj cross with Fi, j cross i, minus RF, minus RF, k hat. So you can now solve for theta double dot as RF over Izz, or RF over M kappa squared.
+
+And that says-- minus says it's rotating this way, which is what you'd expect. Right? Now I meant to ask you a question before we started. But think about this. If I had, right at the beginning, had said, OK, this is a problem. If I grab this string and pull in this direction, will there be any motion in the y direction?
+
+I meant to start that way. I'm really kicking myself for not doing that. Because a lot of people think that there's possible, that it could move off in the y direction because it's not being loaded symmetrically. You're pulling on a side. Some people think it'll kind of try to move away like that. It doesn't, does it?
+
+So an important generalization. We've got a rigid body. You have a force acting on it. Has a mass center here. So perpendicular to that force is some distance. We'll call it d. You can always equate this problem to-- and set it up as-- a force.
+
+Conceptually, you can think of it as equal and opposite forces. But it's cancel one another. It's just like I've done nothing to this problem. And then a force acting at this distance F. This is our distance d. So this problem is identical to that problem. I've just added and taken away two more forces.
+
+So the total forces on the system are still F. And there's still an F operating at a lever arm d. But now, if I had put these two together, they are equal and opposite. And they form a couple, a moment, acting like that. So this is equivalent to-- there's G with an F on it and a moment M0. And this M0 is my D cross F.
+
+So that's the generalization for what I did up here. I went from that to that. And this is why you can do that. And so now if you have an object and lots of different forces acting on it, and this is Fi down here and here's G, you can draw a radius from G to this point. So I'll call that Ri with respect to G. Then the way to generalize this is that this is equal to some F total and a moment acting at G.
+
+And all that you have to do there is F total is the summation of the Fi's, vector sum. And the MG, the M with respect to G here, is the summation of the Ri with respect to G cross Fi. So that's the generalization for multiple forces on a body. So you are making an equivalent force acting at G and a moment acting at G. I shouldn't call this little g. That's really confusing. So that's the generalization when you need to do problems like this.
+
+Catch your breath while I scrub a board here. Now we've got to move on to these class four problems. Moving points. An example is the truck problem that you had. Known acceleration. So there's two common ways of doing this problem. You can do this problem by summing forces at the center of mass of that pipe and summing moments around it.
+
+But the moment around this comes from a friction force here, which you don't know. So that introduces an unknown that you have to then solve for. So if you work around G for this pipe, you can do it. You can work around G. You could say sum of the moments around G, sum of the force with respect to G. But you have to deal with unknown forces.
+
+So you're working with respect to G implies unknown forces, e, for example, friction. So you'd really maybe rather around the point of contact, A. Because if you sum your moments about A, the friction force has no moment arm, and it doesn't appear in the answer. But this gets trickier. This is a little more sophisticated, I'll just call it, step.
+
+And you need-- to do this, you need a little theorem. So to work with respect to A, you need to be able to say that the angular momentum with respect to A-- you now are working around a moving point, maybe accelerating. It's very handy to be able to say it's the angular momentum around G, which is easier to calculate, plus RGA, the distance from the center of mass to the point you're working on, cross the linear momentum of the system with respect to the inertial frame. We need this. This is a formula we need.
+
+And see why this is true? This is sort of thing-- this is a formula that's come out of the blue here. And why is it true? So I don't usually like to do proofs, but the proofs of this [INAUDIBLE] on the board. But the proof of this is really quite simple.
+
+Here's a little mass point Mi. And this radius is R of i with respect to A. This is R of G with respect to A. And therefore, this is R of i with respect to G is this one. And we know that this plus this gives us that. We can say Ri particle i with respect to A is RG with respect to A plus Ri with respect to G, all vectors.
+
+So the angular momentum of that body from the basic definition of angular momentum is the summation of all the little mass bits of the Ri with respect to A cross the linear momentum of each little mass bit. But we can expand that with that sum. So this is the summation of my RG with respect to A plus Ri with respect to G cross Pio, summation over all the mass bits.
+
+I'm going to expand this. And I can expand this into this times that, summations of this times that, and this times that. So that becomes a RGA cross summation of-- what's Pio? This is a little Mi's, Vi with respect to o. Each one has velocity. Each one has a mass. So this is Mi Vi with respect to o plus the summation RiG's cross Mi Vio's.
+
+Now, notice I pulled this one outside the summation. That's because this is a single-- this is a fixed number. It doesn't change in the summation. It's just the distance from my starting point to G. So I can pull it out and do the summation and then do the cross product.
+
+What is the summation of all the MVi's for the body? That's the momentum of each little particle. Add them all up, what do you get? This is RGA cross P with respect to o. That's this term. And this is all the little distances from the center of mass to the cross with the momentum of each little one.
+
+What's that? Well, this looks like a definition of angular momentum. This is the angular momentum of every little mass particle with respect to G added up. This is H with respect to G, which is what we set out to prove. So the H with respect to A is H with respect to G plus RGA cross the linear momentum of the body. Yeah.
+
+AUDIENCE: Can you also do this by writing Pi with respect to o, I mean the velocity part of that, as the sum of the velocities?
+
+PROFESSOR: You got to keep the M's in there.
+
+AUDIENCE: Well, yeah. [INAUDIBLE]. But instead of writing out R as a sum, you can write out the velocity as the sum of the velocities with respect to the origin.
+
+PROFESSOR: Are you talking about this term here?
+
+AUDIENCE: No, the definition of angular momentum. Yeah. The velocity--
+
+PROFESSOR: If you could figure out-- if you had the angular momentum [INAUDIBLE] and multiplied by Ri, that is the angular momentum with respect to A. But I broke it apart so that I could show you that this formula I want to use has two pieces. I want to use that. So that if I can use that-- it's easy to get H with respect to G sometimes. It's really hard to know what to do with things that happen around this point A.
+
+So now let's go back. I think, to understand this, we need to go back to our truck problem. We now have a formula that you know where it comes from. We have our truck that is accelerating at x1 double dot. And we want to find out what's theta double dot for that pipe. What's it doing? So first we needed some kinematics.
+
+And in particular, what is the x2-- did I label this very well? I didn't. So here's my pipe. Here's my truck bed that it's in contact with. Truck's moving at x1 double dot, we know. In an inertial frame, the movement of the center of mass of my pipe is x2. And it has some angular rotation I'll call theta.
+
+So the movement of this guy I need to be able to express in terms of x1 and theta. Well, if this is fixed to the truck and the truck move forward, then x2 would be equal to x1. But in fact, it rolls back a little bit. And the distance this point moves if it rolls through an angle theta is it rolls backwards an amount R theta. And we're going to need to take two derivatives of that. x2 double dot equals x1 double dot minus r theta double dot. So that's a little kinematic relationship we need to do this problem.
+
+Next we need to apply a physical law, which is the one I've derived. So this is our physics here now, our physical law. And that's the external torques, dH with respect to A dt, plus VAo cross Po. And in this case, is VAo 0? No, in fact, it's x1 dot, right? It's in the i direction.
+
+How about what direction is P, the momentum of the pipe? Does it move in the y direction? Up, down? No. It only moves in the x. So this velocity is only in the x. This is in the x, or the i hat direction. This cross product is zero. So it just happens that they're parallel. So this thing goes to zero. We don't have to deal with it. That's because these guys are parallel. Parallel motion.
+
+But you did have to consider it. You did have to think about it. It's not just trivially 0. OK, so that means that the torques about A is just dHA dt. And HA for this problem is i-- well, it's HG, which is IzzG theta double dot. But I have to put in this-- theta dot, excuse me. This is just the H. I have to put in the second term, RG with respect to A cross P with respect to o.
+
+So here's my HA. I'll write it again up here. This is IzzG theta dot in the k. And now this second term. R is Rj. My y-axis is up. The radius of this thing is R. Here's the radius. So the moment arm is Rj crossed with the linear momentum of that piece of pipe, which is the mass of the pipe times x2 dot in the i direction. j cross i is minus k. So Izz with respect to G theta double dot-- theta dot. I keep taking the derivative a little too soon. k minus RM x2 dot k.
+
+And now some of the torques, d by dt of H with respect to A. Take the derivatives. IzzG theta double dot k minus RM x2 double dot k. And fortunately, none of these unit vectors are rotating. So we don't have to deal with any of that. And I'm almost to the end, but now I have to go back to that original kinematic relationship, which allows me to express x2 in terms of x1 and R theta. And if I substitute that in here and solve for it, I get theta double dot equals MR over IzzG plus MR squared. x double dot whole thing, x1 double dot.
+
+So you've accelerated x1 double dot. The thing starts rolling. It's actually rolling backwards, which is a plus theta direction, at this rate. We did this using this formula for HA. Now, the beauty of this formula is that it works for any points that are moving, even can be accelerating, all sorts of nasty conditions, it's true. It's based on the fundamental definition of angular momentum. So the book-- yeah.
+
+AUDIENCE: [INAUDIBLE] final point here. I just want to make sure i understood. In this first line here, [INAUDIBLE]. That stroke doesn't mean that V sub A was 0. It meant that that term is 0.
+
+PROFESSOR: This term's zero because these happen to be parallel, but the product is zero in this case. If it had not turned out to be-- they were different directions. It had to be a non-zero term. And you would have to bring it along and take its derivative along with the other stuff.
+
+But this is a really powerful method. Now, the book is reasonably good in lots of points. But in chapter 17, when it does problems that are kind of like this, it introduces something that I find it hard to digest what they're doing. There's particularly-- where's Matt? There's equation 1715. When you get to that bit of the book, just ignore it. Use this method.
+
+The author tries to give you a little trick that you can use. But the problem with tricks is you have to memorize them. So what I've shown you today is based on basic definition of angular momentum. That expression at the top is always usable, not just special little conditions, which is what the formula in the book is generated for.
+
+We've got a couple of minutes. Let you ask questions, and then I'll just pose a conceptual problem or two and ask you what method you'd use. Yeah.
+
+AUDIENCE: So [INAUDIBLE] when you [INAUDIBLE] dHA dt, is that equal to 0 because there is no torque in the system?
+
+PROFESSOR: Oh, you know, boy, I'm glad you caught that. Yeah, in order to be able to do this, we've got to know something here, right? Important catch. Thank you. Why is this true?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: So we chose-- that's why we chose to work around point A. With respect to that point, there are no external forces that create moments on that pipe with respect to that point. And that's why you can say that the time derivative of this angular momentum is equal to zero because there are no external torques.
+
+If you had picked G to do this problem, would the sum of the torques about G be zero? No, you'd have to put that friction force in there and have RF and figure out F is. We completely avoided having to calculate the friction force. That's the point of being able to use techniques like this and make your computations around points of contact.
+
+So textbooks have lots of problems like this. You've got a box on a cart. And your kid's pushing it, and he gets a little exuberant and pushes a little too hard, accelerates the cart a little too fast, and the box falls over and breaks the lamp or whatever's in it. And if it's this way, and I accelerate it, it's much more tolerant. Falls over easier this way.
+
+But if I asked you, gave you a problem and said, calculate the maximum acceleration that I can put on this object such that it just barely-- just right at the edge of tipping over, but doesn't tip it over. What's that maximum acceleration that you don't tip it over? What method would you use? I gave you four classes of approaches to problems.
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: I hear a four. Anybody else want to bid here? More fours. Would three work?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Why? He says three would be complicated. Three means taking moments and forces with respect to the center of mass. If you do that, what do you have to deal with in this problem?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: You have to, then-- around the center of mass there's a friction force. There's a normal force pushing up here. The way you do this problem is where it's just barely about to go, all of the force is pushing on this corner. Think of it. It's just lifting up a fraction. All of that contact point moves to right here.
+
+You have an upward force and a friction force, and they create a moment about G. But if you do the forces around G, you have to solve for those two. You do the forces around A. The trick here is figuring out where's A. But if you realize A is right here, and you do what we just did, this problem's just a piece of cake.
+
+[[Class 1: Rotation about fixed axis through center of mass]]
+Print This Document
+
+So let's quickly go through examples from the first couple of types because they're especially easy. So what are we saying? They're pure rotation about a fixed axis through G. Center of mass is somewhere along this axle. The axle is fixed so object can spin around it.
+
+And these kind of problems are particularly simple, so I'm not going to dwell on them. But here's class one, class one problems. And it's basically-- these are rotors, typically rotors, of almost all kinds. So for these problems, you use momentum, angular momentum, with respect to the center of mass.
+
+You can express it as IG times omega x, omega y, omega z. All these problems can be expressed with a moment of inertia matrix times the rotation vector. And it will give you HX, HY, HZ. And you can use that second formula up there. The torques are dH dt. So it's fixed through G. So the second term doesn't appear.
+
+So to do these problems, the sum of the-- see, I'll just give an example here. For 2D planar motion, they get especially simple. Then, for 2D planar motion, that means omega here is 0, 0, and we'll let z be the rotation axis. And this H then with respect to G just becomes Izz omega z. All those 2D planar motion problems boil down to this. And dHG dt then is Izz with respect to G omega z do, or more familiar notation.
+
+So all those planar motion problems, axis passing through G like this. For those problems, does this matrix have to be with respect to principal axes? Do you have your XYZ coordinate system? To do this style of problem, does that actually have to be expressed in principle coordinates so that it's diagonal?
+
+It doesn't have to be. You're worried about rotation about z. You'll find that that statement's still always true. Now, there may be-- the thing could definitely have imbalances and have unusual other torques. That will fall out in the problem. But for the motion around the axis of spin, this [INAUDIBLE]. Where you only have a 1 omega z component, just the one component, you will get-- it'll work out just fine. Yeah.
+
+AUDIENCE: If you do have some kind of Ixz and Iyz terms, you would end up with more--
+
+PROFESSOR: You will end up with-- first of all, if you have the off-diagonal z terms, xz, yz terms, when you multiply that out, you will find components of H that are in the z direction as well as perhaps in the x and y. And those other two components tell you that H is not pointing in the same direction as omega, right? And that it tells you instantly that the thing is dynamically unbalanced and will have other torques that are trying to bend that axle. So they'll always appear. All right.
+
+Let's move on. I want to make sure we get through this today. Class two problems. These are basically-- these are the pure rotation around some point that's not through G. And again now, this is a fixed-- key here is fixed axis at A. It's not moving. This is what makes these problems simpler. For these kinds of problems, you do the sum of the torques with respect to A, the external torques.
+
+And because that point's fixed, the second terms don't appear, the v cross p terms. And you can write these as I, a moment of inertia matrix, times whatever the rotations are. In order to define the mass moment of inertia matrix, you must have chosen a set of coordinates attached to the body.
+
+And then with those coordinates, you've computed the moments of inertia for the body. And if you chose wisely, you get principal coordinates and you only get diagonal entries on the matrix. If you chose unwisely, you will get other stuff. But it's still a valid mass moment of inertia matrix. It just gives rise-- you have to deal with a bunch of other terms.
+
+So this will still yield the same answer. How do you get I with respect to A? These are opportunities when you can use parallel axis. Yeah.
+
+AUDIENCE: Isn't I omega just H dot dH dt?
+
+PROFESSOR: Excuse me. You need to finish that out. This is H. So the time derivative of H is the time derivative of this expression. You have to figure out the moments of inertia and the rotation rates. And you may get multiple terms, only one of which-- let's say that this will work out. You will get multiple terms.
+
+You will get torques that are not in the direction of spin. Again, these might be unbalanced. On the other hand, it may be, for 2D problems, which is common-- so for the 2D planar motion, which most of the problems we do are, then what you would do is you're saying omega is, say, 0, 0, omega z, which simplifies that.
+
+We're multiplying this thing out quite a lot. And if I with respect to G is diagonal, then that means you your G you chose principal axes. But then how do you get to I with respect to A? For 2D problems, really simple ones, how do you get to I with respect to A?
+
+AUDIENCE: Parallel axis.
+
+PROFESSOR: That's the classic case for using the parallel axis theorem. So for these 2D planar motion problems-- and planar motion problems, then you can use parallel axis. I'll do an example. So this is kind of the set up for this.
+
+An example of this on the homework. What problem on the homework is just perfect for this? It's 2D, planar motion, about a fixed point.
+
+AUDIENCE: Circle with the square cutout.
+
+PROFESSOR: Yeah, the cylinder, this [INAUDIBLE] disk with the square cutout with the pin at the top turning it into a pendulum. That's the fixed point. You can figure this out. You can use parallel axis. And we're going to do an example right now that's almost identical to that problem. And we started it last time. So the example I want to work is very similar. It's basically this problem is that pendulum.
+
+So let's just work it through quickly. We had done the setup last time. So last time I basically derived an example of the parallel axis theorem for my little stick here. And I'll give you some geometry, some values. So here's G. There's the point I wanted to rotate about, A. The distance between these two points is d. That's going to pop up in my parallel axis theorem.
+
+We've got a set of coordinates here. My G is, of course, in the center of this thing, the geometric center. So I have a body fixed set of axes, which I'm going to call z. And my x is in this direction. So that would make my y going into the board. So the y is kind of like that. And this has some properties. The dimension in this direction means A. The direction in this dimension is B. So it's a width of A, a thickness B, and a length L.
+
+So when you compute, these are-- ah, symmetry now. So the axes that I've chosen for this problem are they principal axes. There's three planes of symmetry in this problem, and I've got one principal axis perpendicular to every one of them. And all three pass through the center of mass, and they're orthogonal to one another. So those conditions are all satisfied for these to be principal axes for this rectangular body and its uniform density.
+
+So I'll give you the-- for bodies like this, in your book or any book on dynamics, you can look up then the properties, the Izz. And we're going to spin this thing. This thing, we're going to have it rotating about-- which one am I going to use? Yeah, around the z-axis. That's how I'll set it up. That's the way I drilled my hole, so it's going back and forth. So that the wide part of it's this way.
+
+So Izz with respect to G M L squared plus a squared over 12. Iyy. OK, now just to make a point, the dimensions L 32.1 centimeters, a 4.71, b, 1.25. And eventually my d, this offset would be, for example, where I've drilled that hole, is at 10.2.
+
+The point I want to make here, lots of times it would be nice if I could just make the simplification to call this a slender rod and be able to ignore these a and b dimensions in this, just to get quick answers. Do you think that's slender enough? It's not even 10 times-- the length of the width here isn't even 10. It's probably six or seven. So the key issue then, if you look at this, is really what's the ratio of a squared to L squared? That would tell you something about the relative importance of the a squared term to the L squared. So let me tell you about that.
+
+So a squared over L squared is 0.022. b squared over L squared is 0.002. So even with this kind of fat stick, the approximation of ML squared over 12 is pretty good. It's only 2% off. And this approximation, L squared over 12, is less than 2/10 of a percent off. So for roughly slender things, we oftentimes just say ML squared over 12 for spin about their center.
+
+We now need to apply parallel axis. I want to spin this around, let this rotate around, not around G, but now around a point off to the side. So we worked out last time that Izz with respect to A is IzzG plus Md squared. So in this particular problem, this Izz about G is approximately ML squared over 12.
+
+So just by way of example, to see what we might find out here, is let's let d equal L/2. That would be if I move this-- if I put my hole right at the very top, how would this thing behave? I don't have a hole right at the top, but I have one close. So this is just because the numbers are easy to work. What happens if you put in L/2 into this formula? Well then IzzA is ML squared over 12 plus M. L over 2 squared is L squared over 4. And that's ML squared over 3, which is a number you'll run into again and again and again in mechanical engineering because examples like this are used a lot. The mass moment of inertia about a slender rod pinned at its end, ML squared over 3.
+
+So let's take this problem a little more towards completion. The sum of the external moments with respect to A dHA dt. And that's going to be d by dt. In this problem, the only rotation is omega z. So this is going to be Izz with respect to A omega z. And that just gives us IzzA omega z dot, or more familiar, IzzA theta double bond, if you want.
+
+Here's our problem. It simplifies to this slender rod. And let me do the more general case. Here's my rod. The pivot point that it's going around is here. This is d still, and this is G. And it's swinging with respect to this point. So here's the angle theta. So it swings about this point that you've fixed, and that point is d above the center of gravity, center of mass.
+
+So what are the external moments about this point? There's no torque right at the point, but our free body diagram of drawing this as a-- here's our point of rotation. Here it is displaced through an angle theta. The weight of the object can all be concentrated, thought of, for the purposes of the free body diagram as acting through G.
+
+So here's the mass at G, gravity acting down on it. And the length of this arm here about which it's swinging is D. So the torque about this is-- and it's pulling it back-- minus Mgd sine theta. Probably you've seen that many times before, including the recent homework. And that must be equal to Izz about A theta double dot. So we have an equation of motion. Just collecting the terms together.
+
+So this is a oscillator that, for this problem, has no external excitation. This is its equation of motion. And I need theta double dot. But is it linear? Is it linear? No, it's not a linear equation of motion. But for sure, it is an oscillator. And for anything that vibrates, you can have lots of nonlinear problems that exhibit vibration. You can think of them-- you can pose problems where you say, OK, what's their static equilibrium position?
+
+And think of a very small motion about that static equilibrium position. You can always linearize about the static equilibrium position and be able to come up with a linearized equation of motion that at least from that you can calculate the natural frequency of the system for small motions around its static equilibrium position. So in this case, it's pretty easy to do.
+
+And you've seen it before for small theta. Sine theta is approximately equal to theta. So we are going to linearize the equation. This theta equals 0 is a static equilibrium position. So we're linearizing around 0. And around 0, that's the approximation. So you just substitute that in, IzzA theta double dot plus Mgd theta equals 0. There's your linearized equation of motion. I want an estimate of the natural frequency. So find omega n.
+
+So this is basically entering into solving differential equations. But I let mother nature tell me what the answer is. I do the example, and I say it oscillates. Looks a lot like sine omega t to me. Plug in [INAUDIBLE] to make a t. Let's find out. Some theta amplitude sine omega t. Plug it in. So you plug that in [INAUDIBLE] and you get minus omega squared IzzA plus Mgd. And all of this, you can factor out the theta 0 sine omega t equals 0. That's what you get. And in general, theta, that's not 0, or else you'd have a trivial problem, not moving at all. But in order for this equation-- and this can be anything. We're doing the 0 minus 1 and plus 1 depending on the time. So in order to satisfy this equation, this part inside of the parentheses has to be 0. And when you just solve that, you find that omega squared equals Mgd/IzzA.
+
+And the reason I've gone to the bother of working this out in detail right to the end is that every one degree of freedom rotational oscillator that you will ever encounter-- sticks, wheels with static imbalances. Let me show you this one. It's an oscillator too. Any one degree of freedom oscillator, rotational oscillator, pendulum-- basically all pendula-- this is the formula for the natural frequency.
+
+So it's going to be of that form for any pendulum. So any 1dof pendulum. This is the generic answer. So that cutout problem for today has to come down to this. Or this is the distance between the mass center and the point of rotation. And that's your mass moment of inertia about the point of rotation. So that's worth knowing that one.
+
+OK, keep moving. Now things will begin to get interesting. These latter two classes are harder conceptually, but once you have a solution method for them, they're not all that hard. This one is the problem I described at the beginning. We've got this hockey puck like thing. And the string wrapped around it pulling on it with a known force. In this problem, they call it 150 newtons.
+
+The mass of this thing is 75 kilograms. It's on a frictionless surface. And we want to find its acceleration of the center of mass and the rotation around the center of mass. So find theta double dot and find the linear acceleration. That's basically the name of the problem. And they give you that it's 75 kilograms, 150 newtons, and kappa, the radius of gyration, is 0.15 meters.
+
+This is defined as the radius of gyration. So what's that? It's a radius of gyration. It's really appropriate, really only useful, for mostly 2D rotational problems around an axis of rotation. And what it means is this is the distance away from the center of rotation at which you could concentrate all of the mass and have the same mass moment of inertia.
+
+So this has-- here's G here at the center, uniform disk. We know that there is an Izz about G for this problem. And I need to pick a coordinate system so we can talk about things here. Let me get M out of the center. So I'm going to let z be upwards. And because I'm looking ahead and want to keep the equation simple, I'm going to make my x-axis here parallel to f so I only have to deal with one vector component equation.
+
+And then that makes the y-axis this way. So I'm interested in Izz because I'm spinning around the z-axis. I know that for a uniform disk, that's a principal axis, is the vertical one. And what I'm saying is that you can then set find. There's an IzzG that can be expressed as M kappa squared. So kappa, in effect, is just IzzG over M square root.
+
+Now, why do we use that kind of thing? Well, the way this problem was set up-- I actually took it out of a book. It wasn't a uniform disk. It's a pulley wheel or something. And it's got spokes in here and a rim. It's still axially-- it still has some axial symmetries.
+
+But it's getting a little messy. It's hard for you-- you can't just say that's MR squared over 2. It's got some other mass moment of inertia about the center. But it's got holes and stuff in it because of the spokes. So oftentimes, you'll be given the radius of gyration because it's a little difficult to give you a mathematical description of what the actual Izz is.
+
+That's often why you do it. And the thing is, you can measure. Rather than try to calculate, you can actually just measure the mass moment of inertia of something. So how would I measure-- let's say I didn't know any formulas, but how would I measure the mass moment of inertia of this in the z direction? What experiment would you do?
+
+AUDIENCE: [INAUDIBLE] angular acceleration.
+
+PROFESSOR: She says apply torque. Measure the angular acceleration. Hang a weight off of it, known weight. Wrap a string around it. Known mass. Known G. Known torque around the center. Measure the angular acceleration. I theta double dot equals the torque. You know the torque, you know the measure of the theta double dot. Calculate I. I equals M kappa squared, and you could just say, well, the kappa for this system is. That's how you use it.
+
+I'll give you a very common example, really hard to calculate mass moment of inertia. A marine propeller. You actually do want to know the mass moment of inertia about its center for purposes of torsional oscillations on the shaft, et cetera. Hard to calculate. Pretty easy to measure.
+
+So how many degrees of freedom does this problem has? Well, when we say it's 2D, it's a rigid body. But it's 2D, which means it's lying on a plane. It's a planar motion problem. Only allowed to rotate in z. Not allowed to rotate in around the x-axis or the y-axis. So for the rigid body, six degrees of freedom possible. There's two immediately that you said it can't rotate.
+
+So we're down to four. It cannot translate in the z direction. We're down to three. So that leaves us what? So the degrees of freedom for this problem is 6 minus 3 constraints is 3. That means we have to have three equations of motion. And they would account for what are the possible-- in other words, saying this, what are the possible motions now of this problem?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: x, y, and z. Or rotation in z. So notice we've set the problem up. Now to go about solving it, we need a free body diagram. So here's my disk. Here's the force. Any other-- and there certainly has weight in the z direction, but there's no z acceleration. So in the plane of the board, that's the only external forces acting on this. And there's our G.
+
+Now this problem-- and I'll say generalize on this in a few minutes. This problem can always be restated as-- recast, let me put it that way-- as, here's your point G with a force acting on this center of mass. See, this force doesn't go through the center of mass. This force goes through the center of mass. I'm going to replace that problem with this problem.
+
+A pure moment acting about the center of mass. You can always make this transition. And I'll do the general case for you in just a minute. But you can always do this. So that's kind of my second point here.
+
+Third point, we need then-- this is our free body diagram. We need apply our laws of motion. So sum of the forces in the y are-- now remember, this is z coming out of the board. y this way, x this way. Sum of the forces in the y? Zero, M acceleration of G in the y direction, zero. So you know there's no acceleration in the y. So it has three degrees of freedom. That's the first equation of motion. It gives you a trivial result. So y double dot is zero. That's your first equation of motion.
+
+Then you have the second equation of motion, sum of the forces in the x direction equals just our F i hat. It's positive x direction because we were clever in how we set up the coordinate system. And that's got to be Mx double dot, i hat direction. So we know right away that x double dot is the force F divided by M. And that's 150 newtons over 75 kilograms, or 2 meters per second squared. All right.
+
+The third one, then, is the moment of inertia with respect to G in this problem-- excuse me, the angular momentum in some IzzG times omega z. And that's what we're looking for. So this is another way of-- IzzG theta dot k hat direction.
+
+And we're going to apply that the external torques, some of the torques, is dH respect to G dt. And that's going to give us IzzG theta double dot. So this third class of problems you are best just working with respect to the center of mass. That's kind of the point here. There's no points of contact. There's just known external forces. You have to deal with them. Do your work with respect to the center of mass.
+
+So we have force equations. We have moment equations. And basically you know Izz for this problem is kappa squared M. And you're given M, and you're given kappa. So you can now-- and what we have to-- actually, the last thing left here is to figure out the torque. What's the torque?
+
+Well, it's R in this direction crossed with F in that direction. So it's Rj cross with Fi, j cross i, minus RF, minus RF, k hat. So you can now solve for theta double dot as RF over Izz, or RF over M kappa squared.
+
+And that says-- minus says it's rotating this way, which is what you'd expect. Right? Now I meant to ask you a question before we started. But think about this. If I had, right at the beginning, had said, OK, this is a problem. If I grab this string and pull in this direction, will there be any motion in the y direction?
+
+I meant to start that way. I'm really kicking myself for not doing that. Because a lot of people think that there's possible, that it could move off in the y direction because it's not being loaded symmetrically. You're pulling on a side. Some people think it'll kind of try to move away like that. It doesn't, does it?
+
+So an important generalization. We've got a rigid body. You have a force acting on it. Has a mass center here. So perpendicular to that force is some distance. We'll call it d. You can always equate this problem to-- and set it up as-- a force.
+
+Conceptually, you can think of it as equal and opposite forces. But it's cancel one another. It's just like I've done nothing to this problem. And then a force acting at this distance F. This is our distance d. So this problem is identical to that problem. I've just added and taken away two more forces.
+
+So the total forces on the system are still F. And there's still an F operating at a lever arm d. But now, if I had put these two together, they are equal and opposite. And they form a couple, a moment, acting like that. So this is equivalent to-- there's G with an F on it and a moment M0. And this M0 is my D cross F.
+
+So that's the generalization for what I did up here. I went from that to that. And this is why you can do that. And so now if you have an object and lots of different forces acting on it, and this is Fi down here and here's G, you can draw a radius from G to this point. So I'll call that Ri with respect to G. Then the way to generalize this is that this is equal to some F total and a moment acting at G.
+
+And all that you have to do there is F total is the summation of the Fi's, vector sum. And the MG, the M with respect to G here, is the summation of the Ri with respect to G cross Fi. So that's the generalization for multiple forces on a body. So you are making an equivalent force acting at G and a moment acting at G. I shouldn't call this little g. That's really confusing. So that's the generalization when you need to do problems like this.
+
+Catch your breath while I scrub a board here. Now we've got to move on to these class four problems. Moving points. An example is the truck problem that you had. Known acceleration. So there's two common ways of doing this problem. You can do this problem by summing forces at the center of mass of that pipe and summing moments around it.
+
+But the moment around this comes from a friction force here, which you don't know. So that introduces an unknown that you have to then solve for. So if you work around G for this pipe, you can do it. You can work around G. You could say sum of the moments around G, sum of the force with respect to G. But you have to deal with unknown forces.
+
+So you're working with respect to G implies unknown forces, e, for example, friction. So you'd really maybe rather around the point of contact, A. Because if you sum your moments about A, the friction force has no moment arm, and it doesn't appear in the answer. But this gets trickier. This is a little more sophisticated, I'll just call it, step.
+
+And you need-- to do this, you need a little theorem. So to work with respect to A, you need to be able to say that the angular momentum with respect to A-- you now are working around a moving point, maybe accelerating. It's very handy to be able to say it's the angular momentum around G, which is easier to calculate, plus RGA, the distance from the center of mass to the point you're working on, cross the linear momentum of the system with respect to the inertial frame. We need this. This is a formula we need.
+
+And see why this is true? This is sort of thing-- this is a formula that's come out of the blue here. And why is it true? So I don't usually like to do proofs, but the proofs of this [INAUDIBLE] on the board. But the proof of this is really quite simple.
+
+Here's a little mass point Mi. And this radius is R of i with respect to A. This is R of G with respect to A. And therefore, this is R of i with respect to G is this one. And we know that this plus this gives us that. We can say Ri particle i with respect to A is RG with respect to A plus Ri with respect to G, all vectors.
+
+So the angular momentum of that body from the basic definition of angular momentum is the summation of all the little mass bits of the Ri with respect to A cross the linear momentum of each little mass bit. But we can expand that with that sum. So this is the summation of my RG with respect to A plus Ri with respect to G cross Pio, summation over all the mass bits.
+
+I'm going to expand this. And I can expand this into this times that, summations of this times that, and this times that. So that becomes a RGA cross summation of-- what's Pio? This is a little Mi's, Vi with respect to o. Each one has velocity. Each one has a mass. So this is Mi Vi with respect to o plus the summation RiG's cross Mi Vio's.
+
+Now, notice I pulled this one outside the summation. That's because this is a single-- this is a fixed number. It doesn't change in the summation. It's just the distance from my starting point to G. So I can pull it out and do the summation and then do the cross product.
+
+What is the summation of all the MVi's for the body? That's the momentum of each little particle. Add them all up, what do you get? This is RGA cross P with respect to o. That's this term. And this is all the little distances from the center of mass to the cross with the momentum of each little one.
+
+What's that? Well, this looks like a definition of angular momentum. This is the angular momentum of every little mass particle with respect to G added up. This is H with respect to G, which is what we set out to prove. So the H with respect to A is H with respect to G plus RGA cross the linear momentum of the body. Yeah.
+
+AUDIENCE: Can you also do this by writing Pi with respect to o, I mean the velocity part of that, as the sum of the velocities?
+
+PROFESSOR: You got to keep the M's in there.
+
+AUDIENCE: Well, yeah. [INAUDIBLE]. But instead of writing out R as a sum, you can write out the velocity as the sum of the velocities with respect to the origin.
+
+PROFESSOR: Are you talking about this term here?
+
+AUDIENCE: No, the definition of angular momentum. Yeah. The velocity--
+
+PROFESSOR: If you could figure out-- if you had the angular momentum [INAUDIBLE] and multiplied by Ri, that is the angular momentum with respect to A. But I broke it apart so that I could show you that this formula I want to use has two pieces. I want to use that. So that if I can use that-- it's easy to get H with respect to G sometimes. It's really hard to know what to do with things that happen around this point A.
+
+So now let's go back. I think, to understand this, we need to go back to our truck problem. We now have a formula that you know where it comes from. We have our truck that is accelerating at x1 double dot. And we want to find out what's theta double dot for that pipe. What's it doing? So first we needed some kinematics.
+
+And in particular, what is the x2-- did I label this very well? I didn't. So here's my pipe. Here's my truck bed that it's in contact with. Truck's moving at x1 double dot, we know. In an inertial frame, the movement of the center of mass of my pipe is x2. And it has some angular rotation I'll call theta.
+
+So the movement of this guy I need to be able to express in terms of x1 and theta. Well, if this is fixed to the truck and the truck move forward, then x2 would be equal to x1. But in fact, it rolls back a little bit. And the distance this point moves if it rolls through an angle theta is it rolls backwards an amount R theta. And we're going to need to take two derivatives of that. x2 double dot equals x1 double dot minus r theta double dot. So that's a little kinematic relationship we need to do this problem.
+
+Next we need to apply a physical law, which is the one I've derived. So this is our physics here now, our physical law. And that's the external torques, dH with respect to A dt, plus VAo cross Po. And in this case, is VAo 0? No, in fact, it's x1 dot, right? It's in the i direction.
+
+How about what direction is P, the momentum of the pipe? Does it move in the y direction? Up, down? No. It only moves in the x. So this velocity is only in the x. This is in the x, or the i hat direction. This cross product is zero. So it just happens that they're parallel. So this thing goes to zero. We don't have to deal with it. That's because these guys are parallel. Parallel motion.
+
+But you did have to consider it. You did have to think about it. It's not just trivially 0. OK, so that means that the torques about A is just dHA dt. And HA for this problem is i-- well, it's HG, which is IzzG theta double dot. But I have to put in this-- theta dot, excuse me. This is just the H. I have to put in the second term, RG with respect to A cross P with respect to o.
+
+So here's my HA. I'll write it again up here. This is IzzG theta dot in the k. And now this second term. R is Rj. My y-axis is up. The radius of this thing is R. Here's the radius. So the moment arm is Rj crossed with the linear momentum of that piece of pipe, which is the mass of the pipe times x2 dot in the i direction. j cross i is minus k. So Izz with respect to G theta double dot-- theta dot. I keep taking the derivative a little too soon. k minus RM x2 dot k.
+
+And now some of the torques, d by dt of H with respect to A. Take the derivatives. IzzG theta double dot k minus RM x2 double dot k. And fortunately, none of these unit vectors are rotating. So we don't have to deal with any of that. And I'm almost to the end, but now I have to go back to that original kinematic relationship, which allows me to express x2 in terms of x1 and R theta. And if I substitute that in here and solve for it, I get theta double dot equals MR over IzzG plus MR squared. x double dot whole thing, x1 double dot.
+
+So you've accelerated x1 double dot. The thing starts rolling. It's actually rolling backwards, which is a plus theta direction, at this rate. We did this using this formula for HA. Now, the beauty of this formula is that it works for any points that are moving, even can be accelerating, all sorts of nasty conditions, it's true. It's based on the fundamental definition of angular momentum. So the book-- yeah.
+
+AUDIENCE: [INAUDIBLE] final point here. I just want to make sure i understood. In this first line here, [INAUDIBLE]. That stroke doesn't mean that V sub A was 0. It meant that that term is 0.
+
+PROFESSOR: This term's zero because these happen to be parallel, but the product is zero in this case. If it had not turned out to be-- they were different directions. It had to be a non-zero term. And you would have to bring it along and take its derivative along with the other stuff.
+
+But this is a really powerful method. Now, the book is reasonably good in lots of points. But in chapter 17, when it does problems that are kind of like this, it introduces something that I find it hard to digest what they're doing. There's particularly-- where's Matt? There's equation 1715. When you get to that bit of the book, just ignore it. Use this method.
+
+The author tries to give you a little trick that you can use. But the problem with tricks is you have to memorize them. So what I've shown you today is based on basic definition of angular momentum. That expression at the top is always usable, not just special little conditions, which is what the formula in the book is generated for.
+
+We've got a couple of minutes. Let you ask questions, and then I'll just pose a conceptual problem or two and ask you what method you'd use. Yeah.
+
+AUDIENCE: So [INAUDIBLE] when you [INAUDIBLE] dHA dt, is that equal to 0 because there is no torque in the system?
+
+PROFESSOR: Oh, you know, boy, I'm glad you caught that. Yeah, in order to be able to do this, we've got to know something here, right? Important catch. Thank you. Why is this true?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: So we chose-- that's why we chose to work around point A. With respect to that point, there are no external forces that create moments on that pipe with respect to that point. And that's why you can say that the time derivative of this angular momentum is equal to zero because there are no external torques.
+
+If you had picked G to do this problem, would the sum of the torques about G be zero? No, you'd have to put that friction force in there and have RF and figure out F is. We completely avoided having to calculate the friction force. That's the point of being able to use techniques like this and make your computations around points of contact.
+
+So textbooks have lots of problems like this. You've got a box on a cart. And your kid's pushing it, and he gets a little exuberant and pushes a little too hard, accelerates the cart a little too fast, and the box falls over and breaks the lamp or whatever's in it. And if it's this way, and I accelerate it, it's much more tolerant. Falls over easier this way.
+
+But if I asked you, gave you a problem and said, calculate the maximum acceleration that I can put on this object such that it just barely-- just right at the edge of tipping over, but doesn't tip it over. What's that maximum acceleration that you don't tip it over? What method would you use? I gave you four classes of approaches to problems.
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: I hear a four. Anybody else want to bid here? More fours. Would three work?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Why? He says three would be complicated. Three means taking moments and forces with respect to the center of mass. If you do that, what do you have to deal with in this problem?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: You have to, then-- around the center of mass there's a friction force. There's a normal force pushing up here. The way you do this problem is where it's just barely about to go, all of the force is pushing on this corner. Think of it. It's just lifting up a fraction. All of that contact point moves to right here.
+
+You have an upward force and a friction force, and they create a moment about G. But if you do the forces around G, you have to solve for those two. You do the forces around A. The trick here is figuring out where's A. But if you realize A is right here, and you do what we just did, this problem's just a piece of cake.
+
+[[Class 2: Fixed axis rotation not through center of mass-pendulum example]]
+Print This Document
+
+All right.
+
+Let's move on. I want to make sure we get through this today. Class two problems. These are basically-- these are the pure rotation around some point that's not through G. And again now, this is a fixed-- key here is fixed axis at A. It's not moving. This is what makes these problems simpler. For these kinds of problems, you do the sum of the torques with respect to A, the external torques.
+
+And because that point's fixed, the second terms don't appear, the v cross p terms. And you can write these as I, a moment of inertia matrix, times whatever the rotations are. In order to define the mass moment of inertia matrix, you must have chosen a set of coordinates attached to the body.
+
+And then with those coordinates, you've computed the moments of inertia for the body. And if you chose wisely, you get principal coordinates and you only get diagonal entries on the matrix. If you chose unwisely, you will get other stuff. But it's still a valid mass moment of inertia matrix. It just gives rise-- you have to deal with a bunch of other terms.
+
+So this will still yield the same answer. How do you get I with respect to A? These are opportunities when you can use parallel axis. Yeah.
+
+AUDIENCE: Isn't I omega just H dot dH dt?
+
+PROFESSOR: Excuse me. You need to finish that out. This is H. So the time derivative of H is the time derivative of this expression. You have to figure out the moments of inertia and the rotation rates. And you may get multiple terms, only one of which-- let's say that this will work out. You will get multiple terms.
+
+You will get torques that are not in the direction of spin. Again, these might be unbalanced. On the other hand, it may be, for 2D problems, which is common-- so for the 2D planar motion, which most of the problems we do are, then what you would do is you're saying omega is, say, 0, 0, omega z, which simplifies that.
+
+We're multiplying this thing out quite a lot. And if I with respect to G is diagonal, then that means you your G you chose principal axes. But then how do you get to I with respect to A? For 2D problems, really simple ones, how do you get to I with respect to A?
+
+AUDIENCE: Parallel axis.
+
+PROFESSOR: That's the classic case for using the parallel axis theorem. So for these 2D planar motion problems-- and planar motion problems, then you can use parallel axis. I'll do an example. So this is kind of the set up for this.
+
+An example of this on the homework. What problem on the homework is just perfect for this? It's 2D, planar motion, about a fixed point.
+
+AUDIENCE: Circle with the square cutout.
+
+PROFESSOR: Yeah, the cylinder, this [INAUDIBLE] disk with the square cutout with the pin at the top turning it into a pendulum. That's the fixed point. You can figure this out. You can use parallel axis. And we're going to do an example right now that's almost identical to that problem. And we started it last time. So the example I want to work is very similar. It's basically this problem is that pendulum.
+
+So let's just work it through quickly. We had done the setup last time. So last time I basically derived an example of the parallel axis theorem for my little stick here. And I'll give you some geometry, some values. So here's G. There's the point I wanted to rotate about, A. The distance between these two points is d. That's going to pop up in my parallel axis theorem.
+
+We've got a set of coordinates here. My G is, of course, in the center of this thing, the geometric center. So I have a body fixed set of axes, which I'm going to call z. And my x is in this direction. So that would make my y going into the board. So the y is kind of like that. And this has some properties. The dimension in this direction means A. The direction in this dimension is B. So it's a width of A, a thickness B, and a length L.
+
+So when you compute, these are-- ah, symmetry now. So the axes that I've chosen for this problem are they principal axes. There's three planes of symmetry in this problem, and I've got one principal axis perpendicular to every one of them. And all three pass through the center of mass, and they're orthogonal to one another. So those conditions are all satisfied for these to be principal axes for this rectangular body and its uniform density.
+
+So I'll give you the-- for bodies like this, in your book or any book on dynamics, you can look up then the properties, the Izz. And we're going to spin this thing. This thing, we're going to have it rotating about-- which one am I going to use? Yeah, around the z-axis. That's how I'll set it up. That's the way I drilled my hole, so it's going back and forth. So that the wide part of it's this way.
+
+So Izz with respect to G M L squared plus a squared over 12. Iyy. OK, now just to make a point, the dimensions L 32.1 centimeters, a 4.71, b, 1.25. And eventually my d, this offset would be, for example, where I've drilled that hole, is at 10.2.
+
+The point I want to make here, lots of times it would be nice if I could just make the simplification to call this a slender rod and be able to ignore these a and b dimensions in this, just to get quick answers. Do you think that's slender enough? It's not even 10 times-- the length of the width here isn't even 10. It's probably six or seven. So the key issue then, if you look at this, is really what's the ratio of a squared to L squared? That would tell you something about the relative importance of the a squared term to the L squared. So let me tell you about that.
+
+So a squared over L squared is 0.022. b squared over L squared is 0.002. So even with this kind of fat stick, the approximation of ML squared over 12 is pretty good. It's only 2% off. And this approximation, L squared over 12, is less than 2/10 of a percent off. So for roughly slender things, we oftentimes just say ML squared over 12 for spin about their center.
+
+We now need to apply parallel axis. I want to spin this around, let this rotate around, not around G, but now around a point off to the side. So we worked out last time that Izz with respect to A is IzzG plus Md squared. So in this particular problem, this Izz about G is approximately ML squared over 12.
+
+So just by way of example, to see what we might find out here, is let's let d equal L/2. That would be if I move this-- if I put my hole right at the very top, how would this thing behave? I don't have a hole right at the top, but I have one close. So this is just because the numbers are easy to work. What happens if you put in L/2 into this formula? Well then IzzA is ML squared over 12 plus M. L over 2 squared is L squared over 4. And that's ML squared over 3, which is a number you'll run into again and again and again in mechanical engineering because examples like this are used a lot. The mass moment of inertia about a slender rod pinned at its end, ML squared over 3.
+
+So let's take this problem a little more towards completion. The sum of the external moments with respect to A dHA dt. And that's going to be d by dt. In this problem, the only rotation is omega z. So this is going to be Izz with respect to A omega z. And that just gives us IzzA omega z dot, or more familiar, IzzA theta double bond, if you want.
+
+Here's our problem. It simplifies to this slender rod. And let me do the more general case. Here's my rod. The pivot point that it's going around is here. This is d still, and this is G. And it's swinging with respect to this point. So here's the angle theta. So it swings about this point that you've fixed, and that point is d above the center of gravity, center of mass.
+
+So what are the external moments about this point? There's no torque right at the point, but our free body diagram of drawing this as a-- here's our point of rotation. Here it is displaced through an angle theta. The weight of the object can all be concentrated, thought of, for the purposes of the free body diagram as acting through G.
+
+So here's the mass at G, gravity acting down on it. And the length of this arm here about which it's swinging is D. So the torque about this is-- and it's pulling it back-- minus Mgd sine theta. Probably you've seen that many times before, including the recent homework. And that must be equal to Izz about A theta double dot. So we have an equation of motion. Just collecting the terms together.
+
+So this is a oscillator that, for this problem, has no external excitation. This is its equation of motion. And I need theta double dot. But is it linear? Is it linear? No, it's not a linear equation of motion. But for sure, it is an oscillator. And for anything that vibrates, you can have lots of nonlinear problems that exhibit vibration. You can think of them-- you can pose problems where you say, OK, what's their static equilibrium position?
+
+And think of a very small motion about that static equilibrium position. You can always linearize about the static equilibrium position and be able to come up with a linearized equation of motion that at least from that you can calculate the natural frequency of the system for small motions around its static equilibrium position. So in this case, it's pretty easy to do.
+
+And you've seen it before for small theta. Sine theta is approximately equal to theta. So we are going to linearize the equation. This theta equals 0 is a static equilibrium position. So we're linearizing around 0. And around 0, that's the approximation. So you just substitute that in, IzzA theta double dot plus Mgd theta equals 0. There's your linearized equation of motion. I want an estimate of the natural frequency. So find omega n.
+
+So this is basically entering into solving differential equations. But I let mother nature tell me what the answer is. I do the example, and I say it oscillates. Looks a lot like sine omega t to me. Plug in [INAUDIBLE] to make a t. Let's find out. Some theta amplitude sine omega t. Plug it in. So you plug that in [INAUDIBLE] and you get minus omega squared IzzA plus Mgd. And all of this, you can factor out the theta 0 sine omega t equals 0. That's what you get. And in general, theta, that's not 0, or else you'd have a trivial problem, not moving at all. But in order for this equation-- and this can be anything. We're doing the 0 minus 1 and plus 1 depending on the time. So in order to satisfy this equation, this part inside of the parentheses has to be 0. And when you just solve that, you find that omega squared equals Mgd/IzzA.
+
+And the reason I've gone to the bother of working this out in detail right to the end is that every one degree of freedom rotational oscillator that you will ever encounter-- sticks, wheels with static imbalances. Let me show you this one. It's an oscillator too. Any one degree of freedom oscillator, rotational oscillator, pendulum-- basically all pendula-- this is the formula for the natural frequency.
+
+So it's going to be of that form for any pendulum. So any 1dof pendulum. This is the generic answer. So that cutout problem for today has to come down to this. Or this is the distance between the mass center and the point of rotation. And that's your mass moment of inertia about the point of rotation. So that's worth knowing that one.
+
+OK, keep moving. Now things will begin to get interesting. These latter two classes are harder conceptually, but once you have a solution method for them, they're not all that hard. This one is the problem I described at the beginning. We've got this hockey puck like thing. And the string wrapped around it pulling on it with a known force. In this problem, they call it 150 newtons.
+
+The mass of this thing is 75 kilograms. It's on a frictionless surface. And we want to find its acceleration of the center of mass and the rotation around the center of mass. So find theta double dot and find the linear acceleration. That's basically the name of the problem. And they give you that it's 75 kilograms, 150 newtons, and kappa, the radius of gyration, is 0.15 meters.
+
+This is defined as the radius of gyration. So what's that? It's a radius of gyration. It's really appropriate, really only useful, for mostly 2D rotational problems around an axis of rotation. And what it means is this is the distance away from the center of rotation at which you could concentrate all of the mass and have the same mass moment of inertia.
+
+So this has-- here's G here at the center, uniform disk. We know that there is an Izz about G for this problem. And I need to pick a coordinate system so we can talk about things here. Let me get M out of the center. So I'm going to let z be upwards. And because I'm looking ahead and want to keep the equation simple, I'm going to make my x-axis here parallel to f so I only have to deal with one vector component equation.
+
+And then that makes the y-axis this way. So I'm interested in Izz because I'm spinning around the z-axis. I know that for a uniform disk, that's a principal axis, is the vertical one. And what I'm saying is that you can then set find. There's an IzzG that can be expressed as M kappa squared. So kappa, in effect, is just IzzG over M square root.
+
+Now, why do we use that kind of thing? Well, the way this problem was set up-- I actually took it out of a book. It wasn't a uniform disk. It's a pulley wheel or something. And it's got spokes in here and a rim. It's still axially-- it still has some axial symmetries.
+
+But it's getting a little messy. It's hard for you-- you can't just say that's MR squared over 2. It's got some other mass moment of inertia about the center. But it's got holes and stuff in it because of the spokes. So oftentimes, you'll be given the radius of gyration because it's a little difficult to give you a mathematical description of what the actual Izz is.
+
+That's often why you do it. And the thing is, you can measure. Rather than try to calculate, you can actually just measure the mass moment of inertia of something. So how would I measure-- let's say I didn't know any formulas, but how would I measure the mass moment of inertia of this in the z direction? What experiment would you do?
+
+AUDIENCE: [INAUDIBLE] angular acceleration.
+
+PROFESSOR: She says apply torque. Measure the angular acceleration. Hang a weight off of it, known weight. Wrap a string around it. Known mass. Known G. Known torque around the center. Measure the angular acceleration. I theta double dot equals the torque. You know the torque, you know the measure of the theta double dot. Calculate I. I equals M kappa squared, and you could just say, well, the kappa for this system is. That's how you use it.
+
+I'll give you a very common example, really hard to calculate mass moment of inertia. A marine propeller. You actually do want to know the mass moment of inertia about its center for purposes of torsional oscillations on the shaft, et cetera. Hard to calculate. Pretty easy to measure.
+
+So how many degrees of freedom does this problem has? Well, when we say it's 2D, it's a rigid body. But it's 2D, which means it's lying on a plane. It's a planar motion problem. Only allowed to rotate in z. Not allowed to rotate in around the x-axis or the y-axis. So for the rigid body, six degrees of freedom possible. There's two immediately that you said it can't rotate.
+
+So we're down to four. It cannot translate in the z direction. We're down to three. So that leaves us what? So the degrees of freedom for this problem is 6 minus 3 constraints is 3. That means we have to have three equations of motion. And they would account for what are the possible-- in other words, saying this, what are the possible motions now of this problem?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: x, y, and z. Or rotation in z. So notice we've set the problem up. Now to go about solving it, we need a free body diagram. So here's my disk. Here's the force. Any other-- and there certainly has weight in the z direction, but there's no z acceleration. So in the plane of the board, that's the only external forces acting on this. And there's our G.
+
+Now this problem-- and I'll say generalize on this in a few minutes. This problem can always be restated as-- recast, let me put it that way-- as, here's your point G with a force acting on this center of mass. See, this force doesn't go through the center of mass. This force goes through the center of mass. I'm going to replace that problem with this problem.
+
+A pure moment acting about the center of mass. You can always make this transition. And I'll do the general case for you in just a minute. But you can always do this. So that's kind of my second point here.
+
+Third point, we need then-- this is our free body diagram. We need apply our laws of motion. So sum of the forces in the y are-- now remember, this is z coming out of the board. y this way, x this way. Sum of the forces in the y? Zero, M acceleration of G in the y direction, zero. So you know there's no acceleration in the y. So it has three degrees of freedom. That's the first equation of motion. It gives you a trivial result. So y double dot is zero. That's your first equation of motion.
+
+Then you have the second equation of motion, sum of the forces in the x direction equals just our F i hat. It's positive x direction because we were clever in how we set up the coordinate system. And that's got to be Mx double dot, i hat direction. So we know right away that x double dot is the force F divided by M. And that's 150 newtons over 75 kilograms, or 2 meters per second squared. All right.
+
+The third one, then, is the moment of inertia with respect to G in this problem-- excuse me, the angular momentum in some IzzG times omega z. And that's what we're looking for. So this is another way of-- IzzG theta dot k hat direction.
+
+And we're going to apply that the external torques, some of the torques, is dH respect to G dt. And that's going to give us IzzG theta double dot. So this third class of problems you are best just working with respect to the center of mass. That's kind of the point here. There's no points of contact. There's just known external forces. You have to deal with them. Do your work with respect to the center of mass.
+
+So we have force equations. We have moment equations. And basically you know Izz for this problem is kappa squared M. And you're given M, and you're given kappa. So you can now-- and what we have to-- actually, the last thing left here is to figure out the torque. What's the torque?
+
+Well, it's R in this direction crossed with F in that direction. So it's Rj cross with Fi, j cross i, minus RF, minus RF, k hat. So you can now solve for theta double dot as RF over Izz, or RF over M kappa squared.
+
+And that says-- minus says it's rotating this way, which is what you'd expect. Right? Now I meant to ask you a question before we started. But think about this. If I had, right at the beginning, had said, OK, this is a problem. If I grab this string and pull in this direction, will there be any motion in the y direction?
+
+I meant to start that way. I'm really kicking myself for not doing that. Because a lot of people think that there's possible, that it could move off in the y direction because it's not being loaded symmetrically. You're pulling on a side. Some people think it'll kind of try to move away like that. It doesn't, does it?
+
+So an important generalization. We've got a rigid body. You have a force acting on it. Has a mass center here. So perpendicular to that force is some distance. We'll call it d. You can always equate this problem to-- and set it up as-- a force.
+
+Conceptually, you can think of it as equal and opposite forces. But it's cancel one another. It's just like I've done nothing to this problem. And then a force acting at this distance F. This is our distance d. So this problem is identical to that problem. I've just added and taken away two more forces.
+
+So the total forces on the system are still F. And there's still an F operating at a lever arm d. But now, if I had put these two together, they are equal and opposite. And they form a couple, a moment, acting like that. So this is equivalent to-- there's G with an F on it and a moment M0. And this M0 is my D cross F.
+
+So that's the generalization for what I did up here. I went from that to that. And this is why you can do that. And so now if you have an object and lots of different forces acting on it, and this is Fi down here and here's G, you can draw a radius from G to this point. So I'll call that Ri with respect to G. Then the way to generalize this is that this is equal to some F total and a moment acting at G.
+
+And all that you have to do there is F total is the summation of the Fi's, vector sum. And the MG, the M with respect to G here, is the summation of the Ri with respect to G cross Fi. So that's the generalization for multiple forces on a body. So you are making an equivalent force acting at G and a moment acting at G. I shouldn't call this little g. That's really confusing. So that's the generalization when you need to do problems like this.
+
+Catch your breath while I scrub a board here. Now we've got to move on to these class four problems. Moving points. An example is the truck problem that you had. Known acceleration. So there's two common ways of doing this problem. You can do this problem by summing forces at the center of mass of that pipe and summing moments around it.
+
+But the moment around this comes from a friction force here, which you don't know. So that introduces an unknown that you have to then solve for. So if you work around G for this pipe, you can do it. You can work around G. You could say sum of the moments around G, sum of the force with respect to G. But you have to deal with unknown forces.
+
+So you're working with respect to G implies unknown forces, e, for example, friction. So you'd really maybe rather around the point of contact, A. Because if you sum your moments about A, the friction force has no moment arm, and it doesn't appear in the answer. But this gets trickier. This is a little more sophisticated, I'll just call it, step.
+
+And you need-- to do this, you need a little theorem. So to work with respect to A, you need to be able to say that the angular momentum with respect to A-- you now are working around a moving point, maybe accelerating. It's very handy to be able to say it's the angular momentum around G, which is easier to calculate, plus RGA, the distance from the center of mass to the point you're working on, cross the linear momentum of the system with respect to the inertial frame. We need this. This is a formula we need.
+
+And see why this is true? This is sort of thing-- this is a formula that's come out of the blue here. And why is it true? So I don't usually like to do proofs, but the proofs of this [INAUDIBLE] on the board. But the proof of this is really quite simple.
+
+Here's a little mass point Mi. And this radius is R of i with respect to A. This is R of G with respect to A. And therefore, this is R of i with respect to G is this one. And we know that this plus this gives us that. We can say Ri particle i with respect to A is RG with respect to A plus Ri with respect to G, all vectors.
+
+So the angular momentum of that body from the basic definition of angular momentum is the summation of all the little mass bits of the Ri with respect to A cross the linear momentum of each little mass bit. But we can expand that with that sum. So this is the summation of my RG with respect to A plus Ri with respect to G cross Pio, summation over all the mass bits.
+
+I'm going to expand this. And I can expand this into this times that, summations of this times that, and this times that. So that becomes a RGA cross summation of-- what's Pio? This is a little Mi's, Vi with respect to o. Each one has velocity. Each one has a mass. So this is Mi Vi with respect to o plus the summation RiG's cross Mi Vio's.
+
+Now, notice I pulled this one outside the summation. That's because this is a single-- this is a fixed number. It doesn't change in the summation. It's just the distance from my starting point to G. So I can pull it out and do the summation and then do the cross product.
+
+What is the summation of all the MVi's for the body? That's the momentum of each little particle. Add them all up, what do you get? This is RGA cross P with respect to o. That's this term. And this is all the little distances from the center of mass to the cross with the momentum of each little one.
+
+What's that? Well, this looks like a definition of angular momentum. This is the angular momentum of every little mass particle with respect to G added up. This is H with respect to G, which is what we set out to prove. So the H with respect to A is H with respect to G plus RGA cross the linear momentum of the body. Yeah.
+
+AUDIENCE: Can you also do this by writing Pi with respect to o, I mean the velocity part of that, as the sum of the velocities?
+
+PROFESSOR: You got to keep the M's in there.
+
+AUDIENCE: Well, yeah. [INAUDIBLE]. But instead of writing out R as a sum, you can write out the velocity as the sum of the velocities with respect to the origin.
+
+PROFESSOR: Are you talking about this term here?
+
+AUDIENCE: No, the definition of angular momentum. Yeah. The velocity--
+
+PROFESSOR: If you could figure out-- if you had the angular momentum [INAUDIBLE] and multiplied by Ri, that is the angular momentum with respect to A. But I broke it apart so that I could show you that this formula I want to use has two pieces. I want to use that. So that if I can use that-- it's easy to get H with respect to G sometimes. It's really hard to know what to do with things that happen around this point A.
+
+So now let's go back. I think, to understand this, we need to go back to our truck problem. We now have a formula that you know where it comes from. We have our truck that is accelerating at x1 double dot. And we want to find out what's theta double dot for that pipe. What's it doing? So first we needed some kinematics.
+
+And in particular, what is the x2-- did I label this very well? I didn't. So here's my pipe. Here's my truck bed that it's in contact with. Truck's moving at x1 double dot, we know. In an inertial frame, the movement of the center of mass of my pipe is x2. And it has some angular rotation I'll call theta.
+
+So the movement of this guy I need to be able to express in terms of x1 and theta. Well, if this is fixed to the truck and the truck move forward, then x2 would be equal to x1. But in fact, it rolls back a little bit. And the distance this point moves if it rolls through an angle theta is it rolls backwards an amount R theta. And we're going to need to take two derivatives of that. x2 double dot equals x1 double dot minus r theta double dot. So that's a little kinematic relationship we need to do this problem.
+
+Next we need to apply a physical law, which is the one I've derived. So this is our physics here now, our physical law. And that's the external torques, dH with respect to A dt, plus VAo cross Po. And in this case, is VAo 0? No, in fact, it's x1 dot, right? It's in the i direction.
+
+How about what direction is P, the momentum of the pipe? Does it move in the y direction? Up, down? No. It only moves in the x. So this velocity is only in the x. This is in the x, or the i hat direction. This cross product is zero. So it just happens that they're parallel. So this thing goes to zero. We don't have to deal with it. That's because these guys are parallel. Parallel motion.
+
+But you did have to consider it. You did have to think about it. It's not just trivially 0. OK, so that means that the torques about A is just dHA dt. And HA for this problem is i-- well, it's HG, which is IzzG theta double dot. But I have to put in this-- theta dot, excuse me. This is just the H. I have to put in the second term, RG with respect to A cross P with respect to o.
+
+So here's my HA. I'll write it again up here. This is IzzG theta dot in the k. And now this second term. R is Rj. My y-axis is up. The radius of this thing is R. Here's the radius. So the moment arm is Rj crossed with the linear momentum of that piece of pipe, which is the mass of the pipe times x2 dot in the i direction. j cross i is minus k. So Izz with respect to G theta double dot-- theta dot. I keep taking the derivative a little too soon. k minus RM x2 dot k.
+
+And now some of the torques, d by dt of H with respect to A. Take the derivatives. IzzG theta double dot k minus RM x2 double dot k. And fortunately, none of these unit vectors are rotating. So we don't have to deal with any of that. And I'm almost to the end, but now I have to go back to that original kinematic relationship, which allows me to express x2 in terms of x1 and R theta. And if I substitute that in here and solve for it, I get theta double dot equals MR over IzzG plus MR squared. x double dot whole thing, x1 double dot.
+
+So you've accelerated x1 double dot. The thing starts rolling. It's actually rolling backwards, which is a plus theta direction, at this rate. We did this using this formula for HA. Now, the beauty of this formula is that it works for any points that are moving, even can be accelerating, all sorts of nasty conditions, it's true. It's based on the fundamental definition of angular momentum. So the book-- yeah.
+
+AUDIENCE: [INAUDIBLE] final point here. I just want to make sure i understood. In this first line here, [INAUDIBLE]. That stroke doesn't mean that V sub A was 0. It meant that that term is 0.
+
+PROFESSOR: This term's zero because these happen to be parallel, but the product is zero in this case. If it had not turned out to be-- they were different directions. It had to be a non-zero term. And you would have to bring it along and take its derivative along with the other stuff.
+
+But this is a really powerful method. Now, the book is reasonably good in lots of points. But in chapter 17, when it does problems that are kind of like this, it introduces something that I find it hard to digest what they're doing. There's particularly-- where's Matt? There's equation 1715. When you get to that bit of the book, just ignore it. Use this method.
+
+The author tries to give you a little trick that you can use. But the problem with tricks is you have to memorize them. So what I've shown you today is based on basic definition of angular momentum. That expression at the top is always usable, not just special little conditions, which is what the formula in the book is generated for.
+
+We've got a couple of minutes. Let you ask questions, and then I'll just pose a conceptual problem or two and ask you what method you'd use. Yeah.
+
+AUDIENCE: So [INAUDIBLE] when you [INAUDIBLE] dHA dt, is that equal to 0 because there is no torque in the system?
+
+PROFESSOR: Oh, you know, boy, I'm glad you caught that. Yeah, in order to be able to do this, we've got to know something here, right? Important catch. Thank you. Why is this true?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: So we chose-- that's why we chose to work around point A. With respect to that point, there are no external forces that create moments on that pipe with respect to that point. And that's why you can say that the time derivative of this angular momentum is equal to zero because there are no external torques.
+
+If you had picked G to do this problem, would the sum of the torques about G be zero? No, you'd have to put that friction force in there and have RF and figure out F is. We completely avoided having to calculate the friction force. That's the point of being able to use techniques like this and make your computations around points of contact.
+
+So textbooks have lots of problems like this. You've got a box on a cart. And your kid's pushing it, and he gets a little exuberant and pushes a little too hard, accelerates the cart a little too fast, and the box falls over and breaks the lamp or whatever's in it. And if it's this way, and I accelerate it, it's much more tolerant. Falls over easier this way.
+
+But if I asked you, gave you a problem and said, calculate the maximum acceleration that I can put on this object such that it just barely-- just right at the edge of tipping over, but doesn't tip it over. What's that maximum acceleration that you don't tip it over? What method would you use? I gave you four classes of approaches to problems.
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: I hear a four. Anybody else want to bid here? More fours. Would three work?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Why? He says three would be complicated. Three means taking moments and forces with respect to the center of mass. If you do that, what do you have to deal with in this problem?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: You have to, then-- around the center of mass there's a friction force. There's a normal force pushing up here. The way you do this problem is where it's just barely about to go, all of the force is pushing on this corner. Think of it. It's just lifting up a fraction. All of that contact point moves to right here.
+
+You have an upward force and a friction force, and they create a moment about G. But if you do the forces around G, you have to solve for those two. You do the forces around A. The trick here is figuring out where's A. But if you realize A is right here, and you do what we just did, this problem's just a piece of cake.
+
+[[Class 3: Unconstrained motion about center of mass-hockey puck example]]
+Print This Document
+
+OK, keep moving. Now things will begin to get interesting. These latter two classes are harder conceptually, but once you have a solution method for them, they're not all that hard. This one is the problem I described at the beginning. We've got this hockey puck like thing. And the string wrapped around it pulling on it with a known force. In this problem, they call it 150 newtons.
+
+The mass of this thing is 75 kilograms. It's on a frictionless surface. And we want to find its acceleration of the center of mass and the rotation around the center of mass. So find theta double dot and find the linear acceleration. That's basically the name of the problem. And they give you that it's 75 kilograms, 150 newtons, and kappa, the radius of gyration, is 0.15 meters.
+
+This is defined as the radius of gyration. So what's that? It's a radius of gyration. It's really appropriate, really only useful, for mostly 2D rotational problems around an axis of rotation. And what it means is this is the distance away from the center of rotation at which you could concentrate all of the mass and have the same mass moment of inertia.
+
+So this has-- here's G here at the center, uniform disk. We know that there is an Izz about G for this problem. And I need to pick a coordinate system so we can talk about things here. Let me get M out of the center. So I'm going to let z be upwards. And because I'm looking ahead and want to keep the equation simple, I'm going to make my x-axis here parallel to f so I only have to deal with one vector component equation.
+
+And then that makes the y-axis this way. So I'm interested in Izz because I'm spinning around the z-axis. I know that for a uniform disk, that's a principal axis, is the vertical one. And what I'm saying is that you can then set find. There's an IzzG that can be expressed as M kappa squared. So kappa, in effect, is just IzzG over M square root.
+
+Now, why do we use that kind of thing? Well, the way this problem was set up-- I actually took it out of a book. It wasn't a uniform disk. It's a pulley wheel or something. And it's got spokes in here and a rim. It's still axially-- it still has some axial symmetries.
+
+But it's getting a little messy. It's hard for you-- you can't just say that's MR squared over 2. It's got some other mass moment of inertia about the center. But it's got holes and stuff in it because of the spokes. So oftentimes, you'll be given the radius of gyration because it's a little difficult to give you a mathematical description of what the actual Izz is.
+
+That's often why you do it. And the thing is, you can measure. Rather than try to calculate, you can actually just measure the mass moment of inertia of something. So how would I measure-- let's say I didn't know any formulas, but how would I measure the mass moment of inertia of this in the z direction? What experiment would you do?
+
+AUDIENCE: [INAUDIBLE] angular acceleration.
+
+PROFESSOR: She says apply torque. Measure the angular acceleration. Hang a weight off of it, known weight. Wrap a string around it. Known mass. Known G. Known torque around the center. Measure the angular acceleration. I theta double dot equals the torque. You know the torque, you know the measure of the theta double dot. Calculate I. I equals M kappa squared, and you could just say, well, the kappa for this system is. That's how you use it.
+
+I'll give you a very common example, really hard to calculate mass moment of inertia. A marine propeller. You actually do want to know the mass moment of inertia about its center for purposes of torsional oscillations on the shaft, et cetera. Hard to calculate. Pretty easy to measure.
+
+So how many degrees of freedom does this problem has? Well, when we say it's 2D, it's a rigid body. But it's 2D, which means it's lying on a plane. It's a planar motion problem. Only allowed to rotate in z. Not allowed to rotate in around the x-axis or the y-axis. So for the rigid body, six degrees of freedom possible. There's two immediately that you said it can't rotate.
+
+So we're down to four. It cannot translate in the z direction. We're down to three. So that leaves us what? So the degrees of freedom for this problem is 6 minus 3 constraints is 3. That means we have to have three equations of motion. And they would account for what are the possible-- in other words, saying this, what are the possible motions now of this problem?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: x, y, and z. Or rotation in z. So notice we've set the problem up. Now to go about solving it, we need a free body diagram. So here's my disk. Here's the force. Any other-- and there certainly has weight in the z direction, but there's no z acceleration. So in the plane of the board, that's the only external forces acting on this. And there's our G.
+
+Now this problem-- and I'll say generalize on this in a few minutes. This problem can always be restated as-- recast, let me put it that way-- as, here's your point G with a force acting on this center of mass. See, this force doesn't go through the center of mass. This force goes through the center of mass. I'm going to replace that problem with this problem.
+
+A pure moment acting about the center of mass. You can always make this transition. And I'll do the general case for you in just a minute. But you can always do this. So that's kind of my second point here.
+
+Third point, we need then-- this is our free body diagram. We need apply our laws of motion. So sum of the forces in the y are-- now remember, this is z coming out of the board. y this way, x this way. Sum of the forces in the y? Zero, M acceleration of G in the y direction, zero. So you know there's no acceleration in the y. So it has three degrees of freedom. That's the first equation of motion. It gives you a trivial result. So y double dot is zero. That's your first equation of motion.
+
+Then you have the second equation of motion, sum of the forces in the x direction equals just our F i hat. It's positive x direction because we were clever in how we set up the coordinate system. And that's got to be Mx double dot, i hat direction. So we know right away that x double dot is the force F divided by M. And that's 150 newtons over 75 kilograms, or 2 meters per second squared. All right.
+
+The third one, then, is the moment of inertia with respect to G in this problem-- excuse me, the angular momentum in some IzzG times omega z. And that's what we're looking for. So this is another way of-- IzzG theta dot k hat direction.
+
+And we're going to apply that the external torques, some of the torques, is dH respect to G dt. And that's going to give us IzzG theta double dot. So this third class of problems you are best just working with respect to the center of mass. That's kind of the point here. There's no points of contact. There's just known external forces. You have to deal with them. Do your work with respect to the center of mass.
+
+So we have force equations. We have moment equations. And basically you know Izz for this problem is kappa squared M. And you're given M, and you're given kappa. So you can now-- and what we have to-- actually, the last thing left here is to figure out the torque. What's the torque?
+
+Well, it's R in this direction crossed with F in that direction. So it's Rj cross with Fi, j cross i, minus RF, minus RF, k hat. So you can now solve for theta double dot as RF over Izz, or RF over M kappa squared.
+
+And that says-- minus says it's rotating this way, which is what you'd expect. Right? Now I meant to ask you a question before we started. But think about this. If I had, right at the beginning, had said, OK, this is a problem. If I grab this string and pull in this direction, will there be any motion in the y direction?
+
+I meant to start that way. I'm really kicking myself for not doing that. Because a lot of people think that there's possible, that it could move off in the y direction because it's not being loaded symmetrically. You're pulling on a side. Some people think it'll kind of try to move away like that. It doesn't, does it?
+
+So an important generalization. We've got a rigid body. You have a force acting on it. Has a mass center here. So perpendicular to that force is some distance. We'll call it d. You can always equate this problem to-- and set it up as-- a force.
+
+Conceptually, you can think of it as equal and opposite forces. But it's cancel one another. It's just like I've done nothing to this problem. And then a force acting at this distance F. This is our distance d. So this problem is identical to that problem. I've just added and taken away two more forces.
+
+So the total forces on the system are still F. And there's still an F operating at a lever arm d. But now, if I had put these two together, they are equal and opposite. And they form a couple, a moment, acting like that. So this is equivalent to-- there's G with an F on it and a moment M0. And this M0 is my D cross F.
+
+So that's the generalization for what I did up here. I went from that to that. And this is why you can do that. And so now if you have an object and lots of different forces acting on it, and this is Fi down here and here's G, you can draw a radius from G to this point. So I'll call that Ri with respect to G. Then the way to generalize this is that this is equal to some F total and a moment acting at G.
+
+And all that you have to do there is F total is the summation of the Fi's, vector sum. And the MG, the M with respect to G here, is the summation of the Ri with respect to G cross Fi. So that's the generalization for multiple forces on a body. So you are making an equivalent force acting at G and a moment acting at G. I shouldn't call this little g. That's really confusing. So that's the generalization when you need to do problems like this.
+
+Catch your breath while I scrub a board here. Now we've got to move on to these class four problems. Moving points. An example is the truck problem that you had. Known acceleration. So there's two common ways of doing this problem. You can do this problem by summing forces at the center of mass of that pipe and summing moments around it.
+
+But the moment around this comes from a friction force here, which you don't know. So that introduces an unknown that you have to then solve for. So if you work around G for this pipe, you can do it. You can work around G. You could say sum of the moments around G, sum of the force with respect to G. But you have to deal with unknown forces.
+
+So you're working with respect to G implies unknown forces, e, for example, friction. So you'd really maybe rather around the point of contact, A. Because if you sum your moments about A, the friction force has no moment arm, and it doesn't appear in the answer. But this gets trickier. This is a little more sophisticated, I'll just call it, step.
+
+And you need-- to do this, you need a little theorem. So to work with respect to A, you need to be able to say that the angular momentum with respect to A-- you now are working around a moving point, maybe accelerating. It's very handy to be able to say it's the angular momentum around G, which is easier to calculate, plus RGA, the distance from the center of mass to the point you're working on, cross the linear momentum of the system with respect to the inertial frame. We need this. This is a formula we need.
+
+And see why this is true? This is sort of thing-- this is a formula that's come out of the blue here. And why is it true? So I don't usually like to do proofs, but the proofs of this [INAUDIBLE] on the board. But the proof of this is really quite simple.
+
+Here's a little mass point Mi. And this radius is R of i with respect to A. This is R of G with respect to A. And therefore, this is R of i with respect to G is this one. And we know that this plus this gives us that. We can say Ri particle i with respect to A is RG with respect to A plus Ri with respect to G, all vectors.
+
+So the angular momentum of that body from the basic definition of angular momentum is the summation of all the little mass bits of the Ri with respect to A cross the linear momentum of each little mass bit. But we can expand that with that sum. So this is the summation of my RG with respect to A plus Ri with respect to G cross Pio, summation over all the mass bits.
+
+I'm going to expand this. And I can expand this into this times that, summations of this times that, and this times that. So that becomes a RGA cross summation of-- what's Pio? This is a little Mi's, Vi with respect to o. Each one has velocity. Each one has a mass. So this is Mi Vi with respect to o plus the summation RiG's cross Mi Vio's.
+
+Now, notice I pulled this one outside the summation. That's because this is a single-- this is a fixed number. It doesn't change in the summation. It's just the distance from my starting point to G. So I can pull it out and do the summation and then do the cross product.
+
+What is the summation of all the MVi's for the body? That's the momentum of each little particle. Add them all up, what do you get? This is RGA cross P with respect to o. That's this term. And this is all the little distances from the center of mass to the cross with the momentum of each little one.
+
+What's that? Well, this looks like a definition of angular momentum. This is the angular momentum of every little mass particle with respect to G added up. This is H with respect to G, which is what we set out to prove. So the H with respect to A is H with respect to G plus RGA cross the linear momentum of the body. Yeah.
+
+AUDIENCE: Can you also do this by writing Pi with respect to o, I mean the velocity part of that, as the sum of the velocities?
+
+PROFESSOR: You got to keep the M's in there.
+
+AUDIENCE: Well, yeah. [INAUDIBLE]. But instead of writing out R as a sum, you can write out the velocity as the sum of the velocities with respect to the origin.
+
+PROFESSOR: Are you talking about this term here?
+
+AUDIENCE: No, the definition of angular momentum. Yeah. The velocity--
+
+PROFESSOR: If you could figure out-- if you had the angular momentum [INAUDIBLE] and multiplied by Ri, that is the angular momentum with respect to A. But I broke it apart so that I could show you that this formula I want to use has two pieces. I want to use that. So that if I can use that-- it's easy to get H with respect to G sometimes. It's really hard to know what to do with things that happen around this point A.
+
+So now let's go back. I think, to understand this, we need to go back to our truck problem. We now have a formula that you know where it comes from. We have our truck that is accelerating at x1 double dot. And we want to find out what's theta double dot for that pipe. What's it doing? So first we needed some kinematics.
+
+And in particular, what is the x2-- did I label this very well? I didn't. So here's my pipe. Here's my truck bed that it's in contact with. Truck's moving at x1 double dot, we know. In an inertial frame, the movement of the center of mass of my pipe is x2. And it has some angular rotation I'll call theta.
+
+So the movement of this guy I need to be able to express in terms of x1 and theta. Well, if this is fixed to the truck and the truck move forward, then x2 would be equal to x1. But in fact, it rolls back a little bit. And the distance this point moves if it rolls through an angle theta is it rolls backwards an amount R theta. And we're going to need to take two derivatives of that. x2 double dot equals x1 double dot minus r theta double dot. So that's a little kinematic relationship we need to do this problem.
+
+Next we need to apply a physical law, which is the one I've derived. So this is our physics here now, our physical law. And that's the external torques, dH with respect to A dt, plus VAo cross Po. And in this case, is VAo 0? No, in fact, it's x1 dot, right? It's in the i direction.
+
+How about what direction is P, the momentum of the pipe? Does it move in the y direction? Up, down? No. It only moves in the x. So this velocity is only in the x. This is in the x, or the i hat direction. This cross product is zero. So it just happens that they're parallel. So this thing goes to zero. We don't have to deal with it. That's because these guys are parallel. Parallel motion.
+
+But you did have to consider it. You did have to think about it. It's not just trivially 0. OK, so that means that the torques about A is just dHA dt. And HA for this problem is i-- well, it's HG, which is IzzG theta double dot. But I have to put in this-- theta dot, excuse me. This is just the H. I have to put in the second term, RG with respect to A cross P with respect to o.
+
+So here's my HA. I'll write it again up here. This is IzzG theta dot in the k. And now this second term. R is Rj. My y-axis is up. The radius of this thing is R. Here's the radius. So the moment arm is Rj crossed with the linear momentum of that piece of pipe, which is the mass of the pipe times x2 dot in the i direction. j cross i is minus k. So Izz with respect to G theta double dot-- theta dot. I keep taking the derivative a little too soon. k minus RM x2 dot k.
+
+And now some of the torques, d by dt of H with respect to A. Take the derivatives. IzzG theta double dot k minus RM x2 double dot k. And fortunately, none of these unit vectors are rotating. So we don't have to deal with any of that. And I'm almost to the end, but now I have to go back to that original kinematic relationship, which allows me to express x2 in terms of x1 and R theta. And if I substitute that in here and solve for it, I get theta double dot equals MR over IzzG plus MR squared. x double dot whole thing, x1 double dot.
+
+So you've accelerated x1 double dot. The thing starts rolling. It's actually rolling backwards, which is a plus theta direction, at this rate. We did this using this formula for HA. Now, the beauty of this formula is that it works for any points that are moving, even can be accelerating, all sorts of nasty conditions, it's true. It's based on the fundamental definition of angular momentum. So the book-- yeah.
+
+AUDIENCE: [INAUDIBLE] final point here. I just want to make sure i understood. In this first line here, [INAUDIBLE]. That stroke doesn't mean that V sub A was 0. It meant that that term is 0.
+
+PROFESSOR: This term's zero because these happen to be parallel, but the product is zero in this case. If it had not turned out to be-- they were different directions. It had to be a non-zero term. And you would have to bring it along and take its derivative along with the other stuff.
+
+But this is a really powerful method. Now, the book is reasonably good in lots of points. But in chapter 17, when it does problems that are kind of like this, it introduces something that I find it hard to digest what they're doing. There's particularly-- where's Matt? There's equation 1715. When you get to that bit of the book, just ignore it. Use this method.
+
+The author tries to give you a little trick that you can use. But the problem with tricks is you have to memorize them. So what I've shown you today is based on basic definition of angular momentum. That expression at the top is always usable, not just special little conditions, which is what the formula in the book is generated for.
+
+We've got a couple of minutes. Let you ask questions, and then I'll just pose a conceptual problem or two and ask you what method you'd use. Yeah.
+
+AUDIENCE: So [INAUDIBLE] when you [INAUDIBLE] dHA dt, is that equal to 0 because there is no torque in the system?
+
+PROFESSOR: Oh, you know, boy, I'm glad you caught that. Yeah, in order to be able to do this, we've got to know something here, right? Important catch. Thank you. Why is this true?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: So we chose-- that's why we chose to work around point A. With respect to that point, there are no external forces that create moments on that pipe with respect to that point. And that's why you can say that the time derivative of this angular momentum is equal to zero because there are no external torques.
+
+If you had picked G to do this problem, would the sum of the torques about G be zero? No, you'd have to put that friction force in there and have RF and figure out F is. We completely avoided having to calculate the friction force. That's the point of being able to use techniques like this and make your computations around points of contact.
+
+So textbooks have lots of problems like this. You've got a box on a cart. And your kid's pushing it, and he gets a little exuberant and pushes a little too hard, accelerates the cart a little too fast, and the box falls over and breaks the lamp or whatever's in it. And if it's this way, and I accelerate it, it's much more tolerant. Falls over easier this way.
+
+But if I asked you, gave you a problem and said, calculate the maximum acceleration that I can put on this object such that it just barely-- just right at the edge of tipping over, but doesn't tip it over. What's that maximum acceleration that you don't tip it over? What method would you use? I gave you four classes of approaches to problems.
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: I hear a four. Anybody else want to bid here? More fours. Would three work?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Why? He says three would be complicated. Three means taking moments and forces with respect to the center of mass. If you do that, what do you have to deal with in this problem?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: You have to, then-- around the center of mass there's a friction force. There's a normal force pushing up here. The way you do this problem is where it's just barely about to go, all of the force is pushing on this corner. Think of it. It's just lifting up a fraction. All of that contact point moves to right here.
+
+You have an upward force and a friction force, and they create a moment about G. But if you do the forces around G, you have to solve for those two. You do the forces around A. The trick here is figuring out where's A. But if you realize A is right here, and you do what we just did, this problem's just a piece of cake.
+
+[[Equivalent forces and moments acting only upon the center of mass]]
+Print This Document
+
+So an important generalization. We've got a rigid body. You have a force acting on it. Has a mass center here. So perpendicular to that force is some distance. We'll call it d. You can always equate this problem to-- and set it up as-- a force.
+
+Conceptually, you can think of it as equal and opposite forces. But it's cancel one another. It's just like I've done nothing to this problem. And then a force acting at this distance F. This is our distance d. So this problem is identical to that problem. I've just added and taken away two more forces.
+
+So the total forces on the system are still F. And there's still an F operating at a lever arm d. But now, if I had put these two together, they are equal and opposite. And they form a couple, a moment, acting like that. So this is equivalent to-- there's G with an F on it and a moment M0. And this M0 is my D cross F.
+
+So that's the generalization for what I did up here. I went from that to that. And this is why you can do that. And so now if you have an object and lots of different forces acting on it, and this is Fi down here and here's G, you can draw a radius from G to this point. So I'll call that Ri with respect to G. Then the way to generalize this is that this is equal to some F total and a moment acting at G.
+
+And all that you have to do there is F total is the summation of the Fi's, vector sum. And the MG, the M with respect to G here, is the summation of the Ri with respect to G cross Fi. So that's the generalization for multiple forces on a body. So you are making an equivalent force acting at G and a moment acting at G. I shouldn't call this little g. That's really confusing. So that's the generalization when you need to do problems like this.
+
+Catch your breath while I scrub a board here. Now we've got to move on to these class four problems. Moving points. An example is the truck problem that you had. Known acceleration. So there's two common ways of doing this problem. You can do this problem by summing forces at the center of mass of that pipe and summing moments around it.
+
+But the moment around this comes from a friction force here, which you don't know. So that introduces an unknown that you have to then solve for. So if you work around G for this pipe, you can do it. You can work around G. You could say sum of the moments around G, sum of the force with respect to G. But you have to deal with unknown forces.
+
+So you're working with respect to G implies unknown forces, e, for example, friction. So you'd really maybe rather around the point of contact, A. Because if you sum your moments about A, the friction force has no moment arm, and it doesn't appear in the answer. But this gets trickier. This is a little more sophisticated, I'll just call it, step.
+
+And you need-- to do this, you need a little theorem. So to work with respect to A, you need to be able to say that the angular momentum with respect to A-- you now are working around a moving point, maybe accelerating. It's very handy to be able to say it's the angular momentum around G, which is easier to calculate, plus RGA, the distance from the center of mass to the point you're working on, cross the linear momentum of the system with respect to the inertial frame. We need this. This is a formula we need.
+
+And see why this is true? This is sort of thing-- this is a formula that's come out of the blue here. And why is it true? So I don't usually like to do proofs, but the proofs of this [INAUDIBLE] on the board. But the proof of this is really quite simple.
+
+Here's a little mass point Mi. And this radius is R of i with respect to A. This is R of G with respect to A. And therefore, this is R of i with respect to G is this one. And we know that this plus this gives us that. We can say Ri particle i with respect to A is RG with respect to A plus Ri with respect to G, all vectors.
+
+So the angular momentum of that body from the basic definition of angular momentum is the summation of all the little mass bits of the Ri with respect to A cross the linear momentum of each little mass bit. But we can expand that with that sum. So this is the summation of my RG with respect to A plus Ri with respect to G cross Pio, summation over all the mass bits.
+
+I'm going to expand this. And I can expand this into this times that, summations of this times that, and this times that. So that becomes a RGA cross summation of-- what's Pio? This is a little Mi's, Vi with respect to o. Each one has velocity. Each one has a mass. So this is Mi Vi with respect to o plus the summation RiG's cross Mi Vio's.
+
+Now, notice I pulled this one outside the summation. That's because this is a single-- this is a fixed number. It doesn't change in the summation. It's just the distance from my starting point to G. So I can pull it out and do the summation and then do the cross product.
+
+What is the summation of all the MVi's for the body? That's the momentum of each little particle. Add them all up, what do you get? This is RGA cross P with respect to o. That's this term. And this is all the little distances from the center of mass to the cross with the momentum of each little one.
+
+What's that? Well, this looks like a definition of angular momentum. This is the angular momentum of every little mass particle with respect to G added up. This is H with respect to G, which is what we set out to prove. So the H with respect to A is H with respect to G plus RGA cross the linear momentum of the body. Yeah.
+
+AUDIENCE: Can you also do this by writing Pi with respect to o, I mean the velocity part of that, as the sum of the velocities?
+
+PROFESSOR: You got to keep the M's in there.
+
+AUDIENCE: Well, yeah. [INAUDIBLE]. But instead of writing out R as a sum, you can write out the velocity as the sum of the velocities with respect to the origin.
+
+PROFESSOR: Are you talking about this term here?
+
+AUDIENCE: No, the definition of angular momentum. Yeah. The velocity--
+
+PROFESSOR: If you could figure out-- if you had the angular momentum [INAUDIBLE] and multiplied by Ri, that is the angular momentum with respect to A. But I broke it apart so that I could show you that this formula I want to use has two pieces. I want to use that. So that if I can use that-- it's easy to get H with respect to G sometimes. It's really hard to know what to do with things that happen around this point A.
+
+So now let's go back. I think, to understand this, we need to go back to our truck problem. We now have a formula that you know where it comes from. We have our truck that is accelerating at x1 double dot. And we want to find out what's theta double dot for that pipe. What's it doing? So first we needed some kinematics.
+
+And in particular, what is the x2-- did I label this very well? I didn't. So here's my pipe. Here's my truck bed that it's in contact with. Truck's moving at x1 double dot, we know. In an inertial frame, the movement of the center of mass of my pipe is x2. And it has some angular rotation I'll call theta.
+
+So the movement of this guy I need to be able to express in terms of x1 and theta. Well, if this is fixed to the truck and the truck move forward, then x2 would be equal to x1. But in fact, it rolls back a little bit. And the distance this point moves if it rolls through an angle theta is it rolls backwards an amount R theta. And we're going to need to take two derivatives of that. x2 double dot equals x1 double dot minus r theta double dot. So that's a little kinematic relationship we need to do this problem.
+
+Next we need to apply a physical law, which is the one I've derived. So this is our physics here now, our physical law. And that's the external torques, dH with respect to A dt, plus VAo cross Po. And in this case, is VAo 0? No, in fact, it's x1 dot, right? It's in the i direction.
+
+How about what direction is P, the momentum of the pipe? Does it move in the y direction? Up, down? No. It only moves in the x. So this velocity is only in the x. This is in the x, or the i hat direction. This cross product is zero. So it just happens that they're parallel. So this thing goes to zero. We don't have to deal with it. That's because these guys are parallel. Parallel motion.
+
+But you did have to consider it. You did have to think about it. It's not just trivially 0. OK, so that means that the torques about A is just dHA dt. And HA for this problem is i-- well, it's HG, which is IzzG theta double dot. But I have to put in this-- theta dot, excuse me. This is just the H. I have to put in the second term, RG with respect to A cross P with respect to o.
+
+So here's my HA. I'll write it again up here. This is IzzG theta dot in the k. And now this second term. R is Rj. My y-axis is up. The radius of this thing is R. Here's the radius. So the moment arm is Rj crossed with the linear momentum of that piece of pipe, which is the mass of the pipe times x2 dot in the i direction. j cross i is minus k. So Izz with respect to G theta double dot-- theta dot. I keep taking the derivative a little too soon. k minus RM x2 dot k.
+
+And now some of the torques, d by dt of H with respect to A. Take the derivatives. IzzG theta double dot k minus RM x2 double dot k. And fortunately, none of these unit vectors are rotating. So we don't have to deal with any of that. And I'm almost to the end, but now I have to go back to that original kinematic relationship, which allows me to express x2 in terms of x1 and R theta. And if I substitute that in here and solve for it, I get theta double dot equals MR over IzzG plus MR squared. x double dot whole thing, x1 double dot.
+
+So you've accelerated x1 double dot. The thing starts rolling. It's actually rolling backwards, which is a plus theta direction, at this rate. We did this using this formula for HA. Now, the beauty of this formula is that it works for any points that are moving, even can be accelerating, all sorts of nasty conditions, it's true. It's based on the fundamental definition of angular momentum. So the book-- yeah.
+
+AUDIENCE: [INAUDIBLE] final point here. I just want to make sure i understood. In this first line here, [INAUDIBLE]. That stroke doesn't mean that V sub A was 0. It meant that that term is 0.
+
+PROFESSOR: This term's zero because these happen to be parallel, but the product is zero in this case. If it had not turned out to be-- they were different directions. It had to be a non-zero term. And you would have to bring it along and take its derivative along with the other stuff.
+
+But this is a really powerful method. Now, the book is reasonably good in lots of points. But in chapter 17, when it does problems that are kind of like this, it introduces something that I find it hard to digest what they're doing. There's particularly-- where's Matt? There's equation 1715. When you get to that bit of the book, just ignore it. Use this method.
+
+The author tries to give you a little trick that you can use. But the problem with tricks is you have to memorize them. So what I've shown you today is based on basic definition of angular momentum. That expression at the top is always usable, not just special little conditions, which is what the formula in the book is generated for.
+
+We've got a couple of minutes. Let you ask questions, and then I'll just pose a conceptual problem or two and ask you what method you'd use. Yeah.
+
+AUDIENCE: So [INAUDIBLE] when you [INAUDIBLE] dHA dt, is that equal to 0 because there is no torque in the system?
+
+PROFESSOR: Oh, you know, boy, I'm glad you caught that. Yeah, in order to be able to do this, we've got to know something here, right? Important catch. Thank you. Why is this true?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: So we chose-- that's why we chose to work around point A. With respect to that point, there are no external forces that create moments on that pipe with respect to that point. And that's why you can say that the time derivative of this angular momentum is equal to zero because there are no external torques.
+
+If you had picked G to do this problem, would the sum of the torques about G be zero? No, you'd have to put that friction force in there and have RF and figure out F is. We completely avoided having to calculate the friction force. That's the point of being able to use techniques like this and make your computations around points of contact.
+
+So textbooks have lots of problems like this. You've got a box on a cart. And your kid's pushing it, and he gets a little exuberant and pushes a little too hard, accelerates the cart a little too fast, and the box falls over and breaks the lamp or whatever's in it. And if it's this way, and I accelerate it, it's much more tolerant. Falls over easier this way.
+
+But if I asked you, gave you a problem and said, calculate the maximum acceleration that I can put on this object such that it just barely-- just right at the edge of tipping over, but doesn't tip it over. What's that maximum acceleration that you don't tip it over? What method would you use? I gave you four classes of approaches to problems.
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: I hear a four. Anybody else want to bid here? More fours. Would three work?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Why? He says three would be complicated. Three means taking moments and forces with respect to the center of mass. If you do that, what do you have to deal with in this problem?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: You have to, then-- around the center of mass there's a friction force. There's a normal force pushing up here. The way you do this problem is where it's just barely about to go, all of the force is pushing on this corner. Think of it. It's just lifting up a fraction. All of that contact point moves to right here.
+
+You have an upward force and a friction force, and they create a moment about G. But if you do the forces around G, you have to solve for those two. You do the forces around A. The trick here is figuring out where's A. But if you realize A is right here, and you do what we just did, this problem's just a piece of cake.
+
+[[Class 4: Rotation about moving points; H/A alternative formulation in terms of H/G]]
+Print This Document
+
+we've got to move on to these class four problems. Moving points. An example is the truck problem that you had. Known acceleration. So there's two common ways of doing this problem. You can do this problem by summing forces at the center of mass of that pipe and summing moments around it.
+
+But the moment around this comes from a friction force here, which you don't know. So that introduces an unknown that you have to then solve for. So if you work around G for this pipe, you can do it. You can work around G. You could say sum of the moments around G, sum of the force with respect to G. But you have to deal with unknown forces.
+
+So you're working with respect to G implies unknown forces, e, for example, friction. So you'd really maybe rather around the point of contact, A. Because if you sum your moments about A, the friction force has no moment arm, and it doesn't appear in the answer. But this gets trickier. This is a little more sophisticated, I'll just call it, step.
+
+And you need-- to do this, you need a little theorem. So to work with respect to A, you need to be able to say that the angular momentum with respect to A-- you now are working around a moving point, maybe accelerating. It's very handy to be able to say it's the angular momentum around G, which is easier to calculate, plus RGA, the distance from the center of mass to the point you're working on, cross the linear momentum of the system with respect to the inertial frame. We need this. This is a formula we need.
+
+And see why this is true? This is sort of thing-- this is a formula that's come out of the blue here. And why is it true? So I don't usually like to do proofs, but the proofs of this [INAUDIBLE] on the board. But the proof of this is really quite simple.
+
+Here's a little mass point Mi. And this radius is R of i with respect to A. This is R of G with respect to A. And therefore, this is R of i with respect to G is this one. And we know that this plus this gives us that. We can say Ri particle i with respect to A is RG with respect to A plus Ri with respect to G, all vectors.
+
+So the angular momentum of that body from the basic definition of angular momentum is the summation of all the little mass bits of the Ri with respect to A cross the linear momentum of each little mass bit. But we can expand that with that sum. So this is the summation of my RG with respect to A plus Ri with respect to G cross Pio, summation over all the mass bits.
+
+I'm going to expand this. And I can expand this into this times that, summations of this times that, and this times that. So that becomes a RGA cross summation of-- what's Pio? This is a little Mi's, Vi with respect to o. Each one has velocity. Each one has a mass. So this is Mi Vi with respect to o plus the summation RiG's cross Mi Vio's.
+
+Now, notice I pulled this one outside the summation. That's because this is a single-- this is a fixed number. It doesn't change in the summation. It's just the distance from my starting point to G. So I can pull it out and do the summation and then do the cross product.
+
+What is the summation of all the MVi's for the body? That's the momentum of each little particle. Add them all up, what do you get? This is RGA cross P with respect to o. That's this term. And this is all the little distances from the center of mass to the cross with the momentum of each little one.
+
+What's that? Well, this looks like a definition of angular momentum. This is the angular momentum of every little mass particle with respect to G added up. This is H with respect to G, which is what we set out to prove. So the H with respect to A is H with respect to G plus RGA cross the linear momentum of the body. Yeah.
+
+AUDIENCE: Can you also do this by writing Pi with respect to o, I mean the velocity part of that, as the sum of the velocities?
+
+PROFESSOR: You got to keep the M's in there.
+
+AUDIENCE: Well, yeah. [INAUDIBLE]. But instead of writing out R as a sum, you can write out the velocity as the sum of the velocities with respect to the origin.
+
+PROFESSOR: Are you talking about this term here?
+
+AUDIENCE: No, the definition of angular momentum. Yeah. The velocity--
+
+PROFESSOR: If you could figure out-- if you had the angular momentum [INAUDIBLE] and multiplied by Ri, that is the angular momentum with respect to A. But I broke it apart so that I could show you that this formula I want to use has two pieces. I want to use that. So that if I can use that-- it's easy to get H with respect to G sometimes. It's really hard to know what to do with things that happen around this point A.
+
+So now let's go back. I think, to understand this, we need to go back to our truck problem. We now have a formula that you know where it comes from. We have our truck that is accelerating at x1 double dot. And we want to find out what's theta double dot for that pipe. What's it doing? So first we needed some kinematics.
+
+And in particular, what is the x2-- did I label this very well? I didn't. So here's my pipe. Here's my truck bed that it's in contact with. Truck's moving at x1 double dot, we know. In an inertial frame, the movement of the center of mass of my pipe is x2. And it has some angular rotation I'll call theta.
+
+So the movement of this guy I need to be able to express in terms of x1 and theta. Well, if this is fixed to the truck and the truck move forward, then x2 would be equal to x1. But in fact, it rolls back a little bit. And the distance this point moves if it rolls through an angle theta is it rolls backwards an amount R theta. And we're going to need to take two derivatives of that. x2 double dot equals x1 double dot minus r theta double dot. So that's a little kinematic relationship we need to do this problem.
+
+Next we need to apply a physical law, which is the one I've derived. So this is our physics here now, our physical law. And that's the external torques, dH with respect to A dt, plus VAo cross Po. And in this case, is VAo 0? No, in fact, it's x1 dot, right? It's in the i direction.
+
+How about what direction is P, the momentum of the pipe? Does it move in the y direction? Up, down? No. It only moves in the x. So this velocity is only in the x. This is in the x, or the i hat direction. This cross product is zero. So it just happens that they're parallel. So this thing goes to zero. We don't have to deal with it. That's because these guys are parallel. Parallel motion.
+
+But you did have to consider it. You did have to think about it. It's not just trivially 0. OK, so that means that the torques about A is just dHA dt. And HA for this problem is i-- well, it's HG, which is IzzG theta double dot. But I have to put in this-- theta dot, excuse me. This is just the H. I have to put in the second term, RG with respect to A cross P with respect to o.
+
+So here's my HA. I'll write it again up here. This is IzzG theta dot in the k. And now this second term. R is Rj. My y-axis is up. The radius of this thing is R. Here's the radius. So the moment arm is Rj crossed with the linear momentum of that piece of pipe, which is the mass of the pipe times x2 dot in the i direction. j cross i is minus k. So Izz with respect to G theta double dot-- theta dot. I keep taking the derivative a little too soon. k minus RM x2 dot k.
+
+And now some of the torques, d by dt of H with respect to A. Take the derivatives. IzzG theta double dot k minus RM x2 double dot k. And fortunately, none of these unit vectors are rotating. So we don't have to deal with any of that. And I'm almost to the end, but now I have to go back to that original kinematic relationship, which allows me to express x2 in terms of x1 and R theta. And if I substitute that in here and solve for it, I get theta double dot equals MR over IzzG plus MR squared. x double dot whole thing, x1 double dot.
+
+So you've accelerated x1 double dot. The thing starts rolling. It's actually rolling backwards, which is a plus theta direction, at this rate. We did this using this formula for HA. Now, the beauty of this formula is that it works for any points that are moving, even can be accelerating, all sorts of nasty conditions, it's true. It's based on the fundamental definition of angular momentum. So the book-- yeah.
+
+AUDIENCE: [INAUDIBLE] final point here. I just want to make sure i understood. In this first line here, [INAUDIBLE]. That stroke doesn't mean that V sub A was 0. It meant that that term is 0.
+
+PROFESSOR: This term's zero because these happen to be parallel, but the product is zero in this case. If it had not turned out to be-- they were different directions. It had to be a non-zero term. And you would have to bring it along and take its derivative along with the other stuff.
+
+But this is a really powerful method. Now, the book is reasonably good in lots of points. But in chapter 17, when it does problems that are kind of like this, it introduces something that I find it hard to digest what they're doing. There's particularly-- where's Matt? There's equation 1715. When you get to that bit of the book, just ignore it. Use this method.
+
+The author tries to give you a little trick that you can use. But the problem with tricks is you have to memorize them. So what I've shown you today is based on basic definition of angular momentum. That expression at the top is always usable, not just special little conditions, which is what the formula in the book is generated for.
+
+We've got a couple of minutes. Let you ask questions, and then I'll just pose a conceptual problem or two and ask you what method you'd use. Yeah.
+
+AUDIENCE: So [INAUDIBLE] when you [INAUDIBLE] dHA dt, is that equal to 0 because there is no torque in the system?
+
+PROFESSOR: Oh, you know, boy, I'm glad you caught that. Yeah, in order to be able to do this, we've got to know something here, right? Important catch. Thank you. Why is this true?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: So we chose-- that's why we chose to work around point A. With respect to that point, there are no external forces that create moments on that pipe with respect to that point. And that's why you can say that the time derivative of this angular momentum is equal to zero because there are no external torques.
+
+If you had picked G to do this problem, would the sum of the torques about G be zero? No, you'd have to put that friction force in there and have RF and figure out F is. We completely avoided having to calculate the friction force. That's the point of being able to use techniques like this and make your computations around points of contact.
+
+So textbooks have lots of problems like this. You've got a box on a cart. And your kid's pushing it, and he gets a little exuberant and pushes a little too hard, accelerates the cart a little too fast, and the box falls over and breaks the lamp or whatever's in it. And if it's this way, and I accelerate it, it's much more tolerant. Falls over easier this way.
+
+But if I asked you, gave you a problem and said, calculate the maximum acceleration that I can put on this object such that it just barely-- just right at the edge of tipping over, but doesn't tip it over. What's that maximum acceleration that you don't tip it over? What method would you use? I gave you four classes of approaches to problems.
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: I hear a four. Anybody else want to bid here? More fours. Would three work?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Why? He says three would be complicated. Three means taking moments and forces with respect to the center of mass. If you do that, what do you have to deal with in this problem?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: You have to, then-- around the center of mass there's a friction force. There's a normal force pushing up here. The way you do this problem is where it's just barely about to go, all of the force is pushing on this corner. Think of it. It's just lifting up a fraction. All of that contact point moves to right here.
+
+You have an upward force and a friction force, and they create a moment about G. But if you do the forces around G, you have to solve for those two. You do the forces around A. The trick here is figuring out where's A. But if you realize A is right here, and you do what we just did, this problem's just a piece of cake.
+
+[[Class 4 example of the pipe rolling on a truck bed]]
+Print This Document
+
+think, to understand this, we need to go back to our truck problem. We now have a formula that you know where it comes from. We have our truck that is accelerating at x1 double dot. And we want to find out what's theta double dot for that pipe. What's it doing? So first we needed some kinematics.
+
+And in particular, what is the x2-- did I label this very well? I didn't. So here's my pipe. Here's my truck bed that it's in contact with. Truck's moving at x1 double dot, we know. In an inertial frame, the movement of the center of mass of my pipe is x2. And it has some angular rotation I'll call theta.
+
+So the movement of this guy I need to be able to express in terms of x1 and theta. Well, if this is fixed to the truck and the truck move forward, then x2 would be equal to x1. But in fact, it rolls back a little bit. And the distance this point moves if it rolls through an angle theta is it rolls backwards an amount R theta. And we're going to need to take two derivatives of that. x2 double dot equals x1 double dot minus r theta double dot. So that's a little kinematic relationship we need to do this problem.
+
+Next we need to apply a physical law, which is the one I've derived. So this is our physics here now, our physical law. And that's the external torques, dH with respect to A dt, plus VAo cross Po. And in this case, is VAo 0? No, in fact, it's x1 dot, right? It's in the i direction.
+
+How about what direction is P, the momentum of the pipe? Does it move in the y direction? Up, down? No. It only moves in the x. So this velocity is only in the x. This is in the x, or the i hat direction. This cross product is zero. So it just happens that they're parallel. So this thing goes to zero. We don't have to deal with it. That's because these guys are parallel. Parallel motion.
+
+But you did have to consider it. You did have to think about it. It's not just trivially 0. OK, so that means that the torques about A is just dHA dt. And HA for this problem is i-- well, it's HG, which is IzzG theta double dot. But I have to put in this-- theta dot, excuse me. This is just the H. I have to put in the second term, RG with respect to A cross P with respect to o.
+
+So here's my HA. I'll write it again up here. This is IzzG theta dot in the k. And now this second term. R is Rj. My y-axis is up. The radius of this thing is R. Here's the radius. So the moment arm is Rj crossed with the linear momentum of that piece of pipe, which is the mass of the pipe times x2 dot in the i direction. j cross i is minus k. So Izz with respect to G theta double dot-- theta dot. I keep taking the derivative a little too soon. k minus RM x2 dot k.
+
+And now some of the torques, d by dt of H with respect to A. Take the derivatives. IzzG theta double dot k minus RM x2 double dot k. And fortunately, none of these unit vectors are rotating. So we don't have to deal with any of that. And I'm almost to the end, but now I have to go back to that original kinematic relationship, which allows me to express x2 in terms of x1 and R theta. And if I substitute that in here and solve for it, I get theta double dot equals MR over IzzG plus MR squared. x double dot whole thing, x1 double dot.
+
+So you've accelerated x1 double dot. The thing starts rolling. It's actually rolling backwards, which is a plus theta direction, at this rate. We did this using this formula for HA. Now, the beauty of this formula is that it works for any points that are moving, even can be accelerating, all sorts of nasty conditions, it's true. It's based on the fundamental definition of angular momentum. So the book-- yeah.
+
+AUDIENCE: [INAUDIBLE] final point here. I just want to make sure i understood. In this first line here, [INAUDIBLE]. That stroke doesn't mean that V sub A was 0. It meant that that term is 0.
+
+PROFESSOR: This term's zero because these happen to be parallel, but the product is zero in this case. If it had not turned out to be-- they were different directions. It had to be a non-zero term. And you would have to bring it along and take its derivative along with the other stuff.
+
+But this is a really powerful method. Now, the book is reasonably good in lots of points. But in chapter 17, when it does problems that are kind of like this, it introduces something that I find it hard to digest what they're doing. There's particularly-- where's Matt? There's equation 1715. When you get to that bit of the book, just ignore it. Use this method.
+
+The author tries to give you a little trick that you can use. But the problem with tricks is you have to memorize them. So what I've shown you today is based on basic definition of angular momentum. That expression at the top is always usable, not just special little conditions, which is what the formula in the book is generated for.
+
+We've got a couple of minutes. Let you ask questions, and then I'll just pose a conceptual problem or two and ask you what method you'd use. Yeah.
+
+AUDIENCE: So [INAUDIBLE] when you [INAUDIBLE] dHA dt, is that equal to 0 because there is no torque in the system?
+
+PROFESSOR: Oh, you know, boy, I'm glad you caught that. Yeah, in order to be able to do this, we've got to know something here, right? Important catch. Thank you. Why is this true?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: So we chose-- that's why we chose to work around point A. With respect to that point, there are no external forces that create moments on that pipe with respect to that point. And that's why you can say that the time derivative of this angular momentum is equal to zero because there are no external torques.
+
+If you had picked G to do this problem, would the sum of the torques about G be zero? No, you'd have to put that friction force in there and have RF and figure out F is. We completely avoided having to calculate the friction force. That's the point of being able to use techniques like this and make your computations around points of contact.
+
+So textbooks have lots of problems like this. You've got a box on a cart. And your kid's pushing it, and he gets a little exuberant and pushes a little too hard, accelerates the cart a little too fast, and the box falls over and breaks the lamp or whatever's in it. And if it's this way, and I accelerate it, it's much more tolerant. Falls over easier this way.
+
+But if I asked you, gave you a problem and said, calculate the maximum acceleration that I can put on this object such that it just barely-- just right at the edge of tipping over, but doesn't tip it over. What's that maximum acceleration that you don't tip it over? What method would you use? I gave you four classes of approaches to problems.
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: I hear a four. Anybody else want to bid here? More fours. Would three work?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Why? He says three would be complicated. Three means taking moments and forces with respect to the center of mass. If you do that, what do you have to deal with in this problem?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: You have to, then-- around the center of mass there's a friction force. There's a normal force pushing up here. The way you do this problem is where it's just barely about to go, all of the force is pushing on this corner. Think of it. It's just lifting up a fraction. All of that contact point moves to right here.
+
+You have an upward force and a friction force, and they create a moment about G. But if you do the forces around G, you have to solve for those two. You do the forces around A. The trick here is figuring out where's A. But if you realize A is right here, and you do what we just did, this problem's just a piece of cake.
+

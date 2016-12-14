@@ -1,0 +1,568 @@
+[[Cart and pendulum 2: degrees of freedom, equations of motion]]
+Print This Document
+
+PROFESSOR: OK. We're going to get started. The homework-- does everybody have a copy of the handout? If not, there's some on the steps there. There's Muddy Cards on the steps. And we're going to do three things today. That's this complex problem I want to talk about, a problem on center of percussion. And then as we have time, I'm going to summarize some summarising statements about imbalances, which we've talked a lot about off and on.
+
+So I want you restrain looking at the notes I've handed out. The notes I've handed out are this complex problem. And I'll let you look at them in a minute. But I want to get you to think about some things before you see what's on the notes.
+
+But the notes are intended so that you don't have to spend a lot of time writing down messy stuff. You can think and listen. And they'll also be sent out on the web, posted, so you don't have to grab a copy for your friends. Because I only made 100 copies and there are 122 of you.
+
+OK. So let's start with this problem. This is basically a complex system, a mass, a pendulum. And when you-- I've made up one for you. So here's the pendulum. It's on an axle stuck into my cart. The cart's got springs connecting to it. And it naturally has some damping.
+
+So this is a realization of what's been drawn there. So let's just give it a little bump. Cart moves back and forth. Pendulum swings back and forth. If I start it this way, it'll act a lot more crazy. It'll have a more chaotic looking kind of motion.
+
+The reason for that has to do with, this is a multiple degree of freedom system, has more than one natural frequency, has more than one frequency that responds, all mixed together. And that's why it'll do kind of crazy things. Like that'll stop, almost stop, and then start up again, stuff like that. All completely natural. But if I give it a nice, gentle start, it actually mostly vibrates in what I call one mode of vibration. OK? So we want to get the equations of motion of this system.
+
+So here, I've drawn it. And the first question about a system like this when you go to analyze it is, how many degrees of freedom does it have. All right? So I'm going to claim this to be a planar motion problem. It's confined to the board and confined to rotation perpendicular to the board. OK?
+
+Any time that happens, each object has, at most, three degrees of freedom, x y, and a rotation. So we said no rotations around x or around y. So three possible ones for this mass, three possible ones for this mass.
+
+And then we start looking for the constraints in addition. Well, this one is constrained. It can't move out of the-- let's see, we've already constrained that. Wait a second. How do I want to say this?
+
+This one is certainly constrained in the y because of the track here. So that's one constraint. We're starting off with six possible. We've got one because it's constrained in the y. But it can certainly move in the x. Can it rotate in the z, this big mass? So that's two. So out of the three possible, the top one only has one possible degree of freedom, x.
+
+This one also has three possible degrees of freedom. It's pinned at A. What does that do for constraint? So this one, take 30 seconds and talk to your neighbor. How many constraints are caused by the pin at A?
+
+All right. So at least-- how many believe that there's one constraint provided by the pin at A? Let's see the hands that believe we have one. Get them up high, up high now. How about two? OK. How about three? All right. A little uncertainty here. All right.
+
+Do you know the motion at A? Have you prescribed the motion at A in any way? In what way? I see you nodding your head.
+
+AUDIENCE: It has to move with the other block.
+
+PROFESSOR: It has to move with the block. But we've already given the other block a coordinate. What is it?
+
+AUDIENCE: In x.
+
+PROFESSOR: So if you know x, do you know the motion of A? OK. So you have established the motion of A. So if you know A-- you don't need any additional information about A do you? You've already chosen a coordinate for it.
+
+So if A is prescribed, that means x1 and y1, the motion-- the coordinates describing this thing-- and I've given started at a center of mass, a little x1 that way, and a little y1 that way. Those are my possible displacement coordinates. And it has a rotation coordinate. Three possible degrees of freedom, right?
+
+x and y are prescribed at this point. If you prescribe the motion-- fix the motion-- at any point on a rigid body, what does that say about translational motion any place else on the rigid body? Remember, this is back to that subtle definition of what we mean by translation, what we mean by rotation.
+
+AUDIENCE: It's a parallel motion.
+
+PROFESSOR: Parallel motion. The translation part of this-- every point on the object moves parallel to every other point. So if you've prescribed the translation of any one point you have prescribed the translation for all. So this second body, basically, its only translation that it can have is x of the main body.
+
+So you have confined it in x and y. It has no x and y possibilities. Those are two constraints leaving you with-- one. Right? One degree of freedom. And then we pick a coordinate for it. And the natural one to use for that is the angle here.
+
+So we need two. Two coordinates completely describe the motion. It will yield two equations of motion. OK?
+
+So on quizzes, you say, how many independent degrees of freedom are there. That is the same question as saying, how many equations of motion are required to completely describe this system. Or how many independent coordinates are required to completely describe the motion of system? They're, all three, the same questions. And that threw a couple people on the last quiz.
+
+OK. Let's move on to free body diagrams. So now we know we've got two coordinates, theta and x. And now you're free to look at your-- you can be free to look at things. And I want you to spend most of your time thinking and listening and not having to write. But make notes as you get insights about things.
+
+Free body diagram then, two of them. The pendulum piece is actually pretty simple. You've got Mg down. And you have two possible forces at this point of rotation. And I've just named them F1 and F2. And I've drawn them-- not arbitrarily, but I've picked the direction to draw them in. I don't know what direction they're in.
+
+And that's my complete free body diagram. If I've missed anything, tell me. Or if you have any questions about it, ask me. OK. The free body diagram for this guy-- this is capital M. This one's M1. This is mass M2 just to keep it straight. Lots of possible forces in this thing.
+
+Reaction forces through the wheels, there are only vertical. I've left out friction, ignored friction. But also, these F1 and F2 act at to pin. And notice I've drawn them exactly equal and opposite to these. Kind of a key thing to do. And why do we do that? There's a law. What's the law? Newton's third.
+
+You've bot to do that or else it won't work. OK? These are common unknowns. But they're equal and opposite at this point.
+
+And we have an M1g hanging down. The spring force resists. Any positive motion, a spring pulls back. Any positive velocity, the damper holds back. And that's all of the forces on this thing. It's going to be necessary to be able to break these things down. Because I'm going to sum things. Going to need to have bits and pieces of F2 and F1, so cosine thetas and sine thetas.
+
+Now resist looking at your paper for a second. Next concept question. We talked a lot in the last couple of the lectures about the best approach to do problems, right, especially using angular momentum. Do you think you're going to need some angular momentum to solve this problem? An approach using torques and angular momentum?
+
+More than likely. Anytime things are rotating, more than likely. So what's the best approach here? Are we going to compute angular momentum with respect to A, that pivot point? With respect to g, the center of mass? And it's not too obvious.
+
+So if you were starting out this problem, how would you begin it? Would you decide, I'm going to sum my torques around point A or, I'm going to sum my torques around g? Did I mark g? Yeah, it's right at the center. All right. Think about that for a second. Got a question?
+
+All right. I'm going to ask you this. Any questions about the question? I want a real show of hands here. I want you to just-- what would you do to start with? So how many would sum torques, compute angular momentum with respect to point A? OK. How about g? Hmm, interesting.
+
+And another way? Some of you are holding back on me. Not everybody raised their hands here. OK. All right. Most people would do it around A.
+
+A would work. g would work too. And in fact, when I sat down to do this problem, I did it with A first. And then I went and did it with g. And it turns out that doing it with respect to g is just slightly easier.
+
+OK. So the approach we need to find two equations of motion. We have two bodies. We're going to use Newton's and Euler's laws to go after them. So starting out, first one, sum of the forces in the x direction on this body. There's a lot of unknowns.
+
+So I'm going to end up-- or start off-- with more than two equations. Because I've got how many unknowns? One, two, three, four, x, the motion x, five, and the angle theta, six. I could need as many as six equations to start with.
+
+If I sum forces in the vertical direction I can-- it turns out that N1 and N2 two here, I never actually have to deal with. So don't start there. If you're thinking you might not have to mess with them, don't start there. You're going to waste a lot of time. I don't think I'm going to have to deal with them. And in fact, I'm only going to need four. I'm going to find four equations involving F1, F2, x, and theta. OK.
+
+So here's how I'm saving a little time today. I've written it down for you and I've written it out. Same thing on your paper. Let's talk about the first one.
+
+This is a sum of forces in this capital X direction, which is our inertial frame, X, on the main cart on mass 1. So it's got to be the mass times the acceleration. And this is not [INAUDIBLE]. I don't how that sneaked in there. And I've called it-- in capital, I had direction. OK?
+
+Mass times acceleration. I just sum up all the forces on the cart. Spring force holds back. The direction of the arrow on my free body diagram tells you the sense of it. Minus KX minus bx dot plus F2 cosine theta plus F1 sine theta, all in the X I hat direction. OK?
+
+Some of the forces on my little bar here in the x1 direction. Now x1 is down here. And y1 is off that way. So sum of the forces in x1, which is now on mass 2, must its mass times its acceleration. And I've just called it-- it doesn't matter where I do my-- what point I'm going to do angular momentum with respect to. This is Newton's law. And it's the acceleration of the center of the gravity with respect to an inertial frame.
+
+But this is in the little i hat direction. So it's the complement in that direction. I have a minus F1i in that direction. And I have a plus M2g cosine theta i in the i hat direction. Pretty straightforward Newton's second law. Again, the other component for Newton's in the Y1 direction, mass times the acceleration in the j hat direction, minus F2j-- because my F2 happens to be in the minus direction in the free body diagram-- minus M2g sine theta in the j hat.
+
+And finally, I'm going to sum my moments about the center of mass. It would also work-- if I did it around A, I would-- the reason you normally do it around A, which is why I started there, is why? What's the advantage of doing it around A? The potential advantage of going to A?
+
+AUDIENCE: So you can eliminate forces at the pin.
+
+PROFESSOR: Yeah. F1 and F2 don't generate moments at the pin. And there's a hope that, then, you can get what you need to know without ever having to evaluate F1 and F2. Right? And in this case, they're going to pop up in these equations. And you're going to have to deal with them anyway, it turns out. So it doesn't actually give you much of an advantage.
+
+So it's easier because the torque equation's easier in terms of the number of terms it has. That's what makes it slightly easier in this problem. You've got to deal with F1 and F2 anyway. So it's just the time rate of change of the angular momentum with respect to g. And that's external torques. And the only external torque is caused by F2.
+
+And I left out a minus sign. You have it on your paper, I think, here. No, it's correct. It's positive. So you have, F2 acts on a moment arm about g, L2. And it's going to be in the k hat direction. That's the external torque on the system. Its gravity causes no torque because it's acting at g. All right? And this has got to be the time rate of change of h.
+
+I claim in this problem-- you don't have to do this-- but in this problem, I claim I can write h as a mass moment of inertia matrix times a vector that tells you what the rotation rate is. You, in fact, can always do this about g. This is I with respect to g. If you know what it is, this I-- I have chosen a set of coordinates that pass through the center of mass. x1 that way, y1 perpendicular to it, are they principal coord-- and z coming out of the board-- are they principal coordinates?
+
+Sure, you know that. This is just a uniform rod. But just symmetry, immediately, should tell you that they are. Yes.
+
+AUDIENCE: I thought you said that IMA could only work for a stationary rotation axis. I thought IMA could only work for a stationary axis of rotation.
+
+PROFESSOR: And rotation about the center of mass. You can always do things with the center of mass. OK? But you could just work this out by the basic definition of angular momentum. Don't do it the hard way, r cross p's and those kind of things. And you end up in the same place.
+
+This one, because it's 0 0 omega z, when you do the multiplication, this is a diagonal. The only term that matters is this one. Right? So that's going to give us an IzzG theta double dot, which is omega z, k hat direction. And it's not theta double dot. The h gives you theta dot. Omega z is theta dot. And we've taken the time derivative, which gets us theta double dot.
+
+And we know what the mass moment of inertia about a uniform stick is with respect to G, ML squared over 12. Theta dot-- OK. So there's our four equations that we have to work with. And do they involve N1 or N2? Not at all. That's why I said we had, potentially, six. We really only have four unknowns.
+
+And now you use these two to solve for F1 and F2. And once you get expressions for F1 and F2 you can eliminate them from here and here. And you're done. But there's a bit of work left to do that. But that's the approach. You use these two to isolate F1 and F2 and plug them into these two to get your final equations of motion.
+
+But we have a couple of things we don't know yet that we need in here, the acceleration of that center of mass in the i hat-- and break into two components, i hat and j hat. But that's what we've been studying kinematics for.
+
+So we need to know the velocity of G with respect to O. And we need to know the acceleration of G with respect to O. OK? So the velocity is pretty straightforward. We've done this many times. So the velocity of A with respect--
+
+Remember, you pick things you know to work from. And you try to make as few as possible things you don't know. Or put them in forms that we know how to go about getting it. These are vectors. Do we know the velocity of A with respect to O?
+
+What's A? A is the place where the pin is. What's its velocity at that point?
+
+AUDIENCE: x dot.
+
+PROFESSOR: x dot. And in what direction?
+
+AUDIENCE: Capital I hat.
+
+PROFESSOR: OK. So this is x dot capital I hat. And now this term, the velocity of G with respect to A, this is a rigid body which is rotating and translating. And we've run into this before, right? And basically, the equation for such things is the motion of the translational velocity of the object plus the velocities within the object, including anything contributed by rotation. So this term is the velocity of the point G, with respect to A, to the center-- velocity of the center G with respect to point A.
+
+And that is-- I'll write it consistently here. This is the velocity of G with respect to A evaluated if you had no rotation. If you're sitting-- the other way the books often say it is this is what you would see if you were on the object sitting at A looking and G. Is it moving? You'd say no. Well, another way of saying that, that's the velocity of this thing if there were no rotation. All right?
+
+So this term happens to be 0. Plus omega-- now we're kind of doing this on purpose. We know this is omega z in the k direction. But reminding you, make it always with respect to the inertial frame-- cross RGA, the position vector from between the two points.
+
+And so this case, we end up with an x dot I hat plus-- this is going to be-- omega zk cross L/2 little i hat. k cross i is j. So x dot I hat. This is in the little j moving coordinate system direction. Omega z is theta dot. Theta dot L over 2 j hat.
+
+I didn't even leave enough room here. Let me see this. x dot I plus. OK? Familiar, our omega term. So that's your velocity of G with respect to O. We need to find an acceleration of that same point. And we're going to take the derivative of this to get it.
+
+A point to-- we haven't talked about this in a while. This has mixed unit vectors. Right? It's got unit vectors in the inertial frame and the unit vectors in the rotating frame. Is that allowed? No problem. It's perfectly legitimate, right? You have to reduce it, eventually, to get a workable equation. But that's just fine at this intermediate stage.
+
+OK. The next thing you want to do is find this a with respect to G-- aG with respect to O, the acceleration. And we know that's just a derivative, remember, with respect to the inertial frame-- that's why we have to deal with this rotation business-- of velocity of G with respect to O. But the derivative of this-- does I change direction? Nope. So this is just x double dot.
+
+And we have a single term here that we have to take a derivative of. So we get a theta double dot L/2 j. This is a little lowercase j. But now, does j rotate? Yeah? And so this is the derivative of a rotating vector. The derivative of j is minus theta dot I. So minus theta dot squared L over 2 i hat. All right? And that's all there is to getting G.
+
+Now we could have done-- oops, I want that one. I don't want you to be afraid of using the big, kind of hairy looking 3D vector equation for acceleration. Acceleration and this gets called-- this is A with respect to O, putting it in terms of this problem, plus the acceleration of G with respect to A evaluated with no rotation plus omega dot cross RGA plus omega cross omega cross RGA plus 2 omega cross velocity GA omega equals 0.
+
+And I should have one, two, three, four, five terms. There's always five potential terms when you're evaluating the acceleration of a point on a rigid body which is translating and rotating. This is translating and rotating reference frames, attached to the rigid body. And then you just go in and fill it in.
+
+This is the acceleration of the rigid body, the translational acceleration. In this problem, what is that? Louder.
+
+AUDIENCE: X double dot.
+
+PROFESSOR: OK. This guy is capital X double dot I hat. All right? This is the acceleration of point G relative to A if you were in the object, on the object. It is?
+
+AUDIENCE: 0.
+
+PROFESSOR: All right. 0. This is the Eulerian term. This is theta double dot crossed with the distance from between the two points. Is this 0? No, not necessarily. So this is theta double dot. This is the L/2. That's this. And when you do the cross product of k and I, you get j. That's that term.
+
+Omega cross omega cross RGA, this is the centripetal term. Would you think it's going to be 0? Nope. So this is k cross I. That's j. k cross j is I minus-- this is the term that gives you minus-- theta dot squared L/2 i. And this is our Coriolis term. It requires motion of that point, G, relative to A.
+
+Is that moving? Nope. So this term just goes to 0. Get the same answer? All right. So don't be afraid of this. This thing, just lay it down. Just plug the things in and the right things will fall out.
+
+All right. On the paper, I break down the acceleration of G with respect to O into its little i and little j components. And I end up with acceleration of G with respect to O. I group the terms. The I capital X double dot sine theta-- I actually have to break this-- see, this is not in the direction of little i or little j. So I know that I can express capital I as a lowercase i sine theta plus j cosine theta.
+
+And I use that. So it's X double dot sine theta minus L/2 theta dot squared-- it is in the little i hat direction. So this is the i hat term-- plus X double dot cosine theta plus L/2 theta double dot. And this is the j hat term. OK? Yeah.
+
+AUDIENCE: Why would you choose to put everything in terms of the rotating inertial frame?
+
+PROFESSOR: You have to always have these same decisions to make. And it's what you're comfortable with, what you think is going to lead to the least work. You have no idea how much time I spent working on this problem to put it in a form that I thought I could teach it to you.
+
+I spent a lot of time on it, the point being, occasionally, you have to spend a lot of time working them out, going down a path that doesn't pay off, backing up, going down the next one. On quizzes, on homework, most of what stops you from getting to the final right answer is confidence. You've got to believe that you've learned these things well enough that you know this is the right thing to do. And it'll get you there if you just do the arithmetic right. OK?
+
+And we all make little mistakes. And you'll all have to back up and do it again. But that's why the fundamentals and understanding the basic concepts are so important. If you've got the concepts down cold, you'll have confidence that your method's going to work.
+
+OK. So this is my i direction term. This is my j direction term. I can take those and take this bit and plug it in here. Let's just give it a name. Let's call this A and this piece here B. And your A goes right here. That's A. And this is B. OK?
+
+And not that you've made that substitution, you can solve for F1. And they're all in one direction now. They're all in the little i hat direction. You make the other substitution, everything's in little j hat. And you can drop them. You no longer have to carry it along. You now have scalar equations you can solve for F1 and F2.
+
+So that's done. And you take those two expressions-- so this implies F1 equals-- and this one implies F2 equals-- and you take those. And you put F1 and F2-- you need F1 and F2. And you plug it in here. And in this equation, you only need an F2.
+
+And when you do that, you get your two equations of motion. Now a couple things happen. It turns out, when you do this-- when you make the substitution in here-- you end up with an MX double dot cosine squared theta and an M2 X double dot sine squared theta. And sine squared plus cosine squared conveniently equals-- 1. And that collapses and goes away.
+
+So you end up with the two final expressions here after you've made those combinations. So from four over here-- I'll call it four prime-- you get one of your equations of motion.
+
+That's one equation of motion. It's primarily about the translation of-- I mean rotation-- of the system. It derives from all those substitutions in this equation. Curiously, these two bits go together, which, if you had worked around A and you used, dangerously, perhaps, a parallel axis theorem, you would have ended up with ML squared over 3. But that's your first equa-- that's one of your equations of motion.
+
+And from the first one, it comes from the sum of the forces on the main mass, M1, plus M2 X double dot plus b X dot plus KX. All the usual, just things for mass spring oscillator. But now you've got these additional forces that are exerted on that because it's got this pendulum flagging back and forth. And if I made a mistake on the board, believe the paper. I think I've got it all transcribed right.
+
+This is your force equation on the main mass. If you didn't have the pendulum hanging there, there's your equation of motion for a cart going back and forth with springs. Then you have this pendulum hanging on it, which puts additional forces on it. It comes through those F1 and F2 terms. And you can see they have to do with having to accelerate things down there. OK?
+
+Now these two equations are actually quite easy to linearize. So linearize means you can always linearize around the equilibrium position. This is its equilibrium position. Small motions. That can be described, what you see there, by linearized equations of motion.
+
+And to linearize-- so for theta small sine theta is approximately equal to theta. Cosine theta is approximately equal to 1. And you just have sines and cosines in here. You let this guy go to 1. You let this go to theta. Here, 1. Here, theta. And you have linearized equations of motion.
+
+Now other problems can be harder to linearize. But this is particularly simple. Two linear equations, solvable. If you solve them, they'll give you two natural frequencies for the system and two vibration modes.
+
+All right. That's the end of this problem. Any last questions about it? I'm going to move on to this topic of center percussion.
+
+OK. This next one is kind of fun. It has a real practical purpose in life. I didn't bring my tennis racket or my baseball bat. But if any of you play sports that use things that hit things, you know, when hit the baseball and you hit it down on the handle, it really stings your hands. Right? Or the tennis racket, if you don't hit it right, you feel a lot of forces in your hands. And you hit it really sweet, you feel almost no force at all.
+
+How many have had that experience? Really common. OK. So is there a right place to hit it? The answer's yes. And we're going to go through that right now.
+
+So here's our-- I'm looking down. Here's my baseball bat. z is in this direction. This is kind of the top view. So here's my handle of my bat. Ball's coming in. Put some force on it. I think I put it lowercase in the notes. OK? And I want to know-- and I want to minimize that force at my hands.
+
+I'm going to call this place where it hits P. I'm going to say here's its center of mass at G. The point about which you're holding it and it's rotating is A. And my coordinate system attached to the bat-- we always have this coordinate system attached to the bad in these rotational problems so that we can divine things like moments of inertia. So it's a coordinate system attached to the bat. And here's my y direction. And z's coming out of the board.
+
+And this distance is going to be important to me, RGA. And this distance here, I'm going to call q. It's my unknown. And I want to know, where's the sweet spot. What do I want q to be so that I minimize the force at A, where I'm hanging onto it.
+
+So how many degrees of freedom? How many independent coordinates do I need to do this problem? This problem is complicated, because it's a-- you know, a real life situation is probably complicated. And I'm going to do a lot of simplification and claim that the answer-- and then look at the answer and say, does it makes sense. Did my simplifications make sense? So I'm going to do a number of simplifications.
+
+I'm going to argue that I think I can get at most of the answer by essentially saying, right here where I'm hitting it, my wrists are like a hinge point. That's point A. I'm going to assume it rotates about a fixed point at that moment. OK? Pretty gross simplification of the real thing going on. You've really got muscles, you're putting moments on it, your wrists actually are moving some.
+
+But I'm just going to say rotating only about that point. It stays in this plane. It's a planar motion problem. At most, three possible degrees of freedom, x, y, and some theta. Right? And I'm going to make the simplification that it's pinned at A.
+
+So if it's pinned at A, how many constraints is that?
+
+AUDIENCE: Two.
+
+PROFESSOR: Two. One left. So I only need-- I'm going to pick one coordinate. That's going to be my theta. So even though I've made these gross simplifications, will the answer actually turn out to be meaningful? And this G is my center of mass. And let's assume that we know Izz with respect to G, that is, mass moment of inertia for rotation in z. OK? Assume that we know that. It's given.
+
+So for this problem, when you have fixed rotation points-- this problem here, that A point wasn't fixed. It was moving, accelerating. It could have had lots of complicated terms in its expression for torque if you'd done it that way. This is fixed at A. It makes a lot of sense to compute moments about A. All right?
+
+So my first equation here, that I want, is the sum of the moments, torques with respect to A. And these are-- well, they will all turn out to be in the z direction here. And they are time rated change of the angular momentum with respect to G, which, in these planar motion problems, always then boils down to the mass moment of inertia for the axis you're rotating it about times the angular acceleration. That's that term. Oops, not G. A.
+
+Excuse me. We picked our point. We've got to stick with it here. OK. I need that. And this is in the k hat direction. This is the only term in our torque equation.
+
+What are the external torques? Well now, z is out of the board like this. I've got a force acting on a moment arm giving me a torque in the other direction. So this is minus fq-- also k hat.
+
+Now I might have done this sooner, but we should look at a free body diagram. So here's a little stick figure of my bat. And I potentially have an unknown force in the y direction, Ry, and another unknown force in the x direction here at A, that pin point where it's rotating it about. Out here is G.
+
+And at G, is there an mG term? Well, it's gravity, right? But it's acting-- it's in the minus z direction. And I'm looking down on it. This is a top view. So gravity would create a moment in the y direction. And I don't have to deal with that. My only moment-- this is my torque equation-- only has k hat terms in it.
+
+Gravity creates a moment in the y, which, in fact, you have to-- that's a static equilibrium problem-- you do have to provide that when you're holding the bat or else the bat would droop. Right? It doesn't have anything to do with the dynamics, actually. OK. Here's G. There's no gravity term that you can see. It's pointing into the board. And out here is my point P. And here's f. OK.
+
+So I need an equation-- I have an equation for moment equilibrium. I need some dynamic equation. I have two possible equations for force equilibrium. How many unknowns do I have? But no others. Three possible unknowns. I'm going to need three equations to get rid of these two terms. Right?
+
+And I am looking ahead. My objective is to make that term go to 0. So I both have to find an expression for it and then figure out how to make it go to 0. That's how you do this problem.
+
+OK. So let's do sum of the forces in the y. So you have an Ry j hat minus f, also in the j hat direction. And that's basically all there is to that. But that must be the mass of the bat times the acceleration of G with respect to O in the y direction. So that's our j hat component. This is just the component of acceleration in the j hat direction.
+
+And the sum of the forces in x, we look at those. Well, we have an Rx in the i. And there are no others. And that must be, then, the mass of the bat times the acceleration, G, with respect to O, of the bit in the x direction. And that'll be in the i hat. So I've got two unknown accelerations, now, that I have to deal with. But we know lots of kinematics now.
+
+So let's do it this way just to give you the practice. Acceleration of G with respect to O. Acceleration of A with respect to O plus the acceleration of G with respect A omega equals 0 plus omega dot cross RGA plus 2 omega cross VGA omega equals 0, and finally, plus omega cross omega cross RGA.
+
+One, two, three, four, five terms. Our vector 3D equation is figured out quickly. What's this term?
+
+AUDIENCE: 0.
+
+PROFESSOR: 0? Why?
+
+AUDIENCE: It's fixed.
+
+PROFESSOR: Fixed point of rotation, that's our assumption. This guy goes to 0. OK. The velocity of G with respect to A?
+
+AUDIENCE: 0.
+
+PROFESSOR: OK. Another 0. Omega dot cross RGA?
+
+So that could-- you know, if there's an angular acceleration, which there might be, cross R, that's a perfectly legitimate term. And that'll give you a-- this will give you a theta double dot, just before. It's in the k direction, cross RGA in the i. That's this term right here.
+
+OK. This velocity of G with respect to A on the bat, that went to 0. The Coriolis, that goes away. So at this point, I've only got one term from there. And this term is our centripetal term. You think there's going to be a centripetal force? Common sense should be any time you have a rotational moment, something rotating about a point, if the center of mass is not the point of rotation, you will be forcing a mass to move in a circle. And that always requires-- that centripetal acceleration-- always requires a force.
+
+This, for sure, will give you a term which is a minus omega z squared type term times the distance RGA. That's its radius. And it's inward. So in this direction, it will be i hat. Three terms, same as before. We now have our accelerations.
+
+OK. So from our top equation up there from the summation of forces in the y, we'll now substitute these in. We have M RGA j hat. The acceleration term, we ended up with the-- the k cross i term gives you j. So the Eulerian term is going to show up here. So that, we need a theta double dot. And this is in the j direction. That comes from the acceleration we figured out. And that's equal to minus f plus Ry. And this is all little j hat.
+
+Let me write the other one first here. Here's the summation in the x direction. It's mass times our acceleration in the i hat direction. And we only ended up with one term doing that, and that's our centripetal term. So we get minus RGA theta dot squared i hat. That's the centripetal acceleration times the mass. And the only term that it is equated to is the other reaction force. OK?
+
+So here's the key step in this problem. We want what to be 0 so that we're hitting it at the sweet spot? What's the original objective? We want Ry to go away. All right? Just make it go away.
+
+So f, then-- I'll do it as an intermediate step. Just a second. f is then-- I'm going to leave Ry for just a second longer. Ry minus M RGA theta double dot. And since this is my-- I can drop the j hats. This is now a scalar equation. I can find an expression for this force that-- I don't even know what the force is that the ball exerts on the bat. But it exists.
+
+I can say this must be true. And my objective is that this should be 0. So that says, when that's true, f is minus M RGA theta double dot. And I'm going to use that in just a moment.
+
+So I'm going to substitute this into our first equation up there for moment, equation number one. So this implies that f is minus M RG with respect to A theta double dot. And this goes into 1, which I have in fq. So I do that. Where are my notes?
+
+This is now also a scalar equation. I can drop the k hats. So Izz with respect to A theta double dot equals minus fq. But f is minus, so the minuses cancel. So I get M RGA theta double dot times q.
+
+Now Izz with respect to A can be expressed as M times some thing we call the radius of gyration squared with respect-- and this has got to be-- with respect to A. The radius of gyration for rotation about A, I can find an expression like this so that it's equal to Izz with respect to A. And all the radius of gyration means is that if I took all the mass and put it that distance away, the mass moment of inertia of that concentrated point mass with respect to the point of rotation is the same as in the real object. So this is just a convenience that we use. So that's M Kappa squared.
+
+And that says, then, that M Kappa squared A equals M RGA theta double dot-- I have a theta double dot here too. Sorry-- times q. And I can solve for q. The theta double dots go away. The M's go away. And q is just Kappa squared A divided by RGA.
+
+And that's the answer to this center of percussion problem. Here's your bat. Here's A. Here's G. Here's P. The q is about here. Whoops, excuse me. q is the distance to P. It's always outside of G. It will always be outside of G. We'll have to think about, maybe, the reason for that.
+
+So here's the center of mass. Here's RGA. and here's this point at which you want to hit at the sweet spot. And it's always Kappa squared A over RGA. Now how do you get to Kappa squared A? Well, you need to evaluate Izz with respect to A. But Izz with respect to A, you can do parallel axis theorem, Izz with respect with respect to G plus M RGA squared. Right? And then you have that.
+
+So if we were to do this-- I'll give you a quick example. If this were a uniform rod, Izz G equals ML squared over 12. Izz with respect to A ML squared over 12 plus MRG with respect to A squared. That is ML squared over 12 plus ML squared-- this is L/2 to RGA, half the length, if I put A right at the end. So I'm doing the simple rod. I'm putting A right here, G right in the middle. So this is L/2-- ML squared over 2 squared, 4.
+
+You add those two together, you get ML squared over 3 equals M Kappa A squared. So Kappa squared A is L squared over 3. And q equals L squared over 3 divided by L/2. So you get 2/3 L. 2/3 of the length puts you out here. Or at 1/2 the length-- so here's L/2. Here's P at 2L/3.
+
+So anytime you run into these center of percussion problems-- tennis racquet, baseball bats, whatever-- the right place to hit it is away from the point of rotation. Now do you think this is-- now how good is this model? You know, you start thinking about, well, what are the things-- if the bat handles really moving. It's still actually remarkably good. It's remarkably good.
+
+In fact, the fact these other things are happening, like you're putting some moment on with your wrists, the fact that you still have some speed down here, all you're doing is kind of maybe changing the point it's rotating around. But you're still having to exert forces with your hands at that point where you're holding it. And you just want those forces to go to 0. All of these other complications, you're still going to find out, to make that force go to 0, it's approximately that. Really a pretty good answer. All right.
+
+Ah, let's go back. And we have another piece of information that we developed in this problem that we haven't used. We had another equation. We had the acceleration in the i direction. And it's just equal to RX.
+
+The RX force is M times the acceleration in the i direction. And that's minus RG with respect to A theta dot squared. That's our old centripetal force term, right? Centrifugal force, centripetal acceleration. Here's the centripetal acceleration times the mass is the force to make the bat go in the circle. You have to provide that force. OK?
+
+So I want to finish up by a loose end that many people have-- continue to have-- a little trouble with. Because I get questions on Muddy cards about this. And it was on this last homework. I don't know how that wheel with the little bit missing-- if you all got that sorted out. If you're all perfectly clear in your mind about that then I don't need to say what I'm going to talk about for a second. But I thought I would just tie that up, the last little bit here. This problem is a nice lead to it.
+
+This last force that I computed is the force required to swing this thing in a circle. And I'm putting that force right here. And I'm saying it's-- actually the point of rotation is right here. And that force is the mass times the acceleration of that point. And that point is a distance from my point of rotation to the center of mass. No accident. You're accelerating the center of mass.
+
+That times the rotation rate squared is the acceleration, the centripetal acceleration. This is the force. So any time you have an object-- maybe it's a wheel, and maybe it has, stuck on it, a little extra mass you don't know about, a rock stuck in your tire. This is the center of rotation. Your axle on your wheel doesn't move. Tire doesn't move relative to the axle.
+
+You've got this little bit of mass missing or added, doesn't much matter. The center of mass of this system is no longer at the center of rotation. So I'll call the center of rotation here A. That's what it's rotating about.
+
+This addition or loss of a piece of mass makes the center of mass of the system move a little bit. So I have an extra little bit of mass out here. The new actual center gravity of this system is a little distance away. And I'll call that distance e, eccentricity.
+
+So now I have a system whose center of mass is not at the center of rotation. And its distance, RGA, I'm calling the eccentricity. And as this rotates-- and I'll put a coordinate system on here. i, x, y, rotating with the system. The force, it's going to appear here on this axle. It's going to have a force that I'll call Rx. Rx equals the mass times the acceleration of the center of gravity of the system.
+
+And the acceleration of the center of gravity in this system is minus e theta dot squared. And it's inward in the i hat direction. Therefore, the minus sign. So the force-- this is the centripetal acceleration times mass-- the force required to make it do that is an inward force minus M e theta dot squared i hat. OK?
+
+I drew Rx in a positive direction. The answer comes out minus. It says it's going the other way. So this is always the case. If you have a system that, for some reason, does not rotate about its true center of mass, but in fact the center of mass is off a little bit or a lot, you will have to provide a force that's inwardly directed as that thing spins. OK?
+
+Now a subtlety I want you to know, to really go away with, is that we've talked quite a lot about unbalance due to these masses that aren't concentrated at the center, these unbalanced masses. There are two kinds of unbalance the engineers have chosen to describe the world with, two kinds. One is static imbalance and the other is dynamic imbalance.
+
+A statically imbalanced system is one in which you-- I'm looking at a side view of-- an edge view of this thing as it's spinning, maybe like this. And the center of rotation is here. And the G is here. That force is inward on it.
+
+But really, it's perfectly symmetric. So this force that I'm having to provide to keep this thing from flying off is perfectly inward directed. Does it generate any moments about this point? None. This is called static imbalance.
+
+And here's an example of static imbalance. This is my rotor. I'm going to put it on its side. Gravity says, I want this to hang down. Because where's the center of mass of this system? Up here? Along here? It's down here somewhere, right? That center of mass, you do a statics calculation, MG sine theta, it's going to hang down.
+
+So that's why they call it static imbalance. And the way you can correct a statically imbalanced system is just do the test. Put the thing-- hang the thing on an axle. And do I have a handy axle here today? Put it on an axle and see if it rotates. And if it always rotates to some point hanging down, you know this thing's statically imbalanced.
+
+Look in my kit of parts here. Just maybe do this. I don't know if this is heavy enough to do the job. But now I've put a little bit of mass on here. And I presume that if I do this with it, OK, it goes down. This system is statically imbalanced.
+
+This system, now, is also dynamically imbalanced. Why? It kind of depends on where I do the calculation. But if I say that I want to know-- this is when put a force, a mass, off-center here. And if I compute moments about a point that's perfectly lined up with it, this system will create no moments about that point. This system is perfectly balanced now. The mass that I've stuck on here is there.
+
+This system is perfectly balanced. It generates no moments as it stands, no matter where you calculate this point. But this extra little bit-- this is A. If I compute H with respect to A here and do the derivatives of it, I get no torques except in the z direction. But as soon as I move away from there, and there is a distance here, and I compute moments about that, do I get some static moments not in the direction of spin? Yes.
+
+So when you do that, this system-- if this is my point A, let's call it, over here-- this system, is it statically imbalanced? Yep. Is it dynamically imbalanced? Yeah. So how would you balance it? Final question of the term for me. How would you put this system into balance?
+
+AUDIENCE: Put another mass on the other side.
+
+PROFESSOR: All right. So if I put another mass here, will that statically balance it? Statically balance, meaning if I let go, will it have to rotate around and find a low point. Is there any low point-- if I put one equal and opposite, equal distance away, opposite side, would it be statically balanced?
+
+AUDIENCE: Yes.
+
+PROFESSOR: Yeah, because gravity pulls down on this one, equal and opposite down on this one. So it would be statically balanced. Would it be dynamically balanced? The system, as you spin, will try to twist like this. So it's not dynamically balanced. What if I move it over here? Is it statically balanced?
+
+AUDIENCE: Yes.
+
+PROFESSOR: Is it dynamically balanced?
+
+AUDIENCE: Yes.
+
+PROFESSOR: Hmm. Compute the torques. You know? Let's put A right in the center, compute the angular momentum, take its time derivative, and you will find that this one, as it spins, tries to create a moment like that. And this one, as it spins tries to create a moment like that. And they're exactly equal and opposite. This is dynamically balanced and statically balanced. Hmm.
+
+AUDIENCE: When there was just one mass, was it dynamically balanced about A, the axis of rotation.
+
+PROFESSOR: This is not dynamic-- if you put A right in the usual center-- the original center of gravity, we'll call A, at this wheel-- this system is not dynamically balanced with respect to an A that's right on the axle and on the center. Because it has this little offset. OK?
+
+[[Center of percussion problem]]
+Print This Document
+
+OK. This next one is kind of fun. It has a real practical purpose in life. I didn't bring my tennis racket or my baseball bat. But if any of you play sports that use things that hit things, you know, when hit the baseball and you hit it down on the handle, it really stings your hands. Right? Or the tennis racket, if you don't hit it right, you feel a lot of forces in your hands. And you hit it really sweet, you feel almost no force at all.
+
+How many have had that experience? Really common. OK. So is there a right place to hit it? The answer's yes. And we're going to go through that right now.
+
+So here's our-- I'm looking down. Here's my baseball bat. z is in this direction. This is kind of the top view. So here's my handle of my bat. Ball's coming in. Put some force on it. I think I put it lowercase in the notes. OK? And I want to know-- and I want to minimize that force at my hands.
+
+I'm going to call this place where it hits P. I'm going to say here's its center of mass at G. The point about which you're holding it and it's rotating is A. And my coordinate system attached to the bat-- we always have this coordinate system attached to the bad in these rotational problems so that we can divine things like moments of inertia. So it's a coordinate system attached to the bat. And here's my y direction. And z's coming out of the board.
+
+And this distance is going to be important to me, RGA. And this distance here, I'm going to call q. It's my unknown. And I want to know, where's the sweet spot. What do I want q to be so that I minimize the force at A, where I'm hanging onto it.
+
+So how many degrees of freedom? How many independent coordinates do I need to do this problem? This problem is complicated, because it's a-- you know, a real life situation is probably complicated. And I'm going to do a lot of simplification and claim that the answer-- and then look at the answer and say, does it makes sense. Did my simplifications make sense? So I'm going to do a number of simplifications.
+
+I'm going to argue that I think I can get at most of the answer by essentially saying, right here where I'm hitting it, my wrists are like a hinge point. That's point A. I'm going to assume it rotates about a fixed point at that moment. OK? Pretty gross simplification of the real thing going on. You've really got muscles, you're putting moments on it, your wrists actually are moving some.
+
+But I'm just going to say rotating only about that point. It stays in this plane. It's a planar motion problem. At most, three possible degrees of freedom, x, y, and some theta. Right? And I'm going to make the simplification that it's pinned at A.
+
+So if it's pinned at A, how many constraints is that?
+
+AUDIENCE: Two.
+
+PROFESSOR: Two. One left. So I only need-- I'm going to pick one coordinate. That's going to be my theta. So even though I've made these gross simplifications, will the answer actually turn out to be meaningful? And this G is my center of mass. And let's assume that we know Izz with respect to G, that is, mass moment of inertia for rotation in z. OK? Assume that we know that. It's given.
+
+So for this problem, when you have fixed rotation points-- this problem here, that A point wasn't fixed. It was moving, accelerating. It could have had lots of complicated terms in its expression for torque if you'd done it that way. This is fixed at A. It makes a lot of sense to compute moments about A. All right?
+
+So my first equation here, that I want, is the sum of the moments, torques with respect to A. And these are-- well, they will all turn out to be in the z direction here. And they are time rated change of the angular momentum with respect to G, which, in these planar motion problems, always then boils down to the mass moment of inertia for the axis you're rotating it about times the angular acceleration. That's that term. Oops, not G. A.
+
+Excuse me. We picked our point. We've got to stick with it here. OK. I need that. And this is in the k hat direction. This is the only term in our torque equation.
+
+What are the external torques? Well now, z is out of the board like this. I've got a force acting on a moment arm giving me a torque in the other direction. So this is minus fq-- also k hat.
+
+Now I might have done this sooner, but we should look at a free body diagram. So here's a little stick figure of my bat. And I potentially have an unknown force in the y direction, Ry, and another unknown force in the x direction here at A, that pin point where it's rotating it about. Out here is G.
+
+And at G, is there an mG term? Well, it's gravity, right? But it's acting-- it's in the minus z direction. And I'm looking down on it. This is a top view. So gravity would create a moment in the y direction. And I don't have to deal with that. My only moment-- this is my torque equation-- only has k hat terms in it.
+
+Gravity creates a moment in the y, which, in fact, you have to-- that's a static equilibrium problem-- you do have to provide that when you're holding the bat or else the bat would droop. Right? It doesn't have anything to do with the dynamics, actually. OK. Here's G. There's no gravity term that you can see. It's pointing into the board. And out here is my point P. And here's f. OK.
+
+So I need an equation-- I have an equation for moment equilibrium. I need some dynamic equation. I have two possible equations for force equilibrium. How many unknowns do I have? But no others. Three possible unknowns. I'm going to need three equations to get rid of these two terms. Right?
+
+And I am looking ahead. My objective is to make that term go to 0. So I both have to find an expression for it and then figure out how to make it go to 0. That's how you do this problem.
+
+OK. So let's do sum of the forces in the y. So you have an Ry j hat minus f, also in the j hat direction. And that's basically all there is to that. But that must be the mass of the bat times the acceleration of G with respect to O in the y direction. So that's our j hat component. This is just the component of acceleration in the j hat direction.
+
+And the sum of the forces in x, we look at those. Well, we have an Rx in the i. And there are no others. And that must be, then, the mass of the bat times the acceleration, G, with respect to O, of the bit in the x direction. And that'll be in the i hat. So I've got two unknown accelerations, now, that I have to deal with. But we know lots of kinematics now.
+
+So let's do it this way just to give you the practice. Acceleration of G with respect to O. Acceleration of A with respect to O plus the acceleration of G with respect A omega equals 0 plus omega dot cross RGA plus 2 omega cross VGA omega equals 0, and finally, plus omega cross omega cross RGA.
+
+One, two, three, four, five terms. Our vector 3D equation is figured out quickly. What's this term?
+
+AUDIENCE: 0.
+
+PROFESSOR: 0? Why?
+
+AUDIENCE: It's fixed.
+
+PROFESSOR: Fixed point of rotation, that's our assumption. This guy goes to 0. OK. The velocity of G with respect to A?
+
+AUDIENCE: 0.
+
+PROFESSOR: OK. Another 0. Omega dot cross RGA?
+
+So that could-- you know, if there's an angular acceleration, which there might be, cross R, that's a perfectly legitimate term. And that'll give you a-- this will give you a theta double dot, just before. It's in the k direction, cross RGA in the i. That's this term right here.
+
+OK. This velocity of G with respect to A on the bat, that went to 0. The Coriolis, that goes away. So at this point, I've only got one term from there. And this term is our centripetal term. You think there's going to be a centripetal force? Common sense should be any time you have a rotational moment, something rotating about a point, if the center of mass is not the point of rotation, you will be forcing a mass to move in a circle. And that always requires-- that centripetal acceleration-- always requires a force.
+
+This, for sure, will give you a term which is a minus omega z squared type term times the distance RGA. That's its radius. And it's inward. So in this direction, it will be i hat. Three terms, same as before. We now have our accelerations.
+
+OK. So from our top equation up there from the summation of forces in the y, we'll now substitute these in. We have M RGA j hat. The acceleration term, we ended up with the-- the k cross i term gives you j. So the Eulerian term is going to show up here. So that, we need a theta double dot. And this is in the j direction. That comes from the acceleration we figured out. And that's equal to minus f plus Ry. And this is all little j hat.
+
+Let me write the other one first here. Here's the summation in the x direction. It's mass times our acceleration in the i hat direction. And we only ended up with one term doing that, and that's our centripetal term. So we get minus RGA theta dot squared i hat. That's the centripetal acceleration times the mass. And the only term that it is equated to is the other reaction force. OK?
+
+So here's the key step in this problem. We want what to be 0 so that we're hitting it at the sweet spot? What's the original objective? We want Ry to go away. All right? Just make it go away.
+
+So f, then-- I'll do it as an intermediate step. Just a second. f is then-- I'm going to leave Ry for just a second longer. Ry minus M RGA theta double dot. And since this is my-- I can drop the j hats. This is now a scalar equation. I can find an expression for this force that-- I don't even know what the force is that the ball exerts on the bat. But it exists.
+
+I can say this must be true. And my objective is that this should be 0. So that says, when that's true, f is minus M RGA theta double dot. And I'm going to use that in just a moment.
+
+So I'm going to substitute this into our first equation up there for moment, equation number one. So this implies that f is minus M RG with respect to A theta double dot. And this goes into 1, which I have in fq. So I do that. Where are my notes?
+
+This is now also a scalar equation. I can drop the k hats. So Izz with respect to A theta double dot equals minus fq. But f is minus, so the minuses cancel. So I get M RGA theta double dot times q.
+
+Now Izz with respect to A can be expressed as M times some thing we call the radius of gyration squared with respect-- and this has got to be-- with respect to A. The radius of gyration for rotation about A, I can find an expression like this so that it's equal to Izz with respect to A. And all the radius of gyration means is that if I took all the mass and put it that distance away, the mass moment of inertia of that concentrated point mass with respect to the point of rotation is the same as in the real object. So this is just a convenience that we use. So that's M Kappa squared.
+
+And that says, then, that M Kappa squared A equals M RGA theta double dot-- I have a theta double dot here too. Sorry-- times q. And I can solve for q. The theta double dots go away. The M's go away. And q is just Kappa squared A divided by RGA.
+
+And that's the answer to this center of percussion problem. Here's your bat. Here's A. Here's G. Here's P. The q is about here. Whoops, excuse me. q is the distance to P. It's always outside of G. It will always be outside of G. We'll have to think about, maybe, the reason for that.
+
+So here's the center of mass. Here's RGA. and here's this point at which you want to hit at the sweet spot. And it's always Kappa squared A over RGA. Now how do you get to Kappa squared A? Well, you need to evaluate Izz with respect to A. But Izz with respect to A, you can do parallel axis theorem, Izz with respect with respect to G plus M RGA squared. Right? And then you have that.
+
+So if we were to do this-- I'll give you a quick example. If this were a uniform rod, Izz G equals ML squared over 12. Izz with respect to A ML squared over 12 plus MRG with respect to A squared. That is ML squared over 12 plus ML squared-- this is L/2 to RGA, half the length, if I put A right at the end. So I'm doing the simple rod. I'm putting A right here, G right in the middle. So this is L/2-- ML squared over 2 squared, 4.
+
+You add those two together, you get ML squared over 3 equals M Kappa A squared. So Kappa squared A is L squared over 3. And q equals L squared over 3 divided by L/2. So you get 2/3 L. 2/3 of the length puts you out here. Or at 1/2 the length-- so here's L/2. Here's P at 2L/3.
+
+So anytime you run into these center of percussion problems-- tennis racquet, baseball bats, whatever-- the right place to hit it is away from the point of rotation. Now do you think this is-- now how good is this model? You know, you start thinking about, well, what are the things-- if the bat handles really moving. It's still actually remarkably good. It's remarkably good.
+
+In fact, the fact these other things are happening, like you're putting some moment on with your wrists, the fact that you still have some speed down here, all you're doing is kind of maybe changing the point it's rotating around. But you're still having to exert forces with your hands at that point where you're holding it. And you just want those forces to go to 0. All of these other complications, you're still going to find out, to make that force go to 0, it's approximately that. Really a pretty good answer. All right.
+
+Ah, let's go back. And we have another piece of information that we developed in this problem that we haven't used. We had another equation. We had the acceleration in the i direction. And it's just equal to RX.
+
+The RX force is M times the acceleration in the i direction. And that's minus RG with respect to A theta dot squared. That's our old centripetal force term, right? Centrifugal force, centripetal acceleration. Here's the centripetal acceleration times the mass is the force to make the bat go in the circle. You have to provide that force. OK?
+
+So I want to finish up by a loose end that many people have-- continue to have-- a little trouble with. Because I get questions on Muddy cards about this. And it was on this last homework. I don't know how that wheel with the little bit missing-- if you all got that sorted out. If you're all perfectly clear in your mind about that then I don't need to say what I'm going to talk about for a second. But I thought I would just tie that up, the last little bit here. This problem is a nice lead to it.
+
+This last force that I computed is the force required to swing this thing in a circle. And I'm putting that force right here. And I'm saying it's-- actually the point of rotation is right here. And that force is the mass times the acceleration of that point. And that point is a distance from my point of rotation to the center of mass. No accident. You're accelerating the center of mass.
+
+That times the rotation rate squared is the acceleration, the centripetal acceleration. This is the force. So any time you have an object-- maybe it's a wheel, and maybe it has, stuck on it, a little extra mass you don't know about, a rock stuck in your tire. This is the center of rotation. Your axle on your wheel doesn't move. Tire doesn't move relative to the axle.
+
+You've got this little bit of mass missing or added, doesn't much matter. The center of mass of this system is no longer at the center of rotation. So I'll call the center of rotation here A. That's what it's rotating about.
+
+This addition or loss of a piece of mass makes the center of mass of the system move a little bit. So I have an extra little bit of mass out here. The new actual center gravity of this system is a little distance away. And I'll call that distance e, eccentricity.
+
+So now I have a system whose center of mass is not at the center of rotation. And its distance, RGA, I'm calling the eccentricity. And as this rotates-- and I'll put a coordinate system on here. i, x, y, rotating with the system. The force, it's going to appear here on this axle. It's going to have a force that I'll call Rx. Rx equals the mass times the acceleration of the center of gravity of the system.
+
+And the acceleration of the center of gravity in this system is minus e theta dot squared. And it's inward in the i hat direction. Therefore, the minus sign. So the force-- this is the centripetal acceleration times mass-- the force required to make it do that is an inward force minus M e theta dot squared i hat. OK?
+
+I drew Rx in a positive direction. The answer comes out minus. It says it's going the other way. So this is always the case. If you have a system that, for some reason, does not rotate about its true center of mass, but in fact the center of mass is off a little bit or a lot, you will have to provide a force that's inwardly directed as that thing spins. OK?
+
+Now a subtlety I want you to know, to really go away with, is that we've talked quite a lot about unbalance due to these masses that aren't concentrated at the center, these unbalanced masses. There are two kinds of unbalance the engineers have chosen to describe the world with, two kinds. One is static imbalance and the other is dynamic imbalance.
+
+A statically imbalanced system is one in which you-- I'm looking at a side view of-- an edge view of this thing as it's spinning, maybe like this. And the center of rotation is here. And the G is here. That force is inward on it.
+
+But really, it's perfectly symmetric. So this force that I'm having to provide to keep this thing from flying off is perfectly inward directed. Does it generate any moments about this point? None. This is called static imbalance.
+
+And here's an example of static imbalance. This is my rotor. I'm going to put it on its side. Gravity says, I want this to hang down. Because where's the center of mass of this system? Up here? Along here? It's down here somewhere, right? That center of mass, you do a statics calculation, MG sine theta, it's going to hang down.
+
+So that's why they call it static imbalance. And the way you can correct a statically imbalanced system is just do the test. Put the thing-- hang the thing on an axle. And do I have a handy axle here today? Put it on an axle and see if it rotates. And if it always rotates to some point hanging down, you know this thing's statically imbalanced.
+
+Look in my kit of parts here. Just maybe do this. I don't know if this is heavy enough to do the job. But now I've put a little bit of mass on here. And I presume that if I do this with it, OK, it goes down. This system is statically imbalanced.
+
+This system, now, is also dynamically imbalanced. Why? It kind of depends on where I do the calculation. But if I say that I want to know-- this is when put a force, a mass, off-center here. And if I compute moments about a point that's perfectly lined up with it, this system will create no moments about that point. This system is perfectly balanced now. The mass that I've stuck on here is there.
+
+This system is perfectly balanced. It generates no moments as it stands, no matter where you calculate this point. But this extra little bit-- this is A. If I compute H with respect to A here and do the derivatives of it, I get no torques except in the z direction. But as soon as I move away from there, and there is a distance here, and I compute moments about that, do I get some static moments not in the direction of spin? Yes.
+
+So when you do that, this system-- if this is my point A, let's call it, over here-- this system, is it statically imbalanced? Yep. Is it dynamically imbalanced? Yeah. So how would you balance it? Final question of the term for me. How would you put this system into balance?
+
+AUDIENCE: Put another mass on the other side.
+
+PROFESSOR: All right. So if I put another mass here, will that statically balance it? Statically balance, meaning if I let go, will it have to rotate around and find a low point. Is there any low point-- if I put one equal and opposite, equal distance away, opposite side, would it be statically balanced?
+
+AUDIENCE: Yes.
+
+PROFESSOR: Yeah, because gravity pulls down on this one, equal and opposite down on this one. So it would be statically balanced. Would it be dynamically balanced? The system, as you spin, will try to twist like this. So it's not dynamically balanced. What if I move it over here? Is it statically balanced?
+
+AUDIENCE: Yes.
+
+PROFESSOR: Is it dynamically balanced?
+
+AUDIENCE: Yes.
+
+PROFESSOR: Hmm. Compute the torques. You know? Let's put A right in the center, compute the angular momentum, take its time derivative, and you will find that this one, as it spins, tries to create a moment like that. And this one, as it spins tries to create a moment like that. And they're exactly equal and opposite. This is dynamically balanced and statically balanced. Hmm.
+
+AUDIENCE: When there was just one mass, was it dynamically balanced about A, the axis of rotation.
+
+PROFESSOR: This is not dynamic-- if you put A right in the usual center-- the original center of gravity, we'll call A, at this wheel-- this system is not dynamically balanced with respect to an A that's right on the axle and on the center. Because it has this little offset. OK?
+
+[[Static and dynamic imbalance definitions]]
+Print This Document
+
+So I want to finish up by a loose end that many people have-- continue to have-- a little trouble with. Because I get questions on Muddy cards about this. And it was on this last homework. I don't know how that wheel with the little bit missing-- if you all got that sorted out. If you're all perfectly clear in your mind about that then I don't need to say what I'm going to talk about for a second. But I thought I would just tie that up, the last little bit here. This problem is a nice lead to it.
+
+This last force that I computed is the force required to swing this thing in a circle. And I'm putting that force right here. And I'm saying it's-- actually the point of rotation is right here. And that force is the mass times the acceleration of that point. And that point is a distance from my point of rotation to the center of mass. No accident. You're accelerating the center of mass.
+
+That times the rotation rate squared is the acceleration, the centripetal acceleration. This is the force. So any time you have an object-- maybe it's a wheel, and maybe it has, stuck on it, a little extra mass you don't know about, a rock stuck in your tire. This is the center of rotation. Your axle on your wheel doesn't move. Tire doesn't move relative to the axle.
+
+You've got this little bit of mass missing or added, doesn't much matter. The center of mass of this system is no longer at the center of rotation. So I'll call the center of rotation here A. That's what it's rotating about.
+
+This addition or loss of a piece of mass makes the center of mass of the system move a little bit. So I have an extra little bit of mass out here. The new actual center gravity of this system is a little distance away. And I'll call that distance e, eccentricity.
+
+So now I have a system whose center of mass is not at the center of rotation. And its distance, RGA, I'm calling the eccentricity. And as this rotates-- and I'll put a coordinate system on here. i, x, y, rotating with the system. The force, it's going to appear here on this axle. It's going to have a force that I'll call Rx. Rx equals the mass times the acceleration of the center of gravity of the system.
+
+And the acceleration of the center of gravity in this system is minus e theta dot squared. And it's inward in the i hat direction. Therefore, the minus sign. So the force-- this is the centripetal acceleration times mass-- the force required to make it do that is an inward force minus M e theta dot squared i hat. OK?
+
+I drew Rx in a positive direction. The answer comes out minus. It says it's going the other way. So this is always the case. If you have a system that, for some reason, does not rotate about its true center of mass, but in fact the center of mass is off a little bit or a lot, you will have to provide a force that's inwardly directed as that thing spins. OK?
+
+Now a subtlety I want you to know, to really go away with, is that we've talked quite a lot about unbalance due to these masses that aren't concentrated at the center, these unbalanced masses. There are two kinds of unbalance the engineers have chosen to describe the world with, two kinds. One is static imbalance and the other is dynamic imbalance.
+
+A statically imbalanced system is one in which you-- I'm looking at a side view of-- an edge view of this thing as it's spinning, maybe like this. And the center of rotation is here. And the G is here. That force is inward on it.
+
+But really, it's perfectly symmetric. So this force that I'm having to provide to keep this thing from flying off is perfectly inward directed. Does it generate any moments about this point? None. This is called static imbalance.
+
+And here's an example of static imbalance. This is my rotor. I'm going to put it on its side. Gravity says, I want this to hang down. Because where's the center of mass of this system? Up here? Along here? It's down here somewhere, right? That center of mass, you do a statics calculation, MG sine theta, it's going to hang down.
+
+So that's why they call it static imbalance. And the way you can correct a statically imbalanced system is just do the test. Put the thing-- hang the thing on an axle. And do I have a handy axle here today? Put it on an axle and see if it rotates. And if it always rotates to some point hanging down, you know this thing's statically imbalanced.
+
+Look in my kit of parts here. Just maybe do this. I don't know if this is heavy enough to do the job. But now I've put a little bit of mass on here. And I presume that if I do this with it, OK, it goes down. This system is statically imbalanced.
+
+This system, now, is also dynamically imbalanced. Why? It kind of depends on where I do the calculation. But if I say that I want to know-- this is when put a force, a mass, off-center here. And if I compute moments about a point that's perfectly lined up with it, this system will create no moments about that point. This system is perfectly balanced now. The mass that I've stuck on here is there.
+
+This system is perfectly balanced. It generates no moments as it stands, no matter where you calculate this point. But this extra little bit-- this is A. If I compute H with respect to A here and do the derivatives of it, I get no torques except in the z direction. But as soon as I move away from there, and there is a distance here, and I compute moments about that, do I get some static moments not in the direction of spin? Yes.
+
+So when you do that, this system-- if this is my point A, let's call it, over here-- this system, is it statically imbalanced? Yep. Is it dynamically imbalanced? Yeah. So how would you balance it? Final question of the term for me. How would you put this system into balance?
+
+AUDIENCE: Put another mass on the other side.
+
+PROFESSOR: All right. So if I put another mass here, will that statically balance it? Statically balance, meaning if I let go, will it have to rotate around and find a low point. Is there any low point-- if I put one equal and opposite, equal distance away, opposite side, would it be statically balanced?
+
+AUDIENCE: Yes.
+
+PROFESSOR: Yeah, because gravity pulls down on this one, equal and opposite down on this one. So it would be statically balanced. Would it be dynamically balanced? The system, as you spin, will try to twist like this. So it's not dynamically balanced. What if I move it over here? Is it statically balanced?
+
+AUDIENCE: Yes.
+
+PROFESSOR: Is it dynamically balanced?
+
+AUDIENCE: Yes.
+
+PROFESSOR: Hmm. Compute the torques. You know? Let's put A right in the center, compute the angular momentum, take its time derivative, and you will find that this one, as it spins, tries to create a moment like that. And this one, as it spins tries to create a moment like that. And they're exactly equal and opposite. This is dynamically balanced and statically balanced. Hmm.
+
+AUDIENCE: When there was just one mass, was it dynamically balanced about A, the axis of rotation.
+
+PROFESSOR: This is not dynamic-- if you put A right in the usual center-- the original center of gravity, we'll call A, at this wheel-- this system is not dynamically balanced with respect to an A that's right on the axle and on the center. Because it has this little offset. OK?
+
+

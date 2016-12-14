@@ -1,0 +1,1397 @@
+[[Intro to the time rate of change of linear and angular momentum for a particle]]
+Print This Document
+
+PROFESSOR: So today I'm mostly going to talk about two formulas that we are going to make a lot of use of. One is the time derivative of linear momentum, which will be used a lot, has got to be equal to, for a particle. We'll just do particles today and then rigid bodies soon.
+
+So for a particle, this is just the mass times the acceleration of the particle. The rigid body, it's the total mass times acceleration in the center of gravity. And the other formula that we've learned, that we've come up to, is the sum of the external torques with respect to a point A on a particle is the time derivative of the angular momentum of the particle at B with respect to A dt.
+
+And then it's got this nuisance term, this velocity of A with respect to O cross the linear momentum at the point B with respect to O. So we talked about this last time. So this is a particle that's located out here at B. There's some intermediate point A. And we're computing the angular momentum of this particle, m, with respect to A. And A can be moving. And if it is, when you go to compute torques, you have to use this kind of messy formula.
+
+We often try to simplify the problems that we do so that we can either make A a fixed axis of rotation-- make it rotate about this point, in which case this goes to zero-- or there's another time when you can make the velocity of this point parallel to the velocity of that point. And the most common one of all is when you use this formula about the center of mass. Then the velocity of the center of mass is the same direction as the momentum. And therefore, this term goes to zero. So we have these two cases where this formula simplifies.
+
+So the way we most often use it is the summation of the torques with respect to A is just the derivative of the angular momentum dt. And that's it. This is when vA is zero, or vA is parallel to P, such as A is at the center of mass. So these are the two formulas that we want to use. Let's just do a real simple case first.
+
+And this is just my mass on a string spinning around, constant speed. I'm going to pretend I'm on a frictionless table so I don't have to deal with gravity. This thing is horizontal, just spinning around. And I'll call this point A. This is my point O. This is x, z. No, y. It's looking down on it. So it's going to have a velocity in this theta hat direction.
+
+And you've got your R hat. We'll just use polar coordinates to do this. So the velocity of A with respect to O we know-- and we'll give this just a length magnitude r1. So this is going to be theta dot equals a constant. r dot equals 0. So it's just fixed length. Fixed length is r1. So we know the simple formula for the velocity of that is r1 theta dot in the theta hat direction. [INAUDIBLE] hat, excuse me.
+
+And the momentum then is just the mass times that. And the time derivative of the linear momentum with respect to this fixed reference frame is the time derivative of this. This is constant. This is constant. This is constant. The only thing you have to take is the derivative of theta hat.
+
+So this is mr1 theta dot theta hat time derivative. But we've worked that one out two or three times. It's theta dot-- minus theta dot r hat. We'll put that in. You get minus mr1 theta dot squared r hat. And this must be the sum of the external forces. And if we're, looking down on this, draw a free body diagram of our mass, looking down on it, here's r hat.
+
+The theta direction like this, z coming out of the board. So this is x, y, and o. There is a inward force on it that we call the tension in the string. And some of external force is just minus Tr hat. So T is mr1 theta dot squared, which is what we talked about just a second ago. So this is just a demonstration of what we were talking about with the survey questions, that when you spin something, you're changing its linear momentum.
+
+Not in magnitude. It stays constant. But it's constantly changing in direction. And the direction change-- you have to take this derivative-- gives you the [INAUDIBLE]. Direction changes causes the centripetal acceleration. To cause that acceleration, you have to put a force on it. And the force is that inward tension in the string. OK, so that's the first really simple one. Now, let's take a [INAUDIBLE].
+
+Now let's do the same problem, but let it be a little bit more general. I've got a tabletop. This problem's described in the book as an example. You've got a hole in the table. You've got your mass out here. So this is looking down on the table and down through the hole, coming out the bottom of the hole, you have this string. And you pull on it.
+
+So r dot-- so we're looking down on it. This thing, again, has some theta. r hat directions like this, theta hat directions like that. This thing's spinning, going around and around my table top. But there's a hole in the tabletop, and I can pull the string and shorten the string.
+
+So r dot's a constant. Theta dot will not be a constant. it will change. This is my vector r. So the velocity, we'll call this A. This is my origin, O. The velocity in this case of the particle with respect to the fixed inertial frame is r dot r hat plus r theta dot theta hat. So now it has two possible velocities, and I'm going to be pulling it in, and it's going to be going round and round.
+
+So the linear momentum is just mvA with respect to O. So with this problem, if I take the time derivative of the linear momentum, you recognize this. This is just velocity in polar coordinates. We've done this derivative before to get the acceleration.
+
+So the acceleration, it's the time derivative of A with respect to O is acceleration of A with respect to O. And that's a messy formula, and we've derived it before. So that looks like-- and it's got four terms. r double dot minus r theta dot squared and the r hat plus r theta double dot plus 2r dot theta dot in the theta hat direction. And if multiplied by the mass, that's the mass times the acceleration. And this would be equal to the sum of all the external forces acting on that particle. That's Newton's second law.
+
+But in our problem here, I've said this is constant. So I can throw out this term that's going to be zero. So this term goes away. But this term's certainly not zero. This term is not necessarily zero. This term is certainly not zero.
+
+So what can we do with that? So now's the time you draw some free body diagrams. And let's look at the side view. The side view, here's your particle, mg down, some normal force up, and a tension pulling in. So the table's supporting it, gravity down, and just the string force pulling it.
+
+In the top view, you're looking down on it. I'm not allowing them to-- assuming it's a frictionless table, so there's no friction. So the only force seen from the top is the tension. There are no forces in the plane in the direction theta hat. So the sum of the external forces in the theta hat direction are in this direction. This is-- so the total forces on this thing from your free body diagram in the theta hat direction are?
+
+AUDIENCE: Zero.
+
+PROFESSOR: Zero. And that allows us to take this term and set it equal to 0. This is the x. So the theta hat piece is equal to 0 is equal to m r theta double dot plus 2r dot theta dot. [INAUDIBLE] solve this for-- that's equal to 0. So r theta double dot equals minus 2r dot theta dot.
+
+So in order for this thing to satisfy Newton's law, it happens to be that as you pull it in, the product of r dot and theta dot gives you the angular acceleration. And the other term, we just went through that. So what we did a couple minutes ago.
+
+The force in the r hat direction, sum of the forces-- this is a derivative of the linear momentum-- is minus mr theta dot squared r hat. And we know from the free body diagram that that better be equal to minus T in the r hat direction. So just like before, it tells you that T equals mr theta dot squared.
+
+So the mass times the centripetal acceleration, in order to make that centripetal motion happen, you have to pull on it with a force mr theta dot squared. So what can you say about the angular momentum of this particle with respect to O? So let's write it out. So H of the particle with respect to O is rAO cross P. This is r r hat cross P.
+
+So r cross r, you get nothing from that term. r hat cross theta hat gives you a k, a positive k. So you get r r squared theta dot in the k direction. And I'm missing something. There we go. m r squared theta dot. mr theta dot is the linear momentum times another r gives you the angular momentum, m r squared theta dot. And because r hat cross theta dot is k, this angular momentum is directed upward about the center of rotation.
+
+So that's our expression for our angular momentum. But if you take the time derivative of it, what should it tell us? Let's go back to our formulas we started with. When the center of rotation's not moving, when the point with respect to which you're taking the angular momentum doesn't move, then that's one of the cases where you can get rid of those extra terms.
+
+So in this case, we're computing the angular momentum with respect to O, which doesn't move. The velocity of O here is zero. So this allows us just to say that the sum of the torques with respect about O is just equal to the time rate of change of H with respect to O. And to do that, this term can change, and this term can change. But how about the derivative of k? It's just constant, right? So we're going to get two terms out of this. We're going to get m2r r dot theta dot k plus r squared theta double dot k.
+
+What are the external torques in this problem? You're going to have to pretend that I'm on a frictionless table top here. When I'm going around like this, what are the torques about the center point? So what are the-- first, what are the forces acting on the mass? Just the tension. And the tension cross the moment arm, the tension's in the r hat direction. The string is in the r direction. r hat cross r hat is--
+
+AUDIENCE: Zero.
+
+PROFESSOR: Zero. So there's no torques. So for this problem, this is equal to 0. And that then allows us to write-- the m cancels out, obviously, and I can get rid of-- one of these r's goes away. And I'm left with an r dot theta dot. And I move this to the other side equal to minus r theta double dot. And that's what we came up with a minute ago when when we did the time derivative of the linear momentum, we learned this.
+
+So we haven't learned much more. It's just telling us that, well, this thing's going to accelerate. It should pull it in. And it'll accelerate at any instant in time, whatever r dot is, theta dot is, this'll be the angular acceleration.
+
+So what will happen then? And let's do it at two points in time. And we'll let r2 equals r1 divided by 2. So I'm just going to pull this thing in. So let's do the experiment.
+
+I'm going to pull it in about half its length. It can speed up, slow down, stay the same speed. I'll get it going and then-- and I'll try not to hit you. I'll move over here so I hit him instead, OK? Let's try it again. All right. But there's no torques on it. There's no torque being applied. The angular momentum is constant, and yet the thing speeds up.
+
+So I want to ask you a question. Do you think the kinetic energy is staying the same or changing? So how many think the kinetic energy as I go from out there to in here, the kinetic energy stays the same? OK. How many think it's different? All right. How many are not so sure? Let's find out.
+
+So we've determined that if this is zero, then that means that h with respect to O is a constant. So h-- this is at T1-- is r1. Be faster if I look at my notes. So the angular momentum at r1 is mr1 squared theta 1 dot in the k direction. And that had better be equal to h at r2. And that'll be mr2 squared theta 2 dot. And that's also in the k direction.
+
+But we know that r2 is r1 divided by 2. So we can plug that in. I'll bring this over here. So mr1 squared theta 1 dot is mr1/4 theta 2 dot. So I can solve for theta 2. So if I shorten the length by a factor of 2, the angular velocity goes up by a factor of 4.
+
+And let's check the kinetic energy. Kinetic energy state 1, 1/2mv1 squared. That's 1/2mv1 is r theta 1 dot quantity squared. So what do I have? I have some expressions for this. r2 is r1/2, and theta 2 is 4 theta 1 dot quantity squared. And if you multiply that out-- yeah. So where's the kinetic energy come from?
+
+AUDIENCE: You're adding energy into the system by pulling down.
+
+PROFESSOR: So she says we add energy to the system by pulling down. So we're doing some work, right? There's tension in that string equal to mr omega squared. If you pull it down a certain distance-- in fact, r1/2-- you're going to do work that's the integral of the tension times dr. You integrate it, right? And that work goes into-- there's conservation of energy in the system. That goes into speeding up the rotation, and yet the angular momentum has stayed constant throughout the action.
+
+So when I first saw this years ago, I thought, that's really cool. That's really quite amazing. So a nice application of conservation of angular momentum. An application of using this formula, the time rate of change of angular momentum with respect to a point, it tells you about the torques applied to the system. And this is in fact a pretty simple case.
+
+So the last-- let's move on though to doing a little more complicated case. And this is similar to the last problem in the homework. So this is like the homework. The homework, you got this monkey running up the shaft, right? So I don't have a monkey, and it's not running up the shaft. But I do have just this particle on a shaft rotating about a central axis.
+
+Now, this is a mechanical necessity to hold it all together. But let's just ignore the mass of this center piece for the moment. Just think of this as a massless arm with a particle on it. And I want to calculate angular momentum. I want to calculate forces. I want to calculate torques and see what happens.
+
+So I'm going to start by putting my O, x, z frame right on the level with this mass. What I'm going to show you now is that where you put the reference point about which you compute the angular momentum matters. You get different answers depending on where you put it. So I'm going to start by putting it here.
+
+And this we'll call [INAUDIBLE] out here's my point A. Here's O. This is some angle phi here. And if this has some length l, then this up here is my r equals l cosine phi. And this side would be l sine phi. These are just the two lengths, but I'm going to use polar coordinates. So this is going to be my r hat direction. Theta hat's into the board.
+
+So let's compute-- and it's a particle, so I'll continue to use lowercase h of A with respect to O-- it's a vector-- is r of A with respect to O cross P linear momentum with respect to O. This is r r hat. We just call this l cosine theta, just calling it r. It's in the r hat direction. Cross with P, and P, we'd done this two or three times now today. It's the mass times r times theta dot. That's its speed. And it's in the theta hat direction.
+
+So taking the r hat cross theta hat gives me k. So I get m r squared theta dot k. Very simple expression. Now, this is a fixed axis rotation. So I want to compute the torques. Look at my formula. The vA in this case is the velocity of O. The point of the axis of rotation doesn't move. So the second terms go away, and I can say that the torque of my particle at A with respect to O is just dhA dt.
+
+So m's a constant. r's a constant. k's a constant. The only thing that has a time derivative is theta dot, and it becomes theta double dot. This is m r squared theta double dot k. And that is equal-- well, that's equal to the sum of the external torques.
+
+So what physically does that mean? What physically is that telling us? It's telling us theta double dot is the angular acceleration of this thing speeding up, going faster and faster. It takes torque to make that happen. If it's going at constant rate, what's theta double dot? Zero.
+
+So at constant rate, the torque required to make this thing go constant rate is zero. Makes sense. But if it were speeding up, if you're making it go faster and faster and faster, it requires torque to drive it. And that's the amount of torque. And the torque is around the axis of spin. Pretty straightforward.
+
+So if I did dP [? d, ?] if I took the time derivative of just the linear momentum for this particle, we've done it here today. If I took the time derivative of it, what would I get? It's a force. And what's the force? It's a constant rotation rate. Take the time derivative of P. dP dt gives me
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Mass times?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Mv squared over r is mass times acceleration. The acceleration is which kind?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Centripetal. So you just get the same thing back again. So there's a force acting inwards words this thing to make it go in a circle that is the mr theta dot squared term that we've seen so many times. But now what I want to do is move the point about which I compute this angular momentum.
+
+And now I'm going to put it here, the point of attachment of the arm. So here's O, x, z. Everything else stays the same. All I've done is move the point. And I want to compute the angular momentum of this A with respect to O.
+
+Well, that's r. This is now r of A with respect to O, this vector. This distance here, in polar cylindrical coordinates, is z. And this is r. Just as before. The r hasn't changed. And there is an r hat in this direction, theta hat into the board, and a k hat in the z direction. Those are our unit vectors.
+
+So this is-- rAO is r r hat plus z k hat. That's the position vector. And I'm going to cross that with the momentum of A with respect to O. And the momentum is mr. Theta dot is the velocity.
+
+And what's its direction? Theta hat, right? Mass times velocity, momentum. And now we need to carry this out. The r hat term times theta hat gives you a k. m r squared theta dot k. And this term, k cross theta hat, gives me a minus r. Minus mrz theta dot k.
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: You're right. Thank you. Because I would have a disaster if I let that progress. This looks like that, right? k cross theta is minus r hat. r cross theta is a k. k cross theta is a minus r. I get two terms. And this is now an expression for the angular momentum of A with respect to O. And let's see if I have enough room to draw it here.
+
+There is a piece of it here. This is h in the z direction, is this arrow. And then there's a piece in the r hat direction, like this. This is h in the r hat direction. And the sum of those two is that. So this is hA with respect to O, this guy. Perpendicular to the shaft. It will turn out it really is perpendicular if you work out the numbers.
+
+Totally different result than when I did it here. So this one, m r squared theta dot k, m r squared theta dot k. Hey, that term's the same. So when I did this, I got just the k term. And now I've moved this thing down, and I get a second term.
+
+So now what we want to know is, what about the torques in the system? So I want to take the time derivative of this guy with respect to-- the time derivative of the angular momentum, which is going to be equal to the summation of the external torques with respect to O, but O is now in a different place. And so I have to carry out these derivatives.
+
+And this one I did before. This one just gives me my m r squared theta double dot k hat. Now, this term, m is a constant. r is a constant. z is a constant. Theta dot is not necessarily a constant. We're going to let that be a variable. And r hat is certainly changing direction. So when I take the derivative of this, I'm going to get two terms.
+
+So the first one is minus mrz theta double dot r hat. And that's taking the derivative of this multiplied by that. And the second term is the derivative of this multiplied by that. And so the derivative of r hat is?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Theta dot theta hat. Right. OK. So minus mrz theta dot theta dot theta hat. So in other words, this is squared. Now I have three terms to mess with. We know what the first term means. We talked about that. This is the torque. These are all torques. So this is the torque required to do what, the lead term?
+
+AUDIENCE: [INAUDIBLE].
+
+AUDIENCE: [INAUDIBLE] circle.
+
+PROFESSOR: To make it?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Go faster. Change its angular speed, right? It's just building up the angular momentum in that spin. So this is the angular spin up. These other two terms, these are strange things. Well first, let's take a look at this one. r theta dot squared. What's that remind you of? What kind of-- torque is usually some force times a moment arm, crossed with a moment arm, right?
+
+So we know that there's some forces acting in this system. It's spinning. We know that there is a-- in order to make this thing go round and around-- it has centripetal acceleration. Therefore, there must be a force being applied by this shaft inward that's equal to the mass times the centripetal acceleration, mr theta dot squared.
+
+So here this guy is mr theta dot squared. That's the force. And let's do these. Let's call this A. Let's Call. This term here B, this term C. So the C term is-- torque C, I'll call it-- is some r cross some F. And the F, I'm telling you, is the centripetal acceleration times the mass.
+
+And that'll probably be like a minus mr theta dot squared r hat, right? And what about the moment arm that that acts about? What moment arm is perpendicular-- so that's a force that's acting in. What moment arm is perpendicular to that? Because the only thing that's perpendicular to it lead to torques.
+
+PROFESSOR: Hm?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: z. k cross r should give me a theta. Sure enough, there's a minus, sure enough. And there's the z. You multiply this out, you get this term. So this is a strange term. It's in the theta hat direction. What is that?
+
+So it's spinning, and it's lined up like this. Theta hat's in that direction. Positive k, positive theta, positive r hat. k's in that direction. It's telling you there's a torque being applied about this point in the minus theta direction. Does that make sense? You have a-- there's a centripetal acceleration times a mass. There's a force times a moment arm.
+
+This force is trying to bend this thing out. If this thing had a hinge down here, and I started to spin it, what would it do? It would just flop out, right? There's got to be a torque keeping that from happening. And that's a torque. If it wants to go that way, there's got to be a torque going the other way keeping it in place. And that's what that term is.
+
+So now we know. So this is the Euler. This is the spin up. This is keeping this thing from flopping out. What's this guy? This is yet another torque, and it's in the r, minus r, direction.
+
+So let's see if we can intuitively figure this one out. Well, there's an r theta double dot. That should look familiar. r theta double dot. If this thing is accelerating, angular acceleration, speeding up, out here that mass says, I'm here right now. In order for me to go a little bit faster, I'm accelerating in that direction. There must be a force being applied by this rod in that direction. And that force times a moment arm perpendicular to it, z, is a moment in the r direction.
+
+So as this thing spins up, if this thing could, it would fall back. But this rod is stiff and won't let it do that. So this is the torque down here that is required to keep this thing moving. So this is really quite amazing. Do either of these torques, these second ones, this one and this one, do they contribute to-- do they do any work? Do they add energy to the system?
+
+See, work means force through a distance. They don't do actually any work. They are static torques just required to hold the system together. This one does some work. It actually makes-- this one leads to energy accumulating, just going faster and faster faster. These are just holding the thing together. But the amazing thing is that you can use angular momentum to calculate things like these torques.
+
+So if you were designing this, these forces acting on this lump out here are producing torques about this point, which are the same thing as-- in 2.001 you'll be doing bending moments. It creates a bending moment in the shaft. And if you don't make the shaft strong enough, it'll break it off. So the torque about this point is the bending moment in the r direction and in the theta direction.
+
+It's trying to be bent in two different ways. And you can calculate the stresses down here caused by those moments. And that would help you design the thing. So you not only get dynamics information out of taking things like the time rate of change of angular momentum. You get some of the static information as well.
+
+The other thing to remember, the really important point of the lecture, is that angular momentum changes depending on where you pick a reference point. So when we picked the reference point just opposite it, we got none of the information about the torques down here. Because with respect to this point, there are no torques except the one speeded up.
+
+The centripetal force here doesn't cause torques. The force out here-- there are no other torques, just the one to make it spin faster. But as soon as I move it down here, I learn something of considerable value. So the homework problem has some of the same things on it, except the monkey's moving. So you get even a little bit more interesting information out of it. All right.
+
+So that went faster than I thought. So that gives some time for some questions. I could see several. So we'll start there and then go here.
+
+AUDIENCE: What exactly [INAUDIBLE] torque B is balancing out?
+
+PROFESSOR: So say again?
+
+AUDIENCE: Torque B [INAUDIBLE], what exactly is that balancing out?
+
+PROFESSOR: This term? You're asking about this term?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: OK. You want me to explain again what this one means? This is a term associated with increasing the angular speed. So let's see if we can't-- so this B term, I'll call it the torque associated with B, minus mrz theta double dot r hat. Now, that is going to be some r cross some F. And if we can get some physical insight, if we could figure out what they are.
+
+So the mass, the force, is the mass times an acceleration. There's an acceleration r theta double dot, which is the speed of this thing is increasing speed. And the r is going to be z. z k hat cross-- and I'm guessing that it's a force that looks like mr theta double dot. And this is in the theta hat direction. k cross theta hat gives me minus r hat. r hat and the minus.
+
+So this looks like a plausible explanation for where this might have come from. So this is the force speeding up, attempting to speed up this mass. There's a force pushing on it that's given to it by this rod. This rod is pushing on it to make it go faster. Mass times acceleration would be mr theta double dot.
+
+And the moment arm is this distance from here down to the point at which I've been computing my reference point from here to here at z. So force times z, r cross F, puts it in the-- ends up in the minus r direction. It's got to be this direction, k cross theta hat. The force is this way.
+
+Think about this. Force is that way. The r is this way. The r cross F is this way. And that's where you get the minus sign. It's in the minus r hat direction. But it comes from trying to speed up this mass. And if this was a floppy, weak link, as it tries to speed up, it would try to bend back. It would flop back as this thing tries to make it go faster.
+
+It will say, no, I don't want to go. Lay back on me. And that would we going in the-- this way, to keep from doing that, you have to put a torque on it this way. Just trying to speed up. It's trying to lay back, and you're saying nope, can't do that. Go like this. So that's the B term.
+
+AUDIENCE: If you do the problem with a situation like that, how do you know where to set it?
+
+PROFESSOR: How do you know where to set it? Well, that's a good question. He's saying, when you're doing a problem like this, how do you know where to pick the reference frame? Well, ask yourself what it is you want to know. And in fact, now that you know that from angular momentum of mechanical things, you can actually get static torques on the system, ask yourself where you want to know those torques.
+
+In this case, if you're designing this, you want to know whether you're going to break this thing off. And it's probably going to break right down at the bottom where the moment arms are the greatest. So that's why you pick that point. It comes a lot with experience will help you choose. But the amazing thing is this information's all stored in the angular momentum if you pick it in the right place. Another hand. OK. Yes, Phillip.
+
+AUDIENCE: I had a question about the direction for r hat. I thought it had to come out of the origin. But you have it going in the x direction.
+
+PROFESSOR: So I've been using polar-- he's asking the direction of r hat. So I've just been using polar coordinates. And polar coordinates is cylindrical, technically. This problem has a z direction upwards, r direction radially outwards, r hat, and theta as drawn here would be into the board, given the position of the mass.
+
+Looking down on it, here's my O. And looking down, this would be my x and my y. And this is some random arbitrary position here. And this is theta. Looking down on it, in this plane is r hat theta hat, k hat coming out of the board.
+
+Side view, x, z, and my system is like this. Now the theta is into the board, and the r direction is this way. That's r hat. And this is z. This is the z-coordinate upwards. So the position vector, the thing we call rA with respect to O, is indeed the length of this whole thing. But it is made up of a component in the z direction plus a component here that we call r in the r hat direction.
+
+AUDIENCE: [INAUDIBLE] example where we calculated from the bottom rather than the top circle, then we got a value for the angular momentum that doesn't have a theta hat component, but as the thing spins--
+
+PROFESSOR: Which are you referring to? Are you talk--
+
+AUDIENCE: h about the point O down--
+
+PROFESSOR: Which example, this guy or--
+
+AUDIENCE: Yeah, [INAUDIBLE].
+
+PROFESSOR: OK, so point. Tell me what you mean here.
+
+AUDIENCE: Right here. [INAUDIBLE].
+
+PROFESSOR: When we computed, not here, but down here.
+
+AUDIENCE: We got that there was no theta component, but as this spins around, theta is changing. And if it's always opposite, shouldn't there be a theta component?
+
+PROFESSOR: A theta component of what?
+
+AUDIENCE: Angular momentum.
+
+PROFESSOR: Angular momentum. She's asking, shouldn't there be a theta component of angular momentum? So we compute our angular momentum with this formula at the top. It's an r cross P. So the r consists of the z part, and the r part is exactly this right here.
+
+And the P is only into the board. It's only in the theta hat direction. So you have a term that's r hat cross theta hat gives you a k, and you have a term k cross theta hat, which gives you an r. There just are no cross products that come out of this that are in the theta hat direction. Yeah.
+
+AUDIENCE: So if it's just at this one position, then you don't have it. But as it spins--
+
+PROFESSOR: Ah. In this case, that's why polar coordinates are nice because as it spins, the theta hat's just constantly going with it. The r hat's constantly going with it. And so the beauty of this thing is this is an axially symmetric problem. It goes round and round, and the torques are given out in this rotating frame.
+
+I think maybe what's confusing you, is if you wanted to know the torques in a fixed inertial frame, you'd have to break them down into ijk components, which you could do. A little tedious. But the answers in this one came out in r hat, theta hat, k hat terms. Happy to answer. This is good stuff, but thick. So keep-- other questions?
+
+So what do you think will happen in that final homework problem with the monkey running-- now he has some velocity. How will that problem differ from what we've done? Do you have a question? Do you want to answer that? Yeah.
+
+AUDIENCE: Well, [INAUDIBLE] monkey [INAUDIBLE].
+
+PROFESSOR: It's going to what?
+
+AUDIENCE: Look like a circle.
+
+PROFESSOR: It's going to look like a circle, OK. He'll be going in a circle, at any--
+
+AUDIENCE: [INAUDIBLE] as in a spiral.
+
+PROFESSOR: A spiral. He'll be going like a helix, huh? All right. Yeah, the monkey will be going in a helix, yeah.
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: What forces will act on that monkey?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: In what direction do you think there will be forces acting on that-- he's hanging on for dear life, you know. This thing's going around. They could throw him off, right? So what forces act? And if you could figure out what forces act-- so you draw a free body diagram of the monkey. There's going to be possibly forces in the theta hat direction, in the z direction, in the r direction.
+
+But just think physically where they come from. So we now know that certainly he's hanging on because he is undergoing centripetal acceleration. And in order to force him to go in that circle, there has to be an inward force applied by this shaft to him. So there's a force like that because of the centripetal acceleration. If it's speeding up, there's a force pushing him to make it go faster. But he's running up the shaft. What else is there? Are there any other accelerations?
+
+AUDIENCE: [INAUDIBLE] angular acceleration [INAUDIBLE]?
+
+PROFESSOR: Yeah, there's angular acceleration. That's the thing trying to speed up. And so he's hanging on because this thing is accelerating, like pushing you back in the car seat, right? Linear acceleration. Well, this is trying to-- at any instant in time, it's trying to go faster. So he's having to hang on because of that. So that's one of those terms.
+
+But now he's moving. He's also running up the shaft. Will that lead to any other accelerations? And force equals mass times acceleration. So every time you can-- if you can account for all the accelerations in the system, multiply it by m. You've accounted for all of the forces, sum of the forces of the mass times acceleration. If you add a new acceleration, you better add a new force. If you add a new force, you'll probably add a new torque.
+
+AUDIENCE: So we have to account for gravity?
+
+PROFESSOR: Well, gravity, yeah. What else?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: So he's suggesting there might be a Coriolis acceleration. And the Coriolis acceleration, in order to make the monkey accelerate, according to that term, there will have to be yet another force. And I think-- so we'll see if that turns up in the calculation.
+
+You've got a couple minutes. I want you to do the money cards. Think about-- and then on your way out, I think just pile them up down here on the table, or hand them to me or one of the TAs. And that'll help me understand what you understood or didn't understand today.
+
+[[Example 1: Rotating mass on a string; dP/dt = tension]]
+Print This Document
+
+Let's just do a real simple case first.
+
+And this is just my mass on a string spinning around, constant speed. I'm going to pretend I'm on a frictionless table so I don't have to deal with gravity. This thing is horizontal, just spinning around. And I'll call this point A. This is my point O. This is x, z. No, y. It's looking down on it. So it's going to have a velocity in this theta hat direction.
+
+And you've got your R hat. We'll just use polar coordinates to do this. So the velocity of A with respect to O we know-- and we'll give this just a length magnitude r1. So this is going to be theta dot equals a constant. r dot equals 0. So it's just fixed length. Fixed length is r1. So we know the simple formula for the velocity of that is r1 theta dot in the theta hat direction. [INAUDIBLE] hat, excuse me.
+
+And the momentum then is just the mass times that. And the time derivative of the linear momentum with respect to this fixed reference frame is the time derivative of this. This is constant. This is constant. This is constant. The only thing you have to take is the derivative of theta hat.
+
+So this is mr1 theta dot theta hat time derivative. But we've worked that one out two or three times. It's theta dot-- minus theta dot r hat. We'll put that in. You get minus mr1 theta dot squared r hat. And this must be the sum of the external forces. And if we're, looking down on this, draw a free body diagram of our mass, looking down on it, here's r hat.
+
+The theta direction like this, z coming out of the board. So this is x, y, and o. There is a inward force on it that we call the tension in the string. And some of external force is just minus Tr hat. So T is mr1 theta dot squared, which is what we talked about just a second ago. So this is just a demonstration of what we were talking about with the survey questions, that when you spin something, you're changing its linear momentum.
+
+Not in magnitude. It stays constant. But it's constantly changing in direction. And the direction change-- you have to take this derivative-- gives you the [INAUDIBLE]. Direction changes causes the centripetal acceleration. To cause that acceleration, you have to put a force on it. And the force is that inward tension in the string. OK, so that's the first really simple one. Now, let's take a [INAUDIBLE].
+
+Now let's do the same problem, but let it be a little bit more general. I've got a tabletop. This problem's described in the book as an example. You've got a hole in the table. You've got your mass out here. So this is looking down on the table and down through the hole, coming out the bottom of the hole, you have this string. And you pull on it.
+
+So r dot-- so we're looking down on it. This thing, again, has some theta. r hat directions like this, theta hat directions like that. This thing's spinning, going around and around my table top. But there's a hole in the tabletop, and I can pull the string and shorten the string.
+
+So r dot's a constant. Theta dot will not be a constant. it will change. This is my vector r. So the velocity, we'll call this A. This is my origin, O. The velocity in this case of the particle with respect to the fixed inertial frame is r dot r hat plus r theta dot theta hat. So now it has two possible velocities, and I'm going to be pulling it in, and it's going to be going round and round.
+
+So the linear momentum is just mvA with respect to O. So with this problem, if I take the time derivative of the linear momentum, you recognize this. This is just velocity in polar coordinates. We've done this derivative before to get the acceleration.
+
+So the acceleration, it's the time derivative of A with respect to O is acceleration of A with respect to O. And that's a messy formula, and we've derived it before. So that looks like-- and it's got four terms. r double dot minus r theta dot squared and the r hat plus r theta double dot plus 2r dot theta dot in the theta hat direction. And if multiplied by the mass, that's the mass times the acceleration. And this would be equal to the sum of all the external forces acting on that particle. That's Newton's second law.
+
+But in our problem here, I've said this is constant. So I can throw out this term that's going to be zero. So this term goes away. But this term's certainly not zero. This term is not necessarily zero. This term is certainly not zero.
+
+So what can we do with that? So now's the time you draw some free body diagrams. And let's look at the side view. The side view, here's your particle, mg down, some normal force up, and a tension pulling in. So the table's supporting it, gravity down, and just the string force pulling it.
+
+In the top view, you're looking down on it. I'm not allowing them to-- assuming it's a frictionless table, so there's no friction. So the only force seen from the top is the tension. There are no forces in the plane in the direction theta hat. So the sum of the external forces in the theta hat direction are in this direction. This is-- so the total forces on this thing from your free body diagram in the theta hat direction are?
+
+AUDIENCE: Zero.
+
+PROFESSOR: Zero. And that allows us to take this term and set it equal to 0. This is the x. So the theta hat piece is equal to 0 is equal to m r theta double dot plus 2r dot theta dot. [INAUDIBLE] solve this for-- that's equal to 0. So r theta double dot equals minus 2r dot theta dot.
+
+So in order for this thing to satisfy Newton's law, it happens to be that as you pull it in, the product of r dot and theta dot gives you the angular acceleration. And the other term, we just went through that. So what we did a couple minutes ago.
+
+The force in the r hat direction, sum of the forces-- this is a derivative of the linear momentum-- is minus mr theta dot squared r hat. And we know from the free body diagram that that better be equal to minus T in the r hat direction. So just like before, it tells you that T equals mr theta dot squared.
+
+So the mass times the centripetal acceleration, in order to make that centripetal motion happen, you have to pull on it with a force mr theta dot squared. So what can you say about the angular momentum of this particle with respect to O? So let's write it out. So H of the particle with respect to O is rAO cross P. This is r r hat cross P.
+
+So r cross r, you get nothing from that term. r hat cross theta hat gives you a k, a positive k. So you get r r squared theta dot in the k direction. And I'm missing something. There we go. m r squared theta dot. mr theta dot is the linear momentum times another r gives you the angular momentum, m r squared theta dot. And because r hat cross theta dot is k, this angular momentum is directed upward about the center of rotation.
+
+So that's our expression for our angular momentum. But if you take the time derivative of it, what should it tell us? Let's go back to our formulas we started with. When the center of rotation's not moving, when the point with respect to which you're taking the angular momentum doesn't move, then that's one of the cases where you can get rid of those extra terms.
+
+So in this case, we're computing the angular momentum with respect to O, which doesn't move. The velocity of O here is zero. So this allows us just to say that the sum of the torques with respect about O is just equal to the time rate of change of H with respect to O. And to do that, this term can change, and this term can change. But how about the derivative of k? It's just constant, right? So we're going to get two terms out of this. We're going to get m2r r dot theta dot k plus r squared theta double dot k.
+
+What are the external torques in this problem? You're going to have to pretend that I'm on a frictionless table top here. When I'm going around like this, what are the torques about the center point? So what are the-- first, what are the forces acting on the mass? Just the tension. And the tension cross the moment arm, the tension's in the r hat direction. The string is in the r direction. r hat cross r hat is--
+
+AUDIENCE: Zero.
+
+PROFESSOR: Zero. So there's no torques. So for this problem, this is equal to 0. And that then allows us to write-- the m cancels out, obviously, and I can get rid of-- one of these r's goes away. And I'm left with an r dot theta dot. And I move this to the other side equal to minus r theta double dot. And that's what we came up with a minute ago when when we did the time derivative of the linear momentum, we learned this.
+
+So we haven't learned much more. It's just telling us that, well, this thing's going to accelerate. It should pull it in. And it'll accelerate at any instant in time, whatever r dot is, theta dot is, this'll be the angular acceleration.
+
+So what will happen then? And let's do it at two points in time. And we'll let r2 equals r1 divided by 2. So I'm just going to pull this thing in. So let's do the experiment.
+
+I'm going to pull it in about half its length. It can speed up, slow down, stay the same speed. I'll get it going and then-- and I'll try not to hit you. I'll move over here so I hit him instead, OK? Let's try it again. All right. But there's no torques on it. There's no torque being applied. The angular momentum is constant, and yet the thing speeds up.
+
+So I want to ask you a question. Do you think the kinetic energy is staying the same or changing? So how many think the kinetic energy as I go from out there to in here, the kinetic energy stays the same? OK. How many think it's different? All right. How many are not so sure? Let's find out.
+
+So we've determined that if this is zero, then that means that h with respect to O is a constant. So h-- this is at T1-- is r1. Be faster if I look at my notes. So the angular momentum at r1 is mr1 squared theta 1 dot in the k direction. And that had better be equal to h at r2. And that'll be mr2 squared theta 2 dot. And that's also in the k direction.
+
+But we know that r2 is r1 divided by 2. So we can plug that in. I'll bring this over here. So mr1 squared theta 1 dot is mr1/4 theta 2 dot. So I can solve for theta 2. So if I shorten the length by a factor of 2, the angular velocity goes up by a factor of 4.
+
+And let's check the kinetic energy. Kinetic energy state 1, 1/2mv1 squared. That's 1/2mv1 is r theta 1 dot quantity squared. So what do I have? I have some expressions for this. r2 is r1/2, and theta 2 is 4 theta 1 dot quantity squared. And if you multiply that out-- yeah. So where's the kinetic energy come from?
+
+AUDIENCE: You're adding energy into the system by pulling down.
+
+PROFESSOR: So she says we add energy to the system by pulling down. So we're doing some work, right? There's tension in that string equal to mr omega squared. If you pull it down a certain distance-- in fact, r1/2-- you're going to do work that's the integral of the tension times dr. You integrate it, right? And that work goes into-- there's conservation of energy in the system. That goes into speeding up the rotation, and yet the angular momentum has stayed constant throughout the action.
+
+So when I first saw this years ago, I thought, that's really cool. That's really quite amazing. So a nice application of conservation of angular momentum. An application of using this formula, the time rate of change of angular momentum with respect to a point, it tells you about the torques applied to the system. And this is in fact a pretty simple case.
+
+So the last-- let's move on though to doing a little more complicated case. And this is similar to the last problem in the homework. So this is like the homework. The homework, you got this monkey running up the shaft, right? So I don't have a monkey, and it's not running up the shaft. But I do have just this particle on a shaft rotating about a central axis.
+
+Now, this is a mechanical necessity to hold it all together. But let's just ignore the mass of this center piece for the moment. Just think of this as a massless arm with a particle on it. And I want to calculate angular momentum. I want to calculate forces. I want to calculate torques and see what happens.
+
+So I'm going to start by putting my O, x, z frame right on the level with this mass. What I'm going to show you now is that where you put the reference point about which you compute the angular momentum matters. You get different answers depending on where you put it. So I'm going to start by putting it here.
+
+And this we'll call [INAUDIBLE] out here's my point A. Here's O. This is some angle phi here. And if this has some length l, then this up here is my r equals l cosine phi. And this side would be l sine phi. These are just the two lengths, but I'm going to use polar coordinates. So this is going to be my r hat direction. Theta hat's into the board.
+
+So let's compute-- and it's a particle, so I'll continue to use lowercase h of A with respect to O-- it's a vector-- is r of A with respect to O cross P linear momentum with respect to O. This is r r hat. We just call this l cosine theta, just calling it r. It's in the r hat direction. Cross with P, and P, we'd done this two or three times now today. It's the mass times r times theta dot. That's its speed. And it's in the theta hat direction.
+
+So taking the r hat cross theta hat gives me k. So I get m r squared theta dot k. Very simple expression. Now, this is a fixed axis rotation. So I want to compute the torques. Look at my formula. The vA in this case is the velocity of O. The point of the axis of rotation doesn't move. So the second terms go away, and I can say that the torque of my particle at A with respect to O is just dhA dt.
+
+So m's a constant. r's a constant. k's a constant. The only thing that has a time derivative is theta dot, and it becomes theta double dot. This is m r squared theta double dot k. And that is equal-- well, that's equal to the sum of the external torques.
+
+So what physically does that mean? What physically is that telling us? It's telling us theta double dot is the angular acceleration of this thing speeding up, going faster and faster. It takes torque to make that happen. If it's going at constant rate, what's theta double dot? Zero.
+
+So at constant rate, the torque required to make this thing go constant rate is zero. Makes sense. But if it were speeding up, if you're making it go faster and faster and faster, it requires torque to drive it. And that's the amount of torque. And the torque is around the axis of spin. Pretty straightforward.
+
+So if I did dP [? d, ?] if I took the time derivative of just the linear momentum for this particle, we've done it here today. If I took the time derivative of it, what would I get? It's a force. And what's the force? It's a constant rotation rate. Take the time derivative of P. dP dt gives me
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Mass times?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Mv squared over r is mass times acceleration. The acceleration is which kind?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Centripetal. So you just get the same thing back again. So there's a force acting inwards words this thing to make it go in a circle that is the mr theta dot squared term that we've seen so many times. But now what I want to do is move the point about which I compute this angular momentum.
+
+And now I'm going to put it here, the point of attachment of the arm. So here's O, x, z. Everything else stays the same. All I've done is move the point. And I want to compute the angular momentum of this A with respect to O.
+
+Well, that's r. This is now r of A with respect to O, this vector. This distance here, in polar cylindrical coordinates, is z. And this is r. Just as before. The r hasn't changed. And there is an r hat in this direction, theta hat into the board, and a k hat in the z direction. Those are our unit vectors.
+
+So this is-- rAO is r r hat plus z k hat. That's the position vector. And I'm going to cross that with the momentum of A with respect to O. And the momentum is mr. Theta dot is the velocity.
+
+And what's its direction? Theta hat, right? Mass times velocity, momentum. And now we need to carry this out. The r hat term times theta hat gives you a k. m r squared theta dot k. And this term, k cross theta hat, gives me a minus r. Minus mrz theta dot k.
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: You're right. Thank you. Because I would have a disaster if I let that progress. This looks like that, right? k cross theta is minus r hat. r cross theta is a k. k cross theta is a minus r. I get two terms. And this is now an expression for the angular momentum of A with respect to O. And let's see if I have enough room to draw it here.
+
+There is a piece of it here. This is h in the z direction, is this arrow. And then there's a piece in the r hat direction, like this. This is h in the r hat direction. And the sum of those two is that. So this is hA with respect to O, this guy. Perpendicular to the shaft. It will turn out it really is perpendicular if you work out the numbers.
+
+Totally different result than when I did it here. So this one, m r squared theta dot k, m r squared theta dot k. Hey, that term's the same. So when I did this, I got just the k term. And now I've moved this thing down, and I get a second term.
+
+So now what we want to know is, what about the torques in the system? So I want to take the time derivative of this guy with respect to-- the time derivative of the angular momentum, which is going to be equal to the summation of the external torques with respect to O, but O is now in a different place. And so I have to carry out these derivatives.
+
+And this one I did before. This one just gives me my m r squared theta double dot k hat. Now, this term, m is a constant. r is a constant. z is a constant. Theta dot is not necessarily a constant. We're going to let that be a variable. And r hat is certainly changing direction. So when I take the derivative of this, I'm going to get two terms.
+
+So the first one is minus mrz theta double dot r hat. And that's taking the derivative of this multiplied by that. And the second term is the derivative of this multiplied by that. And so the derivative of r hat is?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Theta dot theta hat. Right. OK. So minus mrz theta dot theta dot theta hat. So in other words, this is squared. Now I have three terms to mess with. We know what the first term means. We talked about that. This is the torque. These are all torques. So this is the torque required to do what, the lead term?
+
+AUDIENCE: [INAUDIBLE].
+
+AUDIENCE: [INAUDIBLE] circle.
+
+PROFESSOR: To make it?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Go faster. Change its angular speed, right? It's just building up the angular momentum in that spin. So this is the angular spin up. These other two terms, these are strange things. Well first, let's take a look at this one. r theta dot squared. What's that remind you of? What kind of-- torque is usually some force times a moment arm, crossed with a moment arm, right?
+
+So we know that there's some forces acting in this system. It's spinning. We know that there is a-- in order to make this thing go round and around-- it has centripetal acceleration. Therefore, there must be a force being applied by this shaft inward that's equal to the mass times the centripetal acceleration, mr theta dot squared.
+
+So here this guy is mr theta dot squared. That's the force. And let's do these. Let's call this A. Let's Call. This term here B, this term C. So the C term is-- torque C, I'll call it-- is some r cross some F. And the F, I'm telling you, is the centripetal acceleration times the mass.
+
+And that'll probably be like a minus mr theta dot squared r hat, right? And what about the moment arm that that acts about? What moment arm is perpendicular-- so that's a force that's acting in. What moment arm is perpendicular to that? Because the only thing that's perpendicular to it lead to torques.
+
+PROFESSOR: Hm?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: z. k cross r should give me a theta. Sure enough, there's a minus, sure enough. And there's the z. You multiply this out, you get this term. So this is a strange term. It's in the theta hat direction. What is that?
+
+So it's spinning, and it's lined up like this. Theta hat's in that direction. Positive k, positive theta, positive r hat. k's in that direction. It's telling you there's a torque being applied about this point in the minus theta direction. Does that make sense? You have a-- there's a centripetal acceleration times a mass. There's a force times a moment arm.
+
+This force is trying to bend this thing out. If this thing had a hinge down here, and I started to spin it, what would it do? It would just flop out, right? There's got to be a torque keeping that from happening. And that's a torque. If it wants to go that way, there's got to be a torque going the other way keeping it in place. And that's what that term is.
+
+So now we know. So this is the Euler. This is the spin up. This is keeping this thing from flopping out. What's this guy? This is yet another torque, and it's in the r, minus r, direction.
+
+So let's see if we can intuitively figure this one out. Well, there's an r theta double dot. That should look familiar. r theta double dot. If this thing is accelerating, angular acceleration, speeding up, out here that mass says, I'm here right now. In order for me to go a little bit faster, I'm accelerating in that direction. There must be a force being applied by this rod in that direction. And that force times a moment arm perpendicular to it, z, is a moment in the r direction.
+
+So as this thing spins up, if this thing could, it would fall back. But this rod is stiff and won't let it do that. So this is the torque down here that is required to keep this thing moving. So this is really quite amazing. Do either of these torques, these second ones, this one and this one, do they contribute to-- do they do any work? Do they add energy to the system?
+
+See, work means force through a distance. They don't do actually any work. They are static torques just required to hold the system together. This one does some work. It actually makes-- this one leads to energy accumulating, just going faster and faster faster. These are just holding the thing together. But the amazing thing is that you can use angular momentum to calculate things like these torques.
+
+So if you were designing this, these forces acting on this lump out here are producing torques about this point, which are the same thing as-- in 2.001 you'll be doing bending moments. It creates a bending moment in the shaft. And if you don't make the shaft strong enough, it'll break it off. So the torque about this point is the bending moment in the r direction and in the theta direction.
+
+It's trying to be bent in two different ways. And you can calculate the stresses down here caused by those moments. And that would help you design the thing. So you not only get dynamics information out of taking things like the time rate of change of angular momentum. You get some of the static information as well.
+
+The other thing to remember, the really important point of the lecture, is that angular momentum changes depending on where you pick a reference point. So when we picked the reference point just opposite it, we got none of the information about the torques down here. Because with respect to this point, there are no torques except the one speeded up.
+
+The centripetal force here doesn't cause torques. The force out here-- there are no other torques, just the one to make it spin faster. But as soon as I move it down here, I learn something of considerable value. So the homework problem has some of the same things on it, except the monkey's moving. So you get even a little bit more interesting information out of it. All right.
+
+So that went faster than I thought. So that gives some time for some questions. I could see several. So we'll start there and then go here.
+
+AUDIENCE: What exactly [INAUDIBLE] torque B is balancing out?
+
+PROFESSOR: So say again?
+
+AUDIENCE: Torque B [INAUDIBLE], what exactly is that balancing out?
+
+PROFESSOR: This term? You're asking about this term?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: OK. You want me to explain again what this one means? This is a term associated with increasing the angular speed. So let's see if we can't-- so this B term, I'll call it the torque associated with B, minus mrz theta double dot r hat. Now, that is going to be some r cross some F. And if we can get some physical insight, if we could figure out what they are.
+
+So the mass, the force, is the mass times an acceleration. There's an acceleration r theta double dot, which is the speed of this thing is increasing speed. And the r is going to be z. z k hat cross-- and I'm guessing that it's a force that looks like mr theta double dot. And this is in the theta hat direction. k cross theta hat gives me minus r hat. r hat and the minus.
+
+So this looks like a plausible explanation for where this might have come from. So this is the force speeding up, attempting to speed up this mass. There's a force pushing on it that's given to it by this rod. This rod is pushing on it to make it go faster. Mass times acceleration would be mr theta double dot.
+
+And the moment arm is this distance from here down to the point at which I've been computing my reference point from here to here at z. So force times z, r cross F, puts it in the-- ends up in the minus r direction. It's got to be this direction, k cross theta hat. The force is this way.
+
+Think about this. Force is that way. The r is this way. The r cross F is this way. And that's where you get the minus sign. It's in the minus r hat direction. But it comes from trying to speed up this mass. And if this was a floppy, weak link, as it tries to speed up, it would try to bend back. It would flop back as this thing tries to make it go faster.
+
+It will say, no, I don't want to go. Lay back on me. And that would we going in the-- this way, to keep from doing that, you have to put a torque on it this way. Just trying to speed up. It's trying to lay back, and you're saying nope, can't do that. Go like this. So that's the B term.
+
+AUDIENCE: If you do the problem with a situation like that, how do you know where to set it?
+
+PROFESSOR: How do you know where to set it? Well, that's a good question. He's saying, when you're doing a problem like this, how do you know where to pick the reference frame? Well, ask yourself what it is you want to know. And in fact, now that you know that from angular momentum of mechanical things, you can actually get static torques on the system, ask yourself where you want to know those torques.
+
+In this case, if you're designing this, you want to know whether you're going to break this thing off. And it's probably going to break right down at the bottom where the moment arms are the greatest. So that's why you pick that point. It comes a lot with experience will help you choose. But the amazing thing is this information's all stored in the angular momentum if you pick it in the right place. Another hand. OK. Yes, Phillip.
+
+AUDIENCE: I had a question about the direction for r hat. I thought it had to come out of the origin. But you have it going in the x direction.
+
+PROFESSOR: So I've been using polar-- he's asking the direction of r hat. So I've just been using polar coordinates. And polar coordinates is cylindrical, technically. This problem has a z direction upwards, r direction radially outwards, r hat, and theta as drawn here would be into the board, given the position of the mass.
+
+Looking down on it, here's my O. And looking down, this would be my x and my y. And this is some random arbitrary position here. And this is theta. Looking down on it, in this plane is r hat theta hat, k hat coming out of the board.
+
+Side view, x, z, and my system is like this. Now the theta is into the board, and the r direction is this way. That's r hat. And this is z. This is the z-coordinate upwards. So the position vector, the thing we call rA with respect to O, is indeed the length of this whole thing. But it is made up of a component in the z direction plus a component here that we call r in the r hat direction.
+
+AUDIENCE: [INAUDIBLE] example where we calculated from the bottom rather than the top circle, then we got a value for the angular momentum that doesn't have a theta hat component, but as the thing spins--
+
+PROFESSOR: Which are you referring to? Are you talk--
+
+AUDIENCE: h about the point O down--
+
+PROFESSOR: Which example, this guy or--
+
+AUDIENCE: Yeah, [INAUDIBLE].
+
+PROFESSOR: OK, so point. Tell me what you mean here.
+
+AUDIENCE: Right here. [INAUDIBLE].
+
+PROFESSOR: When we computed, not here, but down here.
+
+AUDIENCE: We got that there was no theta component, but as this spins around, theta is changing. And if it's always opposite, shouldn't there be a theta component?
+
+PROFESSOR: A theta component of what?
+
+AUDIENCE: Angular momentum.
+
+PROFESSOR: Angular momentum. She's asking, shouldn't there be a theta component of angular momentum? So we compute our angular momentum with this formula at the top. It's an r cross P. So the r consists of the z part, and the r part is exactly this right here.
+
+And the P is only into the board. It's only in the theta hat direction. So you have a term that's r hat cross theta hat gives you a k, and you have a term k cross theta hat, which gives you an r. There just are no cross products that come out of this that are in the theta hat direction. Yeah.
+
+AUDIENCE: So if it's just at this one position, then you don't have it. But as it spins--
+
+PROFESSOR: Ah. In this case, that's why polar coordinates are nice because as it spins, the theta hat's just constantly going with it. The r hat's constantly going with it. And so the beauty of this thing is this is an axially symmetric problem. It goes round and round, and the torques are given out in this rotating frame.
+
+I think maybe what's confusing you, is if you wanted to know the torques in a fixed inertial frame, you'd have to break them down into ijk components, which you could do. A little tedious. But the answers in this one came out in r hat, theta hat, k hat terms. Happy to answer. This is good stuff, but thick. So keep-- other questions?
+
+So what do you think will happen in that final homework problem with the monkey running-- now he has some velocity. How will that problem differ from what we've done? Do you have a question? Do you want to answer that? Yeah.
+
+AUDIENCE: Well, [INAUDIBLE] monkey [INAUDIBLE].
+
+PROFESSOR: It's going to what?
+
+AUDIENCE: Look like a circle.
+
+PROFESSOR: It's going to look like a circle, OK. He'll be going in a circle, at any--
+
+AUDIENCE: [INAUDIBLE] as in a spiral.
+
+PROFESSOR: A spiral. He'll be going like a helix, huh? All right. Yeah, the monkey will be going in a helix, yeah.
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: What forces will act on that monkey?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: In what direction do you think there will be forces acting on that-- he's hanging on for dear life, you know. This thing's going around. They could throw him off, right? So what forces act? And if you could figure out what forces act-- so you draw a free body diagram of the monkey. There's going to be possibly forces in the theta hat direction, in the z direction, in the r direction.
+
+But just think physically where they come from. So we now know that certainly he's hanging on because he is undergoing centripetal acceleration. And in order to force him to go in that circle, there has to be an inward force applied by this shaft to him. So there's a force like that because of the centripetal acceleration. If it's speeding up, there's a force pushing him to make it go faster. But he's running up the shaft. What else is there? Are there any other accelerations?
+
+AUDIENCE: [INAUDIBLE] angular acceleration [INAUDIBLE]?
+
+PROFESSOR: Yeah, there's angular acceleration. That's the thing trying to speed up. And so he's hanging on because this thing is accelerating, like pushing you back in the car seat, right? Linear acceleration. Well, this is trying to-- at any instant in time, it's trying to go faster. So he's having to hang on because of that. So that's one of those terms.
+
+But now he's moving. He's also running up the shaft. Will that lead to any other accelerations? And force equals mass times acceleration. So every time you can-- if you can account for all the accelerations in the system, multiply it by m. You've accounted for all of the forces, sum of the forces of the mass times acceleration. If you add a new acceleration, you better add a new force. If you add a new force, you'll probably add a new torque.
+
+AUDIENCE: So we have to account for gravity?
+
+PROFESSOR: Well, gravity, yeah. What else?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: So he's suggesting there might be a Coriolis acceleration. And the Coriolis acceleration, in order to make the monkey accelerate, according to that term, there will have to be yet another force. And I think-- so we'll see if that turns up in the calculation.
+
+You've got a couple minutes. I want you to do the money cards. Think about-- and then on your way out, I think just pile them up down here on the table, or hand them to me or one of the TAs. And that'll help me understand what you understood or didn't understand today.
+
+[[Example 2a: Pulling the string from a rotating mass through a hole at the axis of rotation; conservation of angular momentum, h]]
+Print This Document
+
+Now let's do the same problem, but let it be a little bit more general. I've got a tabletop. This problem's described in the book as an example. You've got a hole in the table. You've got your mass out here. So this is looking down on the table and down through the hole, coming out the bottom of the hole, you have this string. And you pull on it.
+
+So r dot-- so we're looking down on it. This thing, again, has some theta. r hat directions like this, theta hat directions like that. This thing's spinning, going around and around my table top. But there's a hole in the tabletop, and I can pull the string and shorten the string.
+
+So r dot's a constant. Theta dot will not be a constant. it will change. This is my vector r. So the velocity, we'll call this A. This is my origin, O. The velocity in this case of the particle with respect to the fixed inertial frame is r dot r hat plus r theta dot theta hat. So now it has two possible velocities, and I'm going to be pulling it in, and it's going to be going round and round.
+
+So the linear momentum is just mvA with respect to O. So with this problem, if I take the time derivative of the linear momentum, you recognize this. This is just velocity in polar coordinates. We've done this derivative before to get the acceleration.
+
+So the acceleration, it's the time derivative of A with respect to O is acceleration of A with respect to O. And that's a messy formula, and we've derived it before. So that looks like-- and it's got four terms. r double dot minus r theta dot squared and the r hat plus r theta double dot plus 2r dot theta dot in the theta hat direction. And if multiplied by the mass, that's the mass times the acceleration. And this would be equal to the sum of all the external forces acting on that particle. That's Newton's second law.
+
+But in our problem here, I've said this is constant. So I can throw out this term that's going to be zero. So this term goes away. But this term's certainly not zero. This term is not necessarily zero. This term is certainly not zero.
+
+So what can we do with that? So now's the time you draw some free body diagrams. And let's look at the side view. The side view, here's your particle, mg down, some normal force up, and a tension pulling in. So the table's supporting it, gravity down, and just the string force pulling it.
+
+In the top view, you're looking down on it. I'm not allowing them to-- assuming it's a frictionless table, so there's no friction. So the only force seen from the top is the tension. There are no forces in the plane in the direction theta hat. So the sum of the external forces in the theta hat direction are in this direction. This is-- so the total forces on this thing from your free body diagram in the theta hat direction are?
+
+AUDIENCE: Zero.
+
+PROFESSOR: Zero. And that allows us to take this term and set it equal to 0. This is the x. So the theta hat piece is equal to 0 is equal to m r theta double dot plus 2r dot theta dot. [INAUDIBLE] solve this for-- that's equal to 0. So r theta double dot equals minus 2r dot theta dot.
+
+So in order for this thing to satisfy Newton's law, it happens to be that as you pull it in, the product of r dot and theta dot gives you the angular acceleration. And the other term, we just went through that. So what we did a couple minutes ago.
+
+The force in the r hat direction, sum of the forces-- this is a derivative of the linear momentum-- is minus mr theta dot squared r hat. And we know from the free body diagram that that better be equal to minus T in the r hat direction. So just like before, it tells you that T equals mr theta dot squared.
+
+So the mass times the centripetal acceleration, in order to make that centripetal motion happen, you have to pull on it with a force mr theta dot squared. So what can you say about the angular momentum of this particle with respect to O? So let's write it out. So H of the particle with respect to O is rAO cross P. This is r r hat cross P.
+
+So r cross r, you get nothing from that term. r hat cross theta hat gives you a k, a positive k. So you get r r squared theta dot in the k direction. And I'm missing something. There we go. m r squared theta dot. mr theta dot is the linear momentum times another r gives you the angular momentum, m r squared theta dot. And because r hat cross theta dot is k, this angular momentum is directed upward about the center of rotation.
+
+So that's our expression for our angular momentum. But if you take the time derivative of it, what should it tell us? Let's go back to our formulas we started with. When the center of rotation's not moving, when the point with respect to which you're taking the angular momentum doesn't move, then that's one of the cases where you can get rid of those extra terms.
+
+So in this case, we're computing the angular momentum with respect to O, which doesn't move. The velocity of O here is zero. So this allows us just to say that the sum of the torques with respect about O is just equal to the time rate of change of H with respect to O. And to do that, this term can change, and this term can change. But how about the derivative of k? It's just constant, right? So we're going to get two terms out of this. We're going to get m2r r dot theta dot k plus r squared theta double dot k.
+
+What are the external torques in this problem? You're going to have to pretend that I'm on a frictionless table top here. When I'm going around like this, what are the torques about the center point? So what are the-- first, what are the forces acting on the mass? Just the tension. And the tension cross the moment arm, the tension's in the r hat direction. The string is in the r direction. r hat cross r hat is--
+
+AUDIENCE: Zero.
+
+PROFESSOR: Zero. So there's no torques. So for this problem, this is equal to 0. And that then allows us to write-- the m cancels out, obviously, and I can get rid of-- one of these r's goes away. And I'm left with an r dot theta dot. And I move this to the other side equal to minus r theta double dot. And that's what we came up with a minute ago when when we did the time derivative of the linear momentum, we learned this.
+
+So we haven't learned much more. It's just telling us that, well, this thing's going to accelerate. It should pull it in. And it'll accelerate at any instant in time, whatever r dot is, theta dot is, this'll be the angular acceleration.
+
+So what will happen then? And let's do it at two points in time. And we'll let r2 equals r1 divided by 2. So I'm just going to pull this thing in. So let's do the experiment.
+
+I'm going to pull it in about half its length. It can speed up, slow down, stay the same speed. I'll get it going and then-- and I'll try not to hit you. I'll move over here so I hit him instead, OK? Let's try it again. All right. But there's no torques on it. There's no torque being applied. The angular momentum is constant, and yet the thing speeds up.
+
+So I want to ask you a question. Do you think the kinetic energy is staying the same or changing? So how many think the kinetic energy as I go from out there to in here, the kinetic energy stays the same? OK. How many think it's different? All right. How many are not so sure? Let's find out.
+
+So we've determined that if this is zero, then that means that h with respect to O is a constant. So h-- this is at T1-- is r1. Be faster if I look at my notes. So the angular momentum at r1 is mr1 squared theta 1 dot in the k direction. And that had better be equal to h at r2. And that'll be mr2 squared theta 2 dot. And that's also in the k direction.
+
+But we know that r2 is r1 divided by 2. So we can plug that in. I'll bring this over here. So mr1 squared theta 1 dot is mr1/4 theta 2 dot. So I can solve for theta 2. So if I shorten the length by a factor of 2, the angular velocity goes up by a factor of 4.
+
+And let's check the kinetic energy. Kinetic energy state 1, 1/2mv1 squared. That's 1/2mv1 is r theta 1 dot quantity squared. So what do I have? I have some expressions for this. r2 is r1/2, and theta 2 is 4 theta 1 dot quantity squared. And if you multiply that out-- yeah. So where's the kinetic energy come from?
+
+AUDIENCE: You're adding energy into the system by pulling down.
+
+PROFESSOR: So she says we add energy to the system by pulling down. So we're doing some work, right? There's tension in that string equal to mr omega squared. If you pull it down a certain distance-- in fact, r1/2-- you're going to do work that's the integral of the tension times dr. You integrate it, right? And that work goes into-- there's conservation of energy in the system. That goes into speeding up the rotation, and yet the angular momentum has stayed constant throughout the action.
+
+So when I first saw this years ago, I thought, that's really cool. That's really quite amazing. So a nice application of conservation of angular momentum. An application of using this formula, the time rate of change of angular momentum with respect to a point, it tells you about the torques applied to the system. And this is in fact a pretty simple case.
+
+So the last-- let's move on though to doing a little more complicated case. And this is similar to the last problem in the homework. So this is like the homework. The homework, you got this monkey running up the shaft, right? So I don't have a monkey, and it's not running up the shaft. But I do have just this particle on a shaft rotating about a central axis.
+
+Now, this is a mechanical necessity to hold it all together. But let's just ignore the mass of this center piece for the moment. Just think of this as a massless arm with a particle on it. And I want to calculate angular momentum. I want to calculate forces. I want to calculate torques and see what happens.
+
+So I'm going to start by putting my O, x, z frame right on the level with this mass. What I'm going to show you now is that where you put the reference point about which you compute the angular momentum matters. You get different answers depending on where you put it. So I'm going to start by putting it here.
+
+And this we'll call [INAUDIBLE] out here's my point A. Here's O. This is some angle phi here. And if this has some length l, then this up here is my r equals l cosine phi. And this side would be l sine phi. These are just the two lengths, but I'm going to use polar coordinates. So this is going to be my r hat direction. Theta hat's into the board.
+
+So let's compute-- and it's a particle, so I'll continue to use lowercase h of A with respect to O-- it's a vector-- is r of A with respect to O cross P linear momentum with respect to O. This is r r hat. We just call this l cosine theta, just calling it r. It's in the r hat direction. Cross with P, and P, we'd done this two or three times now today. It's the mass times r times theta dot. That's its speed. And it's in the theta hat direction.
+
+So taking the r hat cross theta hat gives me k. So I get m r squared theta dot k. Very simple expression. Now, this is a fixed axis rotation. So I want to compute the torques. Look at my formula. The vA in this case is the velocity of O. The point of the axis of rotation doesn't move. So the second terms go away, and I can say that the torque of my particle at A with respect to O is just dhA dt.
+
+So m's a constant. r's a constant. k's a constant. The only thing that has a time derivative is theta dot, and it becomes theta double dot. This is m r squared theta double dot k. And that is equal-- well, that's equal to the sum of the external torques.
+
+So what physically does that mean? What physically is that telling us? It's telling us theta double dot is the angular acceleration of this thing speeding up, going faster and faster. It takes torque to make that happen. If it's going at constant rate, what's theta double dot? Zero.
+
+So at constant rate, the torque required to make this thing go constant rate is zero. Makes sense. But if it were speeding up, if you're making it go faster and faster and faster, it requires torque to drive it. And that's the amount of torque. And the torque is around the axis of spin. Pretty straightforward.
+
+So if I did dP [? d, ?] if I took the time derivative of just the linear momentum for this particle, we've done it here today. If I took the time derivative of it, what would I get? It's a force. And what's the force? It's a constant rotation rate. Take the time derivative of P. dP dt gives me
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Mass times?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Mv squared over r is mass times acceleration. The acceleration is which kind?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Centripetal. So you just get the same thing back again. So there's a force acting inwards words this thing to make it go in a circle that is the mr theta dot squared term that we've seen so many times. But now what I want to do is move the point about which I compute this angular momentum.
+
+And now I'm going to put it here, the point of attachment of the arm. So here's O, x, z. Everything else stays the same. All I've done is move the point. And I want to compute the angular momentum of this A with respect to O.
+
+Well, that's r. This is now r of A with respect to O, this vector. This distance here, in polar cylindrical coordinates, is z. And this is r. Just as before. The r hasn't changed. And there is an r hat in this direction, theta hat into the board, and a k hat in the z direction. Those are our unit vectors.
+
+So this is-- rAO is r r hat plus z k hat. That's the position vector. And I'm going to cross that with the momentum of A with respect to O. And the momentum is mr. Theta dot is the velocity.
+
+And what's its direction? Theta hat, right? Mass times velocity, momentum. And now we need to carry this out. The r hat term times theta hat gives you a k. m r squared theta dot k. And this term, k cross theta hat, gives me a minus r. Minus mrz theta dot k.
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: You're right. Thank you. Because I would have a disaster if I let that progress. This looks like that, right? k cross theta is minus r hat. r cross theta is a k. k cross theta is a minus r. I get two terms. And this is now an expression for the angular momentum of A with respect to O. And let's see if I have enough room to draw it here.
+
+There is a piece of it here. This is h in the z direction, is this arrow. And then there's a piece in the r hat direction, like this. This is h in the r hat direction. And the sum of those two is that. So this is hA with respect to O, this guy. Perpendicular to the shaft. It will turn out it really is perpendicular if you work out the numbers.
+
+Totally different result than when I did it here. So this one, m r squared theta dot k, m r squared theta dot k. Hey, that term's the same. So when I did this, I got just the k term. And now I've moved this thing down, and I get a second term.
+
+So now what we want to know is, what about the torques in the system? So I want to take the time derivative of this guy with respect to-- the time derivative of the angular momentum, which is going to be equal to the summation of the external torques with respect to O, but O is now in a different place. And so I have to carry out these derivatives.
+
+And this one I did before. This one just gives me my m r squared theta double dot k hat. Now, this term, m is a constant. r is a constant. z is a constant. Theta dot is not necessarily a constant. We're going to let that be a variable. And r hat is certainly changing direction. So when I take the derivative of this, I'm going to get two terms.
+
+So the first one is minus mrz theta double dot r hat. And that's taking the derivative of this multiplied by that. And the second term is the derivative of this multiplied by that. And so the derivative of r hat is?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Theta dot theta hat. Right. OK. So minus mrz theta dot theta dot theta hat. So in other words, this is squared. Now I have three terms to mess with. We know what the first term means. We talked about that. This is the torque. These are all torques. So this is the torque required to do what, the lead term?
+
+AUDIENCE: [INAUDIBLE].
+
+AUDIENCE: [INAUDIBLE] circle.
+
+PROFESSOR: To make it?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Go faster. Change its angular speed, right? It's just building up the angular momentum in that spin. So this is the angular spin up. These other two terms, these are strange things. Well first, let's take a look at this one. r theta dot squared. What's that remind you of? What kind of-- torque is usually some force times a moment arm, crossed with a moment arm, right?
+
+So we know that there's some forces acting in this system. It's spinning. We know that there is a-- in order to make this thing go round and around-- it has centripetal acceleration. Therefore, there must be a force being applied by this shaft inward that's equal to the mass times the centripetal acceleration, mr theta dot squared.
+
+So here this guy is mr theta dot squared. That's the force. And let's do these. Let's call this A. Let's Call. This term here B, this term C. So the C term is-- torque C, I'll call it-- is some r cross some F. And the F, I'm telling you, is the centripetal acceleration times the mass.
+
+And that'll probably be like a minus mr theta dot squared r hat, right? And what about the moment arm that that acts about? What moment arm is perpendicular-- so that's a force that's acting in. What moment arm is perpendicular to that? Because the only thing that's perpendicular to it lead to torques.
+
+PROFESSOR: Hm?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: z. k cross r should give me a theta. Sure enough, there's a minus, sure enough. And there's the z. You multiply this out, you get this term. So this is a strange term. It's in the theta hat direction. What is that?
+
+So it's spinning, and it's lined up like this. Theta hat's in that direction. Positive k, positive theta, positive r hat. k's in that direction. It's telling you there's a torque being applied about this point in the minus theta direction. Does that make sense? You have a-- there's a centripetal acceleration times a mass. There's a force times a moment arm.
+
+This force is trying to bend this thing out. If this thing had a hinge down here, and I started to spin it, what would it do? It would just flop out, right? There's got to be a torque keeping that from happening. And that's a torque. If it wants to go that way, there's got to be a torque going the other way keeping it in place. And that's what that term is.
+
+So now we know. So this is the Euler. This is the spin up. This is keeping this thing from flopping out. What's this guy? This is yet another torque, and it's in the r, minus r, direction.
+
+So let's see if we can intuitively figure this one out. Well, there's an r theta double dot. That should look familiar. r theta double dot. If this thing is accelerating, angular acceleration, speeding up, out here that mass says, I'm here right now. In order for me to go a little bit faster, I'm accelerating in that direction. There must be a force being applied by this rod in that direction. And that force times a moment arm perpendicular to it, z, is a moment in the r direction.
+
+So as this thing spins up, if this thing could, it would fall back. But this rod is stiff and won't let it do that. So this is the torque down here that is required to keep this thing moving. So this is really quite amazing. Do either of these torques, these second ones, this one and this one, do they contribute to-- do they do any work? Do they add energy to the system?
+
+See, work means force through a distance. They don't do actually any work. They are static torques just required to hold the system together. This one does some work. It actually makes-- this one leads to energy accumulating, just going faster and faster faster. These are just holding the thing together. But the amazing thing is that you can use angular momentum to calculate things like these torques.
+
+So if you were designing this, these forces acting on this lump out here are producing torques about this point, which are the same thing as-- in 2.001 you'll be doing bending moments. It creates a bending moment in the shaft. And if you don't make the shaft strong enough, it'll break it off. So the torque about this point is the bending moment in the r direction and in the theta direction.
+
+It's trying to be bent in two different ways. And you can calculate the stresses down here caused by those moments. And that would help you design the thing. So you not only get dynamics information out of taking things like the time rate of change of angular momentum. You get some of the static information as well.
+
+The other thing to remember, the really important point of the lecture, is that angular momentum changes depending on where you pick a reference point. So when we picked the reference point just opposite it, we got none of the information about the torques down here. Because with respect to this point, there are no torques except the one speeded up.
+
+The centripetal force here doesn't cause torques. The force out here-- there are no other torques, just the one to make it spin faster. But as soon as I move it down here, I learn something of considerable value. So the homework problem has some of the same things on it, except the monkey's moving. So you get even a little bit more interesting information out of it. All right.
+
+So that went faster than I thought. So that gives some time for some questions. I could see several. So we'll start there and then go here.
+
+AUDIENCE: What exactly [INAUDIBLE] torque B is balancing out?
+
+PROFESSOR: So say again?
+
+AUDIENCE: Torque B [INAUDIBLE], what exactly is that balancing out?
+
+PROFESSOR: This term? You're asking about this term?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: OK. You want me to explain again what this one means? This is a term associated with increasing the angular speed. So let's see if we can't-- so this B term, I'll call it the torque associated with B, minus mrz theta double dot r hat. Now, that is going to be some r cross some F. And if we can get some physical insight, if we could figure out what they are.
+
+So the mass, the force, is the mass times an acceleration. There's an acceleration r theta double dot, which is the speed of this thing is increasing speed. And the r is going to be z. z k hat cross-- and I'm guessing that it's a force that looks like mr theta double dot. And this is in the theta hat direction. k cross theta hat gives me minus r hat. r hat and the minus.
+
+So this looks like a plausible explanation for where this might have come from. So this is the force speeding up, attempting to speed up this mass. There's a force pushing on it that's given to it by this rod. This rod is pushing on it to make it go faster. Mass times acceleration would be mr theta double dot.
+
+And the moment arm is this distance from here down to the point at which I've been computing my reference point from here to here at z. So force times z, r cross F, puts it in the-- ends up in the minus r direction. It's got to be this direction, k cross theta hat. The force is this way.
+
+Think about this. Force is that way. The r is this way. The r cross F is this way. And that's where you get the minus sign. It's in the minus r hat direction. But it comes from trying to speed up this mass. And if this was a floppy, weak link, as it tries to speed up, it would try to bend back. It would flop back as this thing tries to make it go faster.
+
+It will say, no, I don't want to go. Lay back on me. And that would we going in the-- this way, to keep from doing that, you have to put a torque on it this way. Just trying to speed up. It's trying to lay back, and you're saying nope, can't do that. Go like this. So that's the B term.
+
+AUDIENCE: If you do the problem with a situation like that, how do you know where to set it?
+
+PROFESSOR: How do you know where to set it? Well, that's a good question. He's saying, when you're doing a problem like this, how do you know where to pick the reference frame? Well, ask yourself what it is you want to know. And in fact, now that you know that from angular momentum of mechanical things, you can actually get static torques on the system, ask yourself where you want to know those torques.
+
+In this case, if you're designing this, you want to know whether you're going to break this thing off. And it's probably going to break right down at the bottom where the moment arms are the greatest. So that's why you pick that point. It comes a lot with experience will help you choose. But the amazing thing is this information's all stored in the angular momentum if you pick it in the right place. Another hand. OK. Yes, Phillip.
+
+AUDIENCE: I had a question about the direction for r hat. I thought it had to come out of the origin. But you have it going in the x direction.
+
+PROFESSOR: So I've been using polar-- he's asking the direction of r hat. So I've just been using polar coordinates. And polar coordinates is cylindrical, technically. This problem has a z direction upwards, r direction radially outwards, r hat, and theta as drawn here would be into the board, given the position of the mass.
+
+Looking down on it, here's my O. And looking down, this would be my x and my y. And this is some random arbitrary position here. And this is theta. Looking down on it, in this plane is r hat theta hat, k hat coming out of the board.
+
+Side view, x, z, and my system is like this. Now the theta is into the board, and the r direction is this way. That's r hat. And this is z. This is the z-coordinate upwards. So the position vector, the thing we call rA with respect to O, is indeed the length of this whole thing. But it is made up of a component in the z direction plus a component here that we call r in the r hat direction.
+
+AUDIENCE: [INAUDIBLE] example where we calculated from the bottom rather than the top circle, then we got a value for the angular momentum that doesn't have a theta hat component, but as the thing spins--
+
+PROFESSOR: Which are you referring to? Are you talk--
+
+AUDIENCE: h about the point O down--
+
+PROFESSOR: Which example, this guy or--
+
+AUDIENCE: Yeah, [INAUDIBLE].
+
+PROFESSOR: OK, so point. Tell me what you mean here.
+
+AUDIENCE: Right here. [INAUDIBLE].
+
+PROFESSOR: When we computed, not here, but down here.
+
+AUDIENCE: We got that there was no theta component, but as this spins around, theta is changing. And if it's always opposite, shouldn't there be a theta component?
+
+PROFESSOR: A theta component of what?
+
+AUDIENCE: Angular momentum.
+
+PROFESSOR: Angular momentum. She's asking, shouldn't there be a theta component of angular momentum? So we compute our angular momentum with this formula at the top. It's an r cross P. So the r consists of the z part, and the r part is exactly this right here.
+
+And the P is only into the board. It's only in the theta hat direction. So you have a term that's r hat cross theta hat gives you a k, and you have a term k cross theta hat, which gives you an r. There just are no cross products that come out of this that are in the theta hat direction. Yeah.
+
+AUDIENCE: So if it's just at this one position, then you don't have it. But as it spins--
+
+PROFESSOR: Ah. In this case, that's why polar coordinates are nice because as it spins, the theta hat's just constantly going with it. The r hat's constantly going with it. And so the beauty of this thing is this is an axially symmetric problem. It goes round and round, and the torques are given out in this rotating frame.
+
+I think maybe what's confusing you, is if you wanted to know the torques in a fixed inertial frame, you'd have to break them down into ijk components, which you could do. A little tedious. But the answers in this one came out in r hat, theta hat, k hat terms. Happy to answer. This is good stuff, but thick. So keep-- other questions?
+
+So what do you think will happen in that final homework problem with the monkey running-- now he has some velocity. How will that problem differ from what we've done? Do you have a question? Do you want to answer that? Yeah.
+
+AUDIENCE: Well, [INAUDIBLE] monkey [INAUDIBLE].
+
+PROFESSOR: It's going to what?
+
+AUDIENCE: Look like a circle.
+
+PROFESSOR: It's going to look like a circle, OK. He'll be going in a circle, at any--
+
+AUDIENCE: [INAUDIBLE] as in a spiral.
+
+PROFESSOR: A spiral. He'll be going like a helix, huh? All right. Yeah, the monkey will be going in a helix, yeah.
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: What forces will act on that monkey?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: In what direction do you think there will be forces acting on that-- he's hanging on for dear life, you know. This thing's going around. They could throw him off, right? So what forces act? And if you could figure out what forces act-- so you draw a free body diagram of the monkey. There's going to be possibly forces in the theta hat direction, in the z direction, in the r direction.
+
+But just think physically where they come from. So we now know that certainly he's hanging on because he is undergoing centripetal acceleration. And in order to force him to go in that circle, there has to be an inward force applied by this shaft to him. So there's a force like that because of the centripetal acceleration. If it's speeding up, there's a force pushing him to make it go faster. But he's running up the shaft. What else is there? Are there any other accelerations?
+
+AUDIENCE: [INAUDIBLE] angular acceleration [INAUDIBLE]?
+
+PROFESSOR: Yeah, there's angular acceleration. That's the thing trying to speed up. And so he's hanging on because this thing is accelerating, like pushing you back in the car seat, right? Linear acceleration. Well, this is trying to-- at any instant in time, it's trying to go faster. So he's having to hang on because of that. So that's one of those terms.
+
+But now he's moving. He's also running up the shaft. Will that lead to any other accelerations? And force equals mass times acceleration. So every time you can-- if you can account for all the accelerations in the system, multiply it by m. You've accounted for all of the forces, sum of the forces of the mass times acceleration. If you add a new acceleration, you better add a new force. If you add a new force, you'll probably add a new torque.
+
+AUDIENCE: So we have to account for gravity?
+
+PROFESSOR: Well, gravity, yeah. What else?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: So he's suggesting there might be a Coriolis acceleration. And the Coriolis acceleration, in order to make the monkey accelerate, according to that term, there will have to be yet another force. And I think-- so we'll see if that turns up in the calculation.
+
+You've got a couple minutes. I want you to do the money cards. Think about-- and then on your way out, I think just pile them up down here on the table, or hand them to me or one of the TAs. And that'll help me understand what you understood or didn't understand today.
+
+[[Example 2b: Work done equals the change in kinetic energy]]
+Print This Document
+
+And let's check the kinetic energy. Kinetic energy state 1, 1/2mv1 squared. That's 1/2mv1 is r theta 1 dot quantity squared. So what do I have? I have some expressions for this. r2 is r1/2, and theta 2 is 4 theta 1 dot quantity squared. And if you multiply that out-- yeah. So where's the kinetic energy come from?
+
+AUDIENCE: You're adding energy into the system by pulling down.
+
+PROFESSOR: So she says we add energy to the system by pulling down. So we're doing some work, right? There's tension in that string equal to mr omega squared. If you pull it down a certain distance-- in fact, r1/2-- you're going to do work that's the integral of the tension times dr. You integrate it, right? And that work goes into-- there's conservation of energy in the system. That goes into speeding up the rotation, and yet the angular momentum has stayed constant throughout the action.
+
+So when I first saw this years ago, I thought, that's really cool. That's really quite amazing. So a nice application of conservation of angular momentum. An application of using this formula, the time rate of change of angular momentum with respect to a point, it tells you about the torques applied to the system. And this is in fact a pretty simple case.
+
+So the last-- let's move on though to doing a little more complicated case. And this is similar to the last problem in the homework. So this is like the homework. The homework, you got this monkey running up the shaft, right? So I don't have a monkey, and it's not running up the shaft. But I do have just this particle on a shaft rotating about a central axis.
+
+Now, this is a mechanical necessity to hold it all together. But let's just ignore the mass of this center piece for the moment. Just think of this as a massless arm with a particle on it. And I want to calculate angular momentum. I want to calculate forces. I want to calculate torques and see what happens.
+
+So I'm going to start by putting my O, x, z frame right on the level with this mass. What I'm going to show you now is that where you put the reference point about which you compute the angular momentum matters. You get different answers depending on where you put it. So I'm going to start by putting it here.
+
+And this we'll call [INAUDIBLE] out here's my point A. Here's O. This is some angle phi here. And if this has some length l, then this up here is my r equals l cosine phi. And this side would be l sine phi. These are just the two lengths, but I'm going to use polar coordinates. So this is going to be my r hat direction. Theta hat's into the board.
+
+So let's compute-- and it's a particle, so I'll continue to use lowercase h of A with respect to O-- it's a vector-- is r of A with respect to O cross P linear momentum with respect to O. This is r r hat. We just call this l cosine theta, just calling it r. It's in the r hat direction. Cross with P, and P, we'd done this two or three times now today. It's the mass times r times theta dot. That's its speed. And it's in the theta hat direction.
+
+So taking the r hat cross theta hat gives me k. So I get m r squared theta dot k. Very simple expression. Now, this is a fixed axis rotation. So I want to compute the torques. Look at my formula. The vA in this case is the velocity of O. The point of the axis of rotation doesn't move. So the second terms go away, and I can say that the torque of my particle at A with respect to O is just dhA dt.
+
+So m's a constant. r's a constant. k's a constant. The only thing that has a time derivative is theta dot, and it becomes theta double dot. This is m r squared theta double dot k. And that is equal-- well, that's equal to the sum of the external torques.
+
+So what physically does that mean? What physically is that telling us? It's telling us theta double dot is the angular acceleration of this thing speeding up, going faster and faster. It takes torque to make that happen. If it's going at constant rate, what's theta double dot? Zero.
+
+So at constant rate, the torque required to make this thing go constant rate is zero. Makes sense. But if it were speeding up, if you're making it go faster and faster and faster, it requires torque to drive it. And that's the amount of torque. And the torque is around the axis of spin. Pretty straightforward.
+
+So if I did dP [? d, ?] if I took the time derivative of just the linear momentum for this particle, we've done it here today. If I took the time derivative of it, what would I get? It's a force. And what's the force? It's a constant rotation rate. Take the time derivative of P. dP dt gives me
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Mass times?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Mv squared over r is mass times acceleration. The acceleration is which kind?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Centripetal. So you just get the same thing back again. So there's a force acting inwards words this thing to make it go in a circle that is the mr theta dot squared term that we've seen so many times. But now what I want to do is move the point about which I compute this angular momentum.
+
+And now I'm going to put it here, the point of attachment of the arm. So here's O, x, z. Everything else stays the same. All I've done is move the point. And I want to compute the angular momentum of this A with respect to O.
+
+Well, that's r. This is now r of A with respect to O, this vector. This distance here, in polar cylindrical coordinates, is z. And this is r. Just as before. The r hasn't changed. And there is an r hat in this direction, theta hat into the board, and a k hat in the z direction. Those are our unit vectors.
+
+So this is-- rAO is r r hat plus z k hat. That's the position vector. And I'm going to cross that with the momentum of A with respect to O. And the momentum is mr. Theta dot is the velocity.
+
+And what's its direction? Theta hat, right? Mass times velocity, momentum. And now we need to carry this out. The r hat term times theta hat gives you a k. m r squared theta dot k. And this term, k cross theta hat, gives me a minus r. Minus mrz theta dot k.
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: You're right. Thank you. Because I would have a disaster if I let that progress. This looks like that, right? k cross theta is minus r hat. r cross theta is a k. k cross theta is a minus r. I get two terms. And this is now an expression for the angular momentum of A with respect to O. And let's see if I have enough room to draw it here.
+
+There is a piece of it here. This is h in the z direction, is this arrow. And then there's a piece in the r hat direction, like this. This is h in the r hat direction. And the sum of those two is that. So this is hA with respect to O, this guy. Perpendicular to the shaft. It will turn out it really is perpendicular if you work out the numbers.
+
+Totally different result than when I did it here. So this one, m r squared theta dot k, m r squared theta dot k. Hey, that term's the same. So when I did this, I got just the k term. And now I've moved this thing down, and I get a second term.
+
+So now what we want to know is, what about the torques in the system? So I want to take the time derivative of this guy with respect to-- the time derivative of the angular momentum, which is going to be equal to the summation of the external torques with respect to O, but O is now in a different place. And so I have to carry out these derivatives.
+
+And this one I did before. This one just gives me my m r squared theta double dot k hat. Now, this term, m is a constant. r is a constant. z is a constant. Theta dot is not necessarily a constant. We're going to let that be a variable. And r hat is certainly changing direction. So when I take the derivative of this, I'm going to get two terms.
+
+So the first one is minus mrz theta double dot r hat. And that's taking the derivative of this multiplied by that. And the second term is the derivative of this multiplied by that. And so the derivative of r hat is?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Theta dot theta hat. Right. OK. So minus mrz theta dot theta dot theta hat. So in other words, this is squared. Now I have three terms to mess with. We know what the first term means. We talked about that. This is the torque. These are all torques. So this is the torque required to do what, the lead term?
+
+AUDIENCE: [INAUDIBLE].
+
+AUDIENCE: [INAUDIBLE] circle.
+
+PROFESSOR: To make it?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Go faster. Change its angular speed, right? It's just building up the angular momentum in that spin. So this is the angular spin up. These other two terms, these are strange things. Well first, let's take a look at this one. r theta dot squared. What's that remind you of? What kind of-- torque is usually some force times a moment arm, crossed with a moment arm, right?
+
+So we know that there's some forces acting in this system. It's spinning. We know that there is a-- in order to make this thing go round and around-- it has centripetal acceleration. Therefore, there must be a force being applied by this shaft inward that's equal to the mass times the centripetal acceleration, mr theta dot squared.
+
+So here this guy is mr theta dot squared. That's the force. And let's do these. Let's call this A. Let's Call. This term here B, this term C. So the C term is-- torque C, I'll call it-- is some r cross some F. And the F, I'm telling you, is the centripetal acceleration times the mass.
+
+And that'll probably be like a minus mr theta dot squared r hat, right? And what about the moment arm that that acts about? What moment arm is perpendicular-- so that's a force that's acting in. What moment arm is perpendicular to that? Because the only thing that's perpendicular to it lead to torques.
+
+PROFESSOR: Hm?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: z. k cross r should give me a theta. Sure enough, there's a minus, sure enough. And there's the z. You multiply this out, you get this term. So this is a strange term. It's in the theta hat direction. What is that?
+
+So it's spinning, and it's lined up like this. Theta hat's in that direction. Positive k, positive theta, positive r hat. k's in that direction. It's telling you there's a torque being applied about this point in the minus theta direction. Does that make sense? You have a-- there's a centripetal acceleration times a mass. There's a force times a moment arm.
+
+This force is trying to bend this thing out. If this thing had a hinge down here, and I started to spin it, what would it do? It would just flop out, right? There's got to be a torque keeping that from happening. And that's a torque. If it wants to go that way, there's got to be a torque going the other way keeping it in place. And that's what that term is.
+
+So now we know. So this is the Euler. This is the spin up. This is keeping this thing from flopping out. What's this guy? This is yet another torque, and it's in the r, minus r, direction.
+
+So let's see if we can intuitively figure this one out. Well, there's an r theta double dot. That should look familiar. r theta double dot. If this thing is accelerating, angular acceleration, speeding up, out here that mass says, I'm here right now. In order for me to go a little bit faster, I'm accelerating in that direction. There must be a force being applied by this rod in that direction. And that force times a moment arm perpendicular to it, z, is a moment in the r direction.
+
+So as this thing spins up, if this thing could, it would fall back. But this rod is stiff and won't let it do that. So this is the torque down here that is required to keep this thing moving. So this is really quite amazing. Do either of these torques, these second ones, this one and this one, do they contribute to-- do they do any work? Do they add energy to the system?
+
+See, work means force through a distance. They don't do actually any work. They are static torques just required to hold the system together. This one does some work. It actually makes-- this one leads to energy accumulating, just going faster and faster faster. These are just holding the thing together. But the amazing thing is that you can use angular momentum to calculate things like these torques.
+
+So if you were designing this, these forces acting on this lump out here are producing torques about this point, which are the same thing as-- in 2.001 you'll be doing bending moments. It creates a bending moment in the shaft. And if you don't make the shaft strong enough, it'll break it off. So the torque about this point is the bending moment in the r direction and in the theta direction.
+
+It's trying to be bent in two different ways. And you can calculate the stresses down here caused by those moments. And that would help you design the thing. So you not only get dynamics information out of taking things like the time rate of change of angular momentum. You get some of the static information as well.
+
+The other thing to remember, the really important point of the lecture, is that angular momentum changes depending on where you pick a reference point. So when we picked the reference point just opposite it, we got none of the information about the torques down here. Because with respect to this point, there are no torques except the one speeded up.
+
+The centripetal force here doesn't cause torques. The force out here-- there are no other torques, just the one to make it spin faster. But as soon as I move it down here, I learn something of considerable value. So the homework problem has some of the same things on it, except the monkey's moving. So you get even a little bit more interesting information out of it. All right.
+
+So that went faster than I thought. So that gives some time for some questions. I could see several. So we'll start there and then go here.
+
+AUDIENCE: What exactly [INAUDIBLE] torque B is balancing out?
+
+PROFESSOR: So say again?
+
+AUDIENCE: Torque B [INAUDIBLE], what exactly is that balancing out?
+
+PROFESSOR: This term? You're asking about this term?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: OK. You want me to explain again what this one means? This is a term associated with increasing the angular speed. So let's see if we can't-- so this B term, I'll call it the torque associated with B, minus mrz theta double dot r hat. Now, that is going to be some r cross some F. And if we can get some physical insight, if we could figure out what they are.
+
+So the mass, the force, is the mass times an acceleration. There's an acceleration r theta double dot, which is the speed of this thing is increasing speed. And the r is going to be z. z k hat cross-- and I'm guessing that it's a force that looks like mr theta double dot. And this is in the theta hat direction. k cross theta hat gives me minus r hat. r hat and the minus.
+
+So this looks like a plausible explanation for where this might have come from. So this is the force speeding up, attempting to speed up this mass. There's a force pushing on it that's given to it by this rod. This rod is pushing on it to make it go faster. Mass times acceleration would be mr theta double dot.
+
+And the moment arm is this distance from here down to the point at which I've been computing my reference point from here to here at z. So force times z, r cross F, puts it in the-- ends up in the minus r direction. It's got to be this direction, k cross theta hat. The force is this way.
+
+Think about this. Force is that way. The r is this way. The r cross F is this way. And that's where you get the minus sign. It's in the minus r hat direction. But it comes from trying to speed up this mass. And if this was a floppy, weak link, as it tries to speed up, it would try to bend back. It would flop back as this thing tries to make it go faster.
+
+It will say, no, I don't want to go. Lay back on me. And that would we going in the-- this way, to keep from doing that, you have to put a torque on it this way. Just trying to speed up. It's trying to lay back, and you're saying nope, can't do that. Go like this. So that's the B term.
+
+AUDIENCE: If you do the problem with a situation like that, how do you know where to set it?
+
+PROFESSOR: How do you know where to set it? Well, that's a good question. He's saying, when you're doing a problem like this, how do you know where to pick the reference frame? Well, ask yourself what it is you want to know. And in fact, now that you know that from angular momentum of mechanical things, you can actually get static torques on the system, ask yourself where you want to know those torques.
+
+In this case, if you're designing this, you want to know whether you're going to break this thing off. And it's probably going to break right down at the bottom where the moment arms are the greatest. So that's why you pick that point. It comes a lot with experience will help you choose. But the amazing thing is this information's all stored in the angular momentum if you pick it in the right place. Another hand. OK. Yes, Phillip.
+
+AUDIENCE: I had a question about the direction for r hat. I thought it had to come out of the origin. But you have it going in the x direction.
+
+PROFESSOR: So I've been using polar-- he's asking the direction of r hat. So I've just been using polar coordinates. And polar coordinates is cylindrical, technically. This problem has a z direction upwards, r direction radially outwards, r hat, and theta as drawn here would be into the board, given the position of the mass.
+
+Looking down on it, here's my O. And looking down, this would be my x and my y. And this is some random arbitrary position here. And this is theta. Looking down on it, in this plane is r hat theta hat, k hat coming out of the board.
+
+Side view, x, z, and my system is like this. Now the theta is into the board, and the r direction is this way. That's r hat. And this is z. This is the z-coordinate upwards. So the position vector, the thing we call rA with respect to O, is indeed the length of this whole thing. But it is made up of a component in the z direction plus a component here that we call r in the r hat direction.
+
+AUDIENCE: [INAUDIBLE] example where we calculated from the bottom rather than the top circle, then we got a value for the angular momentum that doesn't have a theta hat component, but as the thing spins--
+
+PROFESSOR: Which are you referring to? Are you talk--
+
+AUDIENCE: h about the point O down--
+
+PROFESSOR: Which example, this guy or--
+
+AUDIENCE: Yeah, [INAUDIBLE].
+
+PROFESSOR: OK, so point. Tell me what you mean here.
+
+AUDIENCE: Right here. [INAUDIBLE].
+
+PROFESSOR: When we computed, not here, but down here.
+
+AUDIENCE: We got that there was no theta component, but as this spins around, theta is changing. And if it's always opposite, shouldn't there be a theta component?
+
+PROFESSOR: A theta component of what?
+
+AUDIENCE: Angular momentum.
+
+PROFESSOR: Angular momentum. She's asking, shouldn't there be a theta component of angular momentum? So we compute our angular momentum with this formula at the top. It's an r cross P. So the r consists of the z part, and the r part is exactly this right here.
+
+And the P is only into the board. It's only in the theta hat direction. So you have a term that's r hat cross theta hat gives you a k, and you have a term k cross theta hat, which gives you an r. There just are no cross products that come out of this that are in the theta hat direction. Yeah.
+
+AUDIENCE: So if it's just at this one position, then you don't have it. But as it spins--
+
+PROFESSOR: Ah. In this case, that's why polar coordinates are nice because as it spins, the theta hat's just constantly going with it. The r hat's constantly going with it. And so the beauty of this thing is this is an axially symmetric problem. It goes round and round, and the torques are given out in this rotating frame.
+
+I think maybe what's confusing you, is if you wanted to know the torques in a fixed inertial frame, you'd have to break them down into ijk components, which you could do. A little tedious. But the answers in this one came out in r hat, theta hat, k hat terms. Happy to answer. This is good stuff, but thick. So keep-- other questions?
+
+So what do you think will happen in that final homework problem with the monkey running-- now he has some velocity. How will that problem differ from what we've done? Do you have a question? Do you want to answer that? Yeah.
+
+AUDIENCE: Well, [INAUDIBLE] monkey [INAUDIBLE].
+
+PROFESSOR: It's going to what?
+
+AUDIENCE: Look like a circle.
+
+PROFESSOR: It's going to look like a circle, OK. He'll be going in a circle, at any--
+
+AUDIENCE: [INAUDIBLE] as in a spiral.
+
+PROFESSOR: A spiral. He'll be going like a helix, huh? All right. Yeah, the monkey will be going in a helix, yeah.
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: What forces will act on that monkey?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: In what direction do you think there will be forces acting on that-- he's hanging on for dear life, you know. This thing's going around. They could throw him off, right? So what forces act? And if you could figure out what forces act-- so you draw a free body diagram of the monkey. There's going to be possibly forces in the theta hat direction, in the z direction, in the r direction.
+
+But just think physically where they come from. So we now know that certainly he's hanging on because he is undergoing centripetal acceleration. And in order to force him to go in that circle, there has to be an inward force applied by this shaft to him. So there's a force like that because of the centripetal acceleration. If it's speeding up, there's a force pushing him to make it go faster. But he's running up the shaft. What else is there? Are there any other accelerations?
+
+AUDIENCE: [INAUDIBLE] angular acceleration [INAUDIBLE]?
+
+PROFESSOR: Yeah, there's angular acceleration. That's the thing trying to speed up. And so he's hanging on because this thing is accelerating, like pushing you back in the car seat, right? Linear acceleration. Well, this is trying to-- at any instant in time, it's trying to go faster. So he's having to hang on because of that. So that's one of those terms.
+
+But now he's moving. He's also running up the shaft. Will that lead to any other accelerations? And force equals mass times acceleration. So every time you can-- if you can account for all the accelerations in the system, multiply it by m. You've accounted for all of the forces, sum of the forces of the mass times acceleration. If you add a new acceleration, you better add a new force. If you add a new force, you'll probably add a new torque.
+
+AUDIENCE: So we have to account for gravity?
+
+PROFESSOR: Well, gravity, yeah. What else?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: So he's suggesting there might be a Coriolis acceleration. And the Coriolis acceleration, in order to make the monkey accelerate, according to that term, there will have to be yet another force. And I think-- so we'll see if that turns up in the calculation.
+
+You've got a couple minutes. I want you to do the money cards. Think about-- and then on your way out, I think just pile them up down here on the table, or hand them to me or one of the TAs. And that'll help me understand what you understood or didn't understand today.
+
+[[Example 3b: Computing external and internal structural torques using dh/dt. Angular momentum vector not aligned with the axis of ratation]]
+Print This Document
+
+So the last-- let's move on though to doing a little more complicated case. And this is similar to the last problem in the homework. So this is like the homework. The homework, you got this monkey running up the shaft, right? So I don't have a monkey, and it's not running up the shaft. But I do have just this particle on a shaft rotating about a central axis.
+
+Now, this is a mechanical necessity to hold it all together. But let's just ignore the mass of this center piece for the moment. Just think of this as a massless arm with a particle on it. And I want to calculate angular momentum. I want to calculate forces. I want to calculate torques and see what happens.
+
+So I'm going to start by putting my O, x, z frame right on the level with this mass. What I'm going to show you now is that where you put the reference point about which you compute the angular momentum matters. You get different answers depending on where you put it. So I'm going to start by putting it here.
+
+And this we'll call [INAUDIBLE] out here's my point A. Here's O. This is some angle phi here. And if this has some length l, then this up here is my r equals l cosine phi. And this side would be l sine phi. These are just the two lengths, but I'm going to use polar coordinates. So this is going to be my r hat direction. Theta hat's into the board.
+
+So let's compute-- and it's a particle, so I'll continue to use lowercase h of A with respect to O-- it's a vector-- is r of A with respect to O cross P linear momentum with respect to O. This is r r hat. We just call this l cosine theta, just calling it r. It's in the r hat direction. Cross with P, and P, we'd done this two or three times now today. It's the mass times r times theta dot. That's its speed. And it's in the theta hat direction.
+
+So taking the r hat cross theta hat gives me k. So I get m r squared theta dot k. Very simple expression. Now, this is a fixed axis rotation. So I want to compute the torques. Look at my formula. The vA in this case is the velocity of O. The point of the axis of rotation doesn't move. So the second terms go away, and I can say that the torque of my particle at A with respect to O is just dhA dt.
+
+So m's a constant. r's a constant. k's a constant. The only thing that has a time derivative is theta dot, and it becomes theta double dot. This is m r squared theta double dot k. And that is equal-- well, that's equal to the sum of the external torques.
+
+So what physically does that mean? What physically is that telling us? It's telling us theta double dot is the angular acceleration of this thing speeding up, going faster and faster. It takes torque to make that happen. If it's going at constant rate, what's theta double dot? Zero.
+
+So at constant rate, the torque required to make this thing go constant rate is zero. Makes sense. But if it were speeding up, if you're making it go faster and faster and faster, it requires torque to drive it. And that's the amount of torque. And the torque is around the axis of spin. Pretty straightforward.
+
+So if I did dP [? d, ?] if I took the time derivative of just the linear momentum for this particle, we've done it here today. If I took the time derivative of it, what would I get? It's a force. And what's the force? It's a constant rotation rate. Take the time derivative of P. dP dt gives me
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Mass times?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Mv squared over r is mass times acceleration. The acceleration is which kind?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Centripetal. So you just get the same thing back again. So there's a force acting inwards words this thing to make it go in a circle that is the mr theta dot squared term that we've seen so many times. But now what I want to do is move the point about which I compute this angular momentum.
+
+And now I'm going to put it here, the point of attachment of the arm. So here's O, x, z. Everything else stays the same. All I've done is move the point. And I want to compute the angular momentum of this A with respect to O.
+
+Well, that's r. This is now r of A with respect to O, this vector. This distance here, in polar cylindrical coordinates, is z. And this is r. Just as before. The r hasn't changed. And there is an r hat in this direction, theta hat into the board, and a k hat in the z direction. Those are our unit vectors.
+
+So this is-- rAO is r r hat plus z k hat. That's the position vector. And I'm going to cross that with the momentum of A with respect to O. And the momentum is mr. Theta dot is the velocity.
+
+And what's its direction? Theta hat, right? Mass times velocity, momentum. And now we need to carry this out. The r hat term times theta hat gives you a k. m r squared theta dot k. And this term, k cross theta hat, gives me a minus r. Minus mrz theta dot k.
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: You're right. Thank you. Because I would have a disaster if I let that progress. This looks like that, right? k cross theta is minus r hat. r cross theta is a k. k cross theta is a minus r. I get two terms. And this is now an expression for the angular momentum of A with respect to O. And let's see if I have enough room to draw it here.
+
+There is a piece of it here. This is h in the z direction, is this arrow. And then there's a piece in the r hat direction, like this. This is h in the r hat direction. And the sum of those two is that. So this is hA with respect to O, this guy. Perpendicular to the shaft. It will turn out it really is perpendicular if you work out the numbers.
+
+Totally different result than when I did it here. So this one, m r squared theta dot k, m r squared theta dot k. Hey, that term's the same. So when I did this, I got just the k term. And now I've moved this thing down, and I get a second term.
+
+So now what we want to know is, what about the torques in the system? So I want to take the time derivative of this guy with respect to-- the time derivative of the angular momentum, which is going to be equal to the summation of the external torques with respect to O, but O is now in a different place. And so I have to carry out these derivatives.
+
+And this one I did before. This one just gives me my m r squared theta double dot k hat. Now, this term, m is a constant. r is a constant. z is a constant. Theta dot is not necessarily a constant. We're going to let that be a variable. And r hat is certainly changing direction. So when I take the derivative of this, I'm going to get two terms.
+
+So the first one is minus mrz theta double dot r hat. And that's taking the derivative of this multiplied by that. And the second term is the derivative of this multiplied by that. And so the derivative of r hat is?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Theta dot theta hat. Right. OK. So minus mrz theta dot theta dot theta hat. So in other words, this is squared. Now I have three terms to mess with. We know what the first term means. We talked about that. This is the torque. These are all torques. So this is the torque required to do what, the lead term?
+
+AUDIENCE: [INAUDIBLE].
+
+AUDIENCE: [INAUDIBLE] circle.
+
+PROFESSOR: To make it?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Go faster. Change its angular speed, right? It's just building up the angular momentum in that spin. So this is the angular spin up. These other two terms, these are strange things. Well first, let's take a look at this one. r theta dot squared. What's that remind you of? What kind of-- torque is usually some force times a moment arm, crossed with a moment arm, right?
+
+So we know that there's some forces acting in this system. It's spinning. We know that there is a-- in order to make this thing go round and around-- it has centripetal acceleration. Therefore, there must be a force being applied by this shaft inward that's equal to the mass times the centripetal acceleration, mr theta dot squared.
+
+So here this guy is mr theta dot squared. That's the force. And let's do these. Let's call this A. Let's Call. This term here B, this term C. So the C term is-- torque C, I'll call it-- is some r cross some F. And the F, I'm telling you, is the centripetal acceleration times the mass.
+
+And that'll probably be like a minus mr theta dot squared r hat, right? And what about the moment arm that that acts about? What moment arm is perpendicular-- so that's a force that's acting in. What moment arm is perpendicular to that? Because the only thing that's perpendicular to it lead to torques.
+
+PROFESSOR: Hm?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: z. k cross r should give me a theta. Sure enough, there's a minus, sure enough. And there's the z. You multiply this out, you get this term. So this is a strange term. It's in the theta hat direction. What is that?
+
+So it's spinning, and it's lined up like this. Theta hat's in that direction. Positive k, positive theta, positive r hat. k's in that direction. It's telling you there's a torque being applied about this point in the minus theta direction. Does that make sense? You have a-- there's a centripetal acceleration times a mass. There's a force times a moment arm.
+
+This force is trying to bend this thing out. If this thing had a hinge down here, and I started to spin it, what would it do? It would just flop out, right? There's got to be a torque keeping that from happening. And that's a torque. If it wants to go that way, there's got to be a torque going the other way keeping it in place. And that's what that term is.
+
+So now we know. So this is the Euler. This is the spin up. This is keeping this thing from flopping out. What's this guy? This is yet another torque, and it's in the r, minus r, direction.
+
+So let's see if we can intuitively figure this one out. Well, there's an r theta double dot. That should look familiar. r theta double dot. If this thing is accelerating, angular acceleration, speeding up, out here that mass says, I'm here right now. In order for me to go a little bit faster, I'm accelerating in that direction. There must be a force being applied by this rod in that direction. And that force times a moment arm perpendicular to it, z, is a moment in the r direction.
+
+So as this thing spins up, if this thing could, it would fall back. But this rod is stiff and won't let it do that. So this is the torque down here that is required to keep this thing moving. So this is really quite amazing. Do either of these torques, these second ones, this one and this one, do they contribute to-- do they do any work? Do they add energy to the system?
+
+See, work means force through a distance. They don't do actually any work. They are static torques just required to hold the system together. This one does some work. It actually makes-- this one leads to energy accumulating, just going faster and faster faster. These are just holding the thing together. But the amazing thing is that you can use angular momentum to calculate things like these torques.
+
+So if you were designing this, these forces acting on this lump out here are producing torques about this point, which are the same thing as-- in 2.001 you'll be doing bending moments. It creates a bending moment in the shaft. And if you don't make the shaft strong enough, it'll break it off. So the torque about this point is the bending moment in the r direction and in the theta direction.
+
+It's trying to be bent in two different ways. And you can calculate the stresses down here caused by those moments. And that would help you design the thing. So you not only get dynamics information out of taking things like the time rate of change of angular momentum. You get some of the static information as well.
+
+The other thing to remember, the really important point of the lecture, is that angular momentum changes depending on where you pick a reference point. So when we picked the reference point just opposite it, we got none of the information about the torques down here. Because with respect to this point, there are no torques except the one speeded up.
+
+The centripetal force here doesn't cause torques. The force out here-- there are no other torques, just the one to make it spin faster. But as soon as I move it down here, I learn something of considerable value. So the homework problem has some of the same things on it, except the monkey's moving. So you get even a little bit more interesting information out of it. All right.
+
+So that went faster than I thought. So that gives some time for some questions. I could see several. So we'll start there and then go here.
+
+AUDIENCE: What exactly [INAUDIBLE] torque B is balancing out?
+
+PROFESSOR: So say again?
+
+AUDIENCE: Torque B [INAUDIBLE], what exactly is that balancing out?
+
+PROFESSOR: This term? You're asking about this term?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: OK. You want me to explain again what this one means? This is a term associated with increasing the angular speed. So let's see if we can't-- so this B term, I'll call it the torque associated with B, minus mrz theta double dot r hat. Now, that is going to be some r cross some F. And if we can get some physical insight, if we could figure out what they are.
+
+So the mass, the force, is the mass times an acceleration. There's an acceleration r theta double dot, which is the speed of this thing is increasing speed. And the r is going to be z. z k hat cross-- and I'm guessing that it's a force that looks like mr theta double dot. And this is in the theta hat direction. k cross theta hat gives me minus r hat. r hat and the minus.
+
+So this looks like a plausible explanation for where this might have come from. So this is the force speeding up, attempting to speed up this mass. There's a force pushing on it that's given to it by this rod. This rod is pushing on it to make it go faster. Mass times acceleration would be mr theta double dot.
+
+And the moment arm is this distance from here down to the point at which I've been computing my reference point from here to here at z. So force times z, r cross F, puts it in the-- ends up in the minus r direction. It's got to be this direction, k cross theta hat. The force is this way.
+
+Think about this. Force is that way. The r is this way. The r cross F is this way. And that's where you get the minus sign. It's in the minus r hat direction. But it comes from trying to speed up this mass. And if this was a floppy, weak link, as it tries to speed up, it would try to bend back. It would flop back as this thing tries to make it go faster.
+
+It will say, no, I don't want to go. Lay back on me. And that would we going in the-- this way, to keep from doing that, you have to put a torque on it this way. Just trying to speed up. It's trying to lay back, and you're saying nope, can't do that. Go like this. So that's the B term.
+
+AUDIENCE: If you do the problem with a situation like that, how do you know where to set it?
+
+PROFESSOR: How do you know where to set it? Well, that's a good question. He's saying, when you're doing a problem like this, how do you know where to pick the reference frame? Well, ask yourself what it is you want to know. And in fact, now that you know that from angular momentum of mechanical things, you can actually get static torques on the system, ask yourself where you want to know those torques.
+
+In this case, if you're designing this, you want to know whether you're going to break this thing off. And it's probably going to break right down at the bottom where the moment arms are the greatest. So that's why you pick that point. It comes a lot with experience will help you choose. But the amazing thing is this information's all stored in the angular momentum if you pick it in the right place. Another hand. OK. Yes, Phillip.
+
+AUDIENCE: I had a question about the direction for r hat. I thought it had to come out of the origin. But you have it going in the x direction.
+
+PROFESSOR: So I've been using polar-- he's asking the direction of r hat. So I've just been using polar coordinates. And polar coordinates is cylindrical, technically. This problem has a z direction upwards, r direction radially outwards, r hat, and theta as drawn here would be into the board, given the position of the mass.
+
+Looking down on it, here's my O. And looking down, this would be my x and my y. And this is some random arbitrary position here. And this is theta. Looking down on it, in this plane is r hat theta hat, k hat coming out of the board.
+
+Side view, x, z, and my system is like this. Now the theta is into the board, and the r direction is this way. That's r hat. And this is z. This is the z-coordinate upwards. So the position vector, the thing we call rA with respect to O, is indeed the length of this whole thing. But it is made up of a component in the z direction plus a component here that we call r in the r hat direction.
+
+AUDIENCE: [INAUDIBLE] example where we calculated from the bottom rather than the top circle, then we got a value for the angular momentum that doesn't have a theta hat component, but as the thing spins--
+
+PROFESSOR: Which are you referring to? Are you talk--
+
+AUDIENCE: h about the point O down--
+
+PROFESSOR: Which example, this guy or--
+
+AUDIENCE: Yeah, [INAUDIBLE].
+
+PROFESSOR: OK, so point. Tell me what you mean here.
+
+AUDIENCE: Right here. [INAUDIBLE].
+
+PROFESSOR: When we computed, not here, but down here.
+
+AUDIENCE: We got that there was no theta component, but as this spins around, theta is changing. And if it's always opposite, shouldn't there be a theta component?
+
+PROFESSOR: A theta component of what?
+
+AUDIENCE: Angular momentum.
+
+PROFESSOR: Angular momentum. She's asking, shouldn't there be a theta component of angular momentum? So we compute our angular momentum with this formula at the top. It's an r cross P. So the r consists of the z part, and the r part is exactly this right here.
+
+And the P is only into the board. It's only in the theta hat direction. So you have a term that's r hat cross theta hat gives you a k, and you have a term k cross theta hat, which gives you an r. There just are no cross products that come out of this that are in the theta hat direction. Yeah.
+
+AUDIENCE: So if it's just at this one position, then you don't have it. But as it spins--
+
+PROFESSOR: Ah. In this case, that's why polar coordinates are nice because as it spins, the theta hat's just constantly going with it. The r hat's constantly going with it. And so the beauty of this thing is this is an axially symmetric problem. It goes round and round, and the torques are given out in this rotating frame.
+
+I think maybe what's confusing you, is if you wanted to know the torques in a fixed inertial frame, you'd have to break them down into ijk components, which you could do. A little tedious. But the answers in this one came out in r hat, theta hat, k hat terms. Happy to answer. This is good stuff, but thick. So keep-- other questions?
+
+So what do you think will happen in that final homework problem with the monkey running-- now he has some velocity. How will that problem differ from what we've done? Do you have a question? Do you want to answer that? Yeah.
+
+AUDIENCE: Well, [INAUDIBLE] monkey [INAUDIBLE].
+
+PROFESSOR: It's going to what?
+
+AUDIENCE: Look like a circle.
+
+PROFESSOR: It's going to look like a circle, OK. He'll be going in a circle, at any--
+
+AUDIENCE: [INAUDIBLE] as in a spiral.
+
+PROFESSOR: A spiral. He'll be going like a helix, huh? All right. Yeah, the monkey will be going in a helix, yeah.
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: What forces will act on that monkey?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: In what direction do you think there will be forces acting on that-- he's hanging on for dear life, you know. This thing's going around. They could throw him off, right? So what forces act? And if you could figure out what forces act-- so you draw a free body diagram of the monkey. There's going to be possibly forces in the theta hat direction, in the z direction, in the r direction.
+
+But just think physically where they come from. So we now know that certainly he's hanging on because he is undergoing centripetal acceleration. And in order to force him to go in that circle, there has to be an inward force applied by this shaft to him. So there's a force like that because of the centripetal acceleration. If it's speeding up, there's a force pushing him to make it go faster. But he's running up the shaft. What else is there? Are there any other accelerations?
+
+AUDIENCE: [INAUDIBLE] angular acceleration [INAUDIBLE]?
+
+PROFESSOR: Yeah, there's angular acceleration. That's the thing trying to speed up. And so he's hanging on because this thing is accelerating, like pushing you back in the car seat, right? Linear acceleration. Well, this is trying to-- at any instant in time, it's trying to go faster. So he's having to hang on because of that. So that's one of those terms.
+
+But now he's moving. He's also running up the shaft. Will that lead to any other accelerations? And force equals mass times acceleration. So every time you can-- if you can account for all the accelerations in the system, multiply it by m. You've accounted for all of the forces, sum of the forces of the mass times acceleration. If you add a new acceleration, you better add a new force. If you add a new force, you'll probably add a new torque.
+
+AUDIENCE: So we have to account for gravity?
+
+PROFESSOR: Well, gravity, yeah. What else?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: So he's suggesting there might be a Coriolis acceleration. And the Coriolis acceleration, in order to make the monkey accelerate, according to that term, there will have to be yet another force. And I think-- so we'll see if that turns up in the calculation.
+
+You've got a couple minutes. I want you to do the money cards. Think about-- and then on your way out, I think just pile them up down here on the table, or hand them to me or one of the TAs. And that'll help me understand what you understood or didn't understand today.
+
+[[Question and answer session]]
+Print This Document
+
+So that went faster than I thought. So that gives some time for some questions. I could see several. So we'll start there and then go here.
+
+AUDIENCE: What exactly [INAUDIBLE] torque B is balancing out?
+
+PROFESSOR: So say again?
+
+AUDIENCE: Torque B [INAUDIBLE], what exactly is that balancing out?
+
+PROFESSOR: This term? You're asking about this term?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: OK. You want me to explain again what this one means? This is a term associated with increasing the angular speed. So let's see if we can't-- so this B term, I'll call it the torque associated with B, minus mrz theta double dot r hat. Now, that is going to be some r cross some F. And if we can get some physical insight, if we could figure out what they are.
+
+So the mass, the force, is the mass times an acceleration. There's an acceleration r theta double dot, which is the speed of this thing is increasing speed. And the r is going to be z. z k hat cross-- and I'm guessing that it's a force that looks like mr theta double dot. And this is in the theta hat direction. k cross theta hat gives me minus r hat. r hat and the minus.
+
+So this looks like a plausible explanation for where this might have come from. So this is the force speeding up, attempting to speed up this mass. There's a force pushing on it that's given to it by this rod. This rod is pushing on it to make it go faster. Mass times acceleration would be mr theta double dot.
+
+And the moment arm is this distance from here down to the point at which I've been computing my reference point from here to here at z. So force times z, r cross F, puts it in the-- ends up in the minus r direction. It's got to be this direction, k cross theta hat. The force is this way.
+
+Think about this. Force is that way. The r is this way. The r cross F is this way. And that's where you get the minus sign. It's in the minus r hat direction. But it comes from trying to speed up this mass. And if this was a floppy, weak link, as it tries to speed up, it would try to bend back. It would flop back as this thing tries to make it go faster.
+
+It will say, no, I don't want to go. Lay back on me. And that would we going in the-- this way, to keep from doing that, you have to put a torque on it this way. Just trying to speed up. It's trying to lay back, and you're saying nope, can't do that. Go like this. So that's the B term.
+
+AUDIENCE: If you do the problem with a situation like that, how do you know where to set it?
+
+PROFESSOR: How do you know where to set it? Well, that's a good question. He's saying, when you're doing a problem like this, how do you know where to pick the reference frame? Well, ask yourself what it is you want to know. And in fact, now that you know that from angular momentum of mechanical things, you can actually get static torques on the system, ask yourself where you want to know those torques.
+
+In this case, if you're designing this, you want to know whether you're going to break this thing off. And it's probably going to break right down at the bottom where the moment arms are the greatest. So that's why you pick that point. It comes a lot with experience will help you choose. But the amazing thing is this information's all stored in the angular momentum if you pick it in the right place. Another hand. OK. Yes, Phillip.
+
+AUDIENCE: I had a question about the direction for r hat. I thought it had to come out of the origin. But you have it going in the x direction.
+
+PROFESSOR: So I've been using polar-- he's asking the direction of r hat. So I've just been using polar coordinates. And polar coordinates is cylindrical, technically. This problem has a z direction upwards, r direction radially outwards, r hat, and theta as drawn here would be into the board, given the position of the mass.
+
+Looking down on it, here's my O. And looking down, this would be my x and my y. And this is some random arbitrary position here. And this is theta. Looking down on it, in this plane is r hat theta hat, k hat coming out of the board.
+
+Side view, x, z, and my system is like this. Now the theta is into the board, and the r direction is this way. That's r hat. And this is z. This is the z-coordinate upwards. So the position vector, the thing we call rA with respect to O, is indeed the length of this whole thing. But it is made up of a component in the z direction plus a component here that we call r in the r hat direction.
+
+AUDIENCE: [INAUDIBLE] example where we calculated from the bottom rather than the top circle, then we got a value for the angular momentum that doesn't have a theta hat component, but as the thing spins--
+
+PROFESSOR: Which are you referring to? Are you talk--
+
+AUDIENCE: h about the point O down--
+
+PROFESSOR: Which example, this guy or--
+
+AUDIENCE: Yeah, [INAUDIBLE].
+
+PROFESSOR: OK, so point. Tell me what you mean here.
+
+AUDIENCE: Right here. [INAUDIBLE].
+
+PROFESSOR: When we computed, not here, but down here.
+
+AUDIENCE: We got that there was no theta component, but as this spins around, theta is changing. And if it's always opposite, shouldn't there be a theta component?
+
+PROFESSOR: A theta component of what?
+
+AUDIENCE: Angular momentum.
+
+PROFESSOR: Angular momentum. She's asking, shouldn't there be a theta component of angular momentum? So we compute our angular momentum with this formula at the top. It's an r cross P. So the r consists of the z part, and the r part is exactly this right here.
+
+And the P is only into the board. It's only in the theta hat direction. So you have a term that's r hat cross theta hat gives you a k, and you have a term k cross theta hat, which gives you an r. There just are no cross products that come out of this that are in the theta hat direction. Yeah.
+
+AUDIENCE: So if it's just at this one position, then you don't have it. But as it spins--
+
+PROFESSOR: Ah. In this case, that's why polar coordinates are nice because as it spins, the theta hat's just constantly going with it. The r hat's constantly going with it. And so the beauty of this thing is this is an axially symmetric problem. It goes round and round, and the torques are given out in this rotating frame.
+
+I think maybe what's confusing you, is if you wanted to know the torques in a fixed inertial frame, you'd have to break them down into ijk components, which you could do. A little tedious. But the answers in this one came out in r hat, theta hat, k hat terms. Happy to answer. This is good stuff, but thick. So keep-- other questions?
+
+So what do you think will happen in that final homework problem with the monkey running-- now he has some velocity. How will that problem differ from what we've done? Do you have a question? Do you want to answer that? Yeah.
+
+AUDIENCE: Well, [INAUDIBLE] monkey [INAUDIBLE].
+
+PROFESSOR: It's going to what?
+
+AUDIENCE: Look like a circle.
+
+PROFESSOR: It's going to look like a circle, OK. He'll be going in a circle, at any--
+
+AUDIENCE: [INAUDIBLE] as in a spiral.
+
+PROFESSOR: A spiral. He'll be going like a helix, huh? All right. Yeah, the monkey will be going in a helix, yeah.
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: What forces will act on that monkey?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: In what direction do you think there will be forces acting on that-- he's hanging on for dear life, you know. This thing's going around. They could throw him off, right? So what forces act? And if you could figure out what forces act-- so you draw a free body diagram of the monkey. There's going to be possibly forces in the theta hat direction, in the z direction, in the r direction.
+
+But just think physically where they come from. So we now know that certainly he's hanging on because he is undergoing centripetal acceleration. And in order to force him to go in that circle, there has to be an inward force applied by this shaft to him. So there's a force like that because of the centripetal acceleration. If it's speeding up, there's a force pushing him to make it go faster. But he's running up the shaft. What else is there? Are there any other accelerations?
+
+AUDIENCE: [INAUDIBLE] angular acceleration [INAUDIBLE]?
+
+PROFESSOR: Yeah, there's angular acceleration. That's the thing trying to speed up. And so he's hanging on because this thing is accelerating, like pushing you back in the car seat, right? Linear acceleration. Well, this is trying to-- at any instant in time, it's trying to go faster. So he's having to hang on because of that. So that's one of those terms.
+
+But now he's moving. He's also running up the shaft. Will that lead to any other accelerations? And force equals mass times acceleration. So every time you can-- if you can account for all the accelerations in the system, multiply it by m. You've accounted for all of the forces, sum of the forces of the mass times acceleration. If you add a new acceleration, you better add a new force. If you add a new force, you'll probably add a new torque.
+
+AUDIENCE: So we have to account for gravity?
+
+PROFESSOR: Well, gravity, yeah. What else?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: So he's suggesting there might be a Coriolis acceleration. And the Coriolis acceleration, in order to make the monkey accelerate, according to that term, there will have to be yet another force. And I think-- so we'll see if that turns up in the calculation.
+
+You've got a couple minutes. I want you to do the money cards. Think about-- and then on your way out, I think just pile them up down here on the table, or hand them to me or one of the TAs. And that'll help me understand what you understood or didn't understand today.
+
+

@@ -1,0 +1,1264 @@
+[[Reading assignment from Williams on kinematics]]Print This Document
+
+PROFESSOR: There's a reading. The new reading is on Stellar. It's an excerpt from a textbook on dynamics by Professor Jim Williams who was in the mechanical engineering department here at MIT and just recently retired. This reading is essentially a review of everything we've done in kinematics. So it gives you a different point of view. It's extremely well written.
+
+So it goes through things like derivatives of rotating vectors. It has three or four really terrific examples of problems that are solved using the techniques that we've used up to this point. So it's a good way to review for the quiz, which is coming up a week from Thursday, on October 14. That quiz will be here, closed book, one sheet of notes, piece of paper both sides as your reference material.
+
+OK, survey results. So you have p set four. It has I think five questions on that. We'll quickly take a look at the problems that you're working on right now. So here's this yo-yo like thing, a spool. There were some questions on nb.
+
+The inner piece doesn't rotate relative to the out piece. It's all one solid spool, but it has two different radii that are functioning in the problem. And the question is, will the spool roll to the left or to the right when the string is pulled to the right? So we're going to come back to it. I'm just going to run through all the questions quickly.
+
+The second one was this somewhat familiar problem you've done now. The question asks you about how fast it has to go before the thing starts sliding up. And the survey question, if the starting position of the spool is moved down the rod, will the angular rate be higher when spool begins to slide up the rod? Will you have to go faster to get it to go? OK, next.
+
+OK, this is finding the equation of motion for a pendulum. And everybody knows the natural frequency of a pendulum's square root of g over l. But this pendulum has a torsional spring added to it. And the question is, the square root of g over l doesn't involve the mass. But will the natural frequency, now that you've put the torsional spring on it, will it now involve the mass? No reason you should know this. You've never done this problem before. And we'll come back to that. Next.
+
+The fourth problem. Two degree of freedom system. And wants you to come up with the equation of motion. But the survey question, if k1 didn't exist, this is just two masses coupled by spring, this thing is no longer constrained in the x direction. There's no x constraints on the system. So if that's the case, this system still has two natural frequencies.
+
+A system that can vibrant essentially has as many natural frequencies as it does equations of motion. This one requires two equations of motion, but it will have one 0 natural frequency and the other one greater than 0. In the second case when it's greater than 0, this thing is oscillating somehow. It has no extra strength. What can you say about the position of the center of mass?
+
+So click at the results. So this is the first one is the spool problem. There's the spool. Here's table. Here's the inner radius. It's got a string wrapped on it. You're pulling the string this way at v in the i direction. This'll be o xy. And now the question is, when you pull on this, which way will the spool go? And most of you said it will go to the left.
+
+So I made this up. We're going to do the experiment. So I've wrapped Teflon tape on this spool. It's got a C battery in the center to give it a little bit of weight. And here's the experiment. And the guys in the booth I hope have in a minute to zoom in on it. I'm going to let go and I'm going to start pulling. Oops. I need to put a little more out here. Pull on the tape.
+
+You believe it? So I've done the reverse of what's in there. I'm pulling that way. But it goes in the same direction as you pull it. So the answer to this question is, it would go to the right. Kind of unbelievable almost, right? How does it do that? Let's do it again.
+
+All right. Now, show you something else. If that hasn't boggled your mind. Then what's it going to do if I pull straight up? How many think it's going to go that way? Raise your hand. How many think it's going to go that way? Raise your hand. All right. Sure enough. That means it must be some angle between in which it will do neither. It'll start to slip. Right about there. Neat little problem.
+
+And now doing this problem is all about computing velocities, using concepts like. So if we call this a, b, c. I think it's the other way around in the problem. Excuse me. A, b, c, and d. The key to this problem is being able to figure out what the velocity of this point c is.
+
+And the first thing to understand, this is the velocity of the end of the tape in a fixed reference frame. So every point on the tape moves at the same speed. That means where it touches right here is also moving at that speed. So the velocity of c with respect to o is to vi. And that's kind of the key to the problem. That's also equal to the velocity of d with respect to o plus the velocity of c with respect to d. And the velocity of d is this point of contact with the ground.
+
+What's that velocity? 0. This is back to those instantaneous center of rotation things. 0 there is what makes this equation easy. And then you know how to compute the velocity of a rotating vector. This one's not changing length, but it is surely rotating about this point, and so there's going to be an omega cross r here. And that'll allow you to solve for omega and then once you know for omega then you can solve for a, which is the real question that was asked.
+
+OK. Next one. So the starting position, this is a spool. There's the arm. And here, the question is at 0.25 meters up here. And if you move it down to 0.15 will the system be able to go faster before it breaks loose or not? And your answer was most people said yes. And basically that's true. What is it that's driving that thing, providing the force that is trying to push it up the sleeve?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: So the rod as it's going around is trying to drive that thing in a circle. And therefore, it is being accelerated to the central points. So it has centripetal acceleration. And that requires forces and they come through the rod. And that will develop the normal forces and friction.
+
+So when you slide down the rod some to that new position, is has that centripetal acceleration gone up or down. r's gotten smaller. Centripetal acceleration is? r omega squared, right? So you might be speaking algebraically. So the magnitude of that centripetal acceleration has gone up or down if you bring it closer to the axis. Down. So you can go faster to get up to the same level of acceleration or it'll break free. Next.
+
+This is, oh, the natural frequency of the pendulum. Some of you said yes, some of you said no, some not sure. You're going to find out. You're going to figure out the equation of motion of the system. And it includes that torsional spring and mass is definitely going to be in it. So look for an answer that includes-- that you'll see that mass is going to show up in a way that if you solve for the natural frequency, it won't leave the final equation. OK.
+
+So this is the one about the two masses. And if the spring were 0, the second natural frequency of the system. The first natural frequency, when you have a system that has what's called a rigid body degree of freedom. When this thing went, there's no k1 spring. This system looks like two masses on wheels connected by a spring and a dashpot. And in the x direction, there are no constraints.
+
+So if I set this system to vibrating, what can you say about the motion of its center of mass? So could you find the center of mass of that system? Got to give you the masses of it. But you have some m1 and an m2. And we'll call this the x in that direction.
+
+Could you determine the center of mass of the system? You know how to do that, right? If they were equal in mass, it'd be in the center. If this was bigger, it'd be over here or something like that. So we know that for a system of particles, the sum of the external forces on the system is equal to mass of the system times the acceleration of the what? Center of mass.
+
+What are the external forces in the horizontal direction? How big are they? 0. Therefore, what can be the acceleration of the center of mass? 0. This thing will actually in this second natural frequency, it'll sit there and just oscillate back and forth, one mask on one directional, one on the other. But its center of mass won't move.
+
+The other degree of freedom and the other natural frequency, the one that has 0 natural frequency, is a rigid body motion. No relative motion. Give this thing a little push, some initial momentum, it'll just sit their role forever. The mass is not moving relative to one another. It just rolls and rolls and rolls and rolls and never comes back. Infinite period 0 natural frequency.
+
+OK, we were talking about fictitious forces the other day. And there are times when they're useful. But they're sort of like giving a little kid a loaded gun. You really get yourself in trouble quickly. So I'm not advocating a lot of use of it. But it's good to have a little insight.
+
+One of the students after the lecture last time, a student mentioned to me, he said, the way I was taught about fictitious forces is that we use them to patch up a problem when we're trying to work in a non inertial frame. How can you make Newton's laws apply if you are in a non inertial frame? Otherwise an accelerating reference frame. So I just thought I would revisit a little bit of what we said the other day with explaining things that way a little bit. So it might just turn out to be familiar for you. And let's just look.
+
+Let's just go back quickly and revisit that elevator problem. So you remember you're here. You've got some mass m. You're standing on some scales. And I want to know what the scales are going to read. Now, we did this one quickly the other day. I'm just going to revisit it. And this accelerating, this is point A. And here down here is o. My inertial frame. And the acceleration of A with respect to o is plus a quarter of g in the j hat direction. OK?
+
+Now, when you think about this, if you're trying to do physics in the elevator, but it's an accelerating frame, so Newton's laws don't apply. So you're in the elevator. You can't see you're accelerating. But you could measure your weight, for example. So how do you fix up the equations so that you can predict the right answer? And to do that, basically you I have to add in a force, a fictitious force, that accounts for the additional forces you will feel in this system due to the acceleration.
+
+So remember the way we did this problem. You do this problem just in a straightforward way, a summation of the external forces in the y direction is the mass times acceleration, a with respect to o. And we need a free body diagram. In the free body diagrams, this mass here, you have an mg downwards and an n upwards. And so you'd say this is equal to n minus mg.
+
+Now, if you're doing this experiment inside, you can measure this n that's going to be your weight. And you would like to do this by fictitious forces, you say that the summation of the external real forces minus this mass times the acceleration of a with respect to o has got to be equal to 0. And that's then n minus mg minus mg over 4.
+
+Here's your fictitious force. And that's as if then you've come over here and you've added an additional force on this free body diagram that looks like mg over 4. And now you say the sum of these forces, this is the correction. It's allowing you now to work in this accelerating frame. If do this free body diagram and sum these up, then you will find this expression, which you can solve for n. And you'll get m5 over 4g. In fact, if you stood on the scales, that's what you'd get.
+
+All right, so this is example one. I want to do sort of example 1.5. The cable breaks on this elevator. Your free body diagram still has an mg on it. You're still inside. You're still measuring forces. And you want to use this idea of a fictitious force to help you sort out what forces will you feel inside of that elevator.
+
+You know how to do the answer in this straightforward way. The sum of external forces is minus mg. And that's equal to the mass times the acceleration of a with respect to o. And therefore acceleration of a with respect to o is just minus g. And you could have told me that. That's trivial. If you drop the thing, it accelerates the acceleration of gravity.
+
+So I want to know what's the-- you're doing the experiment inside. You don't know that you're accelerating. All you're doing is measurements. But you've been told how to correct it. So let's put it in the fictitious force, which is minus ma 0. And that means the mass times acceleration is downwards. So minus that. The fictitious force is an mg force upwards. And what do you feel? What do the scales read? Nothing. You feel absolutely nothing.
+
+OK. So just an aside kind of question, because I know this is confused. Occasionally we all get confused around this. In these problems that we do, is gravity an acceleration? We say all the time, I use the phrase the acceleration of gravity. How many times have you ever said that? Have you ever said that? The acceleration of gravity.
+
+What do we mean? What we mean is this. When you let something drop in free fall, it'll accelerate at g. But the way we apply when we're writing out equations of motion, we say the sum of the external forces is equal to mass times acceleration. Where does gravity go? It's a force.
+
+So this is another thing not to get confused by is to think about gravity as being an acceleration. We spend a lot of time figuring out ways to write accelerations in rotating, translating, reference frames. Gravity never pops up in there. It always comes up on the force side of the equation. OK.
+
+All right, so one last example from last time. But it's relevant to a problem on the homework. So we have this shaft spinning. This is the z-axis spinning at constant rate omega. And we'll use this is r hat and this is z k hat. These are the lengths r hat direction and the height z. We're using cylindrical coordinates. And now let's just use this notion of fictitious forces to figure out first what's the what's the fictitious force in this system.
+
+Remember, this is now this notion of you're out there where this mass is. You're riding with this mass. And you're trying to say, what force am I going to feel? You want to be able to predict it correctly. So you have to find a fictitious force that you can bring in that accounts for what acceleration are we feeling out there. Centripetal, right?
+
+And the centripetal acceleration, we want the sum of the external forces. And this is going to be in the r hat direction minus m times the-- and now we need reference frames here. So you have a fixed frame o xy. You have a rotating frame here, a x prime, y prime, z prime. And this is your point b up here.
+
+So some of the external forces minus the mass times the acceleration of b with respect to 0 has got to be equal to 0. That's how this fictitious force thing works. So on the free body diagram of this thing, what are the actual forces on it? Well, there's certainly a weight downwards. There must be some supporting force upwards.
+
+And we'll put that in the z direction here. Because this thing certainly doesn't accelerate up and down. So the rods lifting it up somehow. The rod has potentially some radial component. And I'm just drawing it in the positive direction. And those are my forces. And in this problem, omega dot theta double dot equals 0 and r dot and r double dot were 0. So it's constant rotation rate. No geometry changes here.
+
+So we did, we cranked through this problem before. And now I wanted to make this correction. I want to add this fictitious force in. The acceleration is minus r omega squared in the r hat direction. So minus m times that is a plus. I get an m r omega squared. And pointing outwards.
+
+And so the sum of the forces in the radial direction minus-- some of the forces in the radial direction now minus this mab with respect to o. Well, what are some of the real forces? Just nr. And this minus mass times the acceleration, that's your mr squared. mr omega squared. And that's got to be 0. So you find out that there is a--
+
+This all is 0. Therefore solve for nr is minus mr omega squared. So that rod out here is constantly pulling it in to make it go around the circle. But we've just done this now by this notion of a fictitious force.
+
+So let's go back to this problem now. Well actually, I'll just take one final step. Here's your free body diagram touched up with this fictitious force so that we can work as if we're here. And by the way, if you could measure, if you had a strain gauge or something so you can measure the force that this rod is putting on that mass. If you can measure it out there, this would be what you would measure.
+
+Now what about the torque that force creates around here? So you have outward force mr omega squared at centrifugal force, this fictitious force. Going pulling it out up here. What moment does that create down here? What's the magnitude first? And that'll be a torque around in the theta direction. So what's the moment arm?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: The moment arm? The moment arm. z. OK. So then the torque is going to be 4r cross f and it's going to be the mrz omega squared. And it's at centripetal forces trying to bend it out. Therefore the torque down here required to keep it from doing so is actually in the other direction. So the torque that this system must put on this bar is minus.
+
+OK. So let's go to this problem. If this is the point about which we're computing the moments, then there's centripetal acceleration in this problem, but in what direction are they? Either one of those masses. Pardon? So each little mass, like the upper mass m over 2. It's spinning and it's shown as it's coming around the wheel. It's up at the top.
+
+What direction is the fictitious force that it's putting on that system? Radial outwards, right? And does it have any moment arm that force going up with respect to that point in the center? No. So it creates no moment. The bottom one by symmetry doesn't either.
+
+This one over here, it also has a fictitious force you can think of. It's just outward mr omega squared. What's its moment arm with respect to our origin here? 0. Again, it produces no moment. It produces an unbalanced force though, right? It's going around producing an unbalanced force. This problem, the upper ones, the fictitious force is up.
+
+The lower one, which direction is it? Down. It's perfectly balanced. They're just equal and opposite, just going around. You'd feel nothing uncomfortable. This one you'd feel, this motorcycle trying to hop down. It really happens, right?
+
+But this one, what happens? Does this mass m over 2, what direction is the centripetal acceleration? I've changed the wording a little bit. The upper mass in case b, which direction is the centripetal acceleration? Straight down, right? And the bottom mass, what direction? Straight up.
+
+And the fictitious forces that reflect those two accelerations are the top one is up and the bottom one is down. But they produce a net. Do they have a moment arm that they act on with respect to that center? Yeah, this little distance here. I think it's called b in the problem.
+
+So this thing, m over 2 r omega squared times b, is a torque about the x-axis. And this one down here is another m over 2 r omega squared and it's another torque in the same direction. So this thing produces quite a strong moment. But as the wheel turns, that moment starts off, it's about the x-axis here. But when that weight gets to 90 degrees, what direction is the moment?
+
+So we just do all the way around the y-axis. So it's going to be a moment. The answer to this problem is in time it's going to look something like mr omega squared z sine or cosine omega t. So the moment in this around the x-axis is going to be trying to-- the bike's going to try to go back and forth like this. With frequency omega. OK.
+
+Oh, I was going to say that's it for fictitious forces, but it's not. I've got a great demo for you. All right. We have a slope. I've got a cart on wheels there. And I actually do. OK. And I'm going to put a box here. I got the wrong color here, but I'll try colored chalk for the first time. In the box I've got a fluid. And the box has a lid on it so I don't make a mess.
+
+Now, I'm actually going to do this experiment. I brought my ramp. We're going to set up this ramp. This box is going to be rolling down this hill. And basically no losses. No friction holding it back. It's just going to be able to take off and accelerate down that hill. I want to know a, b, c. When it's rolling down that hill, will the fluid in the box look like that, look like that, or like that?
+
+So we're going to take our poll here. So how many believe that when it's rolling down the hill, the fluid will stay level, parallel to the ground? Let's raise your hands. I want everybody to make a guess here. Everybody get in it. Raise them high if you think it's going to stay level. OK, maybe a quarter of you. How many think it's going to do this? OK, a few more. And how many think it's going to do this?
+
+All right, so I want you get in natural little groups there of two or three people and talk about this for a couple minutes and see if you can convince your neighbor that you're right. Figure this out. Stop and talk about it. And let's set up to do the experiment. Actually, I think if we do it up here. Yeah. So like that. So you hold the ramp. OK, you come here. We'll just practice our set up here for a second. You're going to have to hold it quite a bit higher. And actually when we get ready to go--
+
+AUDIENCE: How well sealed is that?
+
+PROFESSOR: It's very well sealed. You hold it and you release it. And that's about the right-- because I got to catch it so it doesn't-- now, we're going to stop. We're not going to do it right away. I'm going to get them to answer the question a second time. Good idea. All right. And I think that'll work just great. And we're not going to give it away. OK, so set it down and we'll do the thing. Just drop it.
+
+OK, let's do the quiz again. I want to see if any of you convinced your neighbor to change their vote. So how many believe that it's going to be A? Hm, one or two. Interesting, that kind of went down. How many believe it's going to be B? A lot of people went up. How many think it's going to be C? OK, still a couple hold outs. Let's do the experiment.
+
+So guys in the booth, can you get a good shot of this, I hope? I want this so it [INAUDIBLE]. All right. Move the chalk. Yep. And I'm going to have to catch it. All right. Let her rip. Which way?
+
+AUDIENCE: B.
+
+PROFESSOR: Yeah. Let's do it again. Just make sure the guys in the booth got a good shot of this. OK, once more. Pretty neat, huh?
+
+If you're skiing downhill, you're going down the hill, accelerating, which way do you feel the forces on your body? You feel the forces pulling you down straight? Do you feel the forces pulling you down the hill? Do you feel the forces pulling you into the hill? So this is straightforward application of this. The slope of that liquid was parallel to the slope. Get my notes back out here.
+
+So let's quickly do this problem rigorously, the way we'd do it straightforward with accelerations and free body diagrams and so forth. We're going to have some normal force pushing up. I said no friction. This thing's a slippery surface, just as if it's sliding down. Got to do rollers in the classroom. It's got an mg. And there are no other external forces. And we know then that the summation of the external forces, that's got to be the mass times the acceleration.
+
+And I'm going to make this here. I'll call this point A in the center. And I'm going to make my inertial reference frame x down the hill, y perpendicular to the hill. So the mass times the acceleration of a with respect to o is then equal. And this is my then external forces. So this is my x direction. So I'm going to break this and mg force into two components. One down the hill. Guess I need an angle. Let's see.
+
+So if this is theta, then this is theta here. And the force down the hill is that component is mg sine theta. And the force this direction is then going to be. And I'll just give us some unit vectors here to keep things straight. This force is minus mg cosine theta in the j hat direction. So the sum of the forces here, all of them, are mg sine theta i hat minus mg cosine theta j hat plus n in the j hat direction.
+
+So that's the total vector sum. And that's got to be equal to my mass times the acceleration of a with respect to o. And we know that's straight down the hill. So this one's only going to be in the i hat direction. We know the acceleration perpendicular hill has got to be 0.
+
+OK, so if we just add up the components of this thing. In the i hat direction, just the x direction, then I have only this term and that term. And I find that the mg sine theta equals. And so the acceleration of a with respect to o is just g sine theta.
+
+OK, well that's pretty trivial. And it doesn't give us much insight about-- that doesn't give me much insight about why that's the answer. So actually this is a time when maybe thinking about if you're in that free, you're going down the hill, you're skiing, and you're now in an accelerating reference frame, and you want to say I want to work from this frame, what fictitious force do I have to add to that free body diagram so I can account for my acceleration?
+
+So remember the fictitious force we want to deal with has to do with this guy. We're in the moving frame. We can't judge this. We're just told that it exists and we need to correct for it. So we need a fictitious force that's minus ma with respect to o. So that would be minus mg sine theta. And that would be in this direction.
+
+So dashed lines here is my mg sine theta fictitious force. In the other direction was the real force, the component of gravity mg sine theta. In this direction was my normal force. And in this direction is my component of gravity that is my mg cosine theta. It's a real force. So yeah, these real forces and this fictitious force. But now we can say that all these forces have to sum to 0.
+
+But look what happens here. What force do you feel? In the reference frame, you're the skier going down the hill. What net forces do you feel on you that are in the x direction down the hill? 0. It's exactly. The reason I did that silly free fall problem a minute ago when you drop something, when you're weightless, the scales are reading-- the cable broke in the elevator, scales read 0. The fictitious force was equal and opposite to the gravitational force you feel and the scales would show no force in the free fall direction.
+
+In this case, you're not free fall, but you're free fall down a slope. In the component down the slope, you have no net force in that direction. In the reference frame that moving cart, the only actual force you feel is in. You will feel a force on your feet equal to mg cosine theta. So if theta goes to 90 degrees, you're in free fall, and it goes to 0. Say it is 0 degrees, it's max, and you would feel mg. This is [INAUDIBLE] me where this notion of a fictitious force kind of helps me figure out what's going on. Pretty amazing.
+
+OK. So we're going to move on from this kind of discussion of fictitious forces of things. So it's been an hour. We'll take a little break for a second. Also, if you've got any questions about what we've covered up to this point, think about them and ask them in a minute. Let's take a short break.
+
+So while you've been taking a break, a couple of people came up and asked questions. One of them was, are fictitious forces real? And the other is, why does the water move?
+
+So the answer to the first question. If you want to be careful and do the problem rigorously, don't mess with fictitious forces. The only real forces in the problem are the ones that you would put on a free body diagram, such that the sum of the external forces equals the mass times acceleration.
+
+These forces are always real ones. They are gravity. They are normal forces. They're friction. They're spring forces. They're dashpot forces. They're all these mechanical things, but they're real forces. And the rod, that thing spinning around, that rod, since it's a rigid thing, it can support bending. So it has shear force, axial forces. Those are real forces that it can put on the mass.
+
+Fictitious forces are not forces. They are minus a mass times a real what? Acceleration. So real forces, real accelerations. We use this notion of a fictitious force as a convenience. But it is a highly dangerous tool. But actually once you get used to it a little bit, it can give you some really quick insight.
+
+But I would always, if I have doubts, I'd always go back and just do the problem the rigorous way and just check that your insight was right. But it can give you a great insight to starting a problem. You know to expect a centrifugal term in your results. You know to expect a Coriolis term. You know that they're going to be there because sometimes you feel them. The reason we like to use them is because you actually can feel them. They actually affect what you feel.
+
+So in that first problem, the elevator problem, the answer-- I didn't actually write it. Here it is. The normal force that you feel, that the scale weighs is 5 force g. And it's the sum of gravity and that fictitious force. It's mg plus m times a quarter of a g.
+
+It's in this moving references, this accelerator reference frame inside an elevator where you can't directly measure the acceleration. All you can measure is the force. But you know what the acceleration is. It's given. So you stick it in as a fix and you find out that the real normal force that you measure actually has in it that piece comes from the fictitious force.
+
+OK. Why does the water move? This is really the same discussion. The fictitious force up the hill and the real force down the hill exactly cancel. If you're standing on scales, it actually can measure side force as well as normal force. Standing on the scales, you would feel no side forces up and down the hill. None. You measure a normal force and the normal force you measure will be mg cosine theta.
+
+So the force on any object in that accelerating reference frame, it essentially thinks that all forces are perpendicular, that you feel in that reference frame, are perpendicular to the hill. So why does water seek level? Because the force gravity is down and the surface of the water goes perpendicular to the gravitational force. That's just the nature of fluids.
+
+So if the force on all those fluid particles is this angle, what's the fluid level going to do? So that the pressure on the surface is equal everywhere. And if you go a foot down, you get equal pressure everywhere in the fluid. So the water moves so that its surface will be perpendicular to what it thinks. It thinks that this is kind of being a local gravity. The local gravity is pointed in that direction, so the surface level seeks that level.
+
+If somebody else can say it better than that. Tom, Dave, Matt, anybody? Yeah.
+
+AUDIENCE: Can I ask you a question?
+
+PROFESSOR: Yeah.
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Yeah, as if you're on the body and you're trying to sum up all the forces you feel and accounting also for the fact that this is accelerating. And the fix it force is this fictitious force that's due to the body's acceleration. You have to know that you're accelerating to be able to put this term in. And it comes from this equation, thinking of this as a generic equation by taking this term and just moving it to this side and setting everything equal to 0. Lots of puzzlement around this.
+
+AUDIENCE: What happens if you make the angle of the ramp very steep?
+
+PROFESSOR: Very steep. So if it goes to 90 degrees, you're in free fall. This cosine theta goes to 0, n goes to 0. This term stays the same. This goes to mg that way. This goes mg that way. And it's an equilibrium in both--
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Then you're going to have very, very small, normal force.
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: I couldn't hear the last comment.
+
+AUDIENCE: The water wouldn't go all the way to the side. It'd be vertical length [INAUDIBLE].
+
+PROFESSOR: Well, water, unfortunately, with the tiniest little bit of normal force here the water will seek that level. But when it gets to 0 the water is going to be in free fall. Surface tension takes over. Yeah?
+
+AUDIENCE: Is this like the argument that [INAUDIBLE] is the same as if it was just on a flat surface accelerating?
+
+PROFESSOR: Oh, good question. If you were on a flat surface accelerating. If you were accelerating in this cart. Accelerates with the fluid on it and it's accelerating in that direction, what would the surface of the liquid do? Stay level or change? OK, does it slope back or does it slope forward? I'm accelerating in that direction. There's a fictitious force pushing back on it, makes it pile up at the back.
+
+OK one more. You're in the elevator. You're accelerating a quarter of a g. The scales tells you you weigh 25% more than you used to. And you have a pendulum. And before the elevator starts, it's got a one second natural period. And now the elevator gets going. Does the period change? Higher or lower?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: OK, so the natural frequency of the pendulum, simple pendulum square root of g over l. What do you guess that the natural frequency is if you're going up at a quarter of a g? Say again?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: It's as if you have a higher or lower acceleration of gravity around. But you have a higher gravitational force is what you think you're feeling. Is that going to make the tension in this string higher? Is that going to make the weight of the pendulum feel greater? Yeah, by 5 force. And you'll find out, you'll work out. It gets kind of messy to prove this rigorously, but it's going to look something like the square root of 5/4 g over l. OK.
+
+We've got a little time left. I might not be able to completely finish this. But I do want to show you something. Hold it up so they can see it. Gets pretty violent, doesn't it? Pass it around. OK. This thing is shaking like crazy. All right.
+
+All right. In the absence of external forces, what can you say about the motion of its center of gravity, do you think? In at least this direction. Can't move, right? Up and down direction the center of gravity does move, because I'm putting a force on it through the cord. This has a relation to a problem that you had on problem set two. I want to go back and talk about it a little bit.
+
+And this is that thing with the track in it. And a roller going around. And it's going to around at constant speed. And this has mass m. This is mass. The outside thing is just the mass of this block. And there's an internal donut in here, [INAUDIBLE], and this mass is made to go around and around and around and around inside. And you were asked to figure out the acceleration of that guy. But this thing's on wheels.
+
+Now, this problem, and I apologize for posing this problem the way I did. I should have posed in the following way. These two problems are really equal to one another. I have a rod. I have a mass on the end. This radius here we said was e. This radius is e. The mass is the same. It's m. This was going around at omega. This is going around at omega. This is on wheels.
+
+Exactly these two problems are identical. Because if the geometry's the same, the rotation rate's the same, the masses are the same, the acceleration of this bead here, this roller is the same in this problem as it is in that problem. Just in this problem it's much easier to figure out the forces. This turned out to be kind of nasty.
+
+And I said last time that the solution to b part, which is the normal force that this is put on this roller, I said that answer was wrong. I actually am wrong about that. I was thinking of a different answer. I was thinking of this problem. The answer that was given, the normal force that is by the track places on the roller or vice versa is actually what was given is correct. It wasn't what I actually was seeking when I wrote the problem. Sometimes when you're making up problems, you have an end result in mind and then you wrote it wrong. I wrote it wrong.
+
+So let's do this problem. This is partly to review a couple of things for you. What I really want is I want to find equation of motion in-- [INAUDIBLE]. So here's my xyz inertial reference frame. I just lined it up here with the center of this thing to start with. Doesn't really matter.
+
+So I want to find an equation of motion in the x direction. We don't have time to do this whole problem here, so I'm going to do the first piece of it. Just to give you some review, an exercise in figuring out degrees of freedom. I'm implying that I can write one equation. It may take more than that.
+
+So the number of degrees of freedom we said is equal to the number of required-- I can't write today-- independent coordinates. So the number of coordinates required to completely describe the motion. And we came up a little expression for that. It's 6 times the number rigid bodies plus 3 times the number of particles. So this is rigid bodies. This is particles. Minus c. And these are the constraints.
+
+So let's figure that out for this problem. So how many constraints? It's just a quick practice. So constraints and I'm going to start off with on the main block. So on the main block, there's no y motion. There's no z motion. These rollers don't let it come in or out. So no y or z motion. So that's two constraints. What about rotations on the main block? How many constraints are we assuming here? Three. We're not allowing it the role in x, the y, or the z. So there's three more constraints.
+
+And now on the little mass. On the little mass, there's no z motion. That's out of the board. That's one more constraint. And then omega t is the angle that this thing. It's theta. This is specified. It's a given in the problem. It's not unknown. It's just that's what's going, that's what makes this thing do its thing. It's going round and round. And so this is not an unknown. And therefore you can say that the y motion of this particle is e sine omega t. And that's a constraint.
+
+And the x motion is the motion of the main block to which it's attached plus an e cosine omega t. And these are knowns. You've already counted for this. That's the main mass's motion. So this is something known. So these mount up, each one of these. This gives you a constraint and this gives you a constraint. And so let's add them up. So 2 and 3 are 5. 6, 7, 8. So you can actually completely describe the motion of this thing with one equation of motion.
+
+So I'm seeking. So I want to find the sum of the external forces on the main block in the x direction. And that's going to be. We know that that's the mass of that block times x double dot. So x is going to be the coordinate that describes the motion that mass mb.
+
+So we need a free body diagram of mb. So here's the block. There'll be a normal force up. There's going to be mbg downwards. And the only other forces acting on this block are a force that comes through this rod that's holding that mass, the little mass. I'm just going to draw it at some arbitrary angle, not necessarily theta. It's going to be a force.
+
+I'm going to call that force on this main mass. And it's a vector for the moment. It'll have two components in the x and y directions. So in order to write an equation-- in the y direction it's trivial. n is equal to mbg. In this direction, we have to have to break this into two components. We need to know the component of this in the x direction and put it in here and we'll be done.
+
+So now I'm going to use third law. The force that rod places on this body is equal and opposite to the force at the rod places on the mass going round and round. You agree with me?
+
+So what we need to do next is here's the mass up here going around and round. And the force is on it, because it has an mg downward. And it has some force on it that is the force on the little mass. And you're going to find that f on the little mass equals minus f on the big mass due to third law consideration.
+
+So all I have to do is then figure out the x component of this force, put a minus sign in front of it, and I'm basically done. And to do that I say f equals ma. I don't have to finish it today. I'll show you next time. And we'll figure out the equation of motion for this thing.
+
+Now, in dragging all this stuff here today, I forgot to bring my muddy cards. So you've got a minute. And if any of you have just a brilliant question you want to answer or something you really liked, if you don't mind, just take a piece of paper, make a note on it, and drop it off on the way out. Thanks a lot. See you on Thursday.
+
+[[Concept questions intro showing problems]]
+Print This Document
+
+now. So here's this yo-yo like thing, a spool. There were some questions on nb.
+
+The inner piece doesn't rotate relative to the out piece. It's all one solid spool, but it has two different radii that are functioning in the problem. And the question is, will the spool roll to the left or to the right when the string is pulled to the right? So we're going to come back to it. I'm just going to run through all the questions quickly.
+
+The second one was this somewhat familiar problem you've done now. The question asks you about how fast it has to go before the thing starts sliding up. And the survey question, if the starting position of the spool is moved down the rod, will the angular rate be higher when spool begins to slide up the rod? Will you have to go faster to get it to go? OK, next.
+
+OK, this is finding the equation of motion for a pendulum. And everybody knows the natural frequency of a pendulum's square root of g over l. But this pendulum has a torsional spring added to it. And the question is, the square root of g over l doesn't involve the mass. But will the natural frequency, now that you've put the torsional spring on it, will it now involve the mass? No reason you should know this. You've never done this problem before. And we'll come back to that. Next.
+
+The fourth problem. Two degree of freedom system. And wants you to come up with the equation of motion. But the survey question, if k1 didn't exist, this is just two masses coupled by spring, this thing is no longer constrained in the x direction. There's no x constraints on the system. So if that's the case, this system still has two natural frequencies.
+
+A system that can vibrant essentially has as many natural frequencies as it does equations of motion. This one requires two equations of motion, but it will have one 0 natural frequency and the other one greater than 0. In the second case when it's greater than 0, this thing is oscillating somehow. It has no extra strength. What can you say about the position of the center of mass?
+
+So click at the results. So this is the first one is the spool problem. There's the spool. Here's table. Here's the inner radius. It's got a string wrapped on it. You're pulling the string this way at v in the i direction. This'll be o xy. And now the question is, when you pull on this, which way will the spool go? And most of you said it will go to the left.
+
+So I made this up. We're going to do the experiment. So I've wrapped Teflon tape on this spool. It's got a C battery in the center to give it a little bit of weight. And here's the experiment. And the guys in the booth I hope have in a minute to zoom in on it. I'm going to let go and I'm going to start pulling. Oops. I need to put a little more out here. Pull on the tape.
+
+You believe it? So I've done the reverse of what's in there. I'm pulling that way. But it goes in the same direction as you pull it. So the answer to this question is, it would go to the right. Kind of unbelievable almost, right? How does it do that? Let's do it again.
+
+All right. Now, show you something else. If that hasn't boggled your mind. Then what's it going to do if I pull straight up? How many think it's going to go that way? Raise your hand. How many think it's going to go that way? Raise your hand. All right. Sure enough. That means it must be some angle between in which it will do neither. It'll start to slip. Right about there. Neat little problem.
+
+And now doing this problem is all about computing velocities, using concepts like. So if we call this a, b, c. I think it's the other way around in the problem. Excuse me. A, b, c, and d. The key to this problem is being able to figure out what the velocity of this point c is.
+
+And the first thing to understand, this is the velocity of the end of the tape in a fixed reference frame. So every point on the tape moves at the same speed. That means where it touches right here is also moving at that speed. So the velocity of c with respect to o is to vi. And that's kind of the key to the problem. That's also equal to the velocity of d with respect to o plus the velocity of c with respect to d. And the velocity of d is this point of contact with the ground.
+
+What's that velocity? 0. This is back to those instantaneous center of rotation things. 0 there is what makes this equation easy. And then you know how to compute the velocity of a rotating vector. This one's not changing length, but it is surely rotating about this point, and so there's going to be an omega cross r here. And that'll allow you to solve for omega and then once you know for omega then you can solve for a, which is the real question that was asked.
+
+OK. Next one. So the starting position, this is a spool. There's the arm. And here, the question is at 0.25 meters up here. And if you move it down to 0.15 will the system be able to go faster before it breaks loose or not? And your answer was most people said yes. And basically that's true. What is it that's driving that thing, providing the force that is trying to push it up the sleeve?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: So the rod as it's going around is trying to drive that thing in a circle. And therefore, it is being accelerated to the central points. So it has centripetal acceleration. And that requires forces and they come through the rod. And that will develop the normal forces and friction.
+
+So when you slide down the rod some to that new position, is has that centripetal acceleration gone up or down. r's gotten smaller. Centripetal acceleration is? r omega squared, right? So you might be speaking algebraically. So the magnitude of that centripetal acceleration has gone up or down if you bring it closer to the axis. Down. So you can go faster to get up to the same level of acceleration or it'll break free. Next.
+
+This is, oh, the natural frequency of the pendulum. Some of you said yes, some of you said no, some not sure. You're going to find out. You're going to figure out the equation of motion of the system. And it includes that torsional spring and mass is definitely going to be in it. So look for an answer that includes-- that you'll see that mass is going to show up in a way that if you solve for the natural frequency, it won't leave the final equation. OK.
+
+So this is the one about the two masses. And if the spring were 0, the second natural frequency of the system. The first natural frequency, when you have a system that has what's called a rigid body degree of freedom. When this thing went, there's no k1 spring. This system looks like two masses on wheels connected by a spring and a dashpot. And in the x direction, there are no constraints.
+
+So if I set this system to vibrating, what can you say about the motion of its center of mass? So could you find the center of mass of that system? Got to give you the masses of it. But you have some m1 and an m2. And we'll call this the x in that direction.
+
+Could you determine the center of mass of the system? You know how to do that, right? If they were equal in mass, it'd be in the center. If this was bigger, it'd be over here or something like that. So we know that for a system of particles, the sum of the external forces on the system is equal to mass of the system times the acceleration of the what? Center of mass.
+
+What are the external forces in the horizontal direction? How big are they? 0. Therefore, what can be the acceleration of the center of mass? 0. This thing will actually in this second natural frequency, it'll sit there and just oscillate back and forth, one mask on one directional, one on the other. But its center of mass won't move.
+
+The other degree of freedom and the other natural frequency, the one that has 0 natural frequency, is a rigid body motion. No relative motion. Give this thing a little push, some initial momentum, it'll just sit their role forever. The mass is not moving relative to one another. It just rolls and rolls and rolls and rolls and never comes back. Infinite period 0 natural frequency.
+
+OK, we were talking about fictitious forces the other day. And there are times when they're useful. But they're sort of like giving a little kid a loaded gun. You really get yourself in trouble quickly. So I'm not advocating a lot of use of it. But it's good to have a little insight.
+
+One of the students after the lecture last time, a student mentioned to me, he said, the way I was taught about fictitious forces is that we use them to patch up a problem when we're trying to work in a non inertial frame. How can you make Newton's laws apply if you are in a non inertial frame? Otherwise an accelerating reference frame. So I just thought I would revisit a little bit of what we said the other day with explaining things that way a little bit. So it might just turn out to be familiar for you. And let's just look.
+
+Let's just go back quickly and revisit that elevator problem. So you remember you're here. You've got some mass m. You're standing on some scales. And I want to know what the scales are going to read. Now, we did this one quickly the other day. I'm just going to revisit it. And this accelerating, this is point A. And here down here is o. My inertial frame. And the acceleration of A with respect to o is plus a quarter of g in the j hat direction. OK?
+
+Now, when you think about this, if you're trying to do physics in the elevator, but it's an accelerating frame, so Newton's laws don't apply. So you're in the elevator. You can't see you're accelerating. But you could measure your weight, for example. So how do you fix up the equations so that you can predict the right answer? And to do that, basically you I have to add in a force, a fictitious force, that accounts for the additional forces you will feel in this system due to the acceleration.
+
+So remember the way we did this problem. You do this problem just in a straightforward way, a summation of the external forces in the y direction is the mass times acceleration, a with respect to o. And we need a free body diagram. In the free body diagrams, this mass here, you have an mg downwards and an n upwards. And so you'd say this is equal to n minus mg.
+
+Now, if you're doing this experiment inside, you can measure this n that's going to be your weight. And you would like to do this by fictitious forces, you say that the summation of the external real forces minus this mass times the acceleration of a with respect to o has got to be equal to 0. And that's then n minus mg minus mg over 4.
+
+Here's your fictitious force. And that's as if then you've come over here and you've added an additional force on this free body diagram that looks like mg over 4. And now you say the sum of these forces, this is the correction. It's allowing you now to work in this accelerating frame. If do this free body diagram and sum these up, then you will find this expression, which you can solve for n. And you'll get m5 over 4g. In fact, if you stood on the scales, that's what you'd get.
+
+All right, so this is example one. I want to do sort of example 1.5. The cable breaks on this elevator. Your free body diagram still has an mg on it. You're still inside. You're still measuring forces. And you want to use this idea of a fictitious force to help you sort out what forces will you feel inside of that elevator.
+
+You know how to do the answer in this straightforward way. The sum of external forces is minus mg. And that's equal to the mass times the acceleration of a with respect to o. And therefore acceleration of a with respect to o is just minus g. And you could have told me that. That's trivial. If you drop the thing, it accelerates the acceleration of gravity.
+
+So I want to know what's the-- you're doing the experiment inside. You don't know that you're accelerating. All you're doing is measurements. But you've been told how to correct it. So let's put it in the fictitious force, which is minus ma 0. And that means the mass times acceleration is downwards. So minus that. The fictitious force is an mg force upwards. And what do you feel? What do the scales read? Nothing. You feel absolutely nothing.
+
+OK. So just an aside kind of question, because I know this is confused. Occasionally we all get confused around this. In these problems that we do, is gravity an acceleration? We say all the time, I use the phrase the acceleration of gravity. How many times have you ever said that? Have you ever said that? The acceleration of gravity.
+
+What do we mean? What we mean is this. When you let something drop in free fall, it'll accelerate at g. But the way we apply when we're writing out equations of motion, we say the sum of the external forces is equal to mass times acceleration. Where does gravity go? It's a force.
+
+So this is another thing not to get confused by is to think about gravity as being an acceleration. We spend a lot of time figuring out ways to write accelerations in rotating, translating, reference frames. Gravity never pops up in there. It always comes up on the force side of the equation. OK.
+
+All right, so one last example from last time. But it's relevant to a problem on the homework. So we have this shaft spinning. This is the z-axis spinning at constant rate omega. And we'll use this is r hat and this is z k hat. These are the lengths r hat direction and the height z. We're using cylindrical coordinates. And now let's just use this notion of fictitious forces to figure out first what's the what's the fictitious force in this system.
+
+Remember, this is now this notion of you're out there where this mass is. You're riding with this mass. And you're trying to say, what force am I going to feel? You want to be able to predict it correctly. So you have to find a fictitious force that you can bring in that accounts for what acceleration are we feeling out there. Centripetal, right?
+
+And the centripetal acceleration, we want the sum of the external forces. And this is going to be in the r hat direction minus m times the-- and now we need reference frames here. So you have a fixed frame o xy. You have a rotating frame here, a x prime, y prime, z prime. And this is your point b up here.
+
+So some of the external forces minus the mass times the acceleration of b with respect to 0 has got to be equal to 0. That's how this fictitious force thing works. So on the free body diagram of this thing, what are the actual forces on it? Well, there's certainly a weight downwards. There must be some supporting force upwards.
+
+And we'll put that in the z direction here. Because this thing certainly doesn't accelerate up and down. So the rods lifting it up somehow. The rod has potentially some radial component. And I'm just drawing it in the positive direction. And those are my forces. And in this problem, omega dot theta double dot equals 0 and r dot and r double dot were 0. So it's constant rotation rate. No geometry changes here.
+
+So we did, we cranked through this problem before. And now I wanted to make this correction. I want to add this fictitious force in. The acceleration is minus r omega squared in the r hat direction. So minus m times that is a plus. I get an m r omega squared. And pointing outwards.
+
+And so the sum of the forces in the radial direction minus-- some of the forces in the radial direction now minus this mab with respect to o. Well, what are some of the real forces? Just nr. And this minus mass times the acceleration, that's your mr squared. mr omega squared. And that's got to be 0. So you find out that there is a--
+
+This all is 0. Therefore solve for nr is minus mr omega squared. So that rod out here is constantly pulling it in to make it go around the circle. But we've just done this now by this notion of a fictitious force.
+
+So let's go back to this problem now. Well actually, I'll just take one final step. Here's your free body diagram touched up with this fictitious force so that we can work as if we're here. And by the way, if you could measure, if you had a strain gauge or something so you can measure the force that this rod is putting on that mass. If you can measure it out there, this would be what you would measure.
+
+Now what about the torque that force creates around here? So you have outward force mr omega squared at centrifugal force, this fictitious force. Going pulling it out up here. What moment does that create down here? What's the magnitude first? And that'll be a torque around in the theta direction. So what's the moment arm?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: The moment arm? The moment arm. z. OK. So then the torque is going to be 4r cross f and it's going to be the mrz omega squared. And it's at centripetal forces trying to bend it out. Therefore the torque down here required to keep it from doing so is actually in the other direction. So the torque that this system must put on this bar is minus.
+
+OK. So let's go to this problem. If this is the point about which we're computing the moments, then there's centripetal acceleration in this problem, but in what direction are they? Either one of those masses. Pardon? So each little mass, like the upper mass m over 2. It's spinning and it's shown as it's coming around the wheel. It's up at the top.
+
+What direction is the fictitious force that it's putting on that system? Radial outwards, right? And does it have any moment arm that force going up with respect to that point in the center? No. So it creates no moment. The bottom one by symmetry doesn't either.
+
+This one over here, it also has a fictitious force you can think of. It's just outward mr omega squared. What's its moment arm with respect to our origin here? 0. Again, it produces no moment. It produces an unbalanced force though, right? It's going around producing an unbalanced force. This problem, the upper ones, the fictitious force is up.
+
+The lower one, which direction is it? Down. It's perfectly balanced. They're just equal and opposite, just going around. You'd feel nothing uncomfortable. This one you'd feel, this motorcycle trying to hop down. It really happens, right?
+
+But this one, what happens? Does this mass m over 2, what direction is the centripetal acceleration? I've changed the wording a little bit. The upper mass in case b, which direction is the centripetal acceleration? Straight down, right? And the bottom mass, what direction? Straight up.
+
+And the fictitious forces that reflect those two accelerations are the top one is up and the bottom one is down. But they produce a net. Do they have a moment arm that they act on with respect to that center? Yeah, this little distance here. I think it's called b in the problem.
+
+So this thing, m over 2 r omega squared times b, is a torque about the x-axis. And this one down here is another m over 2 r omega squared and it's another torque in the same direction. So this thing produces quite a strong moment. But as the wheel turns, that moment starts off, it's about the x-axis here. But when that weight gets to 90 degrees, what direction is the moment?
+
+So we just do all the way around the y-axis. So it's going to be a moment. The answer to this problem is in time it's going to look something like mr omega squared z sine or cosine omega t. So the moment in this around the x-axis is going to be trying to-- the bike's going to try to go back and forth like this. With frequency omega. OK.
+
+Oh, I was going to say that's it for fictitious forces, but it's not. I've got a great demo for you. All right. We have a slope. I've got a cart on wheels there. And I actually do. OK. And I'm going to put a box here. I got the wrong color here, but I'll try colored chalk for the first time. In the box I've got a fluid. And the box has a lid on it so I don't make a mess.
+
+Now, I'm actually going to do this experiment. I brought my ramp. We're going to set up this ramp. This box is going to be rolling down this hill. And basically no losses. No friction holding it back. It's just going to be able to take off and accelerate down that hill. I want to know a, b, c. When it's rolling down that hill, will the fluid in the box look like that, look like that, or like that?
+
+So we're going to take our poll here. So how many believe that when it's rolling down the hill, the fluid will stay level, parallel to the ground? Let's raise your hands. I want everybody to make a guess here. Everybody get in it. Raise them high if you think it's going to stay level. OK, maybe a quarter of you. How many think it's going to do this? OK, a few more. And how many think it's going to do this?
+
+All right, so I want you get in natural little groups there of two or three people and talk about this for a couple minutes and see if you can convince your neighbor that you're right. Figure this out. Stop and talk about it. And let's set up to do the experiment. Actually, I think if we do it up here. Yeah. So like that. So you hold the ramp. OK, you come here. We'll just practice our set up here for a second. You're going to have to hold it quite a bit higher. And actually when we get ready to go--
+
+AUDIENCE: How well sealed is that?
+
+PROFESSOR: It's very well sealed. You hold it and you release it. And that's about the right-- because I got to catch it so it doesn't-- now, we're going to stop. We're not going to do it right away. I'm going to get them to answer the question a second time. Good idea. All right. And I think that'll work just great. And we're not going to give it away. OK, so set it down and we'll do the thing. Just drop it.
+
+OK, let's do the quiz again. I want to see if any of you convinced your neighbor to change their vote. So how many believe that it's going to be A? Hm, one or two. Interesting, that kind of went down. How many believe it's going to be B? A lot of people went up. How many think it's going to be C? OK, still a couple hold outs. Let's do the experiment.
+
+So guys in the booth, can you get a good shot of this, I hope? I want this so it [INAUDIBLE]. All right. Move the chalk. Yep. And I'm going to have to catch it. All right. Let her rip. Which way?
+
+AUDIENCE: B.
+
+PROFESSOR: Yeah. Let's do it again. Just make sure the guys in the booth got a good shot of this. OK, once more. Pretty neat, huh?
+
+If you're skiing downhill, you're going down the hill, accelerating, which way do you feel the forces on your body? You feel the forces pulling you down straight? Do you feel the forces pulling you down the hill? Do you feel the forces pulling you into the hill? So this is straightforward application of this. The slope of that liquid was parallel to the slope. Get my notes back out here.
+
+So let's quickly do this problem rigorously, the way we'd do it straightforward with accelerations and free body diagrams and so forth. We're going to have some normal force pushing up. I said no friction. This thing's a slippery surface, just as if it's sliding down. Got to do rollers in the classroom. It's got an mg. And there are no other external forces. And we know then that the summation of the external forces, that's got to be the mass times the acceleration.
+
+And I'm going to make this here. I'll call this point A in the center. And I'm going to make my inertial reference frame x down the hill, y perpendicular to the hill. So the mass times the acceleration of a with respect to o is then equal. And this is my then external forces. So this is my x direction. So I'm going to break this and mg force into two components. One down the hill. Guess I need an angle. Let's see.
+
+So if this is theta, then this is theta here. And the force down the hill is that component is mg sine theta. And the force this direction is then going to be. And I'll just give us some unit vectors here to keep things straight. This force is minus mg cosine theta in the j hat direction. So the sum of the forces here, all of them, are mg sine theta i hat minus mg cosine theta j hat plus n in the j hat direction.
+
+So that's the total vector sum. And that's got to be equal to my mass times the acceleration of a with respect to o. And we know that's straight down the hill. So this one's only going to be in the i hat direction. We know the acceleration perpendicular hill has got to be 0.
+
+OK, so if we just add up the components of this thing. In the i hat direction, just the x direction, then I have only this term and that term. And I find that the mg sine theta equals. And so the acceleration of a with respect to o is just g sine theta.
+
+OK, well that's pretty trivial. And it doesn't give us much insight about-- that doesn't give me much insight about why that's the answer. So actually this is a time when maybe thinking about if you're in that free, you're going down the hill, you're skiing, and you're now in an accelerating reference frame, and you want to say I want to work from this frame, what fictitious force do I have to add to that free body diagram so I can account for my acceleration?
+
+So remember the fictitious force we want to deal with has to do with this guy. We're in the moving frame. We can't judge this. We're just told that it exists and we need to correct for it. So we need a fictitious force that's minus ma with respect to o. So that would be minus mg sine theta. And that would be in this direction.
+
+So dashed lines here is my mg sine theta fictitious force. In the other direction was the real force, the component of gravity mg sine theta. In this direction was my normal force. And in this direction is my component of gravity that is my mg cosine theta. It's a real force. So yeah, these real forces and this fictitious force. But now we can say that all these forces have to sum to 0.
+
+But look what happens here. What force do you feel? In the reference frame, you're the skier going down the hill. What net forces do you feel on you that are in the x direction down the hill? 0. It's exactly. The reason I did that silly free fall problem a minute ago when you drop something, when you're weightless, the scales are reading-- the cable broke in the elevator, scales read 0. The fictitious force was equal and opposite to the gravitational force you feel and the scales would show no force in the free fall direction.
+
+In this case, you're not free fall, but you're free fall down a slope. In the component down the slope, you have no net force in that direction. In the reference frame that moving cart, the only actual force you feel is in. You will feel a force on your feet equal to mg cosine theta. So if theta goes to 90 degrees, you're in free fall, and it goes to 0. Say it is 0 degrees, it's max, and you would feel mg. This is [INAUDIBLE] me where this notion of a fictitious force kind of helps me figure out what's going on. Pretty amazing.
+
+OK. So we're going to move on from this kind of discussion of fictitious forces of things. So it's been an hour. We'll take a little break for a second. Also, if you've got any questions about what we've covered up to this point, think about them and ask them in a minute. Let's take a short break.
+
+So while you've been taking a break, a couple of people came up and asked questions. One of them was, are fictitious forces real? And the other is, why does the water move?
+
+So the answer to the first question. If you want to be careful and do the problem rigorously, don't mess with fictitious forces. The only real forces in the problem are the ones that you would put on a free body diagram, such that the sum of the external forces equals the mass times acceleration.
+
+These forces are always real ones. They are gravity. They are normal forces. They're friction. They're spring forces. They're dashpot forces. They're all these mechanical things, but they're real forces. And the rod, that thing spinning around, that rod, since it's a rigid thing, it can support bending. So it has shear force, axial forces. Those are real forces that it can put on the mass.
+
+Fictitious forces are not forces. They are minus a mass times a real what? Acceleration. So real forces, real accelerations. We use this notion of a fictitious force as a convenience. But it is a highly dangerous tool. But actually once you get used to it a little bit, it can give you some really quick insight.
+
+But I would always, if I have doubts, I'd always go back and just do the problem the rigorous way and just check that your insight was right. But it can give you a great insight to starting a problem. You know to expect a centrifugal term in your results. You know to expect a Coriolis term. You know that they're going to be there because sometimes you feel them. The reason we like to use them is because you actually can feel them. They actually affect what you feel.
+
+So in that first problem, the elevator problem, the answer-- I didn't actually write it. Here it is. The normal force that you feel, that the scale weighs is 5 force g. And it's the sum of gravity and that fictitious force. It's mg plus m times a quarter of a g.
+
+It's in this moving references, this accelerator reference frame inside an elevator where you can't directly measure the acceleration. All you can measure is the force. But you know what the acceleration is. It's given. So you stick it in as a fix and you find out that the real normal force that you measure actually has in it that piece comes from the fictitious force.
+
+OK. Why does the water move? This is really the same discussion. The fictitious force up the hill and the real force down the hill exactly cancel. If you're standing on scales, it actually can measure side force as well as normal force. Standing on the scales, you would feel no side forces up and down the hill. None. You measure a normal force and the normal force you measure will be mg cosine theta.
+
+So the force on any object in that accelerating reference frame, it essentially thinks that all forces are perpendicular, that you feel in that reference frame, are perpendicular to the hill. So why does water seek level? Because the force gravity is down and the surface of the water goes perpendicular to the gravitational force. That's just the nature of fluids.
+
+So if the force on all those fluid particles is this angle, what's the fluid level going to do? So that the pressure on the surface is equal everywhere. And if you go a foot down, you get equal pressure everywhere in the fluid. So the water moves so that its surface will be perpendicular to what it thinks. It thinks that this is kind of being a local gravity. The local gravity is pointed in that direction, so the surface level seeks that level.
+
+If somebody else can say it better than that. Tom, Dave, Matt, anybody? Yeah.
+
+AUDIENCE: Can I ask you a question?
+
+PROFESSOR: Yeah.
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Yeah, as if you're on the body and you're trying to sum up all the forces you feel and accounting also for the fact that this is accelerating. And the fix it force is this fictitious force that's due to the body's acceleration. You have to know that you're accelerating to be able to put this term in. And it comes from this equation, thinking of this as a generic equation by taking this term and just moving it to this side and setting everything equal to 0. Lots of puzzlement around this.
+
+AUDIENCE: What happens if you make the angle of the ramp very steep?
+
+PROFESSOR: Very steep. So if it goes to 90 degrees, you're in free fall. This cosine theta goes to 0, n goes to 0. This term stays the same. This goes to mg that way. This goes mg that way. And it's an equilibrium in both--
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Then you're going to have very, very small, normal force.
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: I couldn't hear the last comment.
+
+AUDIENCE: The water wouldn't go all the way to the side. It'd be vertical length [INAUDIBLE].
+
+PROFESSOR: Well, water, unfortunately, with the tiniest little bit of normal force here the water will seek that level. But when it gets to 0 the water is going to be in free fall. Surface tension takes over. Yeah?
+
+AUDIENCE: Is this like the argument that [INAUDIBLE] is the same as if it was just on a flat surface accelerating?
+
+PROFESSOR: Oh, good question. If you were on a flat surface accelerating. If you were accelerating in this cart. Accelerates with the fluid on it and it's accelerating in that direction, what would the surface of the liquid do? Stay level or change? OK, does it slope back or does it slope forward? I'm accelerating in that direction. There's a fictitious force pushing back on it, makes it pile up at the back.
+
+OK one more. You're in the elevator. You're accelerating a quarter of a g. The scales tells you you weigh 25% more than you used to. And you have a pendulum. And before the elevator starts, it's got a one second natural period. And now the elevator gets going. Does the period change? Higher or lower?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: OK, so the natural frequency of the pendulum, simple pendulum square root of g over l. What do you guess that the natural frequency is if you're going up at a quarter of a g? Say again?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: It's as if you have a higher or lower acceleration of gravity around. But you have a higher gravitational force is what you think you're feeling. Is that going to make the tension in this string higher? Is that going to make the weight of the pendulum feel greater? Yeah, by 5 force. And you'll find out, you'll work out. It gets kind of messy to prove this rigorously, but it's going to look something like the square root of 5/4 g over l. OK.
+
+We've got a little time left. I might not be able to completely finish this. But I do want to show you something. Hold it up so they can see it. Gets pretty violent, doesn't it? Pass it around. OK. This thing is shaking like crazy. All right.
+
+All right. In the absence of external forces, what can you say about the motion of its center of gravity, do you think? In at least this direction. Can't move, right? Up and down direction the center of gravity does move, because I'm putting a force on it through the cord. This has a relation to a problem that you had on problem set two. I want to go back and talk about it a little bit.
+
+And this is that thing with the track in it. And a roller going around. And it's going to around at constant speed. And this has mass m. This is mass. The outside thing is just the mass of this block. And there's an internal donut in here, [INAUDIBLE], and this mass is made to go around and around and around and around inside. And you were asked to figure out the acceleration of that guy. But this thing's on wheels.
+
+Now, this problem, and I apologize for posing this problem the way I did. I should have posed in the following way. These two problems are really equal to one another. I have a rod. I have a mass on the end. This radius here we said was e. This radius is e. The mass is the same. It's m. This was going around at omega. This is going around at omega. This is on wheels.
+
+Exactly these two problems are identical. Because if the geometry's the same, the rotation rate's the same, the masses are the same, the acceleration of this bead here, this roller is the same in this problem as it is in that problem. Just in this problem it's much easier to figure out the forces. This turned out to be kind of nasty.
+
+And I said last time that the solution to b part, which is the normal force that this is put on this roller, I said that answer was wrong. I actually am wrong about that. I was thinking of a different answer. I was thinking of this problem. The answer that was given, the normal force that is by the track places on the roller or vice versa is actually what was given is correct. It wasn't what I actually was seeking when I wrote the problem. Sometimes when you're making up problems, you have an end result in mind and then you wrote it wrong. I wrote it wrong.
+
+So let's do this problem. This is partly to review a couple of things for you. What I really want is I want to find equation of motion in-- [INAUDIBLE]. So here's my xyz inertial reference frame. I just lined it up here with the center of this thing to start with. Doesn't really matter.
+
+So I want to find an equation of motion in the x direction. We don't have time to do this whole problem here, so I'm going to do the first piece of it. Just to give you some review, an exercise in figuring out degrees of freedom. I'm implying that I can write one equation. It may take more than that.
+
+So the number of degrees of freedom we said is equal to the number of required-- I can't write today-- independent coordinates. So the number of coordinates required to completely describe the motion. And we came up a little expression for that. It's 6 times the number rigid bodies plus 3 times the number of particles. So this is rigid bodies. This is particles. Minus c. And these are the constraints.
+
+So let's figure that out for this problem. So how many constraints? It's just a quick practice. So constraints and I'm going to start off with on the main block. So on the main block, there's no y motion. There's no z motion. These rollers don't let it come in or out. So no y or z motion. So that's two constraints. What about rotations on the main block? How many constraints are we assuming here? Three. We're not allowing it the role in x, the y, or the z. So there's three more constraints.
+
+And now on the little mass. On the little mass, there's no z motion. That's out of the board. That's one more constraint. And then omega t is the angle that this thing. It's theta. This is specified. It's a given in the problem. It's not unknown. It's just that's what's going, that's what makes this thing do its thing. It's going round and round. And so this is not an unknown. And therefore you can say that the y motion of this particle is e sine omega t. And that's a constraint.
+
+And the x motion is the motion of the main block to which it's attached plus an e cosine omega t. And these are knowns. You've already counted for this. That's the main mass's motion. So this is something known. So these mount up, each one of these. This gives you a constraint and this gives you a constraint. And so let's add them up. So 2 and 3 are 5. 6, 7, 8. So you can actually completely describe the motion of this thing with one equation of motion.
+
+So I'm seeking. So I want to find the sum of the external forces on the main block in the x direction. And that's going to be. We know that that's the mass of that block times x double dot. So x is going to be the coordinate that describes the motion that mass mb.
+
+So we need a free body diagram of mb. So here's the block. There'll be a normal force up. There's going to be mbg downwards. And the only other forces acting on this block are a force that comes through this rod that's holding that mass, the little mass. I'm just going to draw it at some arbitrary angle, not necessarily theta. It's going to be a force.
+
+I'm going to call that force on this main mass. And it's a vector for the moment. It'll have two components in the x and y directions. So in order to write an equation-- in the y direction it's trivial. n is equal to mbg. In this direction, we have to have to break this into two components. We need to know the component of this in the x direction and put it in here and we'll be done.
+
+So now I'm going to use third law. The force that rod places on this body is equal and opposite to the force at the rod places on the mass going round and round. You agree with me?
+
+So what we need to do next is here's the mass up here going around and round. And the force is on it, because it has an mg downward. And it has some force on it that is the force on the little mass. And you're going to find that f on the little mass equals minus f on the big mass due to third law consideration.
+
+So all I have to do is then figure out the x component of this force, put a minus sign in front of it, and I'm basically done. And to do that I say f equals ma. I don't have to finish it today. I'll show you next time. And we'll figure out the equation of motion for this thing.
+
+Now, in dragging all this stuff here today, I forgot to bring my muddy cards. So you've got a minute. And if any of you have just a brilliant question you want to answer or something you really liked, if you don't mind, just take a piece of paper, make a note on it, and drop it off on the way out. Thanks a lot. See you on Thursday.
+
+[[Concept question discussion-spool and string etc]]
+Print This Document
+
+So click at the results. So this is the first one is the spool problem. There's the spool. Here's table. Here's the inner radius. It's got a string wrapped on it. You're pulling the string this way at v in the i direction. This'll be o xy. And now the question is, when you pull on this, which way will the spool go? And most of you said it will go to the left.
+
+So I made this up. We're going to do the experiment. So I've wrapped Teflon tape on this spool. It's got a C battery in the center to give it a little bit of weight. And here's the experiment. And the guys in the booth I hope have in a minute to zoom in on it. I'm going to let go and I'm going to start pulling. Oops. I need to put a little more out here. Pull on the tape.
+
+You believe it? So I've done the reverse of what's in there. I'm pulling that way. But it goes in the same direction as you pull it. So the answer to this question is, it would go to the right. Kind of unbelievable almost, right? How does it do that? Let's do it again.
+
+All right. Now, show you something else. If that hasn't boggled your mind. Then what's it going to do if I pull straight up? How many think it's going to go that way? Raise your hand. How many think it's going to go that way? Raise your hand. All right. Sure enough. That means it must be some angle between in which it will do neither. It'll start to slip. Right about there. Neat little problem.
+
+And now doing this problem is all about computing velocities, using concepts like. So if we call this a, b, c. I think it's the other way around in the problem. Excuse me. A, b, c, and d. The key to this problem is being able to figure out what the velocity of this point c is.
+
+And the first thing to understand, this is the velocity of the end of the tape in a fixed reference frame. So every point on the tape moves at the same speed. That means where it touches right here is also moving at that speed. So the velocity of c with respect to o is to vi. And that's kind of the key to the problem. That's also equal to the velocity of d with respect to o plus the velocity of c with respect to d. And the velocity of d is this point of contact with the ground.
+
+What's that velocity? 0. This is back to those instantaneous center of rotation things. 0 there is what makes this equation easy. And then you know how to compute the velocity of a rotating vector. This one's not changing length, but it is surely rotating about this point, and so there's going to be an omega cross r here. And that'll allow you to solve for omega and then once you know for omega then you can solve for a, which is the real question that was asked.
+
+OK. Next one. So the starting position, this is a spool. There's the arm. And here, the question is at 0.25 meters up here. And if you move it down to 0.15 will the system be able to go faster before it breaks loose or not? And your answer was most people said yes. And basically that's true. What is it that's driving that thing, providing the force that is trying to push it up the sleeve?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: So the rod as it's going around is trying to drive that thing in a circle. And therefore, it is being accelerated to the central points. So it has centripetal acceleration. And that requires forces and they come through the rod. And that will develop the normal forces and friction.
+
+So when you slide down the rod some to that new position, is has that centripetal acceleration gone up or down. r's gotten smaller. Centripetal acceleration is? r omega squared, right? So you might be speaking algebraically. So the magnitude of that centripetal acceleration has gone up or down if you bring it closer to the axis. Down. So you can go faster to get up to the same level of acceleration or it'll break free. Next.
+
+This is, oh, the natural frequency of the pendulum. Some of you said yes, some of you said no, some not sure. You're going to find out. You're going to figure out the equation of motion of the system. And it includes that torsional spring and mass is definitely going to be in it. So look for an answer that includes-- that you'll see that mass is going to show up in a way that if you solve for the natural frequency, it won't leave the final equation. OK.
+
+So this is the one about the two masses. And if the spring were 0, the second natural frequency of the system. The first natural frequency, when you have a system that has what's called a rigid body degree of freedom. When this thing went, there's no k1 spring. This system looks like two masses on wheels connected by a spring and a dashpot. And in the x direction, there are no constraints.
+
+So if I set this system to vibrating, what can you say about the motion of its center of mass? So could you find the center of mass of that system? Got to give you the masses of it. But you have some m1 and an m2. And we'll call this the x in that direction.
+
+Could you determine the center of mass of the system? You know how to do that, right? If they were equal in mass, it'd be in the center. If this was bigger, it'd be over here or something like that. So we know that for a system of particles, the sum of the external forces on the system is equal to mass of the system times the acceleration of the what? Center of mass.
+
+What are the external forces in the horizontal direction? How big are they? 0. Therefore, what can be the acceleration of the center of mass? 0. This thing will actually in this second natural frequency, it'll sit there and just oscillate back and forth, one mask on one directional, one on the other. But its center of mass won't move.
+
+The other degree of freedom and the other natural frequency, the one that has 0 natural frequency, is a rigid body motion. No relative motion. Give this thing a little push, some initial momentum, it'll just sit their role forever. The mass is not moving relative to one another. It just rolls and rolls and rolls and rolls and never comes back. Infinite period 0 natural frequency.
+
+OK, we were talking about fictitious forces the other day. And there are times when they're useful. But they're sort of like giving a little kid a loaded gun. You really get yourself in trouble quickly. So I'm not advocating a lot of use of it. But it's good to have a little insight.
+
+One of the students after the lecture last time, a student mentioned to me, he said, the way I was taught about fictitious forces is that we use them to patch up a problem when we're trying to work in a non inertial frame. How can you make Newton's laws apply if you are in a non inertial frame? Otherwise an accelerating reference frame. So I just thought I would revisit a little bit of what we said the other day with explaining things that way a little bit. So it might just turn out to be familiar for you. And let's just look.
+
+Let's just go back quickly and revisit that elevator problem. So you remember you're here. You've got some mass m. You're standing on some scales. And I want to know what the scales are going to read. Now, we did this one quickly the other day. I'm just going to revisit it. And this accelerating, this is point A. And here down here is o. My inertial frame. And the acceleration of A with respect to o is plus a quarter of g in the j hat direction. OK?
+
+Now, when you think about this, if you're trying to do physics in the elevator, but it's an accelerating frame, so Newton's laws don't apply. So you're in the elevator. You can't see you're accelerating. But you could measure your weight, for example. So how do you fix up the equations so that you can predict the right answer? And to do that, basically you I have to add in a force, a fictitious force, that accounts for the additional forces you will feel in this system due to the acceleration.
+
+So remember the way we did this problem. You do this problem just in a straightforward way, a summation of the external forces in the y direction is the mass times acceleration, a with respect to o. And we need a free body diagram. In the free body diagrams, this mass here, you have an mg downwards and an n upwards. And so you'd say this is equal to n minus mg.
+
+Now, if you're doing this experiment inside, you can measure this n that's going to be your weight. And you would like to do this by fictitious forces, you say that the summation of the external real forces minus this mass times the acceleration of a with respect to o has got to be equal to 0. And that's then n minus mg minus mg over 4.
+
+Here's your fictitious force. And that's as if then you've come over here and you've added an additional force on this free body diagram that looks like mg over 4. And now you say the sum of these forces, this is the correction. It's allowing you now to work in this accelerating frame. If do this free body diagram and sum these up, then you will find this expression, which you can solve for n. And you'll get m5 over 4g. In fact, if you stood on the scales, that's what you'd get.
+
+All right, so this is example one. I want to do sort of example 1.5. The cable breaks on this elevator. Your free body diagram still has an mg on it. You're still inside. You're still measuring forces. And you want to use this idea of a fictitious force to help you sort out what forces will you feel inside of that elevator.
+
+You know how to do the answer in this straightforward way. The sum of external forces is minus mg. And that's equal to the mass times the acceleration of a with respect to o. And therefore acceleration of a with respect to o is just minus g. And you could have told me that. That's trivial. If you drop the thing, it accelerates the acceleration of gravity.
+
+So I want to know what's the-- you're doing the experiment inside. You don't know that you're accelerating. All you're doing is measurements. But you've been told how to correct it. So let's put it in the fictitious force, which is minus ma 0. And that means the mass times acceleration is downwards. So minus that. The fictitious force is an mg force upwards. And what do you feel? What do the scales read? Nothing. You feel absolutely nothing.
+
+OK. So just an aside kind of question, because I know this is confused. Occasionally we all get confused around this. In these problems that we do, is gravity an acceleration? We say all the time, I use the phrase the acceleration of gravity. How many times have you ever said that? Have you ever said that? The acceleration of gravity.
+
+What do we mean? What we mean is this. When you let something drop in free fall, it'll accelerate at g. But the way we apply when we're writing out equations of motion, we say the sum of the external forces is equal to mass times acceleration. Where does gravity go? It's a force.
+
+So this is another thing not to get confused by is to think about gravity as being an acceleration. We spend a lot of time figuring out ways to write accelerations in rotating, translating, reference frames. Gravity never pops up in there. It always comes up on the force side of the equation. OK.
+
+All right, so one last example from last time. But it's relevant to a problem on the homework. So we have this shaft spinning. This is the z-axis spinning at constant rate omega. And we'll use this is r hat and this is z k hat. These are the lengths r hat direction and the height z. We're using cylindrical coordinates. And now let's just use this notion of fictitious forces to figure out first what's the what's the fictitious force in this system.
+
+Remember, this is now this notion of you're out there where this mass is. You're riding with this mass. And you're trying to say, what force am I going to feel? You want to be able to predict it correctly. So you have to find a fictitious force that you can bring in that accounts for what acceleration are we feeling out there. Centripetal, right?
+
+And the centripetal acceleration, we want the sum of the external forces. And this is going to be in the r hat direction minus m times the-- and now we need reference frames here. So you have a fixed frame o xy. You have a rotating frame here, a x prime, y prime, z prime. And this is your point b up here.
+
+So some of the external forces minus the mass times the acceleration of b with respect to 0 has got to be equal to 0. That's how this fictitious force thing works. So on the free body diagram of this thing, what are the actual forces on it? Well, there's certainly a weight downwards. There must be some supporting force upwards.
+
+And we'll put that in the z direction here. Because this thing certainly doesn't accelerate up and down. So the rods lifting it up somehow. The rod has potentially some radial component. And I'm just drawing it in the positive direction. And those are my forces. And in this problem, omega dot theta double dot equals 0 and r dot and r double dot were 0. So it's constant rotation rate. No geometry changes here.
+
+So we did, we cranked through this problem before. And now I wanted to make this correction. I want to add this fictitious force in. The acceleration is minus r omega squared in the r hat direction. So minus m times that is a plus. I get an m r omega squared. And pointing outwards.
+
+And so the sum of the forces in the radial direction minus-- some of the forces in the radial direction now minus this mab with respect to o. Well, what are some of the real forces? Just nr. And this minus mass times the acceleration, that's your mr squared. mr omega squared. And that's got to be 0. So you find out that there is a--
+
+This all is 0. Therefore solve for nr is minus mr omega squared. So that rod out here is constantly pulling it in to make it go around the circle. But we've just done this now by this notion of a fictitious force.
+
+So let's go back to this problem now. Well actually, I'll just take one final step. Here's your free body diagram touched up with this fictitious force so that we can work as if we're here. And by the way, if you could measure, if you had a strain gauge or something so you can measure the force that this rod is putting on that mass. If you can measure it out there, this would be what you would measure.
+
+Now what about the torque that force creates around here? So you have outward force mr omega squared at centrifugal force, this fictitious force. Going pulling it out up here. What moment does that create down here? What's the magnitude first? And that'll be a torque around in the theta direction. So what's the moment arm?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: The moment arm? The moment arm. z. OK. So then the torque is going to be 4r cross f and it's going to be the mrz omega squared. And it's at centripetal forces trying to bend it out. Therefore the torque down here required to keep it from doing so is actually in the other direction. So the torque that this system must put on this bar is minus.
+
+OK. So let's go to this problem. If this is the point about which we're computing the moments, then there's centripetal acceleration in this problem, but in what direction are they? Either one of those masses. Pardon? So each little mass, like the upper mass m over 2. It's spinning and it's shown as it's coming around the wheel. It's up at the top.
+
+What direction is the fictitious force that it's putting on that system? Radial outwards, right? And does it have any moment arm that force going up with respect to that point in the center? No. So it creates no moment. The bottom one by symmetry doesn't either.
+
+This one over here, it also has a fictitious force you can think of. It's just outward mr omega squared. What's its moment arm with respect to our origin here? 0. Again, it produces no moment. It produces an unbalanced force though, right? It's going around producing an unbalanced force. This problem, the upper ones, the fictitious force is up.
+
+The lower one, which direction is it? Down. It's perfectly balanced. They're just equal and opposite, just going around. You'd feel nothing uncomfortable. This one you'd feel, this motorcycle trying to hop down. It really happens, right?
+
+But this one, what happens? Does this mass m over 2, what direction is the centripetal acceleration? I've changed the wording a little bit. The upper mass in case b, which direction is the centripetal acceleration? Straight down, right? And the bottom mass, what direction? Straight up.
+
+And the fictitious forces that reflect those two accelerations are the top one is up and the bottom one is down. But they produce a net. Do they have a moment arm that they act on with respect to that center? Yeah, this little distance here. I think it's called b in the problem.
+
+So this thing, m over 2 r omega squared times b, is a torque about the x-axis. And this one down here is another m over 2 r omega squared and it's another torque in the same direction. So this thing produces quite a strong moment. But as the wheel turns, that moment starts off, it's about the x-axis here. But when that weight gets to 90 degrees, what direction is the moment?
+
+So we just do all the way around the y-axis. So it's going to be a moment. The answer to this problem is in time it's going to look something like mr omega squared z sine or cosine omega t. So the moment in this around the x-axis is going to be trying to-- the bike's going to try to go back and forth like this. With frequency omega. OK.
+
+Oh, I was going to say that's it for fictitious forces, but it's not. I've got a great demo for you. All right. We have a slope. I've got a cart on wheels there. And I actually do. OK. And I'm going to put a box here. I got the wrong color here, but I'll try colored chalk for the first time. In the box I've got a fluid. And the box has a lid on it so I don't make a mess.
+
+Now, I'm actually going to do this experiment. I brought my ramp. We're going to set up this ramp. This box is going to be rolling down this hill. And basically no losses. No friction holding it back. It's just going to be able to take off and accelerate down that hill. I want to know a, b, c. When it's rolling down that hill, will the fluid in the box look like that, look like that, or like that?
+
+So we're going to take our poll here. So how many believe that when it's rolling down the hill, the fluid will stay level, parallel to the ground? Let's raise your hands. I want everybody to make a guess here. Everybody get in it. Raise them high if you think it's going to stay level. OK, maybe a quarter of you. How many think it's going to do this? OK, a few more. And how many think it's going to do this?
+
+All right, so I want you get in natural little groups there of two or three people and talk about this for a couple minutes and see if you can convince your neighbor that you're right. Figure this out. Stop and talk about it. And let's set up to do the experiment. Actually, I think if we do it up here. Yeah. So like that. So you hold the ramp. OK, you come here. We'll just practice our set up here for a second. You're going to have to hold it quite a bit higher. And actually when we get ready to go--
+
+AUDIENCE: How well sealed is that?
+
+PROFESSOR: It's very well sealed. You hold it and you release it. And that's about the right-- because I got to catch it so it doesn't-- now, we're going to stop. We're not going to do it right away. I'm going to get them to answer the question a second time. Good idea. All right. And I think that'll work just great. And we're not going to give it away. OK, so set it down and we'll do the thing. Just drop it.
+
+OK, let's do the quiz again. I want to see if any of you convinced your neighbor to change their vote. So how many believe that it's going to be A? Hm, one or two. Interesting, that kind of went down. How many believe it's going to be B? A lot of people went up. How many think it's going to be C? OK, still a couple hold outs. Let's do the experiment.
+
+So guys in the booth, can you get a good shot of this, I hope? I want this so it [INAUDIBLE]. All right. Move the chalk. Yep. And I'm going to have to catch it. All right. Let her rip. Which way?
+
+AUDIENCE: B.
+
+PROFESSOR: Yeah. Let's do it again. Just make sure the guys in the booth got a good shot of this. OK, once more. Pretty neat, huh?
+
+If you're skiing downhill, you're going down the hill, accelerating, which way do you feel the forces on your body? You feel the forces pulling you down straight? Do you feel the forces pulling you down the hill? Do you feel the forces pulling you into the hill? So this is straightforward application of this. The slope of that liquid was parallel to the slope. Get my notes back out here.
+
+So let's quickly do this problem rigorously, the way we'd do it straightforward with accelerations and free body diagrams and so forth. We're going to have some normal force pushing up. I said no friction. This thing's a slippery surface, just as if it's sliding down. Got to do rollers in the classroom. It's got an mg. And there are no other external forces. And we know then that the summation of the external forces, that's got to be the mass times the acceleration.
+
+And I'm going to make this here. I'll call this point A in the center. And I'm going to make my inertial reference frame x down the hill, y perpendicular to the hill. So the mass times the acceleration of a with respect to o is then equal. And this is my then external forces. So this is my x direction. So I'm going to break this and mg force into two components. One down the hill. Guess I need an angle. Let's see.
+
+So if this is theta, then this is theta here. And the force down the hill is that component is mg sine theta. And the force this direction is then going to be. And I'll just give us some unit vectors here to keep things straight. This force is minus mg cosine theta in the j hat direction. So the sum of the forces here, all of them, are mg sine theta i hat minus mg cosine theta j hat plus n in the j hat direction.
+
+So that's the total vector sum. And that's got to be equal to my mass times the acceleration of a with respect to o. And we know that's straight down the hill. So this one's only going to be in the i hat direction. We know the acceleration perpendicular hill has got to be 0.
+
+OK, so if we just add up the components of this thing. In the i hat direction, just the x direction, then I have only this term and that term. And I find that the mg sine theta equals. And so the acceleration of a with respect to o is just g sine theta.
+
+OK, well that's pretty trivial. And it doesn't give us much insight about-- that doesn't give me much insight about why that's the answer. So actually this is a time when maybe thinking about if you're in that free, you're going down the hill, you're skiing, and you're now in an accelerating reference frame, and you want to say I want to work from this frame, what fictitious force do I have to add to that free body diagram so I can account for my acceleration?
+
+So remember the fictitious force we want to deal with has to do with this guy. We're in the moving frame. We can't judge this. We're just told that it exists and we need to correct for it. So we need a fictitious force that's minus ma with respect to o. So that would be minus mg sine theta. And that would be in this direction.
+
+So dashed lines here is my mg sine theta fictitious force. In the other direction was the real force, the component of gravity mg sine theta. In this direction was my normal force. And in this direction is my component of gravity that is my mg cosine theta. It's a real force. So yeah, these real forces and this fictitious force. But now we can say that all these forces have to sum to 0.
+
+But look what happens here. What force do you feel? In the reference frame, you're the skier going down the hill. What net forces do you feel on you that are in the x direction down the hill? 0. It's exactly. The reason I did that silly free fall problem a minute ago when you drop something, when you're weightless, the scales are reading-- the cable broke in the elevator, scales read 0. The fictitious force was equal and opposite to the gravitational force you feel and the scales would show no force in the free fall direction.
+
+In this case, you're not free fall, but you're free fall down a slope. In the component down the slope, you have no net force in that direction. In the reference frame that moving cart, the only actual force you feel is in. You will feel a force on your feet equal to mg cosine theta. So if theta goes to 90 degrees, you're in free fall, and it goes to 0. Say it is 0 degrees, it's max, and you would feel mg. This is [INAUDIBLE] me where this notion of a fictitious force kind of helps me figure out what's going on. Pretty amazing.
+
+OK. So we're going to move on from this kind of discussion of fictitious forces of things. So it's been an hour. We'll take a little break for a second. Also, if you've got any questions about what we've covered up to this point, think about them and ask them in a minute. Let's take a short break.
+
+So while you've been taking a break, a couple of people came up and asked questions. One of them was, are fictitious forces real? And the other is, why does the water move?
+
+So the answer to the first question. If you want to be careful and do the problem rigorously, don't mess with fictitious forces. The only real forces in the problem are the ones that you would put on a free body diagram, such that the sum of the external forces equals the mass times acceleration.
+
+These forces are always real ones. They are gravity. They are normal forces. They're friction. They're spring forces. They're dashpot forces. They're all these mechanical things, but they're real forces. And the rod, that thing spinning around, that rod, since it's a rigid thing, it can support bending. So it has shear force, axial forces. Those are real forces that it can put on the mass.
+
+Fictitious forces are not forces. They are minus a mass times a real what? Acceleration. So real forces, real accelerations. We use this notion of a fictitious force as a convenience. But it is a highly dangerous tool. But actually once you get used to it a little bit, it can give you some really quick insight.
+
+But I would always, if I have doubts, I'd always go back and just do the problem the rigorous way and just check that your insight was right. But it can give you a great insight to starting a problem. You know to expect a centrifugal term in your results. You know to expect a Coriolis term. You know that they're going to be there because sometimes you feel them. The reason we like to use them is because you actually can feel them. They actually affect what you feel.
+
+So in that first problem, the elevator problem, the answer-- I didn't actually write it. Here it is. The normal force that you feel, that the scale weighs is 5 force g. And it's the sum of gravity and that fictitious force. It's mg plus m times a quarter of a g.
+
+It's in this moving references, this accelerator reference frame inside an elevator where you can't directly measure the acceleration. All you can measure is the force. But you know what the acceleration is. It's given. So you stick it in as a fix and you find out that the real normal force that you measure actually has in it that piece comes from the fictitious force.
+
+OK. Why does the water move? This is really the same discussion. The fictitious force up the hill and the real force down the hill exactly cancel. If you're standing on scales, it actually can measure side force as well as normal force. Standing on the scales, you would feel no side forces up and down the hill. None. You measure a normal force and the normal force you measure will be mg cosine theta.
+
+So the force on any object in that accelerating reference frame, it essentially thinks that all forces are perpendicular, that you feel in that reference frame, are perpendicular to the hill. So why does water seek level? Because the force gravity is down and the surface of the water goes perpendicular to the gravitational force. That's just the nature of fluids.
+
+So if the force on all those fluid particles is this angle, what's the fluid level going to do? So that the pressure on the surface is equal everywhere. And if you go a foot down, you get equal pressure everywhere in the fluid. So the water moves so that its surface will be perpendicular to what it thinks. It thinks that this is kind of being a local gravity. The local gravity is pointed in that direction, so the surface level seeks that level.
+
+If somebody else can say it better than that. Tom, Dave, Matt, anybody? Yeah.
+
+AUDIENCE: Can I ask you a question?
+
+PROFESSOR: Yeah.
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Yeah, as if you're on the body and you're trying to sum up all the forces you feel and accounting also for the fact that this is accelerating. And the fix it force is this fictitious force that's due to the body's acceleration. You have to know that you're accelerating to be able to put this term in. And it comes from this equation, thinking of this as a generic equation by taking this term and just moving it to this side and setting everything equal to 0. Lots of puzzlement around this.
+
+AUDIENCE: What happens if you make the angle of the ramp very steep?
+
+PROFESSOR: Very steep. So if it goes to 90 degrees, you're in free fall. This cosine theta goes to 0, n goes to 0. This term stays the same. This goes to mg that way. This goes mg that way. And it's an equilibrium in both--
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Then you're going to have very, very small, normal force.
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: I couldn't hear the last comment.
+
+AUDIENCE: The water wouldn't go all the way to the side. It'd be vertical length [INAUDIBLE].
+
+PROFESSOR: Well, water, unfortunately, with the tiniest little bit of normal force here the water will seek that level. But when it gets to 0 the water is going to be in free fall. Surface tension takes over. Yeah?
+
+AUDIENCE: Is this like the argument that [INAUDIBLE] is the same as if it was just on a flat surface accelerating?
+
+PROFESSOR: Oh, good question. If you were on a flat surface accelerating. If you were accelerating in this cart. Accelerates with the fluid on it and it's accelerating in that direction, what would the surface of the liquid do? Stay level or change? OK, does it slope back or does it slope forward? I'm accelerating in that direction. There's a fictitious force pushing back on it, makes it pile up at the back.
+
+OK one more. You're in the elevator. You're accelerating a quarter of a g. The scales tells you you weigh 25% more than you used to. And you have a pendulum. And before the elevator starts, it's got a one second natural period. And now the elevator gets going. Does the period change? Higher or lower?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: OK, so the natural frequency of the pendulum, simple pendulum square root of g over l. What do you guess that the natural frequency is if you're going up at a quarter of a g? Say again?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: It's as if you have a higher or lower acceleration of gravity around. But you have a higher gravitational force is what you think you're feeling. Is that going to make the tension in this string higher? Is that going to make the weight of the pendulum feel greater? Yeah, by 5 force. And you'll find out, you'll work out. It gets kind of messy to prove this rigorously, but it's going to look something like the square root of 5/4 g over l. OK.
+
+We've got a little time left. I might not be able to completely finish this. But I do want to show you something. Hold it up so they can see it. Gets pretty violent, doesn't it? Pass it around. OK. This thing is shaking like crazy. All right.
+
+All right. In the absence of external forces, what can you say about the motion of its center of gravity, do you think? In at least this direction. Can't move, right? Up and down direction the center of gravity does move, because I'm putting a force on it through the cord. This has a relation to a problem that you had on problem set two. I want to go back and talk about it a little bit.
+
+And this is that thing with the track in it. And a roller going around. And it's going to around at constant speed. And this has mass m. This is mass. The outside thing is just the mass of this block. And there's an internal donut in here, [INAUDIBLE], and this mass is made to go around and around and around and around inside. And you were asked to figure out the acceleration of that guy. But this thing's on wheels.
+
+Now, this problem, and I apologize for posing this problem the way I did. I should have posed in the following way. These two problems are really equal to one another. I have a rod. I have a mass on the end. This radius here we said was e. This radius is e. The mass is the same. It's m. This was going around at omega. This is going around at omega. This is on wheels.
+
+Exactly these two problems are identical. Because if the geometry's the same, the rotation rate's the same, the masses are the same, the acceleration of this bead here, this roller is the same in this problem as it is in that problem. Just in this problem it's much easier to figure out the forces. This turned out to be kind of nasty.
+
+And I said last time that the solution to b part, which is the normal force that this is put on this roller, I said that answer was wrong. I actually am wrong about that. I was thinking of a different answer. I was thinking of this problem. The answer that was given, the normal force that is by the track places on the roller or vice versa is actually what was given is correct. It wasn't what I actually was seeking when I wrote the problem. Sometimes when you're making up problems, you have an end result in mind and then you wrote it wrong. I wrote it wrong.
+
+So let's do this problem. This is partly to review a couple of things for you. What I really want is I want to find equation of motion in-- [INAUDIBLE]. So here's my xyz inertial reference frame. I just lined it up here with the center of this thing to start with. Doesn't really matter.
+
+So I want to find an equation of motion in the x direction. We don't have time to do this whole problem here, so I'm going to do the first piece of it. Just to give you some review, an exercise in figuring out degrees of freedom. I'm implying that I can write one equation. It may take more than that.
+
+So the number of degrees of freedom we said is equal to the number of required-- I can't write today-- independent coordinates. So the number of coordinates required to completely describe the motion. And we came up a little expression for that. It's 6 times the number rigid bodies plus 3 times the number of particles. So this is rigid bodies. This is particles. Minus c. And these are the constraints.
+
+So let's figure that out for this problem. So how many constraints? It's just a quick practice. So constraints and I'm going to start off with on the main block. So on the main block, there's no y motion. There's no z motion. These rollers don't let it come in or out. So no y or z motion. So that's two constraints. What about rotations on the main block? How many constraints are we assuming here? Three. We're not allowing it the role in x, the y, or the z. So there's three more constraints.
+
+And now on the little mass. On the little mass, there's no z motion. That's out of the board. That's one more constraint. And then omega t is the angle that this thing. It's theta. This is specified. It's a given in the problem. It's not unknown. It's just that's what's going, that's what makes this thing do its thing. It's going round and round. And so this is not an unknown. And therefore you can say that the y motion of this particle is e sine omega t. And that's a constraint.
+
+And the x motion is the motion of the main block to which it's attached plus an e cosine omega t. And these are knowns. You've already counted for this. That's the main mass's motion. So this is something known. So these mount up, each one of these. This gives you a constraint and this gives you a constraint. And so let's add them up. So 2 and 3 are 5. 6, 7, 8. So you can actually completely describe the motion of this thing with one equation of motion.
+
+So I'm seeking. So I want to find the sum of the external forces on the main block in the x direction. And that's going to be. We know that that's the mass of that block times x double dot. So x is going to be the coordinate that describes the motion that mass mb.
+
+So we need a free body diagram of mb. So here's the block. There'll be a normal force up. There's going to be mbg downwards. And the only other forces acting on this block are a force that comes through this rod that's holding that mass, the little mass. I'm just going to draw it at some arbitrary angle, not necessarily theta. It's going to be a force.
+
+I'm going to call that force on this main mass. And it's a vector for the moment. It'll have two components in the x and y directions. So in order to write an equation-- in the y direction it's trivial. n is equal to mbg. In this direction, we have to have to break this into two components. We need to know the component of this in the x direction and put it in here and we'll be done.
+
+So now I'm going to use third law. The force that rod places on this body is equal and opposite to the force at the rod places on the mass going round and round. You agree with me?
+
+So what we need to do next is here's the mass up here going around and round. And the force is on it, because it has an mg downward. And it has some force on it that is the force on the little mass. And you're going to find that f on the little mass equals minus f on the big mass due to third law consideration.
+
+So all I have to do is then figure out the x component of this force, put a minus sign in front of it, and I'm basically done. And to do that I say f equals ma. I don't have to finish it today. I'll show you next time. And we'll figure out the equation of motion for this thing.
+
+Now, in dragging all this stuff here today, I forgot to bring my muddy cards. So you've got a minute. And if any of you have just a brilliant question you want to answer or something you really liked, if you don't mind, just take a piece of paper, make a note on it, and drop it off on the way out. Thanks a lot. See you on Thursday.
+
+[[Fictitious force: elevator cable breaks]]
+Print This Document
+
+OK, we were talking about fictitious forces the other day. And there are times when they're useful. But they're sort of like giving a little kid a loaded gun. You really get yourself in trouble quickly. So I'm not advocating a lot of use of it. But it's good to have a little insight.
+
+One of the students after the lecture last time, a student mentioned to me, he said, the way I was taught about fictitious forces is that we use them to patch up a problem when we're trying to work in a non inertial frame. How can you make Newton's laws apply if you are in a non inertial frame? Otherwise an accelerating reference frame. So I just thought I would revisit a little bit of what we said the other day with explaining things that way a little bit. So it might just turn out to be familiar for you. And let's just look.
+
+Let's just go back quickly and revisit that elevator problem. So you remember you're here. You've got some mass m. You're standing on some scales. And I want to know what the scales are going to read. Now, we did this one quickly the other day. I'm just going to revisit it. And this accelerating, this is point A. And here down here is o. My inertial frame. And the acceleration of A with respect to o is plus a quarter of g in the j hat direction. OK?
+
+Now, when you think about this, if you're trying to do physics in the elevator, but it's an accelerating frame, so Newton's laws don't apply. So you're in the elevator. You can't see you're accelerating. But you could measure your weight, for example. So how do you fix up the equations so that you can predict the right answer? And to do that, basically you I have to add in a force, a fictitious force, that accounts for the additional forces you will feel in this system due to the acceleration.
+
+So remember the way we did this problem. You do this problem just in a straightforward way, a summation of the external forces in the y direction is the mass times acceleration, a with respect to o. And we need a free body diagram. In the free body diagrams, this mass here, you have an mg downwards and an n upwards. And so you'd say this is equal to n minus mg.
+
+Now, if you're doing this experiment inside, you can measure this n that's going to be your weight. And you would like to do this by fictitious forces, you say that the summation of the external real forces minus this mass times the acceleration of a with respect to o has got to be equal to 0. And that's then n minus mg minus mg over 4.
+
+Here's your fictitious force. And that's as if then you've come over here and you've added an additional force on this free body diagram that looks like mg over 4. And now you say the sum of these forces, this is the correction. It's allowing you now to work in this accelerating frame. If do this free body diagram and sum these up, then you will find this expression, which you can solve for n. And you'll get m5 over 4g. In fact, if you stood on the scales, that's what you'd get.
+
+All right, so this is example one. I want to do sort of example 1.5. The cable breaks on this elevator. Your free body diagram still has an mg on it. You're still inside. You're still measuring forces. And you want to use this idea of a fictitious force to help you sort out what forces will you feel inside of that elevator.
+
+You know how to do the answer in this straightforward way. The sum of external forces is minus mg. And that's equal to the mass times the acceleration of a with respect to o. And therefore acceleration of a with respect to o is just minus g. And you could have told me that. That's trivial. If you drop the thing, it accelerates the acceleration of gravity.
+
+So I want to know what's the-- you're doing the experiment inside. You don't know that you're accelerating. All you're doing is measurements. But you've been told how to correct it. So let's put it in the fictitious force, which is minus ma 0. And that means the mass times acceleration is downwards. So minus that. The fictitious force is an mg force upwards. And what do you feel? What do the scales read? Nothing. You feel absolutely nothing.
+
+OK. So just an aside kind of question, because I know this is confused. Occasionally we all get confused around this. In these problems that we do, is gravity an acceleration? We say all the time, I use the phrase the acceleration of gravity. How many times have you ever said that? Have you ever said that? The acceleration of gravity.
+
+What do we mean? What we mean is this. When you let something drop in free fall, it'll accelerate at g. But the way we apply when we're writing out equations of motion, we say the sum of the external forces is equal to mass times acceleration. Where does gravity go? It's a force.
+
+So this is another thing not to get confused by is to think about gravity as being an acceleration. We spend a lot of time figuring out ways to write accelerations in rotating, translating, reference frames. Gravity never pops up in there. It always comes up on the force side of the equation. OK.
+
+All right, so one last example from last time. But it's relevant to a problem on the homework. So we have this shaft spinning. This is the z-axis spinning at constant rate omega. And we'll use this is r hat and this is z k hat. These are the lengths r hat direction and the height z. We're using cylindrical coordinates. And now let's just use this notion of fictitious forces to figure out first what's the what's the fictitious force in this system.
+
+Remember, this is now this notion of you're out there where this mass is. You're riding with this mass. And you're trying to say, what force am I going to feel? You want to be able to predict it correctly. So you have to find a fictitious force that you can bring in that accounts for what acceleration are we feeling out there. Centripetal, right?
+
+And the centripetal acceleration, we want the sum of the external forces. And this is going to be in the r hat direction minus m times the-- and now we need reference frames here. So you have a fixed frame o xy. You have a rotating frame here, a x prime, y prime, z prime. And this is your point b up here.
+
+So some of the external forces minus the mass times the acceleration of b with respect to 0 has got to be equal to 0. That's how this fictitious force thing works. So on the free body diagram of this thing, what are the actual forces on it? Well, there's certainly a weight downwards. There must be some supporting force upwards.
+
+And we'll put that in the z direction here. Because this thing certainly doesn't accelerate up and down. So the rods lifting it up somehow. The rod has potentially some radial component. And I'm just drawing it in the positive direction. And those are my forces. And in this problem, omega dot theta double dot equals 0 and r dot and r double dot were 0. So it's constant rotation rate. No geometry changes here.
+
+So we did, we cranked through this problem before. And now I wanted to make this correction. I want to add this fictitious force in. The acceleration is minus r omega squared in the r hat direction. So minus m times that is a plus. I get an m r omega squared. And pointing outwards.
+
+And so the sum of the forces in the radial direction minus-- some of the forces in the radial direction now minus this mab with respect to o. Well, what are some of the real forces? Just nr. And this minus mass times the acceleration, that's your mr squared. mr omega squared. And that's got to be 0. So you find out that there is a--
+
+This all is 0. Therefore solve for nr is minus mr omega squared. So that rod out here is constantly pulling it in to make it go around the circle. But we've just done this now by this notion of a fictitious force.
+
+So let's go back to this problem now. Well actually, I'll just take one final step. Here's your free body diagram touched up with this fictitious force so that we can work as if we're here. And by the way, if you could measure, if you had a strain gauge or something so you can measure the force that this rod is putting on that mass. If you can measure it out there, this would be what you would measure.
+
+Now what about the torque that force creates around here? So you have outward force mr omega squared at centrifugal force, this fictitious force. Going pulling it out up here. What moment does that create down here? What's the magnitude first? And that'll be a torque around in the theta direction. So what's the moment arm?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: The moment arm? The moment arm. z. OK. So then the torque is going to be 4r cross f and it's going to be the mrz omega squared. And it's at centripetal forces trying to bend it out. Therefore the torque down here required to keep it from doing so is actually in the other direction. So the torque that this system must put on this bar is minus.
+
+OK. So let's go to this problem. If this is the point about which we're computing the moments, then there's centripetal acceleration in this problem, but in what direction are they? Either one of those masses. Pardon? So each little mass, like the upper mass m over 2. It's spinning and it's shown as it's coming around the wheel. It's up at the top.
+
+What direction is the fictitious force that it's putting on that system? Radial outwards, right? And does it have any moment arm that force going up with respect to that point in the center? No. So it creates no moment. The bottom one by symmetry doesn't either.
+
+This one over here, it also has a fictitious force you can think of. It's just outward mr omega squared. What's its moment arm with respect to our origin here? 0. Again, it produces no moment. It produces an unbalanced force though, right? It's going around producing an unbalanced force. This problem, the upper ones, the fictitious force is up.
+
+The lower one, which direction is it? Down. It's perfectly balanced. They're just equal and opposite, just going around. You'd feel nothing uncomfortable. This one you'd feel, this motorcycle trying to hop down. It really happens, right?
+
+But this one, what happens? Does this mass m over 2, what direction is the centripetal acceleration? I've changed the wording a little bit. The upper mass in case b, which direction is the centripetal acceleration? Straight down, right? And the bottom mass, what direction? Straight up.
+
+And the fictitious forces that reflect those two accelerations are the top one is up and the bottom one is down. But they produce a net. Do they have a moment arm that they act on with respect to that center? Yeah, this little distance here. I think it's called b in the problem.
+
+So this thing, m over 2 r omega squared times b, is a torque about the x-axis. And this one down here is another m over 2 r omega squared and it's another torque in the same direction. So this thing produces quite a strong moment. But as the wheel turns, that moment starts off, it's about the x-axis here. But when that weight gets to 90 degrees, what direction is the moment?
+
+So we just do all the way around the y-axis. So it's going to be a moment. The answer to this problem is in time it's going to look something like mr omega squared z sine or cosine omega t. So the moment in this around the x-axis is going to be trying to-- the bike's going to try to go back and forth like this. With frequency omega. OK.
+
+Oh, I was going to say that's it for fictitious forces, but it's not. I've got a great demo for you. All right. We have a slope. I've got a cart on wheels there. And I actually do. OK. And I'm going to put a box here. I got the wrong color here, but I'll try colored chalk for the first time. In the box I've got a fluid. And the box has a lid on it so I don't make a mess.
+
+Now, I'm actually going to do this experiment. I brought my ramp. We're going to set up this ramp. This box is going to be rolling down this hill. And basically no losses. No friction holding it back. It's just going to be able to take off and accelerate down that hill. I want to know a, b, c. When it's rolling down that hill, will the fluid in the box look like that, look like that, or like that?
+
+So we're going to take our poll here. So how many believe that when it's rolling down the hill, the fluid will stay level, parallel to the ground? Let's raise your hands. I want everybody to make a guess here. Everybody get in it. Raise them high if you think it's going to stay level. OK, maybe a quarter of you. How many think it's going to do this? OK, a few more. And how many think it's going to do this?
+
+All right, so I want you get in natural little groups there of two or three people and talk about this for a couple minutes and see if you can convince your neighbor that you're right. Figure this out. Stop and talk about it. And let's set up to do the experiment. Actually, I think if we do it up here. Yeah. So like that. So you hold the ramp. OK, you come here. We'll just practice our set up here for a second. You're going to have to hold it quite a bit higher. And actually when we get ready to go--
+
+AUDIENCE: How well sealed is that?
+
+PROFESSOR: It's very well sealed. You hold it and you release it. And that's about the right-- because I got to catch it so it doesn't-- now, we're going to stop. We're not going to do it right away. I'm going to get them to answer the question a second time. Good idea. All right. And I think that'll work just great. And we're not going to give it away. OK, so set it down and we'll do the thing. Just drop it.
+
+OK, let's do the quiz again. I want to see if any of you convinced your neighbor to change their vote. So how many believe that it's going to be A? Hm, one or two. Interesting, that kind of went down. How many believe it's going to be B? A lot of people went up. How many think it's going to be C? OK, still a couple hold outs. Let's do the experiment.
+
+So guys in the booth, can you get a good shot of this, I hope? I want this so it [INAUDIBLE]. All right. Move the chalk. Yep. And I'm going to have to catch it. All right. Let her rip. Which way?
+
+AUDIENCE: B.
+
+PROFESSOR: Yeah. Let's do it again. Just make sure the guys in the booth got a good shot of this. OK, once more. Pretty neat, huh?
+
+If you're skiing downhill, you're going down the hill, accelerating, which way do you feel the forces on your body? You feel the forces pulling you down straight? Do you feel the forces pulling you down the hill? Do you feel the forces pulling you into the hill? So this is straightforward application of this. The slope of that liquid was parallel to the slope. Get my notes back out here.
+
+So let's quickly do this problem rigorously, the way we'd do it straightforward with accelerations and free body diagrams and so forth. We're going to have some normal force pushing up. I said no friction. This thing's a slippery surface, just as if it's sliding down. Got to do rollers in the classroom. It's got an mg. And there are no other external forces. And we know then that the summation of the external forces, that's got to be the mass times the acceleration.
+
+And I'm going to make this here. I'll call this point A in the center. And I'm going to make my inertial reference frame x down the hill, y perpendicular to the hill. So the mass times the acceleration of a with respect to o is then equal. And this is my then external forces. So this is my x direction. So I'm going to break this and mg force into two components. One down the hill. Guess I need an angle. Let's see.
+
+So if this is theta, then this is theta here. And the force down the hill is that component is mg sine theta. And the force this direction is then going to be. And I'll just give us some unit vectors here to keep things straight. This force is minus mg cosine theta in the j hat direction. So the sum of the forces here, all of them, are mg sine theta i hat minus mg cosine theta j hat plus n in the j hat direction.
+
+So that's the total vector sum. And that's got to be equal to my mass times the acceleration of a with respect to o. And we know that's straight down the hill. So this one's only going to be in the i hat direction. We know the acceleration perpendicular hill has got to be 0.
+
+OK, so if we just add up the components of this thing. In the i hat direction, just the x direction, then I have only this term and that term. And I find that the mg sine theta equals. And so the acceleration of a with respect to o is just g sine theta.
+
+OK, well that's pretty trivial. And it doesn't give us much insight about-- that doesn't give me much insight about why that's the answer. So actually this is a time when maybe thinking about if you're in that free, you're going down the hill, you're skiing, and you're now in an accelerating reference frame, and you want to say I want to work from this frame, what fictitious force do I have to add to that free body diagram so I can account for my acceleration?
+
+So remember the fictitious force we want to deal with has to do with this guy. We're in the moving frame. We can't judge this. We're just told that it exists and we need to correct for it. So we need a fictitious force that's minus ma with respect to o. So that would be minus mg sine theta. And that would be in this direction.
+
+So dashed lines here is my mg sine theta fictitious force. In the other direction was the real force, the component of gravity mg sine theta. In this direction was my normal force. And in this direction is my component of gravity that is my mg cosine theta. It's a real force. So yeah, these real forces and this fictitious force. But now we can say that all these forces have to sum to 0.
+
+But look what happens here. What force do you feel? In the reference frame, you're the skier going down the hill. What net forces do you feel on you that are in the x direction down the hill? 0. It's exactly. The reason I did that silly free fall problem a minute ago when you drop something, when you're weightless, the scales are reading-- the cable broke in the elevator, scales read 0. The fictitious force was equal and opposite to the gravitational force you feel and the scales would show no force in the free fall direction.
+
+In this case, you're not free fall, but you're free fall down a slope. In the component down the slope, you have no net force in that direction. In the reference frame that moving cart, the only actual force you feel is in. You will feel a force on your feet equal to mg cosine theta. So if theta goes to 90 degrees, you're in free fall, and it goes to 0. Say it is 0 degrees, it's max, and you would feel mg. This is [INAUDIBLE] me where this notion of a fictitious force kind of helps me figure out what's going on. Pretty amazing.
+
+OK. So we're going to move on from this kind of discussion of fictitious forces of things. So it's been an hour. We'll take a little break for a second. Also, if you've got any questions about what we've covered up to this point, think about them and ask them in a minute. Let's take a short break.
+
+So while you've been taking a break, a couple of people came up and asked questions. One of them was, are fictitious forces real? And the other is, why does the water move?
+
+So the answer to the first question. If you want to be careful and do the problem rigorously, don't mess with fictitious forces. The only real forces in the problem are the ones that you would put on a free body diagram, such that the sum of the external forces equals the mass times acceleration.
+
+These forces are always real ones. They are gravity. They are normal forces. They're friction. They're spring forces. They're dashpot forces. They're all these mechanical things, but they're real forces. And the rod, that thing spinning around, that rod, since it's a rigid thing, it can support bending. So it has shear force, axial forces. Those are real forces that it can put on the mass.
+
+Fictitious forces are not forces. They are minus a mass times a real what? Acceleration. So real forces, real accelerations. We use this notion of a fictitious force as a convenience. But it is a highly dangerous tool. But actually once you get used to it a little bit, it can give you some really quick insight.
+
+But I would always, if I have doubts, I'd always go back and just do the problem the rigorous way and just check that your insight was right. But it can give you a great insight to starting a problem. You know to expect a centrifugal term in your results. You know to expect a Coriolis term. You know that they're going to be there because sometimes you feel them. The reason we like to use them is because you actually can feel them. They actually affect what you feel.
+
+So in that first problem, the elevator problem, the answer-- I didn't actually write it. Here it is. The normal force that you feel, that the scale weighs is 5 force g. And it's the sum of gravity and that fictitious force. It's mg plus m times a quarter of a g.
+
+It's in this moving references, this accelerator reference frame inside an elevator where you can't directly measure the acceleration. All you can measure is the force. But you know what the acceleration is. It's given. So you stick it in as a fix and you find out that the real normal force that you measure actually has in it that piece comes from the fictitious force.
+
+OK. Why does the water move? This is really the same discussion. The fictitious force up the hill and the real force down the hill exactly cancel. If you're standing on scales, it actually can measure side force as well as normal force. Standing on the scales, you would feel no side forces up and down the hill. None. You measure a normal force and the normal force you measure will be mg cosine theta.
+
+So the force on any object in that accelerating reference frame, it essentially thinks that all forces are perpendicular, that you feel in that reference frame, are perpendicular to the hill. So why does water seek level? Because the force gravity is down and the surface of the water goes perpendicular to the gravitational force. That's just the nature of fluids.
+
+So if the force on all those fluid particles is this angle, what's the fluid level going to do? So that the pressure on the surface is equal everywhere. And if you go a foot down, you get equal pressure everywhere in the fluid. So the water moves so that its surface will be perpendicular to what it thinks. It thinks that this is kind of being a local gravity. The local gravity is pointed in that direction, so the surface level seeks that level.
+
+If somebody else can say it better than that. Tom, Dave, Matt, anybody? Yeah.
+
+AUDIENCE: Can I ask you a question?
+
+PROFESSOR: Yeah.
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Yeah, as if you're on the body and you're trying to sum up all the forces you feel and accounting also for the fact that this is accelerating. And the fix it force is this fictitious force that's due to the body's acceleration. You have to know that you're accelerating to be able to put this term in. And it comes from this equation, thinking of this as a generic equation by taking this term and just moving it to this side and setting everything equal to 0. Lots of puzzlement around this.
+
+AUDIENCE: What happens if you make the angle of the ramp very steep?
+
+PROFESSOR: Very steep. So if it goes to 90 degrees, you're in free fall. This cosine theta goes to 0, n goes to 0. This term stays the same. This goes to mg that way. This goes mg that way. And it's an equilibrium in both--
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Then you're going to have very, very small, normal force.
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: I couldn't hear the last comment.
+
+AUDIENCE: The water wouldn't go all the way to the side. It'd be vertical length [INAUDIBLE].
+
+PROFESSOR: Well, water, unfortunately, with the tiniest little bit of normal force here the water will seek that level. But when it gets to 0 the water is going to be in free fall. Surface tension takes over. Yeah?
+
+AUDIENCE: Is this like the argument that [INAUDIBLE] is the same as if it was just on a flat surface accelerating?
+
+PROFESSOR: Oh, good question. If you were on a flat surface accelerating. If you were accelerating in this cart. Accelerates with the fluid on it and it's accelerating in that direction, what would the surface of the liquid do? Stay level or change? OK, does it slope back or does it slope forward? I'm accelerating in that direction. There's a fictitious force pushing back on it, makes it pile up at the back.
+
+OK one more. You're in the elevator. You're accelerating a quarter of a g. The scales tells you you weigh 25% more than you used to. And you have a pendulum. And before the elevator starts, it's got a one second natural period. And now the elevator gets going. Does the period change? Higher or lower?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: OK, so the natural frequency of the pendulum, simple pendulum square root of g over l. What do you guess that the natural frequency is if you're going up at a quarter of a g? Say again?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: It's as if you have a higher or lower acceleration of gravity around. But you have a higher gravitational force is what you think you're feeling. Is that going to make the tension in this string higher? Is that going to make the weight of the pendulum feel greater? Yeah, by 5 force. And you'll find out, you'll work out. It gets kind of messy to prove this rigorously, but it's going to look something like the square root of 5/4 g over l. OK.
+
+We've got a little time left. I might not be able to completely finish this. But I do want to show you something. Hold it up so they can see it. Gets pretty violent, doesn't it? Pass it around. OK. This thing is shaking like crazy. All right.
+
+All right. In the absence of external forces, what can you say about the motion of its center of gravity, do you think? In at least this direction. Can't move, right? Up and down direction the center of gravity does move, because I'm putting a force on it through the cord. This has a relation to a problem that you had on problem set two. I want to go back and talk about it a little bit.
+
+And this is that thing with the track in it. And a roller going around. And it's going to around at constant speed. And this has mass m. This is mass. The outside thing is just the mass of this block. And there's an internal donut in here, [INAUDIBLE], and this mass is made to go around and around and around and around inside. And you were asked to figure out the acceleration of that guy. But this thing's on wheels.
+
+Now, this problem, and I apologize for posing this problem the way I did. I should have posed in the following way. These two problems are really equal to one another. I have a rod. I have a mass on the end. This radius here we said was e. This radius is e. The mass is the same. It's m. This was going around at omega. This is going around at omega. This is on wheels.
+
+Exactly these two problems are identical. Because if the geometry's the same, the rotation rate's the same, the masses are the same, the acceleration of this bead here, this roller is the same in this problem as it is in that problem. Just in this problem it's much easier to figure out the forces. This turned out to be kind of nasty.
+
+And I said last time that the solution to b part, which is the normal force that this is put on this roller, I said that answer was wrong. I actually am wrong about that. I was thinking of a different answer. I was thinking of this problem. The answer that was given, the normal force that is by the track places on the roller or vice versa is actually what was given is correct. It wasn't what I actually was seeking when I wrote the problem. Sometimes when you're making up problems, you have an end result in mind and then you wrote it wrong. I wrote it wrong.
+
+So let's do this problem. This is partly to review a couple of things for you. What I really want is I want to find equation of motion in-- [INAUDIBLE]. So here's my xyz inertial reference frame. I just lined it up here with the center of this thing to start with. Doesn't really matter.
+
+So I want to find an equation of motion in the x direction. We don't have time to do this whole problem here, so I'm going to do the first piece of it. Just to give you some review, an exercise in figuring out degrees of freedom. I'm implying that I can write one equation. It may take more than that.
+
+So the number of degrees of freedom we said is equal to the number of required-- I can't write today-- independent coordinates. So the number of coordinates required to completely describe the motion. And we came up a little expression for that. It's 6 times the number rigid bodies plus 3 times the number of particles. So this is rigid bodies. This is particles. Minus c. And these are the constraints.
+
+So let's figure that out for this problem. So how many constraints? It's just a quick practice. So constraints and I'm going to start off with on the main block. So on the main block, there's no y motion. There's no z motion. These rollers don't let it come in or out. So no y or z motion. So that's two constraints. What about rotations on the main block? How many constraints are we assuming here? Three. We're not allowing it the role in x, the y, or the z. So there's three more constraints.
+
+And now on the little mass. On the little mass, there's no z motion. That's out of the board. That's one more constraint. And then omega t is the angle that this thing. It's theta. This is specified. It's a given in the problem. It's not unknown. It's just that's what's going, that's what makes this thing do its thing. It's going round and round. And so this is not an unknown. And therefore you can say that the y motion of this particle is e sine omega t. And that's a constraint.
+
+And the x motion is the motion of the main block to which it's attached plus an e cosine omega t. And these are knowns. You've already counted for this. That's the main mass's motion. So this is something known. So these mount up, each one of these. This gives you a constraint and this gives you a constraint. And so let's add them up. So 2 and 3 are 5. 6, 7, 8. So you can actually completely describe the motion of this thing with one equation of motion.
+
+So I'm seeking. So I want to find the sum of the external forces on the main block in the x direction. And that's going to be. We know that that's the mass of that block times x double dot. So x is going to be the coordinate that describes the motion that mass mb.
+
+So we need a free body diagram of mb. So here's the block. There'll be a normal force up. There's going to be mbg downwards. And the only other forces acting on this block are a force that comes through this rod that's holding that mass, the little mass. I'm just going to draw it at some arbitrary angle, not necessarily theta. It's going to be a force.
+
+I'm going to call that force on this main mass. And it's a vector for the moment. It'll have two components in the x and y directions. So in order to write an equation-- in the y direction it's trivial. n is equal to mbg. In this direction, we have to have to break this into two components. We need to know the component of this in the x direction and put it in here and we'll be done.
+
+So now I'm going to use third law. The force that rod places on this body is equal and opposite to the force at the rod places on the mass going round and round. You agree with me?
+
+So what we need to do next is here's the mass up here going around and round. And the force is on it, because it has an mg downward. And it has some force on it that is the force on the little mass. And you're going to find that f on the little mass equals minus f on the big mass due to third law consideration.
+
+So all I have to do is then figure out the x component of this force, put a minus sign in front of it, and I'm basically done. And to do that I say f equals ma. I don't have to finish it today. I'll show you next time. And we'll figure out the equation of motion for this thing.
+
+Now, in dragging all this stuff here today, I forgot to bring my muddy cards. So you've got a minute. And if any of you have just a brilliant question you want to answer or something you really liked, if you don't mind, just take a piece of paper, make a note on it, and drop it off on the way out. Thanks a lot. See you on Thursday.
+
+[[Demo of cart on incline with water in container]]
+Print This Document
+
+omega. OK.
+
+Oh, I was going to say that's it for fictitious forces, but it's not. I've got a great demo for you. All right. We have a slope. I've got a cart on wheels there. And I actually do. OK. And I'm going to put a box here. I got the wrong color here, but I'll try colored chalk for the first time. In the box I've got a fluid. And the box has a lid on it so I don't make a mess.
+
+Now, I'm actually going to do this experiment. I brought my ramp. We're going to set up this ramp. This box is going to be rolling down this hill. And basically no losses. No friction holding it back. It's just going to be able to take off and accelerate down that hill. I want to know a, b, c. When it's rolling down that hill, will the fluid in the box look like that, look like that, or like that?
+
+So we're going to take our poll here. So how many believe that when it's rolling down the hill, the fluid will stay level, parallel to the ground? Let's raise your hands. I want everybody to make a guess here. Everybody get in it. Raise them high if you think it's going to stay level. OK, maybe a quarter of you. How many think it's going to do this? OK, a few more. And how many think it's going to do this?
+
+All right, so I want you get in natural little groups there of two or three people and talk about this for a couple minutes and see if you can convince your neighbor that you're right. Figure this out. Stop and talk about it. And let's set up to do the experiment. Actually, I think if we do it up here. Yeah. So like that. So you hold the ramp. OK, you come here. We'll just practice our set up here for a second. You're going to have to hold it quite a bit higher. And actually when we get ready to go--
+
+AUDIENCE: How well sealed is that?
+
+PROFESSOR: It's very well sealed. You hold it and you release it. And that's about the right-- because I got to catch it so it doesn't-- now, we're going to stop. We're not going to do it right away. I'm going to get them to answer the question a second time. Good idea. All right. And I think that'll work just great. And we're not going to give it away. OK, so set it down and we'll do the thing. Just drop it.
+
+OK, let's do the quiz again. I want to see if any of you convinced your neighbor to change their vote. So how many believe that it's going to be A? Hm, one or two. Interesting, that kind of went down. How many believe it's going to be B? A lot of people went up. How many think it's going to be C? OK, still a couple hold outs. Let's do the experiment.
+
+So guys in the booth, can you get a good shot of this, I hope? I want this so it [INAUDIBLE]. All right. Move the chalk. Yep. And I'm going to have to catch it. All right. Let her rip. Which way?
+
+AUDIENCE: B.
+
+PROFESSOR: Yeah. Let's do it again. Just make sure the guys in the booth got a good shot of this. OK, once more. Pretty neat, huh?
+
+If you're skiing downhill, you're going down the hill, accelerating, which way do you feel the forces on your body? You feel the forces pulling you down straight? Do you feel the forces pulling you down the hill? Do you feel the forces pulling you into the hill? So this is straightforward application of this. The slope of that liquid was parallel to the slope. Get my notes back out here.
+
+So let's quickly do this problem rigorously, the way we'd do it straightforward with accelerations and free body diagrams and so forth. We're going to have some normal force pushing up. I said no friction. This thing's a slippery surface, just as if it's sliding down. Got to do rollers in the classroom. It's got an mg. And there are no other external forces. And we know then that the summation of the external forces, that's got to be the mass times the acceleration.
+
+And I'm going to make this here. I'll call this point A in the center. And I'm going to make my inertial reference frame x down the hill, y perpendicular to the hill. So the mass times the acceleration of a with respect to o is then equal. And this is my then external forces. So this is my x direction. So I'm going to break this and mg force into two components. One down the hill. Guess I need an angle. Let's see.
+
+So if this is theta, then this is theta here. And the force down the hill is that component is mg sine theta. And the force this direction is then going to be. And I'll just give us some unit vectors here to keep things straight. This force is minus mg cosine theta in the j hat direction. So the sum of the forces here, all of them, are mg sine theta i hat minus mg cosine theta j hat plus n in the j hat direction.
+
+So that's the total vector sum. And that's got to be equal to my mass times the acceleration of a with respect to o. And we know that's straight down the hill. So this one's only going to be in the i hat direction. We know the acceleration perpendicular hill has got to be 0.
+
+OK, so if we just add up the components of this thing. In the i hat direction, just the x direction, then I have only this term and that term. And I find that the mg sine theta equals. And so the acceleration of a with respect to o is just g sine theta.
+
+OK, well that's pretty trivial. And it doesn't give us much insight about-- that doesn't give me much insight about why that's the answer. So actually this is a time when maybe thinking about if you're in that free, you're going down the hill, you're skiing, and you're now in an accelerating reference frame, and you want to say I want to work from this frame, what fictitious force do I have to add to that free body diagram so I can account for my acceleration?
+
+So remember the fictitious force we want to deal with has to do with this guy. We're in the moving frame. We can't judge this. We're just told that it exists and we need to correct for it. So we need a fictitious force that's minus ma with respect to o. So that would be minus mg sine theta. And that would be in this direction.
+
+So dashed lines here is my mg sine theta fictitious force. In the other direction was the real force, the component of gravity mg sine theta. In this direction was my normal force. And in this direction is my component of gravity that is my mg cosine theta. It's a real force. So yeah, these real forces and this fictitious force. But now we can say that all these forces have to sum to 0.
+
+But look what happens here. What force do you feel? In the reference frame, you're the skier going down the hill. What net forces do you feel on you that are in the x direction down the hill? 0. It's exactly. The reason I did that silly free fall problem a minute ago when you drop something, when you're weightless, the scales are reading-- the cable broke in the elevator, scales read 0. The fictitious force was equal and opposite to the gravitational force you feel and the scales would show no force in the free fall direction.
+
+In this case, you're not free fall, but you're free fall down a slope. In the component down the slope, you have no net force in that direction. In the reference frame that moving cart, the only actual force you feel is in. You will feel a force on your feet equal to mg cosine theta. So if theta goes to 90 degrees, you're in free fall, and it goes to 0. Say it is 0 degrees, it's max, and you would feel mg. This is [INAUDIBLE] me where this notion of a fictitious force kind of helps me figure out what's going on. Pretty amazing.
+
+OK. So we're going to move on from this kind of discussion of fictitious forces of things. So it's been an hour. We'll take a little break for a second. Also, if you've got any questions about what we've covered up to this point, think about them and ask them in a minute. Let's take a short break.
+
+So while you've been taking a break, a couple of people came up and asked questions. One of them was, are fictitious forces real? And the other is, why does the water move?
+
+So the answer to the first question. If you want to be careful and do the problem rigorously, don't mess with fictitious forces. The only real forces in the problem are the ones that you would put on a free body diagram, such that the sum of the external forces equals the mass times acceleration.
+
+These forces are always real ones. They are gravity. They are normal forces. They're friction. They're spring forces. They're dashpot forces. They're all these mechanical things, but they're real forces. And the rod, that thing spinning around, that rod, since it's a rigid thing, it can support bending. So it has shear force, axial forces. Those are real forces that it can put on the mass.
+
+Fictitious forces are not forces. They are minus a mass times a real what? Acceleration. So real forces, real accelerations. We use this notion of a fictitious force as a convenience. But it is a highly dangerous tool. But actually once you get used to it a little bit, it can give you some really quick insight.
+
+But I would always, if I have doubts, I'd always go back and just do the problem the rigorous way and just check that your insight was right. But it can give you a great insight to starting a problem. You know to expect a centrifugal term in your results. You know to expect a Coriolis term. You know that they're going to be there because sometimes you feel them. The reason we like to use them is because you actually can feel them. They actually affect what you feel.
+
+So in that first problem, the elevator problem, the answer-- I didn't actually write it. Here it is. The normal force that you feel, that the scale weighs is 5 force g. And it's the sum of gravity and that fictitious force. It's mg plus m times a quarter of a g.
+
+It's in this moving references, this accelerator reference frame inside an elevator where you can't directly measure the acceleration. All you can measure is the force. But you know what the acceleration is. It's given. So you stick it in as a fix and you find out that the real normal force that you measure actually has in it that piece comes from the fictitious force.
+
+OK. Why does the water move? This is really the same discussion. The fictitious force up the hill and the real force down the hill exactly cancel. If you're standing on scales, it actually can measure side force as well as normal force. Standing on the scales, you would feel no side forces up and down the hill. None. You measure a normal force and the normal force you measure will be mg cosine theta.
+
+So the force on any object in that accelerating reference frame, it essentially thinks that all forces are perpendicular, that you feel in that reference frame, are perpendicular to the hill. So why does water seek level? Because the force gravity is down and the surface of the water goes perpendicular to the gravitational force. That's just the nature of fluids.
+
+So if the force on all those fluid particles is this angle, what's the fluid level going to do? So that the pressure on the surface is equal everywhere. And if you go a foot down, you get equal pressure everywhere in the fluid. So the water moves so that its surface will be perpendicular to what it thinks. It thinks that this is kind of being a local gravity. The local gravity is pointed in that direction, so the surface level seeks that level.
+
+If somebody else can say it better than that. Tom, Dave, Matt, anybody? Yeah.
+
+AUDIENCE: Can I ask you a question?
+
+PROFESSOR: Yeah.
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Yeah, as if you're on the body and you're trying to sum up all the forces you feel and accounting also for the fact that this is accelerating. And the fix it force is this fictitious force that's due to the body's acceleration. You have to know that you're accelerating to be able to put this term in. And it comes from this equation, thinking of this as a generic equation by taking this term and just moving it to this side and setting everything equal to 0. Lots of puzzlement around this.
+
+AUDIENCE: What happens if you make the angle of the ramp very steep?
+
+PROFESSOR: Very steep. So if it goes to 90 degrees, you're in free fall. This cosine theta goes to 0, n goes to 0. This term stays the same. This goes to mg that way. This goes mg that way. And it's an equilibrium in both--
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Then you're going to have very, very small, normal force.
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: I couldn't hear the last comment.
+
+AUDIENCE: The water wouldn't go all the way to the side. It'd be vertical length [INAUDIBLE].
+
+PROFESSOR: Well, water, unfortunately, with the tiniest little bit of normal force here the water will seek that level. But when it gets to 0 the water is going to be in free fall. Surface tension takes over. Yeah?
+
+AUDIENCE: Is this like the argument that [INAUDIBLE] is the same as if it was just on a flat surface accelerating?
+
+PROFESSOR: Oh, good question. If you were on a flat surface accelerating. If you were accelerating in this cart. Accelerates with the fluid on it and it's accelerating in that direction, what would the surface of the liquid do? Stay level or change? OK, does it slope back or does it slope forward? I'm accelerating in that direction. There's a fictitious force pushing back on it, makes it pile up at the back.
+
+OK one more. You're in the elevator. You're accelerating a quarter of a g. The scales tells you you weigh 25% more than you used to. And you have a pendulum. And before the elevator starts, it's got a one second natural period. And now the elevator gets going. Does the period change? Higher or lower?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: OK, so the natural frequency of the pendulum, simple pendulum square root of g over l. What do you guess that the natural frequency is if you're going up at a quarter of a g? Say again?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: It's as if you have a higher or lower acceleration of gravity around. But you have a higher gravitational force is what you think you're feeling. Is that going to make the tension in this string higher? Is that going to make the weight of the pendulum feel greater? Yeah, by 5 force. And you'll find out, you'll work out. It gets kind of messy to prove this rigorously, but it's going to look something like the square root of 5/4 g over l. OK.
+
+We've got a little time left. I might not be able to completely finish this. But I do want to show you something. Hold it up so they can see it. Gets pretty violent, doesn't it? Pass it around. OK. This thing is shaking like crazy. All right.
+
+All right. In the absence of external forces, what can you say about the motion of its center of gravity, do you think? In at least this direction. Can't move, right? Up and down direction the center of gravity does move, because I'm putting a force on it through the cord. This has a relation to a problem that you had on problem set two. I want to go back and talk about it a little bit.
+
+And this is that thing with the track in it. And a roller going around. And it's going to around at constant speed. And this has mass m. This is mass. The outside thing is just the mass of this block. And there's an internal donut in here, [INAUDIBLE], and this mass is made to go around and around and around and around inside. And you were asked to figure out the acceleration of that guy. But this thing's on wheels.
+
+Now, this problem, and I apologize for posing this problem the way I did. I should have posed in the following way. These two problems are really equal to one another. I have a rod. I have a mass on the end. This radius here we said was e. This radius is e. The mass is the same. It's m. This was going around at omega. This is going around at omega. This is on wheels.
+
+Exactly these two problems are identical. Because if the geometry's the same, the rotation rate's the same, the masses are the same, the acceleration of this bead here, this roller is the same in this problem as it is in that problem. Just in this problem it's much easier to figure out the forces. This turned out to be kind of nasty.
+
+And I said last time that the solution to b part, which is the normal force that this is put on this roller, I said that answer was wrong. I actually am wrong about that. I was thinking of a different answer. I was thinking of this problem. The answer that was given, the normal force that is by the track places on the roller or vice versa is actually what was given is correct. It wasn't what I actually was seeking when I wrote the problem. Sometimes when you're making up problems, you have an end result in mind and then you wrote it wrong. I wrote it wrong.
+
+So let's do this problem. This is partly to review a couple of things for you. What I really want is I want to find equation of motion in-- [INAUDIBLE]. So here's my xyz inertial reference frame. I just lined it up here with the center of this thing to start with. Doesn't really matter.
+
+So I want to find an equation of motion in the x direction. We don't have time to do this whole problem here, so I'm going to do the first piece of it. Just to give you some review, an exercise in figuring out degrees of freedom. I'm implying that I can write one equation. It may take more than that.
+
+So the number of degrees of freedom we said is equal to the number of required-- I can't write today-- independent coordinates. So the number of coordinates required to completely describe the motion. And we came up a little expression for that. It's 6 times the number rigid bodies plus 3 times the number of particles. So this is rigid bodies. This is particles. Minus c. And these are the constraints.
+
+So let's figure that out for this problem. So how many constraints? It's just a quick practice. So constraints and I'm going to start off with on the main block. So on the main block, there's no y motion. There's no z motion. These rollers don't let it come in or out. So no y or z motion. So that's two constraints. What about rotations on the main block? How many constraints are we assuming here? Three. We're not allowing it the role in x, the y, or the z. So there's three more constraints.
+
+And now on the little mass. On the little mass, there's no z motion. That's out of the board. That's one more constraint. And then omega t is the angle that this thing. It's theta. This is specified. It's a given in the problem. It's not unknown. It's just that's what's going, that's what makes this thing do its thing. It's going round and round. And so this is not an unknown. And therefore you can say that the y motion of this particle is e sine omega t. And that's a constraint.
+
+And the x motion is the motion of the main block to which it's attached plus an e cosine omega t. And these are knowns. You've already counted for this. That's the main mass's motion. So this is something known. So these mount up, each one of these. This gives you a constraint and this gives you a constraint. And so let's add them up. So 2 and 3 are 5. 6, 7, 8. So you can actually completely describe the motion of this thing with one equation of motion.
+
+So I'm seeking. So I want to find the sum of the external forces on the main block in the x direction. And that's going to be. We know that that's the mass of that block times x double dot. So x is going to be the coordinate that describes the motion that mass mb.
+
+So we need a free body diagram of mb. So here's the block. There'll be a normal force up. There's going to be mbg downwards. And the only other forces acting on this block are a force that comes through this rod that's holding that mass, the little mass. I'm just going to draw it at some arbitrary angle, not necessarily theta. It's going to be a force.
+
+I'm going to call that force on this main mass. And it's a vector for the moment. It'll have two components in the x and y directions. So in order to write an equation-- in the y direction it's trivial. n is equal to mbg. In this direction, we have to have to break this into two components. We need to know the component of this in the x direction and put it in here and we'll be done.
+
+So now I'm going to use third law. The force that rod places on this body is equal and opposite to the force at the rod places on the mass going round and round. You agree with me?
+
+So what we need to do next is here's the mass up here going around and round. And the force is on it, because it has an mg downward. And it has some force on it that is the force on the little mass. And you're going to find that f on the little mass equals minus f on the big mass due to third law consideration.
+
+So all I have to do is then figure out the x component of this force, put a minus sign in front of it, and I'm basically done. And to do that I say f equals ma. I don't have to finish it today. I'll show you next time. And we'll figure out the equation of motion for this thing.
+
+Now, in dragging all this stuff here today, I forgot to bring my muddy cards. So you've got a minute. And if any of you have just a brilliant question you want to answer or something you really liked, if you don't mind, just take a piece of paper, make a note on it, and drop it off on the way out. Thanks a lot. See you on Thursday.
+
+[[Complete fictitious force discussion]]
+Print This Document
+
+break.
+
+So while you've been taking a break, a couple of people came up and asked questions. One of them was, are fictitious forces real? And the other is, why does the water move?
+
+So the answer to the first question. If you want to be careful and do the problem rigorously, don't mess with fictitious forces. The only real forces in the problem are the ones that you would put on a free body diagram, such that the sum of the external forces equals the mass times acceleration.
+
+These forces are always real ones. They are gravity. They are normal forces. They're friction. They're spring forces. They're dashpot forces. They're all these mechanical things, but they're real forces. And the rod, that thing spinning around, that rod, since it's a rigid thing, it can support bending. So it has shear force, axial forces. Those are real forces that it can put on the mass.
+
+Fictitious forces are not forces. They are minus a mass times a real what? Acceleration. So real forces, real accelerations. We use this notion of a fictitious force as a convenience. But it is a highly dangerous tool. But actually once you get used to it a little bit, it can give you some really quick insight.
+
+But I would always, if I have doubts, I'd always go back and just do the problem the rigorous way and just check that your insight was right. But it can give you a great insight to starting a problem. You know to expect a centrifugal term in your results. You know to expect a Coriolis term. You know that they're going to be there because sometimes you feel them. The reason we like to use them is because you actually can feel them. They actually affect what you feel.
+
+So in that first problem, the elevator problem, the answer-- I didn't actually write it. Here it is. The normal force that you feel, that the scale weighs is 5 force g. And it's the sum of gravity and that fictitious force. It's mg plus m times a quarter of a g.
+
+It's in this moving references, this accelerator reference frame inside an elevator where you can't directly measure the acceleration. All you can measure is the force. But you know what the acceleration is. It's given. So you stick it in as a fix and you find out that the real normal force that you measure actually has in it that piece comes from the fictitious force.
+
+OK. Why does the water move? This is really the same discussion. The fictitious force up the hill and the real force down the hill exactly cancel. If you're standing on scales, it actually can measure side force as well as normal force. Standing on the scales, you would feel no side forces up and down the hill. None. You measure a normal force and the normal force you measure will be mg cosine theta.
+
+So the force on any object in that accelerating reference frame, it essentially thinks that all forces are perpendicular, that you feel in that reference frame, are perpendicular to the hill. So why does water seek level? Because the force gravity is down and the surface of the water goes perpendicular to the gravitational force. That's just the nature of fluids.
+
+So if the force on all those fluid particles is this angle, what's the fluid level going to do? So that the pressure on the surface is equal everywhere. And if you go a foot down, you get equal pressure everywhere in the fluid. So the water moves so that its surface will be perpendicular to what it thinks. It thinks that this is kind of being a local gravity. The local gravity is pointed in that direction, so the surface level seeks that level.
+
+If somebody else can say it better than that. Tom, Dave, Matt, anybody? Yeah.
+
+AUDIENCE: Can I ask you a question?
+
+PROFESSOR: Yeah.
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Yeah, as if you're on the body and you're trying to sum up all the forces you feel and accounting also for the fact that this is accelerating. And the fix it force is this fictitious force that's due to the body's acceleration. You have to know that you're accelerating to be able to put this term in. And it comes from this equation, thinking of this as a generic equation by taking this term and just moving it to this side and setting everything equal to 0. Lots of puzzlement around this.
+
+AUDIENCE: What happens if you make the angle of the ramp very steep?
+
+PROFESSOR: Very steep. So if it goes to 90 degrees, you're in free fall. This cosine theta goes to 0, n goes to 0. This term stays the same. This goes to mg that way. This goes mg that way. And it's an equilibrium in both--
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Then you're going to have very, very small, normal force.
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: I couldn't hear the last comment.
+
+AUDIENCE: The water wouldn't go all the way to the side. It'd be vertical length [INAUDIBLE].
+
+PROFESSOR: Well, water, unfortunately, with the tiniest little bit of normal force here the water will seek that level. But when it gets to 0 the water is going to be in free fall. Surface tension takes over. Yeah?
+
+AUDIENCE: Is this like the argument that [INAUDIBLE] is the same as if it was just on a flat surface accelerating?
+
+PROFESSOR: Oh, good question. If you were on a flat surface accelerating. If you were accelerating in this cart. Accelerates with the fluid on it and it's accelerating in that direction, what would the surface of the liquid do? Stay level or change? OK, does it slope back or does it slope forward? I'm accelerating in that direction. There's a fictitious force pushing back on it, makes it pile up at the back.
+
+OK one more. You're in the elevator. You're accelerating a quarter of a g. The scales tells you you weigh 25% more than you used to. And you have a pendulum. And before the elevator starts, it's got a one second natural period. And now the elevator gets going. Does the period change? Higher or lower?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: OK, so the natural frequency of the pendulum, simple pendulum square root of g over l. What do you guess that the natural frequency is if you're going up at a quarter of a g? Say again?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: It's as if you have a higher or lower acceleration of gravity around. But you have a higher gravitational force is what you think you're feeling. Is that going to make the tension in this string higher? Is that going to make the weight of the pendulum feel greater? Yeah, by 5 force. And you'll find out, you'll work out. It gets kind of messy to prove this rigorously, but it's going to look something like the square root of 5/4 g over l. OK.
+
+We've got a little time left. I might not be able to completely finish this. But I do want to show you something. Hold it up so they can see it. Gets pretty violent, doesn't it? Pass it around. OK. This thing is shaking like crazy. All right.
+
+All right. In the absence of external forces, what can you say about the motion of its center of gravity, do you think? In at least this direction. Can't move, right? Up and down direction the center of gravity does move, because I'm putting a force on it through the cord. This has a relation to a problem that you had on problem set two. I want to go back and talk about it a little bit.
+
+And this is that thing with the track in it. And a roller going around. And it's going to around at constant speed. And this has mass m. This is mass. The outside thing is just the mass of this block. And there's an internal donut in here, [INAUDIBLE], and this mass is made to go around and around and around and around inside. And you were asked to figure out the acceleration of that guy. But this thing's on wheels.
+
+Now, this problem, and I apologize for posing this problem the way I did. I should have posed in the following way. These two problems are really equal to one another. I have a rod. I have a mass on the end. This radius here we said was e. This radius is e. The mass is the same. It's m. This was going around at omega. This is going around at omega. This is on wheels.
+
+Exactly these two problems are identical. Because if the geometry's the same, the rotation rate's the same, the masses are the same, the acceleration of this bead here, this roller is the same in this problem as it is in that problem. Just in this problem it's much easier to figure out the forces. This turned out to be kind of nasty.
+
+And I said last time that the solution to b part, which is the normal force that this is put on this roller, I said that answer was wrong. I actually am wrong about that. I was thinking of a different answer. I was thinking of this problem. The answer that was given, the normal force that is by the track places on the roller or vice versa is actually what was given is correct. It wasn't what I actually was seeking when I wrote the problem. Sometimes when you're making up problems, you have an end result in mind and then you wrote it wrong. I wrote it wrong.
+
+So let's do this problem. This is partly to review a couple of things for you. What I really want is I want to find equation of motion in-- [INAUDIBLE]. So here's my xyz inertial reference frame. I just lined it up here with the center of this thing to start with. Doesn't really matter.
+
+So I want to find an equation of motion in the x direction. We don't have time to do this whole problem here, so I'm going to do the first piece of it. Just to give you some review, an exercise in figuring out degrees of freedom. I'm implying that I can write one equation. It may take more than that.
+
+So the number of degrees of freedom we said is equal to the number of required-- I can't write today-- independent coordinates. So the number of coordinates required to completely describe the motion. And we came up a little expression for that. It's 6 times the number rigid bodies plus 3 times the number of particles. So this is rigid bodies. This is particles. Minus c. And these are the constraints.
+
+So let's figure that out for this problem. So how many constraints? It's just a quick practice. So constraints and I'm going to start off with on the main block. So on the main block, there's no y motion. There's no z motion. These rollers don't let it come in or out. So no y or z motion. So that's two constraints. What about rotations on the main block? How many constraints are we assuming here? Three. We're not allowing it the role in x, the y, or the z. So there's three more constraints.
+
+And now on the little mass. On the little mass, there's no z motion. That's out of the board. That's one more constraint. And then omega t is the angle that this thing. It's theta. This is specified. It's a given in the problem. It's not unknown. It's just that's what's going, that's what makes this thing do its thing. It's going round and round. And so this is not an unknown. And therefore you can say that the y motion of this particle is e sine omega t. And that's a constraint.
+
+And the x motion is the motion of the main block to which it's attached plus an e cosine omega t. And these are knowns. You've already counted for this. That's the main mass's motion. So this is something known. So these mount up, each one of these. This gives you a constraint and this gives you a constraint. And so let's add them up. So 2 and 3 are 5. 6, 7, 8. So you can actually completely describe the motion of this thing with one equation of motion.
+
+So I'm seeking. So I want to find the sum of the external forces on the main block in the x direction. And that's going to be. We know that that's the mass of that block times x double dot. So x is going to be the coordinate that describes the motion that mass mb.
+
+So we need a free body diagram of mb. So here's the block. There'll be a normal force up. There's going to be mbg downwards. And the only other forces acting on this block are a force that comes through this rod that's holding that mass, the little mass. I'm just going to draw it at some arbitrary angle, not necessarily theta. It's going to be a force.
+
+I'm going to call that force on this main mass. And it's a vector for the moment. It'll have two components in the x and y directions. So in order to write an equation-- in the y direction it's trivial. n is equal to mbg. In this direction, we have to have to break this into two components. We need to know the component of this in the x direction and put it in here and we'll be done.
+
+So now I'm going to use third law. The force that rod places on this body is equal and opposite to the force at the rod places on the mass going round and round. You agree with me?
+
+So what we need to do next is here's the mass up here going around and round. And the force is on it, because it has an mg downward. And it has some force on it that is the force on the little mass. And you're going to find that f on the little mass equals minus f on the big mass due to third law consideration.
+
+So all I have to do is then figure out the x component of this force, put a minus sign in front of it, and I'm basically done. And to do that I say f equals ma. I don't have to finish it today. I'll show you next time. And we'll figure out the equation of motion for this thing.
+
+Now, in dragging all this stuff here today, I forgot to bring my muddy cards. So you've got a minute. And if any of you have just a brilliant question you want to answer or something you really liked, if you don't mind, just take a piece of paper, make a note on it, and drop it off on the way out. Thanks a lot. See you on Thursday.
+
+[[Rotating mass demo related to homework 1]]
+Print This Document
+
+We've got a little time left. I might not be able to completely finish this. But I do want to show you something. Hold it up so they can see it. Gets pretty violent, doesn't it? Pass it around. OK. This thing is shaking like crazy. All right.
+
+All right. In the absence of external forces, what can you say about the motion of its center of gravity, do you think? In at least this direction. Can't move, right? Up and down direction the center of gravity does move, because I'm putting a force on it through the cord. This has a relation to a problem that you had on problem set two. I want to go back and talk about it a little bit.
+
+And this is that thing with the track in it. And a roller going around. And it's going to around at constant speed. And this has mass m. This is mass. The outside thing is just the mass of this block. And there's an internal donut in here, [INAUDIBLE], and this mass is made to go around and around and around and around inside. And you were asked to figure out the acceleration of that guy. But this thing's on wheels.
+
+Now, this problem, and I apologize for posing this problem the way I did. I should have posed in the following way. These two problems are really equal to one another. I have a rod. I have a mass on the end. This radius here we said was e. This radius is e. The mass is the same. It's m. This was going around at omega. This is going around at omega. This is on wheels.
+
+Exactly these two problems are identical. Because if the geometry's the same, the rotation rate's the same, the masses are the same, the acceleration of this bead here, this roller is the same in this problem as it is in that problem. Just in this problem it's much easier to figure out the forces. This turned out to be kind of nasty.
+
+And I said last time that the solution to b part, which is the normal force that this is put on this roller, I said that answer was wrong. I actually am wrong about that. I was thinking of a different answer. I was thinking of this problem. The answer that was given, the normal force that is by the track places on the roller or vice versa is actually what was given is correct. It wasn't what I actually was seeking when I wrote the problem. Sometimes when you're making up problems, you have an end result in mind and then you wrote it wrong. I wrote it wrong.
+
+So let's do this problem. This is partly to review a couple of things for you. What I really want is I want to find equation of motion in-- [INAUDIBLE]. So here's my xyz inertial reference frame. I just lined it up here with the center of this thing to start with. Doesn't really matter.
+
+So I want to find an equation of motion in the x direction. We don't have time to do this whole problem here, so I'm going to do the first piece of it. Just to give you some review, an exercise in figuring out degrees of freedom. I'm implying that I can write one equation. It may take more than that.
+
+So the number of degrees of freedom we said is equal to the number of required-- I can't write today-- independent coordinates. So the number of coordinates required to completely describe the motion. And we came up a little expression for that. It's 6 times the number rigid bodies plus 3 times the number of particles. So this is rigid bodies. This is particles. Minus c. And these are the constraints.
+
+So let's figure that out for this problem. So how many constraints? It's just a quick practice. So constraints and I'm going to start off with on the main block. So on the main block, there's no y motion. There's no z motion. These rollers don't let it come in or out. So no y or z motion. So that's two constraints. What about rotations on the main block? How many constraints are we assuming here? Three. We're not allowing it the role in x, the y, or the z. So there's three more constraints.
+
+And now on the little mass. On the little mass, there's no z motion. That's out of the board. That's one more constraint. And then omega t is the angle that this thing. It's theta. This is specified. It's a given in the problem. It's not unknown. It's just that's what's going, that's what makes this thing do its thing. It's going round and round. And so this is not an unknown. And therefore you can say that the y motion of this particle is e sine omega t. And that's a constraint.
+
+And the x motion is the motion of the main block to which it's attached plus an e cosine omega t. And these are knowns. You've already counted for this. That's the main mass's motion. So this is something known. So these mount up, each one of these. This gives you a constraint and this gives you a constraint. And so let's add them up. So 2 and 3 are 5. 6, 7, 8. So you can actually completely describe the motion of this thing with one equation of motion.
+
+So I'm seeking. So I want to find the sum of the external forces on the main block in the x direction. And that's going to be. We know that that's the mass of that block times x double dot. So x is going to be the coordinate that describes the motion that mass mb.
+
+So we need a free body diagram of mb. So here's the block. There'll be a normal force up. There's going to be mbg downwards. And the only other forces acting on this block are a force that comes through this rod that's holding that mass, the little mass. I'm just going to draw it at some arbitrary angle, not necessarily theta. It's going to be a force.
+
+I'm going to call that force on this main mass. And it's a vector for the moment. It'll have two components in the x and y directions. So in order to write an equation-- in the y direction it's trivial. n is equal to mbg. In this direction, we have to have to break this into two components. We need to know the component of this in the x direction and put it in here and we'll be done.
+
+So now I'm going to use third law. The force that rod places on this body is equal and opposite to the force at the rod places on the mass going round and round. You agree with me?
+
+So what we need to do next is here's the mass up here going around and round. And the force is on it, because it has an mg downward. And it has some force on it that is the force on the little mass. And you're going to find that f on the little mass equals minus f on the big mass due to third law consideration.
+
+So all I have to do is then figure out the x component of this force, put a minus sign in front of it, and I'm basically done. And to do that I say f equals ma. I don't have to finish it today. I'll show you next time. And we'll figure out the equation of motion for this thing.
+
+Now, in dragging all this stuff here today, I forgot to bring my muddy cards. So you've got a minute. And if any of you have just a brilliant question you want to answer or something you really liked, if you don't mind, just take a piece of paper, make a note on it, and drop it off on the way out. Thanks a lot. See you on Thursday.
+

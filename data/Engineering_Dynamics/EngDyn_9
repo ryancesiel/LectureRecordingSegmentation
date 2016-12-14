@@ -1,0 +1,389 @@
+[[Body on rollers with an internal rotating mass]]
+Print This Document
+
+PROFESSOR: So today we're going to do two things in particular. One is finish off with the discussion of this device, a shaker. This, by the way, this is a commercial thing. And out of the catalog, this is the littlest one. This is a 50 pound shaker. At full speed it actually puts out 50 pounds. All it is is masses inside going around and around.
+
+AUDIENCE: What is its commercial purpose?
+
+PROFESSOR: Ah, what's its commercial purpose? Well, the big ones that are maybe 100 pounds of moving mass are they bolt them to the floor in nuclear power plants and test them. Shake the buildings to represent earthquake kind of loads and things like that.
+
+And the smaller ones, you can buy these for. This kind is actually if you're running an operation like in a flour mill and you've got particulate stuff trying to get it to slide through chutes. Does stuff slide down chutes easier if the things are vibrating a little bit? Have you ever banged on something to get stuff to come loose? You can just stick one of these on the side and let it run. Nothing sticks. So there's lots and lots of purposes for shakers like this.
+
+So we were in the process of analyzing how one of these works. And I want to finish that. And then part two today is we're going to-- we've only really talked about angular momentum with respect to particles, individual particles. And even in your physics classes you did things with mass moment of inertia. And so we're going to make the connection today between particles, mass moment of inertia, unbalanced shakers. It all comes together in the second part of today's lecture.
+
+So the problem we are analyzing, literally that little shaker, can be modeled. Well, in that one particular application we can find that thing on rollers. This is the problem we are discussing. It has inside of it an unbalanced rotating mass with an arm that's E long. It's called the eccentricity in the trade. And it has some mass m.
+
+And this body that it's in, we'll call it mass of the body, mb. And this thing's going around and round. So this is some angle theta which is described as omega t. And they're constant rotation rate devices. So theta dot equals omega and that's a constant. That's how they're basically designed. And we label this point A. Over here we have a inertial coordinate system, xy. This point a, this point we've called b in our analysis.
+
+And we set out to find the equation of motion of this thing in the x direction. Has no movement in the y. It's confined in the y. It puts out lots of force in the y direction. You really have to restrain it to keep it from moving. But it doesn't move in the y direction, but it will move in the x. OK.
+
+So we came to the conclusion that we could write for the main body the summation of the external forces on mb. It's mb times its acceleration. And it's acceleration is completely defined by this coordinate. And if we draw a free body diagram of this mass, you're going to have a normal force I'll call n in the y direction upwards.
+
+You're going to have its weight downwards. And you're going to have some force exerted on it through this shaft that comes from the little mass. So we're accounting for everything the little mass, all its influence on this big block by the forces that are passed through that rod, which is hinged at the center. OK. And I'm going to call that f mb. OK, the force from that little link.
+
+Now, that happens to be equal to minus the forces on the mass that this rod exerts. It must exert some force on the mass to make it go around and around. And because of Newton's third law, those two forces have to be equal and opposite because they're operating on the same massless shaft for the purpose of this example.
+
+OK, in order find that equation of motion, the sum of the external forces, these are both in the y direction. So we just need to find the horizontal component of this force and we'll be able to complete that equation. So the point of the exercise here is just is to find this horizontal component.
+
+So to do that, let's move on to thinking about the little mass, small mass, and what its free body diagram looks like. So viewed from the here's our rod. Here's the small mass. This is a side view. So there's the point it's rotating about A. But I want to draw a free body diagram of this rod.
+
+The rod puts a force on this mass, which will have a vertical component, fm. And I'll just call it y. And it'll put a force that's in horizontal component fm x. And I'm drawing them both positive, because I don't know which direction they act. And if the answer turns out to be positive, then I guessed right. If it's negative, it means it's going the other way.
+
+And what other forces that are acting on this? Well, there is certainly is an mg downwards acting on that mass. OK. And there's no forces in and out of the page on it. And this is operating in the plane. So this is a planar motion problem. And we note that in here r dot equals r double dot equals 0. This thing doesn't change in length at all. It's just going round and round fixed length.
+
+So we can write, then, that the summation of the external forces on this little mass had better equal its mass times the acceleration of point A with respect to the inertial frame. And whoops. Not A, but what? B. The acceleration of this point. This is B.
+
+We need to figure out what the acceleration of that point is in the inertial frame. But we've done enough of these problems, so this should be pretty easy. This is the mass times the acceleration of point A with respect to O plus the mass times the acceleration of B with respect to A. B and A. These are all vectors until I break them down into their x and y components.
+
+So what's the acceleration of A with respect to O in the coordinate systems that we have written here? So that's just kind of our generic representation of acceleration, right? But we've chosen some coordinates here. Specifically have a coordinate that describes the motion of the main mass, right? What is that? So what's the acceleration of point A? x double dot. So we know that this then is m x double dot and plus.
+
+Now, it's easiest to describe this in terms of cylindrical coordinates. And we can then write that, well, then this must be a mass times the terms in the r hat direction. r hat. And then terms over here in the theta hat direction. Theta double dot plus 2r dot theta dot.
+
+Now, which of these are 0? Does that arm change length? No. So this is 0. Is the angular acceleration constant? So this is 0. The arm doesn't change length. The Coriolis is 0. So there's no Coriolis force, no [INAUDIBLE] force, no radial acceleration, only a single term. Just the centrifugal. So this becomes a pretty simple expression.
+
+So the summation of the external forces on our little mass, then, we can write as mx double dot in the i hat direction. I'm going to break it into its vector components here. Minus m. And I know that r here equals e. That's the eccentricity. I'm going to start using these terms. Minus me omega squared. r hat.
+
+But I'm going to break that r. Goes round and round. I need to break it into x and y components, but we've done that many times before. That looks like a cosine omega t in the i hat direction plus a sine omega t in the j hat direction. So as this thing goes around and around, it has a cosine term and a sine term. And this is in the x direction, this is in the y.
+
+So we're really interested in the equation of motion on small mass m in the x direction. So we just need to pull out the x components from this. So we have an m x double dot i hat minus me omega squared cosine omega t i hat. And we can drop the i hats now because we just have one single component equation. And this is this quantity I called fm. And fm x then is the x term in my little free body diagram. And the force that it exerts on the main mass is in the x direction.
+
+So this is the force that the rod places on that little mass in the x direction. What's the force that the rod places on the big mass in the x direction? Minus that. So this is minus f mb in the x direction. That's what we're after. We need that force so we can go back now and we'll finish out are the equation of motion that we were after for the main mass. This up here. We need to sum the external forces to get that, to fill out that expression.
+
+But while I'm here, just to have it, the summation of the forces on the small mass in the y direction. Look at our free body diagram. It has a minus mg. And it then has this term, minus me omega squared sine omega t. So just for completeness, we have also the y component of the force that the rod places on the small mass. And minus this amount is what it places on the main mass that it's connected to.
+
+So now let's go back to our equation up here, the summation of the forces on the main body. In the x direction. This is going to be the main body. x double dot. And it's now the x direction forces. There's only x component of this force. And that's what we have right here. It's minus that. And that's our equation of motion. We can rearrange it a little bit and it remarkably simplifies, actually. You end up, if you collect the motion terms involving x on the left hand side equals an external excitation on the right hand side.
+
+And I've been kind of following the commentaries in mb. Little confusion about some questions. When you're asked to find an equation of motion, is that the same thing as meaning solve the equation of motion? No, asking find the equation of motion means get this far. Now, if I wanted to know a solution for this, pretty trivial in this case, it's going to look like cosine omega t, but then I'd say solve that equation of motion.
+
+OK, now let's see. We also know-- let's just finish this-- that the summation of the forces on this main body in the y direction must be 0 because it can't move. No acceleration. And from the free body diagram for that, we can write that this is n and y minus mmbg minus mg from the little mass plus me omega squared sine omega t. That's the other phase of this. And the interesting thing here, then, is to solve for the force that it takes to hold this thing in place. So you get mb plus m times g plus or minus. All right, yeah.
+
+All right, so what's that? So just kind of step back and look at these things and say what's it telling us. So first of all, just to keep this thing from moving up and down, there's a force on it that has to support its weight. And it's the combined weight of whatever's inside that container. The weight of the rotating mass and the weight of the object. They have to be supported by a normal force, which this is a constant term. Weight down, normal force up.
+
+And around that constant force is an oscillating force. me omega squared sine omega t. e omega squared you should recognize as a centripetal acceleration. Mass times acceleration to force. And because it goes round and round, when it's like this it's pulling up and when it's like this it's pulling down and when it's like this is, it's only going to the sides. So sine omega t for the vertical parts, cosine omega t for the horizontal. And that's actually all there is to the shake. That's all there is to the shakers. The rotating mass inside.
+
+Now, in the homework, from the second homework where you had this thing, this ball running around inside, where I posed the question in a way I didn't really quite intend. But I asked here's the track. And you had this roller going around inside. And I asked to find the normal force that the track exerts on the roller. So it's an unknown.
+
+And there must also be a tangential force on this thing. And there's also going to be this thing certainly has weight mg. And so that's the complete free body diagram. Now, let's if this is frictionless, which it won't be in reality, but for the purposes of analysis, let's say it's frictionless, it's only a normal force.
+
+Where does this tangential force come from? Why's it there in this problem? There's a key piece of information you're told, and that is that the angular acceleration of this thing is constant. It's constant speed going around. If you had a ball rolling around there at constant speed, would it go constant if you just pushed it and it started rolling? It would slowdown going up and it would speed up coming down. Why?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Gravity, right? So there must be something that has to overcome gravity going uphill and holding it back coming downhill. So the way these things actually work is they've got ports pushing compressed air in here.
+
+And this is driven around by compressed air and there's a pressure difference between this side and that side and that generates the necessary tangential force to make the thing go around and around. But they're really easy to make. You can imagine very few moving parts. Just hook up a compressed air hose to that and it's just pushing the ball around inside. You get the same outcome.
+
+On this ball, on this roller, if there is a-- the problem we just solved is we found fm in the y and fm in the x. And this problem said yeah, but why can't we get the same thing but have those coordinates be f normal and f tangential? And sure, that's just a coordinate rotation. So what can you say about these forces?
+
+Well, one thing you could say is fn squared plus ft squared had better be equal to fmx squared plus fmy squared, right? And then just like converting from polar to Cartesian coordinates, you can do these conversions. And you could find out, for example, that fn is-- keep my notation consistent here. fn will be fm in the x cosine omega t plus fm in the y sine omega t. And so there's the answer. This is what you're asked for in that problem set.
+
+OK. So all you need to know about shakers. If you're ever confronted with something like this, what's the magnitude of the force that the shaker puts out?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Little louder?
+
+AUDIENCE: Is it mr omega squared?
+
+PROFESSOR: mr omega squared, but substitute for r the actual eccentricity. It's whatever that mass in length out there that's spinning around. me omega squared is the magnitude of the force and it's going to oscillate up and down and it's going to have gravity that it adds to. But the important part is me omega squared is the magnitude of the force.
+
+OK, now we're going to move on to the next topic. The next topic is mass moments of inertia. And it has a strong connection to these. And I'm going to use this kind of analysis as the transition to talking about moments of inertia. Moments of inertia and products of inertia. So any final questions about this before we go on? Yeah?
+
+AUDIENCE: Your summation of [INAUDIBLE], why did you not include mg?
+
+PROFESSOR: Why didn't I include?
+
+AUDIENCE: Mg.
+
+PROFESSOR: Mg. in the.
+
+AUDIENCE: First summation. [INAUDIBLE].
+
+PROFESSOR: Oh. Yeah, you're right. And where's my free body diagram? Has it on it, right? Just didn't get it down into the-- and what direction's it in? Because then we did get it back in.
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: Back in the last line for the y component. Now, does it appear in this one, this equation at all? It has absolutely nothing to do with it. Gravity is in the j hat direction. This is a force equation in i hat. But it does appear in that normal tangential expression when you go look at the solution for that problem, because it has compounds in both of the i and j directions. And so it'll show up. Gravity will show up in this expression. Right through this term. Yeah?
+
+AUDIENCE: In the bottom equation on that middle board, you have my minus mbg minus mg plus. I don't understand where that last plus came from. Because in your equation on the left you're using the force of little f, correct? And you have two negatives there.
+
+PROFESSOR: This is 0. I left the n where it was and moved everything to the other side. So that plus becomes a minus.
+
+AUDIENCE: No, from the board to the left to the middle board.
+
+PROFESSOR: OK.
+
+AUDIENCE: So down. So you have the summation of the force on the little mass as negative mg minus m-- yep, that one. And from what I can understand, you just moved that force over to the large force, but you [INAUDIBLE], correct?
+
+PROFESSOR: It should be minus this thing. The summation here. This force is minus the little mass force. So that ought to become a plus and a plus, right? And so if I do that carefully. To this one is OK. But this one appears to have a sign problem, right? But these two terms have got to be the same. And so I've got a mistake somewhere. And rather than spend 10 minutes fixing it on the fly, I'll take note of that. This should be OK.
+
+AUDIENCE: Yeah, intuitively makes sense too, I just don't understand [INAUDIBLE].
+
+PROFESSOR: Ah, wait a second. No, I'm not going to try to fix it right now. I made a slip in my notes somewhere. But I will repair that. Yeah?
+
+AUDIENCE: Why do we need mg at all? Because doesn't this force the angular acceleration is constant? Or the angular velocity is constant, right? So the centrifugal acceleration is going to be constant, which means that the part that's driven by the motor is going to be changing to account for gravity. So isn't gravity taking into account that we have a constant force or [INAUDIBLE]?
+
+PROFESSOR: Yeah, you're asking if gravity is not taken into account somehow by that rotating. The gravitational force that is on the main mass that comes from the little mass certainly has to pass through the rod. It's got to be contained in the forces in the connecting rod. So it's definitely there.
+
+But the force that causes the centripetal acceleration of that rotating mass is completely independent of gravity. With or without gravity, it takes a particular force to make that thing travel in a circular path. And that's m minus mr theta dot squared always. Yep?
+
+AUDIENCE: So doesn't that mean that on your first expression on that board, there should be no mb?
+
+PROFESSOR: On which expression?
+
+AUDIENCE: That one.
+
+PROFESSOR: This one. OK, this is the total forces on the little mass.
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: We need to back up to here. The total forces are mass times the acceleration of the main body it's connected to plus the mass times the acceleration of B with respect to A. So we have to have that term. And we then go into our four terms here and find there's only one left. So that's the force exerted on the small mass by the rod. And that is positive mx double dot minus mr theta dot squared.
+
+So we sum the forces on that little mass. It has got to be equal to-- ah, I know where we made the mistake. So we've just discovered our mistake. This has got to be able to mass times acceleration. And what are the forces? The summation the forces is mass times acceleration. So the acceleration is this plus this. But the sum of the forces.
+
+The problem here is I've used a notation where this is very similar looking to the forces that I've noted here. So this is the actual force in the y direction, j hat, plus the actual force in the x direction, i hat, minus mgi. So when I solve for the i component, I'm going to get the i pieces of that plus mgi. I mean, excuse me, j component. Should it be like that?
+
+The j component will have this piece times sine omega t with a minus. And you move the mgj to that side and it becomes a plus. All right. That makes sense. The rod has to hold up the weight of that little mass, right? The weight's down. But the rod has to push up on it in the y direction. So the force the rod puts on the little mass has got to be equal to the weight of the small mass minus this me omega squared term, which is the force necessary to create the centripetal acceleration.
+
+OK, so we've got this now fixed. This term is OK. And the minus that force is then the force on the main body. So minus. Plus. Now I've got to figure out what I did wrong here. You're doing what I said I wasn't going to do. We're on the fly trying to figure out where the.
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: OK. You're happy now. Good. OK. All right, we're going to move on.
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: What about the summation?
+
+AUDIENCE: It's not really a summation. It's just the force that arm is [INAUDIBLE].
+
+PROFESSOR: Right. Fair enough. Yep. This is just minus f. This is on the little mass. This is the force on the little mass from the free body diagram. Right. And that helps. And that's different from the summation one here. OK. All right. I think we've got it sorted out.
+
+Now, I've put on the Stellar website under readings a little one page thing called "Moments of Inertia." It's two pages of information taken from the Williams textbook on dynamics. And it's going to show some of what I'm going to put on the board, and especially the detailed stuff you don't have to copy.
+
+OK, we're going to come up with some expressions for angular momentum in terms of particles and their positions. And this is now the subject of mass and moments of inertia and products of inertia. And I'm going to put some of these equations on the board and you don't have to copy them all.
+
+All these expressions become the definitions of mass moments of inertia and products of inertia. And if you just drop down one last little bit, we come up with an expression for angular momentum. Three vector components look like ixx omega x plus ixy omega y and so forth. These compounds in terms of particle masses and positions are defined in these final equations.
+
+So I'm going to tell you what I'm going to tell you. We're going to make the transition from dealing with particles and angular momentum of particles to angular momentum of rigid bodies. OK? And in my own experience this is something that is generally done badly. And I'm going to try to do it well.
+
+I'm going to try to give you an intuitive understanding of why we have these diagonal terms called the moments of inertia and what they're useful for and why these off diagonal terms call products of inertia turn up and what they actually mean. When I was taught the stuff, I never got a gut feeling for why or what the off diagonal terms meant. You don't know it, but we've been using them.
+
+And then I'll tell you the answer. The answer is that when we have a problem like well, the motorcycle problem were talking about is this. Basically here's the motorcycle wheel spinning around and round. And it has these two masses. This is set up B. So one little mass was off to the side of the rim a bit.
+
+And the other mass was off to the side. On the picture it looked like this. Here's the axle, motorcycle, and forks would be coming down like this. And these two little masses. Equal distance but opposite sides from one another. And if this spins, it puts a heck of a wobble into this thing.
+
+And this puts a moment about this point. It tries to make this thing rock back and forth as it's spinning. It's really hard to hold. You hold the axle there. And you got to do it so you don't get hit by the-- there you go. Now tell me if you feel a moment. It's really hard to keep that thing straight, right? Well that's what it's trying to do to that motorcycle wheel.
+
+OK. For this problem, those off diagonal terms, those products of inertia are not 0. The product of inertia terms cause these things called dynamic imbalances. It causes there to be angular-- makes the angular momentum terms instead of the angular momentum being aligned with the axis of rotation, the rotation vector, it's pointed off in this direction. Anytime the angular momentum vector and the rotation vector are not aligned, you have off diagonal terms and you will have dynamic imbalance. So there's a physical consequence of those off diagonal terms. And they explain the dynamic imbalance.
+
+So let's see if we can't make some headway on that. So you've seen the rotor. Let's look at two cases. One that looks like that, which I just had set up a second ago. One that looks like that. Call this A, B. And in both cases, the rotation is around the vertical axis and it's constant at omega. And I just mean these to be two different cases. I'll make it lowercase so I don't confuse it with my coordinate system notation. This is going to be point A in both of these problems. And it's going to be the origin of a coordinate system.
+
+So if you cause this to spin, these both have-- did I write these masses as m over 2? For a moment, let's just think of these as being equal masses. If you do this problem, do you think this one will wobble? No, it's perfectly balanced. And it'll just spin nice and smoothly. It has angular momentum around the z-axis, the omega axis. It has angular momentum in that direction, certainly, when calculated.
+
+This one has same mass, same distance away from this axis, but now one up and one down. This one wobbles. But this one has a component of angular momentum in this direction, which is exactly equal to this one. But this also has a component that's in this direction. And we're going take a look and see what that is.
+
+So we're going to do this problem here. We're going to analyze B. This case B. And here's the goal. The goal is to show you that the angular momentum of this system with respect to this point can be written as a matrix with constants in it, which you can call the mass moment of inertia matrix. Times the vector components of the rotation rate.
+
+Now, this problem, the z-axis will be upwards and will only have one component one non 0 component. But in general, we want to be able to express the angular momentum as a product of this inertia matrix. And these are the inertias we'll find out with respect to A. Times the vector of angular velocities. We've got to be very careful about some definitions.
+
+So we're going to do this specific problem, but we're going to use methods that are completely general. So I want to describe the general problem. Here is a inertial coordinate system fixed. Here's a body out here in space. And it is rotating about some point A. So point one and the rotation vector, the angular rotation and some omega. And it's just in some direction. And that omega is with respect. We always in these angular momentum problems define rotation rate with respect to an inertia coordinate system.
+
+Now, this point A. So first carefully define A is a fixed point. So is that an inertial point? Yeah. You can do Newton's laws from this point just as well as you could any fixed point in this inertial reference frame is an inertial point and you can use Newton's laws.
+
+So this is a fixed point. I'm defining it that way. This body is rotating about that point with this angular rate. But attached to the body is a coordinate system that rotates with the body. So this would be some a xyz coordinate system attached to the body.
+
+So it's like this problem where I've got a coordinate system attached to my wheel. There's x, here's y, z coming out of it. And in a really simple case, it's rotating around the z-axis. But I can make it rotate around some other axis. I pushed a nail through here and I'm trying to hold it constant here. And now it's rotating about a different axis, right? Same rotation rate, but it doesn't have to be lined up in any pretty way.
+
+If I make that thing rotate around that other axis, it looks weird, but we can define it. And that's what we're talking about here. So this body is rotating around, has some rotation rate with respect to a reference frame attached to the body.
+
+So A xyz is a frame that can't-- going to make this go up. Come on. This is attached to the body. And I've drawn them at kind of funny angles here, just to emphasize that they're not necessarily lined up with these. And it's going to rotate. OK. Omega. Just to emphasize. It's always in the inertial frame.
+
+The last point may be confusing to start with. Omega measured with respect to O can be expressed in terms of the axyz unit vectors. We're going to do that. It turns out it vastly simplifies the problem to express the rotation in the unit vectors of the frame attached to the body. Remember, that frame is still fit. Its origin A is at a fixed point in the inertial frame. So it's just the system's going around and inside of that system you have a rotation and you can break it down into xyz components. Just a vector and you can express it in those components. That's all we're saying here.
+
+Now I want to do the motorcycle problem. I'm going to just turn it on its side. And the reason I'm going to do this specific example, the hope here is to actually now give you a physical feeling for what's going on. We've done a lot of illustrations of it. And you know that it produces imbalances.
+
+So here's my z-axis and my rotation rate. Omega with respect to O is some omega in the k hat direction in the fixed frame. And in this case, it's going to be simpler than the general case, so that we can do it in a reasonable length of time. So actually here's my rod. Here's my point A. This is my coordinate system axyz.
+
+So this is now attached to the body. My rigid body is a massless rod with two masses on it. And this distance, this is the x. Going that way will be a y, which we have little use of. There's nothing happening in that direction. So this distance here I'll call x1. This distance here is z1. Over here, this is z2 and x2.
+
+Now we're going to make this problem. We'll substitute a number. So this is symmetric. So x2 is going to be minus x1 and so forth. But we want to keep them separate for the moment so you see what happens to different terms. OK, so that defines a problem.
+
+So the coordinates. And we'll call this mass m1. I'll keep this a little general for a moment. And this is m2. So m1 is at the coordinates x1, i, 0, and z1 k. And m2 is at x2, i, 0, and z2 k. Just points in a plane. And I want now to compute the-- I want to find the angular momentum of this object with respect to point a. Remember we compute angular momentum in respect to points. So I'm going to do it with respect to point A. And that's going to be the sum of the angular momentum of mass 1 with respect to A, plus the angular momentum of mass 2 with respect to A.
+
+So the angular momentum of any particle i with respect to A is r cross p. r cross the linear momentum. So it's r i with respect to A cross p i. Now the p, this is the momentum of the particle. That's always with respect to what kind of frame. When you compute angular momentum. Must be the inertial frame, right?
+
+So technically to start with, just remind you of that, we'd say oh. But we've already said our A is a fixed point in an inertial frame. So it's OK to write r i with respect to A cross, in this case, p i with respect to A. They're the same thing. These two things are exactly the same thing. The momentum measured at any two fixed points in an inertial frame is the same. Doesn't matter where you're measuring it from. OK. And we know that p i with respect to A now, we'll call it, is the mass i times the velocity of i with respect to A. That's just ordinary linear momentum.
+
+So I need an expression for the velocity of i with respect to A. Any point. So these are fixed now. These are fixed length things. The velocity of a moving point is just the derivative of the position vector. But you have this equation some people call a transport equation. So the length of this thing's not changing any, so it's just going to have one term in it. So what's a velocity? In vector notation, omega cross.
+
+All right. Right. And this could also. All right, these are vectors. And because I can say that, then I can say hi with respect to A is mi riA cross omega with respect to O cross ri with respect to A. OK. All vectors.
+
+So any rigid body. So here's the link now. Here's the jump from points particles to rigid bodies. Any rigid body is made up of the whole mess of particles, connected rigidly together. No relative motion. But a whole mass of particles. So I can compute the total momentum of a rigid body as the summation over all the little particles in it. mi. riA cross omega with respect to O cross riA. Just sum them all up.
+
+And when you have continuous bodies, these summations turn into integrals. So you'll find definitions for like there's a mass moment of inertia about this axis of this wheel. It's mr squared over 2. And it comes from the-- and that's the number that you have to multiply by omega to get the angular momentum. So it comes from summing up all these little particles in this thing is the total momentum, angular momentum, of the object.
+
+All right, let's do that. We're going to do that for our too little masses here and see what kind of things result. Oops. I want to get my h with respect to A is the sum of h1 with respect to A plus h2 with respect to A. And I'm just going to use that formula. So it's m1.
+
+So if I were just work out that little vector products there. m1. here's riA. It's x1 i times z1k cross omega zk cross x1i plus z1k. And then I have a second term, the m2 term. x2i plus z2k omega zk x2i plus z2k. So just a lot of little vector terms. That is that expression for our two little particles. With their specific positions at x1 and z1 and x2 and z2.
+
+So if I multiply all that out, then I'll get the following result. An h with respect to A here. It's m1 x1 squared omega zk minus m1 x1 z1 omega z in the i hat direction plus an m2 x2 squared omega zk minus m2 x2 z2 omega z in the i direction. So this is the angular momentum of particle one. This is angular momentum of a particle two.
+
+And I'm going to do a special case. And the special case I'm going to let m1 equal m2 equal m over 2. So they'll do sum to m. And x1 equals minus x2 and z1 equals minus z2. So they're nice and symmetrically opposite like drawn in the picture. That I'm making an equal masses in equal distances on either side of the origin. And that's going to make this thing simplify quite a bit.
+
+This is of the form. This angular momentum vector is of the form has three vector components. In this particular case, this one's 0. And we call the first component, this one here will be hx. And this one here is clearly hz, the component in the z direction.
+
+And if we draw, here's our system. Here's our coordinate system. The coordinate system attached to the body. It has a z component of angular momentum positive upwards. And it has an x component of angular momentum in the minus direction like that. When you add them together, you get that. So this is h with respect to A. This is hz, this is hx.
+
+Now, we found this before. We didn't talk anything about moments of inertia, anything. We just deal in particles earlier as we did problems. We found out that when you have this kind of unbalance, the direction of the angular momentum vector is not in the same direction as the rotation vector. In this case, the rotation doesn't make a zk. It's like that. The vector is going around it. Angular momentum.
+
+Now, in general you would write hx. General case. And this is what you can pull off, this little two sheet handout that you can download and you don't have to copy everything. This is going to look like an ixx omega x plus ixy omega y plus ixz omega z.
+
+So if we look at that and we look at this, this particular case the hx term is this, right? So this is the general expression for hx. And in this particular case, that will look like minus m x1 z1 omega z. And this is the piece that's in the i direction. That's why we call it hx.
+
+And this is then ixz omega z. So this piece here is what we call ixz. It's where it comes from. And we can write it. So this is our particular case. Get this result. And we find there's h in the h. y is 0. And hz is mx1 squared omega z omega z. And that's got to be of the form izz omega z.
+
+Now, how do you remember what the subscripts mean? ixz means this is the h component and this is the omega component it's multiplied by. So ixz is the product of inertia for hx. It's related to rotation in the z component rotation. That's what the subscripts mean. Maybe I'll do this. So in general, if you know what these constants are for your rigid body and you know your rotation rate, you instantly know your angular momentum.
+
+These things, the products in moments of inertia, are basically cataloged-- you'll find them in the back of your textbook-- for all sorts of different objects. So I know that if you have z in this direction and this thing's rotating around the z, hz is the total mass of the system times the radius squared divided by 2. mr squared over 2 would be izz for this object. And for all sorts of objects. These are just cataloged values.
+
+And then there's ways of moving the axes, called parallel axis theorems that you've probably run into, that allows you then to construct these values from one known point to moving the point to someplace else and having it move around that. So these values are tabulated, calculated, with respect to the centers of mass. And if you want to have the mass moments of inertia with respect to any other point, then you will use something which we call a parallel axis theorem, which we'll get to in due course.
+
+Pretty good on timing here. A note about textbooks. Textbook conventions. This I matrix. In some they write it ixx ixy ixz and so forth. ix. No, iyx. iyy. iyz. cx. Some write it like that. And others write it with all of these with minus signs on the off diagonal terms. So Hibbler uses the minus signs. Williams does not. So the diagonal terms are always positive. Yeah?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: All the off diagonals are negative. So this is positive. Positive, positive, positive and then negative, negative, negative, negative, negative. Now there are actually negative-- they'll be negative-- the numbers will pop up negative and so forth. It's just that in the notation, some authors have adopted putting the minus signs here. Others have embedded them in the value itself.
+
+So Williams' notation, he would say that ixz is minus m x1 z1 for this body. Hibbler would say it's plus and he'd put the minus sign in the notation. So just beware of that. Because all your life you're going to run into people saying the product of inertia of this thing is and you got to know which way they define it.
+
+All right. Compute torques. You just take time to [INAUDIBLE] angular momentum. And we'll do that as a last little step next time. But you've got the essence of the movement from talking about particles to how we're going to talk about rigid bodies.
+
+So you have muddy cards. You have two or three minutes. Write down what was tough for you here. Write down what wasn't. And see you next Tuesday.
+
+Oh, I must say, so this stuff about-- the mass moment of inertia matrix. That stuff is not on the exam. But knowing about particles and particle moments of inertia is.
+
+[[Mass moment of inertia definition as a summation]]
+Print This Document
+
+Now, I've put on the Stellar website under readings a little one page thing called "Moments of Inertia." It's two pages of information taken from the Williams textbook on dynamics. And it's going to show some of what I'm going to put on the board, and especially the detailed stuff you don't have to copy.
+
+OK, we're going to come up with some expressions for angular momentum in terms of particles and their positions. And this is now the subject of mass and moments of inertia and products of inertia. And I'm going to put some of these equations on the board and you don't have to copy them all.
+
+All these expressions become the definitions of mass moments of inertia and products of inertia. And if you just drop down one last little bit, we come up with an expression for angular momentum. Three vector components look like ixx omega x plus ixy omega y and so forth. These compounds in terms of particle masses and positions are defined in these final equations.
+
+So I'm going to tell you what I'm going to tell you. We're going to make the transition from dealing with particles and angular momentum of particles to angular momentum of rigid bodies. OK? And in my own experience this is something that is generally done badly. And I'm going to try to do it well.
+
+I'm going to try to give you an intuitive understanding of why we have these diagonal terms called the moments of inertia and what they're useful for and why these off diagonal terms call products of inertia turn up and what they actually mean. When I was taught the stuff, I never got a gut feeling for why or what the off diagonal terms meant. You don't know it, but we've been using them.
+
+And then I'll tell you the answer. The answer is that when we have a problem like well, the motorcycle problem were talking about is this. Basically here's the motorcycle wheel spinning around and round. And it has these two masses. This is set up B. So one little mass was off to the side of the rim a bit.
+
+And the other mass was off to the side. On the picture it looked like this. Here's the axle, motorcycle, and forks would be coming down like this. And these two little masses. Equal distance but opposite sides from one another. And if this spins, it puts a heck of a wobble into this thing.
+
+And this puts a moment about this point. It tries to make this thing rock back and forth as it's spinning. It's really hard to hold. You hold the axle there. And you got to do it so you don't get hit by the-- there you go. Now tell me if you feel a moment. It's really hard to keep that thing straight, right? Well that's what it's trying to do to that motorcycle wheel.
+
+OK. For this problem, those off diagonal terms, those products of inertia are not 0. The product of inertia terms cause these things called dynamic imbalances. It causes there to be angular-- makes the angular momentum terms instead of the angular momentum being aligned with the axis of rotation, the rotation vector, it's pointed off in this direction. Anytime the angular momentum vector and the rotation vector are not aligned, you have off diagonal terms and you will have dynamic imbalance. So there's a physical consequence of those off diagonal terms. And they explain the dynamic imbalance.
+
+So let's see if we can't make some headway on that. So you've seen the rotor. Let's look at two cases. One that looks like that, which I just had set up a second ago. One that looks like that. Call this A, B. And in both cases, the rotation is around the vertical axis and it's constant at omega. And I just mean these to be two different cases. I'll make it lowercase so I don't confuse it with my coordinate system notation. This is going to be point A in both of these problems. And it's going to be the origin of a coordinate system.
+
+So if you cause this to spin, these both have-- did I write these masses as m over 2? For a moment, let's just think of these as being equal masses. If you do this problem, do you think this one will wobble? No, it's perfectly balanced. And it'll just spin nice and smoothly. It has angular momentum around the z-axis, the omega axis. It has angular momentum in that direction, certainly, when calculated.
+
+This one has same mass, same distance away from this axis, but now one up and one down. This one wobbles. But this one has a component of angular momentum in this direction, which is exactly equal to this one. But this also has a component that's in this direction. And we're going take a look and see what that is.
+
+So we're going to do this problem here. We're going to analyze B. This case B. And here's the goal. The goal is to show you that the angular momentum of this system with respect to this point can be written as a matrix with constants in it, which you can call the mass moment of inertia matrix. Times the vector components of the rotation rate.
+
+Now, this problem, the z-axis will be upwards and will only have one component one non 0 component. But in general, we want to be able to express the angular momentum as a product of this inertia matrix. And these are the inertias we'll find out with respect to A. Times the vector of angular velocities. We've got to be very careful about some definitions.
+
+So we're going to do this specific problem, but we're going to use methods that are completely general. So I want to describe the general problem. Here is a inertial coordinate system fixed. Here's a body out here in space. And it is rotating about some point A. So point one and the rotation vector, the angular rotation and some omega. And it's just in some direction. And that omega is with respect. We always in these angular momentum problems define rotation rate with respect to an inertia coordinate system.
+
+Now, this point A. So first carefully define A is a fixed point. So is that an inertial point? Yeah. You can do Newton's laws from this point just as well as you could any fixed point in this inertial reference frame is an inertial point and you can use Newton's laws.
+
+So this is a fixed point. I'm defining it that way. This body is rotating about that point with this angular rate. But attached to the body is a coordinate system that rotates with the body. So this would be some a xyz coordinate system attached to the body.
+
+So it's like this problem where I've got a coordinate system attached to my wheel. There's x, here's y, z coming out of it. And in a really simple case, it's rotating around the z-axis. But I can make it rotate around some other axis. I pushed a nail through here and I'm trying to hold it constant here. And now it's rotating about a different axis, right? Same rotation rate, but it doesn't have to be lined up in any pretty way.
+
+If I make that thing rotate around that other axis, it looks weird, but we can define it. And that's what we're talking about here. So this body is rotating around, has some rotation rate with respect to a reference frame attached to the body.
+
+So A xyz is a frame that can't-- going to make this go up. Come on. This is attached to the body. And I've drawn them at kind of funny angles here, just to emphasize that they're not necessarily lined up with these. And it's going to rotate. OK. Omega. Just to emphasize. It's always in the inertial frame.
+
+The last point may be confusing to start with. Omega measured with respect to O can be expressed in terms of the axyz unit vectors. We're going to do that. It turns out it vastly simplifies the problem to express the rotation in the unit vectors of the frame attached to the body. Remember, that frame is still fit. Its origin A is at a fixed point in the inertial frame. So it's just the system's going around and inside of that system you have a rotation and you can break it down into xyz components. Just a vector and you can express it in those components. That's all we're saying here.
+
+Now I want to do the motorcycle problem. I'm going to just turn it on its side. And the reason I'm going to do this specific example, the hope here is to actually now give you a physical feeling for what's going on. We've done a lot of illustrations of it. And you know that it produces imbalances.
+
+So here's my z-axis and my rotation rate. Omega with respect to O is some omega in the k hat direction in the fixed frame. And in this case, it's going to be simpler than the general case, so that we can do it in a reasonable length of time. So actually here's my rod. Here's my point A. This is my coordinate system axyz.
+
+So this is now attached to the body. My rigid body is a massless rod with two masses on it. And this distance, this is the x. Going that way will be a y, which we have little use of. There's nothing happening in that direction. So this distance here I'll call x1. This distance here is z1. Over here, this is z2 and x2.
+
+Now we're going to make this problem. We'll substitute a number. So this is symmetric. So x2 is going to be minus x1 and so forth. But we want to keep them separate for the moment so you see what happens to different terms. OK, so that defines a problem.
+
+So the coordinates. And we'll call this mass m1. I'll keep this a little general for a moment. And this is m2. So m1 is at the coordinates x1, i, 0, and z1 k. And m2 is at x2, i, 0, and z2 k. Just points in a plane. And I want now to compute the-- I want to find the angular momentum of this object with respect to point a. Remember we compute angular momentum in respect to points. So I'm going to do it with respect to point A. And that's going to be the sum of the angular momentum of mass 1 with respect to A, plus the angular momentum of mass 2 with respect to A.
+
+So the angular momentum of any particle i with respect to A is r cross p. r cross the linear momentum. So it's r i with respect to A cross p i. Now the p, this is the momentum of the particle. That's always with respect to what kind of frame. When you compute angular momentum. Must be the inertial frame, right?
+
+So technically to start with, just remind you of that, we'd say oh. But we've already said our A is a fixed point in an inertial frame. So it's OK to write r i with respect to A cross, in this case, p i with respect to A. They're the same thing. These two things are exactly the same thing. The momentum measured at any two fixed points in an inertial frame is the same. Doesn't matter where you're measuring it from. OK. And we know that p i with respect to A now, we'll call it, is the mass i times the velocity of i with respect to A. That's just ordinary linear momentum.
+
+So I need an expression for the velocity of i with respect to A. Any point. So these are fixed now. These are fixed length things. The velocity of a moving point is just the derivative of the position vector. But you have this equation some people call a transport equation. So the length of this thing's not changing any, so it's just going to have one term in it. So what's a velocity? In vector notation, omega cross.
+
+All right. Right. And this could also. All right, these are vectors. And because I can say that, then I can say hi with respect to A is mi riA cross omega with respect to O cross ri with respect to A. OK. All vectors.
+
+So any rigid body. So here's the link now. Here's the jump from points particles to rigid bodies. Any rigid body is made up of the whole mess of particles, connected rigidly together. No relative motion. But a whole mass of particles. So I can compute the total momentum of a rigid body as the summation over all the little particles in it. mi. riA cross omega with respect to O cross riA. Just sum them all up.
+
+And when you have continuous bodies, these summations turn into integrals. So you'll find definitions for like there's a mass moment of inertia about this axis of this wheel. It's mr squared over 2. And it comes from the-- and that's the number that you have to multiply by omega to get the angular momentum. So it comes from summing up all these little particles in this thing is the total momentum, angular momentum, of the object.
+
+All right, let's do that. We're going to do that for our too little masses here and see what kind of things result. Oops. I want to get my h with respect to A is the sum of h1 with respect to A plus h2 with respect to A. And I'm just going to use that formula. So it's m1.
+
+So if I were just work out that little vector products there. m1. here's riA. It's x1 i times z1k cross omega zk cross x1i plus z1k. And then I have a second term, the m2 term. x2i plus z2k omega zk x2i plus z2k. So just a lot of little vector terms. That is that expression for our two little particles. With their specific positions at x1 and z1 and x2 and z2.
+
+So if I multiply all that out, then I'll get the following result. An h with respect to A here. It's m1 x1 squared omega zk minus m1 x1 z1 omega z in the i hat direction plus an m2 x2 squared omega zk minus m2 x2 z2 omega z in the i direction. So this is the angular momentum of particle one. This is angular momentum of a particle two.
+
+And I'm going to do a special case. And the special case I'm going to let m1 equal m2 equal m over 2. So they'll do sum to m. And x1 equals minus x2 and z1 equals minus z2. So they're nice and symmetrically opposite like drawn in the picture. That I'm making an equal masses in equal distances on either side of the origin. And that's going to make this thing simplify quite a bit.
+
+This is of the form. This angular momentum vector is of the form has three vector components. In this particular case, this one's 0. And we call the first component, this one here will be hx. And this one here is clearly hz, the component in the z direction.
+
+And if we draw, here's our system. Here's our coordinate system. The coordinate system attached to the body. It has a z component of angular momentum positive upwards. And it has an x component of angular momentum in the minus direction like that. When you add them together, you get that. So this is h with respect to A. This is hz, this is hx.
+
+Now, we found this before. We didn't talk anything about moments of inertia, anything. We just deal in particles earlier as we did problems. We found out that when you have this kind of unbalance, the direction of the angular momentum vector is not in the same direction as the rotation vector. In this case, the rotation doesn't make a zk. It's like that. The vector is going around it. Angular momentum.
+
+Now, in general you would write hx. General case. And this is what you can pull off, this little two sheet handout that you can download and you don't have to copy everything. This is going to look like an ixx omega x plus ixy omega y plus ixz omega z.
+
+So if we look at that and we look at this, this particular case the hx term is this, right? So this is the general expression for hx. And in this particular case, that will look like minus m x1 z1 omega z. And this is the piece that's in the i direction. That's why we call it hx.
+
+And this is then ixz omega z. So this piece here is what we call ixz. It's where it comes from. And we can write it. So this is our particular case. Get this result. And we find there's h in the h. y is 0. And hz is mx1 squared omega z omega z. And that's got to be of the form izz omega z.
+
+Now, how do you remember what the subscripts mean? ixz means this is the h component and this is the omega component it's multiplied by. So ixz is the product of inertia for hx. It's related to rotation in the z component rotation. That's what the subscripts mean. Maybe I'll do this. So in general, if you know what these constants are for your rigid body and you know your rotation rate, you instantly know your angular momentum.
+
+These things, the products in moments of inertia, are basically cataloged-- you'll find them in the back of your textbook-- for all sorts of different objects. So I know that if you have z in this direction and this thing's rotating around the z, hz is the total mass of the system times the radius squared divided by 2. mr squared over 2 would be izz for this object. And for all sorts of objects. These are just cataloged values.
+
+And then there's ways of moving the axes, called parallel axis theorems that you've probably run into, that allows you then to construct these values from one known point to moving the point to someplace else and having it move around that. So these values are tabulated, calculated, with respect to the centers of mass. And if you want to have the mass moments of inertia with respect to any other point, then you will use something which we call a parallel axis theorem, which we'll get to in due course.
+
+Pretty good on timing here. A note about textbooks. Textbook conventions. This I matrix. In some they write it ixx ixy ixz and so forth. ix. No, iyx. iyy. iyz. cx. Some write it like that. And others write it with all of these with minus signs on the off diagonal terms. So Hibbler uses the minus signs. Williams does not. So the diagonal terms are always positive. Yeah?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: All the off diagonals are negative. So this is positive. Positive, positive, positive and then negative, negative, negative, negative, negative. Now there are actually negative-- they'll be negative-- the numbers will pop up negative and so forth. It's just that in the notation, some authors have adopted putting the minus signs here. Others have embedded them in the value itself.
+
+So Williams' notation, he would say that ixz is minus m x1 z1 for this body. Hibbler would say it's plus and he'd put the minus sign in the notation. So just beware of that. Because all your life you're going to run into people saying the product of inertia of this thing is and you got to know which way they define it.
+
+All right. Compute torques. You just take time to [INAUDIBLE] angular momentum. And we'll do that as a last little step next time. But you've got the essence of the movement from talking about particles to how we're going to talk about rigid bodies.
+
+So you have muddy cards. You have two or three minutes. Write down what was tough for you here. Write down what wasn't. And see you next Tuesday.
+
+Oh, I must say, so this stuff about-- the mass moment of inertia matrix. That stuff is not on the exam. But knowing about particles and particle moments of inertia is.
+
+[[Moments and Products of Inertia]]
+Print This Document
+
+A note about textbooks. Textbook conventions. This I matrix. In some they write it ixx ixy ixz and so forth. ix. No, iyx. iyy. iyz. cx. Some write it like that. And others write it with all of these with minus signs on the off diagonal terms. So Hibbler uses the minus signs. Williams does not. So the diagonal terms are always positive. Yeah?
+
+AUDIENCE: [INAUDIBLE].
+
+PROFESSOR: All the off diagonals are negative. So this is positive. Positive, positive, positive and then negative, negative, negative, negative, negative. Now there are actually negative-- they'll be negative-- the numbers will pop up negative and so forth. It's just that in the notation, some authors have adopted putting the minus signs here. Others have embedded them in the value itself.
+
+So Williams' notation, he would say that ixz is minus m x1 z1 for this body. Hibbler would say it's plus and he'd put the minus sign in the notation. So just beware of that. Because all your life you're going to run into people saying the product of inertia of this thing is and you got to know which way they define it.
+
+All right. Compute torques. You just take time to [INAUDIBLE] angular momentum. And we'll do that as a last little step next time. But you've got the essence of the movement from talking about particles to how we're going to talk about rigid bodies.
+
+So you have muddy cards. You have two or three minutes. Write down what was tough for you here. Write down what wasn't. And see you next Tuesday.
+
+Oh, I must say, so this stuff about-- the mass moment of inertia matrix. That stuff is not on the exam. But knowing about particles and particle moments of inertia is.
+
