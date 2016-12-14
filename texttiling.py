@@ -39,9 +39,10 @@ def tokenize(tt, text, targets, percent = 80, boundary_diff = 9, cue_filter = Fa
 
     # START UNIGRAM TOKEN_TABLE
     # Filter stopwords
-    for ts in tokseqs:
-        ts.wrdindex_list = [wi for wi in ts.wrdindex_list
-                            if wi[0] not in tt.stopwords]
+    if n_gram == 1:
+        for ts in tokseqs:
+            ts.wrdindex_list = [wi for wi in ts.wrdindex_list
+                                if wi[0] not in tt.stopwords]
 
     def is_verb(word):
         return word == 'VB' or word == 'VBZ' or word == 'VBP' \

@@ -34,7 +34,7 @@ def main():
 	    for line in content:
 	        text+=line
 	        if line[0:2] == '[[':
-	            print (line)
+	            # print (line)
 	            targets.append((line.split('[[')[1]).split(']')[0].lower())
 	f.close()
 
