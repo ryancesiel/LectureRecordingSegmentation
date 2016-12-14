@@ -53,8 +53,14 @@ def tokenize(tt, text, targets, percent = 80, boundary_diff = 9, cue_filter = Fa
         verb_ts = copy.deepcopy(ts)
         words_with_pos_tags = TextBlob(' '.join([wi[0] for wi in verb_ts.wrdindex_list])).tags
 
-        verb_ts.wrdindex_list = [wi for i, wi in enumerate(verb_ts.wrdindex_list)
-                                 if is_verb(words_with_pos_tags[i][1])]
+        temp = []
+        for i, wi in enumerate(verb_ts.wrdindex_list):
+            try:
+                if is_verb(words_with_pos_tags[i][1]):
+                    temp.append(wi)
+            except IndexError:
+                pass
+        verb_ts.wrdindex_list = temp
         verb_tokseqs.append(verb_ts)
 
     token_table = tt._create_token_table(tokseqs, nopunct_par_breaks)
