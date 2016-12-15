@@ -28,6 +28,13 @@ We provide five different versions of TextTiling to run on different lectures, i
 - TextTiling with optimal parameters & Verbs Feature
 - TextTiling with optimal parameters & N-Gram Feature
 
+## Dependency Installation
+First install dependencies using our requirements.txt file:
+```sh
+pip install -r requirements.txt
+```
+
+## Running Different Models
 If you only want to use TextTiling with optimal parameters, then just run
 ```sh
 $ python lecture_segmentation.py  <filename>
