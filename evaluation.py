@@ -46,5 +46,7 @@ def baseline(target_boundry):
         precision, recall, f1 = evaluate(baseline_boundry,target_boundry)
         precisions.append(precision)
         recalls.append(recall)
-    # print (sum(precisions)/ len(precisions), sum(recalls)/ len(recalls))
-    return baseline_boundry
+        f1s.append(f1)
+    print (sum(precisions)/ len(precisions), sum(recalls)/ len(recalls), sum(f1s)/ len(f1s))
+    return sum(precisions)/ len(precisions), sum(recalls)/ len(recalls), sum(f1s)/ len(f1s)
+

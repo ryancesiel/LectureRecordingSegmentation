@@ -8,6 +8,78 @@ from texttiling import *
 from evaluation import *
 from output import *
 
+def baseline_test():
+    def read_target(fname):
+        targets = []
+        text = ""
+        with open(fname) as f:
+            content = f.readlines()
+            for line in content:
+                text+=line
+                if line[0:2] == '[[':
+                    targets.append((line.split('[[')[1]).split(']')[0].lower())
+        f.close()
+        lowercase_text = text.lower()
+        tt = nltk.tokenize.texttiling.TextTilingTokenizer(w=40, k=28, demo_mode=True)
+        paragraph_breaks = tt._mark_paragraph_breaks(text)
+        text_length = len(lowercase_text)
+
+        # Remove punctuation
+        nopunct_text = ''.join(c for c in lowercase_text
+                               if re.match("[a-z\-\' \n\t]", c))
+
+        nopunct_par_breaks = tt._mark_paragraph_breaks(nopunct_text)
+        tokseqs = tt._divide_to_tokensequences(nopunct_text)
+
+        target_boundry = find_target_boundry(tt, nopunct_text, targets)
+        return target_boundry
+
+    lecs = [
+            "data/Microeconomics/Microecon_1.train", "data/Microeconomics/Microecon_2.train", 
+            "data/Microeconomics/Microecon_3.train", "data/Microeconomics/Microecon_4.train", 
+            "data/Microeconomics/Microecon_5.train", 
+            "data/Microeconomics/Microecon_18.train", "data/Microeconomics/Microecon_19.train", 
+            "data/Microeconomics/Microecon_20.train", "data/Microeconomics/Microecon_21.train", 
+            "data/Microeconomics/Microecon_22.train", "data/Microeconomics/Microecon_23.train", 
+            "data/Microeconomics/Microecon_24.train", "data/Microeconomics/Microecon_25.train", 
+            "data/Microeconomics/Microecon_26.train"]
+    lecs2 = [
+            "data/Psychology/Psych_1.train", "data/Psychology/Psych_2.train", 
+            "data/Psychology/Psych_3.train", "data/Psychology/Psych_4.train", 
+            "data/Psychology/Psych_5.train", "data/Psychology/Psych_6.train", 
+            "data/Psychology/Psych_7.train", "data/Psychology/Psych_8.train", 
+            "data/Psychology/Psych_9.train", "data/Psychology/Psych_10.train", 
+            "data/Psychology/Psych_11.train", "data/Psychology/Psych_12.train", 
+            "data/Psychology/Psych_13.train", "data/Psychology/Psych_14.train", 
+            "data/Psychology/Psych_15.train", "data/Psychology/Psych_16.train", 
+            "data/Psychology/Psych_17.train",  
+            "data/Psychology/Psych_18.train", "data/Psychology/Psych_19.train", 
+            "data/Psychology/Psych_20.train", "data/Psychology/Psych_21.train", 
+            "data/Psychology/Psych_22.train", "data/Psychology/Psych_23.train", 
+            "data/Psychology/Psych_24.train"]
+    lecs3 = [
+            "data/Engineering_Dynamics/EngDyn_1.train", "data/Engineering_Dynamics/EngDyn_2.train", 
+            "data/Engineering_Dynamics/EngDyn_3", "data/Engineering_Dynamics/EngDyn_4", 
+            "data/Engineering_Dynamics/EngDyn_5", "data/Engineering_Dynamics/EngDyn_6", 
+            "data/Engineering_Dynamics/EngDyn_7", "data/Engineering_Dynamics/EngDyn_8", 
+            "data/Engineering_Dynamics/EngDyn_9", "data/Engineering_Dynamics/EngDyn_10", 
+            "data/Engineering_Dynamics/EngDyn_11", "data/Engineering_Dynamics/EngDyn_12", 
+            "data/Engineering_Dynamics/EngDyn_13", "data/Engineering_Dynamics/EngDyn_14", 
+            "data/Engineering_Dynamics/EngDyn_15", "data/Engineering_Dynamics/EngDyn_16", 
+            "data/Engineering_Dynamics/EngDyn_17",  
+            "data/Engineering_Dynamics/EngDyn_18"]
+    p=[]
+    r=[]
+    f1=[]
+    for lec in lecs3:
+        target_boundry = read_target(lec)
+        print (lec)
+        a,b,c = baseline(target_boundry)
+        p.append(a)
+        r.append(b)
+        f1.append(c)
+    print (sum(p)/len(p), sum(r)/len(r), sum(f1)/len(f1))
+
 
 def test_best_setup(text, targets):
     tt = nltk.tokenize.texttiling.TextTilingTokenizer(w=40, k=28, demo_mode=True)
@@ -133,3 +205,5 @@ def test_cuewords_weight(lecs):
     print 30, evaluate(b30, t30)
     print 40, evaluate(b40, t40)
     print "filter", evaluate(bf, tf)
+
+# baseline_test()

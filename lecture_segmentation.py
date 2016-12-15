@@ -43,7 +43,11 @@ def main():
 	if len(sys.argv) < 3:
 		new_text, s, ss, d, b,t = tokenize(tt, text, targets, 80, 9)
 	elif sys.argv[2] == "Cue":
-		new_text, s, ss, d, b,t = tokenize(tt, text, targets, 80, 9, True)
+		if len(sys.argv) < 4:
+			cue_percent = 0.5
+		else:
+			cue_percent = sys.argv[3]
+		new_text, s, ss, d, b,t = tokenize(tt, text, targets, 80, 9, False, 0, cue_percent)
 	elif sys.argv[2] == "Noun_Phrase":
 		if len(sys.argv) < 4:
 			np_percent = 0.5
@@ -53,7 +57,7 @@ def main():
 		new_text, s, ss, d, b,t = tokenize(tt, text, targets, 80, 9, False, np_percent)
 	elif sys.argv[2] == "Verb":
 		if len(sys.argv) < 4:
-			verb_percent = 0.5
+			verb_percent = 0.6
 		else:
 			verb_percent = sys.argv[3]
 		# print verb_percent
