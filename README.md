@@ -8,7 +8,7 @@
 
 ## File Information
 * `/`: contains all files for TextTiling, our different features, and the evaluation of these files
-** The "Segmentation Models" section below describes running files within this folder
+ * The "Segmentation Models" section below describes running files within this folder.
 
 * `/data`: this folder contains our annotated data. Below are links to the unnannotated data:
  * [Engineering Dynamics (Fall 2011)](https://ocw.mit.edu/courses/mechanical-engineering/2-003sc-engineering-dynamics-fall-2011/)
@@ -18,6 +18,7 @@
 * `/results`: this folder contains data on testing different TextTiling parameters, testing the weighting scheme of our different features, output from automatic speech recognition systems, and cue word research.
 
 * `/web`: this folder contains the information retrieval web app prototype of our system.
+ * The "Web Application Prototype" section below describes running this application.
 
 ## Segmentation Models
 We provide five different versions of TextTiling to run on different lectures, including:
