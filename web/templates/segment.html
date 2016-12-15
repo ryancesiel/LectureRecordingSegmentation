@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+<video controls autoplay name="media" width="100%">
+  <source src="http://ia600802.us.archive.org/3/items/MIT9.00SCF11/MIT9_00SCF11_lec02_300k.mp4#t={{start}},{{end}}" type="video/mp4">
+</video>
+<!-- <div class="highlight"></div> -->
+<br />
+Start: {{start}} <br />
+End: {{end}} <br />
+<p>{{transcript}}</p>
+
+{% endblock %}

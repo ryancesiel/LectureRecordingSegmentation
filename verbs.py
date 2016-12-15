@@ -7,7 +7,7 @@ import json
 from nltk.tokenize.texttiling import TextTilingTokenizer
 from nltk.corpus import wordnet
 
-def _wn_block_comparison(tokseqs, token_table):
+def _verbs_block_comparison(tokseqs, token_table):
     "Implements the block comparison method"
     TT_K = 30
 

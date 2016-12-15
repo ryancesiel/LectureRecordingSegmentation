@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% if error %}
+    <p><strong>Error:</strong> no segments match for the query.</p>
+    {% endif %}
+
+	{% if not results %}
+
+    <form method="post" action="" class="form-horizontal">
+        <div class="row">
+            <div class="col-md-12 input-group">
+                <input type="text" class="form-control" name="query" id="query" placeholder="Example: Viterbi algorithm">
+                <span class="input-group-btn"><input type="submit" class="btn btn-primary" value="Search Lectures"></input></span>
+            </div>
+        </div>
+    </form>
+    <div class="loading">
+        <img src="{{ url_for('static', filename='img/loading.gif') }}" /><br />
+        Loading ...
+    </div>
+
+    {% endif %}
+
+    {% if results %}
+        {% for result in results %}
+            <h3><a href="/segment/{{result.segment_id}}">{{result['course_name']}} | Segment {{result['segment_id']}}</a></h3>
+            {{result['transcript']}}
+            <hr />
+        {% endfor %}
+    {% endif %}
+{% endblock %}
