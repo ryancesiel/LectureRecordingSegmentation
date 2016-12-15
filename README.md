@@ -69,3 +69,8 @@ python run.py
 ```
 
 This will start the website locally on port 5000. You can visit localhost:5000 and query the second lecture from the ["Introduction to Psychology" course](https://ocw.mit.edu/courses/brain-and-cognitive-sciences/9-00sc-introduction-to-psychology-fall-2011/brain-i/).
+
+## Acknowledgements
+In addition to our "Related Works" section of our final report, our software relies heavily on the NLP open-source libraries:
+* NLTK
+* TextBlob
