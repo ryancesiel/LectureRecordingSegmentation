@@ -6,7 +6,14 @@
 * Ryan Cesiel (ryances)
 * Yunke Cao (ykcao)
 
-## Segmentation
+## File Information
+* `/`: contains all files for TextTiling, our different features, and the evaluation of these files
+** The "Segmentation Models" section below describes running files within this folder
+
+* `/web`: 
+
+
+## Segmentation Models
 We provide five different versions of TextTiling to run on different lectures, including:
 - TextTiling with optimal parameters
 - TextTiling with optimal parameters & Cue word Filter
