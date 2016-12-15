@@ -46,27 +46,27 @@ def main():
 		if len(sys.argv) < 4:
 			cue_percent = 0.5
 		else:
-			cue_percent = sys.argv[3]
+			cue_percent = float(sys.argv[3])
 		new_text, s, ss, d, b,t = tokenize(tt, text, targets, 80, 9, False, 0, cue_percent)
 	elif sys.argv[2] == "Noun_Phrase":
 		if len(sys.argv) < 4:
 			np_percent = 0.5
 		else:
-			np_percent = sys.argv[3]
+			np_percent = float(sys.argv[3])
 		# print np_percent
 		new_text, s, ss, d, b,t = tokenize(tt, text, targets, 80, 9, False, np_percent)
 	elif sys.argv[2] == "Verb":
 		if len(sys.argv) < 4:
 			verb_percent = 0.6
 		else:
-			verb_percent = sys.argv[3]
+			verb_percent = float(sys.argv[3])
 		# print verb_percent
 		new_text, s, ss, d, b,t = tokenize(tt, text, targets, 80, 9, False, 0, 0, verb_percent)
 	elif sys.argv[2] == "NGram":
 		if len(sys.argv) < 4:
 			n_gram = 2
 		else:
-			n_gram = sys.argv[3]
+			n_gram = int(sys.argv[3])
 		# print n_gram
 		new_text, s, ss, d, b,t = tokenize(tt, text, targets, 80, 9, False, 0, 0, 0, n_gram)
 	else:
