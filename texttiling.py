@@ -8,7 +8,7 @@ from nltk.tokenize.texttiling import TextTilingTokenizer
 from textblob import TextBlob
 from ngrams import _create_ngrams_table
 from noun_phrase import _np_block_comparison
-from word_net import _verbs_block_comparison
+from verbs import _verbs_block_comparison
 from cue_word import *
 
 
