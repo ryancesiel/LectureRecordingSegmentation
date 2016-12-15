@@ -8,7 +8,7 @@ from nltk.tokenize.texttiling import TextTilingTokenizer
 from textblob import TextBlob
 from ngrams import _create_ngrams_table
 from noun_phrase import _np_block_comparison
-from word_net import _wn_block_comparison
+from word_net import _verbs_block_comparison
 from cue_word import *
 
 
@@ -75,7 +75,7 @@ def tokenize(tt, text, targets, percent = 80, boundary_diff = 9, cue_filter = Fa
     # Lexical score determination
         gap_scores = tt._block_comparison(tokseqs, token_table)
         np_gap_scores = _np_block_comparison(tokseqs, [])
-        verb_gap_scores = _wn_block_comparison(verb_tokseqs, token_table)
+        verb_gap_scores = _verbs_block_comparison(verb_tokseqs, token_table)
 
         smooth_scores = tt._smooth_scores(gap_scores)
         np_smooth_scores = tt._smooth_scores(np_gap_scores)
