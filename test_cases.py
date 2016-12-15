@@ -71,9 +71,9 @@ def baseline_test():
     p=[]
     r=[]
     f1=[]
-    for lec in lecs3:
+    for lec in lecs2:
         target_boundry = read_target(lec)
-        print (lec)
+        print (lec, len(target_boundry))
         a,b,c = baseline(target_boundry)
         p.append(a)
         r.append(b)
